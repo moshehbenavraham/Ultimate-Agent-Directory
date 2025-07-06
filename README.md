@@ -10,6 +10,10 @@
 
 **The most comprehensive collection of AI agent frameworks, platforms, tools, and resources**
 
+🌐 **Maintained by:** [AIwithApex.com](https://AIwithApex.com)
+
+📝 **Missing something?** Please let us know if you feel something important is missing from this directory!
+
 [Open-Source Frameworks](#-open-source-agent-frameworks) • [No-Code Platforms](#-no-codelow-code-agent-platforms) • [Research](#-research-focused-frameworks) • [Learning](#-learning-resources-and-courses) • [Communities](#-github-repositories-and-communities) • [Specialized Tools](#-specialized-ai-agent-tools) • [Autonomous Agents](#-autonomous-agents) • [Browser Automation](#-browser-automation-agents) • [Coding Assistants](#-coding-assistant-agents) • [Enterprise](#-enterprise-agent-platforms)
 
 </div>

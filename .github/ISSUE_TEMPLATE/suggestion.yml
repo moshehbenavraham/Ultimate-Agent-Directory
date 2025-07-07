@@ -1,0 +1,54 @@
+name: 💡 Suggest an Agent or Feature
+description: Share a new AI agent, tool, or feature you'd like added to the directory.
+title: "[SUGGESTION] "
+labels: ["enhancement"]
+body:
+  - type: input
+    id: suggestion_name
+    attributes:
+      label: Suggestion Name
+      description: What would you like to suggest?
+      placeholder: "e.g. Claude 3.5 Code Agent"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the agent or feature and why it would be useful
+      placeholder: "Provide a detailed description of what you're suggesting and how it would benefit users..."
+    validations:
+      required: true
+
+  - type: input
+    id: link
+    attributes:
+      label: Relevant Link
+      description: If you have a relevant link, GitHub repo, or documentation
+      placeholder: "https://example.com or GitHub repo link"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What type of suggestion is this?
+      options:
+        - AI Agent
+        - Tool/Utility
+        - Feature Enhancement
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our Code of Conduct
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true

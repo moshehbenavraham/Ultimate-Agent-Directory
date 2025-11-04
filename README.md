@@ -2,10 +2,12 @@
 
 <div align="center">
 
-![AI Agents](https://img.shields.io/badge/AI%20Agents-2025-blue?style=for-the-badge&logo=robot&logoColor=white)
-![Frameworks](https://img.shields.io/badge/Frameworks-50%2B-green?style=for-the-badge&logo=github&logoColor=white)
-![Platforms](https://img.shields.io/badge/Platforms-50%2B-orange?style=for-the-badge&logo=cloud&logoColor=white)
-![Tools](https://img.shields.io/badge/Tools-150%2B-red?style=for-the-badge&logo=tools&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-280%2B-blue?style=for-the-badge&logo=database&logoColor=white)
+![Frameworks](https://img.shields.io/badge/Frameworks-60%2B-green?style=for-the-badge&logo=github&logoColor=white)
+![Platforms](https://img.shields.io/badge/Platforms-70%2B-orange?style=for-the-badge&logo=cloud&logoColor=white)
+![Specialized Tools](https://img.shields.io/badge/Specialized%20Tools-65%2B-red?style=for-the-badge&logo=tools&logoColor=white)
+![Enterprise](https://img.shields.io/badge/Enterprise-40%2B-yellow?style=for-the-badge&logo=building&logoColor=white)
+![Autonomous Agents](https://img.shields.io/badge/Autonomous%20Agents-30%2B-blueviolet?style=for-the-badge&logo=robot&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-November%202025-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **The most comprehensive collection of AI agent frameworks, platforms, tools, and resources**

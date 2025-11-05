@@ -59,6 +59,20 @@ Start Changelog Entries
     - Reorganized `docs/plan.md` to be pure TODO checklist (112 lines, zero fluff)
     - Deleted `docs/TODO.md` (content moved to ROADMAP.md)
 
+### Fixed
+
+- **GitHub Pages Subdirectory Deployment**
+  - Fixed 404 errors for category pages and static assets when deployed to GitHub Pages subdirectory
+  - Added `base_url` configuration to `scripts/generate_site.py` for proper path resolution
+  - Updated all Jinja2 templates to use `base_url` variable for asset and navigation links:
+    - `templates/base.html.jinja2` - Static CSS/JS paths and all navigation links
+    - `templates/index.html.jinja2` - Category card links and search script
+    - `templates/category.html.jinja2` - Breadcrumb navigation and category script
+  - Added `window.BASE_URL` JavaScript global variable for client-side routing
+  - Fixed `static/js/search.js` category links to use `BASE_URL`
+  - All paths now correctly resolve to `/Ultimate-Agent-Directory/` base path
+  - Website fully functional at https://moshehbenavraham.github.io/Ultimate-Agent-Directory/
+
 ### Technical Implementation Details
 
 **Phase 4 Architecture:**

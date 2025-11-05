@@ -5,7 +5,7 @@ let searchIndex = null;
 // Load search index
 async function loadSearchIndex() {
     try {
-        const response = await fetch('/search-index.json');
+        const response = await fetch(`${window.BASE_URL || ''}/search-index.json`);
         searchIndex = await response.json();
         console.log('Search index loaded:', searchIndex.length, 'entries');
     } catch (error) {

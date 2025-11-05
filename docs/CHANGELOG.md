@@ -61,6 +61,13 @@ Start Changelog Entries
 
 ### Fixed
 
+- **Website Search Functionality**
+  - Fixed non-functional search bar on generated website
+  - Root cause: `static/js/search.js` was using hardcoded absolute path `/search-index.json` instead of respecting GitHub Pages subdirectory deployment
+  - Updated search index fetch to use `window.BASE_URL` variable: `fetch(\`${window.BASE_URL || ''}/search-index.json\`)`
+  - Search now correctly loads 277-entry index from `/Ultimate-Agent-Directory/search-index.json` on GitHub Pages
+  - Client-side search with relevance scoring now fully operational
+
 - **GitHub Pages Subdirectory Deployment**
   - Fixed 404 errors for category pages and static assets when deployed to GitHub Pages subdirectory
   - Added `base_url` configuration to `scripts/generate_site.py` for proper path resolution

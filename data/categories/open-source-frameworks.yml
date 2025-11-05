@@ -1,0 +1,15 @@
+id: open-source-frameworks
+title: Open-Source Agent Frameworks
+emoji: 🛠️
+description: >
+  The backbone of AI agent development lies in these powerful open-source
+  frameworks that enable developers to build sophisticated multi-agent systems
+  and autonomous applications.
+
+order: 1
+show_github_stats: true
+
+table_columns:
+  - name
+  - url
+  - description

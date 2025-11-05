@@ -1,0 +1,8 @@
+# Core dependencies for Ultimate Agent Directory build system
+pyyaml>=6.0.1          # YAML parsing
+pydantic>=2.0.0        # Schema validation
+jinja2>=3.1.0          # Template rendering
+
+# Optional (for future features)
+requests>=2.31.0       # For GitHub API
+python-frontmatter>=1.0.0  # If we want YAML frontmatter in markdown

@@ -1,0 +1,35 @@
+name: Flowise
+url: https://github.com/FlowiseAI/Flowise
+description: >
+  Open-source, drag-and-drop visual UI for building customized LLM orchestration
+  flows and AI agents. Flowise provides a low-code interface for creating complex
+  agent workflows with extensive integrations for vector databases, LLM providers,
+  and external tools.
+
+category: no-code-platforms
+type: platform
+
+tags:
+  - no-code
+  - visual-builder
+  - typescript
+  - self-hosted
+
+github_repo: FlowiseAI/Flowise
+documentation_url: https://docs.flowiseai.com/
+demo_url: https://flowiseai.com/
+
+platform:
+  - TypeScript
+  - Docker
+license: Apache-2.0
+pricing: freemium
+
+featured: true
+verified: true
+added_date: 2025-02-10
+last_verified: 2025-11-05
+
+github_stars: 32000
+last_updated: 2025-11-04
+is_archived: false

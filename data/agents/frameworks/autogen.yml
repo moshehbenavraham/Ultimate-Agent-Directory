@@ -1,0 +1,34 @@
+name: AutoGen
+url: https://github.com/microsoft/autogen
+description: >
+  Microsoft's open-source framework for building multi-agent conversational systems.
+  AutoGen enables the creation of LLM applications using multiple agents that can
+  converse with each other to solve tasks, with support for human feedback and
+  code execution.
+
+category: open-source-frameworks
+subcategory: core-frameworks
+type: framework
+
+tags:
+  - python
+  - multi-agent
+  - conversational-ai
+  - microsoft
+
+github_repo: microsoft/autogen
+documentation_url: https://microsoft.github.io/autogen/
+
+platform:
+  - Python
+license: MIT
+pricing: free
+
+featured: true
+verified: true
+added_date: 2025-01-20
+last_verified: 2025-11-05
+
+github_stars: 28000
+last_updated: 2025-11-03
+is_archived: false

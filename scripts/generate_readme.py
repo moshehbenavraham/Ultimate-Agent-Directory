@@ -1,0 +1,96 @@
+#!/usr/bin/env python3
+"""
+Generate README.md from YAML data files
+
+Usage:
+    python scripts/generate_readme.py
+"""
+
+from pathlib import Path
+from collections import defaultdict
+from datetime import date
+import yaml
+from jinja2 import Environment, FileSystemLoader
+from models import AgentEntry, Category, DirectoryMetadata
+
+
+def load_categories() -> list[Category]:
+    """Load all category definitions"""
+    categories = []
+    category_dir = Path("data/categories")
+
+    for yml_file in sorted(category_dir.glob("*.yml")):
+        with open(yml_file) as f:
+            data = yaml.safe_load(f)
+        categories.append(Category(**data))
+
+    return sorted(categories, key=lambda c: c.order)
+
+
+def load_agents() -> list[AgentEntry]:
+    """Load all agent entries"""
+    agents = []
+    agents_dir = Path("data/agents")
+
+    for yml_file in agents_dir.rglob("*.yml"):
+        with open(yml_file) as f:
+            data = yaml.safe_load(f)
+        agents.append(AgentEntry(**data))
+
+    return agents
+
+
+def group_by_category(agents: list[AgentEntry]) -> dict:
+    """Group agents by category"""
+    grouped = defaultdict(list)
+    for agent in agents:
+        grouped[agent.category].append(agent)
+
+    # Sort entries within each category by name
+    for category in grouped:
+        grouped[category].sort(key=lambda a: a.name.lower())
+
+    return dict(grouped)
+
+
+def generate_readme():
+    """Generate README.md from templates and data"""
+
+    print("Loading data...")
+    categories = load_categories()
+    agents = load_agents()
+    entries_by_category = group_by_category(agents)
+
+    print(f"Loaded {len(categories)} categories and {len(agents)} agents")
+
+    # Build metadata
+    metadata = DirectoryMetadata(
+        total_entries=len(agents),
+        last_generated=date.today()
+    )
+
+    # Load template
+    env = Environment(
+        loader=FileSystemLoader("templates"),
+        trim_blocks=True,
+        lstrip_blocks=True
+    )
+    template = env.get_template("readme.jinja2")
+
+    # Render
+    print("Rendering README...")
+    output = template.render(
+        metadata=metadata,
+        categories=categories,
+        entries_by_category=entries_by_category
+    )
+
+    # Write
+    readme_path = Path("README.md")
+    readme_path.write_text(output)
+
+    print(f"✓ Generated {readme_path} with {len(agents)} entries")
+
+
+if __name__ == "__main__":
+    generate_readme()

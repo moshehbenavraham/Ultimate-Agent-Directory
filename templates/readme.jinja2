@@ -1,0 +1,97 @@
+# 🚀 {{ metadata.title }}
+
+<div align="center">
+
+![Total Entries](https://img.shields.io/badge/Total%20Entries-{{ metadata.total_entries }}-blue?style=for-the-badge&logo=database&logoColor=white)
+![Last Updated](https://img.shields.io/badge/Updated-November%202025-purple?style=for-the-badge&logo=calendar&logoColor=white)
+
+**{{ metadata.tagline }}**
+
+👨 **Maintained by:** [{{ metadata.maintainer }}]({{ metadata.maintainer_url }})
+
+💡 **Missing something?** [Submit an issue](https://github.com/aiwithapex/Ultimate-Agent-Directory/issues) or [join the discussion](https://github.com/aiwithapex/Ultimate-Agent-Directory/discussions)!
+
+</div>
+
+---
+
+## 📋 Table of Contents
+
+{% for category in categories %}
+{{ loop.index }}. [{{ category.emoji }} {{ category.title }}](#{{ category.id }})
+{% endfor %}
+
+---
+
+{% for category in categories %}
+## {{ category.emoji }} {{ category.title }}
+
+> {{ category.description }}
+
+{% if category.id in entries_by_category %}
+{% set cat_entries = entries_by_category[category.id] %}
+
+{# Group by subcategory if present #}
+{% set has_subcategories = cat_entries | selectattr('subcategory') | list | length > 0 %}
+
+{% if has_subcategories %}
+  {# Group entries by subcategory #}
+  {% set subcats = {} %}
+  {% for entry in cat_entries %}
+    {% set subcat = entry.subcategory or 'other' %}
+    {% if subcat not in subcats %}
+      {% set _ = subcats.update({subcat: []}) %}
+    {% endif %}
+    {% set _ = subcats[subcat].append(entry) %}
+  {% endfor %}
+
+  {% for subcat_name, subcat_entries in subcats.items() %}
+    {% if subcat_name != 'other' %}
+### {{ subcat_name | title | replace('-', ' ') }}
+    {% endif %}
+
+| Framework | Repository | Description |
+|-----------|------------|-------------|
+    {% for entry in subcat_entries %}
+| **{{ entry.name }}** | [🔗 {{ 'GitHub' if entry.github_repo else 'Link' }}]({{ entry.url }}) | {{ entry.description }}{% if entry.github_stars %} ![Stars](https://img.shields.io/badge/⭐-{{ entry.github_stars | replace(',', '') }}-yellow){% endif %} |
+    {% endfor %}
+
+  {% endfor %}
+{% else %}
+  {# No subcategories, single table #}
+| Framework | Repository | Description |
+|-----------|------------|-------------|
+  {% for entry in cat_entries %}
+| **{{ entry.name }}** | [🔗 {{ 'GitHub' if entry.github_repo else 'Link' }}]({{ entry.url }}) | {{ entry.description }}{% if entry.github_stars %} ![Stars](https://img.shields.io/badge/⭐-{{ entry.github_stars | replace(',', '') }}-yellow){% endif %} |
+  {% endfor %}
+{% endif %}
+
+{% else %}
+*No entries yet in this category.*
+{% endif %}
+
+---
+
+{% endfor %}
+
+## 📊 Statistics
+
+- **Total Entries:** {{ metadata.total_entries }}
+- **Categories:** {{ categories | length }}
+- **Last Generated:** {{ metadata.last_generated }}
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+---
+
+## 📄 License
+
+MIT License - Copyright (c) 2025 Mosheh Ben Avraham
+
+---
+
+**ℹ️ Note:** This README is auto-generated from structured data. Do not edit directly. Edit YAML files in `data/` instead.

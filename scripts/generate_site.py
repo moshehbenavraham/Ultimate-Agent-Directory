@@ -148,6 +148,9 @@ def generate_site():
         last_generated=date.today()
     )
 
+    # Base URL for GitHub Pages (repo name)
+    base_url = "/Ultimate-Agent-Directory"
+
     # Setup Jinja2 environment
     env = Environment(
         loader=FileSystemLoader("templates"),
@@ -165,7 +168,8 @@ def generate_site():
     index_html = index_template.render(
         metadata=metadata,
         categories=categories,
-        entries_by_category=entries_by_category
+        entries_by_category=entries_by_category,
+        base_url=base_url
     )
     (output_dir / "index.html").write_text(index_html)
 
@@ -182,7 +186,8 @@ def generate_site():
         category_html = category_template.render(
             metadata=metadata,
             category=category,
-            agents=category_agents
+            agents=category_agents,
+            base_url=base_url
         )
 
         category_file = categories_dir / f"{category.id}.html"

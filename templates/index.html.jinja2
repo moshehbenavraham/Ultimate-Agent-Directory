@@ -68,7 +68,7 @@
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {% for category in categories %}
-        <a href="/categories/{{ category.id }}.html"
+        <a href="{{ base_url }}/categories/{{ category.id }}.html"
            class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-200 p-6 border-2 border-transparent hover:border-blue-500 group">
             <div class="flex items-start justify-between mb-3">
                 <div class="text-5xl">{{ category.emoji }}</div>
@@ -155,5 +155,5 @@
 {% endblock %}
 
 {% block extra_scripts %}
-<script src="/static/js/search.js"></script>
+<script src="{{ base_url }}/static/js/search.js"></script>
 {% endblock %}

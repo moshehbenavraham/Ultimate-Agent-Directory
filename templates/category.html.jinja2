@@ -6,7 +6,7 @@
 
 <!-- Breadcrumb -->
 <nav class="text-sm text-gray-600 mb-6">
-    <a href="/" class="hover:text-blue-600">Home</a>
+    <a href="{{ base_url }}/" class="hover:text-blue-600">Home</a>
     <span class="mx-2">/</span>
     <span class="text-gray-900">{{ category.title }}</span>
 </nav>
@@ -242,7 +242,7 @@
 {% endblock %}
 
 {% block extra_scripts %}
-<script src="/static/js/category.js"></script>
+<script src="{{ base_url }}/static/js/category.js"></script>
 <script>
     // Initialize with category data
     window.categoryData = {

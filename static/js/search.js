@@ -100,7 +100,7 @@ function displaySearchResults(results, query) {
                             ${result.github_stars ? `<span class="bg-yellow-100 text-yellow-700 px-2 py-1 rounded"><i class="fas fa-star mr-1"></i>${result.github_stars}</span>` : ''}
                         </div>
                     </div>
-                    <a href="/categories/${result.category}.html" class="text-blue-600 hover:underline text-sm whitespace-nowrap">
+                    <a href="${window.BASE_URL || ''}/categories/${result.category}.html" class="text-blue-600 hover:underline text-sm whitespace-nowrap">
                         View Category <i class="fas fa-arrow-right ml-1"></i>
                     </a>
                 </div>

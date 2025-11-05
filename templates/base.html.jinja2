@@ -16,10 +16,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="{{ base_url }}/static/css/style.css">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="{{ base_url }}/static/images/favicon.ico">
 
     {% block extra_head %}{% endblock %}
 </head>
@@ -31,15 +31,15 @@
             <div class="flex items-center justify-between">
                 <!-- Logo and Title -->
                 <div class="flex items-center space-x-3">
-                    <a href="/" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition">
+                    <a href="{{ base_url }}/" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition">
                         🤖 {{ metadata.title }}
                     </a>
                 </div>
 
                 <!-- Navigation Links -->
                 <div class="hidden md:flex items-center space-x-6">
-                    <a href="/" class="text-gray-700 hover:text-blue-600 transition">Home</a>
-                    <a href="/#categories" class="text-gray-700 hover:text-blue-600 transition">Categories</a>
+                    <a href="{{ base_url }}/" class="text-gray-700 hover:text-blue-600 transition">Home</a>
+                    <a href="{{ base_url }}/#categories" class="text-gray-700 hover:text-blue-600 transition">Categories</a>
                     <a href="{{ metadata.maintainer_url }}" target="_blank" class="text-gray-700 hover:text-blue-600 transition">
                         <i class="fas fa-external-link-alt mr-1"></i>AIwithApex
                     </a>
@@ -56,8 +56,8 @@
 
             <!-- Mobile Menu -->
             <div id="mobile-menu" class="hidden md:hidden mt-4 pb-2 space-y-2">
-                <a href="/" class="block text-gray-700 hover:text-blue-600 transition py-2">Home</a>
-                <a href="/#categories" class="block text-gray-700 hover:text-blue-600 transition py-2">Categories</a>
+                <a href="{{ base_url }}/" class="block text-gray-700 hover:text-blue-600 transition py-2">Home</a>
+                <a href="{{ base_url }}/#categories" class="block text-gray-700 hover:text-blue-600 transition py-2">Categories</a>
                 <a href="{{ metadata.maintainer_url }}" target="_blank" class="block text-gray-700 hover:text-blue-600 transition py-2">AIwithApex</a>
                 <a href="https://github.com/AIwithApex/Ultimate-Agent-Directory" target="_blank" class="block text-gray-700 hover:text-blue-600 transition py-2">GitHub</a>
             </div>
@@ -86,8 +86,8 @@
                 <div>
                     <h3 class="text-white font-bold mb-3">Quick Links</h3>
                     <ul class="space-y-2 text-sm">
-                        <li><a href="/" class="hover:text-blue-400 transition">Home</a></li>
-                        <li><a href="/#categories" class="hover:text-blue-400 transition">Browse Categories</a></li>
+                        <li><a href="{{ base_url }}/" class="hover:text-blue-400 transition">Home</a></li>
+                        <li><a href="{{ base_url }}/#categories" class="hover:text-blue-400 transition">Browse Categories</a></li>
                         <li><a href="https://github.com/AIwithApex/Ultimate-Agent-Directory" target="_blank" class="hover:text-blue-400 transition">Contribute on GitHub</a></li>
                         <li><a href="https://github.com/AIwithApex/Ultimate-Agent-Directory/issues" target="_blank" class="hover:text-blue-400 transition">Report Issues</a></li>
                     </ul>
@@ -118,7 +118,11 @@
     </footer>
 
     <!-- Custom JavaScript -->
-    <script src="/static/js/main.js"></script>
+    <script>
+        // Base URL for GitHub Pages
+        window.BASE_URL = "{{ base_url }}";
+    </script>
+    <script src="{{ base_url }}/static/js/main.js"></script>
     {% block extra_scripts %}{% endblock %}
 </body>
 </html>

@@ -1,0 +1,11 @@
+name: JARVIS
+url: https://github.com/microsoft/JARVIS
+description: A collaborative system comprising a Large Language Model as the central
+  controller and numerous expert models as collaborative executors from Hugging Face
+  Hub. It handles task planning, model selection, task execution, and content generation
+  across dozens of specialized models.
+github_repo: microsoft/JARVIS
+category: autonomous-agents
+added_date: '2025-11-05'
+verified: false
+type: tool

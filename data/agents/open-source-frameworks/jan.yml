@@ -1,0 +1,11 @@
+name: Jan
+url: https://github.com/janhq/jan
+description: Open-source ChatGPT alternative that operates fully offline on diverse
+  hardware from PCs to multi-GPU clusters. Provides desktop application for running
+  LLMs locally with user-friendly interface, supporting various open-source models
+  for privacy-conscious AI interactions.
+github_repo: janhq/jan
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

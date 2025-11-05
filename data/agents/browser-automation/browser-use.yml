@@ -1,0 +1,12 @@
+name: Browser Use
+url: https://github.com/browser-use/browser-use
+description: An open-source library that empowers AI agents to interact with web browsers
+  using natural language commands for automated web tasks. Browser Use provides a
+  simple interface for AI agents to control browsers, extract data from websites,
+  fill forms, and perform complex web interactions without requiring specific selectors
+  or manual configuration.
+github_repo: browser-use/browser-use
+category: browser-automation
+added_date: '2025-11-05'
+verified: false
+type: tool

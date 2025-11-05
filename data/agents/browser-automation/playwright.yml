@@ -1,0 +1,11 @@
+name: Playwright
+url: https://playwright.dev
+description: A framework for web testing and automation that has been enhanced with
+  AI-powered tools for intelligent web interaction. Playwright provides cross-browser
+  automation capabilities and has been integrated with various AI tools like Auto-Playwright
+  and ZeroStep for natural language test generation and AI-powered element selection.
+github_repo: null
+category: browser-automation
+added_date: '2025-11-05'
+verified: false
+type: tool

@@ -1,0 +1,13 @@
+name: mem0
+url: https://mem0.ai
+description: Universal self-improving memory layer for AI agents and LLM applications,
+  enabling personalized AI interactions with just three lines of code. Features long-term,
+  short-term, semantic, and episodic memory types, integrates with OpenAI, LangGraph,
+  CrewAI, and selected as exclusive memory provider for AWS Agent SDK. Achieves 26%
+  improvement in LLM-as-a-Judge metrics with 91% lower p95 latency and 90% token cost
+  savings.
+github_repo: null
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

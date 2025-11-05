@@ -183,13 +183,13 @@ def main():
     if args.all:
         # Define all sections to migrate
         migrations = [
-            ("🛠️ Open-Source Agent Frameworks", "open-source-frameworks"),
+            ("🔧 Open-Source Agent Frameworks", "open-source-frameworks"),
             ("🎨 No-Code/Low-Code Agent Platforms", "no-code-platforms"),
             ("🔬 Research-Focused Frameworks", "research-frameworks"),
             ("📚 Learning Resources and Courses", "learning-resources"),
-            ("💬 GitHub Repositories and Communities", "communities"),
-            ("🛠 Specialized AI Agent Tools", "specialized-tools"),
-            ("🤖 Autonomous Agents", "autonomous-agents"),
+            ("👥 GitHub Repositories and Communities", "communities"),
+            ("⚡ Specialized AI Agent Tools", "specialized-tools"),
+            ("🚀 Autonomous Agents", "autonomous-agents"),
             ("🌐 Browser Automation Agents", "browser-automation"),
             ("💻 Coding Assistant Agents", "coding-assistants"),
             ("🏢 Enterprise Agent Platforms", "enterprise-platforms"),

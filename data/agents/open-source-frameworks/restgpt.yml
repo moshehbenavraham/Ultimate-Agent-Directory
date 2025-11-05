@@ -1,0 +1,10 @@
+name: RestGPT
+url: https://github.com/Yifan-Song793/RestGPT
+description: LLM-based agent designed to control real-world applications by interacting
+  with RESTful APIs. Enables agents to interact with web services and APIs for practical
+  task execution, bridging LLM capabilities with real-world application integration.
+github_repo: Yifan-Song793/RestGPT
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

@@ -1,0 +1,11 @@
+name: DeepPavlov
+url: https://github.com/deeppavlov/DeepPavlov
+description: Open-source framework for building multilingual conversational AI agents
+  and complex dialogue systems. Offers pre-trained models for NER, sentiment analysis,
+  question answering, and dialogue management, with support for 20+ languages and
+  production-ready conversational AI capabilities.
+github_repo: deeppavlov/DeepPavlov
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

@@ -1,0 +1,10 @@
+name: Sweep
+url: https://github.com/sweepai/sweep
+description: Open-source AI agent that automates the transformation of GitHub issues
+  into pull requests, streamlining bug fixes and code improvements. Connects issue
+  tracking directly to code changes for accelerated development workflows.
+github_repo: sweepai/sweep
+category: autonomous-agents
+added_date: '2025-11-05'
+verified: false
+type: tool

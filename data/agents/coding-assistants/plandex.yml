@@ -1,0 +1,10 @@
+name: Plandex
+url: https://plandex.ai/
+description: An AI coding assistant that excels at complex, multi-step coding tasks.
+  It can work across multiple files and handle large-scale refactoring projects with
+  a focus on maintaining code quality and project structure.
+github_repo: null
+category: coding-assistants
+added_date: '2025-11-05'
+verified: false
+type: tool

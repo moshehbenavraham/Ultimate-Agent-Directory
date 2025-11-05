@@ -1,0 +1,11 @@
+name: Langfuse
+url: https://langfuse.com
+description: Open-source LLM observability and analytics platform providing tracing,
+  prompt management, evaluation, and analytics for AI agents. Features detailed execution
+  traces, cost tracking, quality metrics, and collaborative prompt versioning for
+  debugging and optimizing agentic systems in production.
+github_repo: null
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

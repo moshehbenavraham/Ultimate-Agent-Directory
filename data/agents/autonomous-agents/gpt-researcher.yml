@@ -1,0 +1,11 @@
+name: GPT Researcher
+url: https://github.com/assafelovic/gpt-researcher
+description: An autonomous agent designed for comprehensive online research tasks
+  across various domains. GPT Researcher can gather information from multiple sources,
+  synthesize findings, and produce detailed research reports, serving as a research
+  tool for academic and professional investigations.
+github_repo: assafelovic/gpt-researcher
+category: autonomous-agents
+added_date: '2025-11-05'
+verified: false
+type: tool

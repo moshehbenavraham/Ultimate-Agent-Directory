@@ -1,0 +1,11 @@
+name: GitHub Copilot Workspace
+url: https://githubnext.com/projects/copilot-workspace
+description: GitHub's evolution of Copilot into a task-centric AI agent environment
+  that generates plans, edits code across multiple files, validates builds, and creates
+  pull requests. Goes beyond code completion to orchestrate entire feature implementations
+  from natural language descriptions with integrated testing and validation.
+github_repo: null
+category: coding-assistants
+added_date: '2025-11-05'
+verified: false
+type: tool

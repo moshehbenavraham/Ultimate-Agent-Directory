@@ -1,0 +1,11 @@
+name: AutoChain
+url: https://github.com/Forethought-Technologies/AutoChain
+description: Lightweight open-source framework for building extensible and testable
+  LLM agents with minimal dependencies. Emphasizes simplicity and testability, providing
+  clean abstractions for building production-ready agents without unnecessary complexity
+  or framework lock-in.
+github_repo: Forethought-Technologies/AutoChain
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

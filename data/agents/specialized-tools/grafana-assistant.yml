@@ -1,0 +1,11 @@
+name: Grafana Assistant
+url: https://grafana.com/products/cloud/assistant-investigations/
+description: AI-powered observability agent within Grafana Cloud that assists with
+  investigations, incident response, and system monitoring. Uses LLMs to analyze metrics,
+  logs, and traces, providing intelligent insights and automated root cause analysis
+  for complex distributed systems.
+github_repo: null
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

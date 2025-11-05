@@ -1,0 +1,12 @@
+name: Haystack
+url: https://github.com/deepset-ai/haystack
+description: An open-source AI orchestration framework by deepset for building production-ready
+  LLM applications, retrieval-augmented generation (RAG) pipelines, and intelligent
+  search systems. Haystack provides modular components for connecting models, vector
+  databases, and file converters into customizable pipelines for working with large
+  document collections.
+github_repo: deepset-ai/haystack
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

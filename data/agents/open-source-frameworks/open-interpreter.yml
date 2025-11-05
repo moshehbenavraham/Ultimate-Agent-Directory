@@ -1,0 +1,11 @@
+name: Open Interpreter
+url: https://github.com/OpenInterpreter/open-interpreter
+description: Open-source coding agent that enables language models to execute code
+  (Python, JavaScript, Shell, etc.) locally on a user's computer. Provides natural
+  language interface for code execution, file manipulation, and system operations,
+  functioning as a local alternative to ChatGPT's Code Interpreter.
+github_repo: OpenInterpreter/open-interpreter
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

@@ -1,0 +1,12 @@
+name: Activepieces
+url: https://www.activepieces.com
+description: An open-source automation platform that serves as an alternative to Zapier
+  with AI-powered workflow capabilities and over 280+ pieces (integrations). Activepieces
+  offers both self-hosted and cloud options, features a TypeScript-based framework
+  for custom integrations, and provides extensive MCP (Model Context Protocol) support
+  for AI agents.
+github_repo: null
+category: no-code-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

@@ -1,0 +1,10 @@
+name: XAgent
+url: https://github.com/OpenBMB/XAgent
+description: Autonomous Large Language Model agent specialized in solving complex
+  tasks through autonomous planning and tool usage. Features sophisticated task decomposition
+  and execution capabilities for handling multi-step technical challenges.
+github_repo: OpenBMB/XAgent
+category: autonomous-agents
+added_date: '2025-11-05'
+verified: false
+type: tool

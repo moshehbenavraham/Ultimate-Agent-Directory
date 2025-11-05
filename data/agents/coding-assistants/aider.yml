@@ -1,0 +1,11 @@
+name: Aider
+url: https://aider.chat/
+description: An AI pair programming tool that works directly in your terminal and
+  integrates seamlessly with Git. It can edit code in your local repository, automatically
+  commits changes with meaningful messages, and works best with Claude 3.5 Sonnet,
+  GPT-4o, and other leading models.
+github_repo: null
+category: coding-assistants
+added_date: '2025-11-05'
+verified: false
+type: tool

@@ -1,0 +1,11 @@
+name: Ollama
+url: https://github.com/ollama/ollama
+description: Popular tool for running large language models (Llama 3, Mistral, Gemma,
+  etc.) locally with simplified setup and customization. Supports macOS, Windows,
+  and Linux with easy model management, REST API, and integration with development
+  tools for local LLM deployment.
+github_repo: ollama/ollama
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

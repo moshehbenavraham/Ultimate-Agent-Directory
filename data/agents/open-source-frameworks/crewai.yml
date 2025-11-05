@@ -1,0 +1,11 @@
+name: CrewAI
+url: https://github.com/crewAIInc/crewAI
+description: A lean, standalone framework for orchestrating role-playing, autonomous
+  AI agents in collaborative teams. CrewAI allows developers to create specialized
+  agents with distinct roles and goals, optimized for speed and performance while
+  being completely independent of other agent frameworks.
+github_repo: crewAIInc/crewAI
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

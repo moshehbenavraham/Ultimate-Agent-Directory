@@ -1,0 +1,12 @@
+name: VAPI
+url: https://vapi.ai
+description: Developer-focused voice AI platform for building advanced voice agents
+  with enterprise infrastructure, featuring response times under 500ms and support
+  for 100+ languages. VAPI provides Flow Studio for visual conversational logic design,
+  highly customizable STT/LLM/TTS provider selection, and scalable phone operations
+  for inbound and outbound calls across industries like healthcare, finance, and travel.
+github_repo: null
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

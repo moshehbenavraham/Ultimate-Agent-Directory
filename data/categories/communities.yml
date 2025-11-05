@@ -1,0 +1,14 @@
+id: communities
+title: GitHub Repositories and Communities
+emoji: 👥
+description: >
+  Curated awesome lists, active communities, and collaborative spaces where developers
+  share knowledge, code, and best practices for AI agent development.
+
+order: 5
+show_github_stats: true
+
+table_columns:
+  - name
+  - url
+  - description

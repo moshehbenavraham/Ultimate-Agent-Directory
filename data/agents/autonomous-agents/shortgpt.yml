@@ -1,0 +1,10 @@
+name: ShortGPT
+url: https://github.com/RayVentura/ShortGPT
+description: Experimental framework for automating short-form video content creation
+  using AI models. Autonomously generates, edits, and produces video content with
+  minimal human direction.
+github_repo: RayVentura/ShortGPT
+category: autonomous-agents
+added_date: '2025-11-05'
+verified: false
+type: tool

@@ -1,0 +1,11 @@
+name: OpenDevin
+url: https://github.com/OpenDevin/OpenDevin
+description: Open-source platform for developing AI-powered autonomous software engineering
+  agents capable of writing code, executing commands, and browsing the web. Community-driven
+  alternative to proprietary solutions with MIT license, enabling collaborative development
+  of autonomous coding agents.
+github_repo: OpenDevin/OpenDevin
+category: autonomous-agents
+added_date: '2025-11-05'
+verified: false
+type: tool

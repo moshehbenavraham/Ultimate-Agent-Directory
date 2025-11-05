@@ -1,0 +1,10 @@
+name: Sysdig
+url: https://sysdig.com/
+description: Cloud security platform that uses AI agents for threat detection, vulnerability
+  management, and cloud detection response. Features real-time security intelligence
+  and automated response capabilities for container and Kubernetes environments.
+github_repo: null
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

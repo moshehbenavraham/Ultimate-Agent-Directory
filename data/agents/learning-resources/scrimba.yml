@@ -1,0 +1,12 @@
+name: Scrimba ReAct Prompting Course
+url: https://scrimba.com/learn/reactprompting
+description: >
+  Focuses on ReAct (Reasoning + Acting) prompting techniques for building responsive AI agents. 
+  Includes hands-on coding exercises for practical learning.
+category: learning-resources
+type: course
+added_date: '2025-11-05'
+verified: true
+platform:
+  - Web
+pricing: free

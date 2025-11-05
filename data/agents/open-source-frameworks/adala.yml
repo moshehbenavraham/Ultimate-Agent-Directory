@@ -1,0 +1,10 @@
+name: Adala
+url: https://github.com/HumanSignal/Adala
+description: Open-source framework for building and evaluating autonomous data labeling
+  agents. Enables creation of AI agents that can label, process, and improve data
+  quality autonomously with feedback loops and continuous learning capabilities.
+github_repo: HumanSignal/Adala
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

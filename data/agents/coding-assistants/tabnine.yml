@@ -1,0 +1,10 @@
+name: Tabnine
+url: https://www.tabnine.com/
+description: An AI coding assistant that focuses on code autocomplete with a unique
+  hybrid LLM approach. It offers both cloud-based and local deployment options, making
+  it suitable for enterprises with strict security requirements.
+github_repo: null
+category: coding-assistants
+added_date: '2025-11-05'
+verified: false
+type: tool

@@ -1,0 +1,11 @@
+name: Google Gemini Enterprise
+url: https://cloud.google.com/gemini-enterprise
+description: Google's advanced agentic platform that empowers employees to discover,
+  create, share, and run AI agents in a secure enterprise environment. Features a
+  no-code agent builder, workflow automation capabilities, and deep integration with
+  Google Workspace for organization-wide agent deployment and management.
+github_repo: null
+category: enterprise-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

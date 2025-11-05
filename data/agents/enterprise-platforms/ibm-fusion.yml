@@ -1,0 +1,11 @@
+name: IBM Fusion
+url: https://newsroom.ibm.com/2025-11-04-ibm-fusion-delivers-pioneering-implementation-of-nvidia-ai-data-platform-for-agentic-ai
+description: An AI-ready data platform from IBM implementing NVIDIA's AI Data Platform
+  design for agentic AI applications. Engineered to power AI agents for scientific
+  and medical research by continuously processing and vectorizing complex datasets,
+  providing the data infrastructure foundation for enterprise agent deployments.
+github_repo: null
+category: enterprise-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

@@ -1,0 +1,10 @@
+name: AutoGPT
+url: https://github.com/Significant-Gravitas/AutoGPT
+description: A pioneering open-source autonomous AI agent that can perform complex
+  tasks independently using GPT-4. It can create subtasks, launch new agents, write
+  its own code, and recursively debug and improve itself with minimal human intervention.
+github_repo: Significant-Gravitas/AutoGPT
+category: autonomous-agents
+added_date: '2025-11-05'
+verified: false
+type: tool

@@ -1,0 +1,12 @@
+name: AgentQL
+url: https://agentql.com
+description: An AI-powered query language and suite of tools for connecting AI agents
+  to the web, featuring natural language selectors for web scraping and automation.
+  AgentQL offers resilient, self-healing web element location that adapts to website
+  changes, with SDKs for Python and JavaScript, REST API, and integrations with popular
+  frameworks like LangChain.
+github_repo: null
+category: browser-automation
+added_date: '2025-11-05'
+verified: false
+type: tool

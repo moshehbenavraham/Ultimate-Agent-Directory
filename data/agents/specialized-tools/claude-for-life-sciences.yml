@@ -1,0 +1,10 @@
+name: Claude for Life Sciences
+url: https://www.anthropic.com/news/claude-for-life-sciences
+description: Specialized version of Anthropic Claude model aimed at supporting the
+  entire scientific process, featuring new connectors to scientific platforms like
+  Benchling to assist with research and discovery.
+github_repo: null
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

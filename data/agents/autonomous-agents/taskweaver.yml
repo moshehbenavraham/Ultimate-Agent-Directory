@@ -1,0 +1,11 @@
+name: TaskWeaver
+url: https://github.com/microsoft/TaskWeaver
+description: Code-first agent framework from Microsoft designed for data analytics
+  tasks, enabling agents to plan and execute tasks by generating and running Python
+  code. Transforms natural language requests into executable code workflows for data
+  analysis and automation.
+github_repo: microsoft/TaskWeaver
+category: autonomous-agents
+added_date: '2025-11-05'
+verified: false
+type: tool

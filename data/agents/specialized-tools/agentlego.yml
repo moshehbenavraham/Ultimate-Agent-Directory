@@ -1,0 +1,11 @@
+name: agentlego
+url: https://github.com/InternLM/agentlego
+description: Tool library and integration framework providing 70+ reusable tools for
+  AI agents including image processing, OCR, search, and data analysis capabilities.
+  Offers standardized tool interfaces compatible with LangChain, Transformers Agents,
+  and other frameworks with easy-to-use APIs and comprehensive documentation.
+github_repo: InternLM/agentlego
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

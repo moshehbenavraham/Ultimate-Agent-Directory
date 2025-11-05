@@ -1,0 +1,11 @@
+name: PADE
+url: https://github.com/grei-ufc/pade
+description: Python-based framework for multi-agent system development, execution,
+  and management with 100% Python implementation. Features network-based communication
+  for distributed computation, commonly used in academic and industrial IoT applications
+  for building distributed multi-agent systems.
+github_repo: grei-ufc/pade
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

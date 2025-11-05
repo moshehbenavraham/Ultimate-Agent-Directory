@@ -1,0 +1,11 @@
+name: Atomic Agents
+url: https://github.com/BrainBlend-AI/atomic-agents
+description: A modular, lightweight framework designed to simplify the creation of
+  multi-agent systems. Atomic Agents focuses on the Input-Process-Output model and
+  atomicity principles, offering developers complete control over agent behaviors
+  and system architecture without unnecessary complexity.
+github_repo: BrainBlend-AI/atomic-agents
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

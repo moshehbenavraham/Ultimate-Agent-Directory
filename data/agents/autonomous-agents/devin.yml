@@ -1,0 +1,11 @@
+name: Devin
+url: https://www.cognition.ai
+description: Autonomous AI software engineer from Cognition Labs that plans, executes,
+  and iterates on software development tasks in a sandboxed workspace with shell,
+  editor, and browser access. Supports human-in-the-loop review and long-horizon work
+  for complex engineering projects.
+github_repo: null
+category: autonomous-agents
+added_date: '2025-11-05'
+verified: false
+type: tool

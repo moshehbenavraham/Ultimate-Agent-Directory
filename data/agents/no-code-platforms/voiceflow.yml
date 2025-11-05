@@ -1,0 +1,11 @@
+name: Voiceflow
+url: https://voiceflow.com
+description: A comprehensive platform for building, managing, and deploying AI agents
+  to automate customer experiences, specializing in voice assistants and chatbots.
+  Voiceflow offers drag-and-drop workflow building, multi-LLM support, and integrations
+  with popular platforms like Zapier, Make, and various messaging channels.
+github_repo: null
+category: no-code-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

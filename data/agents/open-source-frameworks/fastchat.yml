@@ -1,0 +1,11 @@
+name: FastChat
+url: https://github.com/lm-sys/FastChat
+description: Platform for training, serving, and evaluating large language model-based
+  chatbots with distributed multi-model system support. Features Chatbot Arena for
+  LLM evaluation, model serving infrastructure, and tools for fine-tuning and deploying
+  conversational AI systems.
+github_repo: lm-sys/FastChat
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

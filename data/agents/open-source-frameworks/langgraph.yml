@@ -1,0 +1,11 @@
+name: LangGraph
+url: https://github.com/langchain-ai/langgraph
+description: A specialized framework within the LangChain ecosystem for building controllable,
+  stateful agents using graph-based execution. LangGraph enables complex multi-step
+  workflows with persistent memory and human-in-the-loop capabilities, trusted by
+  companies like Klarna, Uber, and GitLab.
+github_repo: langchain-ai/langgraph
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

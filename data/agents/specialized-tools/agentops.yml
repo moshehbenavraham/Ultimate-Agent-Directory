@@ -1,0 +1,11 @@
+name: agentops
+url: https://github.com/AgentOps-AI/agentops
+description: Open-source Python SDK for AI agent observability providing session replays,
+  metrics, and monitoring for LangChain, CrewAI, and AutoGen. Features detailed agent
+  execution tracking, LLM call logging, cost analysis, and performance metrics for
+  debugging and optimizing multi-agent systems.
+github_repo: AgentOps-AI/agentops
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

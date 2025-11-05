@@ -1,0 +1,12 @@
+name: RAGLight
+url: https://github.com/Bessouat40/RAGLight
+description: Modular framework for building Retrieval-Augmented Generation pipelines
+  with support for Agentic RAG featuring multi-step reasoning and tool usage. Includes
+  seamless MCP Server integration for external tool interaction, customizable LLM
+  providers (OpenAI, Ollama), vector store integration, and support for multiple knowledge
+  sources including local folders and GitHub repositories.
+github_repo: Bessouat40/RAGLight
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

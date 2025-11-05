@@ -1,0 +1,11 @@
+name: Amazon CodeWhisperer
+url: https://aws.amazon.com/codewhisperer/
+description: An AI-powered coding companion that provides real-time code suggestions,
+  security scans, and reference tracking. It's optimized for AWS APIs and services,
+  offering both individual and enterprise plans with built-in security vulnerability
+  detection.
+github_repo: null
+category: coding-assistants
+added_date: '2025-11-05'
+verified: false
+type: tool

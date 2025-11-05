@@ -1,0 +1,11 @@
+name: Pydantic Logfire
+url: https://pydantic.dev/logfire
+description: Observability platform from Pydantic designed specifically for Python
+  applications and AI agents. Provides structured logging, tracing, and monitoring
+  with type-safe instrumentation, seamless integration with Pydantic models, and powerful
+  debugging capabilities for production systems.
+github_repo: null
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

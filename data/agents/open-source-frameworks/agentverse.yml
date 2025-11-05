@@ -1,0 +1,11 @@
+name: AgentVerse
+url: https://github.com/OpenBMB/AgentVerse
+description: Framework designed to facilitate deployment of multiple LLM-based agents
+  in task-solving and simulation applications. Enables building multi-agent environments
+  for software development, social behavior research, and collaborative task completion
+  with flexible agent coordination mechanisms.
+github_repo: OpenBMB/AgentVerse
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

@@ -1,0 +1,11 @@
+name: Snyk
+url: https://snyk.io/
+description: Developer security platform that uses DeepCode AI to provide real-time
+  security intelligence, automatically fix vulnerabilities, and integrate security
+  into development workflows. Features AI-powered code analysis and automated remediation
+  capabilities.
+github_repo: null
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

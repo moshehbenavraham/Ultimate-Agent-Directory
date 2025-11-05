@@ -1,0 +1,14 @@
+id: specialized-tools
+title: Specialized AI Agent Tools
+emoji: 🎯
+description: >
+  Domain-specific agent tools designed for particular use cases like customer service,
+  sales, marketing, data analysis, security, and DevOps automation.
+
+order: 6
+show_github_stats: true
+
+table_columns:
+  - name
+  - url
+  - description

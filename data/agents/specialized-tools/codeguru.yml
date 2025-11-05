@@ -1,0 +1,10 @@
+name: CodeGuru
+url: https://aws.amazon.com/codeguru/
+description: AI-powered code analysis service that automatically flags security vulnerabilities,
+  provides performance recommendations, and explains code issues with machine learning.
+  Integrates with popular development tools and CI/CD pipelines.
+github_repo: null
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

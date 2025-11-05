@@ -1,0 +1,11 @@
+name: generative_agents
+url: https://github.com/joonspk-research/generative_agents
+description: Original simulation framework from Stanford/Google research demonstrating
+  interactive, human-like social behavior in AI agents. Implements the groundbreaking
+  Generative Agents paper, showcasing believable human-agent interactions in simulated
+  environments for social simulation research.
+github_repo: joonspk-research/generative_agents
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

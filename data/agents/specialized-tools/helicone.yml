@@ -1,0 +1,11 @@
+name: Helicone
+url: https://www.helicone.ai
+description: Open-source observability platform for AI agents offering one-line integration
+  for logging, monitoring, and debugging LLM applications. Features request logging,
+  cost tracking, latency monitoring, caching, rate limiting, and prompt versioning
+  with support for all major LLM providers.
+github_repo: null
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

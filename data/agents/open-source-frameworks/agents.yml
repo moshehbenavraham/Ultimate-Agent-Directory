@@ -1,0 +1,11 @@
+name: agents
+url: https://github.com/aiwaves-cn/agents
+description: Open-source framework for developing autonomous language agents with
+  long-short term memory, tool usage, and multi-agent communication. Features symbolic
+  memory management and comprehensive agent coordination mechanisms for building sophisticated
+  autonomous agent systems.
+github_repo: aiwaves-cn/agents
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

@@ -1,0 +1,11 @@
+name: ChatDev
+url: https://github.com/OpenBMB/ChatDev
+description: Multi-agent virtual software company framework that uses agents in different
+  roles (CEO, programmer, tester) to autonomously create customized software from
+  natural language ideas. Implements collaborative development processes with specialized
+  agent roles for complete software creation.
+github_repo: OpenBMB/ChatDev
+category: autonomous-agents
+added_date: '2025-11-05'
+verified: false
+type: tool

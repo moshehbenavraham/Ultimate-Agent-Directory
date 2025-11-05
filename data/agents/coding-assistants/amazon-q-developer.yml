@@ -1,0 +1,12 @@
+name: Amazon Q Developer
+url: https://aws.amazon.com/q/developer/
+description: Amazon's next-generation AI agent for software development that goes
+  beyond code completion to handle complex tasks like feature implementation, code
+  transformation, and troubleshooting. Provides inline code suggestions, chat-based
+  assistance, autonomous agents for multi-file edits, and deep integration with AWS
+  services for enterprise development workflows.
+github_repo: null
+category: coding-assistants
+added_date: '2025-11-05'
+verified: false
+type: tool

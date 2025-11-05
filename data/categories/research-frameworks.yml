@@ -1,0 +1,14 @@
+id: research-frameworks
+title: Research-Focused Agent Frameworks
+emoji: 🔬
+description: >
+  Academic and research-oriented frameworks from leading institutions like Google
+  Research, Stanford, and UC Berkeley, advancing the state-of-the-art in agent systems.
+
+order: 3
+show_github_stats: true
+
+table_columns:
+  - name
+  - url
+  - description

@@ -1,0 +1,11 @@
+name: OpenAI Swarm
+url: https://github.com/openai/swarm
+description: Lightweight, experimental open-source framework from OpenAI for multi-agent
+  orchestration and coordination. Explores agent routines and handoffs for simple
+  multi-agent coordination patterns using OpenAI's Chat Completions API, designed
+  for educational purposes and research into agent interaction patterns.
+github_repo: openai/swarm
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

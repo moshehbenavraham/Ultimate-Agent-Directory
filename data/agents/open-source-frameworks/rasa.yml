@@ -1,0 +1,12 @@
+name: Rasa
+url: https://rasa.com
+description: Open-source conversational AI framework with robust NLU and dialogue
+  management capabilities, trusted by enterprises for building production-ready conversational
+  agents. With over 50 million downloads, Rasa provides tools for building on-premise,
+  production-ready conversational agents across text and voice with full control over
+  data and infrastructure.
+github_repo: null
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

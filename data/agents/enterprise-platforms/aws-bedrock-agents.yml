@@ -1,0 +1,11 @@
+name: AWS Bedrock Agents
+url: https://aws.amazon.com/bedrock/agents/
+description: Amazon's fully managed service for building and deploying AI agents that
+  can execute multi-step tasks using company systems and data sources. Features memory
+  retention, guardrails integration, multi-agent collaboration, and secure code execution
+  environments with support for various foundation models.
+github_repo: null
+category: enterprise-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

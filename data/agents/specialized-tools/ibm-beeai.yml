@@ -1,0 +1,10 @@
+name: IBM BeeAI
+url: https://research.ibm.com/projects/beeai
+description: IBM Research project for observability and debugging of agentic AI systems.
+  Provides tools for tracing agent reasoning, visualizing decision trees, and analyzing
+  multi-agent interactions for research and production deployments.
+github_repo: null
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

@@ -1,0 +1,10 @@
+name: Replit Ghostwriter
+url: https://replit.com/ai
+description: An AI-powered coding assistant integrated into the Replit platform that
+  provides code completion, debugging assistance, and code explanation. It's designed
+  to work seamlessly within Replit's online IDE environment.
+github_repo: null
+category: coding-assistants
+added_date: '2025-11-05'
+verified: false
+type: tool

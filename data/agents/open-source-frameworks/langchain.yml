@@ -1,0 +1,11 @@
+name: LangChain
+url: https://github.com/langchain-ai/langchain
+description: A foundational framework for building context-aware reasoning applications
+  powered by large language models. LangChain provides modular components for chaining
+  prompts, integrating external tools, and managing conversational memory, making
+  it suitable for production-grade LLM applications and autonomous agents.
+github_repo: langchain-ai/langchain
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

@@ -1,0 +1,10 @@
+name: Datadog
+url: https://www.datadoghq.com/
+description: Application performance monitoring platform with AI-powered agents for
+  distributed tracing, root cause analysis, and proactive application improvement.
+  Features Bits AI for data querying and automated remediation suggestions.
+github_repo: null
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

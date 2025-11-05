@@ -1,0 +1,11 @@
+name: Tabby
+url: https://github.com/TabbyML/tabby
+description: Open-source, self-hosted AI coding assistant similar to GitHub Copilot
+  with self-contained setup and OpenAPI integration. Provides code completion, RAG-based
+  code chat, and IDE integration for building private coding assistants with full
+  data control.
+github_repo: TabbyML/tabby
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

@@ -1,0 +1,12 @@
+name: composio
+url: https://github.com/ComposioHQ/composio
+description: Production-ready platform for integrating AI agents with 250+ external
+  tools and services. Provides unified API for tool authentication, execution, and
+  management with pre-built integrations for popular services like GitHub, Slack,
+  Gmail, and developer tools. Features managed authentication, rate limiting, and
+  comprehensive SDKs for all major agent frameworks.
+github_repo: ComposioHQ/composio
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

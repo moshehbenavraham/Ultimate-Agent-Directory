@@ -1,0 +1,11 @@
+name: Rivet
+url: https://github.com/Ironclad/rivet
+description: An open-source visual AI programming environment and IDE from Ironclad
+  Research for creating, debugging, and collaborating on complex AI agent pipelines
+  and prompt chains. Rivet provides a node-based interface for building sophisticated
+  agent workflows with real-time debugging and version control capabilities.
+github_repo: Ironclad/rivet
+category: no-code-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

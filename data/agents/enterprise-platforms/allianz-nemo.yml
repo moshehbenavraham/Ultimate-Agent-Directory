@@ -1,0 +1,11 @@
+name: Allianz Nemo
+url: https://www.allianz.com/en/mediacenter/news/articles/251103-when-the-storm-clears-so-should-the-claim-queue.html
+description: A proprietary multi-agent system developed by Allianz using seven specialized
+  AI agents to automate insurance claims processing. Handles coverage checks, fraud
+  detection, and claims assessment with human-in-the-loop approval for final decisions,
+  demonstrating enterprise-scale multi-agent orchestration in insurance workflows.
+github_repo: null
+category: enterprise-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

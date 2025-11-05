@@ -1,0 +1,11 @@
+name: GitHub Copilot
+url: https://github.com/features/copilot
+description: The world's most widely adopted AI developer tool that provides contextualized
+  assistance throughout the software development lifecycle. It offers code completions,
+  chat assistance, and now includes autonomous agent capabilities that can implement
+  features and fix bugs across multiple files.
+github_repo: features/copilot
+category: coding-assistants
+added_date: '2025-11-05'
+verified: false
+type: tool

@@ -1,0 +1,11 @@
+name: Botpress
+url: https://botpress.com
+description: An all-in-one platform for building AI agents powered by the latest LLMs,
+  featuring a custom inference engine called LLMz. Botpress provides enterprise-grade
+  conversational AI capabilities with visual workflow design, extensive integrations,
+  and support for complex multi-step logic execution in isolated runtime environments.
+github_repo: null
+category: no-code-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

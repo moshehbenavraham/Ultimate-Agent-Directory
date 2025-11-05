@@ -1,0 +1,10 @@
+name: BabyAGI
+url: https://github.com/yoheinakajima/babyagi
+description: A pared-down autonomous AI agent (140 lines of code) that uses OpenAI
+  and vector databases to create, prioritize, and execute tasks. It implements a simple
+  task management loop powered by GPT-4 and Pinecone for memory storage.
+github_repo: yoheinakajima/babyagi
+category: autonomous-agents
+added_date: '2025-11-05'
+verified: false
+type: tool

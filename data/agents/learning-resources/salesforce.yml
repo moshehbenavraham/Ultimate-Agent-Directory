@@ -1,0 +1,12 @@
+name: Salesforce Trailhead AI Agents
+url: https://trailhead.salesforce.com/content/learn/modules/ai-agents
+description: >
+  Free courses on building AI agents with Salesforce's Agentforce platform. 
+  Covers agentic AI fundamentals and practical applications for enterprise environments.
+category: learning-resources
+type: course
+added_date: '2025-11-05'
+verified: true
+platform:
+  - Web
+pricing: free

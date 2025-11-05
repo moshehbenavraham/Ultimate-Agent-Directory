@@ -1,0 +1,11 @@
+name: Mastra
+url: https://github.com/mastra-ai/mastra
+description: TypeScript framework designed for rapid development of AI applications
+  and agentic features. Provides type-safe agent development with modern TypeScript
+  tooling, enabling fast iteration and production deployment of TypeScript-based agentic
+  systems.
+github_repo: mastra-ai/mastra
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

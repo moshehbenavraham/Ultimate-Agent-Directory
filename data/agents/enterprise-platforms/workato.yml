@@ -1,0 +1,11 @@
+name: Workato
+url: https://www.workato.com/agentic
+description: An enterprise automation platform featuring Genie AI agents that blend
+  LLM reasoning with no-code orchestration capabilities. Leverages over 1,000 integrations
+  to autonomously execute business tasks across systems, following business rules
+  while delivering results faster through intelligent workflow automation.
+github_repo: null
+category: enterprise-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

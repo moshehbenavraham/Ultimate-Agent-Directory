@@ -1,0 +1,11 @@
+name: AGiXT
+url: https://github.com/Josh-XT/AGiXT
+description: Dynamic platform for orchestrating AI agents across various providers
+  with flexible agent and tool management. Features plugin architecture, support for
+  multiple LLM providers, and comprehensive agent lifecycle management for building
+  provider-agnostic agentic applications.
+github_repo: Josh-XT/AGiXT
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

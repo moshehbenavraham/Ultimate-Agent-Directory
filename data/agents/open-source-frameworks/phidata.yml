@@ -1,0 +1,11 @@
+name: Phidata
+url: https://github.com/phidatahq/phidata
+description: Framework for building AI agents with memory, tools, and production scalability.
+  Enables developers to create autonomous assistants using Pythonic object-oriented
+  principles, featuring structured outputs, knowledge bases, and seamless integration
+  with popular LLM providers for building production-ready agentic systems.
+github_repo: phidatahq/phidata
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

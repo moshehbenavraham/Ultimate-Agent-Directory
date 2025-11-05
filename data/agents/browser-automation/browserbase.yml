@@ -1,0 +1,12 @@
+name: Browserbase
+url: https://www.browserbase.com
+description: A headless browser infrastructure platform specifically designed for
+  AI agents and applications, offering scalable browser automation capabilities. Browserbase
+  provides stealth features, captcha solving, residential proxies, and comprehensive
+  observability tools, making it ideal for AI-powered web automation with enterprise-grade
+  security and compliance.
+github_repo: null
+category: browser-automation
+added_date: '2025-11-05'
+verified: false
+type: tool

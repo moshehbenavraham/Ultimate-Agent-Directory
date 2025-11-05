@@ -1,0 +1,11 @@
+name: AutoGen
+url: https://github.com/microsoft/autogen
+description: Microsoft's open-source framework for creating multi-agent AI applications
+  that can act autonomously or work alongside humans. AutoGen emphasizes conversational
+  agents and multi-agent collaboration, enabling agents to generate, fix, and run
+  code while facilitating cooperation among multiple agents to solve complex tasks.
+github_repo: microsoft/autogen
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

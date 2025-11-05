@@ -1,0 +1,14 @@
+id: autonomous-agents
+title: Autonomous Agents
+emoji: 🤖
+description: >
+  Self-directed AI systems that can plan, execute, and iterate on complex tasks
+  with minimal human intervention, from AutoGPT to BabyAGI and beyond.
+
+order: 7
+show_github_stats: true
+
+table_columns:
+  - name
+  - url
+  - description

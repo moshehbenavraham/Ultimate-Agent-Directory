@@ -1,0 +1,10 @@
+name: langtrace
+url: https://github.com/Scale3-Labs/langtrace
+description: Open-source observability platform for LLM applications built on OpenTelemetry
+  standards. Provides distributed tracing, metrics collection, prompt management,
+  and evaluation tools with support for all major agent frameworks and LLM providers.
+github_repo: Scale3-Labs/langtrace
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

@@ -1,0 +1,10 @@
+name: Supermaven
+url: https://supermaven.com/
+description: An AI coding assistant that was acquired by Anysphere (makers of Cursor)
+  in 2024. It provides fast, intelligent code completion and is being integrated into
+  Cursor's ecosystem to enhance its AI capabilities.
+github_repo: null
+category: coding-assistants
+added_date: '2025-11-05'
+verified: false
+type: tool

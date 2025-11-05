@@ -1,0 +1,14 @@
+id: coding-assistants
+title: Coding Assistant Agents
+emoji: 💻
+description: >
+  AI-powered development tools that assist with code generation, debugging,
+  refactoring, and documentation, enhancing developer productivity.
+
+order: 9
+show_github_stats: true
+
+table_columns:
+  - name
+  - url
+  - description

@@ -1,0 +1,13 @@
+name: Tarsier
+url: https://github.com/reworkd/tarsier
+description: Open-source vision utilities library for multimodal web agents by Reworkd,
+  enabling AI models to interact with and automate web browsers through visual understanding.
+  Tarsier visually tags interactable elements with brackets and IDs for LLM action
+  mapping, includes OCR algorithm for converting screenshots to structured text, and
+  achieves 10-20% performance gains on benchmarks. Used extensively in production
+  for tens of thousands of real web tasks.
+github_repo: reworkd/tarsier
+category: browser-automation
+added_date: '2025-11-05'
+verified: false
+type: tool

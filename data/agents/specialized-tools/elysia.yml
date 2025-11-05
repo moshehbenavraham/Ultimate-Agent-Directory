@@ -1,0 +1,12 @@
+name: Elysia
+url: https://elysia.weaviate.io
+description: Open-source decision tree-based agentic RAG framework by Weaviate that
+  dynamically displays data, learns from user feedback, and chunks documents on-demand.
+  Features intelligent tool selection with transparent decision-making, context-aware
+  on-the-fly document chunking, feedback-driven learning without cross-user contamination,
+  and both full frontend interface and pip-installable Python package.
+github_repo: null
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

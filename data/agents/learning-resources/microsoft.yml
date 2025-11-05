@@ -1,0 +1,12 @@
+name: Microsoft AI Agents on Azure
+url: https://learn.microsoft.com/en-us/training/modules/azure-ai-agents/
+description: >
+  Covers developing and deploying AI agents on Microsoft Azure platform. 
+  Official Microsoft training for enterprise-grade agent development and deployment.
+category: learning-resources
+type: course
+added_date: '2025-11-05'
+verified: true
+platform:
+  - Azure
+pricing: free

@@ -1,0 +1,11 @@
+name: Cursor
+url: https://cursor.sh/
+description: An AI-first code editor built on VS Code that provides intelligent code
+  suggestions, automated error detection, and dynamic code optimization. It features
+  advanced AI capabilities including Composer for multi-file editing and supports
+  multiple AI models like GPT-4o, Claude 3.5, and Gemini.
+github_repo: null
+category: coding-assistants
+added_date: '2025-11-05'
+verified: false
+type: tool

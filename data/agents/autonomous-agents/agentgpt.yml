@@ -1,0 +1,11 @@
+name: AgentGPT
+url: https://agentgpt.reworkd.ai/
+description: A web-based autonomous AI agent platform that allows users to create
+  custom AI agents with specific objectives. It operates in a loop to generate tasks,
+  execute them, and learn from outcomes, all accessible through a user-friendly browser
+  interface.
+github_repo: null
+category: autonomous-agents
+added_date: '2025-11-05'
+verified: false
+type: tool

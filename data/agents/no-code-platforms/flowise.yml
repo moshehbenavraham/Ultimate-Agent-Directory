@@ -1,0 +1,11 @@
+name: Flowise
+url: https://flowiseai.com
+description: An open-source low-code platform for building LLM applications with a
+  drag-and-drop interface. Flowise provides modular building blocks for creating agentic
+  systems, from simple compositional workflows to autonomous agents, with support
+  for multi-agent systems, chat assistants, and human-in-the-loop workflows.
+github_repo: null
+category: no-code-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

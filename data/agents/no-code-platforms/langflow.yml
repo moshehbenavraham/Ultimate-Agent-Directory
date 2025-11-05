@@ -1,0 +1,11 @@
+name: Langflow
+url: https://langflow.org
+description: A low-code AI builder for agentic and retrieval-augmented generation
+  (RAG) applications that allows coding in Python while using any LLM or vector database.
+  Langflow provides an intuitive visual interface for building complex AI workflows,
+  recently acquired by DataStax and positioned for integration with IBM's ecosystem.
+github_repo: null
+category: no-code-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

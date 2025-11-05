@@ -1,0 +1,11 @@
+name: Maige
+url: https://github.com/maige-app/maige
+description: A research-focused codebase agent that runs when new issues and pull
+  requests are created on GitHub. Maige can search entire codebases, run scripts in
+  sandboxes, and write basic code, serving as a research tool for automated software
+  development and code analysis.
+github_repo: maige-app/maige
+category: autonomous-agents
+added_date: '2025-11-05'
+verified: false
+type: tool

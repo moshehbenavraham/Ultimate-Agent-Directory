@@ -1,0 +1,11 @@
+name: UiPath Agentic Automation
+url: https://www.uipath.com/platform/agentic-automation
+description: The enterprise RPA platform augmented with generative AI capabilities
+  featuring an Agent Builder for creating and orchestrating AI agents. Combines LLM-driven
+  reasoning with UiPath's robots and API integrations for autonomous process handling
+  with enterprise governance, security testing, and human-in-the-loop oversight.
+github_repo: null
+category: enterprise-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

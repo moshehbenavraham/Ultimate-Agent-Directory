@@ -1,0 +1,13 @@
+name: Apify
+url: https://apify.com
+description: Cloud platform for web scraping, browser automation, and AI agents with
+  7,000+ ready-made tools and automation solutions. Apify provides AI Web Agent for
+  natural language web browsing, MCP Server integration enabling agents to extract
+  data from social media and search engines, and specialized agents for data extraction,
+  monitoring, and analysis. Features integration with LangChain, LlamaIndex, and the
+  wider LLM ecosystem for building production-ready web automation workflows.
+github_repo: null
+category: browser-automation
+added_date: '2025-11-05'
+verified: false
+type: tool

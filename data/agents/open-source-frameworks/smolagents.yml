@@ -1,0 +1,11 @@
+name: Smolagents
+url: https://github.com/huggingface/smolagents
+description: A Hugging Face framework for building AI agents that integrates seamlessly
+  with the Hugging Face ecosystem. Smolagents provides tools for creating intelligent
+  agents capable of data retrieval, summarization, and code execution, with strong
+  community engagement and regular updates.
+github_repo: huggingface/smolagents
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

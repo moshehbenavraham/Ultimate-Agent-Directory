@@ -1,0 +1,10 @@
+name: DevOpsGPT
+url: https://github.com/kuafuai/DevOpsGPT
+description: AI-driven multi-agent platform designed to automate and streamline software
+  development processes and DevOps tasks. Combines development and operations expertise
+  in autonomous workflows for continuous integration and deployment.
+github_repo: kuafuai/DevOpsGPT
+category: autonomous-agents
+added_date: '2025-11-05'
+verified: false
+type: tool

@@ -1,0 +1,12 @@
+name: Puppeteer
+url: https://pptr.dev
+description: A Node.js library providing a high-level API to control Chrome or Firefox
+  browsers, increasingly used in AI agent implementations for web automation. Puppeteer
+  serves as the foundation for many AI-powered web agents, offering programmatic browser
+  control, screenshot capabilities, and integration with vision models for intelligent
+  web navigation.
+github_repo: null
+category: browser-automation
+added_date: '2025-11-05'
+verified: false
+type: tool

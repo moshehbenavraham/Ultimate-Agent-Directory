@@ -1,0 +1,11 @@
+name: BabyAGI 2o
+url: https://github.com/yoheinakajima/babyagi-2o
+description: The simplest self-building autonomous agent that iteratively builds itself
+  by creating and registering tools as required to complete tasks. It dynamically
+  creates Python functions as tools and can handle complex tasks like web scraping
+  and image analysis.
+github_repo: yoheinakajima/babyagi-2o
+category: autonomous-agents
+added_date: '2025-11-05'
+verified: false
+type: tool

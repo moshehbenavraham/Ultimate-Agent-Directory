@@ -1,0 +1,12 @@
+name: Vogent VoiceLab
+url: https://www.vogent.ai/voicelab
+description: All-in-one platform for building, testing, and deploying AI voice agents
+  with access to latest super-realistic voice models including Sesame CSM-1B, Dia,
+  and Orpheus. Features optimized compute for real-time inference with sub-200ms time-to-first-token,
+  supports both zero-shot voice cloning and fine-tuning, and provides unified API
+  for multiple voice model integration.
+github_repo: null
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

@@ -1,0 +1,11 @@
+name: Mesa
+url: https://mesa.readthedocs.io
+description: Popular Python library for agent-based modeling and simulation, widely
+  used in social science, economics, and supply chain research. Ideal for modeling
+  agent interactions in grid-based or network environments with built-in visualization
+  tools to track agent behaviors and emergent system properties.
+github_repo: null
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

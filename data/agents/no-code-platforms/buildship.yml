@@ -1,0 +1,12 @@
+name: BuildShip
+url: https://buildship.com
+description: A visual low-code backend builder that enables users to create powerful
+  APIs, scheduled jobs, and AI workflows without extensive coding knowledge. BuildShip
+  features AI-powered node generation, multimodal flows with various AI models, and
+  seamless integration with popular services, making backend development accessible
+  to all skill levels.
+github_repo: null
+category: no-code-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

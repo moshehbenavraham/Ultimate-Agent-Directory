@@ -1,0 +1,14 @@
+id: enterprise-platforms
+title: Enterprise Agent Platforms
+emoji: 🏢
+description: >
+  Commercial and cloud-based agent platforms from major providers like Microsoft,
+  Google, AWS, and Salesforce for enterprise-scale deployments.
+
+order: 10
+show_github_stats: false
+
+table_columns:
+  - name
+  - url
+  - description

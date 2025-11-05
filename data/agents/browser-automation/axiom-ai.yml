@@ -1,0 +1,11 @@
+name: Axiom.ai
+url: https://axiom.ai
+description: A no-code browser automation and RPA tool that enables users to build
+  browser bots for automating website actions and repetitive tasks. Axiom.ai features
+  a Chrome extension for easy bot building, integration with Zapier and Make, AI-powered
+  automation with ChatGPT, and supports both scheduled and triggered bot execution.
+github_repo: null
+category: browser-automation
+added_date: '2025-11-05'
+verified: false
+type: tool

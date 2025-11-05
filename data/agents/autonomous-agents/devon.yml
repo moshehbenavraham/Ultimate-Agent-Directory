@@ -1,0 +1,11 @@
+name: Devon
+url: https://github.com/entropy-research/devon
+description: An open-source research agent designed for software engineering tasks
+  that can understand and modify codebases, run tests, and interact with development
+  environments. Devon represents research into autonomous programming and software
+  development assistance.
+github_repo: entropy-research/devon
+category: autonomous-agents
+added_date: '2025-11-05'
+verified: false
+type: tool

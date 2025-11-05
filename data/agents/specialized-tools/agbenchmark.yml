@@ -1,0 +1,11 @@
+name: agbenchmark
+url: https://github.com/Significant-Gravitas/AutoGPT/tree/master/benchmark
+description: Official benchmark framework from the AutoGPT project for evaluating
+  autonomous agent performance across diverse tasks. Provides standardized test suites,
+  scoring metrics, and leaderboards for comparing agent capabilities on planning,
+  reasoning, tool use, and task completion.
+github_repo: Significant-Gravitas/AutoGPT
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

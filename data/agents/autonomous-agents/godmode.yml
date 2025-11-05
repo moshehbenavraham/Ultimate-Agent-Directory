@@ -1,0 +1,10 @@
+name: Godmode
+url: https://godmode.space/
+description: A web-based autonomous AI agent platform inspired by AutoGPT and BabyAGI.
+  It provides a user-friendly interface for interacting with advanced AI models like
+  AutoGPT and BabyAGI directly through a web platform.
+github_repo: null
+category: autonomous-agents
+added_date: '2025-11-05'
+verified: false
+type: tool

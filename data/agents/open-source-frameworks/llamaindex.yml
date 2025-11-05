@@ -1,0 +1,11 @@
+name: LlamaIndex
+url: https://github.com/run-llama/llama_index
+description: A data framework for building LLM applications that specializes in connecting
+  large language models to external data sources. LlamaIndex provides tools for data
+  ingestion, indexing, and retrieval, with over 300 integrations supporting various
+  LLMs, embedding models, and vector stores for RAG applications.
+github_repo: run-llama/llama_index
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

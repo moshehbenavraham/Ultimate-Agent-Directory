@@ -1,0 +1,12 @@
+name: Scite Assistant
+url: https://scite.ai/
+description: A research assistant that uses AI to analyze citation statements and
+  help researchers better discover, evaluate, and understand research. Scite Assistant
+  employs deep learning techniques to extract and classify citations based on their
+  intent, supporting comprehensive literature reviews and combating reproducibility
+  challenges.
+github_repo: null
+category: research-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

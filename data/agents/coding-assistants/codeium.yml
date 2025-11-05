@@ -1,0 +1,11 @@
+name: Codeium
+url: https://codeium.com/
+description: A free AI-powered code acceleration toolkit that provides code completion,
+  chat functionality, and search capabilities. It uses in-house built models and infrastructure
+  to deliver intelligent coding assistance across multiple programming languages and
+  IDEs.
+github_repo: null
+category: coding-assistants
+added_date: '2025-11-05'
+verified: false
+type: tool

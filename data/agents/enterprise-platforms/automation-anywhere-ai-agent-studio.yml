@@ -1,0 +1,11 @@
+name: Automation Anywhere AI Agent Studio
+url: https://www.automationanywhere.com/products/ai-agent-studio
+description: A low-code workspace within Automation Anywhere's automation suite for
+  building goal-driven AI agents. Features easy configuration of agent roles, goals,
+  and tool access with drag-and-drop integration into end-to-end workflows, complete
+  with built-in governance, monitoring, and detailed audit capabilities.
+github_repo: null
+category: enterprise-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

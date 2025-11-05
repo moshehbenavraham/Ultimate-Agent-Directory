@@ -1,0 +1,10 @@
+name: GenAgent
+url: https://github.com/xxyQwQ/GenAgent
+description: Framework for building collaborative AI systems with automated workflow
+  generation, including case studies for ComfyUI. Features automated agent collaboration
+  patterns for complex creative and technical workflows.
+github_repo: xxyQwQ/GenAgent
+category: autonomous-agents
+added_date: '2025-11-05'
+verified: false
+type: tool

@@ -1,0 +1,11 @@
+name: ToolBench
+url: https://github.com/OpenBMB/ToolBench
+description: Comprehensive benchmark for evaluating LLM agents on tool usage and API
+  interaction capabilities. Features 16,000+ real-world APIs, standardized evaluation
+  metrics, and test scenarios covering tool selection, parameter filling, and multi-step
+  tool orchestration.
+github_repo: OpenBMB/ToolBench
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

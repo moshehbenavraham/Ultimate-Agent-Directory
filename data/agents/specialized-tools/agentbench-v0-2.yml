@@ -1,0 +1,11 @@
+name: AgentBench v0.2
+url: https://github.com/THUDM/AgentBench
+description: Comprehensive benchmark for evaluating LLM-as-Agent capabilities across
+  8 distinct environments including coding, gaming, web browsing, and household tasks.
+  Provides standardized evaluation protocols, multi-dimensional metrics, and leaderboards
+  for comparing agent performance across diverse real-world scenarios.
+github_repo: THUDM/AgentBench
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

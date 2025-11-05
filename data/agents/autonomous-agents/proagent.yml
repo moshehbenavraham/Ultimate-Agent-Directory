@@ -1,0 +1,10 @@
+name: ProAgent
+url: https://github.com/OpenBMB/ProAgent
+description: LLM-based agent framework designed for agentic process automation (APA)
+  in enterprise workflows. Focuses on automating complex business processes through
+  intelligent agent orchestration.
+github_repo: OpenBMB/ProAgent
+category: autonomous-agents
+added_date: '2025-11-05'
+verified: false
+type: tool

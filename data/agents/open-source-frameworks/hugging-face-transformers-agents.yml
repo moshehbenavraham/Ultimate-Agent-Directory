@@ -1,0 +1,11 @@
+name: Hugging Face Transformers Agents
+url: https://huggingface.co/docs/transformers/en/agents
+description: Agent library built into the Hugging Face Transformers ecosystem that
+  allows LLMs to use tools and autonomously execute tasks. Provides seamless integration
+  with Hugging Face models and tools, enabling developers to build agentic applications
+  within the Transformers framework with minimal setup.
+github_repo: null
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

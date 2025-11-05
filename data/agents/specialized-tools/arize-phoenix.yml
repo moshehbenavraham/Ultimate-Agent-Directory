@@ -1,0 +1,11 @@
+name: Arize Phoenix
+url: https://phoenix.arize.com
+description: Open-source AI observability platform for evaluating, troubleshooting,
+  and monitoring LLM applications and agents. Provides experiment tracking, prompt
+  tracing, retrieval analysis, and LLM evaluations with support for traces, spans,
+  and comprehensive debugging tools for production AI systems.
+github_repo: null
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

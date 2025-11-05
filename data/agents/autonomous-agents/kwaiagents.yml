@@ -1,0 +1,10 @@
+name: KwaiAgents
+url: https://github.com/KwaiKEG/KwaiAgents
+description: Generalized agent system that leverages Large Language Models for information-seeking
+  and complex task completion. Designed for multi-domain autonomous task execution
+  and knowledge retrieval.
+github_repo: KwaiKEG/KwaiAgents
+category: autonomous-agents
+added_date: '2025-11-05'
+verified: false
+type: tool

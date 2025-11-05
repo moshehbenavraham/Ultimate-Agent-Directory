@@ -1,0 +1,10 @@
+name: CyberArk
+url: https://www.cyberark.com
+description: Enterprise security platform designed to secure autonomous AI agents
+  themselves, addressing the new security risks and access-management challenges created
+  when agents are deployed in sensitive environments.
+github_repo: null
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

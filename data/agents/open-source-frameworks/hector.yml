@@ -1,0 +1,11 @@
+name: Hector
+url: https://github.com/kadirpekel/hector
+description: Declarative platform for building Agent-to-Agent (A2A) native AI agents
+  with focus on inter-agent communication. Enables creation of agent ecosystems where
+  agents communicate and collaborate using declarative configuration and standardized
+  protocols.
+github_repo: kadirpekel/hector
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

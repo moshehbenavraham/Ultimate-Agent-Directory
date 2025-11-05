@@ -1,0 +1,12 @@
+name: Semantic Kernel
+url: https://github.com/microsoft/semantic-kernel
+description: Microsoft's open-source SDK for integrating AI Large Language Models
+  with conventional programming languages including C#, Python, and Java. Semantic
+  Kernel serves as middleware that enables rapid delivery of enterprise-grade AI solutions
+  with built-in planning capabilities and seamless integration with existing business
+  systems.
+github_repo: microsoft/semantic-kernel
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

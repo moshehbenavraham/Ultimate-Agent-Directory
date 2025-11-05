@@ -1,0 +1,11 @@
+name: Continue.dev
+url: https://continue.dev/
+description: An open-source AI code assistant that enables developers to create, share,
+  and use custom AI code assistants. It provides VS Code and JetBrains extensions
+  with chat, autocomplete, edit, and agent modes, supporting multiple AI models and
+  complete customization.
+github_repo: null
+category: coding-assistants
+added_date: '2025-11-05'
+verified: false
+type: tool

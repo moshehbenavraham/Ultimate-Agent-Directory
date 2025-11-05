@@ -1,0 +1,11 @@
+name: Claude Computer Use
+url: https://www.anthropic.com/news/developing-computer-use
+description: A new capability from Anthropic that allows Claude to interact with computer
+  interfaces by looking at screens, moving cursors, clicking buttons, and typing text.
+  This represents a significant advancement in AI agents' ability to perform complex
+  computer tasks autonomously.
+github_repo: null
+category: browser-automation
+added_date: '2025-11-05'
+verified: false
+type: tool

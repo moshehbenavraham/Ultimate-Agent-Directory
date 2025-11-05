@@ -1,0 +1,12 @@
+name: IBM watsonx Orchestrate
+url: https://www.ibm.com/products/watsonx-orchestrate
+description: IBM's generative AI and automation solution for creating and managing
+  AI agents that handle enterprise workflows. Provides multi-agent orchestration with
+  visual builder capabilities, a catalog of 100+ prebuilt domain-specific agents,
+  400+ tool integrations, and centralized governance for security and compliance at
+  scale.
+github_repo: null
+category: enterprise-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

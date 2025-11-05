@@ -1,0 +1,11 @@
+name: Agent4Rec
+url: https://github.com/LehengTHU/Agent4Rec
+description: A recommender system simulator that utilizes 1,000 LLM-empowered generative
+  agents for research into recommendation systems. Agent4Rec provides a comprehensive
+  research environment for studying agent-based recommendation algorithms and user
+  behavior modeling.
+github_repo: LehengTHU/Agent4Rec
+category: research-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

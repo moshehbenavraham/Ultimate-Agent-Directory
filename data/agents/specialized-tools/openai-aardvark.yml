@@ -1,0 +1,10 @@
+name: OpenAI Aardvark
+url: https://openai.com/index/introducing-aardvark/
+description: Autonomous AI security agent powered by GPT-5 that operates as an agentic
+  security researcher to continuously monitor repositories, discover vulnerabilities,
+  assess exploitability, and propose targeted patches.
+github_repo: null
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

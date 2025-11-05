@@ -1,0 +1,12 @@
+name: Vellum AI
+url: https://vellum.ai
+description: A collaborative enterprise platform for building, testing, and deploying
+  AI agents with a unified visual builder and SDK. Vellum provides built-in evaluation
+  sets, version control, full observability with tracing and logging, RBAC governance,
+  audit trails, and flexible cloud or on-premises deployment for cross-functional
+  teams building production-ready agent workflows.
+github_repo: null
+category: no-code-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

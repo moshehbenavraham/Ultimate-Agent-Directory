@@ -1,0 +1,13 @@
+name: n8n
+url: https://n8n.io
+description: A powerful, agentic workflow automation platform designed for technical
+  teams with both code and no-code flexibility. Features AI-native automation with
+  LangChain integration, visual drag-and-drop workflow builder, 400+ integrations,
+  and autonomous AI agents that can process data, make decisions, and trigger actions.
+  Supports self-hosting with fair-code licensing (not pure open-source) and enterprise-ready
+  features including SSO, advanced permissions, and air-gapped deployments.
+github_repo: null
+category: no-code-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

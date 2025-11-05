@@ -1,0 +1,11 @@
+name: AgentLabs
+url: https://github.com/agentlabs-inc/agentlabs
+description: An open-source universal frontend solution for AI agents providing authentication
+  portal, chat interface, analytics, and payment features. AgentLabs streamlines agent
+  deployment by offering a complete user-facing platform with built-in monetization
+  and usage tracking capabilities.
+github_repo: agentlabs-inc/agentlabs
+category: no-code-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

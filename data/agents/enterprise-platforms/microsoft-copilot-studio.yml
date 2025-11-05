@@ -1,0 +1,12 @@
+name: Microsoft Copilot Studio
+url: https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio
+description: Microsoft's enterprise AI agent platform that enables organizations to
+  build, deploy, and manage intelligent agents using generative AI and sophisticated
+  dialog creation. Features multi-agent orchestration, computer use capabilities,
+  and integration with Microsoft 365 ecosystem, Azure AI Foundry, and over 1,800 models
+  for enterprise-grade automation.
+github_repo: null
+category: enterprise-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

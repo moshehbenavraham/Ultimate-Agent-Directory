@@ -1,0 +1,10 @@
+name: Ingram Micro Xvantage
+url: https://www.ingrammicro.com
+description: AI agent built with Google Gemini models embedded in the Xvantage distribution
+  platform, designed to provide actionable daily briefs and data-driven recommendations
+  to sales teams.
+github_repo: null
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

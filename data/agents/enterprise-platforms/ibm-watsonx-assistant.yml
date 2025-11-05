@@ -1,0 +1,11 @@
+name: IBM watsonx Assistant
+url: https://www.ibm.com/products/watsonx-assistant
+description: IBM's enterprise AI agent platform that delivers prebuilt agents for
+  HR, sales, procurement, and customer care functions. Integrates with over 80 enterprise
+  applications and uses watsonx foundation models to automate complex workflows while
+  maintaining enterprise-grade security and compliance.
+github_repo: null
+category: enterprise-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

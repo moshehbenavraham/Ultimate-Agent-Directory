@@ -1,0 +1,10 @@
+name: Wordware
+url: https://www.wordware.ai
+description: A web-hosted IDE for collaborative AI agent development that treats prompts
+  as a programming language. Wordware enables teams to build complex multi-step agentic
+  workflows with a unique approach that bridges natural language and code-based development.
+github_repo: null
+category: no-code-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

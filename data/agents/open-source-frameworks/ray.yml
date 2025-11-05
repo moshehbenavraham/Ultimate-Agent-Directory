@@ -1,0 +1,11 @@
+name: Ray
+url: https://www.ray.io
+description: Python framework for distributed computing that excels in multi-agent
+  reinforcement learning and real-time decision systems. Scales agents across clusters
+  using actor model for parallel execution, critical for training and deploying sophisticated
+  multi-agent reinforcement learning applications in production environments.
+github_repo: null
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

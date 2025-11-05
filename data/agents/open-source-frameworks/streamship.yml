@@ -1,0 +1,11 @@
+name: Streamship
+url: https://github.com/streamship-ai/streamship
+description: Open-source development platform for AI Agents offering Python SDK, cloud
+  deployment, serverless hosting, and vector search. Provides complete infrastructure
+  for building, deploying, and scaling AI agents with managed services and developer-friendly
+  APIs.
+github_repo: streamship-ai/streamship
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

@@ -1,0 +1,11 @@
+name: Oracle AI Agent Studio
+url: https://www.oracle.com/artificial-intelligence/ai-agents/
+description: Oracle's comprehensive platform for creating, extending, and managing
+  AI agents across the enterprise, featuring 50+ role-based agents embedded in Oracle
+  Fusion Cloud Applications. Includes no-code tools, agent template libraries, and
+  deep integration with Oracle's business applications and cloud infrastructure.
+github_repo: null
+category: enterprise-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

@@ -1,0 +1,11 @@
+name: Lobe Chat
+url: https://github.com/lobehub/lobe-chat
+description: An open-source high-performance UI framework for building LLM-based chat
+  applications with multi-modal support, extensible plugins, and one-click deployment.
+  Lobe Chat provides a modern interface for AI conversations with support for images,
+  voice, and custom agent configurations.
+github_repo: lobehub/lobe-chat
+category: no-code-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

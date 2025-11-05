@@ -1,0 +1,11 @@
+name: CrewAI AMP
+url: https://www.crewai.com/
+description: The enterprise-grade Agent Management Platform from CrewAI for managing,
+  scaling, monitoring, and optimizing collaborative AI agents in production environments.
+  Separate from the open-source CrewAI framework, this platform provides centralized
+  control, observability, and governance for multi-agent systems at scale.
+github_repo: null
+category: enterprise-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

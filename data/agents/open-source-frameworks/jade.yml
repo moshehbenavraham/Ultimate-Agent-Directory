@@ -1,0 +1,11 @@
+name: JADE
+url: https://jade.tilab.com
+description: Foundational Java-based multi-agent framework for building FIPA-compliant
+  systems with ACL messaging, agent discovery, and distributed execution. Provides
+  robust infrastructure for industrial and research agent applications with GUI-based
+  debugging tools and support for distributed agent deployment across networks.
+github_repo: null
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

@@ -1,0 +1,11 @@
+name: Voyager
+url: https://voyager.minedojo.org
+description: Cutting-edge research project demonstrating an autonomous LLM-driven
+  agent in Minecraft. The first GPT-4-powered embodied lifelong learning agent that
+  continuously explores, writes and executes code to acquire new skills, and self-improves
+  over time without human intervention using automatic curriculum and iterative prompting.
+github_repo: null
+category: autonomous-agents
+added_date: '2025-11-05'
+verified: false
+type: tool

@@ -1,0 +1,12 @@
+name: Dify
+url: https://dify.ai
+description: An open-source LLM app development platform that combines agentic AI
+  workflow, RAG pipeline, and agent capabilities with model management and observability
+  features. Dify offers a comprehensive solution for building production-ready AI
+  applications with visual workflow design, extensive model support, and built-in
+  debugging tools.
+github_repo: null
+category: no-code-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

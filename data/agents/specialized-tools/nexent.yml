@@ -1,0 +1,12 @@
+name: Nexent
+url: https://github.com/ModelEngine-Group/nexent
+description: 'Zero-code open-source platform for auto-generating intelligent agents
+  from natural language prompts through a simple workflow: prompt → plan → execute.
+  Eliminates complex orchestration and drag-and-drop requirements while offering powerful
+  agent running control, data processing capabilities, and MCP tool integration for
+  building sophisticated agents without technical expertise.'
+github_repo: ModelEngine-Group/nexent
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

@@ -1,0 +1,11 @@
+name: ai-town
+url: https://github.com/a16z-infra/ai-town
+description: Starter kit for building and customizing virtual towns populated with
+  AI agents that can socialize and interact. Built on the Convex platform, provides
+  foundation for creating simulated social environments with autonomous agents for
+  research and entertainment applications.
+github_repo: a16z-infra/ai-town
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

@@ -1,0 +1,11 @@
+name: CAMEL
+url: https://github.com/camel-ai/camel
+description: A research framework that introduces agents that role-play to solve tasks
+  collaboratively through conversational dynamics. CAMEL enables agents to take different
+  roles (user, assistant) and drive problem-solving through dialogue, with implications
+  for training, simulations, and AI alignment research.
+github_repo: camel-ai/camel
+category: research-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

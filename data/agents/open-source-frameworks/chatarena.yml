@@ -1,0 +1,11 @@
+name: ChatArena
+url: https://github.com/Farama-Foundation/chatarena
+description: Library for multi-agent language game environments used by researchers
+  to study social interaction and collaborative task-solving among LLM agents. Provides
+  standardized environments for evaluating multi-agent communication, cooperation,
+  and competition in conversational settings.
+github_repo: Farama-Foundation/chatarena
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

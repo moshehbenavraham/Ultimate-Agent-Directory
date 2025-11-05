@@ -1,0 +1,11 @@
+name: Claude for Excel
+url: https://www.anthropic.com/news/advancing-claude-for-financial-services
+description: An Anthropic research preview that embeds Claude directly into Microsoft
+  Excel for financial services. Allows financial analysts to read, analyze, modify,
+  and create workbooks using natural language, bringing agentic AI capabilities directly
+  into enterprise spreadsheet workflows.
+github_repo: null
+category: enterprise-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

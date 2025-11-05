@@ -1,0 +1,12 @@
+name: MixedVoices
+url: https://www.mixedvoices.xyz
+description: Open-source analytics and evaluation platform for voice AI agents, functioning
+  as Mixpanel for conversational AI with auto-generation of interactive call flow
+  visualizations. Enables developers to analyze, visualize, evaluate, and optimize
+  conversational AI performance by understanding common user paths, behaviors, and
+  agent interaction patterns for continuous improvement.
+github_repo: null
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

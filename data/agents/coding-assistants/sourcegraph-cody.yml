@@ -1,0 +1,11 @@
+name: Sourcegraph Cody
+url: https://sourcegraph.com/cody
+description: An AI coding assistant that uses advanced search and codebase context
+  to help write and fix code. It provides chat functionality, autocomplete, and inline
+  edits with deep understanding of entire codebases, making it particularly effective
+  for large-scale enterprise development.
+github_repo: null
+category: coding-assistants
+added_date: '2025-11-05'
+verified: false
+type: tool

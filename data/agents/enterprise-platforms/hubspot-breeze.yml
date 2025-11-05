@@ -1,0 +1,11 @@
+name: HubSpot Breeze
+url: https://www.hubspot.com/products/artificial-intelligence/breeze-customer-agent
+description: AI-powered customer service agent that handles inquiries in real-time,
+  provides instant responses, and intelligently routes complex issues to human agents.
+  Integrates with HubSpot's CRM and marketing tools to maintain context across customer
+  touchpoints.
+github_repo: null
+category: enterprise-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

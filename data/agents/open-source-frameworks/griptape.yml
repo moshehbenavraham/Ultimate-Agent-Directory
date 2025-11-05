@@ -1,0 +1,12 @@
+name: Griptape
+url: https://github.com/griptape-ai/griptape
+description: Modular open-source Python framework for developing AI agent applications
+  with focus on reliability and security. Offers clean abstractions to build agents,
+  systems of agents, pipelines, workflows, and RAG setups with off-prompt business
+  logic definition, memory management, and integration with data sources for production-ready
+  solutions.
+github_repo: griptape-ai/griptape
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

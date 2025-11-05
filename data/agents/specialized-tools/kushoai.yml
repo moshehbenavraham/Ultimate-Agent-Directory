@@ -1,0 +1,10 @@
+name: KushoAI
+url: https://kusho.ai/
+description: AI-powered API testing platform that generates and runs comprehensive
+  test suites automatically. Integrates with CI/CD pipelines to provide continuous
+  testing and crash-free releases with AI-analyzed results.
+github_repo: null
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

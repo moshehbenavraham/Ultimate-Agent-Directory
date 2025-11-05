@@ -1,0 +1,13 @@
+name: Cisco Unified Edge
+url: https://www.cisco.com/site/us/en/products/computing/unified-edge/index.html
+description: Integrated edge computing platform announced November 2025 for distributed
+  agentic AI workloads, combining compute, networking, and storage into a single modular
+  system. Features CPU and GPU configurations, up to 120TB storage, redundant power
+  and cooling, integrated 25-gigabit networking, zero-touch deployment, and pre-validated
+  blueprints designed for real-time AI inferencing from retail stores to healthcare
+  facilities to factory floors.
+github_repo: null
+category: specialized-tools
+added_date: '2025-11-05'
+verified: false
+type: tool

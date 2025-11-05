@@ -1,0 +1,11 @@
+name: OpenAGI
+url: https://github.com/agiresearch/OpenAGI
+description: Framework that combines LLMs with domain-specific expert models to solve
+  advanced tasks through collaborative intelligence. Enables agents to leverage specialized
+  models for complex problem-solving, bridging general language understanding with
+  domain-specific expertise for enhanced task performance.
+github_repo: agiresearch/OpenAGI
+category: open-source-frameworks
+added_date: '2025-11-05'
+verified: false
+type: framework

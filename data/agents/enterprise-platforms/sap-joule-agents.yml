@@ -1,0 +1,11 @@
+name: SAP Joule Agents
+url: https://www.sap.com/products/artificial-intelligence/joule.html
+description: SAP's AI agent platform powered by Joule that delivers collaborative
+  intelligence across enterprise functions with over 1,300 skills and 230+ AI-powered
+  scenarios. Features the SAP Knowledge Graph for business process grounding and integrates
+  deeply with SAP's business applications for autonomous multi-step workflow execution.
+github_repo: null
+category: enterprise-platforms
+added_date: '2025-11-05'
+verified: false
+type: platform

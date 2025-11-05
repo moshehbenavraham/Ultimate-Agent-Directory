@@ -1,0 +1,10 @@
+name: UFO
+url: https://github.com/microsoft/UFO
+description: UI-focused agent from Microsoft designed to interact with and automate
+  tasks within the Windows OS environment. Enables autonomous control of Windows applications
+  through intelligent UI understanding and interaction.
+github_repo: microsoft/UFO
+category: autonomous-agents
+added_date: '2025-11-05'
+verified: false
+type: tool

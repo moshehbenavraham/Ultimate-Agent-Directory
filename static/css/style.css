@@ -1,0 +1,241 @@
+/* Ultimate Agent Directory - Custom Styles */
+
+:root {
+    --primary-blue: #2563eb;
+    --primary-blue-hover: #1d4ed8;
+    --gray-50: #f9fafb;
+    --gray-100: #f3f4f6;
+    --gray-600: #4b5563;
+    --gray-800: #1f2937;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom Line Clamp */
+.line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Sort Button Styles */
+.sort-btn {
+    background-color: var(--gray-100);
+    color: var(--gray-600);
+    transition: all 0.2s ease;
+}
+
+.sort-btn:hover {
+    background-color: #e5e7eb;
+    color: var(--gray-800);
+}
+
+.sort-btn.active {
+    background-color: var(--primary-blue);
+    color: white;
+}
+
+/* Tag Button Styles */
+.tag-btn {
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.tag-btn.active {
+    background-color: #dbeafe !important;
+    color: #1d4ed8 !important;
+    border-color: #3b82f6;
+    font-weight: 600;
+}
+
+/* Agent Card Animation */
+.agent-card {
+    transition: all 0.3s ease;
+    border-left-width: 4px;
+}
+
+.agent-card:hover {
+    transform: translateX(4px);
+}
+
+.agent-card.hidden {
+    display: none;
+}
+
+/* Search Results Dropdown */
+#search-results {
+    animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Loading Spinner */
+.spinner {
+    border: 3px solid var(--gray-100);
+    border-top-color: var(--primary-blue);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Category Card Hover Effect */
+.category-card {
+    transition: all 0.3s ease;
+}
+
+.category-card:hover {
+    transform: translateY(-4px);
+}
+
+/* Badge Styles */
+.badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+/* Tooltip */
+[title] {
+    position: relative;
+}
+
+/* Mobile Menu Transition */
+#mobile-menu {
+    transition: all 0.3s ease;
+}
+
+#mobile-menu.show {
+    display: block;
+}
+
+/* Search Highlight */
+.search-highlight {
+    background-color: #fef08a;
+    padding: 0 2px;
+    border-radius: 2px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .agent-card {
+        border-left-width: 3px;
+    }
+
+    .agent-card:hover {
+        transform: translateX(2px);
+    }
+}
+
+/* Print Styles */
+@media print {
+    header,
+    footer,
+    #global-search,
+    #category-search,
+    .filter-section {
+        display: none;
+    }
+
+    .agent-card {
+        page-break-inside: avoid;
+        border: 1px solid #e5e7eb;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Accessibility */
+.focus-visible:focus {
+    outline: 2px solid var(--primary-blue);
+    outline-offset: 2px;
+}
+
+/* Dark mode support (optional future enhancement) */
+@media (prefers-color-scheme: dark) {
+    /* Dark mode styles can be added here */
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--gray-100);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--gray-600);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--gray-800);
+}
+
+/* Animation for featured items */
+@keyframes pulse-subtle {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.9;
+    }
+}
+
+.featured-pulse {
+    animation: pulse-subtle 2s ease-in-out infinite;
+}
+
+/* Stats counter animation */
+.stat-counter {
+    transition: all 0.3s ease;
+}
+
+.stat-counter:hover {
+    transform: scale(1.05);
+}
+
+/* Link hover effects */
+a {
+    transition: color 0.2s ease;
+}
+
+/* Button focus states */
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+    outline: 2px solid var(--primary-blue);
+    outline-offset: 2px;
+}
+
+/* Smooth transitions for all interactive elements */
+button,
+input,
+select,
+.tag-btn,
+.sort-btn {
+    transition: all 0.2s ease;
+}

@@ -1,0 +1,159 @@
+{% extends "base.html.jinja2" %}
+
+{% block content %}
+
+<!-- Hero Section -->
+<section class="text-center py-12 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg shadow-sm mb-12">
+    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        {{ metadata.title }}
+    </h1>
+    <p class="text-xl text-gray-700 mb-6 max-w-3xl mx-auto">
+        {{ metadata.tagline }}
+    </p>
+    <div class="flex flex-wrap justify-center gap-4 text-sm">
+        <span class="bg-white px-4 py-2 rounded-full shadow-sm">
+            <i class="fas fa-robot text-blue-600 mr-2"></i>
+            <strong>{{ metadata.total_entries }}</strong> AI Agents & Tools
+        </span>
+        <span class="bg-white px-4 py-2 rounded-full shadow-sm">
+            <i class="fas fa-layer-group text-green-600 mr-2"></i>
+            <strong>{{ categories|length }}</strong> Categories
+        </span>
+        <span class="bg-white px-4 py-2 rounded-full shadow-sm">
+            <i class="fas fa-code text-purple-600 mr-2"></i>
+            Open Source & Commercial
+        </span>
+    </div>
+</section>
+
+<!-- Search Section -->
+<section class="mb-12">
+    <div class="max-w-2xl mx-auto">
+        <div class="relative">
+            <input
+                type="text"
+                id="global-search"
+                placeholder="Search agents, frameworks, tools..."
+                class="w-full px-6 py-4 text-lg border-2 border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none shadow-sm"
+            >
+            <i class="fas fa-search absolute right-6 top-1/2 transform -translate-y-1/2 text-gray-400 text-xl"></i>
+        </div>
+        <div id="search-results" class="mt-4 hidden">
+            <div class="bg-white rounded-lg shadow-lg p-4 max-h-96 overflow-y-auto">
+                <!-- Search results will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Statistics Dashboard -->
+<section class="mb-12">
+    <h2 class="text-3xl font-bold mb-6 text-center">Quick Stats</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        {% for category in categories[:4] %}
+        <div class="bg-white rounded-lg shadow-sm p-6 text-center hover:shadow-md transition">
+            <div class="text-4xl mb-2">{{ category.emoji }}</div>
+            <div class="text-2xl font-bold text-blue-600">
+                {{ entries_by_category.get(category.id, [])|length }}
+            </div>
+            <div class="text-sm text-gray-600 mt-1">{{ category.title }}</div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- Categories Section -->
+<section id="categories" class="scroll-mt-20">
+    <h2 class="text-3xl font-bold mb-8 text-center">Browse by Category</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {% for category in categories %}
+        <a href="/categories/{{ category.id }}.html"
+           class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-200 p-6 border-2 border-transparent hover:border-blue-500 group">
+            <div class="flex items-start justify-between mb-3">
+                <div class="text-5xl">{{ category.emoji }}</div>
+                <div class="text-sm font-bold text-blue-600 bg-blue-50 px-3 py-1 rounded-full">
+                    {{ entries_by_category.get(category.id, [])|length }} items
+                </div>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-blue-600 transition">
+                {{ category.title }}
+            </h3>
+            <p class="text-gray-600 text-sm line-clamp-3">
+                {{ category.description }}
+            </p>
+            <div class="mt-4 text-blue-600 text-sm font-semibold group-hover:underline">
+                Explore {{ category.title }} <i class="fas fa-arrow-right ml-1"></i>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- Featured Agents Section (if any) -->
+{% set featured_agents = [] %}
+{% for category_id, agents in entries_by_category.items() %}
+    {% for agent in agents %}
+        {% if agent.featured %}
+            {% set _ = featured_agents.append(agent) %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+
+{% if featured_agents %}
+<section class="mt-16">
+    <h2 class="text-3xl font-bold mb-8 text-center">Featured Agents</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {% for agent in featured_agents[:6] %}
+        <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition p-6 border-l-4 border-yellow-400">
+            <div class="flex items-start justify-between mb-3">
+                <h3 class="text-lg font-bold text-gray-900">{{ agent.name }}</h3>
+                {% if agent.github_stars %}
+                <span class="text-sm text-gray-500">
+                    <i class="fas fa-star text-yellow-500"></i> {{ agent.github_stars }}
+                </span>
+                {% endif %}
+            </div>
+            <p class="text-gray-600 text-sm mb-4">{{ agent.description[:150] }}{% if agent.description|length > 150 %}...{% endif %}</p>
+            <div class="flex items-center justify-between">
+                <a href="{{ agent.url }}" target="_blank" class="text-blue-600 hover:underline text-sm font-semibold">
+                    Visit <i class="fas fa-external-link-alt ml-1"></i>
+                </a>
+                {% if agent.tags %}
+                <div class="flex gap-1">
+                    {% for tag in agent.tags[:2] %}
+                    <span class="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endif %}
+
+<!-- Call to Action -->
+<section class="mt-16 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-lg shadow-lg p-12 text-center">
+    <h2 class="text-3xl font-bold mb-4">Want to Contribute?</h2>
+    <p class="text-lg mb-6 max-w-2xl mx-auto">
+        Help us grow this directory by adding new AI agents, frameworks, and tools.
+        All contributions are welcome!
+    </p>
+    <div class="flex flex-wrap justify-center gap-4">
+        <a href="https://github.com/AIwithApex/Ultimate-Agent-Directory" target="_blank"
+           class="bg-white text-blue-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition">
+            <i class="fab fa-github mr-2"></i> Contribute on GitHub
+        </a>
+        <a href="https://github.com/AIwithApex/Ultimate-Agent-Directory/issues/new/choose" target="_blank"
+           class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-blue-600 transition">
+            <i class="fas fa-plus-circle mr-2"></i> Suggest an Agent
+        </a>
+    </div>
+</section>
+
+{% endblock %}
+
+{% block extra_scripts %}
+<script src="/static/js/search.js"></script>
+{% endblock %}

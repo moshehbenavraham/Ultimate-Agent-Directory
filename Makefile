@@ -1,4 +1,4 @@
-.PHONY: help install validate generate clean test
+.PHONY: help install validate generate clean test site serve
 
 PYTHON := venv/bin/python
 PIP := venv/bin/pip
@@ -9,6 +9,8 @@ help:
 	@echo "  make install    - Install dependencies in virtual environment"
 	@echo "  make validate   - Validate all YAML files"
 	@echo "  make generate   - Generate README.md from YAML data"
+	@echo "  make site       - Generate static website in _site/"
+	@echo "  make serve      - Build site and start local web server"
 	@echo "  make test       - Run validation and generation"
 	@echo "  make clean      - Remove generated files and cache"
 	@echo "  make migrate    - Run migration (dry-run)"
@@ -31,7 +33,18 @@ test: validate generate
 migrate:
 	$(PYTHON) scripts/migrate.py --all --dry-run
 
+site:
+	$(PYTHON) scripts/generate_site.py
+
+serve: site
+	@echo ""
+	@echo "Starting local web server..."
+	@echo "Visit: http://localhost:8000"
+	@echo "Press Ctrl+C to stop"
+	@echo ""
+	cd _site && python3 -m http.server 8000
+
 clean:
-	rm -rf __pycache__ scripts/__pycache__
+	rm -rf __pycache__ scripts/__pycache__ _site/
 	find . -type f -name "*.pyc" -delete
-	@echo "✓ Cleaned cache files"
+	@echo "✓ Cleaned cache files and _site/"

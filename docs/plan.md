@@ -1,199 +1,112 @@
-# Structured Data System - Implementation Roadmap
+# Work TODO List
 
-See docs/CHANGELOG.md for work completed
-
-## Remaining Work
-
-### PHASE 4: Website Generation (3-5 days)
-
-**Goal:** Generate static HTML website from YAML data
-
-**Status:** Infrastructure ready, templates needed
-
-#### 4.1 HTML Templates
-
-Create in `templates/`:
-
-- `base.html.jinja2` - Base layout with navigation
-- `index.html.jinja2` - Homepage with category cards
-- `category.html.jinja2` - Category detail pages with filterable tables
-- `agent.html.jinja2` - Individual agent detail pages (optional)
-
-**Features:**
-- Responsive design (mobile-friendly)
-- Client-side search with JavaScript
-- Filter by tags, platform, pricing
-- Sort by stars, name, date added
-- Category navigation
-- Statistics dashboard
-
-#### 4.2 Static Assets
-
-Create in `static/`:
-
-- `css/style.css` - Clean, minimal styling (consider Tailwind CSS)
-- `js/search.js` - Client-side search and filtering
-- `images/` - Logos, icons, placeholders
-
-#### 4.3 Website Generator
-
-**File:** `scripts/generate_site.py`
-
-Features:
-- Load all YAML data
-- Render HTML templates
-- Copy static assets to `_site/`
-- Generate sitemap.xml
-- Create search index JSON
-
-**Usage:**
-```bash
-venv/bin/python scripts/generate_site.py
-# Output: _site/ directory ready for deployment
-```
-
-#### 4.4 Deployment
-
-Options:
-- GitHub Pages (free, automatic with Actions)
+> **History & completed work:** See `docs/CHANGELOG.md`
 
 ---
 
-### PHASE 5: Automation & CI/CD (2-3 days)
+## PHASE 5: Automation & CI/CD
 
-**Goal:** Automate validation, builds, and metadata updates
+### 5.1 Weekly Metadata Updates - NOT STARTED
 
-**Status:** Ready to implement, requires GitHub Actions
+**Create:** `.github/workflows/update-metadata.yml`
 
-#### 5.1 GitHub Actions Workflows
+**Tasks:**
+- [ ] Write `scripts/update_metadata.py`
+- [ ] Fetch GitHub stars for all repos with github_repo field
+- [ ] Update last_updated dates from GitHub API
+- [ ] Check for archived repos (set is_archived: true)
+- [ ] Update github_stars field in YAML files
+- [ ] Create automated PR with changes
+- [ ] Schedule: Weekly (Sunday midnight)
 
-Create in `.github/workflows/`:
+### 5.2 Pre-commit Hooks - NOT STARTED (OPTIONAL)
 
-**`validate.yml`** - Run on PRs
-```yaml
-- Validate all YAML files
-- Check for duplicates
-- Verify URLs are reachable
-- Run on: Pull requests to main
-```
+**Create:** `.pre-commit-config.yaml`
 
-**`build.yml`** - Build and deploy
-```yaml
-- Validate YAML
-- Generate README.md
-- Generate website (_site/)
-- Deploy to GitHub Pages
-- Run on: Push to main
-```
+**Tasks:**
+- [ ] Add YAML validation hook
+- [ ] Add YAML linting hook
+- [ ] Test locally
 
-**`update-metadata.yml`** - Weekly updates
-```yaml
-- Fetch GitHub stars for all repos
-- Update last_updated dates
-- Check for archived repos
-- Create PR with updates
-- Run on: Schedule (weekly)
-```
+### 5.3 Link Checker - NOT STARTED
 
-#### 5.2 Pre-commit Hooks
+**Create:** `scripts/check_links.py`
 
-Add pre-commit hooks for local validation
-
-**File:** `.pre-commit-config.yaml`
-```yaml
-- YAML validation
-- Python linting
-- Format checking
-```
-
-#### 5.3 Link Checker
-
-Add automated link checking:
-- Check all URLs are reachable (HTTP 200)
-- Flag broken links
-- Create issues for manual review
+**Tasks:**
+- [ ] Write script to check all URLs return HTTP 200
+- [ ] Add timeout handling (5 seconds per URL)
+- [ ] Add retry logic for transient failures
+- [ ] Flag broken links in GitHub issues
+- [ ] Add rate limiting
+- [ ] Create `.github/workflows/link-check.yml` for weekly checks
 
 ---
 
-### PHASE 6: Documentation (1-2 days)
+## PHASE 6: Documentation
 
-**Goal:** Update all documentation for new workflow
+### 6.1 Update CONTRIBUTING.md - NOT STARTED
 
-**Status:** QUICKSTART.md created, others need updates
+**Tasks:**
+- [ ] Add Quick Start section (fork, clone, setup)
+- [ ] Document adding agents via YAML workflow
+- [ ] Document adding agents via GitHub Issues
+- [ ] Document adding new categories
+- [ ] List validation requirements
+- [ ] Explain PR review process
 
-#### Files to Update
+### 6.2 Create SCHEMA.md - NOT STARTED
 
-**`CONTRIBUTING.md`**
-- New YAML-based contribution workflow
-- How to add entries via YAML files
-- How to add entries via issues (automated conversion)
-- Validation requirements
-- PR review process
+**Tasks:**
+- [ ] Document all required fields with examples
+- [ ] Document all optional fields with examples
+- [ ] Explain field validators
+- [ ] Document Category schema
+- [ ] Add full YAML examples for each entry type
+- [ ] Add troubleshooting guide for common validation errors
 
-**`docs/SCHEMA.md`** (new)
-- Complete field documentation
-- Required vs optional fields
-- Validation rules
-- Examples for each field type
-- Best practices
+### 6.3 Update Issue Templates - NOT STARTED
 
-**`README.md`** (footer)
-- Add note about auto-generation
-- Link to CONTRIBUTING.md
-- Link to SCHEMA.md
+**File:** `.github/ISSUE_TEMPLATE/suggestion.yml`
 
-**Issue Templates**
-- Update suggestion.yml to collect YAML-compatible data
-- Auto-generate YAML from issue submissions
+**Tasks:**
+- [ ] Add platform/language field (dropdown)
+- [ ] Add pricing field (dropdown: free, freemium, paid, enterprise)
+- [ ] Add tags field (comma-separated)
+- [ ] Add GitHub repo field (optional)
+- [ ] Add auto-labeling
 
----
+### 6.4 Update README.md Footer - NOT STARTED
 
-## Timeline Summary
-
-| Phase | Status | Duration | Deliverable |
-|-------|--------|----------|-------------|
-| **Phase 1-2: Foundation** | ✓ Complete | 1 day | Schema, validation, generation working |
-| **Phase 3: Migration** | ✓ Complete | 1 day | 277 entries in YAML, 100% validated |
-| **Phase 4: Website** | Next | 3-5 days | Static website with search |
-| **Phase 5: Automation** | Planned | 2-3 days | GitHub Actions, auto-updates |
-| **Phase 6: Documentation** | Planned | 1-2 days | Complete contributor docs |
-
-**Total Remaining:** ~1-2 weeks to full production system
+**Tasks:**
+- [ ] Add generation notice
+- [ ] Add link to CONTRIBUTING.md
+- [ ] Add link to SCHEMA.md
+- [ ] Add website link
+- [ ] Add "do not edit directly" warning
 
 ---
 
-## Success Criteria
+## DEPLOYMENT
 
-- [x] All 280+ entries migrated to YAML (277 completed)
-- [x] 100% validation pass rate
-- [x] Generated README matches current structure
-- [ ] Website deployed and functional
-- [ ] GitHub Actions running automatically
-- [ ] Contributors can add entries via YAML or issues
-- [ ] Link checking automated
-- [ ] GitHub metrics auto-update weekly
+### First Deployment - IN PROGRESS
 
----
----
-
-## Potential Future Enhancements (Post-Launch)
-
-1. **API Layer** - REST API for programmatic access
-2. **JSON Export** - Export directory as JSON for other tools
-3. **Community Features** - Voting, reviews, ratings
-4. **Automated Discovery** - Scan GitHub for new agents
-5. **Quality Badges** - Verification levels, activity status
-6. **Analytics** - Track popular agents, trends
-7. **Newsletter** - Weekly digest of new additions
-8. **Comparison Tool** - Side-by-side framework comparisons
-
-See `docs/TODO.md` for feature ideas.
+**Tasks:**
+- [ ] Enable GitHub Pages (Settings > Pages > Source: GitHub Actions)
+- [ ] Set workflow permissions (Settings > Actions > Read and write permissions)
+- [ ] Commit all changes
+- [ ] Push to main branch
+- [ ] Monitor Actions tab for deployment
+- [ ] Verify site is live at https://aiwithapex.github.io/Ultimate-Agent-Directory
 
 ---
 
-## Getting Help
+## Success Checklist
 
-- **Documentation:** `docs/QUICKSTART.md` for usage
-- **Issues:** Report problems or suggest features
-- **Discussions:** Ask questions, share ideas
-- **Email:** max@aiwithapex.com
+- [ ] Website live at https://aiwithapex.github.io/Ultimate-Agent-Directory
+- [ ] First deployment verified successful
+- [ ] Weekly GitHub metadata updates automated
+- [ ] Link checker running automatically
+- [ ] CONTRIBUTING.md updated with YAML workflow
+- [ ] SCHEMA.md created with complete field docs
+- [ ] Issue templates enhanced for structured data
+- [ ] README footer updated with generation notice

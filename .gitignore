@@ -18,6 +18,7 @@ build/
 _site/
 
 # Backup files
+backup/
 *.backup
 *.bak
 README.backup.md

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ metadata.tagline }}">
+    <meta name="author" content="{{ metadata.maintainer }}">
+    <meta name="keywords" content="AI agents, AI frameworks, autonomous agents, LangChain, AutoGen, CrewAI, AI tools">
+
+    <title>{% block title %}{{ metadata.title }}{% endblock %}</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico">
+
+    {% block extra_head %}{% endblock %}
+</head>
+<body class="bg-gray-50 text-gray-900 min-h-screen flex flex-col">
+
+    <!-- Navigation Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <!-- Logo and Title -->
+                <div class="flex items-center space-x-3">
+                    <a href="/" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition">
+                        🤖 {{ metadata.title }}
+                    </a>
+                </div>
+
+                <!-- Navigation Links -->
+                <div class="hidden md:flex items-center space-x-6">
+                    <a href="/" class="text-gray-700 hover:text-blue-600 transition">Home</a>
+                    <a href="/#categories" class="text-gray-700 hover:text-blue-600 transition">Categories</a>
+                    <a href="{{ metadata.maintainer_url }}" target="_blank" class="text-gray-700 hover:text-blue-600 transition">
+                        <i class="fas fa-external-link-alt mr-1"></i>AIwithApex
+                    </a>
+                    <a href="https://github.com/AIwithApex/Ultimate-Agent-Directory" target="_blank" class="text-gray-700 hover:text-blue-600 transition">
+                        <i class="fab fa-github mr-1"></i>GitHub
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="md:hidden text-gray-700">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-2 space-y-2">
+                <a href="/" class="block text-gray-700 hover:text-blue-600 transition py-2">Home</a>
+                <a href="/#categories" class="block text-gray-700 hover:text-blue-600 transition py-2">Categories</a>
+                <a href="{{ metadata.maintainer_url }}" target="_blank" class="block text-gray-700 hover:text-blue-600 transition py-2">AIwithApex</a>
+                <a href="https://github.com/AIwithApex/Ultimate-Agent-Directory" target="_blank" class="block text-gray-700 hover:text-blue-600 transition py-2">GitHub</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow container mx-auto px-4 py-8">
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 mt-16">
+        <div class="container mx-auto px-4 py-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- About -->
+                <div>
+                    <h3 class="text-white font-bold mb-3">About</h3>
+                    <p class="text-sm">{{ metadata.tagline }}</p>
+                    <p class="text-sm mt-2">
+                        Total Entries: <span class="text-blue-400 font-bold">{{ metadata.total_entries }}</span>
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-white font-bold mb-3">Quick Links</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="/" class="hover:text-blue-400 transition">Home</a></li>
+                        <li><a href="/#categories" class="hover:text-blue-400 transition">Browse Categories</a></li>
+                        <li><a href="https://github.com/AIwithApex/Ultimate-Agent-Directory" target="_blank" class="hover:text-blue-400 transition">Contribute on GitHub</a></li>
+                        <li><a href="https://github.com/AIwithApex/Ultimate-Agent-Directory/issues" target="_blank" class="hover:text-blue-400 transition">Report Issues</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h3 class="text-white font-bold mb-3">Contact</h3>
+                    <p class="text-sm">Maintained by <a href="{{ metadata.maintainer_url }}" target="_blank" class="text-blue-400 hover:underline">{{ metadata.maintainer }}</a></p>
+                    <p class="text-sm mt-2">Email: <a href="mailto:contact@aiwithapex.com" class="text-blue-400 hover:underline">contact@aiwithapex.com</a></p>
+                    <div class="mt-4 flex space-x-4">
+                        <a href="https://github.com/AIwithApex" target="_blank" class="text-2xl hover:text-blue-400 transition">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="{{ metadata.maintainer_url }}" target="_blank" class="text-2xl hover:text-blue-400 transition">
+                            <i class="fas fa-globe"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="border-t border-gray-700 mt-8 pt-6 text-center text-sm">
+                <p>&copy; 2025 {{ metadata.maintainer }}. Licensed under MIT License.</p>
+                <p class="mt-1 text-gray-400">Last updated: {{ metadata.last_generated }}</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="/static/js/main.js"></script>
+    {% block extra_scripts %}{% endblock %}
+</body>
+</html>

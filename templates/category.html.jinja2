@@ -1,0 +1,253 @@
+{% extends "base.html.jinja2" %}
+
+{% block title %}{{ category.title }} - {{ metadata.title }}{% endblock %}
+
+{% block content %}
+
+<!-- Breadcrumb -->
+<nav class="text-sm text-gray-600 mb-6">
+    <a href="/" class="hover:text-blue-600">Home</a>
+    <span class="mx-2">/</span>
+    <span class="text-gray-900">{{ category.title }}</span>
+</nav>
+
+<!-- Category Header -->
+<section class="bg-white rounded-lg shadow-sm p-8 mb-8">
+    <div class="flex items-start gap-6">
+        <div class="text-6xl">{{ category.emoji }}</div>
+        <div class="flex-grow">
+            <h1 class="text-4xl font-bold text-gray-900 mb-3">{{ category.title }}</h1>
+            <p class="text-lg text-gray-600 mb-4">{{ category.description }}</p>
+            <div class="flex flex-wrap gap-3">
+                <span class="bg-blue-50 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold">
+                    <i class="fas fa-layer-group mr-2"></i>{{ agents|length }} Entries
+                </span>
+                {% if category.show_github_stats %}
+                <span class="bg-yellow-50 text-yellow-700 px-4 py-2 rounded-full text-sm font-semibold">
+                    <i class="fas fa-star mr-2"></i>GitHub Stats Available
+                </span>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Filters and Search -->
+<section class="bg-white rounded-lg shadow-sm p-6 mb-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <!-- Search -->
+        <div class="lg:col-span-2">
+            <label class="block text-sm font-semibold text-gray-700 mb-2">
+                <i class="fas fa-search mr-1"></i> Search
+            </label>
+            <input
+                type="text"
+                id="category-search"
+                placeholder="Search in this category..."
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none"
+            >
+        </div>
+
+        <!-- Filter by Type -->
+        <div>
+            <label class="block text-sm font-semibold text-gray-700 mb-2">
+                <i class="fas fa-filter mr-1"></i> Type
+            </label>
+            <select id="filter-type" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none">
+                <option value="">All Types</option>
+                <option value="framework">Frameworks</option>
+                <option value="platform">Platforms</option>
+                <option value="tool">Tools</option>
+                <option value="course">Courses</option>
+                <option value="community">Communities</option>
+                <option value="research">Research</option>
+            </select>
+        </div>
+
+        <!-- Filter by Pricing -->
+        <div>
+            <label class="block text-sm font-semibold text-gray-700 mb-2">
+                <i class="fas fa-dollar-sign mr-1"></i> Pricing
+            </label>
+            <select id="filter-pricing" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none">
+                <option value="">All</option>
+                <option value="free">Free</option>
+                <option value="freemium">Freemium</option>
+                <option value="paid">Paid</option>
+                <option value="enterprise">Enterprise</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Tag Filter -->
+    <div class="mt-4">
+        <label class="block text-sm font-semibold text-gray-700 mb-2">
+            <i class="fas fa-tags mr-1"></i> Filter by Tag
+        </label>
+        <div id="tag-filter" class="flex flex-wrap gap-2">
+            {% set all_tags = [] %}
+            {% for agent in agents %}
+                {% for tag in agent.tags %}
+                    {% if tag not in all_tags %}
+                        {% set _ = all_tags.append(tag) %}
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+            {% for tag in all_tags|sort %}
+            <button class="tag-btn bg-gray-100 hover:bg-blue-100 text-gray-700 hover:text-blue-700 px-3 py-1 rounded-full text-sm transition" data-tag="{{ tag }}">
+                {{ tag }}
+            </button>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Sort Options -->
+    <div class="mt-4 flex items-center gap-4">
+        <label class="text-sm font-semibold text-gray-700">
+            <i class="fas fa-sort mr-1"></i> Sort by:
+        </label>
+        <div class="flex gap-2">
+            <button class="sort-btn active px-4 py-2 rounded-lg text-sm font-semibold" data-sort="name">Name</button>
+            {% if category.show_github_stats %}
+            <button class="sort-btn px-4 py-2 rounded-lg text-sm font-semibold" data-sort="stars">Stars</button>
+            {% endif %}
+            <button class="sort-btn px-4 py-2 rounded-lg text-sm font-semibold" data-sort="date">Date Added</button>
+        </div>
+    </div>
+</section>
+
+<!-- Results Count -->
+<div id="results-count" class="mb-4 text-gray-600">
+    Showing <span id="visible-count">{{ agents|length }}</span> of {{ agents|length }} entries
+</div>
+
+<!-- Agents Grid -->
+<section id="agents-container" class="grid grid-cols-1 gap-4">
+    {% for agent in agents %}
+    <div class="agent-card bg-white rounded-lg shadow-sm hover:shadow-md transition p-6 border-l-4 border-blue-500"
+         data-name="{{ agent.name|lower }}"
+         data-description="{{ agent.description|lower }}"
+         data-type="{{ agent.type }}"
+         data-pricing="{{ agent.pricing or '' }}"
+         data-tags="{{ agent.tags|join(',') }}"
+         data-stars="{{ agent.github_stars or 0 }}"
+         data-date="{{ agent.added_date or '' }}">
+
+        <div class="flex flex-col md:flex-row md:items-start gap-4">
+            <!-- Main Content -->
+            <div class="flex-grow">
+                <div class="flex items-start justify-between mb-2">
+                    <h3 class="text-xl font-bold text-gray-900">
+                        <a href="{{ agent.url }}" target="_blank" class="hover:text-blue-600 transition">
+                            {{ agent.name }}
+                        </a>
+                    </h3>
+
+                    <!-- Badges -->
+                    <div class="flex gap-2 ml-4">
+                        {% if agent.verified %}
+                        <span class="text-green-600" title="Verified">
+                            <i class="fas fa-check-circle"></i>
+                        </span>
+                        {% endif %}
+                        {% if agent.featured %}
+                        <span class="text-yellow-500" title="Featured">
+                            <i class="fas fa-star"></i>
+                        </span>
+                        {% endif %}
+                    </div>
+                </div>
+
+                <p class="text-gray-600 mb-3">{{ agent.description }}</p>
+
+                <!-- Metadata Row -->
+                <div class="flex flex-wrap gap-3 text-sm">
+                    <!-- Type Badge -->
+                    <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full">
+                        <i class="fas fa-cube mr-1"></i>{{ agent.type|title }}
+                    </span>
+
+                    <!-- Pricing -->
+                    {% if agent.pricing %}
+                    <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full">
+                        <i class="fas fa-dollar-sign mr-1"></i>{{ agent.pricing|title }}
+                    </span>
+                    {% endif %}
+
+                    <!-- Platform -->
+                    {% if agent.platform %}
+                    <span class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full">
+                        <i class="fas fa-code mr-1"></i>{{ agent.platform|join(', ') }}
+                    </span>
+                    {% endif %}
+
+                    <!-- GitHub Stars -->
+                    {% if agent.github_stars and category.show_github_stats %}
+                    <span class="bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full">
+                        <i class="fas fa-star mr-1"></i>{{ agent.github_stars }} stars
+                    </span>
+                    {% endif %}
+
+                    <!-- License -->
+                    {% if agent.license %}
+                    <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full">
+                        <i class="fas fa-balance-scale mr-1"></i>{{ agent.license }}
+                    </span>
+                    {% endif %}
+                </div>
+
+                <!-- Tags -->
+                {% if agent.tags %}
+                <div class="mt-3 flex flex-wrap gap-2">
+                    {% for tag in agent.tags %}
+                    <span class="text-xs bg-gray-50 text-gray-600 px-2 py-1 rounded border border-gray-200">
+                        #{{ tag }}
+                    </span>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+
+            <!-- Actions -->
+            <div class="flex flex-row md:flex-col gap-2">
+                <a href="{{ agent.url }}" target="_blank"
+                   class="text-blue-600 hover:text-blue-700 font-semibold text-sm whitespace-nowrap">
+                    <i class="fas fa-external-link-alt mr-1"></i>Visit
+                </a>
+                {% if agent.github_repo %}
+                <a href="https://github.com/{{ agent.github_repo }}" target="_blank"
+                   class="text-gray-600 hover:text-gray-700 font-semibold text-sm whitespace-nowrap">
+                    <i class="fab fa-github mr-1"></i>GitHub
+                </a>
+                {% endif %}
+                {% if agent.documentation_url %}
+                <a href="{{ agent.documentation_url }}" target="_blank"
+                   class="text-gray-600 hover:text-gray-700 font-semibold text-sm whitespace-nowrap">
+                    <i class="fas fa-book mr-1"></i>Docs
+                </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</section>
+
+<!-- No Results Message -->
+<div id="no-results" class="hidden text-center py-12 bg-white rounded-lg shadow-sm">
+    <i class="fas fa-search text-gray-300 text-6xl mb-4"></i>
+    <h3 class="text-xl font-bold text-gray-700 mb-2">No Results Found</h3>
+    <p class="text-gray-600">Try adjusting your search or filters</p>
+</div>
+
+{% endblock %}
+
+{% block extra_scripts %}
+<script src="/static/js/category.js"></script>
+<script>
+    // Initialize with category data
+    window.categoryData = {
+        categoryId: "{{ category.id }}",
+        totalAgents: {{ agents|length }}
+    };
+</script>
+{% endblock %}

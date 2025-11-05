@@ -1,0 +1,61 @@
+name: Validate YAML Data
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'data/**/*.yml'
+      - 'scripts/**/*.py'
+      - 'requirements.txt'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Validate all YAML files
+        run: |
+          python scripts/validate.py
+
+      - name: Check for duplicate entries
+        run: |
+          python scripts/validate.py
+
+      - name: Test README generation
+        run: |
+          python scripts/generate_readme.py
+          if [ ! -f README.md ]; then
+            echo "Error: README.md was not generated"
+            exit 1
+          fi
+
+      - name: Test website generation
+        run: |
+          python scripts/generate_site.py
+          if [ ! -f _site/index.html ]; then
+            echo "Error: Website was not generated"
+            exit 1
+          fi
+
+      - name: Report validation results
+        if: success()
+        run: |
+          echo "✓ All validation checks passed!"
+          echo "✓ YAML files are valid"
+          echo "✓ README generation successful"
+          echo "✓ Website generation successful"

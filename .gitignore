@@ -17,6 +17,20 @@ build/
 # Generated files (do not edit directly - edit YAML in data/ instead)
 _site/
 
+# Backup files
+*.backup
+*.bak
+README.backup.md
+
+# Logs
+*.log
+logs/
+
+# Environment and secrets
+.env
+.env.*
+secrets.yaml
+
 # IDEs
 .vscode/
 .idea/

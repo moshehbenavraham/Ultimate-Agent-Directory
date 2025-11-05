@@ -2,12 +2,10 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-277-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-278-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-November%202025-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **The most comprehensive collection of AI agent frameworks, platforms, tools, and resources**
-
-### 🌐 [**Browse the Interactive Website →**](https://moshehbenavraham.github.io/Ultimate-Agent-Directory/)
 
 👨 **Maintained by:** [AIwithApex.com](https://AIwithApex.com)
 
@@ -242,6 +240,8 @@
 
 
 
+
+
 | Framework | Repository | Description |
 |-----------|------------|-------------|
 | **Ad Context Protocol** | [🔗 Link](https://adcontextprotocol.org/) | Open-source technical standard developed by a coalition including Scope3, Yahoo, and PubMatic, designed to allow AI agents from advertisers, publishers, and ad tech platforms to communicate and autonomously execute advertising tasks. |
@@ -306,6 +306,13 @@
 | **VAPI** | [🔗 Link](https://vapi.ai/) | Developer-focused voice AI platform for building advanced voice agents with enterprise infrastructure, featuring response times under 500ms and support for 100+ languages. VAPI provides Flow Studio for visual conversational logic design, highly customizable STT/LLM/TTS provider selection, and scalable phone operations for inbound and outbound calls across industries like healthcare, finance, and travel. |
 | **Vogent VoiceLab** | [🔗 Link](https://www.vogent.ai/voicelab) | All-in-one platform for building, testing, and deploying AI voice agents with access to latest super-realistic voice models including Sesame CSM-1B, Dia, and Orpheus. Features optimized compute for real-time inference with sub-200ms time-to-first-token, supports both zero-shot voice cloning and fine-tuning, and provides unified API for multiple voice model integration. |
 | **Writer** | [🔗 Link](https://writer.com/) | Enterprise generative AI platform designed for content creation, editing, and optimization. Provides AI agents for marketing teams to maintain brand consistency and accelerate content production workflows. |
+
+### Testing & Qa
+
+| Framework | Repository | Description |
+|-----------|------------|-------------|
+| **Cekura** | [🔗 Link](https://www.cekura.io/) | End-to-end quality assurance platform for conversational AI agents providing automated testing, observability, and monitoring for voice and chat bots. Covers full agent lifecycle from pre-production simulation to post-deployment analytics with real-time failure alerts and regression tracking. |
+
 
 
 ---
@@ -460,7 +467,7 @@
 
 ## 📊 Statistics
 
-- **Total Entries:** 277
+- **Total Entries:** 278
 - **Categories:** 10
 - **Last Generated:** 2025-11-05
 

@@ -1,0 +1,21 @@
+name: Cekura
+url: https://www.cekura.io
+description: End-to-end quality assurance platform for conversational AI agents providing automated testing, observability, and monitoring for voice and chat bots. Covers full agent lifecycle from pre-production simulation to post-deployment analytics with real-time failure alerts and regression tracking.
+category: specialized-tools
+type: platform
+tags:
+  - testing
+  - observability
+  - qa
+  - monitoring
+  - voice-agents
+  - chat-agents
+  - analytics
+subcategory: Testing & QA
+platform:
+  - Web
+pricing: enterprise
+featured: false
+verified: true
+added_date: 2025-11-05
+last_verified: 2025-11-05

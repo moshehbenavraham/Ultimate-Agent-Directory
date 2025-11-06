@@ -1,81 +1,126 @@
-# Quick Reference Guide
+# Quick Reference
 
-## Build Commands
+## Commands
 
 ```bash
-# Validate YAML files
-make validate
-
-# Generate README
-make generate
-
-# Generate website
-make site
-
-# Preview website locally (builds + starts server)
-make serve
-
-# Run all checks (validate + generate)
-make test
-
-# Clean generated files
-make clean
+make install     # Install Python dependencies in venv
+make validate    # Validate YAML against schemas
+make generate    # Generate README.md from YAML
+make site        # Generate static website in _site/
+make serve       # Build site + start server (http://localhost:8000)
+make test        # Run validation + generation (CI-friendly)
+make clean       # Remove generated files and cache
 ```
 
 ## File Structure
 
 ```
 data/
-├── agents/              # Individual agent YAML files
+├── agents/              # YAML files (source of truth)
 │   ├── open-source-frameworks/
 │   ├── no-code-platforms/
 │   ├── autonomous-agents/
-│   └── ...
-└── categories/          # Category definition YAML files
+│   ├── specialized-tools/
+│   ├── enterprise-platforms/
+│   ├── coding-assistants/
+│   ├── browser-automation/
+│   ├── communities/
+│   ├── learning-resources/
+│   └── research-frameworks/
+└── categories/          # Category definitions
 
 scripts/
-├── models.py           # Pydantic schemas
-├── validate.py         # YAML validation
-├── generate_readme.py  # README generator
-└── generate_site.py    # Website generator
+├── models.py            # Pydantic schemas
+├── validate.py          # YAML validation
+├── generate_readme.py   # README generator
+└── generate_site.py     # Website generator
 
 templates/
-├── readme.jinja2       # README template
-├── base.html.jinja2    # Website base layout
-├── index.html.jinja2   # Homepage template
+├── readme.jinja2        # README template
+├── base.html.jinja2     # Website base layout
+├── index.html.jinja2    # Homepage template
 └── category.html.jinja2 # Category page template
 
 static/
-├── css/style.css       # Custom styling
-└── js/                 # JavaScript for search/filtering
+├── css/style.css        # Custom styling
+└── js/                  # Search and filtering
 
-_site/                  # Generated website (gitignored)
+_site/                   # Generated website (gitignored)
+```
+
+## YAML Schema
+
+### Agent Entry
+
+**Required:**
+```yaml
+name: str                # 1-100 characters
+url: HttpUrl             # Valid HTTP/HTTPS URL
+description: str         # 20-1000 characters
+category: str            # Must match category ID
+```
+
+**Optional:**
+```yaml
+type: framework|platform|tool|course|community|research
+subcategory: str
+tags: [str]              # Lowercase, hyphenated
+github_repo: str         # Format: "owner/repo"
+documentation_url: HttpUrl
+demo_url: HttpUrl
+platform: [str]          # e.g., ["Python", "TypeScript"]
+license: str             # e.g., "MIT", "Apache-2.0"
+pricing: free|freemium|paid|enterprise
+featured: bool
+verified: bool
+added_date: date
+last_verified: date
+```
+
+### Category Definition
+
+**Required:**
+```yaml
+id: str                  # URL-safe identifier
+title: str
+description: str         # 10-500 characters
+```
+
+**Optional:**
+```yaml
+emoji: str               # Default: "📦"
+order: int               # Display order (lower = earlier)
+show_github_stats: bool  # Default: true
+table_columns: [str]     # Columns to show in tables
+```
+
+## Validation Errors
+
+```
+url: Input should be a valid URL
+→ Ensure URL starts with http:// or https://
+
+description: String should have at least 20 characters
+→ Add more detail
+
+github_repo must be 'owner/repo' format
+→ Use "owner/repo", not full URL
+
+Extra inputs are not permitted
+→ Remove unknown fields
 ```
 
 ## URLs
 
-- **Website:** https://aiwithapex.github.io/Ultimate-Agent-Directory
 - **Repository:** https://github.com/AIwithApex/Ultimate-Agent-Directory
+- **Website:** https://aiwithapex.github.io/Ultimate-Agent-Directory
 - **Issues:** https://github.com/AIwithApex/Ultimate-Agent-Directory/issues
 - **Maintainer:** https://AIwithApex.com
 
-## Documentation Index
+## Documentation
 
-- `docs/plan.md` - TODO list (what needs to be done)
-- `docs/CHANGELOG.md` - Complete history of changes
-- `docs/ROADMAP.md` - Future enhancements and long-term plans
-- `docs/QUICKSTART.md` - Getting started guide
-- `docs/WEBSITE.md` - Website generation guide
-- `docs/DEPLOYMENT.md` - GitHub Pages deployment guide
-- `docs/GITHUB_PAGES_SETUP.md` - Quick setup instructions
-- `docs/REFERENCE.md` - This file (quick reference)
-
-## Contact
-
-- **Email:** contact@aiwithapex.com
-- **Issues:** Use GitHub issue templates
-- **Discussions:** GitHub Discussions
-
----
-
-**Future plans:** See `docs/ROADMAP.md`
+- **GETTING_STARTED.md** - Setup, adding agents, deployment
+- **REFERENCE.md** - This file (quick lookup)
+- **ADVANCED.md** - Customization, CI/CD, advanced topics
+- **CHANGELOG.md** - Version history
+- **ROADMAP.md** - Future plans

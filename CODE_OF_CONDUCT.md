@@ -97,7 +97,7 @@ Given our focus on AI agents and autonomous systems:
 **Project Maintainers:**
 - Website: [AIwithApex.com](https://aiwithapex.com)
 - Email: contact@aiwithapex.com
-- GitHub: [Ultimate-Agent-Directory](https://github.com/your-username/Ultimate-Agent-Directory)
+- GitHub: [Ultimate-Agent-Directory](https://github.com/moshehbenavraham/Ultimate-Agent-Directory)
 
 ## 📜 Attribution
 

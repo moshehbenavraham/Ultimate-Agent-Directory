@@ -112,9 +112,9 @@ Extra inputs are not permitted
 
 ## URLs
 
-- **Repository:** https://github.com/AIwithApex/Ultimate-Agent-Directory
-- **Website:** https://aiwithapex.github.io/Ultimate-Agent-Directory
-- **Issues:** https://github.com/AIwithApex/Ultimate-Agent-Directory/issues
+- **Repository:** https://github.com/moshehbenavraham/Ultimate-Agent-Directory
+- **Website:** https://moshehbenavraham.github.io/Ultimate-Agent-Directory
+- **Issues:** https://github.com/moshehbenavraham/Ultimate-Agent-Directory/issues
 - **Maintainer:** https://AIwithApex.com
 
 ## Documentation

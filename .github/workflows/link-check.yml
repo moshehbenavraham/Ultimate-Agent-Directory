@@ -1,0 +1,57 @@
+name: Link Checker
+
+# Run weekly on Sundays at midnight UTC, on PRs, or manually via workflow_dispatch
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # Every Sunday at 00:00 UTC
+  workflow_dispatch:  # Allow manual triggering from GitHub UI
+  pull_request:  # Run on PRs that modify data files or docs
+    paths:
+      - 'data/**/*.yml'
+      - 'docs/**/*.md'
+      - 'templates/**/*.jinja2'
+      - 'static/**/*'
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read      # Read repository files
+      issues: write       # Create issues for broken links
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run link checker
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          python scripts/check_links.py --verbose
+
+      - name: Upload link check report
+        if: always()  # Upload report even if link check fails
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-check-report
+          path: reports/link-check-report.json
+          retention-days: 30
+
+      - name: Comment on workflow run
+        if: failure()
+        run: |
+          echo "Link checker found broken links. Check the artifacts for detailed report."
+          echo "Issues have been created for broken links (if GITHUB_TOKEN is available)."

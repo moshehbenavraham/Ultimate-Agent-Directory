@@ -1,5 +1,6 @@
 # AI assistant guidance file (not tracked in git)
 CLAUDE.md
+AGENTS.md
 
 # Python
 __pycache__/
@@ -16,6 +17,10 @@ build/
 
 # Generated files (do not edit directly - edit YAML in data/ instead)
 _site/
+
+# Reports and artifacts
+reports/*
+!reports/.gitkeep
 
 # Backup files
 backup/

@@ -1,4 +1,4 @@
-# Changelog
+# Changelog TEMPLATE for /rotatechangelog Claude Code Command
 
 All notable changes to the **Ultimate AI Agent Ecosystem Directory 2025** project will be documented in this file.
 

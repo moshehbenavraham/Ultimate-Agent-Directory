@@ -9,7 +9,7 @@
 
 👨 **Maintained by:** [AIwithApex.com](https://AIwithApex.com)
 
-💡 **Missing something?** [Submit an issue](https://github.com/aiwithapex/Ultimate-Agent-Directory/issues) or [join the discussion](https://github.com/aiwithapex/Ultimate-Agent-Directory/discussions)!
+💡 **Missing something?** [Submit an issue](https://github.com/moshehbenavraham/Ultimate-Agent-Directory/issues) or [join the discussion](https://github.com/moshehbenavraham/Ultimate-Agent-Directory/discussions)!
 
 </div>
 
@@ -469,7 +469,7 @@
 
 - **Total Entries:** 278
 - **Categories:** 10
-- **Last Generated:** 2025-11-05
+- **Last Generated:** 2025-11-06
 
 ---
 

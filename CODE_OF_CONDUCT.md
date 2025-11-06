@@ -44,7 +44,7 @@ The following behaviors are considered harassment and are unacceptable:
 
 If you experience or witness unacceptable behavior, please report it by:
 
-1. **📧 Email**: Contact the maintainers at [contact@aiwithapex.com](mailto:contact@aiwithapex.com)
+1. **📧 Email**: Contact the maintainers at [max@aiwithapex.com](mailto:max@aiwithapex.com)
 2. **🐙 GitHub**: Create a private issue or use GitHub's reporting features
 3. **🔒 Direct message**: Contact project maintainers directly through their preferred communication channels
 
@@ -96,7 +96,7 @@ Given our focus on AI agents and autonomous systems:
 
 **Project Maintainers:**
 - Website: [AIwithApex.com](https://aiwithapex.com)
-- Email: contact@aiwithapex.com
+- Email: max@aiwithapex.com
 - GitHub: [Ultimate-Agent-Directory](https://github.com/moshehbenavraham/Ultimate-Agent-Directory)
 
 ## 📜 Attribution

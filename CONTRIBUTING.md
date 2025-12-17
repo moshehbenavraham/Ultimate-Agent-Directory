@@ -146,7 +146,7 @@ README.md                     # Generated from YAML (DO NOT EDIT DIRECTLY)
    ```bash
    make serve
    ```
-   Visit http://localhost:8000 to see your changes locally.
+   Visit http://localhost:8001 to see your changes locally.
 
 6. **Commit both YAML and generated README.md:**
    ```bash

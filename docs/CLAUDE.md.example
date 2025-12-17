@@ -31,7 +31,7 @@ make install    # Install Python dependencies in venv
 make validate   # Validate all YAML files against schemas (ALWAYS RUN BEFORE COMMITTING)
 make generate   # Generate README.md from YAML data
 make site       # Generate static website in _site/
-make serve      # Build site + start local server (http://localhost:8000)
+make serve      # Build site + start local server (http://localhost:8001)
 make test       # Run validation + generation (CI-friendly)
 make clean      # Remove generated files and cache
 ```
@@ -242,7 +242,7 @@ docs/                              # Project documentation
 2. Follow the schema (see "Data Architecture" section above)
 3. Validate: `make validate`
 4. Generate outputs: `make generate`
-5. Preview website: `make serve` (view at http://localhost:8000)
+5. Preview website: `make serve` (view at http://localhost:8001)
 6. Commit YAML file and generated README.md
 
 ### Adding a New Category
@@ -264,7 +264,7 @@ docs/                              # Project documentation
 
 ```bash
 make serve              # Builds site and starts server
-# Visit http://localhost:8000
+# Visit http://localhost:8001
 # Press Ctrl+C to stop
 ```
 

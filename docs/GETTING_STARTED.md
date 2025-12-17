@@ -18,7 +18,7 @@ make install
 make validate    # Validate YAML files
 make generate    # Generate README.md
 make site        # Generate website
-make serve       # Build site + start local server (http://localhost:8000)
+make serve       # Build site + start local server (http://localhost:8001)
 make test        # Run validation + generation
 make clean       # Remove generated files
 ```

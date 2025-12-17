@@ -7,7 +7,7 @@ Deep dives into website customization, CI/CD internals, and deployment options.
 ### Build Process
 
 ```bash
-make serve    # Generate site + start server at http://localhost:8000
+make serve    # Generate site + start server at http://localhost:8001
 make site     # Generate only (no server)
 ```
 

@@ -237,8 +237,8 @@ def generate_site():
     print(f"Categories: {len(categories)} pages")
     print(f"Total entries: {len(agents)}")
     print(f"\nTo preview locally, run:")
-    print(f"  cd {output_dir} && python -m http.server 8000")
-    print(f"  Then visit: http://localhost:8000")
+    print(f"  cd {output_dir} && python -m http.server 8001")
+    print(f"  Then visit: http://localhost:8001")
     print()
 
 

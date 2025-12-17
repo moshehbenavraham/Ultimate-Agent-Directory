@@ -47,10 +47,10 @@ site:
 serve: site
 	@echo ""
 	@echo "Starting local web server..."
-	@echo "Visit: http://localhost:8000"
+	@echo "Visit: http://localhost:8001"
 	@echo "Press Ctrl+C to stop"
 	@echo ""
-	cd _site && python3 -m http.server 8000
+	cd _site && python3 -m http.server 8001
 
 clean:
 	rm -rf __pycache__ scripts/__pycache__ _site/ reports/*

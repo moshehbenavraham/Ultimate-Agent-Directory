@@ -7,7 +7,7 @@ make install     # Install Python dependencies in venv
 make validate    # Validate YAML against schemas
 make generate    # Generate README.md from YAML
 make site        # Generate static website in _site/
-make serve       # Build site + start server (http://localhost:8000)
+make serve       # Build site + start server (http://localhost:8001)
 make test        # Run validation + generation (CI-friendly)
 make clean       # Remove generated files and cache
 ```

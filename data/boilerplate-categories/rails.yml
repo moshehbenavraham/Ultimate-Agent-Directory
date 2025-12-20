@@ -1,0 +1,12 @@
+id: rails
+title: Rails
+emoji: R
+description: Production-ready Rails boilerplates and starter kits
+ecosystem: Ruby
+order: 150
+show_github_stats: true
+table_columns:
+- name
+- url
+- description
+- github_stars

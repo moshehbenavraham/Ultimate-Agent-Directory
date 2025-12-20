@@ -1,0 +1,29 @@
+name: go-echo-templ-htmx
+url: https://github.com/emarifer/go-echo-templ-htmx
+description: |
+  Full-stack Go starter with Echo framework and HTMX for minimal JavaScript
+  interactivity.
+category: go
+type: boilerplate
+tags:
+  - go
+  - react
+  - tailwindcss
+  - saas
+github_repo: emarifer/go-echo-templ-htmx
+github_stars: 1000
+license: MIT
+key_features:
+  - CRUD operations with session-based authentication
+  - Onion architecture (clean code structure)
+  - Hot reloading for development
+  - Tailwind CSS + DaisyUI for modern UI
+  - Minimal JavaScript approach
+use_case: Learning full-stack Go, CRUD applications, prototyping with minimal JavaScript.
+pros:
+  - Minimal JS, modern UX, strong documentation, clean architecture
+cons:
+  - "SQLite only (not SaaS-oriented), smaller ecosystem
+
+#### Go + React / Vue"
+added_date: 2025-12-21

@@ -1,0 +1,15 @@
+name: Obytes Starter
+url: https://github.com/obytes/react-native-template-obytes
+description: Focused on the Expo ecosystem with modern tooling.
+category: expo
+type: boilerplate
+tags:
+  - expo
+  - react
+  - tailwindcss
+github_repo: obytes/react-native-template-obytes
+key_features:
+  - Expo Router and NativeWind (Tailwind for Mobile)
+  - Environment variable management across Dev/Staging/Prod
+  - GitHub Actions for OTA (Over-the-Air) updates via EAS (Expo Application Services)
+added_date: 2025-12-21

@@ -1,0 +1,50 @@
+name: Next.js Boilerplate (ixartz)
+url: https://github.com/ixartz/Next-js-Boilerplate
+description: |
+  The "bleeding edge" of the Next.js ecosystem, aggressively adopting new
+  standards like Drizzle ORM and Clerk authentication to maximize developer
+  velocity.
+category: nextjs
+type: boilerplate
+tags:
+  - nextjs
+  - react
+  - tailwindcss
+  - prisma
+  - drizzle
+  - clerk
+  - saas
+  - postgresql
+github_repo: ixartz/Next-js-Boilerplate
+github_stars: 12400
+license: MIT
+technical_stack:
+  - component: Frontend
+    technology: Next.js 16+ (App Router)
+    reasoning: Leverages React Server Components for performance
+  - component: Styling
+    technology: Tailwind CSS 4
+    reasoning: |
+      Standard for utility-first styling; v4 brings performance gains
+  - component: Backend
+    technology: Next.js Server Actions
+    reasoning: |
+      Eliminates the need for a separate API layer for many CRUD tasks
+  - component: Database
+    technology: Drizzle ORM
+    reasoning: |
+      Lighter and faster than Prisma; SQL-like syntax appeals to purists
+  - component: Auth
+    technology: Clerk
+    reasoning: |
+      Outsourced auth reduces maintenance burden for MFA/Social login
+  - component: Env Management
+    technology: T3 Env
+    reasoning: Enforces type safety for environment variables at build time
+key_features:
+  - Sentry for error tracking, LogTape and Better Stack for logging
+  - Arcjet for security features (bot protection, rate limiting)
+  - Built-in i18n support via next-intl and Crowdin
+  - Vitest (replacing Jest) and Playwright for E2E testing
+  - PGlite for local development (in-memory Postgres)
+added_date: 2025-12-21

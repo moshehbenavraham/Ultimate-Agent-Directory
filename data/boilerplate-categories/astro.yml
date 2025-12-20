@@ -1,0 +1,13 @@
+id: astro
+title: Astro & HTML-First Approaches
+emoji: A
+description: Production-ready Astro & HTML-First Approaches boilerplates and starter
+  kits
+ecosystem: JavaScript/TypeScript
+order: 100
+show_github_stats: true
+table_columns:
+- name
+- url
+- description
+- github_stars

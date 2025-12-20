@@ -1,0 +1,13 @@
+id: cross-platform
+title: Cross-Platform Web + Mobile (Monorepo)
+emoji: C
+description: Production-ready Cross-Platform Web + Mobile (Monorepo) boilerplates
+  and starter kits
+ecosystem: Mobile
+order: 220
+show_github_stats: true
+table_columns:
+- name
+- url
+- description
+- github_stars

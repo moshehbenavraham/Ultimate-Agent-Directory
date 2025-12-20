@@ -1,0 +1,58 @@
+name: Supabase + Next.js Starter
+url: https://github.com/KolbySisk/next-supabase-stripe-starter
+description: |
+  High-quality SaaS starter leveraging Supabase as a backend-as-a-service for
+  authentication, database, and storage.
+category: nextjs
+type: boilerplate
+tags:
+  - nextjs
+  - typescript
+  - tailwindcss
+  - supabase
+  - stripe
+  - trpc
+  - saas
+  - postgresql
+github_repo: KolbySisk/next-supabase-stripe-starter
+github_stars: 720
+license: MIT
+key_features:
+  - Supabase user auth setup with email verification links
+  - Database schema for SaaS (projects, teams, etc.)
+  - Integration with Stripe for subscriptions
+  - Dashboard UI and account settings pages built with shadcn/ui library
+  - Multi-tenancy via organization/team management (pricing model allows setting max team invites per plan)
+  - Example blog using MDX or Supabase data
+  - Testing and CI configured for Vercel
+  - All-in-one starter using Supabase as heavy lifter (no custom Node backend to maintain)
+use_case: |
+  Great for developers who want to move fast by outsourcing backend complexity
+  to Supabase. If you prefer not to manage your own database or auth service,
+  this gives you a SaaS scaffold with minimal DevOps. Good example of
+  integrating Next.js with popular Supabase stack (which many startups use).
+  Ideal for MVPs and small SaaS where using a BaaS (Backend-as-a-Service) is
+  acceptable.
+pros:
+  - Very developer-friendly - using Supabase means a lot of functionality (auth, DB, storage) is ready out-of-the-box with nice UI (Supabase Studio) to manage data
+  - Praised for high code quality ("highest quality SaaS starter with Next.js, Supabase, Stripe..." per author)
+  - "Good use of modern libraries: tRPC for type-safe API, Tailwind + Radix UI for sleek design"
+  - Fairly lightweight - no custom server components beyond Next API routes for Stripe webhooks
+  - "Community-supported: Supabase community references this starter, author engages on Reddit/GitHub"
+cons:
+  - Ties you to Supabase - while Supabase is open source, moving off it (to self-host Postgres) requires effort
+  - Must be comfortable with Supabase Auth constraints (magic link flows, etc.)
+  - Might not include advanced enterprise features (no SAML SSO, roles beyond basic admin/member out of the box)
+  - Smaller community (hundreds of stars, not thousands yet), though growing
+  - Supabase is evolving, so keep template updated with any Supabase API changes
+community: |
+  Gained attention through Reddit post ("couldn't find a clean
+  Next+Supabase+Stripe starter so I made one"). Has attracted contributors and
+  is listed on Supabase's community resources. Issues get responses from
+  maintainer. No dedicated Discord, but discussed in Supabase forums and Next.js
+  subreddit. Part of trend of Supabase-based starters. #### Enterprise & B2B
+  Focused
+deployment:
+  - Vercel
+  - Supabase
+added_date: 2025-12-21

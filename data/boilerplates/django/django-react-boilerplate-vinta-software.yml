@@ -1,0 +1,19 @@
+name: Django React Boilerplate (Vinta Software)
+url: https://github.com/vintasoftware/django-react-boilerplate
+description: Hybrid approach leveraging Django's mature backend with a modern React frontend.
+category: django
+type: boilerplate
+tags:
+  - django
+  - react
+  - typescript
+  - tailwindcss
+github_repo: vintasoftware/django-react-boilerplate
+github_stars: 2200
+license: MIT
+key_features:
+  - Uses drf-spectacular to generate OpenAPI schemas and openapi-ts to generate TypeScript clients
+  - Pre-configured Celery and Redis for background tasks (emails, processing uploads)
+  - CSP (Content Security Policy) out of the box
+  - Brute-force protection via django-defender
+added_date: 2025-12-21

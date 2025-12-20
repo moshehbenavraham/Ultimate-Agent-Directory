@@ -1,0 +1,52 @@
+name: Remix Framework
+url: https://github.com/remix-run/remix
+description: |
+  Full-stack React framework with web standards-first philosophy and
+  multi-runtime support.
+category: remix
+type: boilerplate
+tags:
+  - remix
+  - react
+github_repo: remix-run/remix
+github_stars: 32000
+license: MIT
+technical_stack:
+  - component: Frontend
+    technology: React
+    reasoning: Industry standard with Remix enhancements
+  - component: Backend
+    technology: Node.js/Deno/Cloudflare/Bun
+    reasoning: Multi-runtime flexibility
+  - component: Build
+    technology: Vite
+    reasoning: Modern build tooling
+  - component: Philosophy
+    technology: Web API standards
+    reasoning: Progressive enhancement, form handling
+key_features:
+  - Multi-runtime support (Node.js, Deno, Cloudflare Workers, Bun)
+  - Server functions and actions for data mutations
+  - Built-in form handling with progressive enhancement
+  - Loader/action pattern for data fetching
+  - Official stacks available (Blues Stack, Greys Stack, Indie Stack)
+  - Web standards-first philosophy
+  - Nested routing with parallel data loading
+use_case: |
+  Ideal for developers who want flexibility in deployment targets and are
+  building modern web applications with complex forms and data interactions.
+  Great for those who value web fundamentals and progressive enhancement.
+pros:
+  - Excellent developer experience, great documentation, official deployment templates (stacks), growing ecosystem, multi-runtime flexibility
+cons:
+  - Learning curve for newcomers to the loader/action pattern, newer patterns may feel unfamiliar to traditional React developers
+community: |
+  Active development, 236+ watchers, community stacks ecosystem. Discord
+  support and extensive documentation. #### Official Remix Stacks
+deployment:
+  - Vercel
+  - Netlify
+  - AWS
+  - Fly.io
+  - Cloudflare
+added_date: 2025-12-21

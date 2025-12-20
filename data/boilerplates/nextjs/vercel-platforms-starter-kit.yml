@@ -1,0 +1,50 @@
+name: Vercel Platforms Starter Kit
+url: https://github.com/vercel/platforms
+description: |
+  Official Vercel example for building multi-tenant applications with custom
+  subdomain routing.
+category: nextjs
+type: boilerplate
+tags:
+  - nextjs
+  - react
+  - typescript
+  - tailwindcss
+  - prisma
+  - saas
+  - postgresql
+github_repo: vercel/platforms
+github_stars: 6600
+license: MIT
+key_features:
+  - Multi-tenant architecture example with custom subdomain routing via Next.js Middleware
+  - Per-tenant content and branding (even emoji logos)
+  - Base Admin interface for managing tenants
+  - Local dev support for wildcard subdomains
+  - Simplified data layer using Redis (each tenant's data stored by subdomain key)
+  - Next.js best practices (App Router, Server Components)
+  - Production-ready for deployment on Vercel with wildcard domain support
+use_case: |
+  Ideal for multi-tenant SaaS (e.g., franchise or B2B SaaS where each customer
+  has their own subdomain and isolated content). Reference implementation for
+  subdomain routing in Next - great for learning multi-tenancy patterns or as
+  starting point for platforms like Shopify that require tenant separation.
+pros:
+  - Official Vercel example - well-architected and up-to-date with latest Next.js features
+  - Simplifies complex problem (multi-tenancy) into working template - saves time implementing routing, wildcard domain config
+  - Lightweight and framework-idiomatic (no heavy additional libraries)
+  - Good DX with TypeScript and Admin UI to see tenants
+cons:
+  - Focuses narrowly on multi-tenancy - lacks many SaaS essentials (no built-in auth, no database beyond Redis for demo, no billing integration)
+  - Meant to be extended, not a full SaaS out-of-box
+  - If your app needs relational data or complex backend logic, you'll need to integrate those (swap Redis for Postgres/Prisma)
+  - Somewhat Vercel-specific deployment (though adaptable)
+community: |
+  Backed by Vercel - issues get attention from Vercel engineers. Active user
+  base since many Next.js developers fork it to implement multi-tenant setups.
+  Discussed in Next.js community forums and adapted in blog tutorials
+  (multi-tenancy is a common question). Questions often appear on Reddit
+  referencing this kit.
+deployment:
+  - Vercel
+added_date: 2025-12-21

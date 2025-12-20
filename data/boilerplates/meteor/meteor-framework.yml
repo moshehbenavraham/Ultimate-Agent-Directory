@@ -1,0 +1,47 @@
+name: Meteor Framework
+url: https://github.com/meteor/meteor
+description: |
+  The original real-time full-stack JavaScript framework with the largest star
+  count of any starter on this list.
+category: meteor
+type: boilerplate
+tags:
+  - meteor
+  - react
+github_repo: meteor/meteor
+github_stars: 44800
+license: Open Source
+technical_stack:
+  - component: Frontend
+    technology: JavaScript (React/Blaze/Vue)
+    reasoning: Flexible frontend choice
+  - component: Backend
+    technology: Node.js
+    reasoning: Unified JavaScript runtime
+  - component: Database
+    technology: MongoDB
+    reasoning: Real-time data synchronization
+  - component: Auth
+    technology: Built-in accounts system
+    reasoning: Zero-config authentication
+key_features:
+  - "**Real-time sync**: Data changes propagate instantly to all connected clients"
+  - Cross-platform development (web, iOS, Android, desktop)
+  - Zero-config build system with npm integration
+  - Built-in user accounts and authentication
+  - Reactive programming model throughout
+  - Hot code reloading during development
+  - Isomorphic JavaScript (same code runs client/server)
+use_case: |
+  Perfect for real-time applications (chat, collaboration tools, live
+  dashboards) where data synchronization is critical. Ideal for teams building
+  across multiple platforms (web + mobile + desktop) from a single codebase.
+pros:
+  - Simple setup, reactive data by default, cross-platform from day one, massive community (776+ contributors, 44k+ stars), mature ecosystem
+cons:
+  - Reactive programming paradigm has a learning curve, MongoDB-centric by default
+community: |
+  Active Discord ([discord.gg/hZkTCaVjmT](https://discord.gg/hZkTCaVjmT)),
+  comprehensive documentation at [docs.meteor.com](https://docs.meteor.com).
+  Large contributor base with frequent releases.
+added_date: 2025-12-21

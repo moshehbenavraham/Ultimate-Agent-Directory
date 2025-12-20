@@ -1,0 +1,48 @@
+name: Vercel SaaS Starter (Next.js SaaS Starter)
+url: https://github.com/nextjs/saas-starter
+description: |
+  Official Next.js pattern from Vercel, minimal but authoritative.
+  Intentionally minimal, serving as a clean foundation to build upon.
+category: nextjs
+type: boilerplate
+tags:
+  - nextjs
+  - typescript
+  - tailwindcss
+  - prisma
+  - drizzle
+  - stripe
+  - saas
+  - postgresql
+  - docker
+github_repo: nextjs/saas-starter
+github_stars: 15100
+license: MIT
+key_features:
+  - Official Vercel-maintained template with Next.js 13 best practices
+  - "Basic SaaS structure: user accounts (seeded admin user), teams/org support"
+  - Subscription checkout & webhooks with Stripe integration
+  - Tailwind UI with shadcn components
+  - Activity logging, Zod schema validation
+  - Minimal UI (no extra bloat) - type-safe (TypeScript + Zod)
+  - CI workflow and testing setup included
+use_case: |
+  Ideal for learning or starting a new SaaS with Next.js - intentionally
+  minimal (authentication & payments included, but few extras). Great for indie
+  hackers & small teams who want modern Next.js 13 patterns out-of-the-box.
+pros:
+  - Highly popular & community-vetted (15k+ stars); official Next.js conventions; type-safe and minimal design makes it easy to understand and customize
+  - Integrates essential SaaS needs without heavy complexity. 20+ contributors with strong community support
+cons:
+  - Being minimal, it omits advanced features (no built-in admin panel, RBAC, file storage)
+  - No social login by default (email/pass only)
+  - Uses Drizzle instead of Prisma
+  - Stripe integration is basic (checkout + webhook) - no subscription management UI
+community: |
+  Maintained by Vercel team with prompt issue responses. Active discussions on
+  Reddit (r/nextjs). No dedicated Discord, but Next.js community and GitHub
+  serve as support channels.
+deployment:
+  - Vercel
+  - Docker
+added_date: 2025-12-21

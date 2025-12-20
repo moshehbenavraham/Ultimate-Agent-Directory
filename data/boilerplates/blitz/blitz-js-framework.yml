@@ -1,0 +1,33 @@
+name: Blitz.js Framework
+url: https://github.com/blitz-js/blitz
+description: Rails-inspired React framework with "Zero-API" data layer.
+category: blitz
+type: boilerplate
+tags:
+  - blitz
+  - nextjs
+  - react
+  - prisma
+  - rails
+github_repo: blitz-js/blitz
+github_stars: 14100
+license: MIT
+key_features:
+  - "\"Zero-API\" data layer (import server code directly in client)"
+  - Built-in authentication
+  - Code scaffolding CLI
+  - "\"Recipes\" for integrations"
+pros:
+  - Eliminates API boilerplate, built-in auth, strong opinions reduce decisions, 66+ contributors
+cons:
+  - Blitz-specific patterns create lock-in, less modular than T3 variants
+community: |
+  Active Discord ([discord.blitzjs.com](https://discord.blitzjs.com)),
+  comprehensive docs at [blitzjs.com/docs](https://blitzjs.com/docs). Maintained
+  by Brandon Bayer and community.
+deployment:
+  - Vercel
+  - Fly.io
+  - Railway
+  - Render
+added_date: 2025-12-21

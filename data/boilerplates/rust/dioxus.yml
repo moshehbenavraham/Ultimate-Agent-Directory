@@ -1,0 +1,18 @@
+name: Dioxus
+url: https://github.com/DioxusLabs/dioxus
+description: Full-stack Rust for web, desktop, and mobile from one codebase.
+category: rust
+type: boilerplate
+tags:
+  - rust
+  - react
+  - tailwindcss
+github_repo: DioxusLabs/dioxus
+github_stars: 24500
+license: MIT
+key_features:
+  - React-like RSX syntax
+  - Built-in Tailwind support
+  - <50kb web apps
+  - Cross-platform (web, desktop, mobile)
+added_date: 2025-12-21

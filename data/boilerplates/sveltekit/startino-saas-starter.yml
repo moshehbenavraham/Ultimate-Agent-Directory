@@ -1,0 +1,20 @@
+name: Startino SaaS Starter
+url: https://github.com/startino/saas-starter
+description: High-potential, bleeding-edge SvelteKit starter adopting Svelte 5.
+category: sveltekit
+type: boilerplate
+tags:
+  - sveltekit
+  - tailwindcss
+  - supabase
+  - stripe
+  - saas
+  - postgresql
+github_repo: startino/saas-starter
+license: MIT
+key_features:
+  - Adopts Svelte 5 and Shadcn-svelte (popular UI component architecture for Svelte)
+  - Superforms for robust server-side validation
+  - Built-in Blog Engine optimized for SEO
+  - Self-Serve Billing portal via Stripe Integration
+added_date: 2025-12-21

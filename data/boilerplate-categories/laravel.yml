@@ -1,0 +1,12 @@
+id: laravel
+title: Laravel
+emoji: L
+description: Production-ready Laravel boilerplates and starter kits
+ecosystem: PHP
+order: 140
+show_github_stats: true
+table_columns:
+- name
+- url
+- description
+- github_stars

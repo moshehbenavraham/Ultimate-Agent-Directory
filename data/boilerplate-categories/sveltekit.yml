@@ -1,0 +1,12 @@
+id: sveltekit
+title: Svelte / SvelteKit
+emoji: S
+description: Production-ready Svelte / SvelteKit boilerplates and starter kits
+ecosystem: JavaScript/TypeScript
+order: 80
+show_github_stats: true
+table_columns:
+- name
+- url
+- description
+- github_stars

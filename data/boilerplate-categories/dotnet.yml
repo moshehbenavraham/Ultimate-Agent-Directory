@@ -1,0 +1,12 @@
+id: dotnet
+title: Blazor
+emoji: B
+description: Production-ready Blazor boilerplates and starter kits
+ecosystem: .NET
+order: 180
+show_github_stats: true
+table_columns:
+- name
+- url
+- description
+- github_stars

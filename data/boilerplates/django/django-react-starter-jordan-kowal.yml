@@ -1,0 +1,33 @@
+name: Django React Starter (Jordan-Kowal)
+url: https://github.com/Jordan-Kowal/django-react-starter
+description: |
+  Advanced Django + React starter with comprehensive integrations for
+  data-heavy applications.
+category: django
+type: boilerplate
+tags:
+  - django
+  - react
+  - postgresql
+  - docker
+github_repo: Jordan-Kowal/django-react-starter
+github_stars: 1100
+license: MIT
+key_features:
+  - Full-text search with Meilisearch integration
+  - Geospatial capabilities with PostGIS
+  - Message queue with RabbitMQ
+  - Background tasks with Celery
+  - Fly.io deployment configuration
+use_case: |
+  Ideal for data/search/geospatial applications requiring advanced integrations
+  beyond typical CRUD.
+pros:
+  - Advanced integrations (search, geospatial, messaging), Docker-ready, Fly.io deployment
+cons:
+  - "Complex setup due to multiple services, steeper learning curve
+
+#### Django + Vue
+
+#### Django + HTMX"
+added_date: 2025-12-21

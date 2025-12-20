@@ -1,0 +1,83 @@
+name: BoxyHQ Enterprise SaaS Starter Kit
+url: https://github.com/boxyhq/saas-starter-kit
+description: |
+  Creates a unique niche by targeting the B2B enterprise market with compliance
+  features, Single Sign-On (SSO), and auditability.
+category: nextjs
+type: boilerplate
+tags:
+  - nextjs
+  - react
+  - tailwindcss
+  - prisma
+  - stripe
+  - authjs
+  - saas
+  - rails
+  - postgresql
+  - docker
+github_repo: boxyhq/saas-starter-kit
+github_stars: 4600
+license: Apache 2.0
+technical_stack:
+  - component: Frontend
+    technology: Next.js (React)
+    reasoning: Industry standard for enterprise web apps
+  - component: Backend
+    technology: Next.js API Routes
+    reasoning: Serverless-ready backend logic
+  - component: Database
+    technology: PostgreSQL + Prisma
+    reasoning: Robust relational data modeling
+  - component: Auth
+    technology: NextAuth.js + SAML Jackson
+    reasoning: Specifically designed for Enterprise SSO (SAML/OIDC)
+  - component: Compliance
+    technology: Retraced
+    reasoning: Audit logs service for SOC2 compliance
+key_features:
+  - "**Enterprise SSO** via SAML Jackson (Okta, Azure AD, OneLogin integration)"
+  - "**Directory Sync (SCIM)** for automatic user provisioning/de-provisioning"
+  - "Full authentication suite: email/password login, magic links, Google/GitHub OAuth"
+  - Immutable audit logs via Retraced (finance/healthcare compliance)
+  - "Team management primitives: create teams, invite/manage members, assign roles"
+  - Role-Based Access Control (RBAC) with built-in roles and permission management
+  - Webhooks & event system via Svix
+  - Internationalization (i18n) support
+  - Dark mode UI toggle
+  - Email notifications (transactional emails via SMTP)
+  - File uploads (avatar upload)
+  - Cypress e2e tests pre-configured
+  - Docker Compose provided for local dev (with Postgres, etc.)
+  - Prisma Studio for DB browsing
+  - Docker and Playwright E2E testing integration
+use_case: |
+  Best for startups targeting enterprise customers - if you need SSO
+  (SAML/OIDC), team management, audit trails from day one. Great for launching a
+  production-grade SaaS with minimal custom auth coding, especially if selling
+  to orgs with compliance needs (SSO, SCIM user provisioning).
+pros:
+  - Feature-complete for multi-tenant SaaS - covers rarely-included features like SAML SSO, SCIM directory sync, audit logs
+  - Solid architecture using Next.js and Prisma (familiar stack)
+  - Active maintenance by BoxyHQ with frequent releases and quick issue resolution
+  - Good docs and Discord for community support
+  - UI is clean (Tabler + Tailwind)
+  - Highly modular - turn features on/off as needed. ~40 contributors
+cons:
+  - Breadth of features adds complexity - initial setup involves many env variables
+  - Some features (billing) labeled "coming soon." If your SaaS is simple (just email auth), might be overkill
+  - Uses Pages Router (not App Router)
+  - Apache 2.0 license requires attribution
+community: |
+  Active Discord channel, ~40 contributors on GitHub. Often recommended on
+  HackerNews/Reddit for "enterprise SaaS boilerplate." Maintainers are
+  responsive and take feature suggestions. Featured on "awesome SaaS
+  boilerplates" lists. Acquired by Ory in 2025. #### Multi-Tenant & Platform
+  Starters
+deployment:
+  - Vercel
+  - AWS
+  - Heroku
+  - Docker
+  - Kubernetes
+added_date: 2025-12-21

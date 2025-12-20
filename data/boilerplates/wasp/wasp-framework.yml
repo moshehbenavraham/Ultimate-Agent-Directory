@@ -1,0 +1,32 @@
+name: Wasp Framework
+url: https://github.com/wasp-lang/wasp
+description: Closest to Rails in JavaScript with DSL configuration.
+category: wasp
+type: boilerplate
+tags:
+  - wasp
+  - react
+  - prisma
+  - rails
+github_repo: wasp-lang/wasp
+github_stars: 18000
+license: MIT
+key_features:
+  - DSL configuration file
+  - Full-stack type safety
+  - "**8-line auth setup**"
+  - Cron jobs and background workers
+  - Email sending
+  - One-command deployment
+  - AI code generator (Mage)
+pros:
+  - Fastest path to production, abstracts all boilerplate, YC-backed
+cons:
+  - Requires learning Wasp DSL, less mainstream than pure frameworks
+community: 16,000+ Discord members, extensive documentation
+deployment:
+  - Vercel
+  - Netlify
+  - Fly.io
+  - Railway
+added_date: 2025-12-21

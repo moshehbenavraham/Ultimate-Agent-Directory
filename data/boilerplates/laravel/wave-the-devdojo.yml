@@ -1,0 +1,81 @@
+name: Wave (The DevDojo)
+url: https://github.com/thedevdojo/wave
+description: |
+  Less of a boilerplate and more of a "SaaS-in-a-Box." Provides a fully
+  functional application that requires customization rather than construction.
+  Complete "SaaS in a box" for Laravel, arguably the most feature-complete
+  starter in any language.
+category: laravel
+type: boilerplate
+tags:
+  - laravel
+  - react
+  - tailwindcss
+  - stripe
+  - saas
+  - postgresql
+  - docker
+github_repo: thedevdojo/wave
+github_stars: 6400
+license: MIT
+technical_stack:
+  - component: Frontend
+    technology: Blade + Tailwind + Alpine.js
+    reasoning: |
+      The "TALL" stack offers high interactivity with low JS complexity
+  - component: Backend
+    technology: Laravel 10 (PHP framework)
+    reasoning: Mature, robust framework with immense ecosystem support
+  - component: Database
+    technology: MySQL / PostgreSQL
+    reasoning: Standard, reliable relational storage (Eloquent ORM)
+  - component: Auth
+    technology: Laravel Sanctum (API) + Session (web)
+    reasoning: DevDojo Auth (Native), deeply integrated
+key_features:
+  - User registration with email verification, login, profile management
+  - Fully functional Voyager Admin Panel (BREAD operations GUI) for managing users, posts, pages, and running custom CRUD
+  - "Subscription billing: plans & payments via Stripe or Paddle (with trials, tier limits)"
+  - Teams/Organizations (Wave v1.5 added team accounts support)
+  - "Roles & permissions: define roles (admin, user, etc.) and gate content"
+  - Production-ready Subscription Architecture (plan management, user impersonation, automated invoicing via Stripe)
+  - Notifications system (users get notifications via on-site bell icon)
+  - Ready-to-use API with Sanctum tokens (serve JS front-end or mobile app)
+  - "Blog and page builder: create blog posts or site pages via admin (useful for marketing content)"
+  - "User impersonation: Admins can log in as other users to assist them"
+  - "\"Themes\" system for swapping UI skins (DevDojo offers some plugins)"
+  - Modular plugin system for extending features
+  - Beautiful UI for landing page and dashboard
+use_case: |
+  Best for PHP/Laravel developers who want a huge head start. Building a SaaS
+  that needs user management, subscriptions, admin dashboards - Wave gives you
+  that to immediately start adding domain-specific features. Perfect for
+  membership sites, content SaaS, or products where users login and pay for
+  premium features. Good if you want combined CMS + SaaS (Voyager admin can
+  manage content).
+pros:
+  - All-inclusive - arguably the most feature-complete starter in any language
+  - Polished UI and tons of functionality (user avatars, API tokens UI, etc.)
+  - Laravel's strength in authentication and billing (via Cashier) shines
+  - "Rapid setup: SaaS with logins, subscriptions, and blog by just configuring .env settings and running migrations"
+  - Active maintenance by DevDojo (founder created Wave for community)
+  - Theming ability for customizing look & feel. 1k+ forks on GitHub
+cons:
+  - With so many features, learning curve is real - need to understand Laravel and Voyager admin to customize effectively
+  - Can feel bloated if you don't need everything (e.g., blog or marketing site)
+  - Voyager admin has its own patterns that not every Laravel dev likes
+  - Being PHP, real-time features (notifications currently on-page only) might need Pusher or Echo setup
+  - Default front-end uses Blade and jQuery for some interactions; integrating modern Vue or React requires manual work
+  - Long-term support tied to DevDojo (though it's open source, community could fork)
+community: |
+  DevDojo has dedicated Wave community - forums where users ask questions,
+  share how they built on Wave. GitHub repo active with 1k+ forks. DevDojo's
+  founder Tony engages often. Many YouTube videos and tutorials on using Wave
+  (has been around for years). Wave's popularity in Laravel circles is high -
+  often recommended as starting point for new SaaS apps. Many have launched
+  startups on Wave, attesting to robustness. ---
+deployment:
+  - AWS
+  - Docker
+  - DigitalOcean
+added_date: 2025-12-21

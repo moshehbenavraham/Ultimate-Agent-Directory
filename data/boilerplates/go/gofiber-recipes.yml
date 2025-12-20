@@ -1,0 +1,15 @@
+name: gofiber/recipes
+url: https://github.com/gofiber/recipes
+description: Official Go Fiber examples with React SPA patterns.
+category: go
+type: boilerplate
+tags:
+  - go
+  - react
+github_repo: gofiber/recipes
+license: MIT
+key_features:
+  - SPA example with React
+  - Clean Architecture patterns
+  - Official examples repository
+added_date: 2025-12-21

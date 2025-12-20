@@ -1,0 +1,63 @@
+name: Cookiecutter Django
+url: https://github.com/cookiecutter/cookiecutter-django
+description: |
+  Python community standard for Django scaffolding. The go-to Django project
+  template, maintained by open-source community (originally by @pydanny et al.).
+  Long-standing project updated frequently for new Django versions.
+category: django
+type: boilerplate
+tags:
+  - django
+  - react
+  - stripe
+  - saas
+  - postgresql
+  - docker
+github_repo: cookiecutter/cookiecutter-django
+github_stars: 13300
+license: BSD-3-Clause
+key_features:
+  - "**100% starting test coverage** (ships with tests to ensure template was generated correctly)"
+  - Secure by default (SSL redirect, secure cookies)
+  - Docker + Traefik deployment with Let's Encrypt SSL
+  - Multiple cloud providers (AWS, GCP)
+  - Multiple email services
+  - "Highly configurable via prompts at creation (choose options: \"use Celery?\", \"use Docker?\", \"DB: Postgres/MySQL?\")"
+  - Optional Celery/DRF/Sentry/Heroku
+  - Pre-commit hooks (Black, Flake8)
+  - User authentication flows with email confirmation via allauth
+  - Robust settings management for multiple environments
+  - Role-based user groups examples (social auth groups)
+use_case: |
+  Ideal for Django developers starting a SaaS or web product who want all best
+  practices pre-configured. Great for content-heavy SaaS (Django admin for
+  content management) or when you need multi-environment settings and Celery
+  tasks. Perfect if you deploy on Docker or Heroku and want a reliable setup.
+  Doesn't include SaaS billing or teams specifically, but can integrate Stripe
+  fairly easily on this solid base.
+pros:
+  - Mature and battle-tested - has been around for years, each new Django release supported quickly
+  - "Embodies ton of community knowledge: email config, static file storage, CI done in robust way"
+  - Highly customizable at creation - pick only what you need (skip Docker or Celery if not needed)
+  - Excellent documentation and ecosystem of recipes
+  - Security is a priority (SSL, secure settings defaults)
+  - Django's built-in admin and allauth means admin panel and user auth ready on day one - huge time saver. 250+ contributors over time
+cons:
+  - More of a backend starter - frontend is server-rendered Django with Bootstrap (for fancy reactive frontend, build that or integrate JS framework separately)
+  - Multitude of options can be overwhelming for beginners
+  - Docker usage might be overkill for simple projects (but can disable it)
+  - One-time project generator - won't easily pull in upstream updates, maintain your project as Django evolves
+community: |
+  Very active. GitHub repo issue tracker is lively with support requests and
+  discussions. Discord for Django where cookiecutter-django often comes up. Many
+  contributors (250+). Well-known tool with many blogs and StackOverflow
+  answers. Maintainers fundraise via OpenCollective to sustain development.
+  Community keeps it up-to-date with Docker and CI enhancements. Maintained by
+  pydanny (Two Scoops of Django author).
+deployment:
+  - AWS
+  - Heroku
+  - Docker
+  - DigitalOcean
+  - Kubernetes
+added_date: 2025-12-21

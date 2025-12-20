@@ -1,0 +1,20 @@
+name: sveltekit-saas (Glench)
+url: https://github.com/Glench/sveltekit-saas
+description: Community SvelteKit SaaS starter with authentication and payments.
+category: sveltekit
+type: boilerplate
+tags:
+  - sveltekit
+  - stripe
+  - saas
+github_repo: Glench/sveltekit-saas
+license: MIT
+key_features:
+  - Auth dashboards for user management
+  - Stripe payments integration
+  - Admin panels for content management
+  - SvelteKit server-side rendering
+use_case: |
+  SaaS MVPs, subscription-based applications, and admin dashboards using
+  SvelteKit.
+added_date: 2025-12-21

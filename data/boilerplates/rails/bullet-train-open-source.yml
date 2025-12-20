@@ -1,0 +1,17 @@
+name: Bullet Train (Open Source)
+url: https://github.com/bullet-train-co/bullet_train
+description: Andrew Culver's open-source Rails SaaS starter.
+category: rails
+type: boilerplate
+tags:
+  - rails
+  - saas
+github_repo: bullet-train-co/bullet_train
+license: MIT
+key_features:
+  - Complete SaaS foundation
+  - Multi-tenancy
+  - Roles and permissions
+  - Webhooks
+  - OAuth integrations
+added_date: 2025-12-21

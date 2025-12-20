@@ -1,0 +1,24 @@
+name: SvelteKit Blog App
+url: https://github.com/pro7tech/sveltekit-blog-app
+description: Full-featured SvelteKit starter with blog functionality and modern tooling.
+category: sveltekit
+type: boilerplate
+tags:
+  - sveltekit
+  - typescript
+  - tailwindcss
+github_repo: pro7tech/sveltekit-blog-app
+github_stars: 1100
+license: MIT
+key_features:
+  - Authentication with RBAC (role-based access control)
+  - CRUD operations with admin panel
+  - Mobile-responsive design
+  - 100% Lighthouse score optimization
+  - Modern blog functionality
+use_case: Ideal for blogs, admin dashboards, and CRUD-heavy applications using SvelteKit.
+pros:
+  - Modern stack with EdgeDB, comprehensive RBAC, admin UI included
+cons:
+  - Blog-focused (may need customization for other use cases)
+added_date: 2025-12-21

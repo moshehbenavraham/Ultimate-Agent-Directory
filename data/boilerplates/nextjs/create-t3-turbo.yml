@@ -1,0 +1,56 @@
+name: create-t3-turbo
+url: https://github.com/t3-oss/create-t3-turbo
+description: |
+  The monorepo variant of T3 Stack, extending create-t3-app to support web and
+  mobile (Expo) applications in a unified codebase.
+category: nextjs
+type: boilerplate
+tags:
+  - nextjs
+  - react
+  - drizzle
+  - supabase
+  - trpc
+  - saas
+  - monorepo
+  - expo
+github_repo: t3-oss/create-t3-turbo
+github_stars: 5900
+license: MIT
+technical_stack:
+  - component: Frontend
+    technology: React/Next.js + Expo (React Native)
+    reasoning: Unified web + mobile development
+  - component: Type Safety
+    technology: tRPC
+    reasoning: End-to-end type safety across platforms
+  - component: Database
+    technology: Drizzle ORM, Supabase
+    reasoning: Lightweight ORM with BaaS option
+  - component: Auth
+    technology: Better-Auth
+    reasoning: Modern, cross-platform auth
+  - component: Build
+    technology: Turborepo
+    reasoning: Monorepo build optimization
+key_features:
+  - Monorepo structure with Turborepo for shared UI/tooling packages
+  - "Cross-platform development: Next.js (web) + Expo (iOS/Android)"
+  - shadcn/ui CLI integration for component library
+  - CI workflow pre-configured
+  - EAS (Expo Application Services) for mobile deployment
+use_case: |
+  Ideal for teams building both web and mobile apps from a shared codebase.
+  Perfect for startups wanting to launch on web and mobile simultaneously with
+  maximum code reuse.
+pros:
+  - Cross-platform with shared code, typesafe across all platforms, leverages proven T3 patterns
+cons:
+  - Separate deployment targets for web/mobile, auth configuration required for Expo
+community: |
+  No dedicated Discord; uses T3 community channels. Maintained by Julius
+  Marminge. #### Batteries-Included / SaaS-Ready
+deployment:
+  - Vercel
+  - EAS
+added_date: 2025-12-21

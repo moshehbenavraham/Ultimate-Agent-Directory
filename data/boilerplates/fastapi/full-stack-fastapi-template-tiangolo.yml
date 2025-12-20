@@ -1,0 +1,68 @@
+name: Full Stack FastAPI Template (Tiangolo)
+url: https://github.com/fastapi/full-stack-fastapi-template
+description: |
+  Maintained by the creator of FastAPI, this template defines the standard for
+  modern Python web development. One of the most popular full-stack templates
+  (40k+ stars), created by Sebastin Ramrez.
+category: fastapi
+type: boilerplate
+tags:
+  - fastapi
+  - nextjs
+  - react
+  - typescript
+  - tailwindcss
+  - saas
+  - django
+  - postgresql
+  - docker
+github_repo: fastapi/full-stack-fastapi-template
+github_stars: 40000
+license: MIT
+key_features:
+  - "**Automatic Client Generation**: Uses OpenAPI (Swagger) spec to automatically build TypeScript client, ensuring frontend types are always in sync with backend Pydantic models"
+  - "Production-ready out-of-the-box: user registration & login with JWT auth (and refresh tokens)"
+  - Secure password reset via email (integrated with SMTP)
+  - Role-based security (users vs superusers)
+  - Example CRUD for items (with React components and API calls)
+  - Highly optimized Docker Compose setup with Traefik as reverse proxy/load balancer
+  - Automatic HTTPS with Traefik and Let's Encrypt for Docker deploys
+  - Supports multi-container cloud deployment - one command stands up Postgres, backend, frontend, proxy by reading .env files
+  - Async support
+  - GitHub Actions CI/CD configured
+  - Copier-based generation (cookiecutter to generate new code with same pattern)
+use_case: |
+  Ideal for Python enthusiasts building a SaaS or web app who want a robust
+  starting point. Especially useful in organizations preferring Python for
+  business logic (data science, etc.) with snappy JS front-end. Top choice for
+  learning: demonstrates well-structured FastAPI project and React SPA
+  integration. Many production services built on it.
+pros:
+  - Extremely well-architected by FastAPI's author - follows best practices for security (JWT auth with refresh, hashed passwords), API design, and DevOps (Dockerization)
+  - "Feature completeness: user management, CRUD patterns, tests, background tasks"
+  - Popularity (40k stars) means lots of community support - Q&A on GitHub and third-party articles
+  - Type hints everywhere (FastAPI's strength) with Pydantic/SQLModel for data validation
+  - Template can be generated via Cookiecutter or GitHub template
+cons:
+  - Heavy on Docker and config - initial learning curve if unfamiliar with containers or JWT auth flows
+  - Assumes DevOps knowledge (e.g., Traefik configuration)
+  - React front-end is fairly basic (no sophisticated state management by default)
+  - If you prefer all-Python stack (Django templating), this is more complex with two languages
+  - While JWT is flexible, some prefer session/cookie auth (requires adjustments for SSR apps)
+  - Updates from template must be manually merged into your project
+community: |
+  Huge - FastAPI community uses this template extensively. Discussions on
+  whether people use it in production (many do). Issues answered by community
+  and sometimes Sebastin himself. Referenced in conference talks and tutorials.
+  Ask questions on FastAPI's Discord/Stack Overflow with high chance of answers
+  from template users. Cookiecutter has been forked and customized by many
+  (different frontends or ORMs). #### FastAPI + Other Frontends
+deployment:
+  - Vercel
+  - Netlify
+  - AWS
+  - Heroku
+  - Docker
+  - DigitalOcean
+  - Azure
+added_date: 2025-12-21

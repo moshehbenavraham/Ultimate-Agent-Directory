@@ -1,0 +1,13 @@
+id: wasp
+title: Wasp & Open SaaS (DSL-Based)
+emoji: W
+description: Production-ready Wasp & Open SaaS (DSL-Based) boilerplates and starter
+  kits
+ecosystem: JavaScript/TypeScript
+order: 60
+show_github_stats: true
+table_columns:
+- name
+- url
+- description
+- github_stars

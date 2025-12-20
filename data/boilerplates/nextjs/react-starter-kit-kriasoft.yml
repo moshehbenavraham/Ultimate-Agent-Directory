@@ -1,0 +1,54 @@
+name: React Starter Kit (Kriasoft)
+url: https://github.com/kriasoft/react-starter-kit
+description: Performance-focused edge-native starter with Cloudflare Workers deployment.
+category: nextjs
+type: boilerplate
+tags:
+  - nextjs
+  - react
+  - tailwindcss
+  - drizzle
+  - trpc
+  - saas
+  - monorepo
+  - postgresql
+github_repo: kriasoft/react-starter-kit
+github_stars: 23400
+license: MIT
+technical_stack:
+  - component: Frontend
+    technology: React 19, TanStack Router
+    reasoning: Latest React with modern routing
+  - component: Styling
+    technology: Tailwind CSS v4
+    reasoning: Performance gains with v4
+  - component: Backend
+    technology: Hono, tRPC
+    reasoning: Edge-compatible, type-safe APIs
+  - component: Database
+    technology: Drizzle ORM, Neon PostgreSQL
+    reasoning: Serverless Postgres, lightweight ORM
+  - component: Auth
+    technology: Better Auth
+    reasoning: Modern auth solution
+key_features:
+  - Monorepo with Turborepo for shared code efficiency
+  - Edge deployment optimized for Cloudflare Workers
+  - Multi-tenancy support
+  - Email templates via React Email
+  - WebSocket support
+  - Terraform infrastructure-as-code
+  - VitePress documentation site
+use_case: |
+  Fast, global SaaS/API apps prioritizing edge performance and shared code.
+  Ideal for developers comfortable with Bun runtime and Cloudflare ecosystem.
+pros:
+  - Performance-focused (Bun, edge-native), type-safe APIs, comprehensive DX tools, large community (23k+ stars)
+cons:
+  - Bun runtime requirement, Cloudflare-specific deployment
+community: |
+  Discord ([discord.gg/2nKEnKq](https://discord.gg/2nKEnKq)), maintained by
+  Konstantin Tarkus with 10+ contributors.
+deployment:
+  - Cloudflare
+added_date: 2025-12-21

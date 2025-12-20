@@ -1,0 +1,30 @@
+name: React Flask Authentication (AppSeed)
+url: https://github.com/app-generator/react-flask-authentication
+description: Simple decoupled Flask + React starter with JWT authentication.
+category: flask
+type: boilerplate
+tags:
+  - flask
+  - react
+  - django
+  - postgresql
+  - docker
+github_repo: app-generator/react-flask-authentication
+github_stars: 1000
+license: MIT
+key_features:
+  - JWT-based authentication
+  - Material UI components
+  - Docker deployment ready
+  - Test coverage included
+  - Decoupled frontend/backend architecture
+use_case: Ideal for admin panels, CRUD applications, and rapid prototyping with Flask.
+pros:
+  - Simple and decoupled, good documentation, Material UI included
+cons:
+  - Less batteries-included compared to Django starters
+community: AppSeed ecosystem, active maintenance ---
+deployment:
+  - Heroku
+  - Docker
+added_date: 2025-12-21

@@ -1,0 +1,19 @@
+name: ixartz SaaS-Boilerplate
+url: https://github.com/ixartz/SaaS-Boilerplate
+description: Modern App Router implementation with multi-tenancy support.
+category: nextjs
+type: boilerplate
+tags:
+  - nextjs
+  - tailwindcss
+  - drizzle
+  - clerk
+  - saas
+github_repo: ixartz/SaaS-Boilerplate
+github_stars: 6500
+license: MIT
+key_features:
+  - Multi-tenancy support
+  - Storybook integration for component development
+  - Free tier available with Pro upgrade option
+added_date: 2025-12-21

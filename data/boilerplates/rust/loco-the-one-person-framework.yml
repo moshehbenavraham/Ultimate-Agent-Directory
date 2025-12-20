@@ -1,0 +1,17 @@
+name: Loco (The One-Person Framework)
+url: https://github.com/loco-rs/loco
+description: Explicitly aims to replicate the developer experience of Rails within Rust.
+category: rust
+type: boilerplate
+tags:
+  - rust
+  - saas
+  - rails
+github_repo: loco-rs/loco
+github_stars: 8400
+license: Apache 2.0
+key_features:
+  - "**CLI Scaffolding** (`loco generate model`, `loco generate controller`) familiar to Rails developers"
+  - Integrated Task Queues (Redis/Threads), Mailers, and Scheduler (cron replacement)
+  - Dedicated "SaaS Starter" mode generating user registration, verification, and password reset flows
+added_date: 2025-12-21

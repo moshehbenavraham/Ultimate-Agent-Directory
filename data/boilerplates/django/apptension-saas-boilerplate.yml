@@ -1,0 +1,34 @@
+name: Apptension SaaS Boilerplate
+url: https://github.com/apptension/saas-boilerplate
+description: Full SaaS with Django + React, used by Netflix/Uber projects.
+category: django
+type: boilerplate
+tags:
+  - django
+  - react
+  - typescript
+  - stripe
+  - saas
+  - monorepo
+  - postgresql
+github_repo: apptension/saas-boilerplate
+github_stars: 2800
+license: MIT
+key_features:
+  - "**Multi-tenancy**"
+  - OAuth (Google, Facebook)
+  - 2FA authentication
+  - "**Stripe subscriptions**"
+  - Email templates
+  - CMS integration (Contentful)
+  - OpenAI API integration
+  - NX monorepo
+  - Storybook
+pros:
+  - Used by Netflix/Uber projects, completely free, comprehensive feature set
+cons:
+  - Complex AWS setup (3-day onboarding estimated), requires AWS knowledge
+community: Comprehensive documentation
+deployment:
+  - AWS
+added_date: 2025-12-21

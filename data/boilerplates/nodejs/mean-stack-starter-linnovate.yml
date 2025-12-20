@@ -1,0 +1,42 @@
+name: MEAN Stack Starter (Linnovate)
+url: https://github.com/linnovate/mean
+description: Classic full-stack JavaScript starter with Angular and MongoDB.
+category: nodejs
+type: boilerplate
+tags:
+  - nodejs
+  - typescript
+  - docker
+github_repo: linnovate/mean
+github_stars: 12100
+license: Open Source
+technical_stack:
+  - component: Frontend
+    technology: Angular 6
+    reasoning: Enterprise-grade frontend framework
+  - component: Backend
+    technology: Express, Node.js
+    reasoning: Standard Node.js API layer
+  - component: Database
+    technology: MongoDB
+    reasoning: Document database for flexibility
+  - component: Auth
+    technology: Built-in
+    reasoning: Session-based authentication
+key_features:
+  - Docker support for containerized deployment
+  - ESLint/Prettier for code quality
+  - Git hooks via Husky
+  - Full TypeScript support
+  - Open component architecture
+use_case: |
+  Scalable full-stack JavaScript applications, especially suited for teams
+  familiar with Angular and MongoDB ecosystems.
+pros:
+  - Open components, Docker-ready, established MEAN stack patterns
+cons:
+  - Angular 6 may require updates, less modern auth compared to JWT solutions
+community: Maintained by Linnovate. Part of the broader MEAN stack ecosystem.
+deployment:
+  - Docker
+added_date: 2025-12-21

@@ -1,0 +1,18 @@
+name: nunomaduro/laravel-starter-kit
+url: https://github.com/nunomaduro/laravel-starter-kit
+description: Ultra-strict TypeScript Laravel starter.
+category: laravel
+type: boilerplate
+tags:
+  - laravel
+  - react
+  - typescript
+  - saas
+github_repo: nunomaduro/laravel-starter-kit
+license: MIT
+key_features:
+  - 100% type coverage
+  - PHPStan level 9
+  - "\"Cruddy by Design\" patterns"
+  - Ultra-strict TypeScript configuration
+added_date: 2025-12-21

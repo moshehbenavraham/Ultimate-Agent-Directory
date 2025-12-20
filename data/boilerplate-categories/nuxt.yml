@@ -1,0 +1,12 @@
+id: nuxt
+title: Vue / Nuxt.js
+emoji: V
+description: Production-ready Vue / Nuxt.js boilerplates and starter kits
+ecosystem: JavaScript/TypeScript
+order: 70
+show_github_stats: true
+table_columns:
+- name
+- url
+- description
+- github_stars

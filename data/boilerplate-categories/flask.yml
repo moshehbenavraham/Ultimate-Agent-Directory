@@ -1,0 +1,12 @@
+id: flask
+title: Flask
+emoji: F
+description: Production-ready Flask boilerplates and starter kits
+ecosystem: Python
+order: 130
+show_github_stats: true
+table_columns:
+- name
+- url
+- description
+- github_stars

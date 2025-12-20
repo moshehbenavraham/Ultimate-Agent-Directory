@@ -1,0 +1,13 @@
+id: meteor
+title: Meteor (Real-Time JavaScript)
+emoji: M
+description: Production-ready Meteor (Real-Time JavaScript) boilerplates and starter
+  kits
+ecosystem: JavaScript/TypeScript
+order: 50
+show_github_stats: true
+table_columns:
+- name
+- url
+- description
+- github_stars

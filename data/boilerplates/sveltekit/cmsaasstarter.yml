@@ -1,0 +1,62 @@
+name: CMSaasStarter
+url: https://github.com/scosman/CMSaasStarter
+description: |
+  Full-featured SvelteKit + Supabase SaaS starter with marketing pages. A
+  modern SaaS template leveraging Svelte's simplicity and full-stack
+  capabilities.
+category: sveltekit
+type: boilerplate
+tags:
+  - sveltekit
+  - react
+  - typescript
+  - tailwindcss
+  - prisma
+  - supabase
+  - stripe
+  - trpc
+  - saas
+  - postgresql
+github_repo: scosman/CMSaasStarter
+github_stars: 2300
+license: MIT
+key_features:
+  - Marketing homepage and blog (with markdown/MDX content)
+  - Authentication (Supabase Auth with OAuth support)
+  - Subscription management with Stripe (plan page, pricing component)
+  - User dashboard after login with profile/settings pages
+  - Team management system (invite users, manage roles)
+  - Pre-built pricing page and components for features, FAQs
+  - Email sending via Supabase Edge Functions or 3rd-party SMTP
+  - SvelteKit endpoints handle server-side logic
+use_case: |
+  Perfect if you prefer Svelte's reactivity and simplicity over React. Great
+  way to start a SaaS with smaller bundle size and simpler state management.
+  Ideal for solo devs or small teams who want an all-in-one starter with
+  marketing and app combined, and are comfortable using a BaaS (Supabase). Also
+  suitable for learning SvelteKit + Supabase integration.
+pros:
+  - Very feature-rich for a Svelte starter - few templates include this breadth (marketing site, auth, billing)
+  - Clean and modern UI (Tailwind + prebuilt components)
+  - SvelteKit offers excellent performance
+  - Using Supabase means less server code (focus on client logic)
+  - Solid following (2k+ stars) indicating it solved a need in Svelte community
+  - TypeScript support ensures type safety
+  - Follows SvelteKit best practices
+cons:
+  - Supabase lock-in - moving off it to self-host Postgres requires effort
+  - SvelteKit has smaller ecosystem than React/Next - fewer ready-made packages
+  - If team is unfamiliar with Svelte, that's a learning curve (though many find Svelte easier than React)
+  - May not have enterprise features like SAML SSO or elaborate RBAC - those would be custom add-ons
+community: |
+  Svelte community is enthusiastic; starter shared on Svelte Discords and
+  "Awesome SvelteKit" lists. Author Scott (scosman) engages with GitHub issues
+  and updates for new SvelteKit versions. Supabase has growing Svelte user base
+  with support in Supabase forums.
+deployment:
+  - Vercel
+  - Netlify
+  - Docker
+  - EAS
+  - Supabase
+added_date: 2025-12-21

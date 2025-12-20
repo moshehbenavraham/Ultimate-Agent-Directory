@@ -1,0 +1,18 @@
+name: laravel/react-starter-kit (Official)
+url: https://github.com/laravel/react-starter-kit
+description: Official Laravel starter with React 19 and modern tooling.
+category: laravel
+type: boilerplate
+tags:
+  - laravel
+  - react
+  - typescript
+  - tailwindcss
+github_repo: laravel/react-starter-kit
+license: MIT
+key_features:
+  - Official Laravel-maintained template
+  - Full auth scaffolding
+  - SSR support
+  - shadcn/ui components
+added_date: 2025-12-21

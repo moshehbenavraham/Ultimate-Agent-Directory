@@ -1,0 +1,37 @@
+name: Supersaas (Commercial)
+url: https://supersaas.dev/
+description: |
+  Comprehensive Nuxt 3 SaaS starter with all major features and multi-database
+  support.
+category: nuxt
+type: boilerplate
+tags:
+  - nuxt
+  - typescript
+  - tailwindcss
+  - drizzle
+  - supabase
+  - stripe
+  - saas
+  - postgresql
+  - docker
+github_stars: 1000
+license: Commercial
+key_features:
+  - Authentication with multiple providers
+  - Stripe payments integration
+  - Role-based access control (RBAC)
+  - Team management
+  - Admin panel
+  - File storage integration
+  - Multi-database support (Postgres, Supabase)
+use_case: Comprehensive SaaS applications needing all major features out-of-the-box.
+pros:
+  - All major SaaS features included, multi-DB support, strong documentation, Discord support
+cons:
+  - Paid/commercial, not fully open source
+deployment:
+  - Vercel
+  - Netlify
+  - Docker
+added_date: 2025-12-21

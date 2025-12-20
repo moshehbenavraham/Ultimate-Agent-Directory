@@ -1,0 +1,31 @@
+name: Rails Vite Starterkit
+url: https://github.com/carlweis/rails-vite-starterkit
+description: Modern Rails 8.1 starter with Vite, React 18, and comprehensive SaaS features.
+category: rails
+type: boilerplate
+tags:
+  - rails
+  - react
+  - typescript
+  - tailwindcss
+  - saas
+  - postgresql
+  - docker
+github_repo: carlweis/rails-vite-starterkit
+github_stars: 1100
+license: MIT
+key_features:
+  - Two-factor authentication (2FA)
+  - Role-based access control (RBAC)
+  - Background jobs with Sidekiq
+  - Docker deployment configuration
+  - Admin UI included
+  - Kamal deployment support
+use_case: Modern Rails SaaS applications needing Vite build tooling with React frontend.
+pros:
+  - Batteries-included with 2FA, RBAC, background jobs, Docker ready
+cons:
+  - "Heavier setup for minimal applications
+
+#### Rails + Vue"
+added_date: 2025-12-21

@@ -1,0 +1,69 @@
+name: RedwoodJS Framework
+url: https://github.com/redwoodjs/redwood
+description: |
+  GraphQL-first full-stack framework with strong conventions. An opinionated
+  full-stack framework inspired by Ruby on Rails, using Yarn/Pnpm workspaces for
+  a monorepo containing "web" and "api" directories.
+category: redwood
+type: boilerplate
+tags:
+  - redwood
+  - nextjs
+  - react
+  - prisma
+  - trpc
+  - clerk
+  - saas
+  - monorepo
+  - rails
+  - postgresql
+github_repo: redwoodjs/redwood
+github_stars: 17600
+license: MIT
+key_features:
+  - "**Generators** (CLI commands to scaffold pages, components, services, etc.)"
+  - "**\"Cells\"** for declarative data fetching UI patterns"
+  - Secure GraphQL API layer with services and SDL files for schema
+  - Access control via directives
+  - Prisma migrations for DB
+  - Built-in Storybook/Jest with VSCode extensions
+  - One-command auth setup (Auth0, Clerk, Firebase, DB auth)
+  - React Server Components (Bighorn epoch)
+  - Flash messaging system for toast notifications
+  - Background job support via Redwood Cells/Queue
+  - Redwood Studio admin UI for database browsing
+  - Realtime subscriptions (v8+) and newer React features
+use_case: |
+  Ideal for teams who want a Rails-like developer experience in JavaScript.
+  Great for SaaS or applications that benefit from GraphQL with lots of
+  structure and tooling. Especially good for startups that need to scale -
+  architecture is scalable (API and Web separate, can be scaled independently).
+  Shines in CRUD-heavy apps, marketplaces, or internal tools.
+pros:
+  - Complete end-to-end framework - front-end and back-end in one package with consistent development approach
+  - Generators and CLI significantly speed up development (scaffold pages, layouts, CRUD for models)
+  - GraphQL API with services provides clean separation and built-in security
+  - Thriving community and detailed documentation including tutorials
+  - Encourages good practices (type safety, test coverage, storybook)
+  - Founded by Tom Preston-Werner (GitHub co-founder) - well-funded and here to stay. 250+ contributors
+cons:
+  - Heavyweight & opinionated - must embrace Redwood's way (file structure, GraphQL)
+  - If unfamiliar with GraphQL or don't need it, may feel complex
+  - Learning curve for Redwood conventions (Cells, Routes, Services)
+  - Bundle size larger due to GraphQL client
+  - Debugging across GraphQL boundary adds complexity vs tRPC
+  - Auth requires configuration for providers
+  - Newer paradigm - fewer developers know it compared to plain Next.js, so hiring/training considerations
+community: |
+  Very active - forums on community.redwoodjs.com where core devs answer
+  questions, Discord server, weekly "Redwood Office Hours" chats. Many startups
+  building on Redwood (some raised funding). GitHub repo has 250+ contributors
+  with frequent releases. Redwood Conference and significant content (blogs,
+  videos). Community explicitly welcoming to newcomers with Contributor's guide.
+deployment:
+  - Vercel
+  - Netlify
+  - AWS
+  - Fly.io
+  - Render
+added_date: 2025-12-21

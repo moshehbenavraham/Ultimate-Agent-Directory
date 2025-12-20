@@ -1,0 +1,18 @@
+name: Go React TypeScript Template
+url: https://github.com/AkashRajpurohit/go-react-typescript-template
+description: Minimalist starter prioritizing simplicity and the standard library.
+category: go
+type: boilerplate
+tags:
+  - go
+  - react
+  - typescript
+  - docker
+github_repo: AkashRajpurohit/go-react-typescript-template
+github_stars: 15
+license: MIT
+key_features:
+  - Air Integration for backend hot-reloading (critical DX feature)
+  - GoReleaser and multi-platform Dockerfiles for binary distribution
+  - Avoids complex ORMs, adhering to Go's philosophy of simplicity
+added_date: 2025-12-21

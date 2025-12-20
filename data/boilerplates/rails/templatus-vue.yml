@@ -1,0 +1,30 @@
+name: templatus-vue
+url: https://github.com/templatus/templatus-vue
+description: Modern Rails 8.1 + Vue 3 starter with comprehensive testing and PWA support.
+category: rails
+type: boilerplate
+tags:
+  - rails
+  - typescript
+  - tailwindcss
+  - postgresql
+  - docker
+github_repo: templatus/templatus-vue
+github_stars: 1100
+license: MIT
+key_features:
+  - Progressive Web App (PWA) support
+  - CI/CD pipeline included
+  - Error tracking integration
+  - Comprehensive test coverage
+  - Docker production deployment
+use_case: Modern Rails + Vue applications needing PWA capabilities and strong testing.
+pros:
+  - Small footprint, well-tested, PWA support
+cons:
+  - "Docker production deployment only
+
+#### Rails + Hotwire / Turbo
+
+Rails 7 ships with"
+added_date: 2025-12-21

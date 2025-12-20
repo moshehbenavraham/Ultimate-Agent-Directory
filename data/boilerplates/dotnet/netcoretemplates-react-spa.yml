@@ -1,0 +1,26 @@
+name: NetCoreTemplates React SPA
+url: https://github.com/NetCoreTemplates/react-spa
+description: Modern .NET 10 + React 19 starter with ServiceStack integration.
+category: dotnet
+type: boilerplate
+tags:
+  - dotnet
+  - react
+  - typescript
+  - tailwindcss
+  - docker
+github_repo: NetCoreTemplates/react-spa
+github_stars: 1100
+license: MIT
+key_features:
+  - Authentication with ServiceStack
+  - Background jobs support
+  - Docker deployment ready
+  - Cross-platform (Windows, Linux)
+  - Modern Vite build tooling
+use_case: Modern .NET + React SPA applications with ServiceStack integration.
+pros:
+  - Modern stack (.NET 10, React 19), production-ready, Docker support
+cons:
+  - ServiceStack-specific patterns (requires familiarity)
+added_date: 2025-12-21

@@ -1,0 +1,35 @@
+name: Remix Indie Stack (Official)
+url: https://github.com/remix-run/indie-stack
+description: |
+  Official Remix starter stack for indie developers and small teams, maintained
+  by the Remix team.
+category: remix
+type: boilerplate
+tags:
+  - remix
+  - typescript
+  - tailwindcss
+  - prisma
+  - saas
+  - postgresql
+  - docker
+github_repo: remix-run/indie-stack
+github_stars: 2200
+license: MIT
+key_features:
+  - Built-in authentication with email/password
+  - SQLite database with Prisma ORM (easily swappable)
+  - CI/CD pipeline with GitHub Actions
+  - Docker deployment configuration
+  - End-to-end tests with Cypress
+  - Unit tests with Vitest
+  - ESLint and Prettier pre-configured
+use_case: |
+  Perfect for SaaS MVPs, CRUD applications, and rapid prototyping. Official
+  Remix recommendation for getting started quickly.
+pros:
+  - Official Remix stack with batteries-included, comprehensive testing setup, CI/CD ready
+cons:
+  - SQLite default (can swap to Postgres), less focus on multi-tenancy features
+community: Official Remix documentation, Discord support, active maintainers
+added_date: 2025-12-21

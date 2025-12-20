@@ -1,0 +1,12 @@
+id: react-native
+title: React Native
+emoji: R
+description: Production-ready React Native boilerplates and starter kits
+ecosystem: Mobile
+order: 200
+show_github_stats: true
+table_columns:
+- name
+- url
+- description
+- github_stars

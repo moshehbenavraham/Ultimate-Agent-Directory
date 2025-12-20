@@ -1,0 +1,11 @@
+name: rails-react-boilerplate
+url: https://github.com/giannisp/rails-react-boilerplate
+description: Another Rails + React integration option.
+category: rails
+type: boilerplate
+tags:
+  - rails
+  - react
+github_repo: giannisp/rails-react-boilerplate
+license: MIT
+added_date: 2025-12-21

@@ -1,0 +1,14 @@
+name: django-htmx-patterns
+url: https://github.com/spookylukey/django-htmx-patterns
+description: Best practices repository for Django + HTMX.
+category: django
+type: boilerplate
+tags:
+  - django
+github_repo: spookylukey/django-htmx-patterns
+license: Public Domain
+key_features:
+  - Best practices and patterns for Django + HTMX
+  - Represents the growing "hypermedia-driven" movement in Django community
+  - Copy-paste encouraged (public domain)
+added_date: 2025-12-21

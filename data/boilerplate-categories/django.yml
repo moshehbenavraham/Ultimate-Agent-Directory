@@ -1,0 +1,12 @@
+id: django
+title: Django
+emoji: D
+description: Production-ready Django boilerplates and starter kits
+ecosystem: Python
+order: 120
+show_github_stats: true
+table_columns:
+- name
+- url
+- description
+- github_stars

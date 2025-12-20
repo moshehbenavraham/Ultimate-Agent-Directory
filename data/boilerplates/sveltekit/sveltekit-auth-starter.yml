@@ -1,0 +1,26 @@
+name: SvelteKit Auth Starter
+url: https://github.com/delay/sveltekit-auth
+description: Authentication-focused SvelteKit starter with Lucia Auth and Prisma.
+category: sveltekit
+type: boilerplate
+tags:
+  - sveltekit
+  - prisma
+  - saas
+github_repo: delay/sveltekit-auth
+github_stars: 1000
+license: MIT
+key_features:
+  - Lucia Auth implementation (modern auth library)
+  - Prisma ORM integration
+  - shadcn-svelte UI components
+  - Zod schema validation
+  - RBAC (role-based access control)
+use_case: |
+  Perfect for SaaS, CRUD apps, and MVPs that need solid authentication
+  foundations.
+pros:
+  - Modern Lucia Auth, Prisma ORM, comprehensive RBAC, beautiful shadcn UI
+cons:
+  - Auth-focused (needs extension for full SaaS features)
+added_date: 2025-12-21

@@ -1,0 +1,12 @@
+id: blitz
+title: Blitz.js
+emoji: B
+description: Production-ready Blitz.js boilerplates and starter kits
+ecosystem: JavaScript/TypeScript
+order: 30
+show_github_stats: true
+table_columns:
+- name
+- url
+- description
+- github_stars

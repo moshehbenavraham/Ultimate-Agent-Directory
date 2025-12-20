@@ -1,0 +1,14 @@
+name: Ignite (Infinite Red)
+url: https://github.com/infinitered/ignite
+description: The de-facto standard for React Native development.
+category: react-native
+type: boilerplate
+tags:
+  - react-native
+  - react
+github_repo: infinitered/ignite
+key_features:
+  - Uses MobX-State-Tree for state management
+  - CLI for generating components and screens
+  - Battle-tested on real client projects, ensuring architecture scales
+added_date: 2025-12-21

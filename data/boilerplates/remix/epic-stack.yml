@@ -1,0 +1,30 @@
+name: Epic Stack
+url: https://github.com/epicweb-dev/epic-stack
+description: Production-tested by Kent C. Dodds with comprehensive security and testing.
+category: remix
+type: boilerplate
+tags:
+  - remix
+  - react
+  - tailwindcss
+  - prisma
+  - docker
+github_repo: epicweb-dev/epic-stack
+github_stars: 5400
+license: MIT
+key_features:
+  - Full OAuth auth with role-based permissions
+  - Image uploads
+  - Email via Resend
+  - Honeypot spam protection
+  - CSP headers
+  - Feature flags
+  - Sentry monitoring
+  - Playwright tests
+  - GitHub Actions CI/CD
+pros:
+  - Battle-tested patterns, comprehensive feature set, security-first
+cons:
+  - Can be overwhelming for beginners, Fly.io-specific deployment
+community: epicweb.dev ecosystem, active development
+added_date: 2025-12-21

@@ -1,0 +1,19 @@
+name: Brocoders NestJS Boilerplate
+url: https://github.com/Brocoders/nestjs-boilerplate
+description: Comprehensive NestJS boilerplate with multi-database support.
+category: nodejs
+type: boilerplate
+tags:
+  - nodejs
+  - postgresql
+  - docker
+github_repo: Brocoders/nestjs-boilerplate
+github_stars: 2800
+license: MIT
+key_features:
+  - Social auth (Apple, Facebook, Google)
+  - File uploads (S3)
+  - Swagger API docs
+  - Docker + CI integration
+  - JWT authentication
+added_date: 2025-12-21

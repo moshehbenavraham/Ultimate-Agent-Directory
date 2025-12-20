@@ -1,0 +1,60 @@
+name: Nextacular
+url: https://github.com/nextacular/nextacular
+description: |
+  Open-source starter kit for building full-stack multi-tenant SaaS platforms
+  with workspaces and custom domain support.
+category: nextjs
+type: boilerplate
+tags:
+  - nextjs
+  - tailwindcss
+  - prisma
+  - stripe
+  - authjs
+  - saas
+  - monorepo
+  - postgresql
+  - docker
+github_repo: nextacular/nextacular
+github_stars: 1300
+license: MIT
+key_features:
+  - Full-stack SaaS template emphasizing multi-tenancy and workspaces
+  - User authentication with JWT sessions or NextAuth
+  - Teams & workspaces (users can belong to multiple workspaces)
+  - Multi-tenant structure (each workspace data is isolated; includes custom domains for each tenant)
+  - Subscription billing and Stripe integration for paid plans
+  - Built-in landing page and pricing page for marketing site
+  - Basic email sending via Nodemailer (for welcomes, etc.)
+  - SEO optimizations and simple blog
+  - ESLint/Prettier and VSCode config included
+  - One-click deploy to Vercel with instructions
+use_case: |
+  Good for founders building B2B SaaS where each customer has their own
+  workspace or subdomain. Middle-ground - more features than minimal Next.js
+  starter, but lighter than BoxyHQ's enterprise kit. If you want multi-tenancy
+  with custom domains, basic billing, and pre-built landing site in one package.
+  Structure is also educational for Next.js monorepo with shared code between
+  app and marketing site.
+pros:
+  - Covers multi-tenancy cleanly (workspace model with role-based access)
+  - Has Stripe subscription flow built-in
+  - "Community-driven with positive reviews (Vercel's Steven Tey praised it: \"super helpful for folks to bootstrap their MVPs\")"
+  - Documentation site provided, includes custom domain configuration examples - rare and useful for SaaS
+  - MIT licensed and free for commercial use
+  - README showcases live SaaS products built on Nextacular
+cons:
+  - At 1.3k stars, community is smaller - support exists but not as large as others
+  - Some features require manual setup (email needs SMTP configured; custom domains require DNS setup)
+  - Relatively new, expect occasional bugs or need to update for latest Next versions
+  - Lacks very advanced features like SSO or SCIM (integrate those if needed)
+  - Integrates many pieces (auth, Stripe), understanding full codebase takes time for newcomers
+community: |
+  Active Discord channel ("Team Nextacular") and OpenCollective sponsors.
+  Maintainers engaged, releasing updates and merging PRs. Users have built real
+  projects with it. Mentioned on Product Hunt and GitHub discussions around
+  multi-tenant SaaS.
+deployment:
+  - Vercel
+  - Docker
+added_date: 2025-12-21

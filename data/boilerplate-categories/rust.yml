@@ -1,0 +1,12 @@
+id: rust
+title: Rust
+emoji: R
+description: Production-ready Rust boilerplates and starter kits
+ecosystem: Rust
+order: 170
+show_github_stats: true
+table_columns:
+- name
+- url
+- description
+- github_stars

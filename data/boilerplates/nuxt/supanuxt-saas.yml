@@ -1,0 +1,56 @@
+name: SupaNuxt SaaS
+url: https://github.com/JavascriptMick/supanuxt-saas
+description: |
+  Comprehensive boilerplate for the "Supa-stack" (Supabase + Nuxt), bringing
+  TypeScript full-stack development to Vue. A Vue counterpart to the
+  Supabase/Next starters.
+category: nuxt
+type: boilerplate
+tags:
+  - nuxt
+  - nextjs
+  - react
+  - typescript
+  - tailwindcss
+  - prisma
+  - supabase
+  - stripe
+  - trpc
+  - saas
+github_repo: JavascriptMick/supanuxt-saas
+github_stars: 522
+license: MIT
+key_features:
+  - "**TRPC implementation** in Nuxt ecosystem for end-to-end type safety (bringing tRPC to Vue)"
+  - Multi-Tenancy (Teams) support
+  - Stripe integration for subscriptions
+  - Dashboard and settings pages
+  - Default landing page template
+  - OpenAI API example usage (geared towards AI-powered SaaS)
+  - Pinia set up for global state (e.g., user session)
+use_case: |
+  If you prefer Vue/Nuxt over React or Svelte, this is one of the few robust
+  open SaaS starters. Good for small SaaS projects, especially those involving
+  AI (given OpenAI integration). Developers comfortable with Vue find this a
+  quicker starting point than learning Next.js starters. Interesting for those
+  who want to experiment with tRPC in a Vue environment.
+pros:
+  - Fills a gap for Vue - there are many Next.js starters, but fewer Nuxt ones. 500+ stars shows demand
+  - Nuxt 3 brings SSR and structure similar to Next with Vue's approachable syntax
+  - Integration with Supabase means no custom auth or basic CRUD backend coding needed
+  - Pinia provides simple global store for managing user and team state
+  - Uses Vue composition API best practices
+cons:
+  - Not as battle-tested as some others. tRPC with Nuxt is less common, meaning less community knowledge for specific issues
+  - Supabase does heavy lifting - any limitations there affect your app
+  - Feature set might not be as extensive yet (no audit logs or complex role support without custom work)
+  - Vue's ecosystem for SaaS-specific components is smaller than React's
+community: |
+  Listed on SaaS starters sites, author participates in Supabase and Vue
+  communities. Vue/Nuxt developers helpful on forums; Nuxt Discord or GitHub for
+  guidance. Supabase Discord has #vue channel for integration questions.
+deployment:
+  - Vercel
+  - Netlify
+  - Supabase
+added_date: 2025-12-21

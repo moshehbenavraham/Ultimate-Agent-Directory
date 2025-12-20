@@ -1,0 +1,12 @@
+id: fastapi
+title: FastAPI
+emoji: F
+description: Production-ready FastAPI boilerplates and starter kits
+ecosystem: Python
+order: 110
+show_github_stats: true
+table_columns:
+- name
+- url
+- description
+- github_stars

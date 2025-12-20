@@ -1,0 +1,15 @@
+name: Rustzen Admin
+url: https://github.com/idaibin/rustzen-admin
+description: Decoupled starter focusing on the React/Rust interface.
+category: rust
+type: boilerplate
+tags:
+  - rust
+  - react
+github_repo: idaibin/rustzen-admin
+github_stars: 112
+license: MIT
+key_features:
+  - Mock Data endpoints for parallel frontend/backend development
+  - Complete Role-Based Access Control (RBAC) system in Rust
+added_date: 2025-12-21

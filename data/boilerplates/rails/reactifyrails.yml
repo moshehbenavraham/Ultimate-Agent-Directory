@@ -1,0 +1,11 @@
+name: ReactifyRails
+url: https://github.com/akhilgkrishnan/reactify-rails
+description: Rails + React integration starter.
+category: rails
+type: boilerplate
+tags:
+  - rails
+  - react
+github_repo: akhilgkrishnan/reactify-rails
+license: MIT
+added_date: 2025-12-21

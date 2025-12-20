@@ -1,30 +1,23 @@
 name: create-t3-app
 url: https://github.com/t3-oss/create-t3-app
-description: The TypeScript standard for Next.js development, offering an interactive CLI with modular architecture. Full type-safety end-to-end with tRPC and the largest community with best documentation. Created by Theo (t3dotgg).
+description: |
+  The TypeScript standard for Next.js development, offering an interactive CLI
+  with modular architecture.
 category: nextjs
-
-type: starter
+type: boilerplate
 tags:
-  - typescript
   - nextjs
-  - trpc
+  - react
+  - typescript
+  - tailwindcss
   - prisma
-  - tailwind
-  - nextauth
-
+  - drizzle
+  - trpc
+  - authjs
+  - saas
 github_repo: t3-oss/create-t3-app
-documentation_url: https://create.t3.gg
-
-platform:
-  - TypeScript
-  - React
-  - Next.js
-
-license: MIT
-pricing: free
-
 github_stars: 28300
-
+license: MIT
 technical_stack:
   - component: Frontend
     technology: Next.js (App Router)
@@ -41,36 +34,34 @@ technical_stack:
   - component: Styling
     technology: Tailwind CSS
     reasoning: Utility-first CSS framework
-
 key_features:
   - Interactive CLI for modular component selection
   - Full type-safety end-to-end with tRPC
-  - Largest community with best documentation
-  - 378+ contributors
-
-use_case: Perfect for those who want a solid foundation without extra cruft. If you value developer experience and type safety, T3 is ideal. Many indie SaaS projects start with T3 Stack. Ideal for small teams and startups who plan to build out features themselves but want authentication and a robust structure pre-set.
-
+  - Largest community with best documentation (create.t3.gg)
+  - 378+ contributors, created by Theo (t3dotgg)
+use_case: |
+  Perfect for those who want a solid foundation without extra cruft. If you
+  value developer experience and type safety, T3 is ideal - many indie SaaS
+  projects start with T3 Stack. Ideal for small teams/startups who plan to build
+  out features themselves but want authentication and a robust structure
+  pre-set. Also a great learning tool with lots of tutorials and community help.
 pros:
-  - Maximum flexibility with opt-in modules
-  - Excellent documentation at create.t3.gg
-  - Extremely popular and well-supported
-  - Huge Discord community (30k+ members)
-  - Type-safe end-to-end means fewer runtime errors
-  - Maintainers keep it updated with new Next.js versions
-
+  - Maximum flexibility, only use what you need, excellent documentation
+  - Extremely popular & well-supported with huge Discord community
+  - The type-safe end-to-end approach means fewer runtime errors
+  - Very flexible - you opt into only what you need (can exclude NextAuth or Prisma)
+  - Maintainers keep it updated promptly with new Next.js and library versions
 cons:
-  - No payments or email built-in
-  - Requires manual SaaS feature additions
-  - Learning curve for tRPC and NextAuth
-  - Minimal UI requires adding components
-
-community: Active Discord with 30k+ members, weekly community calls, many contributors. T3 Axiom and other forks extend it. Lots of content including blogs and YouTube tutorials.
-
-deployment:
-  - Vercel
-  - Docker
-  - Self-hosted
-
-featured: true
-verified: true
-added_date: 2025-12-20
+  - No payments/email built-in, requires manual SaaS feature additions
+  - Focuses on dev-stack rather than features
+  - Reliance on tRPC and NextAuth means a learning curve if unfamiliar
+  - Because it's minimal, you'll spend time adding UI components
+  - Not a turnkey SaaS solution, but a high-quality starting scaffold
+community: |
+  Active Discord (~30k members), weekly community calls, many contributors. "T3
+  Axiom" and other forks extend it. Lots of content (blogs, YouTube) about
+  building with T3. If you run into an issue, chances are someone in the
+  community has encountered it. The T3 team values best practices with constant
+  improvements (e.g., adopting new Next.js app directory features quickly).
+  Created by Theo (t3dotgg).
+added_date: 2025-12-21

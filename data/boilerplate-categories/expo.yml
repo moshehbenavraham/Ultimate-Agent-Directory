@@ -1,0 +1,12 @@
+id: expo
+title: Expo
+emoji: E
+description: Production-ready Expo boilerplates and starter kits
+ecosystem: Mobile
+order: 210
+show_github_stats: true
+table_columns:
+- name
+- url
+- description
+- github_stars

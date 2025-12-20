@@ -1,0 +1,12 @@
+id: go
+title: Go / Golang
+emoji: G
+description: Production-ready Go / Golang boilerplates and starter kits
+ecosystem: Go
+order: 160
+show_github_stats: true
+table_columns:
+- name
+- url
+- description
+- github_stars

@@ -1,0 +1,49 @@
+name: hackathon-starter
+url: https://github.com/sahat/hackathon-starter
+description: |
+  The classic Node.js boilerplate with comprehensive OAuth integrations, one of
+  the most starred full-stack starters on GitHub.
+category: nodejs
+type: boilerplate
+tags:
+  - nodejs
+  - stripe
+  - docker
+github_repo: sahat/hackathon-starter
+github_stars: 35200
+license: MIT
+technical_stack:
+  - component: Frontend
+    technology: Bootstrap 5, Pug templates
+    reasoning: Classic server-rendered approach
+  - component: Backend
+    technology: Node.js, Express
+    reasoning: Industry standard for Node.js APIs
+  - component: Database
+    technology: MongoDB
+    reasoning: Flexible document store
+  - component: Auth
+    technology: Passport.js (OAuth)
+    reasoning: Multiple provider support
+key_features:
+  - Multiple OAuth providers (Google, Microsoft, Facebook, GitHub, etc.)
+  - AI examples with OpenAI and LangChain integration
+  - "API integrations: Stripe, PayPal, Twilio"
+  - Contact form with reCAPTCHA
+  - File upload capabilities
+  - Rate limiting and CSRF protection
+  - Cluster mode and HTTPS support
+use_case: |
+  Ideal for hackathons, rapid prototyping, and Node.js projects needing
+  comprehensive API integrations. Perfect for developers who want a traditional
+  server-rendered approach with extensive OAuth support.
+pros:
+  - Comprehensive API integrations, well-documented, massive community (35k+ stars), battle-tested
+cons:
+  - Pug templating may feel outdated, requires API keys for many integrations
+community: No dedicated Discord; uses GitHub for support. Maintained by Sahat Yalkabov.
+deployment:
+  - AWS
+  - Docker
+  - Azure
+added_date: 2025-12-21

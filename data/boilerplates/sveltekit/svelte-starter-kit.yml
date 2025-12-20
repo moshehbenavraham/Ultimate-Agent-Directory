@@ -1,0 +1,21 @@
+name: svelte-starter-kit
+url: https://github.com/nicholascostadev/svelte-starter-kit
+description: Comprehensive monorepo-ready SvelteKit starter.
+category: sveltekit
+type: boilerplate
+tags:
+  - sveltekit
+  - tailwindcss
+  - authjs
+  - monorepo
+  - docker
+github_repo: nicholascostadev/svelte-starter-kit
+github_stars: 800
+license: MIT
+key_features:
+  - PWA (Progressive Web App) support
+  - GraphQL via Houdini
+  - i18n internationalization
+  - Docker deployment ready
+  - Monorepo-ready architecture
+added_date: 2025-12-21

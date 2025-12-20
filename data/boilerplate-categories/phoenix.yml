@@ -1,0 +1,12 @@
+id: phoenix
+title: Phoenix LiveView
+emoji: P
+description: Production-ready Phoenix LiveView boilerplates and starter kits
+ecosystem: Elixir
+order: 190
+show_github_stats: true
+table_columns:
+- name
+- url
+- description
+- github_stars

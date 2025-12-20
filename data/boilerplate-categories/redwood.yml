@@ -1,0 +1,12 @@
+id: redwood
+title: RedwoodJS
+emoji: R
+description: Production-ready RedwoodJS boilerplates and starter kits
+ecosystem: JavaScript/TypeScript
+order: 40
+show_github_stats: true
+table_columns:
+- name
+- url
+- description
+- github_stars

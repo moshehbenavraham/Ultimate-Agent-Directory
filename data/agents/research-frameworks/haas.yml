@@ -1,10 +1,10 @@
 name: HAAS
-url: https://github.com/daveshap/HAAS_Hierarchical_Autonomous_Agent_Swarm
+url: https://github.com/daveshap/OpenAI_Agent_Swarm
 description: A groundbreaking research initiative that leverages advanced agent-based
   APIs to create self-organizing, ethically governed ecosystems of AI agents. HAAS
   features hierarchical control mechanisms with specialized roles including Supreme
   Oversight Board and Executive Agents for autonomous system governance.
-github_repo: daveshap/HAAS_Hierarchical_Autonomous_Agent_Swarm
+github_repo: daveshap/OpenAI_Agent_Swarm
 category: research-frameworks
 added_date: '2025-11-05'
 verified: false

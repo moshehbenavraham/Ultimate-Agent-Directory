@@ -1,5 +1,5 @@
 name: AI Co-Scientist
-url: https://deepmind.google/discover/blog/ai-co-scientist-a-new-multi-agent-ai-system-for-accelerating-scientific-discovery/
+url: https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/
 description: A multi-agent AI system built with Gemini 2.0 designed to function as
   a virtual scientific collaborator. AI Co-Scientist uses specialized agents (Generation,
   Reflection, Ranking, Evolution, Proximity, and Meta-review) to generate novel research

@@ -1,0 +1,12 @@
+id: nextjs
+title: Next.js & T3 Stack
+emoji: "N"
+description: Full-stack React frameworks with Next.js, including the popular T3 Stack (TypeScript, tRPC, Tailwind) and other production-ready starters.
+ecosystem: JavaScript
+order: 1
+show_github_stats: true
+table_columns:
+  - name
+  - url
+  - description
+  - github_stars

@@ -1,10 +1,10 @@
 name: AgentOS
-url: https://github.com/AgentOS-AI/AgentOS
+url: https://github.com/The-Swarm-Corporation/AgentOS
 description: Experimental open-source platform for creating self-evolving autonomous
   AI agents capable of writing and executing their own code. Explores the frontier
   of autonomous agent development with self-modification and adaptation capabilities
   for research applications.
-github_repo: AgentOS-AI/AgentOS
+github_repo: The-Swarm-Corporation/AgentOS
 category: open-source-frameworks
 added_date: '2025-11-05'
 verified: false

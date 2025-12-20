@@ -1,9 +1,9 @@
 name: open-operator-evals
-url: https://github.com/openai/open-operator-evals
-description: Evaluation framework from OpenAI for assessing agent performance on computer
-  operation tasks. Provides benchmarks for testing agents on realistic workflows involving
-  GUI interaction, application control, and multi-step computer tasks.
-github_repo: openai/open-operator-evals
+url: https://github.com/nottelabs/open-operator-evals
+description: Open-source benchmark framework for evaluating web operators and agents
+  on their ability to complete web tasks. Provides transparent, reproducible performance
+  evaluations with WebVoyager30 benchmark dataset covering 30 diverse web tasks.
+github_repo: nottelabs/open-operator-evals
 category: specialized-tools
 added_date: '2025-11-05'
 verified: false

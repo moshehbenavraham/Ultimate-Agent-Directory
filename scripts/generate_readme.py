@@ -64,16 +64,11 @@ def generate_readme():
     print(f"Loaded {len(categories)} categories and {len(agents)} agents")
 
     # Build metadata
-    metadata = DirectoryMetadata(
-        total_entries=len(agents),
-        last_generated=date.today()
-    )
+    metadata = DirectoryMetadata(total_entries=len(agents), last_generated=date.today())
 
     # Load template
     env = Environment(
-        loader=FileSystemLoader("templates"),
-        trim_blocks=True,
-        lstrip_blocks=True
+        loader=FileSystemLoader("templates"), trim_blocks=True, lstrip_blocks=True
     )
     template = env.get_template("readme.jinja2")
 
@@ -82,7 +77,7 @@ def generate_readme():
     output = template.render(
         metadata=metadata,
         categories=categories,
-        entries_by_category=entries_by_category
+        entries_by_category=entries_by_category,
     )
 
     # Write

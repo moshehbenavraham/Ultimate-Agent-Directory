@@ -1,5 +1,5 @@
 name: MixedVoices
-url: https://www.mixedvoices.xyz
+url: https://pypi.org/project/mixedvoices/
 description: Open-source analytics and evaluation platform for voice AI agents, functioning
   as Mixpanel for conversational AI with auto-generation of interactive call flow
   visualizations. Enables developers to analyze, visualize, evaluate, and optimize

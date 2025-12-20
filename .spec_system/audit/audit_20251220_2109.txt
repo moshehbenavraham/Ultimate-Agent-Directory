@@ -1,0 +1,21 @@
+AUDIT REPORT | Ultimate-Agent-Directory | 2025-12-20 21:09
+Git: dirty | Stack: Python 3.12
+
+[SETUP] pip (venv) | Linter: ruff 0.14.10 | Fmt: ruff | Types: mypy (installed)
+  + Installed: mypy, types-PyYAML, types-requests
+
+[ultimate-agent-directory]
+  Fmt: 1 fixed | Lint: 0 remain | Types: 4 fixed, 0 remain
+  Fixed in scripts/models.py:
+    - Line 143: Changed HttpUrl to str for default value compatibility
+  Fixed in scripts/check_links.py:
+    - Line 69: Added Optional type annotation for dataclass field
+    - Line 103: Added type annotation for urls list
+    - Line 593: Added type annotation for unique_errors dict
+    - Line 410: Renamed 'field' variable to 'field_name' to avoid shadowing import
+
+  Tests: validate PASS | generate PASS
+
+SUMMARY: P1 ok | P2 5/5 fixed, 0 known | P3 pass
+
+Saved: .spec_system/audit/audit_20251220_2109.txt

@@ -1,5 +1,5 @@
 name: Google Vertex AI Agent Builder
-url: https://cloud.google.com/vertex-ai/docs/agent-builder/introduction
+url: https://cloud.google.com/products/agent-builder
 description: Google's enterprise platform for building AI agents with the Agent Development
   Kit (ADK) that enables multi-agent development in under 100 lines of code. Integrates
   with Google Cloud, Vertex AI, and Agentspace for enterprise deployment with support

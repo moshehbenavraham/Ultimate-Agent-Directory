@@ -21,9 +21,9 @@ import re
 import sys
 import time
 from collections import defaultdict
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Dict, List, Optional, Set, Tuple
+from typing import Dict, List, Optional, Tuple
 from urllib.parse import urlparse
 
 import aiohttp
@@ -32,25 +32,26 @@ from tqdm import tqdm
 
 # Import local models for YAML parsing
 try:
-    from models import AgentEntry, Category
+    from models import AgentEntry
 except ImportError:
     sys.path.insert(0, str(Path(__file__).parent))
-    from models import AgentEntry, Category
+    from models import AgentEntry
 
 
 # ANSI color codes for terminal output
 class Colors:
-    GREEN = '\033[92m'
-    YELLOW = '\033[93m'
-    RED = '\033[91m'
-    BLUE = '\033[94m'
-    RESET = '\033[0m'
-    BOLD = '\033[1m'
+    GREEN = "\033[92m"
+    YELLOW = "\033[93m"
+    RED = "\033[91m"
+    BLUE = "\033[94m"
+    RESET = "\033[0m"
+    BOLD = "\033[1m"
 
 
 @dataclass
 class URLCheck:
     """Result of checking a single URL."""
+
     url: str
     status: str  # 'success', 'error', 'warning'
     status_code: Optional[int]
@@ -63,12 +64,11 @@ class URLCheck:
 @dataclass
 class RateLimiter:
     """Rate limiter for domain-based request throttling."""
-    max_per_second: int
-    domain_timestamps: Dict[str, List[float]] = None
 
-    def __post_init__(self):
-        if self.domain_timestamps is None:
-            self.domain_timestamps = defaultdict(list)
+    max_per_second: int
+    domain_timestamps: Dict[str, List[float]] = field(
+        default_factory=lambda: defaultdict(list)
+    )
 
     async def wait_if_needed(self, url: str):
         """Wait if we've exceeded rate limit for this domain."""
@@ -77,8 +77,7 @@ class RateLimiter:
 
         # Remove timestamps older than 1 second
         self.domain_timestamps[domain] = [
-            ts for ts in self.domain_timestamps[domain]
-            if now - ts < 1.0
+            ts for ts in self.domain_timestamps[domain] if now - ts < 1.0
         ]
 
         # If we've hit the limit, wait
@@ -99,45 +98,49 @@ def extract_urls_from_yaml(file_path: Path) -> List[Tuple[str, str]]:
     Returns:
         List of (url, field_name) tuples
     """
-    urls = []
+    urls: List[Tuple[str, str]] = []
 
     try:
-        with open(file_path, 'r', encoding='utf-8') as f:
+        with open(file_path, "r", encoding="utf-8") as f:
             data = yaml.safe_load(f)
 
         if not data:
             return urls
 
         # Check if it's an agent file or category file
-        if 'url' in data:  # Agent file
+        if "url" in data:  # Agent file
             try:
                 entry = AgentEntry(**data)
-                urls.append((str(entry.url), 'url'))
+                urls.append((str(entry.url), "url"))
 
                 if entry.documentation_url:
-                    urls.append((str(entry.documentation_url), 'documentation_url'))
+                    urls.append((str(entry.documentation_url), "documentation_url"))
 
                 if entry.demo_url:
-                    urls.append((str(entry.demo_url), 'demo_url'))
+                    urls.append((str(entry.demo_url), "demo_url"))
 
                 # Construct GitHub URL from github_repo field
                 if entry.github_repo:
                     github_url = f"https://github.com/{entry.github_repo}"
-                    urls.append((github_url, 'github_repo'))
+                    urls.append((github_url, "github_repo"))
 
-            except Exception as e:
+            except Exception:
                 # If Pydantic validation fails, try manual extraction
-                if 'url' in data:
-                    urls.append((data['url'], 'url'))
-                if 'documentation_url' in data:
-                    urls.append((data['documentation_url'], 'documentation_url'))
-                if 'demo_url' in data:
-                    urls.append((data['demo_url'], 'demo_url'))
-                if 'github_repo' in data:
-                    urls.append((f"https://github.com/{data['github_repo']}", 'github_repo'))
+                if "url" in data:
+                    urls.append((data["url"], "url"))
+                if "documentation_url" in data:
+                    urls.append((data["documentation_url"], "documentation_url"))
+                if "demo_url" in data:
+                    urls.append((data["demo_url"], "demo_url"))
+                if "github_repo" in data:
+                    urls.append(
+                        (f"https://github.com/{data['github_repo']}", "github_repo")
+                    )
 
     except Exception as e:
-        print(f"  {Colors.YELLOW}Warning: Could not parse {file_path}: {e}{Colors.RESET}")
+        print(
+            f"  {Colors.YELLOW}Warning: Could not parse {file_path}: {e}{Colors.RESET}"
+        )
 
     return urls
 
@@ -152,22 +155,22 @@ def extract_urls_from_markdown(file_path: Path) -> List[Tuple[str, str]]:
     urls = []
 
     try:
-        with open(file_path, 'r', encoding='utf-8') as f:
+        with open(file_path, "r", encoding="utf-8") as f:
             content = f.read()
 
         # Pattern 1: Inline links [text](url)
-        inline_pattern = r'\[([^\]]+)\]\(([^)]+)\)'
+        inline_pattern = r"\[([^\]]+)\]\(([^)]+)\)"
         for match in re.finditer(inline_pattern, content):
             url = match.group(2)
-            if url.startswith('http://') or url.startswith('https://'):
-                urls.append((url, f'inline:[{match.group(1)}]'))
+            if url.startswith("http://") or url.startswith("https://"):
+                urls.append((url, f"inline:[{match.group(1)}]"))
 
         # Pattern 2: Reference links [ref]: url
-        reference_pattern = r'^\[([^\]]+)\]:\s*(.+)$'
+        reference_pattern = r"^\[([^\]]+)\]:\s*(.+)$"
         for match in re.finditer(reference_pattern, content, re.MULTILINE):
             url = match.group(2).strip()
-            if url.startswith('http://') or url.startswith('https://'):
-                urls.append((url, f'reference:[{match.group(1)}]'))
+            if url.startswith("http://") or url.startswith("https://"):
+                urls.append((url, f"reference:[{match.group(1)}]"))
 
         # Pattern 3: Direct URLs (not in markdown links)
         # Exclude URLs already captured in patterns 1 and 2
@@ -176,11 +179,13 @@ def extract_urls_from_markdown(file_path: Path) -> List[Tuple[str, str]]:
         for match in re.finditer(direct_pattern, content):
             url = match.group(0)
             if url not in captured_urls:
-                urls.append((url, 'direct'))
+                urls.append((url, "direct"))
                 captured_urls.add(url)
 
     except Exception as e:
-        print(f"  {Colors.YELLOW}Warning: Could not parse {file_path}: {e}{Colors.RESET}")
+        print(
+            f"  {Colors.YELLOW}Warning: Could not parse {file_path}: {e}{Colors.RESET}"
+        )
 
     return urls
 
@@ -195,7 +200,7 @@ def extract_urls_from_template(file_path: Path) -> List[Tuple[str, str]]:
     urls = []
 
     try:
-        with open(file_path, 'r', encoding='utf-8') as f:
+        with open(file_path, "r", encoding="utf-8") as f:
             content = f.read()
 
         # Pattern: Literal URLs in templates (not in variables)
@@ -203,11 +208,13 @@ def extract_urls_from_template(file_path: Path) -> List[Tuple[str, str]]:
         for match in re.finditer(url_pattern, content):
             url = match.group(0)
             # Skip if it's inside a Jinja2 variable (contains {})
-            if '{{' not in url and '}}' not in url:
-                urls.append((url, 'literal'))
+            if "{{" not in url and "}}" not in url:
+                urls.append((url, "literal"))
 
     except Exception as e:
-        print(f"  {Colors.YELLOW}Warning: Could not parse {file_path}: {e}{Colors.RESET}")
+        print(
+            f"  {Colors.YELLOW}Warning: Could not parse {file_path}: {e}{Colors.RESET}"
+        )
 
     return urls
 
@@ -222,21 +229,25 @@ def extract_urls_from_static(file_path: Path) -> List[Tuple[str, str]]:
     urls = []
 
     try:
-        with open(file_path, 'r', encoding='utf-8') as f:
+        with open(file_path, "r", encoding="utf-8") as f:
             content = f.read()
 
         # Extract all HTTP/HTTPS URLs
         url_pattern = r'https?://[^\s"\'<>)\]};]+'
         for match in re.finditer(url_pattern, content):
-            urls.append((match.group(0), 'static'))
+            urls.append((match.group(0), "static"))
 
     except Exception as e:
-        print(f"  {Colors.YELLOW}Warning: Could not parse {file_path}: {e}{Colors.RESET}")
+        print(
+            f"  {Colors.YELLOW}Warning: Could not parse {file_path}: {e}{Colors.RESET}"
+        )
 
     return urls
 
 
-def collect_all_urls(yaml_only: bool = False, verbose: bool = False) -> Dict[str, List[Tuple[str, str]]]:
+def collect_all_urls(
+    yaml_only: bool = False, verbose: bool = False
+) -> Dict[str, List[Tuple[str, str]]]:
     """
     Collect all URLs from repository files.
 
@@ -288,7 +299,9 @@ def collect_all_urls(yaml_only: bool = False, verbose: bool = False) -> Dict[str
     # 3. Jinja2 templates
     templates_dir = project_root / "templates"
     if templates_dir.exists():
-        template_files = list(templates_dir.glob("*.jinja2")) + list(templates_dir.glob("*.html"))
+        template_files = list(templates_dir.glob("*.jinja2")) + list(
+            templates_dir.glob("*.html")
+        )
         if verbose:
             print(f"  Scanning {len(template_files)} template files...")
 
@@ -300,7 +313,9 @@ def collect_all_urls(yaml_only: bool = False, verbose: bool = False) -> Dict[str
     # 4. Static assets (CSS, JS)
     static_dir = project_root / "static"
     if static_dir.exists():
-        static_files = list(static_dir.glob("**/*.css")) + list(static_dir.glob("**/*.js"))
+        static_files = list(static_dir.glob("**/*.css")) + list(
+            static_dir.glob("**/*.js")
+        )
         if verbose:
             print(f"  Scanning {len(static_files)} static files...")
 
@@ -318,7 +333,7 @@ async def check_url(
     timeout: int,
     retries: int,
     rate_limiter: RateLimiter,
-    verbose: bool = False
+    verbose: bool = False,
 ) -> Tuple[int, Optional[str]]:
     """
     Check a single URL asynchronously.
@@ -340,14 +355,14 @@ async def check_url(
                 url,
                 timeout=aiohttp.ClientTimeout(total=timeout),
                 allow_redirects=True,
-                ssl=False  # Don't verify SSL to avoid certificate issues
+                ssl=False,  # Don't verify SSL to avoid certificate issues
             ) as response:
                 return response.status, None
 
         except asyncio.TimeoutError:
             if attempt == retries - 1:
                 return 0, "Timeout"
-            await asyncio.sleep(2 ** attempt)  # Exponential backoff
+            await asyncio.sleep(2**attempt)  # Exponential backoff
 
         except aiohttp.ClientError as e:
             # Try GET request if HEAD fails (some servers don't support HEAD)
@@ -357,7 +372,7 @@ async def check_url(
                         url,
                         timeout=aiohttp.ClientTimeout(total=timeout),
                         allow_redirects=True,
-                        ssl=False
+                        ssl=False,
                     ) as response:
                         return response.status, None
                 except Exception:
@@ -365,12 +380,12 @@ async def check_url(
 
             if attempt == retries - 1:
                 return 0, str(e)
-            await asyncio.sleep(2 ** attempt)
+            await asyncio.sleep(2**attempt)
 
         except Exception as e:
             if attempt == retries - 1:
                 return 0, f"Unexpected error: {str(e)}"
-            await asyncio.sleep(2 ** attempt)
+            await asyncio.sleep(2**attempt)
 
     return 0, "Max retries exceeded"
 
@@ -380,7 +395,7 @@ async def check_all_urls(
     timeout: int,
     retries: int,
     rate_limit: int,
-    verbose: bool = False
+    verbose: bool = False,
 ) -> List[URLCheck]:
     """
     Check all URLs asynchronously with rate limiting.
@@ -391,16 +406,16 @@ async def check_all_urls(
     results = []
     rate_limiter = RateLimiter(max_per_second=rate_limit)
 
-    # Flatten URL map to list of (url, file, field) tuples
+    # Flatten URL map to list of (url, file, field_name) tuples
     url_checks = []
     for file_path, urls in url_map.items():
-        for url, field in urls:
-            url_checks.append((url, file_path, field))
+        for url, field_name in urls:
+            url_checks.append((url, file_path, field_name))
 
     # Deduplicate URLs while preserving source information
     url_to_sources = defaultdict(list)
-    for url, file_path, field in url_checks:
-        url_to_sources[url].append((file_path, field))
+    for url, file_path, field_name in url_checks:
+        url_to_sources[url].append((file_path, field_name))
 
     unique_urls = list(url_to_sources.keys())
 
@@ -414,7 +429,7 @@ async def check_all_urls(
             # Check URLs in batches to avoid overwhelming the system
             batch_size = 50
             for i in range(0, len(unique_urls), batch_size):
-                batch = unique_urls[i:i+batch_size]
+                batch = unique_urls[i : i + batch_size]
 
                 # Create tasks for this batch
                 tasks = [
@@ -429,39 +444,41 @@ async def check_all_urls(
                 for url, (status_code, error_msg) in zip(batch, batch_results):
                     # Classify result
                     if status_code == 0:
-                        status = 'error'
+                        status = "error"
                     elif status_code < 400:
-                        status = 'success'
+                        status = "success"
                     elif status_code in [403, 401]:
-                        status = 'warning'  # May be auth-required
+                        status = "warning"  # May be auth-required
                     elif status_code == 429:
-                        status = 'warning'  # Rate limited
+                        status = "warning"  # Rate limited
                     elif status_code >= 500:
-                        status = 'warning'  # Server error (may be temporary)
+                        status = "warning"  # Server error (may be temporary)
                     else:
-                        status = 'error'  # 404, 410, etc.
+                        status = "error"  # 404, 410, etc.
 
                     # Create URLCheck for each source
                     for file_path, field in url_to_sources[url]:
                         # Determine source type
-                        if file_path.endswith('.yml') or file_path.endswith('.yaml'):
-                            source_type = 'yaml'
-                        elif file_path.endswith('.md'):
-                            source_type = 'markdown'
-                        elif '.jinja' in file_path or file_path.endswith('.html'):
-                            source_type = 'template'
+                        if file_path.endswith(".yml") or file_path.endswith(".yaml"):
+                            source_type = "yaml"
+                        elif file_path.endswith(".md"):
+                            source_type = "markdown"
+                        elif ".jinja" in file_path or file_path.endswith(".html"):
+                            source_type = "template"
                         else:
-                            source_type = 'static'
+                            source_type = "static"
 
-                        results.append(URLCheck(
-                            url=url,
-                            status=status,
-                            status_code=status_code,
-                            error_message=error_msg,
-                            source_file=file_path,
-                            source_type=source_type,
-                            field_name=field
-                        ))
+                        results.append(
+                            URLCheck(
+                                url=url,
+                                status=status,
+                                status_code=status_code,
+                                error_message=error_msg,
+                                source_file=file_path,
+                                source_type=source_type,
+                                field_name=field,
+                            )
+                        )
 
                 pbar.update(len(batch))
 
@@ -471,9 +488,9 @@ async def check_all_urls(
 def print_results(results: List[URLCheck], verbose: bool = False):
     """Print check results to terminal with color coding."""
     # Group by status
-    success = [r for r in results if r.status == 'success']
-    warnings = [r for r in results if r.status == 'warning']
-    errors = [r for r in results if r.status == 'error']
+    success = [r for r in results if r.status == "success"]
+    warnings = [r for r in results if r.status == "warning"]
+    errors = [r for r in results if r.status == "error"]
 
     # Deduplicate for display (same URL may appear in multiple files)
     unique_errors = {}
@@ -515,7 +532,9 @@ def print_results(results: List[URLCheck], verbose: bool = False):
             print()
 
 
-def save_report(results: List[URLCheck], output_file: str = "reports/link-check-report.json"):
+def save_report(
+    results: List[URLCheck], output_file: str = "reports/link-check-report.json"
+):
     """Save detailed results to JSON file."""
     project_root = Path(__file__).parent.parent
     output_path = project_root / output_file
@@ -527,9 +546,9 @@ def save_report(results: List[URLCheck], output_file: str = "reports/link-check-
         "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
         "summary": {
             "total": len(results),
-            "success": len([r for r in results if r.status == 'success']),
-            "warnings": len([r for r in results if r.status == 'warning']),
-            "errors": len([r for r in results if r.status == 'error'])
+            "success": len([r for r in results if r.status == "success"]),
+            "warnings": len([r for r in results if r.status == "warning"]),
+            "errors": len([r for r in results if r.status == "error"]),
         },
         "results": [
             {
@@ -539,13 +558,13 @@ def save_report(results: List[URLCheck], output_file: str = "reports/link-check-
                 "error_message": r.error_message,
                 "source_file": r.source_file,
                 "source_type": r.source_type,
-                "field_name": r.field_name
+                "field_name": r.field_name,
             }
             for r in results
-        ]
+        ],
     }
 
-    with open(output_path, 'w', encoding='utf-8') as f:
+    with open(output_path, "w", encoding="utf-8") as f:
         json.dump(report, f, indent=2)
 
     print(f"{Colors.BLUE}Report saved to: {output_file}{Colors.RESET}")
@@ -553,38 +572,44 @@ def save_report(results: List[URLCheck], output_file: str = "reports/link-check-
 
 def create_github_issues(results: List[URLCheck], verbose: bool = False):
     """Create GitHub issues for broken links."""
-    errors = [r for r in results if r.status == 'error']
+    errors = [r for r in results if r.status == "error"]
 
     if not errors:
         print(f"{Colors.GREEN}No broken links to report!{Colors.RESET}")
         return
 
     # Check for GitHub token
-    github_token = os.environ.get('GITHUB_TOKEN')
+    github_token = os.environ.get("GITHUB_TOKEN")
     if not github_token:
-        print(f"{Colors.YELLOW}Warning: GITHUB_TOKEN not found. Skipping issue creation.{Colors.RESET}")
-        print(f"To create issues, set GITHUB_TOKEN environment variable.")
+        print(
+            f"{Colors.YELLOW}Warning: GITHUB_TOKEN not found. Skipping issue creation.{Colors.RESET}"
+        )
+        print("To create issues, set GITHUB_TOKEN environment variable.")
         return
 
     # Group errors by URL to avoid duplicate issues
-    unique_errors = {}
+    unique_errors: Dict[str, List[URLCheck]] = {}
     for result in errors:
         if result.url not in unique_errors:
             unique_errors[result.url] = []
         unique_errors[result.url].append(result)
 
-    print(f"\n{Colors.BOLD}Creating GitHub issues for {len(unique_errors)} broken links...{Colors.RESET}")
+    print(
+        f"\n{Colors.BOLD}Creating GitHub issues for {len(unique_errors)} broken links...{Colors.RESET}"
+    )
 
     # Import requests for GitHub API
     import requests
 
     # Detect repository from git config or environment
-    repo = os.environ.get('GITHUB_REPOSITORY', 'moshehbenavraham/Ultimate-Agent-Directory')
+    repo = os.environ.get(
+        "GITHUB_REPOSITORY", "moshehbenavraham/Ultimate-Agent-Directory"
+    )
     api_url = f"https://api.github.com/repos/{repo}/issues"
 
     headers = {
-        'Authorization': f'token {github_token}',
-        'Accept': 'application/vnd.github.v3+json'
+        "Authorization": f"token {github_token}",
+        "Accept": "application/vnd.github.v3+json",
     }
 
     for url, url_errors in unique_errors.items():
@@ -594,7 +619,7 @@ def create_github_issues(results: List[URLCheck], verbose: bool = False):
             response = requests.get(search_url, headers=headers)
             if response.status_code == 200:
                 existing = response.json()
-                if existing['total_count'] > 0:
+                if existing["total_count"] > 0:
                     if verbose:
                         print(f"  Issue already exists for: {url}")
                     continue
@@ -603,7 +628,9 @@ def create_github_issues(results: List[URLCheck], verbose: bool = False):
                 print(f"  Warning: Could not check for existing issue: {e}")
 
         # Prepare issue body
-        sources = "\n".join([f"- `{e.source_file}` (field: `{e.field_name}`)" for e in url_errors])
+        sources = "\n".join(
+            [f"- `{e.source_file}` (field: `{e.field_name}`)" for e in url_errors]
+        )
         error_info = url_errors[0]
 
         title = f"Broken link: {url[:80]}"
@@ -611,14 +638,14 @@ def create_github_issues(results: List[URLCheck], verbose: bool = False):
 
 **URL:** {url}
 
-**Status Code:** {error_info.status_code or 'N/A'}
+**Status Code:** {error_info.status_code or "N/A"}
 
-**Error:** {error_info.error_message or 'Link is not accessible'}
+**Error:** {error_info.error_message or "Link is not accessible"}
 
 **Found in:**
 {sources}
 
-**Detected:** {time.strftime('%Y-%m-%d %H:%M:%S')}
+**Detected:** {time.strftime("%Y-%m-%d %H:%M:%S")}
 
 ---
 This issue was automatically created by the link checker.
@@ -626,18 +653,20 @@ This issue was automatically created by the link checker.
 
         # Create issue
         issue_data = {
-            'title': title,
-            'body': body,
-            'labels': ['broken-link', 'automated']
+            "title": title,
+            "body": body,
+            "labels": ["broken-link", "automated"],
         }
 
         try:
             response = requests.post(api_url, headers=headers, json=issue_data)
             if response.status_code == 201:
-                issue_url = response.json()['html_url']
+                issue_url = response.json()["html_url"]
                 print(f"  {Colors.GREEN}✓{Colors.RESET} Created issue: {issue_url}")
             else:
-                print(f"  {Colors.RED}✗{Colors.RESET} Failed to create issue for {url}: {response.status_code}")
+                print(
+                    f"  {Colors.RED}✗{Colors.RESET} Failed to create issue for {url}: {response.status_code}"
+                )
                 if verbose:
                     print(f"    Response: {response.text}")
         except Exception as e:
@@ -656,54 +685,49 @@ Examples:
   %(prog)s --timeout 10             # Custom timeout (10 seconds)
   %(prog)s --no-issues              # Skip GitHub issue creation
   %(prog)s --verbose                # Show detailed output
-        """
+        """,
     )
 
     parser.add_argument(
-        '--timeout',
+        "--timeout",
         type=int,
         default=10,
-        help='Request timeout in seconds (default: 10, optimized for 100Mbps home connection)'
+        help="Request timeout in seconds (default: 10, optimized for 100Mbps home connection)",
     )
 
     parser.add_argument(
-        '--retries',
-        type=int,
-        default=3,
-        help='Number of retry attempts (default: 3)'
+        "--retries", type=int, default=3, help="Number of retry attempts (default: 3)"
     )
 
     parser.add_argument(
-        '--rate-limit',
+        "--rate-limit",
         type=int,
         default=5,
-        help='Max requests per second per domain (default: 5, prevents rate limiting on home connection)'
+        help="Max requests per second per domain (default: 5, prevents rate limiting on home connection)",
     )
 
     parser.add_argument(
-        '--yaml-only',
-        action='store_true',
-        help='Check only YAML files (faster, skips docs/templates)'
+        "--yaml-only",
+        action="store_true",
+        help="Check only YAML files (faster, skips docs/templates)",
     )
 
     parser.add_argument(
-        '--no-issues',
-        action='store_true',
-        help='Skip GitHub issue creation (report only)'
+        "--no-issues",
+        action="store_true",
+        help="Skip GitHub issue creation (report only)",
     )
 
     parser.add_argument(
-        '--verbose',
-        action='store_true',
-        help='Show detailed output including warnings'
+        "--verbose", action="store_true", help="Show detailed output including warnings"
     )
 
     args = parser.parse_args()
 
     # Print banner
-    print(f"\n{Colors.BOLD}{'='*60}")
+    print(f"\n{Colors.BOLD}{'=' * 60}")
     print("  Ultimate Agent Directory - Link Checker")
-    print(f"{'='*60}{Colors.RESET}\n")
+    print(f"{'=' * 60}{Colors.RESET}\n")
 
     # Collect URLs
     url_map = collect_all_urls(yaml_only=args.yaml_only, verbose=args.verbose)
@@ -716,13 +740,15 @@ Examples:
     print(f"Found {total_urls} URLs in {len(url_map)} files")
 
     # Check URLs
-    results = asyncio.run(check_all_urls(
-        url_map,
-        timeout=args.timeout,
-        retries=args.retries,
-        rate_limit=args.rate_limit,
-        verbose=args.verbose
-    ))
+    results = asyncio.run(
+        check_all_urls(
+            url_map,
+            timeout=args.timeout,
+            retries=args.retries,
+            rate_limit=args.rate_limit,
+            verbose=args.verbose,
+        )
+    )
 
     # Print results
     print_results(results, verbose=args.verbose)
@@ -735,9 +761,11 @@ Examples:
         create_github_issues(results, verbose=args.verbose)
 
     # Exit with appropriate code
-    errors = [r for r in results if r.status == 'error']
+    errors = [r for r in results if r.status == "error"]
     if errors:
-        print(f"\n{Colors.RED}{Colors.BOLD}Link check FAILED: {len(errors)} broken links found{Colors.RESET}")
+        print(
+            f"\n{Colors.RED}{Colors.BOLD}Link check FAILED: {len(errors)} broken links found{Colors.RESET}"
+        )
         sys.exit(1)
     else:
         print(f"\n{Colors.GREEN}{Colors.BOLD}All links are valid!{Colors.RESET}")

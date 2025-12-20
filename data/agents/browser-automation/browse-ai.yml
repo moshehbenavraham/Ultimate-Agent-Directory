@@ -1,5 +1,5 @@
 name: Browse AI
-url: https://browse.ai
+url: https://www.browse.ai
 description: An AI-powered data extraction platform that transforms websites into
   live data pipelines without requiring coding skills. Browse AI enables users to
   easily scrape web data, monitor webpage changes, and turn websites into APIs with
@@ -8,5 +8,5 @@ description: An AI-powered data extraction platform that transforms websites int
 github_repo: null
 category: browser-automation
 added_date: '2025-11-05'
-verified: false
+verified: true
 type: tool

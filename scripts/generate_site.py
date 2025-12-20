@@ -55,7 +55,9 @@ def group_by_category(agents: list[AgentEntry]) -> dict:
     return dict(grouped)
 
 
-def create_search_index(agents: list[AgentEntry], categories: list[Category]) -> list[dict]:
+def create_search_index(
+    agents: list[AgentEntry], categories: list[Category]
+) -> list[dict]:
     """Create JSON search index for client-side search"""
     index = []
 
@@ -63,17 +65,19 @@ def create_search_index(agents: list[AgentEntry], categories: list[Category]) ->
     category_titles = {cat.id: cat.title for cat in categories}
 
     for agent in agents:
-        index.append({
-            'name': agent.name,
-            'url': str(agent.url),
-            'description': agent.description,
-            'category': agent.category,
-            'category_title': category_titles.get(agent.category, agent.category),
-            'type': agent.type,
-            'tags': agent.tags,
-            'github_stars': agent.github_stars,
-            'pricing': agent.pricing
-        })
+        index.append(
+            {
+                "name": agent.name,
+                "url": str(agent.url),
+                "description": agent.description,
+                "category": agent.category,
+                "category_title": category_titles.get(agent.category, agent.category),
+                "type": agent.type,
+                "tags": agent.tags,
+                "github_stars": agent.github_stars,
+                "pricing": agent.pricing,
+            }
+        )
 
     return index
 
@@ -87,26 +91,26 @@ def generate_sitemap(categories: list[Category], output_dir: Path):
     sitemap.append('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')
 
     # Homepage
-    sitemap.append('  <url>')
-    sitemap.append(f'    <loc>{base_url}/</loc>')
-    sitemap.append(f'    <lastmod>{today}</lastmod>')
-    sitemap.append('    <changefreq>weekly</changefreq>')
-    sitemap.append('    <priority>1.0</priority>')
-    sitemap.append('  </url>')
+    sitemap.append("  <url>")
+    sitemap.append(f"    <loc>{base_url}/</loc>")
+    sitemap.append(f"    <lastmod>{today}</lastmod>")
+    sitemap.append("    <changefreq>weekly</changefreq>")
+    sitemap.append("    <priority>1.0</priority>")
+    sitemap.append("  </url>")
 
     # Category pages
     for category in categories:
-        sitemap.append('  <url>')
-        sitemap.append(f'    <loc>{base_url}/categories/{category.id}.html</loc>')
-        sitemap.append(f'    <lastmod>{today}</lastmod>')
-        sitemap.append('    <changefreq>weekly</changefreq>')
-        sitemap.append('    <priority>0.8</priority>')
-        sitemap.append('  </url>')
+        sitemap.append("  <url>")
+        sitemap.append(f"    <loc>{base_url}/categories/{category.id}.html</loc>")
+        sitemap.append(f"    <lastmod>{today}</lastmod>")
+        sitemap.append("    <changefreq>weekly</changefreq>")
+        sitemap.append("    <priority>0.8</priority>")
+        sitemap.append("  </url>")
 
-    sitemap.append('</urlset>')
+    sitemap.append("</urlset>")
 
     sitemap_path = output_dir / "sitemap.xml"
-    sitemap_path.write_text('\n'.join(sitemap))
+    sitemap_path.write_text("\n".join(sitemap))
     print(f"✓ Generated {sitemap_path}")
 
 
@@ -143,23 +147,18 @@ def generate_site():
     print(f"  Loaded {len(agents)} agents")
 
     # Build metadata
-    metadata = DirectoryMetadata(
-        total_entries=len(agents),
-        last_generated=date.today()
-    )
+    metadata = DirectoryMetadata(total_entries=len(agents), last_generated=date.today())
 
     # Base URL for GitHub Pages (repo name)
     base_url = "/Ultimate-Agent-Directory"
 
     # Setup Jinja2 environment
     env = Environment(
-        loader=FileSystemLoader("templates"),
-        trim_blocks=True,
-        lstrip_blocks=True
+        loader=FileSystemLoader("templates"), trim_blocks=True, lstrip_blocks=True
     )
 
     # Add custom filters
-    env.filters['formatdate'] = lambda d: d.strftime('%B %d, %Y') if d else 'N/A'
+    env.filters["formatdate"] = lambda d: d.strftime("%B %d, %Y") if d else "N/A"
 
     # Generate homepage
     print("\nGenerating pages...")
@@ -169,7 +168,7 @@ def generate_site():
         metadata=metadata,
         categories=categories,
         entries_by_category=entries_by_category,
-        base_url=base_url
+        base_url=base_url,
     )
     (output_dir / "index.html").write_text(index_html)
 
@@ -187,7 +186,7 @@ def generate_site():
             metadata=metadata,
             category=category,
             agents=category_agents,
-            base_url=base_url
+            base_url=base_url,
         )
 
         category_file = categories_dir / f"{category.id}.html"
@@ -210,19 +209,20 @@ def generate_site():
 
     # Generate stats file
     stats = {
-        'total_entries': len(agents),
-        'total_categories': len(categories),
-        'entries_by_category': {
-            cat.id: len(entries_by_category.get(cat.id, []))
-            for cat in categories
+        "total_entries": len(agents),
+        "total_categories": len(categories),
+        "entries_by_category": {
+            cat.id: len(entries_by_category.get(cat.id, [])) for cat in categories
         },
-        'entries_by_type': {},
-        'last_generated': date.today().isoformat()
+        "entries_by_type": {},
+        "last_generated": date.today().isoformat(),
     }
 
     # Count by type
     for agent in agents:
-        stats['entries_by_type'][agent.type] = stats['entries_by_type'].get(agent.type, 0) + 1
+        stats["entries_by_type"][agent.type] = (
+            stats["entries_by_type"].get(agent.type, 0) + 1
+        )
 
     stats_path = output_dir / "stats.json"
     stats_path.write_text(json.dumps(stats, indent=2))
@@ -236,9 +236,9 @@ def generate_site():
     print(f"Homepage: {output_dir / 'index.html'}")
     print(f"Categories: {len(categories)} pages")
     print(f"Total entries: {len(agents)}")
-    print(f"\nTo preview locally, run:")
+    print("\nTo preview locally, run:")
     print(f"  cd {output_dir} && python -m http.server 8001")
-    print(f"  Then visit: http://localhost:8001")
+    print("  Then visit: http://localhost:8001")
     print()
 
 

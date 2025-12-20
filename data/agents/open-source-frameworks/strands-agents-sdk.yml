@@ -1,10 +1,10 @@
 name: Strands Agents SDK
-url: https://github.com/awslabs/strands-agents-sdk
+url: https://github.com/strands-agents/sdk-python
 description: AWS's toolkit for building AI agents that integrate with Amazon Bedrock
   and other AWS services. The SDK focuses on production readiness with first-class
   OpenTelemetry tracing and native AWS integrations, designed for enterprise-grade
   agent development in cloud environments.
-github_repo: awslabs/strands-agents-sdk
+github_repo: strands-agents/sdk-python
 category: open-source-frameworks
 added_date: '2025-11-05'
 verified: false

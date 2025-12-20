@@ -1,0 +1,76 @@
+name: create-t3-app
+url: https://github.com/t3-oss/create-t3-app
+description: The TypeScript standard for Next.js development, offering an interactive CLI with modular architecture. Full type-safety end-to-end with tRPC and the largest community with best documentation. Created by Theo (t3dotgg).
+category: nextjs
+
+type: starter
+tags:
+  - typescript
+  - nextjs
+  - trpc
+  - prisma
+  - tailwind
+  - nextauth
+
+github_repo: t3-oss/create-t3-app
+documentation_url: https://create.t3.gg
+
+platform:
+  - TypeScript
+  - React
+  - Next.js
+
+license: MIT
+pricing: free
+
+github_stars: 28300
+
+technical_stack:
+  - component: Frontend
+    technology: Next.js (App Router)
+    reasoning: Industry standard for React full-stack
+  - component: Type Safety
+    technology: tRPC
+    reasoning: End-to-end type safety without code generation
+  - component: Database
+    technology: Prisma or Drizzle
+    reasoning: User choice during scaffold
+  - component: Auth
+    technology: NextAuth.js
+    reasoning: Flexible authentication with multiple providers
+  - component: Styling
+    technology: Tailwind CSS
+    reasoning: Utility-first CSS framework
+
+key_features:
+  - Interactive CLI for modular component selection
+  - Full type-safety end-to-end with tRPC
+  - Largest community with best documentation
+  - 378+ contributors
+
+use_case: Perfect for those who want a solid foundation without extra cruft. If you value developer experience and type safety, T3 is ideal. Many indie SaaS projects start with T3 Stack. Ideal for small teams and startups who plan to build out features themselves but want authentication and a robust structure pre-set.
+
+pros:
+  - Maximum flexibility with opt-in modules
+  - Excellent documentation at create.t3.gg
+  - Extremely popular and well-supported
+  - Huge Discord community (30k+ members)
+  - Type-safe end-to-end means fewer runtime errors
+  - Maintainers keep it updated with new Next.js versions
+
+cons:
+  - No payments or email built-in
+  - Requires manual SaaS feature additions
+  - Learning curve for tRPC and NextAuth
+  - Minimal UI requires adding components
+
+community: Active Discord with 30k+ members, weekly community calls, many contributors. T3 Axiom and other forks extend it. Lots of content including blogs and YouTube tutorials.
+
+deployment:
+  - Vercel
+  - Docker
+  - Self-hosted
+
+featured: true
+verified: true
+added_date: 2025-12-20

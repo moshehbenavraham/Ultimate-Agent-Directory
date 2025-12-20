@@ -12,7 +12,6 @@ import argparse
 from pathlib import Path
 import yaml
 from datetime import date
-from models import AgentEntry
 
 
 def parse_markdown_table(content: str) -> list[dict]:
@@ -24,33 +23,36 @@ def parse_markdown_table(content: str) -> list[dict]:
     """
     entries = []
 
-    lines = content.split('\n')
+    lines = content.split("\n")
 
     for line in lines:
         # Skip non-table lines, headers, and separators
-        if not line.startswith('|'):
+        if not line.startswith("|"):
             continue
-        if '---' in line:
+        if "---" in line:
             continue
 
         # Parse cells
-        cells = [cell.strip() for cell in line.split('|')[1:-1]]
+        cells = [cell.strip() for cell in line.split("|")[1:-1]]
 
         if len(cells) < 3:
             continue
 
         # Skip header row
-        if any(header in cells[0].lower() for header in ['framework', 'name', 'platform', 'course']):
+        if any(
+            header in cells[0].lower()
+            for header in ["framework", "name", "platform", "course"]
+        ):
             continue
 
         # Extract name (remove **bold**)
-        name = re.sub(r'\*\*(.+?)\*\*', r'\1', cells[0]).strip()
+        name = re.sub(r"\*\*(.+?)\*\*", r"\1", cells[0]).strip()
 
         if not name:
             continue
 
         # Extract URL from markdown link
-        url_match = re.search(r'\[.*?\]\((https?://[^\)]+)\)', cells[1])
+        url_match = re.search(r"\[.*?\]\((https?://[^\)]+)\)", cells[1])
         url = url_match.group(1) if url_match else ""
 
         # Get description (third column)
@@ -58,17 +60,17 @@ def parse_markdown_table(content: str) -> list[dict]:
 
         # Detect GitHub repo
         github_repo = None
-        if 'github.com' in url:
-            repo_match = re.search(r'github\.com/([^/]+/[^/\s]+)', url)
+        if "github.com" in url:
+            repo_match = re.search(r"github\.com/([^/]+/[^/\s]+)", url)
             if repo_match:
-                github_repo = repo_match.group(1).rstrip('/')
+                github_repo = repo_match.group(1).rstrip("/")
 
         # Build entry
         entry = {
-            'name': name,
-            'url': url,
-            'description': description,
-            'github_repo': github_repo
+            "name": name,
+            "url": url,
+            "description": description,
+            "github_repo": github_repo,
         }
 
         entries.append(entry)
@@ -80,7 +82,7 @@ def extract_section(readme_content: str, section_title: str) -> str:
     """Extract a specific section from README"""
 
     # Find section start
-    section_pattern = rf'^##\s+{re.escape(section_title)}.*?(?=^##\s|\Z)'
+    section_pattern = rf"^##\s+{re.escape(section_title)}.*?(?=^##\s|\Z)"
 
     match = re.search(section_pattern, readme_content, re.MULTILINE | re.DOTALL)
 
@@ -95,7 +97,7 @@ def save_yaml_file(entry_data: dict, category: str, dry_run: bool = False):
     """Save entry as YAML file"""
 
     # Generate filename from name
-    filename = re.sub(r'[^a-z0-9]+', '-', entry_data['name'].lower()).strip('-')
+    filename = re.sub(r"[^a-z0-9]+", "-", entry_data["name"].lower()).strip("-")
 
     # Determine subdirectory
     output_dir = Path(f"data/agents/{category}")
@@ -104,40 +106,38 @@ def save_yaml_file(entry_data: dict, category: str, dry_run: bool = False):
     filepath = output_dir / f"{filename}.yml"
 
     # Add metadata
-    entry_data['category'] = category
-    entry_data['added_date'] = str(date.today())
-    entry_data['verified'] = False
+    entry_data["category"] = category
+    entry_data["added_date"] = str(date.today())
+    entry_data["verified"] = False
 
     # Determine type
-    if 'framework' in category:
-        entry_data['type'] = 'framework'
-    elif 'platform' in category:
-        entry_data['type'] = 'platform'
-    elif 'course' in category or 'learning' in category:
-        entry_data['type'] = 'course'
-    elif 'community' in category:
-        entry_data['type'] = 'community'
+    if "framework" in category:
+        entry_data["type"] = "framework"
+    elif "platform" in category:
+        entry_data["type"] = "platform"
+    elif "course" in category or "learning" in category:
+        entry_data["type"] = "course"
+    elif "community" in category:
+        entry_data["type"] = "community"
     else:
-        entry_data['type'] = 'tool'
+        entry_data["type"] = "tool"
 
     if dry_run:
         print(f"  [DRY-RUN] Would create: {filepath}")
         return
 
     # Write YAML
-    with open(filepath, 'w') as f:
+    with open(filepath, "w") as f:
         yaml.dump(
-            entry_data,
-            f,
-            default_flow_style=False,
-            sort_keys=False,
-            allow_unicode=True
+            entry_data, f, default_flow_style=False, sort_keys=False, allow_unicode=True
         )
 
     print(f"  ✓ Created {filepath}")
 
 
-def migrate_section(readme_path: str, section_title: str, category_id: str, dry_run: bool = False):
+def migrate_section(
+    readme_path: str, section_title: str, category_id: str, dry_run: bool = False
+):
     """Migrate a specific section from README to YAML files"""
 
     print(f"\nMigrating section: {section_title}")
@@ -167,10 +167,12 @@ def migrate_section(readme_path: str, section_title: str, category_id: str, dry_
 
 def main():
     parser = argparse.ArgumentParser(description="Migrate README.md to YAML files")
-    parser.add_argument('--section', help="Section title to migrate")
-    parser.add_argument('--category', help="Target category ID")
-    parser.add_argument('--dry-run', action='store_true', help="Preview without writing")
-    parser.add_argument('--all', action='store_true', help="Migrate all sections")
+    parser.add_argument("--section", help="Section title to migrate")
+    parser.add_argument("--category", help="Target category ID")
+    parser.add_argument(
+        "--dry-run", action="store_true", help="Preview without writing"
+    )
+    parser.add_argument("--all", action="store_true", help="Migrate all sections")
 
     args = parser.parse_args()
 
@@ -204,7 +206,9 @@ def main():
     else:
         parser.print_help()
         print("\nExample usage:")
-        print("  python scripts/migrate.py --section '🛠️ Open-Source Agent Frameworks' --category open-source-frameworks")
+        print(
+            "  python scripts/migrate.py --section '🛠️ Open-Source Agent Frameworks' --category open-source-frameworks"
+        )
         print("  python scripts/migrate.py --all --dry-run")
 
 

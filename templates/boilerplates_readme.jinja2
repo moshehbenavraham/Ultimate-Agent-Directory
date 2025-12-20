@@ -1,0 +1,79 @@
+# Full-Stack Boilerplate Directory
+
+<div align="center">
+
+![Total Entries](https://img.shields.io/badge/Boilerplates-{{ total_entries }}-blue?style=for-the-badge&logo=github&logoColor=white)
+![Last Updated](https://img.shields.io/badge/Updated-{{ last_generated.strftime('%B %Y') }}-purple?style=for-the-badge&logo=calendar&logoColor=white)
+
+**A curated collection of production-ready boilerplates, starter kits, and project templates organized by ecosystem.**
+
+</div>
+
+---
+
+## Table of Contents
+
+{% for ecosystem in ecosystems %}
+### {{ ecosystem }}
+{% for category in categories_by_ecosystem[ecosystem] %}
+- [{{ category.emoji }} {{ category.title }}](#{{ category.id }})
+{% endfor %}
+{% endfor %}
+
+---
+
+{% for ecosystem in ecosystems %}
+## {{ ecosystem }}
+
+{% for category in categories_by_ecosystem[ecosystem] %}
+<a id="{{ category.id }}"></a>
+
+### {{ category.emoji }} {{ category.title }}
+
+> {{ category.description }}
+
+{% if category.id in entries_by_category %}
+{% set cat_entries = entries_by_category[category.id] %}
+| Name | Stars | License | Description |
+|------|-------|---------|-------------|
+{% for entry in cat_entries %}
+| [**{{ entry.name }}**]({{ entry.url }}) | {{ entry.github_stars | format_stars }} | {{ entry.license or '-' }} | {{ entry.description | truncate_desc }} |
+{% endfor %}
+{% else %}
+*No entries yet in this category.*
+{% endif %}
+
+{% endfor %}
+---
+
+{% endfor %}
+
+## Statistics
+
+- **Total Boilerplates:** {{ total_entries }}
+- **Ecosystems:** {{ ecosystems | length }}
+- **Categories:** {{ categories | length }}
+- **Last Generated:** {{ last_generated }}
+
+---
+
+## Contributing
+
+We welcome contributions! To add a new boilerplate:
+
+1. Create a YAML file in `data/boilerplates/{category}/{name}.yml`
+2. Follow the schema defined in `scripts/models.py`
+3. Run `make validate` to check your entry
+4. Submit a pull request
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+
+---
+
+## License
+
+MIT License
+
+---
+
+**Note:** This document is auto-generated from structured YAML data. Do not edit directly. Edit files in `data/boilerplates/` instead.

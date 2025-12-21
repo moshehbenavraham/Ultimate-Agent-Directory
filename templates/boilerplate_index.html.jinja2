@@ -154,7 +154,7 @@
             {% endif %}
             {{ ecosystem }}
             <span class="ml-3 text-sm font-normal text-gray-500">
-                ({% set count = 0 %}{% for cat in categories %}{% set count = count + (boilerplates_by_category.get(cat.id, [])|length) %}{% endfor %}{{ count }} boilerplates)
+                ({% set ns = namespace(count=0) %}{% for cat in categories %}{% set ns.count = ns.count + (boilerplates_by_category.get(cat.id, [])|length) %}{% endfor %}{{ ns.count }} boilerplates)
             </span>
         </h3>
 

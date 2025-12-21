@@ -7,6 +7,10 @@
 
 **A curated collection of production-ready boilerplates, starter kits, and project templates organized by ecosystem.**
 
+👨 **Maintained by:** [AIwithApex.com](https://aiwithapex.com)
+
+💡 **Missing something?** [Submit an issue](https://github.com/moshehbenavraham/Ultimate-Agent-Directory/issues) or [join the discussion](https://github.com/moshehbenavraham/Ultimate-Agent-Directory/discussions)!
+
 </div>
 
 ---

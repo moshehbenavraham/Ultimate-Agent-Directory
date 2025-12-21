@@ -15,7 +15,8 @@
     "phase00-session01-schema-and-structure",
     "phase00-session02-migration-script",
     "phase00-session03-readme-generation",
-    "phase00-session04-makefile-and-ci-integration"
+    "phase00-session04-makefile-and-ci-integration",
+    "phase00-session05-website-integration"
   ],
   "next_session_history": [
     {
@@ -91,6 +92,31 @@
     {
       "date": "2025-12-21",
       "session": "phase00-session04-makefile-and-ci-integration",
+      "status": "completed"
+    },
+    {
+      "date": "2025-12-21",
+      "session": "phase00-session05-website-integration",
+      "status": "recommended"
+    },
+    {
+      "date": "2025-12-21",
+      "session": "phase00-session05-website-integration",
+      "status": "spec_created"
+    },
+    {
+      "date": "2025-12-21",
+      "session": "phase00-session05-website-integration",
+      "status": "tasks_created"
+    },
+    {
+      "date": "2025-12-21",
+      "session": "phase00-session05-website-integration",
+      "status": "validated"
+    },
+    {
+      "date": "2025-12-21",
+      "session": "phase00-session05-website-integration",
       "status": "completed"
     }
   ]

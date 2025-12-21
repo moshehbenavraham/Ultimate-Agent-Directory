@@ -1,0 +1,142 @@
+{% extends "base.html.jinja2" %}
+
+{% block title %}Full-Stack Boilerplates Directory - {{ metadata.title }}{% endblock %}
+
+{% block content %}
+
+<!-- Hero Section -->
+<section class="text-center py-12 bg-gradient-to-r from-emerald-50 to-teal-50 rounded-lg shadow-sm mb-12">
+    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        <i class="fas fa-rocket text-emerald-600 mr-3"></i>Full-Stack Boilerplates Directory
+    </h1>
+    <p class="text-xl text-gray-700 mb-6 max-w-3xl mx-auto">
+        Production-ready starter kits and boilerplates to accelerate your next project
+    </p>
+    <div class="flex flex-wrap justify-center gap-4 text-sm">
+        <span class="bg-white px-4 py-2 rounded-full shadow-sm">
+            <i class="fas fa-cubes text-emerald-600 mr-2"></i>
+            <strong>{{ total_boilerplates }}</strong> Boilerplates
+        </span>
+        <span class="bg-white px-4 py-2 rounded-full shadow-sm">
+            <i class="fas fa-layer-group text-teal-600 mr-2"></i>
+            <strong>{{ boilerplate_categories|length }}</strong> Categories
+        </span>
+        <span class="bg-white px-4 py-2 rounded-full shadow-sm">
+            <i class="fas fa-globe text-blue-600 mr-2"></i>
+            <strong>{{ ecosystems_by_category|length }}</strong> Ecosystems
+        </span>
+    </div>
+
+    <!-- Back to AI Agents link -->
+    <div class="mt-6">
+        <a href="{{ base_url }}/" class="text-emerald-600 hover:text-emerald-700 font-semibold">
+            <i class="fas fa-arrow-left mr-2"></i>Back to AI Agents Directory
+        </a>
+    </div>
+</section>
+
+<!-- Top Ecosystems Stats -->
+<section class="mb-12">
+    <h2 class="text-3xl font-bold mb-6 text-center">Top Ecosystems</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        {% set ecosystem_stats = [] %}
+        {% for ecosystem, cats in ecosystems_by_category.items() %}
+            {% set count = 0 %}
+            {% for cat in cats %}
+                {% set count = count + (boilerplates_by_category.get(cat.id, [])|length) %}
+            {% endfor %}
+            {% set _ = ecosystem_stats.append({'name': ecosystem, 'count': count}) %}
+        {% endfor %}
+        {% for stat in ecosystem_stats[:4] %}
+        <div class="bg-white rounded-lg shadow-sm p-6 text-center hover:shadow-md transition">
+            <div class="text-2xl font-bold text-emerald-600 mb-1">
+                {{ stat.count }}
+            </div>
+            <div class="text-sm text-gray-600">{{ stat.name }}</div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- Ecosystems and Categories -->
+<section id="ecosystems" class="scroll-mt-20">
+    <h2 class="text-3xl font-bold mb-8 text-center">Browse by Ecosystem</h2>
+
+    {% for ecosystem, categories in ecosystems_by_category.items() %}
+    <div class="mb-12">
+        <h3 class="text-2xl font-bold text-gray-800 mb-6 flex items-center">
+            {% if ecosystem == "JavaScript/TypeScript" %}
+            <i class="fab fa-js-square text-yellow-500 mr-3"></i>
+            {% elif ecosystem == "Python" %}
+            <i class="fab fa-python text-blue-500 mr-3"></i>
+            {% elif ecosystem == "Ruby" %}
+            <i class="fas fa-gem text-red-500 mr-3"></i>
+            {% elif ecosystem == "PHP" %}
+            <i class="fab fa-php text-indigo-500 mr-3"></i>
+            {% elif ecosystem == "Go" %}
+            <i class="fas fa-code text-cyan-500 mr-3"></i>
+            {% elif ecosystem == "Rust" %}
+            <i class="fas fa-cog text-orange-600 mr-3"></i>
+            {% elif ecosystem == ".NET" %}
+            <i class="fab fa-microsoft text-purple-500 mr-3"></i>
+            {% elif ecosystem == "Elixir" %}
+            <i class="fas fa-flask text-purple-600 mr-3"></i>
+            {% elif ecosystem == "Mobile" %}
+            <i class="fas fa-mobile-alt text-gray-600 mr-3"></i>
+            {% else %}
+            <i class="fas fa-code-branch text-gray-500 mr-3"></i>
+            {% endif %}
+            {{ ecosystem }}
+            <span class="ml-3 text-sm font-normal text-gray-500">
+                ({% set count = 0 %}{% for cat in categories %}{% set count = count + (boilerplates_by_category.get(cat.id, [])|length) %}{% endfor %}{{ count }} boilerplates)
+            </span>
+        </h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {% for category in categories %}
+            {% set entry_count = boilerplates_by_category.get(category.id, [])|length %}
+            {% if entry_count > 0 %}
+            <a href="{{ base_url }}/boilerplates/{{ category.id }}/index.html"
+               class="bg-white rounded-lg shadow-sm hover:shadow-lg transition-all duration-200 p-6 border-2 border-transparent hover:border-emerald-500 group">
+                <div class="flex items-start justify-between mb-3">
+                    <div class="text-4xl">{{ category.emoji }}</div>
+                    <div class="text-sm font-bold text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full">
+                        {{ entry_count }} items
+                    </div>
+                </div>
+                <h4 class="text-xl font-bold text-gray-900 mb-2 group-hover:text-emerald-600 transition">
+                    {{ category.title }}
+                </h4>
+                <p class="text-gray-600 text-sm line-clamp-2">
+                    {{ category.description }}
+                </p>
+                <div class="mt-4 text-emerald-600 text-sm font-semibold group-hover:underline">
+                    Explore {{ category.title }} <i class="fas fa-arrow-right ml-1"></i>
+                </div>
+            </a>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
+</section>
+
+<!-- Call to Action -->
+<section class="mt-16 bg-gradient-to-r from-emerald-600 to-teal-600 text-white rounded-lg shadow-lg p-12 text-center">
+    <h2 class="text-3xl font-bold mb-4">Looking for AI Agents?</h2>
+    <p class="text-lg mb-6 max-w-2xl mx-auto">
+        Explore our comprehensive collection of AI agent frameworks, platforms, and tools.
+    </p>
+    <div class="flex flex-wrap justify-center gap-4">
+        <a href="{{ base_url }}/"
+           class="bg-white text-emerald-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition">
+            <i class="fas fa-robot mr-2"></i> Browse AI Agents
+        </a>
+        <a href="https://github.com/moshehbenavraham/Ultimate-Agent-Directory/issues/new/choose" target="_blank"
+           class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-bold hover:bg-white hover:text-emerald-600 transition">
+            <i class="fas fa-plus-circle mr-2"></i> Suggest a Boilerplate
+        </a>
+    </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,199 @@
+{% extends "base.html.jinja2" %}
+
+{% block title %}{{ category.title }} Boilerplates - {{ metadata.title }}{% endblock %}
+
+{% block content %}
+
+<!-- Breadcrumb -->
+<nav class="text-sm text-gray-600 mb-6">
+    <a href="{{ base_url }}/" class="hover:text-emerald-600">Home</a>
+    <span class="mx-2">/</span>
+    <a href="{{ base_url }}/boilerplates/index.html" class="hover:text-emerald-600">Boilerplates</a>
+    <span class="mx-2">/</span>
+    <span class="text-gray-900">{{ category.title }}</span>
+</nav>
+
+<!-- Category Header -->
+<section class="bg-white rounded-lg shadow-sm p-8 mb-8">
+    <div class="flex items-start gap-6">
+        <div class="text-6xl">{{ category.emoji }}</div>
+        <div class="flex-grow">
+            <h1 class="text-4xl font-bold text-gray-900 mb-3">{{ category.title }}</h1>
+            <p class="text-lg text-gray-600 mb-4">{{ category.description }}</p>
+            <div class="flex flex-wrap gap-3">
+                <span class="bg-emerald-50 text-emerald-700 px-4 py-2 rounded-full text-sm font-semibold">
+                    <i class="fas fa-cubes mr-2"></i>{{ boilerplates|length }} Boilerplates
+                </span>
+                <span class="bg-teal-50 text-teal-700 px-4 py-2 rounded-full text-sm font-semibold">
+                    <i class="fas fa-globe mr-2"></i>{{ category.ecosystem }}
+                </span>
+                {% if category.show_github_stats %}
+                <span class="bg-yellow-50 text-yellow-700 px-4 py-2 rounded-full text-sm font-semibold">
+                    <i class="fas fa-star mr-2"></i>GitHub Stats Available
+                </span>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Results Count -->
+<div class="mb-4 text-gray-600">
+    Showing {{ boilerplates|length }} boilerplates sorted by GitHub stars
+</div>
+
+<!-- Boilerplates Grid -->
+<section class="grid grid-cols-1 gap-6">
+    {% for bp in boilerplates %}
+    <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition p-6 border-l-4 border-emerald-500">
+        <div class="flex flex-col lg:flex-row lg:items-start gap-4">
+            <!-- Main Content -->
+            <div class="flex-grow">
+                <div class="flex items-start justify-between mb-2">
+                    <h3 class="text-xl font-bold text-gray-900">
+                        <a href="{{ bp.url }}" target="_blank" class="hover:text-emerald-600 transition">
+                            {{ bp.name }}
+                        </a>
+                    </h3>
+
+                    <!-- Badges -->
+                    <div class="flex gap-2 ml-4">
+                        {% if bp.verified %}
+                        <span class="text-green-600" title="Verified">
+                            <i class="fas fa-check-circle"></i>
+                        </span>
+                        {% endif %}
+                        {% if bp.featured %}
+                        <span class="text-yellow-500" title="Featured">
+                            <i class="fas fa-star"></i>
+                        </span>
+                        {% endif %}
+                    </div>
+                </div>
+
+                <!-- Description (truncated) -->
+                <p class="text-gray-600 mb-3">
+                    {% if bp.description|length > 250 %}
+                        {{ bp.description[:250] }}...
+                    {% else %}
+                        {{ bp.description }}
+                    {% endif %}
+                </p>
+
+                <!-- Metadata Row -->
+                <div class="flex flex-wrap gap-3 text-sm mb-3">
+                    <!-- Type Badge -->
+                    <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full">
+                        <i class="fas fa-cube mr-1"></i>{{ bp.type|title }}
+                    </span>
+
+                    <!-- GitHub Stars -->
+                    {% if bp.github_stars and category.show_github_stats %}
+                    <span class="bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full">
+                        <i class="fas fa-star mr-1"></i>{{ "{:,}".format(bp.github_stars) }} stars
+                    </span>
+                    {% endif %}
+
+                    <!-- License -->
+                    {% if bp.license %}
+                    <span class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full">
+                        <i class="fas fa-balance-scale mr-1"></i>{{ bp.license }}
+                    </span>
+                    {% endif %}
+
+                    <!-- Pricing -->
+                    {% if bp.pricing %}
+                    <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full">
+                        <i class="fas fa-dollar-sign mr-1"></i>{{ bp.pricing|title }}
+                    </span>
+                    {% endif %}
+
+                    <!-- Tech Stack Count -->
+                    {% if bp.technical_stack %}
+                    <span class="bg-purple-100 text-purple-700 px-3 py-1 rounded-full">
+                        <i class="fas fa-layer-group mr-1"></i>{{ bp.technical_stack|length }} technologies
+                    </span>
+                    {% endif %}
+                </div>
+
+                <!-- Tech Stack Summary -->
+                {% if bp.technical_stack %}
+                <div class="text-sm text-gray-600 mb-3">
+                    <span class="font-semibold">Built with:</span>
+                    {% set techs = [] %}
+                    {% for tech in bp.technical_stack[:3] %}
+                        {% set _ = techs.append(tech.technology) %}
+                    {% endfor %}
+                    {{ techs|join(', ') }}{% if bp.technical_stack|length > 3 %}, +{{ bp.technical_stack|length - 3 }} more{% endif %}
+                </div>
+                {% endif %}
+
+                <!-- Tags -->
+                {% if bp.tags %}
+                <div class="flex flex-wrap gap-2">
+                    {% for tag in bp.tags[:6] %}
+                    <span class="text-xs bg-gray-50 text-gray-600 px-2 py-1 rounded border border-gray-200">
+                        #{{ tag }}
+                    </span>
+                    {% endfor %}
+                    {% if bp.tags|length > 6 %}
+                    <span class="text-xs text-gray-400">+{{ bp.tags|length - 6 }} more</span>
+                    {% endif %}
+                </div>
+                {% endif %}
+            </div>
+
+            <!-- Actions -->
+            <div class="flex flex-row lg:flex-col gap-2 lg:min-w-[100px]">
+                <a href="{{ bp.url }}" target="_blank"
+                   class="text-emerald-600 hover:text-emerald-700 font-semibold text-sm whitespace-nowrap">
+                    <i class="fas fa-external-link-alt mr-1"></i>Visit
+                </a>
+                {% if bp.github_repo %}
+                <a href="https://github.com/{{ bp.github_repo }}" target="_blank"
+                   class="text-gray-600 hover:text-gray-700 font-semibold text-sm whitespace-nowrap">
+                    <i class="fab fa-github mr-1"></i>GitHub
+                </a>
+                {% endif %}
+                {% if bp.documentation_url %}
+                <a href="{{ bp.documentation_url }}" target="_blank"
+                   class="text-gray-600 hover:text-gray-700 font-semibold text-sm whitespace-nowrap">
+                    <i class="fas fa-book mr-1"></i>Docs
+                </a>
+                {% endif %}
+                {% if bp.demo_url %}
+                <a href="{{ bp.demo_url }}" target="_blank"
+                   class="text-gray-600 hover:text-gray-700 font-semibold text-sm whitespace-nowrap">
+                    <i class="fas fa-play-circle mr-1"></i>Demo
+                </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</section>
+
+<!-- Empty State -->
+{% if boilerplates|length == 0 %}
+<div class="text-center py-12 bg-white rounded-lg shadow-sm">
+    <i class="fas fa-folder-open text-gray-300 text-6xl mb-4"></i>
+    <h3 class="text-xl font-bold text-gray-700 mb-2">No Boilerplates Yet</h3>
+    <p class="text-gray-600">Be the first to suggest a boilerplate for this category!</p>
+    <a href="https://github.com/moshehbenavraham/Ultimate-Agent-Directory/issues/new/choose" target="_blank"
+       class="inline-block mt-4 text-emerald-600 hover:underline font-semibold">
+        <i class="fas fa-plus-circle mr-1"></i> Suggest a Boilerplate
+    </a>
+</div>
+{% endif %}
+
+<!-- Back Navigation -->
+<div class="mt-8 flex justify-between items-center">
+    <a href="{{ base_url }}/boilerplates/index.html" class="text-emerald-600 hover:text-emerald-700 font-semibold">
+        <i class="fas fa-arrow-left mr-2"></i>Back to All Boilerplates
+    </a>
+    <a href="{{ base_url }}/" class="text-gray-600 hover:text-gray-700 font-semibold">
+        <i class="fas fa-robot mr-2"></i>Browse AI Agents
+    </a>
+</div>
+
+{% endblock %}

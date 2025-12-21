@@ -1,0 +1,42 @@
+name: Nuxt UI SaaS Template (Official)
+url: https://ui.nuxt.com/templates
+description: |
+  Official Nuxt template with premium UI components including landing pages,
+  pricing pages, documentation and blog templates with authentication flows.
+category: nuxt
+type: template
+tags:
+  - nuxt
+  - vue
+  - typescript
+  - tailwindcss
+  - saas
+  - landing-page
+license: MIT
+technical_stack:
+  - component: Frontend
+    technology: Nuxt 3
+    reasoning: Official Vue meta-framework
+  - component: UI Components
+    technology: Nuxt UI Pro
+    reasoning: Premium component library
+  - component: Styling
+    technology: Tailwind CSS
+    reasoning: Utility-first CSS framework
+key_features:
+  - Nuxt UI Pro components
+  - Landing pages
+  - Pricing pages
+  - Documentation and blog templates
+  - Auth flows
+use_case: |
+  SaaS marketing sites, documentation portals, and Vue-based applications
+  needing polished UI components with official Nuxt ecosystem support.
+pros:
+  - Official Nuxt ecosystem support
+  - High-quality pre-built components
+  - Consistent design system
+cons:
+  - Some advanced components require Nuxt UI Pro license
+featured: false
+added_date: 2025-12-21

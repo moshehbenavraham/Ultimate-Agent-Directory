@@ -1,0 +1,39 @@
+name: ReactifyRails
+url: https://github.com/akhilgkrishnan/reactify-rails
+description: |
+  Rails and React integration starter with Webpacker/Shakapacker for modern
+  JavaScript bundling in Rails 7+ applications.
+category: rails
+type: starter
+tags:
+  - rails
+  - ruby
+  - react
+  - webpacker
+  - shakapacker
+github_repo: akhilgkrishnan/reactify-rails
+license: MIT
+technical_stack:
+  - component: Backend
+    technology: Rails 7+
+    reasoning: Ruby web framework
+  - component: Frontend
+    technology: React
+    reasoning: Component-based UI library
+  - component: Bundling
+    technology: Webpacker/Shakapacker
+    reasoning: JavaScript bundling for Rails
+key_features:
+  - Rails 7+ with React integration
+  - Webpacker/Shakapacker configuration
+  - Modern JavaScript bundling
+use_case: |
+  Rails developers wanting to integrate React frontend with their
+  Ruby on Rails applications.
+pros:
+  - Clean Rails + React integration
+  - Modern bundling setup
+cons:
+  - Webpacker complexity for simple use cases
+featured: false
+added_date: 2025-12-21

@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Boilerplates-57-blue?style=for-the-badge&logo=github&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Boilerplates-75-blue?style=for-the-badge&logo=github&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-December 2025-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **A curated collection of production-ready boilerplates, starter kits, and project templates organized by ecosystem.**
@@ -68,8 +68,9 @@
 | [**BoxyHQ Enterprise SaaS Starter Kit**](https://github.com/boxyhq/saas-starter-kit) | 4.6K | Apache 2.0 | Creates a unique niche by targeting the B2B enterprise market with compliance features, Single Sign-On (SSO), and auditability. |
 | [**next-saas-stripe-starter**](https://github.com/mickasmt/next-saas-stripe-starter) | 4.0K | MIT | Beautiful UI implementation with comprehensive auth and email. |
 | [**Nextacular**](https://github.com/nextacular/nextacular) | 1.3K | MIT | Open-source starter kit for building full-stack multi-tenant SaaS platforms with workspaces and custom domain support. |
-| [**Relivator**](https://github.com/relivator/relivator) | 1.2K | MIT | Modern SaaS e-commerce starter leveraging the latest Next.js 15 and React 19 features. |
+| [**Relivator**](https://github.com/relivator/relivator) | 1.2K | MIT | Modern SaaS e-commerce starter leveraging the latest Next.js 15 and React 19 features with comprehensive payment integration and shadcn/ui components. |
 | [**Supabase + Next.js Starter**](https://github.com/KolbySisk/next-supabase-stripe-starter) | 720 | MIT | High-quality SaaS starter leveraging Supabase as a backend-as-a-service for authentication, database, and storage. |
+| [**shadcn/ui Admin Dashboard**](https://ui.shadcn.com/examples/dashboard) | - | MIT | Component collection for building admin dashboards with Next.js and React using shadcn/ui with data tables, charts, forms, and dark mode support. |
 
 <a id="remix"></a>
 
@@ -134,6 +135,8 @@
 |------|-------|---------|-------------|
 | [**Supersaas (Commercial)**](https://supersaas.dev/) | 1.0K | Commercial | Comprehensive Nuxt 3 SaaS starter with all major features and multi-database support. |
 | [**SupaNuxt SaaS**](https://github.com/JavascriptMick/supanuxt-saas) | 522 | MIT | Comprehensive boilerplate for the "Supa-stack" (Supabase + Nuxt), bringing TypeScript full-stack development to Vue. A Vue counterpart to the... |
+| [**Nuxt UI SaaS Template (Official)**](https://ui.nuxt.com/templates) | - | MIT | Official Nuxt template with premium UI components including landing pages, pricing pages, documentation and blog templates with authentication flows. |
+| [**Supastarter (Paid)**](https://supastarter.dev/) | - | - | Premium Nuxt 3 and Supabase boilerplate with comprehensive SaaS features, lifetime updates, and one of the best commercial Vue options available. |
 
 <a id="sveltekit"></a>
 
@@ -146,7 +149,7 @@
 | [**CMSaasStarter**](https://github.com/scosman/CMSaasStarter) | 2.3K | MIT | Full-featured SvelteKit + Supabase SaaS starter with marketing pages. A modern SaaS template leveraging Svelte's simplicity and full-stack... |
 | [**SvelteKit Blog App**](https://github.com/pro7tech/sveltekit-blog-app) | 1.1K | MIT | Full-featured SvelteKit starter with blog functionality and modern tooling. |
 | [**SvelteKit Auth Starter**](https://github.com/delay/sveltekit-auth) | 1.0K | MIT | Authentication-focused SvelteKit starter with Lucia Auth and Prisma. |
-| [**svelte-starter-kit**](https://github.com/nicholascostadev/svelte-starter-kit) | 800 | MIT | Comprehensive monorepo-ready SvelteKit starter. |
+| [**svelte-starter-kit**](https://github.com/nicholascostadev/svelte-starter-kit) | 800 | MIT | Comprehensive monorepo-ready SvelteKit starter with GraphQL via Houdini, PWA support, internationalization, and Docker deployment configuration. |
 | [**Startino SaaS Starter**](https://github.com/startino/saas-starter) | - | MIT | High-potential, bleeding-edge SvelteKit starter adopting Svelte 5. |
 | [**sveltekit-saas (Glench)**](https://github.com/Glench/sveltekit-saas) | - | MIT | Community SvelteKit SaaS starter with authentication and payments. |
 
@@ -159,8 +162,11 @@
 | Name | Stars | License | Description |
 |------|-------|---------|-------------|
 | [**hackathon-starter**](https://github.com/sahat/hackathon-starter) | 35.2K | MIT | The classic Node.js boilerplate with comprehensive OAuth integrations, one of the most starred full-stack starters on GitHub. |
+| [**Directus**](https://github.com/directus/directus) | 33.7K | BSL-1.1 | Open-source data platform and headless CMS with REST and GraphQL APIs auto-generated from database schema, Vue.js admin dashboard, and SQL... |
+| [**Payload CMS**](https://github.com/payloadcms/payload) | 30K | MIT | Modern Node.js headless CMS with TypeScript-first approach, code-first schema definition, and built-in authentication with React admin panel. |
 | [**MEAN Stack Starter (Linnovate)**](https://github.com/linnovate/mean) | 12.1K | Open Source | Classic full-stack JavaScript starter with Angular and MongoDB. |
 | [**Brocoders NestJS Boilerplate**](https://github.com/Brocoders/nestjs-boilerplate) | 2.8K | MIT | Comprehensive NestJS boilerplate with multi-database support. |
+| [**Extro (TurboStarter)**](https://github.com/turbostarter/extro) | - | MIT | Specialized starter for building cross-browser extensions supporting Chrome, Firefox, and Edge with WXT framework and hot-reloading. |
 
 <a id="astro"></a>
 
@@ -168,7 +174,11 @@
 
 > Production-ready Astro & HTML-First Approaches boilerplates and starter kits
 
-*No entries yet in this category.*
+| Name | Stars | License | Description |
+|------|-------|---------|-------------|
+| [**bSaaS**](https://github.com/bsaas/bsaas) | - | MIT | Astro SaaS landing page template with 10+ pre-built sections, marketing-focused design, SEO optimization, and responsive templates for product... |
+| [**Freedom Stack**](https://github.com/nicholascostadev/freedom-stack) | - | MIT | HTML-first approach combining Astro with HTMX and Alpine.js for minimal JavaScript interactivity with Astro DB and Drizzle ORM for data persistence. |
+| [**LaunchFa.st**](https://launchfa.st/) | - | - | Multi-framework SaaS starter kit supporting Astro, Next.js, and SvelteKit variants with payment integration, authentication, and marketing components. |
 
 <a id="htmx"></a>
 
@@ -249,7 +259,8 @@
 | [**templatus-vue**](https://github.com/templatus/templatus-vue) | 1.1K | MIT | Modern Rails 8.1 + Vue 3 starter with comprehensive testing and PWA support. |
 | [**Bullet Train (Open Source)**](https://github.com/bullet-train-co/bullet_train) | - | MIT | Andrew Culver's open-source Rails SaaS starter. |
 | [**rails-react-boilerplate**](https://github.com/giannisp/rails-react-boilerplate) | - | MIT | Another Rails + React integration option. |
-| [**ReactifyRails**](https://github.com/akhilgkrishnan/reactify-rails) | - | MIT | Rails + React integration starter. |
+| [**ReactifyRails**](https://github.com/akhilgkrishnan/reactify-rails) | - | MIT | Rails and React integration starter with Webpacker/Shakapacker for modern JavaScript bundling in Rails 7+ applications. |
+| [**tabler-rails**](https://github.com/tabler/tabler-rails) | - | MIT | Rails admin dashboard starter with Tabler UI components for building beautiful admin panels and backoffice applications. |
 
 ---
 
@@ -265,7 +276,9 @@
 |------|-------|---------|-------------|
 | [**go-echo-templ-htmx**](https://github.com/emarifer/go-echo-templ-htmx) | 1.0K | MIT | Full-stack Go starter with Echo framework and HTMX for minimal JavaScript interactivity. |
 | [**Go React TypeScript Template**](https://github.com/AkashRajpurohit/go-react-typescript-template) | 15 | MIT | Minimalist starter prioritizing simplicity and the standard library. |
+| [**fiber-go-template (Official)**](https://github.com/gofiber/template) | - | MIT | Official Go Fiber template with full-stack features including Swagger docs, database migrations, Docker deployment, and JWT authentication. |
 | [**gofiber/recipes**](https://github.com/gofiber/recipes) | - | MIT | Official Go Fiber examples with React SPA patterns. |
+| [**SaaS Startup Kit (Go)**](https://github.com/saas-startup-kit/saas-startup-kit) | - | MIT | Golang microservices architecture option for building scalable SaaS applications with modern Go patterns and best practices. |
 
 ---
 
@@ -297,6 +310,8 @@
 | Name | Stars | License | Description |
 |------|-------|---------|-------------|
 | [**NetCoreTemplates React SPA**](https://github.com/NetCoreTemplates/react-spa) | 1.1K | MIT | Modern .NET 10 + React 19 starter with ServiceStack integration. |
+| [**Official Blazor Template**](https://learn.microsoft.com/en-us/aspnet/core/blazor/) | - | MIT | Official .NET Blazor template with multiple render modes including Static SSR, Interactive Server (SignalR), and WebAssembly with built-in... |
+| [**ServiceStack Blazor Template**](https://servicestack.net/blazor) | - | - | Enhanced Blazor template with ServiceStack integration including Tailwind theming, AutoQueryGrid components, dual ORM support, and Kamal deployments. |
 
 ---
 
@@ -308,7 +323,12 @@
 
 > Production-ready Phoenix LiveView boilerplates and starter kits
 
-*No entries yet in this category.*
+| Name | Stars | License | Description |
+|------|-------|---------|-------------|
+| [**Cozystack SaaS Template**](https://cozystack.dev/) | - | - | Full Phoenix SaaS boilerplate with complete authentication system, Stripe subscription billing, user management dashboard, and LiveView features. |
+| [**LiveSAASKit**](https://livesaaskit.com/) | - | - | Phoenix SaaS starter with comprehensive features leveraging LiveView for real-time functionality with Erlang VM scalability. |
+| [**Petal Stack**](https://petal.build/) | - | MIT | Phoenix + Tailwind + HEEX component library with 100+ pre-built components for rapid UI development in Phoenix LiveView applications. |
+| [**Phoenix SaaS Kit (Commercial)**](https://petal.build/saas-kit) | - | - | Complete SaaS foundation for Phoenix with payments integration, multi-tenancy support, and AI functionality built on the Elixir ecosystem. |
 
 ---
 
@@ -347,7 +367,7 @@
 
 ## Statistics
 
-- **Total Boilerplates:** 57
+- **Total Boilerplates:** 75
 - **Ecosystems:** 9
 - **Categories:** 23
 - **Last Generated:** 2025-12-21

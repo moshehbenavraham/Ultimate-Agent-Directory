@@ -8,3 +8,6 @@ requests>=2.31.0       # For GitHub API
 python-frontmatter>=1.0.0  # If we want YAML frontmatter in markdown
 aiohttp>=3.9.0         # Async HTTP for link checker
 tqdm>=4.66.0           # Progress bars for link checker
+
+# Development/Testing
+pytest>=8.0.0          # Test framework

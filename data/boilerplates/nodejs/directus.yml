@@ -1,0 +1,53 @@
+name: Directus
+url: https://github.com/directus/directus
+description: |
+  Open-source data platform and headless CMS with REST and GraphQL APIs
+  auto-generated from database schema, Vue.js admin dashboard, and SQL
+  database agnostic support.
+category: nodejs
+type: toolkit
+tags:
+  - nodejs
+  - headless-cms
+  - rest
+  - graphql
+  - vue
+  - postgresql
+  - mysql
+  - sqlite
+github_repo: directus/directus
+github_stars: 33700
+license: BSL-1.1
+technical_stack:
+  - component: Backend
+    technology: Node.js
+    reasoning: JavaScript runtime
+  - component: Admin
+    technology: Vue.js
+    reasoning: Customizable admin dashboard
+  - component: Database
+    technology: PostgreSQL, MySQL, SQLite
+    reasoning: SQL database agnostic
+  - component: API
+    technology: REST, GraphQL
+    reasoning: Auto-generated from schema
+key_features:
+  - REST and GraphQL APIs auto-generated from database schema
+  - SQL database agnostic (works with any SQL database)
+  - Vue.js admin dashboard with customizable interface
+  - Official starter templates for Next.js, Nuxt, etc.
+  - User roles and permissions system
+  - File management and asset transformation
+  - Webhooks and flows automation
+use_case: |
+  Content-heavy applications, backend for JAMstack sites, custom admin
+  panels, API-first projects.
+pros:
+  - Database agnostic
+  - Beautiful admin UI
+  - Extensive API options
+cons:
+  - BSL license requires license for >$5M revenue
+  - Self-hosted complexity
+featured: true
+added_date: 2025-12-21

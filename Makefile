@@ -1,7 +1,8 @@
-.PHONY: help install validate validate-agents validate-boilerplates generate generate-boilerplates migrate-boilerplates clean test site serve check-links check-links-quick
+.PHONY: help install validate validate-agents validate-boilerplates generate generate-boilerplates migrate-boilerplates clean test test-unit test-all lint typecheck site serve check-links check-links-quick
 
 PYTHON := venv/bin/python
 PIP := venv/bin/pip
+PYTEST := venv/bin/pytest
 
 help:
 	@echo "Ultimate Agent Directory - Build Commands"
@@ -15,6 +16,10 @@ help:
 	@echo "  make site                 - Generate static website in _site/"
 	@echo "  make serve                - Build site and start local web server"
 	@echo "  make test                 - Run validation, generation, and quick link check"
+	@echo "  make test-unit            - Run unit tests (pytest)"
+	@echo "  make test-all             - Run all tests (unit + validation + generation)"
+	@echo "  make lint                 - Run linter (ruff check)"
+	@echo "  make typecheck            - Run type checker (mypy)"
 	@echo "  make check-links          - Check all links in repository"
 	@echo "  make check-links-quick    - Quick link check (YAML only, no issues)"
 	@echo "  make clean                - Remove generated files and cache"
@@ -47,6 +52,21 @@ generate-boilerplates:
 test: validate generate generate-boilerplates check-links-quick
 	@echo "All tests passed!"
 
+test-unit:
+	@echo "Running unit tests..."
+	$(PYTEST) tests/ -v
+
+test-all: test-unit validate generate generate-boilerplates
+	@echo "All tests passed!"
+
+lint:
+	@echo "Running linter..."
+	venv/bin/ruff check scripts/ tests/
+
+typecheck:
+	@echo "Running type checker..."
+	venv/bin/mypy scripts/ --ignore-missing-imports
+
 check-links:
 	$(PYTHON) scripts/check_links.py --verbose
 
@@ -71,6 +91,6 @@ serve: site
 	cd _site && python3 -m http.server 8001
 
 clean:
-	rm -rf __pycache__ scripts/__pycache__ _site/ reports/*
+	rm -rf __pycache__ scripts/__pycache__ tests/__pycache__ .pytest_cache _site/ reports/*
 	find . -type f -name "*.pyc" -delete
 	@echo "Cleaned cache files, reports, and _site/"

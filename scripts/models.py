@@ -158,11 +158,15 @@ class TechStackComponent(BaseModel):
     """Schema for a single technology in a boilerplate's technical stack"""
 
     component: str = Field(
-        min_length=1, max_length=50, description="Component type (e.g., Frontend, Database)"
+        min_length=1,
+        max_length=50,
+        description="Component type (e.g., Frontend, Database)",
     )
 
     technology: str = Field(
-        min_length=1, max_length=100, description="Technology name (e.g., Next.js, PostgreSQL)"
+        min_length=1,
+        max_length=100,
+        description="Technology name (e.g., Next.js, PostgreSQL)",
     )
 
     reasoning: Optional[str] = Field(
@@ -189,7 +193,9 @@ class BoilerplateEntry(BaseModel):
         description="Clear, factual description of the boilerplate",
     )
 
-    category: str = Field(description="Primary category (must match boilerplate category ID)")
+    category: str = Field(
+        description="Primary category (must match boilerplate category ID)"
+    )
 
     # ===== CLASSIFICATION METADATA =====
     type: Literal["starter", "boilerplate", "template", "scaffold", "toolkit"] = Field(
@@ -215,23 +221,22 @@ class BoilerplateEntry(BaseModel):
     )
 
     platform: Optional[List[str]] = Field(
-        default=None, description="Primary languages/platforms (e.g., ['TypeScript', 'React'])"
+        default=None,
+        description="Primary languages/platforms (e.g., ['TypeScript', 'React'])",
     )
 
     license: Optional[str] = Field(
         default=None, description="License type (e.g., 'MIT', 'Apache-2.0')"
     )
 
-    pricing: Optional[Literal["free", "freemium", "paid", "enterprise", "open-core"]] = None
+    pricing: Optional[
+        Literal["free", "freemium", "paid", "enterprise", "open-core"]
+    ] = None
 
     # ===== GITHUB STATS =====
-    github_stars: Optional[int] = Field(
-        default=None, description="GitHub star count"
-    )
+    github_stars: Optional[int] = Field(default=None, description="GitHub star count")
 
-    last_updated: Optional[date] = Field(
-        default=None, description="Last commit date"
-    )
+    last_updated: Optional[date] = Field(default=None, description="Last commit date")
 
     is_archived: bool = Field(default=False, description="Is GitHub repo archived?")
 
@@ -246,13 +251,9 @@ class BoilerplateEntry(BaseModel):
         description="Ideal use case description",
     )
 
-    pros: Optional[List[str]] = Field(
-        default=None, description="List of advantages"
-    )
+    pros: Optional[List[str]] = Field(default=None, description="List of advantages")
 
-    cons: Optional[List[str]] = Field(
-        default=None, description="List of disadvantages"
-    )
+    cons: Optional[List[str]] = Field(default=None, description="List of disadvantages")
 
     community: Optional[str] = Field(
         default=None,

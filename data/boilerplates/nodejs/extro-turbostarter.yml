@@ -1,0 +1,43 @@
+name: Extro (TurboStarter)
+url: https://github.com/turbostarter/extro
+description: |
+  Specialized starter for building cross-browser extensions supporting
+  Chrome, Firefox, and Edge with WXT framework and hot-reloading.
+category: nodejs
+type: starter
+tags:
+  - browser-extension
+  - chrome
+  - firefox
+  - edge
+  - wxt
+  - typescript
+  - cross-browser
+github_repo: turbostarter/extro
+license: MIT
+technical_stack:
+  - component: Framework
+    technology: WXT
+    reasoning: Web Extension Framework for manifest handling
+  - component: Language
+    technology: TypeScript
+    reasoning: Type-safe development
+  - component: Bundling
+    technology: Vite
+    reasoning: Fast build tooling
+key_features:
+  - Builds cross-browser extensions (Chrome, Firefox, Edge)
+  - Uses WXT (Web Extension Framework) for manifest version handling (MV2/MV3)
+  - Hot-reloading for extension development
+  - TypeScript support
+use_case: |
+  Developers building browser extensions who want cross-browser
+  compatibility with modern development tooling.
+pros:
+  - Cross-browser support
+  - Modern development experience
+  - Hot-reloading
+cons:
+  - Browser extension specific use case
+featured: false
+added_date: 2025-12-21

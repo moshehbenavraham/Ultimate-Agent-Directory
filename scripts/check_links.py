@@ -115,22 +115,25 @@ def extract_urls_from_yaml(file_path: Path) -> List[Tuple[str, str]]:
         if "url" in data:
             try:
                 if is_boilerplate:
-                    entry = BoilerplateEntry(**data)
+                    bp_entry = BoilerplateEntry(**data)
+                    urls.append((str(bp_entry.url), "url"))
+                    if bp_entry.documentation_url:
+                        urls.append((str(bp_entry.documentation_url), "documentation_url"))
+                    if bp_entry.demo_url:
+                        urls.append((str(bp_entry.demo_url), "demo_url"))
+                    if bp_entry.github_repo:
+                        github_url = f"https://github.com/{bp_entry.github_repo}"
+                        urls.append((github_url, "github_repo"))
                 else:
-                    entry = AgentEntry(**data)
-
-                urls.append((str(entry.url), "url"))
-
-                if entry.documentation_url:
-                    urls.append((str(entry.documentation_url), "documentation_url"))
-
-                if entry.demo_url:
-                    urls.append((str(entry.demo_url), "demo_url"))
-
-                # Construct GitHub URL from github_repo field
-                if entry.github_repo:
-                    github_url = f"https://github.com/{entry.github_repo}"
-                    urls.append((github_url, "github_repo"))
+                    agent_entry = AgentEntry(**data)
+                    urls.append((str(agent_entry.url), "url"))
+                    if agent_entry.documentation_url:
+                        urls.append((str(agent_entry.documentation_url), "documentation_url"))
+                    if agent_entry.demo_url:
+                        urls.append((str(agent_entry.demo_url), "demo_url"))
+                    if agent_entry.github_repo:
+                        github_url = f"https://github.com/{agent_entry.github_repo}"
+                        urls.append((github_url, "github_repo"))
 
             except Exception:
                 # If Pydantic validation fails, try manual extraction

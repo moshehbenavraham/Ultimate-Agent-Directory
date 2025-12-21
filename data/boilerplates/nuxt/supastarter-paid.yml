@@ -1,0 +1,34 @@
+name: Supastarter (Paid)
+url: https://supastarter.dev
+description: |
+  Premium Nuxt 3 and Supabase boilerplate with comprehensive SaaS features,
+  lifetime updates, and one of the best commercial Vue options available.
+category: nuxt
+type: boilerplate
+tags:
+  - nuxt
+  - vue
+  - supabase
+  - typescript
+  - saas
+  - commercial
+pricing: paid
+key_features:
+  - Lifetime updates
+  - Comprehensive SaaS features
+  - Supabase integration
+  - Authentication and billing
+use_case: |
+  Teams with budget who want a production-ready Vue/Nuxt SaaS foundation
+  with ongoing updates and support.
+pros:
+  - One of the best Vue options available
+  - Lifetime updates included
+  - Commercial support
+cons:
+  - Paid product ($349)
+  - Requires budget allocation
+community: |
+  400+ users, commercial support available.
+featured: false
+added_date: 2025-12-21

@@ -1,6 +1,8 @@
 # AI assistant guidance file (not tracked in git)
 CLAUDE.md
 AGENTS.md
+.claude/
+.spec_system/
 
 # Python
 __pycache__/
@@ -14,6 +16,9 @@ ENV/
 *.egg-info/
 dist/
 build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
 # Generated files (do not edit directly - edit YAML in data/ instead)
 _site/
@@ -24,6 +29,7 @@ reports/*
 
 # Backup files
 backup/
+backups/
 *.backup
 *.bak
 README.backup.md

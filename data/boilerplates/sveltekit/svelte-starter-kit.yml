@@ -1,0 +1,50 @@
+name: svelte-starter-kit
+url: https://github.com/nicholascostadev/svelte-starter-kit
+description: |
+  Comprehensive monorepo-ready SvelteKit starter with GraphQL via Houdini,
+  PWA support, internationalization, and Docker deployment configuration.
+category: sveltekit
+type: starter
+tags:
+  - sveltekit
+  - svelte
+  - graphql
+  - houdini
+  - tailwindcss
+  - pwa
+  - i18n
+  - docker
+  - monorepo
+github_repo: nicholascostadev/svelte-starter-kit
+github_stars: 800
+license: MIT
+technical_stack:
+  - component: Frontend
+    technology: SvelteKit
+    reasoning: Modern Svelte meta-framework
+  - component: API
+    technology: GraphQL, Houdini
+    reasoning: Type-safe GraphQL client for Svelte
+  - component: Auth
+    technology: Auth.js
+    reasoning: Flexible authentication
+  - component: Styling
+    technology: Tailwind CSS
+    reasoning: Utility-first CSS
+key_features:
+  - PWA (Progressive Web App) support
+  - GraphQL via Houdini
+  - i18n internationalization
+  - Docker deployment ready
+  - Monorepo-ready architecture
+use_case: |
+  Teams needing a comprehensive SvelteKit foundation with GraphQL support
+  and enterprise-ready features like i18n and PWA.
+pros:
+  - Monorepo-ready architecture
+  - GraphQL integration
+  - PWA support out of the box
+cons:
+  - GraphQL learning curve if unfamiliar
+featured: false
+added_date: 2025-12-21

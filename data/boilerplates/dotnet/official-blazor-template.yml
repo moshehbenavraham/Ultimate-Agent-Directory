@@ -1,0 +1,41 @@
+name: Official Blazor Template
+url: https://learn.microsoft.com/en-us/aspnet/core/blazor/
+description: |
+  Official .NET Blazor template with multiple render modes including Static SSR,
+  Interactive Server (SignalR), and WebAssembly with built-in Identity UI.
+category: dotnet
+type: template
+tags:
+  - dotnet
+  - blazor
+  - csharp
+  - webassembly
+  - signalr
+  - microsoft
+license: MIT
+technical_stack:
+  - component: Frontend
+    technology: Blazor
+    reasoning: .NET web UI framework
+  - component: Rendering
+    technology: SSR, Server, WebAssembly
+    reasoning: Multiple render mode options
+  - component: Auth
+    technology: ASP.NET Identity
+    reasoning: Built-in authentication
+key_features:
+  - Static SSR
+  - Interactive server (SignalR)
+  - WebAssembly modes
+  - Built-in Identity UI
+use_case: |
+  .NET developers wanting official Microsoft Blazor template with
+  flexible rendering modes and authentication.
+pros:
+  - Official Microsoft template
+  - Multiple render modes
+  - Built-in authentication
+cons:
+  - .NET ecosystem lock-in
+featured: false
+added_date: 2025-12-21

@@ -1,0 +1,36 @@
+name: tabler-rails
+url: https://github.com/tabler/tabler-rails
+description: |
+  Rails admin dashboard starter with Tabler UI components for building
+  beautiful admin panels and backoffice applications.
+category: rails
+type: template
+tags:
+  - rails
+  - ruby
+  - admin-dashboard
+  - tabler
+  - ui-components
+license: MIT
+technical_stack:
+  - component: Backend
+    technology: Rails
+    reasoning: Ruby web framework
+  - component: UI
+    technology: Tabler
+    reasoning: Admin dashboard UI kit
+key_features:
+  - Admin dashboard UI components
+  - Pre-built admin layouts
+  - Charts and data visualization
+  - Form components
+use_case: |
+  Rails applications needing admin panels, internal tools, or backoffice
+  interfaces with professional UI components.
+pros:
+  - Beautiful admin UI out of the box
+  - Comprehensive component library
+cons:
+  - Admin-focused (not a full SaaS starter)
+featured: false
+added_date: 2025-12-21

@@ -8,13 +8,40 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 See Previous Changelogs for More Details: `docs/previous_changelogs/`
 
 ---
-Start Changelog Entries
+
+## [2.0.0] - 2025-12-21
+
+### Added
+- Full-stack boilerplate directory with 100+ starter kit entries
+- 17 ecosystem categories for boilerplates (Next.js, Django, FastAPI, Rails, etc.)
+- `BoilerplateEntry` and `TechStackComponent` Pydantic schemas
+- `generate_boilerplates.py` for BOILERPLATES.md generation
+- `migrate_boilerplates.py` for markdown-to-YAML migration
+- Boilerplate-specific website pages and templates
+- New Makefile targets: `validate-boilerplates`, `generate-boilerplates`, `migrate-boilerplates`
+
+### Changed
+- Updated ARCHITECTURE.md to reflect parallel structure design
+- Extended `validate.py` to handle both agents and boilerplates
+- Enhanced website with boilerplate navigation and search
+- Updated CI/CD workflows for boilerplate validation and deployment
+
+### Technical
+- Completed Phase 00 (Feature Addition) with 6 sessions, 141 tasks
+
 ---
 
-   NEW CHANGELOG ENTRIES HERE!
+## [1.0.0] - 2025-11-05
 
----
-End Changelog Entries
+### Added
+- Initial YAML-based data architecture
+- 277 AI agent entries across 10 categories
+- Pydantic schema validation with strict enforcement
+- Automated README.md generation from YAML
+- Static website with search and filtering
+- GitHub Actions CI/CD for validation and deployment
+- GitHub Pages deployment
+
 ---
 
 ## Version History Summary
@@ -23,8 +50,5 @@ See Previous Changelogs for More Details: `docs/previous_changelogs/`
 
 | Version | Release Date | Key Features |
 |---------|--------------|--------------|
-| **X.XX.X** | 2025-XX-XX | In a short sentence feature / changes /fixes description |
-| **X.XX.X** | 2025-XX-XX | In a short sentence feature / changes /fixes description |
-| **X.XX.X** | 2025-XX-XX | In a short sentence feature / changes /fixes description |
-| **X.XX.X** | 2025-XX-XX | In a short sentence feature / changes /fixes description |
-| **X.XX.X** | 2025-XX-XX | In a short sentence feature / changes /fixes description |
+| **2.0.0** | 2025-12-21 | Full-stack boilerplate directory integration |
+| **1.0.0** | 2025-11-05 | Initial YAML architecture and AI agent directory |

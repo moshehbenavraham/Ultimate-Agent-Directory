@@ -1,0 +1,42 @@
+name: Freedom Stack
+url: https://github.com/nicholascostadev/freedom-stack
+description: |
+  HTML-first approach combining Astro with HTMX and Alpine.js for minimal
+  JavaScript interactivity with Astro DB and Drizzle ORM for data persistence.
+category: astro
+type: starter
+tags:
+  - astro
+  - htmx
+  - alpinejs
+  - drizzle
+  - html-first
+  - minimal-javascript
+license: MIT
+technical_stack:
+  - component: Frontend
+    technology: Astro
+    reasoning: HTML-first static site generator
+  - component: Interactivity
+    technology: HTMX, Alpine.js
+    reasoning: Progressive enhancement without heavy JavaScript
+  - component: Database
+    technology: Astro DB, Drizzle ORM
+    reasoning: Type-safe database queries
+key_features:
+  - HTML-first approach with progressive enhancement
+  - Astro DB for data persistence
+  - Drizzle ORM for type-safe database queries
+  - HTMX for dynamic updates without heavy JavaScript
+  - Alpine.js for lightweight client-side interactivity
+use_case: |
+  Content sites, blogs, and applications prioritizing minimal JavaScript
+  and fast load times with progressive enhancement.
+pros:
+  - Minimal JavaScript bundle size
+  - Fast load times
+  - Progressive enhancement philosophy
+cons:
+  - Less suited for highly interactive SPAs
+featured: false
+added_date: 2025-12-21

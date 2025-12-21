@@ -4,12 +4,21 @@ System design and data flow for the Ultimate AI Agent Directory.
 
 ## System Overview
 
-This is a **data-driven documentation project** that maintains a curated directory of AI agent frameworks, platforms, and tools. All content is stored as structured YAML and automatically transformed into README.md and a static website.
+This is a **data-driven documentation project** that maintains two curated directories:
+1. **AI Agent Directory** - Frameworks, platforms, tools, and resources
+2. **Full-Stack Boilerplate Directory** - Starter kits, templates, and scaffolds
+
+All content is stored as structured YAML and automatically transformed into README.md, BOILERPLATES.md, and a static website.
 
 ## Data Flow
 
 ```
 YAML Data (data/)
+       |
+       +---> data/agents/         (278 AI agent entries)
+       +---> data/boilerplates/   (100+ boilerplate entries)
+       +---> data/categories/     (10 agent categories)
+       +---> data/boilerplate_categories/ (17 ecosystems)
        |
        v
 Schema Validation (Pydantic)
@@ -20,42 +29,50 @@ Data Loading (Python)
        v
 Template Rendering (Jinja2)
        |
-       +---> README.md (GitHub display)
-       |
-       +---> _site/ (Static website)
+       +---> README.md (AI agents)
+       +---> BOILERPLATES.md (Full-stack starters)
+       +---> _site/ (Static website with both directories)
 ```
 
 ## Component Diagram
 
 ```
-+-------------------+
-|   data/agents/    |  277 YAML files (source of truth)
-+-------------------+
-         |
-         v
-+-------------------+
-| data/categories/  |  10 category definitions
-+-------------------+
-         |
-         v
-+-------------------+
-|  scripts/         |
-|  - models.py      |  Pydantic schemas
-|  - validate.py    |  YAML validation
-|  - generate_*.py  |  Output generators
-+-------------------+
-         |
-         v
-+-------------------+
-|   templates/      |  Jinja2 templates
-+-------------------+
-         |
-         +----------> README.md
-         |
-         +----------> _site/ (static HTML)
++------------------------+     +---------------------------+
+|     data/agents/       |     |    data/boilerplates/     |
+|  278 AI agent entries  |     |  100+ boilerplate entries |
++------------------------+     +---------------------------+
+            |                              |
+            v                              v
++------------------------+     +---------------------------+
+|    data/categories/    |     | data/boilerplate_categories/ |
+|  10 agent categories   |     |  17 ecosystem categories  |
++------------------------+     +---------------------------+
+            |                              |
+            +------------------------------+
                            |
                            v
-                    GitHub Pages
+            +----------------------------+
+            |         scripts/           |
+            | - models.py (Pydantic)     |
+            | - validate.py              |
+            | - generate_readme.py       |
+            | - generate_boilerplates.py |
+            | - generate_site.py         |
+            +----------------------------+
+                           |
+                           v
+            +----------------------------+
+            |        templates/          |
+            +----------------------------+
+                           |
+           +---------------+---------------+
+           |               |               |
+           v               v               v
+      README.md    BOILERPLATES.md    _site/
+    (AI agents)    (Full-stack)     (Website)
+                                         |
+                                         v
+                                   GitHub Pages
 ```
 
 ## Components
@@ -65,8 +82,10 @@ Template Rendering (Jinja2)
 **Purpose:** Single source of truth for all directory content
 
 **Structure:**
-- `data/agents/{category}/*.yml` - Agent/tool entries
-- `data/categories/*.yml` - Category definitions
+- `data/agents/{category}/*.yml` - AI agent/tool entries (278 files)
+- `data/categories/*.yml` - Agent category definitions (10 files)
+- `data/boilerplates/{ecosystem}/*.yml` - Boilerplate entries (100+ files)
+- `data/boilerplate_categories/*.yml` - Boilerplate categories (17 ecosystems)
 
 **Validation:** Pydantic models in `scripts/models.py` enforce schema compliance
 
@@ -75,29 +94,33 @@ Template Rendering (Jinja2)
 **Purpose:** Ensure data quality and schema compliance
 
 **Key Files:**
-- `models.py` - AgentEntry, Category, DirectoryMetadata schemas
+- `models.py` - AgentEntry, BoilerplateEntry, Category schemas
 - `validate.py` - YAML loading and validation functions
 
 **Features:**
 - Strict schema enforcement (`extra = "forbid"`)
 - URL validation (HttpUrl type)
-- Description length constraints (20-1000 chars)
+- Description length constraints (agents: 20-1000 chars, boilerplates: 20-2000 chars)
 - GitHub repo format validation (`owner/repo`)
 - Tag normalization (lowercase, hyphenated)
+- Technical stack validation for boilerplates
 
 ### Generation Layer
 
 **Purpose:** Transform YAML data into readable outputs
 
 **Generators:**
-- `generate_readme.py` - Creates README.md with markdown tables
-- `generate_site.py` - Creates static website in `_site/`
+- `generate_readme.py` - Creates README.md with AI agent tables
+- `generate_boilerplates.py` - Creates BOILERPLATES.md with starter kit tables
+- `generate_site.py` - Creates static website in `_site/` with both directories
 
 **Templates:**
-- `templates/readme.jinja2` - README structure
+- `templates/readme.jinja2` - AI agents README structure
+- `templates/boilerplates_readme.jinja2` - Boilerplates README structure
 - `templates/base.html.jinja2` - Website layout
 - `templates/index.html.jinja2` - Homepage
-- `templates/category.html.jinja2` - Category pages
+- `templates/category.html.jinja2` - Agent category pages
+- `templates/boilerplate_category.html.jinja2` - Boilerplate category pages
 
 ### Deployment Layer
 
@@ -134,7 +157,7 @@ Validate YAML --> Generate README --> Build Site --> Deploy
 Ultimate-Agent-Directory/
 |
 +-- data/
-|   +-- agents/                 # 277 YAML entry files
+|   +-- agents/                 # 278 AI agent entries
 |   |   +-- open-source-frameworks/
 |   |   +-- no-code-platforms/
 |   |   +-- autonomous-agents/
@@ -145,21 +168,31 @@ Ultimate-Agent-Directory/
 |   |   +-- communities/
 |   |   +-- learning-resources/
 |   |   +-- research-frameworks/
-|   +-- categories/             # 10 category definitions
+|   +-- categories/             # 10 agent category definitions
+|   +-- boilerplates/           # 100+ boilerplate entries
+|   |   +-- nextjs/
+|   |   +-- django/
+|   |   +-- fastapi/
+|   |   +-- rails/
+|   |   +-- ... (17 ecosystems)
+|   +-- boilerplate_categories/ # 17 boilerplate category definitions
 |
 +-- scripts/                    # Python automation
 |   +-- models.py               # Pydantic schemas
 |   +-- validate.py             # Validation logic
-|   +-- generate_readme.py      # README generator
+|   +-- generate_readme.py      # AI agents README generator
+|   +-- generate_boilerplates.py # Boilerplates README generator
 |   +-- generate_site.py        # Website generator
-|   +-- migrate.py              # Migration utilities
+|   +-- migrate_boilerplates.py # Boilerplate migration utilities
 |   +-- check_links.py          # Link validation
 |
 +-- templates/                  # Jinja2 templates
 |   +-- readme.jinja2
+|   +-- boilerplates_readme.jinja2
 |   +-- base.html.jinja2
 |   +-- index.html.jinja2
 |   +-- category.html.jinja2
+|   +-- boilerplate_category.html.jinja2
 |
 +-- static/                     # Website assets
 |   +-- css/style.css
@@ -167,7 +200,8 @@ Ultimate-Agent-Directory/
 |
 +-- docs/                       # Documentation
 +-- _site/                      # Generated website (gitignored)
-+-- README.md                   # Generated (commit with YAML changes)
++-- README.md                   # Generated AI agents directory
++-- BOILERPLATES.md             # Generated boilerplates directory
 ```
 
 ## Key Design Decisions

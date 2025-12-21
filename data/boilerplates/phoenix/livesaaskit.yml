@@ -1,0 +1,35 @@
+name: LiveSAASKit
+url: https://livesaaskit.com
+description: |
+  Phoenix SaaS starter with comprehensive features leveraging LiveView
+  for real-time functionality with Erlang VM scalability.
+category: phoenix
+type: boilerplate
+tags:
+  - phoenix
+  - elixir
+  - liveview
+  - saas
+  - real-time
+technical_stack:
+  - component: Backend
+    technology: Phoenix
+    reasoning: Elixir web framework
+  - component: Frontend
+    technology: LiveView
+    reasoning: Real-time server-rendered UI
+key_features:
+  - Complete SaaS foundations
+  - Real-time by default via Erlang VM scalability
+  - LiveView integration
+use_case: |
+  Developers building real-time SaaS applications who want to leverage
+  Elixir's concurrency model and Phoenix LiveView.
+pros:
+  - Real-time by default
+  - Erlang VM scalability
+  - Complete SaaS foundation
+cons:
+  - Elixir learning curve
+featured: false
+added_date: 2025-12-21

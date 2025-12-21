@@ -1,0 +1,42 @@
+name: LaunchFa.st
+url: https://launchfa.st
+description: |
+  Multi-framework SaaS starter kit supporting Astro, Next.js, and SvelteKit
+  variants with payment integration, authentication, and marketing components.
+category: astro
+type: boilerplate
+tags:
+  - astro
+  - nextjs
+  - sveltekit
+  - saas
+  - payments
+  - authentication
+  - commercial
+pricing: paid
+technical_stack:
+  - component: Frontend
+    technology: Astro, Next.js, or SvelteKit
+    reasoning: Framework flexibility
+  - component: Payments
+    technology: Stripe
+    reasoning: Payment integration
+  - component: Auth
+    technology: Various providers
+    reasoning: Authentication flows
+key_features:
+  - Choose your framework (Astro, Next.js, SvelteKit)
+  - Payment integration
+  - Authentication flows
+  - Pre-built marketing components
+use_case: |
+  Teams who want framework flexibility with consistent SaaS infrastructure
+  and quick launch capabilities.
+pros:
+  - Framework flexibility
+  - Consistent SaaS features across variants
+  - Quick time-to-launch
+cons:
+  - Commercial/paid product
+featured: false
+added_date: 2025-12-21

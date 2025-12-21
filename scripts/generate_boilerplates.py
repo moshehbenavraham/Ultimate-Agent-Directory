@@ -77,7 +77,9 @@ def slugify(text: str) -> str:
     return slug
 
 
-def group_by_ecosystem(categories: list[BoilerplateCategory]) -> dict[str, list[BoilerplateCategory]]:
+def group_by_ecosystem(
+    categories: list[BoilerplateCategory],
+) -> dict[str, list[BoilerplateCategory]]:
     """Group categories by ecosystem for hierarchical display
 
     Returns dict with ecosystem name as key and list of categories as value,
@@ -95,7 +97,9 @@ def group_by_ecosystem(categories: list[BoilerplateCategory]) -> dict[str, list[
     return result
 
 
-def group_by_category(boilerplates: list[BoilerplateEntry]) -> dict[str, list[BoilerplateEntry]]:
+def group_by_category(
+    boilerplates: list[BoilerplateEntry],
+) -> dict[str, list[BoilerplateEntry]]:
     """Group entries by category ID"""
     grouped = defaultdict(list)
     for boilerplate in boilerplates:
@@ -103,9 +107,7 @@ def group_by_category(boilerplates: list[BoilerplateEntry]) -> dict[str, list[Bo
 
     # Sort entries within each category by stars (descending), then by name
     for category in grouped:
-        grouped[category].sort(
-            key=lambda b: (-(b.github_stars or 0), b.name.lower())
-        )
+        grouped[category].sort(key=lambda b: (-(b.github_stars or 0), b.name.lower()))
 
     return dict(grouped)
 
@@ -118,7 +120,7 @@ def truncate_description(text: str, max_length: int = 150) -> str:
     text = " ".join(text.split())
     if len(text) <= max_length:
         return text
-    return text[:max_length - 3].rsplit(" ", 1)[0] + "..."
+    return text[: max_length - 3].rsplit(" ", 1)[0] + "..."
 
 
 def get_ecosystem_order() -> list[str]:
@@ -161,9 +163,7 @@ def generate_boilerplates_readme():
 
     # Load template
     env = Environment(
-        loader=FileSystemLoader("templates"),
-        trim_blocks=True,
-        lstrip_blocks=True
+        loader=FileSystemLoader("templates"), trim_blocks=True, lstrip_blocks=True
     )
 
     # Register custom filters

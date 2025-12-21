@@ -23,7 +23,7 @@ from pydantic import ValidationError
 
 # Add scripts directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent))
-from models import BoilerplateEntry, BoilerplateCategory, TechStackComponent
+from models import BoilerplateEntry, BoilerplateCategory
 
 
 # ============================================================================
@@ -146,16 +146,16 @@ def sanitize_ascii(text: str) -> str:
 
     # Replace common Unicode characters
     replacements = {
-        "\u2018": "'",   # Left single quote
-        "\u2019": "'",   # Right single quote
-        "\u201c": '"',   # Left double quote
-        "\u201d": '"',   # Right double quote
-        "\u2013": "-",   # En dash
+        "\u2018": "'",  # Left single quote
+        "\u2019": "'",  # Right single quote
+        "\u201c": '"',  # Left double quote
+        "\u201d": '"',  # Right double quote
+        "\u2013": "-",  # En dash
         "\u2014": "--",  # Em dash
-        "\u2026": "...", # Ellipsis
-        "\u00a0": " ",   # Non-breaking space
-        "\u2022": "-",   # Bullet
-        "\u00b7": "-",   # Middle dot
+        "\u2026": "...",  # Ellipsis
+        "\u00a0": " ",  # Non-breaking space
+        "\u2022": "-",  # Bullet
+        "\u00b7": "-",  # Middle dot
     }
 
     for char, replacement in replacements.items():
@@ -246,7 +246,9 @@ class BoilerplateMarkdownParser:
                 ecosystem_content = sections[i + 1]
                 self.parse_ecosystem(ecosystem_name, ecosystem_content)
 
-        print(f"Found {len(self.entries)} entries across {len(self.categories)} categories")
+        print(
+            f"Found {len(self.entries)} entries across {len(self.categories)} categories"
+        )
         print()
 
     def parse_ecosystem(self, ecosystem_name: str, content: str) -> None:
@@ -274,14 +276,19 @@ class BoilerplateMarkdownParser:
                 category_content = sections[i + 1]
                 self.parse_category(category_name, category_content, ecosystem_name)
 
-    def parse_category(self, category_name: str, content: str, ecosystem_name: str) -> None:
+    def parse_category(
+        self, category_name: str, content: str, ecosystem_name: str
+    ) -> None:
         """Parse an H3 category section by extracting H5 entries."""
         # Get category mapping
         category_info = CATEGORY_MAPPING.get(category_name)
         if not category_info:
             # Try partial matching
             for key, info in CATEGORY_MAPPING.items():
-                if key.lower() in category_name.lower() or category_name.lower() in key.lower():
+                if (
+                    key.lower() in category_name.lower()
+                    or category_name.lower() in key.lower()
+                ):
                     category_info = info
                     break
 
@@ -310,7 +317,11 @@ class BoilerplateMarkdownParser:
         for idx, match in enumerate(h5_matches):
             entry_name = match.group(1).strip()
             start = match.end()
-            end = h5_matches[idx + 1].start() if idx + 1 < len(h5_matches) else len(content)
+            end = (
+                h5_matches[idx + 1].start()
+                if idx + 1 < len(h5_matches)
+                else len(content)
+            )
             entry_content = content[start:end]
 
             self.parse_entry(entry_name, entry_content, category_id)
@@ -349,25 +360,32 @@ class BoilerplateMarkdownParser:
         entry_data = {
             "name": sanitize_ascii(name),
             "url": url,
-            "description": sanitize_ascii(description)[:2000] if description else f"A {category_id} boilerplate for building full-stack applications",
+            "description": sanitize_ascii(description)[:2000]
+            if description
+            else f"A {category_id} boilerplate for building full-stack applications",
             "category": category_id,
             "type": "boilerplate",
             "tags": self.generate_tags(name, content, category_id),
             "github_repo": extract_github_repo(url),
             "github_stars": parse_star_count(attrs.get("stars", "")),
-            "license": sanitize_ascii(attrs.get("license", "")).split("(")[0].strip() or None,
+            "license": sanitize_ascii(attrs.get("license", "")).split("(")[0].strip()
+            or None,
             "technical_stack": self.extract_tech_stack_table(content),
             "key_features": self.extract_features_list(content),
-            "use_case": sanitize_ascii(self.extract_text_section(content, "Use Case")),
+            "use_case": sanitize_ascii(self.extract_text_section(content, "Use Case") or ""),
             "pros": self.extract_pros_cons(content, "Pros"),
             "cons": self.extract_pros_cons(content, "Cons"),
-            "community": sanitize_ascii(self.extract_text_section(content, "Community")),
+            "community": sanitize_ascii(
+                self.extract_text_section(content, "Community") or ""
+            ),
             "deployment": self.extract_deployment(content),
             "added_date": str(date.today()),
         }
 
         # Clean up None values and empty lists
-        entry_data = {k: v for k, v in entry_data.items() if v is not None and v != [] and v != ""}
+        entry_data = {
+            k: v for k, v in entry_data.items() if v is not None and v != [] and v != ""
+        }
 
         self.entries.append(entry_data)
 
@@ -413,13 +431,13 @@ class BoilerplateMarkdownParser:
         |-----------|------------|-----------|
         | Frontend | Next.js | Industry standard |
         """
-        tech_stack = []
+        tech_stack: list[dict[str, str | None]] = []
 
         # Find Technical Stack section
         stack_match = re.search(
             r"\*\*Technical Stack[:\*]*\*?\*?\s*\n\|[^|]+\|[^|]+\|[^|]*\|?\s*\n\|[-:| ]+\|",
             content,
-            re.IGNORECASE
+            re.IGNORECASE,
         )
 
         if not stack_match:
@@ -427,24 +445,31 @@ class BoilerplateMarkdownParser:
 
         # Parse table rows after the header
         start = stack_match.end()
-        table_text = content[start:start + 2000]
+        table_text = content[start : start + 2000]
 
-        row_pattern = re.compile(r"^\|\s*([^|]+)\s*\|\s*([^|]+)\s*\|\s*([^|]*)\s*\|?", re.MULTILINE)
+        row_pattern = re.compile(
+            r"^\|\s*([^|]+)\s*\|\s*([^|]+)\s*\|\s*([^|]*)\s*\|?", re.MULTILINE
+        )
         for match in row_pattern.finditer(table_text):
             component = match.group(1).strip()
             technology = match.group(2).strip()
             reasoning = match.group(3).strip() if match.group(3) else ""
 
             # Skip header/separator rows
-            if component.startswith("-") or component.lower() in ["component", "attribute"]:
+            if component.startswith("-") or component.lower() in [
+                "component",
+                "attribute",
+            ]:
                 continue
 
             if component and technology:
-                tech_stack.append({
-                    "component": sanitize_ascii(component)[:50],
-                    "technology": sanitize_ascii(technology)[:100],
-                    "reasoning": sanitize_ascii(reasoning)[:500] or None,
-                })
+                tech_stack.append(
+                    {
+                        "component": sanitize_ascii(component)[:50],
+                        "technology": sanitize_ascii(technology)[:100],
+                        "reasoning": sanitize_ascii(reasoning)[:500] or None,
+                    }
+                )
 
         return tech_stack
 
@@ -460,18 +485,20 @@ class BoilerplateMarkdownParser:
         features = []
 
         # Find Key Features section
-        features_match = re.search(r"\*\*Key Features[:\*]*\*?\*?", content, re.IGNORECASE)
+        features_match = re.search(
+            r"\*\*Key Features[:\*]*\*?\*?", content, re.IGNORECASE
+        )
         if not features_match:
             return None
 
         # Extract bullet points after the header
         start = features_match.end()
-        section = content[start:start + 1500]
+        section = content[start : start + 1500]
 
         # Stop at next section header
         end_match = re.search(r"\n\*\*[A-Z]", section)
         if end_match:
-            section = section[:end_match.start()]
+            section = section[: end_match.start()]
 
         bullet_pattern = re.compile(r"^[-*]\s+(.+)$", re.MULTILINE)
         for match in bullet_pattern.finditer(section):
@@ -494,7 +521,10 @@ class BoilerplateMarkdownParser:
         items = []
 
         # Find section
-        pattern = re.compile(rf"\*\*{section_type}[:\*]*\*?\*?\s*(.+?)(?=\*\*[A-Z]|\n\n\*\*|\Z)", re.IGNORECASE | re.DOTALL)
+        pattern = re.compile(
+            rf"\*\*{section_type}[:\*]*\*?\*?\s*(.+?)(?=\*\*[A-Z]|\n\n\*\*|\Z)",
+            re.IGNORECASE | re.DOTALL,
+        )
         match = pattern.search(content)
 
         if not match:
@@ -507,12 +537,18 @@ class BoilerplateMarkdownParser:
         bullets = bullet_pattern.findall(section_content)
 
         if bullets:
-            items = [sanitize_ascii(b.strip())[:200] for b in bullets if len(b.strip()) > 3]
+            items = [
+                sanitize_ascii(b.strip())[:200] for b in bullets if len(b.strip()) > 3
+            ]
         else:
             # Split by periods or semicolons for inline format
             # But be careful not to split on abbreviations
             sentences = re.split(r"(?<=[.;])\s+(?=[A-Z])", section_content)
-            items = [sanitize_ascii(s.strip().rstrip("."))[:200] for s in sentences if len(s.strip()) > 5]
+            items = [
+                sanitize_ascii(s.strip().rstrip("."))[:200]
+                for s in sentences
+                if len(s.strip()) > 5
+            ]
 
         return items if items else None
 
@@ -526,7 +562,7 @@ class BoilerplateMarkdownParser:
         """
         pattern = re.compile(
             rf"\*\*{section_name}[:\*]*\*?\*?\s*(.+?)(?=\n\n\*\*|\n\*\*[A-Z]|\Z)",
-            re.IGNORECASE | re.DOTALL
+            re.IGNORECASE | re.DOTALL,
         )
         match = pattern.search(content)
 
@@ -548,9 +584,21 @@ class BoilerplateMarkdownParser:
 
         # Common deployment platforms to look for
         known_platforms = [
-            "Vercel", "Netlify", "AWS", "Fly.io", "Heroku", "Docker",
-            "Cloudflare", "Railway", "Render", "DigitalOcean", "GCP",
-            "Azure", "Kubernetes", "EAS", "Supabase"
+            "Vercel",
+            "Netlify",
+            "AWS",
+            "Fly.io",
+            "Heroku",
+            "Docker",
+            "Cloudflare",
+            "Railway",
+            "Render",
+            "DigitalOcean",
+            "GCP",
+            "Azure",
+            "Kubernetes",
+            "EAS",
+            "Supabase",
         ]
 
         for platform in known_platforms:
@@ -623,7 +671,13 @@ class BoilerplateMarkdownParser:
 
             # Write YAML
             with open(file_path, "w", encoding="utf-8", newline="\n") as f:
-                yaml.dump(category_data, f, default_flow_style=False, allow_unicode=False, sort_keys=False)
+                yaml.dump(
+                    category_data,
+                    f,
+                    default_flow_style=False,
+                    allow_unicode=False,
+                    sort_keys=False,
+                )
 
             print(f"  Created: {file_path}")
 
@@ -732,7 +786,9 @@ class BoilerplateMarkdownParser:
                         for line in self.wrap_text(tech["reasoning"], 74):
                             lines.append(f"      {line}")
                     else:
-                        lines.append(f"    reasoning: {self.yaml_value(tech['reasoning'])}")
+                        lines.append(
+                            f"    reasoning: {self.yaml_value(tech['reasoning'])}"
+                        )
 
         # Key features
         if data.get("key_features"):
@@ -790,15 +846,19 @@ class BoilerplateMarkdownParser:
             return '""'
 
         # Quote if contains special characters
-        needs_quotes = any([
-            value.startswith(("'", '"', "&", "*", "!", "|", ">", "{", "[", "@", "`")),
-            ":" in value,
-            "#" in value,
-            value.startswith("-"),
-            value.startswith(" "),
-            value.endswith(" "),
-            value in ("true", "false", "null", "yes", "no", "on", "off"),
-        ])
+        needs_quotes = any(
+            [
+                value.startswith(
+                    ("'", '"', "&", "*", "!", "|", ">", "{", "[", "@", "`")
+                ),
+                ":" in value,
+                "#" in value,
+                value.startswith("-"),
+                value.startswith(" "),
+                value.endswith(" "),
+                value in ("true", "false", "null", "yes", "no", "on", "off"),
+            ]
+        )
 
         if needs_quotes:
             # Escape any existing quotes and wrap
@@ -846,7 +906,7 @@ class BoilerplateMarkdownParser:
         print("Category breakdown:")
 
         # Count entries per category
-        category_counts = {}
+        category_counts: dict[str, int] = {}
         for entry in self.entries:
             cat = entry.get("category", "unknown")
             category_counts[cat] = category_counts.get(cat, 0) + 1
@@ -857,7 +917,7 @@ class BoilerplateMarkdownParser:
         print()
         print("=" * 60)
         print("Migration complete!")
-        print(f"Run 'make validate' to verify all generated files.")
+        print("Run 'make validate' to verify all generated files.")
         print("=" * 60)
 
 

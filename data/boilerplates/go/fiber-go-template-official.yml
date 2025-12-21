@@ -1,0 +1,47 @@
+name: fiber-go-template (Official)
+url: https://github.com/gofiber/template
+description: |
+  Official Go Fiber template with full-stack features including Swagger docs,
+  database migrations, Docker deployment, and JWT authentication.
+category: go
+type: template
+tags:
+  - go
+  - golang
+  - fiber
+  - postgresql
+  - redis
+  - jwt
+  - swagger
+  - docker
+license: MIT
+technical_stack:
+  - component: Backend
+    technology: Go Fiber
+    reasoning: Express-inspired Go web framework
+  - component: Database
+    technology: PostgreSQL
+    reasoning: Reliable relational database
+  - component: Cache
+    technology: Redis
+    reasoning: In-memory data store
+  - component: Auth
+    technology: JWT
+    reasoning: Stateless authentication
+key_features:
+  - Swagger docs
+  - Database migrations
+  - Docker deployment
+  - Official Fiber template
+  - JWT authentication
+use_case: |
+  Go developers wanting an official, well-maintained Fiber template
+  with production-ready features.
+pros:
+  - Official Fiber template
+  - Well-documented
+  - Production-ready patterns
+cons:
+  - Fiber-specific (framework lock-in)
+featured: false
+added_date: 2025-12-21

@@ -1,0 +1,52 @@
+name: Payload CMS
+url: https://github.com/payloadcms/payload
+description: |
+  Modern Node.js headless CMS with TypeScript-first approach, code-first
+  schema definition, and built-in authentication with React admin panel.
+category: nodejs
+type: toolkit
+tags:
+  - nodejs
+  - typescript
+  - headless-cms
+  - react
+  - mongodb
+  - postgresql
+  - nextjs
+github_repo: payloadcms/payload
+github_stars: 30000
+license: MIT
+technical_stack:
+  - component: Backend
+    technology: Node.js, TypeScript
+    reasoning: Type-safe JavaScript runtime
+  - component: Admin
+    technology: React
+    reasoning: Modern admin panel
+  - component: Database
+    technology: MongoDB, PostgreSQL
+    reasoning: Flexible database options
+  - component: Editor
+    technology: Lexical
+    reasoning: Rich text editing
+key_features:
+  - TypeScript-first configuration
+  - Code-first schema definition
+  - Built-in authentication and access control
+  - Rich text editor with Lexical
+  - Official Next.js website and blog templates
+  - Live preview and draft system
+  - Extensible with hooks and plugins
+use_case: |
+  Content-heavy applications, blogs, e-commerce backends, enterprise
+  CMS needs with TypeScript teams.
+pros:
+  - TypeScript native
+  - Code-first approach
+  - MIT license
+  - Excellent DX
+cons:
+  - Learning curve for complex configurations
+  - Resource-intensive
+featured: true
+added_date: 2025-12-21

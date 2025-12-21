@@ -97,9 +97,7 @@ def group_boilerplates_by_category(
 
     # Sort entries within each category by stars (descending), then name
     for category in grouped:
-        grouped[category].sort(
-            key=lambda b: (-(b.github_stars or 0), b.name.lower())
-        )
+        grouped[category].sort(key=lambda b: (-(b.github_stars or 0), b.name.lower()))
 
     return dict(grouped)
 
@@ -209,9 +207,11 @@ def generate_sitemap(
     sitemap.append("  </url>")
 
     # Boilerplate category pages
-    for category in boilerplate_categories:
+    for bp_category in boilerplate_categories:
         sitemap.append("  <url>")
-        sitemap.append(f"    <loc>{base_url}/boilerplates/{category.id}/index.html</loc>")
+        sitemap.append(
+            f"    <loc>{base_url}/boilerplates/{bp_category.id}/index.html</loc>"
+        )
         sitemap.append(f"    <lastmod>{today}</lastmod>")
         sitemap.append("    <changefreq>weekly</changefreq>")
         sitemap.append("    <priority>0.7</priority>")
@@ -442,10 +442,10 @@ def generate_site():
     print("=" * 60)
     print(f"\nOutput directory: {output_dir.absolute()}")
     print(f"Homepage: {output_dir / 'index.html'}")
-    print(f"\nAI Agents:")
+    print("\nAI Agents:")
     print(f"  Categories: {len(categories)} pages")
     print(f"  Entries: {len(agents)}")
-    print(f"\nBoilerplates:")
+    print("\nBoilerplates:")
     print(f"  Categories: {len(boilerplate_categories)} pages")
     print(f"  Entries: {len(boilerplates)}")
     print("\nTo preview locally, run:")

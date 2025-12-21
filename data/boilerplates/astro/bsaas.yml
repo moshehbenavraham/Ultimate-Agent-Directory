@@ -1,0 +1,38 @@
+name: bSaaS
+url: https://github.com/bsaas/bsaas
+description: |
+  Astro SaaS landing page template with 10+ pre-built sections, marketing-focused
+  design, SEO optimization, and responsive templates for product launches.
+category: astro
+type: template
+tags:
+  - astro
+  - tailwindcss
+  - landing-page
+  - marketing
+  - seo
+  - saas
+license: MIT
+technical_stack:
+  - component: Frontend
+    technology: Astro
+    reasoning: Fast static site generation
+  - component: Styling
+    technology: Tailwind CSS
+    reasoning: Utility-first CSS framework
+key_features:
+  - 10+ pre-built landing page sections
+  - Marketing-focused design
+  - SEO optimized out of the box
+  - Responsive design templates
+use_case: |
+  SaaS marketing sites, product launches, landing pages needing
+  quick setup with professional design.
+pros:
+  - Marketing-focused design
+  - SEO optimized
+  - Quick to customize
+cons:
+  - Landing page focused (not a full application starter)
+featured: false
+added_date: 2025-12-21

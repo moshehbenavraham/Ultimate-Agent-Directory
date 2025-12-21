@@ -127,12 +127,10 @@ def main():
 
     # Collect boilerplate files (excluding .gitkeep)
     boilerplate_files = [
-        f for f in data_dir.glob("boilerplates/**/*.yml")
-        if f.name != ".gitkeep"
+        f for f in data_dir.glob("boilerplates/**/*.yml") if f.name != ".gitkeep"
     ]
     boilerplate_category_files = [
-        f for f in data_dir.glob("boilerplate-categories/*.yml")
-        if f.name != ".gitkeep"
+        f for f in data_dir.glob("boilerplate-categories/*.yml") if f.name != ".gitkeep"
     ]
 
     total_files = (
@@ -146,8 +144,12 @@ def main():
         print("WARNING: No YAML files found to validate")
         sys.exit(0)
 
-    print(f"Validating {len(agent_files)} agent files, {len(category_files)} category files,")
-    print(f"           {len(boilerplate_files)} boilerplate files, {len(boilerplate_category_files)} boilerplate category files...\n")
+    print(
+        f"Validating {len(agent_files)} agent files, {len(category_files)} category files,"
+    )
+    print(
+        f"           {len(boilerplate_files)} boilerplate files, {len(boilerplate_category_files)} boilerplate category files...\n"
+    )
 
     errors = []
     successes = []

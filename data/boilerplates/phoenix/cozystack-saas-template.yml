@@ -1,0 +1,46 @@
+name: Cozystack SaaS Template
+url: https://cozystack.dev
+description: |
+  Full Phoenix SaaS boilerplate with complete authentication system,
+  Stripe subscription billing, user management dashboard, and LiveView features.
+category: phoenix
+type: boilerplate
+tags:
+  - phoenix
+  - elixir
+  - liveview
+  - tailwindcss
+  - stripe
+  - saas
+  - authentication
+pricing: freemium
+technical_stack:
+  - component: Backend
+    technology: Phoenix
+    reasoning: Elixir web framework
+  - component: Frontend
+    technology: LiveView
+    reasoning: Real-time server-rendered UI
+  - component: Styling
+    technology: Tailwind CSS
+    reasoning: Utility-first CSS
+  - component: Payments
+    technology: Stripe
+    reasoning: Subscription billing
+key_features:
+  - Complete authentication system
+  - Stripe subscription billing
+  - User management dashboard
+  - LiveView real-time features
+  - Deployment configurations
+use_case: |
+  SaaS applications built with Phoenix/Elixir stack needing authentication,
+  billing, and user management out of the box.
+pros:
+  - Complete SaaS features
+  - Production-ready patterns
+  - Real-time with LiveView
+cons:
+  - Elixir ecosystem learning curve
+featured: false
+added_date: 2025-12-21

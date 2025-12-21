@@ -1,0 +1,44 @@
+name: ServiceStack Blazor Template
+url: https://servicestack.net/blazor
+description: |
+  Enhanced Blazor template with ServiceStack integration including Tailwind
+  theming, AutoQueryGrid components, dual ORM support, and Kamal deployments.
+category: dotnet
+type: template
+tags:
+  - dotnet
+  - blazor
+  - servicestack
+  - tailwindcss
+  - csharp
+  - orm
+pricing: freemium
+technical_stack:
+  - component: Frontend
+    technology: Blazor
+    reasoning: .NET web UI framework
+  - component: Backend
+    technology: ServiceStack
+    reasoning: Feature-rich web services framework
+  - component: Styling
+    technology: Tailwind CSS
+    reasoning: Utility-first CSS
+  - component: Deployment
+    technology: Kamal
+    reasoning: Modern deployment tooling
+key_features:
+  - Tailwind theming
+  - AutoQueryGrid components
+  - Dual ORM support
+  - Kamal deployments
+use_case: |
+  .NET developers wanting enhanced Blazor experience with ServiceStack
+  features and modern deployment options.
+pros:
+  - Rich component library
+  - ServiceStack ecosystem
+  - Modern deployment support
+cons:
+  - ServiceStack commercial licensing for some features
+featured: false
+added_date: 2025-12-21

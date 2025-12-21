@@ -1,0 +1,42 @@
+name: Petal Stack
+url: https://petal.build
+description: |
+  Phoenix + Tailwind + HEEX component library with 100+ pre-built components
+  for rapid UI development in Phoenix LiveView applications.
+category: phoenix
+type: template
+tags:
+  - phoenix
+  - elixir
+  - liveview
+  - tailwindcss
+  - heex
+  - ui-components
+license: MIT
+technical_stack:
+  - component: Backend
+    technology: Phoenix
+    reasoning: Elixir web framework
+  - component: Frontend
+    technology: LiveView, HEEX
+    reasoning: Server-rendered reactive UI
+  - component: Styling
+    technology: Tailwind CSS
+    reasoning: Utility-first CSS framework
+key_features:
+  - 100+ pre-built HEEX components
+  - Tailwind CSS integration
+  - LiveView compatible
+  - Form components, tables, modals
+  - Consistent design system
+use_case: |
+  Phoenix applications needing a rich component library for rapid
+  UI development with LiveView.
+pros:
+  - Extensive component library
+  - Consistent design system
+  - LiveView optimized
+cons:
+  - Phoenix/Elixir ecosystem specific
+featured: false
+added_date: 2025-12-21

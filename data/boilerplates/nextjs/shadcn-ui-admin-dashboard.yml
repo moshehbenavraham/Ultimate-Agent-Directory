@@ -1,0 +1,48 @@
+name: shadcn/ui Admin Dashboard
+url: https://ui.shadcn.com/examples/dashboard
+description: |
+  Component collection for building admin dashboards with Next.js and React
+  using shadcn/ui with data tables, charts, forms, and dark mode support.
+category: nextjs
+type: template
+tags:
+  - nextjs
+  - react
+  - shadcn-ui
+  - tailwindcss
+  - admin-dashboard
+  - typescript
+  - charts
+license: MIT
+technical_stack:
+  - component: Frontend
+    technology: Next.js, React
+    reasoning: Modern React framework
+  - component: UI
+    technology: shadcn/ui
+    reasoning: Customizable component library
+  - component: Styling
+    technology: Tailwind CSS
+    reasoning: Utility-first CSS
+  - component: Charts
+    technology: Recharts
+    reasoning: Data visualization
+key_features:
+  - Pre-built admin pages and layouts
+  - Data tables with sorting/filtering
+  - Charts and analytics components
+  - Form components with validation
+  - Dark mode support
+  - Premium versions available (Shadcn UI Kit)
+use_case: |
+  Admin panels, internal tools, data dashboards, backoffice applications
+  needing professional UI components.
+pros:
+  - Beautiful, modern design
+  - Highly customizable
+  - Active community
+  - MIT license for base components
+cons:
+  - Some premium components require purchase
+featured: false
+added_date: 2025-12-21

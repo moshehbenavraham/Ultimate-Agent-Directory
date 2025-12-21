@@ -1,0 +1,35 @@
+name: SaaS Startup Kit (Go)
+url: https://github.com/saas-startup-kit/saas-startup-kit
+description: |
+  Golang microservices architecture option for building scalable SaaS
+  applications with modern Go patterns and best practices.
+category: go
+type: boilerplate
+tags:
+  - go
+  - golang
+  - microservices
+  - saas
+  - architecture
+license: MIT
+technical_stack:
+  - component: Backend
+    technology: Go
+    reasoning: Systems language with excellent concurrency
+  - component: Architecture
+    technology: Microservices
+    reasoning: Scalable distributed systems
+key_features:
+  - Microservices architecture
+  - Go best practices
+  - Scalable design patterns
+use_case: |
+  Teams building scalable SaaS applications with Go microservices
+  architecture and modern distributed systems patterns.
+pros:
+  - Microservices ready
+  - Go performance and reliability
+cons:
+  - Complex architecture for simple applications
+featured: false
+added_date: 2025-12-21

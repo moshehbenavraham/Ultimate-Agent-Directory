@@ -1,0 +1,43 @@
+name: Phoenix SaaS Kit (Commercial)
+url: https://petal.build/saas-kit
+description: |
+  Complete SaaS foundation for Phoenix with payments integration,
+  multi-tenancy support, and AI functionality built on the Elixir ecosystem.
+category: phoenix
+type: boilerplate
+tags:
+  - phoenix
+  - elixir
+  - liveview
+  - saas
+  - multi-tenancy
+  - payments
+  - commercial
+pricing: paid
+technical_stack:
+  - component: Backend
+    technology: Phoenix
+    reasoning: Elixir web framework
+  - component: Frontend
+    technology: LiveView
+    reasoning: Real-time server-rendered UI
+  - component: Payments
+    technology: Stripe
+    reasoning: Payment processing
+key_features:
+  - Payments integration
+  - Multi-tenancy
+  - AI functionality
+  - LiveView real-time features
+use_case: |
+  Teams building SaaS applications with Phoenix/Elixir who want a
+  complete foundation with enterprise features.
+pros:
+  - Complete SaaS foundation
+  - Elixir/Erlang VM scalability
+  - Real-time by default
+cons:
+  - Commercial/paid product
+  - Elixir learning curve
+featured: false
+added_date: 2025-12-21

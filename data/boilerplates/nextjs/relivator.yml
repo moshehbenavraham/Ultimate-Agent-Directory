@@ -1,0 +1,53 @@
+name: Relivator
+url: https://github.com/relivator/relivator
+description: |
+  Modern SaaS e-commerce starter leveraging the latest Next.js 15 and React 19
+  features with comprehensive payment integration and shadcn/ui components.
+category: nextjs
+type: boilerplate
+tags:
+  - nextjs
+  - react
+  - typescript
+  - ecommerce
+  - stripe
+  - drizzle
+  - tailwindcss
+  - shadcn-ui
+  - saas
+github_repo: relivator/relivator
+github_stars: 1200
+license: MIT
+technical_stack:
+  - component: Frontend
+    technology: Next.js 15, React 19
+    reasoning: Cutting-edge React full-stack with App Router
+  - component: Database
+    technology: PostgreSQL, Drizzle ORM
+    reasoning: Type-safe database operations
+  - component: Payments
+    technology: Stripe
+    reasoning: Industry standard payment processing
+  - component: Auth
+    technology: NextAuth
+    reasoning: Flexible authentication
+  - component: Styling
+    technology: Tailwind CSS, shadcn/ui
+    reasoning: Modern component library
+key_features:
+  - E-commerce focused SaaS with payments integration
+  - App Router architecture with React Server Components
+  - Stripe checkout and subscription flows
+  - Modern shadcn/ui component library
+  - Type-safe database operations with Drizzle
+use_case: |
+  Ideal for e-commerce SaaS applications, marketplace MVPs, or any product-based
+  startup needing modern Next.js patterns with payment integration.
+pros:
+  - Cutting-edge stack (Next.js 15, React 19)
+  - Active maintenance
+  - Comprehensive e-commerce features
+cons:
+  - E-commerce focused (may require stripping features for non-commerce apps)
+featured: false
+added_date: 2025-12-21

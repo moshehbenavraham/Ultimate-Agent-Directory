@@ -41,6 +41,10 @@ jobs:
         run: |
           python scripts/generate_readme.py
 
+      - name: Generate Boilerplates README
+        run: |
+          python scripts/generate_boilerplates.py
+
       - name: Generate Website
         run: |
           python scripts/generate_site.py

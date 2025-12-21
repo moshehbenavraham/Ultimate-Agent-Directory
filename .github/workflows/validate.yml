@@ -7,6 +7,7 @@ on:
     paths:
       - 'data/**/*.yml'
       - 'scripts/**/*.py'
+      - 'templates/**/*.jinja2'
       - 'requirements.txt'
   workflow_dispatch:
 
@@ -28,11 +29,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Validate all YAML files
-        run: |
-          python scripts/validate.py
-
-      - name: Check for duplicate entries
+      - name: Validate all YAML files (agents + boilerplates)
         run: |
           python scripts/validate.py
 
@@ -52,10 +49,19 @@ jobs:
             exit 1
           fi
 
+      - name: Test BOILERPLATES.md generation
+        run: |
+          python scripts/generate_boilerplates.py
+          if [ ! -f BOILERPLATES.md ]; then
+            echo "Error: BOILERPLATES.md was not generated"
+            exit 1
+          fi
+
       - name: Report validation results
         if: success()
         run: |
-          echo "✓ All validation checks passed!"
-          echo "✓ YAML files are valid"
-          echo "✓ README generation successful"
-          echo "✓ Website generation successful"
+          echo "All validation checks passed!"
+          echo "  - YAML files are valid (agents + boilerplates)"
+          echo "  - README.md generation successful"
+          echo "  - BOILERPLATES.md generation successful"
+          echo "  - Website generation successful"

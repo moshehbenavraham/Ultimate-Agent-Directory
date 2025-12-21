@@ -15,6 +15,10 @@
 
 ---
 
+> **Looking for full-stack boilerplates and starter kits?** Check out our [Full-Stack Boilerplate Directory](BOILERPLATES.md) with 75 production-ready templates!
+
+---
+
 ## 📋 Table of Contents
 
 1. [🛠️ Open-Source Agent Frameworks](#open-source-frameworks)

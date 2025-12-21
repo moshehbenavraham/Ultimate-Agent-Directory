@@ -42,6 +42,12 @@ def load_boilerplates() -> list[BoilerplateEntry]:
     return boilerplates
 
 
+def count_agents() -> int:
+    """Count total agent entries for cross-reference"""
+    agents_dir = Path("data/agents")
+    return len(list(agents_dir.rglob("*.yml")))
+
+
 def format_stars(count: int | None) -> str:
     """Format star count: 28300 -> '28.3K', None -> '-'"""
     if count is None:
@@ -147,8 +153,10 @@ def generate_boilerplates_readme():
     boilerplates = load_boilerplates()
     entries_by_category = group_by_category(boilerplates)
     categories_by_ecosystem = group_by_ecosystem(categories)
+    agent_count = count_agents()
 
     print(f"Loaded {len(categories)} categories and {len(boilerplates)} boilerplates")
+    print(f"Found {agent_count} agents for cross-reference")
 
     # Build ordered ecosystems list (only those with categories)
     ecosystem_order = get_ecosystem_order()
@@ -182,6 +190,7 @@ def generate_boilerplates_readme():
         categories_by_ecosystem=categories_by_ecosystem,
         entries_by_category=entries_by_category,
         categories=categories,
+        agent_count=agent_count,
     )
 
     # Write

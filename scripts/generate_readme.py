@@ -40,6 +40,12 @@ def load_agents() -> list[AgentEntry]:
     return agents
 
 
+def count_boilerplates() -> int:
+    """Count total boilerplate entries for cross-reference"""
+    boilerplates_dir = Path("data/boilerplates")
+    return len(list(boilerplates_dir.rglob("*.yml")))
+
+
 def group_by_category(agents: list[AgentEntry]) -> dict:
     """Group agents by category"""
     grouped = defaultdict(list)
@@ -60,8 +66,10 @@ def generate_readme():
     categories = load_categories()
     agents = load_agents()
     entries_by_category = group_by_category(agents)
+    boilerplate_count = count_boilerplates()
 
     print(f"Loaded {len(categories)} categories and {len(agents)} agents")
+    print(f"Found {boilerplate_count} boilerplates for cross-reference")
 
     # Build metadata
     metadata = DirectoryMetadata(total_entries=len(agents), last_generated=date.today())
@@ -78,6 +86,7 @@ def generate_readme():
         metadata=metadata,
         categories=categories,
         entries_by_category=entries_by_category,
+        boilerplate_count=boilerplate_count,
     )
 
     # Write

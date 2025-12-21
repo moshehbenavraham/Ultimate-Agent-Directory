@@ -107,11 +107,11 @@
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
         {% set ecosystem_stats = [] %}
         {% for ecosystem, cats in ecosystems_by_category.items() %}
-            {% set count = 0 %}
+            {% set ns = namespace(count=0) %}
             {% for cat in cats %}
-                {% set count = count + (boilerplates_by_category.get(cat.id, [])|length) %}
+                {% set ns.count = ns.count + (boilerplates_by_category.get(cat.id, [])|length) %}
             {% endfor %}
-            {% set _ = ecosystem_stats.append({'name': ecosystem, 'count': count}) %}
+            {% set _ = ecosystem_stats.append({'name': ecosystem, 'count': ns.count}) %}
         {% endfor %}
         {% for stat in ecosystem_stats[:4] %}
         <div class="bg-white rounded-lg shadow-sm p-6 text-center hover:shadow-md transition">

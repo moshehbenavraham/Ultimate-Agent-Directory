@@ -11,6 +11,10 @@
 
 ---
 
+> **Looking for AI agent frameworks and tools?** Check out our [AI Agent Directory](README.md) with 278 curated entries!
+
+---
+
 ## Table of Contents
 
 ### JavaScript/TypeScript

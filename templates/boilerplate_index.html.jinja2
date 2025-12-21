@@ -35,6 +35,72 @@
     </div>
 </section>
 
+<!-- Search Section -->
+<section class="mb-12">
+    <div class="max-w-2xl mx-auto">
+        <div class="relative">
+            <input type="text"
+                   id="boilerplate-search"
+                   placeholder="Search boilerplates..."
+                   class="w-full px-6 py-4 rounded-lg border-2 border-gray-200 focus:border-emerald-500 focus:outline-none text-lg shadow-sm">
+            <i class="fas fa-search absolute right-6 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+        </div>
+        <p class="text-center text-sm text-gray-500 mt-2">
+            Search by name, description, or technology
+        </p>
+    </div>
+</section>
+
+<!-- Featured Boilerplates -->
+{% set featured_boilerplates = [] %}
+{% for cat_id, bps in boilerplates_by_category.items() %}
+    {% for bp in bps %}
+        {% if bp.featured %}
+            {% set _ = featured_boilerplates.append(bp) %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+{% if featured_boilerplates|length > 0 %}
+{% set sorted_featured = featured_boilerplates|sort(attribute='github_stars', reverse=True) %}
+<section class="mb-12">
+    <h2 class="text-3xl font-bold mb-6 text-center">
+        <i class="fas fa-star text-yellow-500 mr-2"></i>Featured Boilerplates
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {% for bp in sorted_featured[:6] %}
+        <div class="bg-white rounded-lg shadow-sm hover:shadow-lg transition p-6 border-l-4 border-yellow-500">
+            <div class="flex items-start justify-between mb-2">
+                <h3 class="text-lg font-bold text-gray-900">
+                    <a href="{{ bp.url }}" target="_blank" class="hover:text-emerald-600 transition">
+                        {{ bp.name }}
+                    </a>
+                </h3>
+                <span class="text-yellow-500" title="Featured">
+                    <i class="fas fa-star"></i>
+                </span>
+            </div>
+            <p class="text-gray-600 text-sm mb-3 line-clamp-2">
+                {{ bp.description[:150] }}{% if bp.description|length > 150 %}...{% endif %}
+            </p>
+            <div class="flex flex-wrap gap-2 mb-3">
+                {% if bp.github_stars %}
+                <span class="text-xs bg-yellow-100 text-yellow-700 px-2 py-1 rounded-full">
+                    <i class="fas fa-star mr-1"></i>{{ "{:,}".format(bp.github_stars) }}
+                </span>
+                {% endif %}
+                <span class="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded-full">
+                    {{ bp.category }}
+                </span>
+            </div>
+            <a href="{{ bp.url }}" target="_blank" class="text-emerald-600 hover:text-emerald-700 text-sm font-semibold">
+                View Project <i class="fas fa-external-link-alt ml-1"></i>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endif %}
+
 <!-- Top Ecosystems Stats -->
 <section class="mb-12">
     <h2 class="text-3xl font-bold mb-6 text-center">Top Ecosystems</h2>
@@ -139,4 +205,8 @@
     </div>
 </section>
 
+{% endblock %}
+
+{% block extra_scripts %}
+<script src="{{ base_url }}/static/js/boilerplate.js"></script>
 {% endblock %}

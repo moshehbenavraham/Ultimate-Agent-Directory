@@ -63,6 +63,68 @@ git commit -m "Add {Agent Name}"
 git push
 ```
 
+## Adding a New Boilerplate
+
+### 1. Create YAML File
+
+Create `data/boilerplates/{category}/{boilerplate-name}.yml`:
+
+```yaml
+# Required fields
+name: Boilerplate Name
+url: https://github.com/owner/repo
+description: Clear description of what this boilerplate provides. Minimum 20 characters.
+category: nextjs
+
+# Recommended fields
+type: boilerplate  # or: starter, template, scaffold, toolkit
+tags:
+  - nextjs
+  - react
+  - typescript
+github_repo: owner/repo
+github_stars: 1000
+license: MIT
+pricing: free  # or: freemium, paid, enterprise, open-core
+
+# Optional fields
+technical_stack:
+  - component: Frontend
+    technology: Next.js
+    reasoning: Industry standard React framework
+  - component: Database
+    technology: PostgreSQL
+    reasoning: Reliable relational database
+
+key_features:
+  - Feature one description
+  - Feature two description
+
+use_case: Ideal for building SaaS applications...
+
+pros:
+  - Advantage one
+  - Advantage two
+
+cons:
+  - Limitation one
+```
+
+### 2. Validate and Generate
+
+```bash
+make validate    # Check schema compliance
+make site        # Regenerate website with boilerplate
+```
+
+### 3. Commit
+
+```bash
+git add data/boilerplates/{category}/{name}.yml
+git commit -m "Add {Boilerplate Name}"
+git push
+```
+
 ## Deploying to GitHub Pages
 
 ### Initial Setup (One-Time)

@@ -60,4 +60,5 @@ deployment:
   - Docker
   - DigitalOcean
   - Kubernetes
+featured: true
 added_date: 2025-12-21

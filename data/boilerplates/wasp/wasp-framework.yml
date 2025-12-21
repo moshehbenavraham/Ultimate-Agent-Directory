@@ -29,4 +29,5 @@ deployment:
   - Netlify
   - Fly.io
   - Railway
+featured: true
 added_date: 2025-12-21

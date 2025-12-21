@@ -32,10 +32,10 @@ from tqdm import tqdm
 
 # Import local models for YAML parsing
 try:
-    from models import AgentEntry
+    from models import AgentEntry, BoilerplateEntry
 except ImportError:
     sys.path.insert(0, str(Path(__file__).parent))
-    from models import AgentEntry
+    from models import AgentEntry, BoilerplateEntry
 
 
 # ANSI color codes for terminal output
@@ -93,7 +93,7 @@ class RateLimiter:
 
 def extract_urls_from_yaml(file_path: Path) -> List[Tuple[str, str]]:
     """
-    Extract URLs from YAML files.
+    Extract URLs from YAML files (agents and boilerplates).
 
     Returns:
         List of (url, field_name) tuples
@@ -107,10 +107,18 @@ def extract_urls_from_yaml(file_path: Path) -> List[Tuple[str, str]]:
         if not data:
             return urls
 
-        # Check if it's an agent file or category file
-        if "url" in data:  # Agent file
+        # Determine if this is a boilerplate or agent file based on path
+        file_path_str = str(file_path)
+        is_boilerplate = "boilerplates" in file_path_str
+
+        # Check if it's an entry file (has url field) vs category file
+        if "url" in data:
             try:
-                entry = AgentEntry(**data)
+                if is_boilerplate:
+                    entry = BoilerplateEntry(**data)
+                else:
+                    entry = AgentEntry(**data)
+
                 urls.append((str(entry.url), "url"))
 
                 if entry.documentation_url:

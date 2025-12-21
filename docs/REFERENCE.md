@@ -16,7 +16,7 @@ make clean       # Remove generated files and cache
 
 ```
 data/
-├── agents/              # YAML files (source of truth)
+├── agents/              # Agent YAML files
 │   ├── open-source-frameworks/
 │   ├── no-code-platforms/
 │   ├── autonomous-agents/
@@ -27,7 +27,14 @@ data/
 │   ├── communities/
 │   ├── learning-resources/
 │   └── research-frameworks/
-└── categories/          # Category definitions
+├── boilerplates/        # Boilerplate YAML files
+│   ├── nextjs/
+│   ├── django/
+│   ├── fastapi/
+│   ├── rails/
+│   └── ... (17 ecosystems)
+├── categories/          # Agent category definitions
+└── boilerplate_categories/  # Boilerplate category definitions
 
 scripts/
 ├── models.py            # Pydantic schemas
@@ -71,6 +78,43 @@ demo_url: HttpUrl
 platform: [str]          # e.g., ["Python", "TypeScript"]
 license: str             # e.g., "MIT", "Apache-2.0"
 pricing: free|freemium|paid|enterprise
+featured: bool
+verified: bool
+added_date: date
+last_verified: date
+```
+
+### Boilerplate Entry
+
+**Required:**
+```yaml
+name: str                # 1-100 characters
+url: HttpUrl             # Valid HTTP/HTTPS URL
+description: str         # 20-2000 characters
+category: str            # Must match boilerplate category ID
+```
+
+**Optional:**
+```yaml
+type: starter|boilerplate|template|scaffold|toolkit
+tags: [str]              # Lowercase, hyphenated
+github_repo: str         # Format: "owner/repo"
+github_stars: int
+documentation_url: HttpUrl
+demo_url: HttpUrl
+platform: [str]          # e.g., ["TypeScript", "React"]
+license: str             # e.g., "MIT"
+pricing: free|freemium|paid|enterprise|open-core
+technical_stack:         # Structured tech info
+  - component: str       # e.g., "Frontend"
+    technology: str      # e.g., "Next.js"
+    reasoning: str       # Optional: why chosen
+key_features: [str]      # List of features
+use_case: str            # Ideal use case description
+pros: [str]              # Advantages
+cons: [str]              # Limitations
+community: str           # Community info (Discord, forums)
+deployment: [str]        # e.g., ["Vercel", "AWS"]
 featured: bool
 verified: bool
 added_date: date

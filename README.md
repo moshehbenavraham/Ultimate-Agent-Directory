@@ -3,7 +3,7 @@
 <div align="center">
 
 ![Total Entries](https://img.shields.io/badge/Total%20Entries-278-blue?style=for-the-badge&logo=database&logoColor=white)
-![Last Updated](https://img.shields.io/badge/Updated-November%202025-purple?style=for-the-badge&logo=calendar&logoColor=white)
+![Last Updated](https://img.shields.io/badge/Updated-December_2025-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **The most comprehensive collection of AI agent frameworks, platforms, tools, and resources**
 

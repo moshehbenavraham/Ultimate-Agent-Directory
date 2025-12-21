@@ -3,7 +3,7 @@
 <div align="center">
 
 ![Total Entries](https://img.shields.io/badge/Boilerplates-75-blue?style=for-the-badge&logo=github&logoColor=white)
-![Last Updated](https://img.shields.io/badge/Updated-December 2025-purple?style=for-the-badge&logo=calendar&logoColor=white)
+![Last Updated](https://img.shields.io/badge/Updated-December_2025-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **A curated collection of production-ready boilerplates, starter kits, and project templates organized by ecosystem.**
 

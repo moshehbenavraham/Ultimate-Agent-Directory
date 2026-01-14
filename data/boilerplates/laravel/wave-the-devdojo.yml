@@ -58,7 +58,7 @@ pros:
   - Polished UI and tons of functionality (user avatars, API tokens UI, etc.)
   - Laravel's strength in authentication and billing (via Cashier) shines
   - "Rapid setup: SaaS with logins, subscriptions, and blog by just configuring .env settings and running migrations"
-  - Active maintenance by DevDojo (founder created Wave for community)
+  - Active maintenance with frequent updates and community feedback
   - Theming ability for customizing look & feel. 1k+ forks on GitHub
 cons:
   - With so many features, learning curve is real - need to understand Laravel and Voyager admin to customize effectively
@@ -66,14 +66,11 @@ cons:
   - Voyager admin has its own patterns that not every Laravel dev likes
   - Being PHP, real-time features (notifications currently on-page only) might need Pusher or Echo setup
   - Default front-end uses Blade and jQuery for some interactions; integrating modern Vue or React requires manual work
-  - Long-term support tied to DevDojo (though it's open source, community could fork)
+  - Long-term support depends on ongoing project activity
 community: |
-  DevDojo has dedicated Wave community - forums where users ask questions,
-  share how they built on Wave. GitHub repo active with 1k+ forks. DevDojo's
-  founder Tony engages often. Many YouTube videos and tutorials on using Wave
-  (has been around for years). Wave's popularity in Laravel circles is high -
-  often recommended as starting point for new SaaS apps. Many have launched
-  startups on Wave, attesting to robustness. ---
+  Active user community with forums and GitHub discussions. Many tutorials and
+  walkthroughs are available, and the project is frequently recommended in
+  Laravel circles.
 deployment:
   - AWS
   - Docker

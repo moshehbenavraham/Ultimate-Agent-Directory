@@ -13,6 +13,7 @@ import re
 import yaml
 from jinja2 import Environment, FileSystemLoader
 from models import BoilerplateEntry, BoilerplateCategory
+from config import load_site_config
 
 
 def load_boilerplate_categories() -> list[BoilerplateCategory]:
@@ -149,6 +150,7 @@ def generate_boilerplates_readme():
     """Main function: load data, render template, write output"""
 
     print("Loading boilerplate data...")
+    site_config = load_site_config()
     categories = load_boilerplate_categories()
     boilerplates = load_boilerplates()
     entries_by_category = group_by_category(boilerplates)
@@ -191,6 +193,7 @@ def generate_boilerplates_readme():
         entries_by_category=entries_by_category,
         categories=categories,
         agent_count=agent_count,
+        site_links=site_config.links,
     )
 
     # Write

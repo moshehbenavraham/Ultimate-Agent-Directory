@@ -1,6 +1,6 @@
 # Ultimate Agent Directory - Future Roadmap
 
-> **Current work:** See `docs/plan.md`
+> **Current work:** See `docs/ongoing-projects/project-improvement-analysis.md`
 > **Completed work:** See `docs/CHANGELOG.md`
 
 ---

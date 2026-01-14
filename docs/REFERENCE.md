@@ -34,7 +34,8 @@ data/
 │   ├── rails/
 │   └── ... (17 ecosystems)
 ├── categories/          # Agent category definitions
-└── boilerplate_categories/  # Boilerplate category definitions
+├── boilerplate-categories/  # Boilerplate category definitions
+└── metadata.yml         # Site metadata and external links
 
 scripts/
 ├── models.py            # Pydantic schemas

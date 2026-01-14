@@ -11,6 +11,8 @@ Usage:
     python scripts/check_links.py --timeout 10       # Custom timeout
     python scripts/check_links.py --no-issues        # Skip GitHub issue creation
     python scripts/check_links.py --verbose          # Detailed logging
+    python scripts/check_links.py --skip-domain localhost
+    python scripts/check_links.py --skip-url https://example.com
 """
 
 import asyncio
@@ -46,6 +48,14 @@ class Colors:
     BLUE = "\033[94m"
     RESET = "\033[0m"
     BOLD = "\033[1m"
+
+
+DEFAULT_SKIP_DOMAINS = {
+    "localhost",
+    "127.0.0.1",
+    "0.0.0.0",
+    "yourdomain.com",
+}
 
 
 @dataclass
@@ -256,6 +266,17 @@ def extract_urls_from_static(file_path: Path) -> List[Tuple[str, str]]:
     return urls
 
 
+def should_skip_url(url: str, skip_domains: set[str], skip_urls: set[str]) -> bool:
+    if url in skip_urls:
+        return True
+    domain = urlparse(url).netloc.lower()
+    if not domain:
+        return False
+    if ":" in domain:
+        domain = domain.split(":", 1)[0]
+    return domain in skip_domains
+
+
 def collect_all_urls(
     yaml_only: bool = False, verbose: bool = False
 ) -> Dict[str, List[Tuple[str, str]]]:
@@ -297,7 +318,7 @@ def collect_all_urls(
     # Documentation markdown
     docs_dir = project_root / "docs"
     if docs_dir.exists():
-        md_files.extend(docs_dir.glob("*.md"))
+        md_files.extend(docs_dir.glob("**/*.md"))
 
     if verbose:
         print(f"  Scanning {len(md_files)} Markdown files...")
@@ -406,6 +427,8 @@ async def check_all_urls(
     timeout: int,
     retries: int,
     rate_limit: int,
+    skip_domains: set[str],
+    skip_urls: set[str],
     verbose: bool = False,
 ) -> List[URLCheck]:
     """
@@ -416,6 +439,8 @@ async def check_all_urls(
     """
     results = []
     rate_limiter = RateLimiter(max_per_second=rate_limit)
+    skip_domains = {domain.lower() for domain in skip_domains}
+    skip_urls = {url.strip() for url in skip_urls if url.strip()}
 
     # Flatten URL map to list of (url, file, field_name) tuples
     url_checks = []
@@ -425,12 +450,20 @@ async def check_all_urls(
 
     # Deduplicate URLs while preserving source information
     url_to_sources = defaultdict(list)
+    skipped = 0
     for url, file_path, field_name in url_checks:
+        if should_skip_url(url, skip_domains, skip_urls):
+            skipped += 1
+            if verbose:
+                print(f"  Skipping URL by rule: {url}")
+            continue
         url_to_sources[url].append((file_path, field_name))
 
     unique_urls = list(url_to_sources.keys())
 
     print(f"\n{Colors.BOLD}Checking {len(unique_urls)} unique URLs...{Colors.RESET}")
+    if skipped:
+        print(f"Skipping {skipped} URLs due to skip rules")
 
     # Create aiohttp session
     connector = aiohttp.TCPConnector(limit=100, limit_per_host=10)
@@ -516,16 +549,16 @@ def print_results(results: List[URLCheck], verbose: bool = False):
 
     print(f"\n{Colors.BOLD}=== Link Check Results ==={Colors.RESET}\n")
 
-    print(f"{Colors.GREEN}✓ Passed:{Colors.RESET} {len(success)}")
-    print(f"{Colors.YELLOW}⚠ Warnings:{Colors.RESET} {len(warnings)}")
-    print(f"{Colors.RED}✗ Failed:{Colors.RESET} {len(errors)}\n")
+    print(f"{Colors.GREEN}[OK] Passed:{Colors.RESET} {len(success)}")
+    print(f"{Colors.YELLOW}[WARN] Warnings:{Colors.RESET} {len(warnings)}")
+    print(f"{Colors.RED}[FAIL] Failed:{Colors.RESET} {len(errors)}\n")
 
     # Show errors
     if unique_errors:
         print(f"{Colors.RED}{Colors.BOLD}Failed Links:{Colors.RESET}")
         for url, result in unique_errors.items():
             sources = [r.source_file for r in errors if r.url == url]
-            print(f"  {Colors.RED}✗{Colors.RESET} {url}")
+            print(f"  {Colors.RED}[FAIL]{Colors.RESET} {url}")
             print(f"    Status: {result.status_code or 'N/A'}")
             if result.error_message:
                 print(f"    Error: {result.error_message}")
@@ -537,7 +570,7 @@ def print_results(results: List[URLCheck], verbose: bool = False):
         print(f"{Colors.YELLOW}{Colors.BOLD}Warnings:{Colors.RESET}")
         for url, result in unique_warnings.items():
             sources = [r.source_file for r in warnings if r.url == url]
-            print(f"  {Colors.YELLOW}⚠{Colors.RESET} {url}")
+            print(f"  {Colors.YELLOW}[WARN]{Colors.RESET} {url}")
             print(f"    Status: {result.status_code}")
             print(f"    Found in: {', '.join(set(sources))}")
             print()
@@ -673,15 +706,15 @@ This issue was automatically created by the link checker.
             response = requests.post(api_url, headers=headers, json=issue_data)
             if response.status_code == 201:
                 issue_url = response.json()["html_url"]
-                print(f"  {Colors.GREEN}✓{Colors.RESET} Created issue: {issue_url}")
+                print(f"  {Colors.GREEN}[OK]{Colors.RESET} Created issue: {issue_url}")
             else:
                 print(
-                    f"  {Colors.RED}✗{Colors.RESET} Failed to create issue for {url}: {response.status_code}"
+                    f"  {Colors.RED}[FAIL]{Colors.RESET} Failed to create issue for {url}: {response.status_code}"
                 )
                 if verbose:
                     print(f"    Response: {response.text}")
         except Exception as e:
-            print(f"  {Colors.RED}✗{Colors.RESET} Error creating issue for {url}: {e}")
+            print(f"  {Colors.RED}[FAIL]{Colors.RESET} Error creating issue for {url}: {e}")
 
 
 def main():
@@ -718,6 +751,20 @@ Examples:
     )
 
     parser.add_argument(
+        "--skip-domain",
+        action="append",
+        default=[],
+        help="Domain to skip (repeatable)",
+    )
+
+    parser.add_argument(
+        "--skip-url",
+        action="append",
+        default=[],
+        help="Exact URL to skip (repeatable)",
+    )
+
+    parser.add_argument(
         "--yaml-only",
         action="store_true",
         help="Check only YAML files (faster, skips docs/templates)",
@@ -750,6 +797,10 @@ Examples:
     total_urls = sum(len(urls) for urls in url_map.values())
     print(f"Found {total_urls} URLs in {len(url_map)} files")
 
+    skip_domains = set(DEFAULT_SKIP_DOMAINS)
+    skip_domains.update(args.skip_domain)
+    skip_urls = set(args.skip_url)
+
     # Check URLs
     results = asyncio.run(
         check_all_urls(
@@ -757,6 +808,8 @@ Examples:
             timeout=args.timeout,
             retries=args.retries,
             rate_limit=args.rate_limit,
+            skip_domains=skip_domains,
+            skip_urls=skip_urls,
             verbose=args.verbose,
         )
     )

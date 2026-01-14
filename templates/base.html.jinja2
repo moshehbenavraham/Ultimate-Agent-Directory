@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ metadata.tagline }}">
-    <meta name="author" content="{{ metadata.maintainer }}">
     <meta name="keywords" content="AI agents, AI frameworks, autonomous agents, LangChain, AutoGen, CrewAI, AI tools">
 
     <title>{% block title %}{{ metadata.title }}{% endblock %}</title>
@@ -32,7 +31,7 @@
                 <!-- Logo and Title -->
                 <div class="flex items-center space-x-3">
                     <a href="{{ base_url }}/" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition">
-                        🤖 {{ metadata.title }}
+                        {{ metadata.title }}
                     </a>
                 </div>
 
@@ -43,10 +42,7 @@
                     <a href="{{ base_url }}/boilerplates/index.html" class="text-gray-700 hover:text-emerald-600 transition">
                         <i class="fas fa-rocket mr-1"></i>Boilerplates
                     </a>
-                    <a href="{{ metadata.maintainer_url }}" target="_blank" class="text-gray-700 hover:text-blue-600 transition">
-                        <i class="fas fa-external-link-alt mr-1"></i>AIwithApex
-                    </a>
-                    <a href="https://github.com/moshehbenavraham/Ultimate-Agent-Directory" target="_blank" class="text-gray-700 hover:text-blue-600 transition">
+                    <a href="{{ metadata.links.github }}" target="_blank" class="text-gray-700 hover:text-blue-600 transition">
                         <i class="fab fa-github mr-1"></i>GitHub
                     </a>
                 </div>
@@ -64,8 +60,7 @@
                 <a href="{{ base_url }}/boilerplates/index.html" class="block text-gray-700 hover:text-emerald-600 transition py-2">
                     <i class="fas fa-rocket mr-1"></i>Boilerplates
                 </a>
-                <a href="{{ metadata.maintainer_url }}" target="_blank" class="block text-gray-700 hover:text-blue-600 transition py-2">AIwithApex</a>
-                <a href="https://github.com/moshehbenavraham/Ultimate-Agent-Directory" target="_blank" class="block text-gray-700 hover:text-blue-600 transition py-2">GitHub</a>
+                <a href="{{ metadata.links.github }}" target="_blank" class="block text-gray-700 hover:text-blue-600 transition py-2">GitHub</a>
             </div>
         </nav>
     </header>
@@ -78,7 +73,7 @@
     <!-- Footer -->
     <footer class="bg-gray-800 text-gray-300 mt-16">
         <div class="container mx-auto px-4 py-8">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <!-- About -->
                 <div>
                     <h3 class="text-white font-bold mb-3">About</h3>
@@ -95,30 +90,16 @@
                         <li><a href="{{ base_url }}/" class="hover:text-blue-400 transition">Home</a></li>
                         <li><a href="{{ base_url }}/#categories" class="hover:text-blue-400 transition">Browse AI Agents</a></li>
                         <li><a href="{{ base_url }}/boilerplates/index.html" class="hover:text-emerald-400 transition">Browse Boilerplates</a></li>
-                        <li><a href="https://github.com/moshehbenavraham/Ultimate-Agent-Directory/blob/main/CONTRIBUTING.md" target="_blank" class="hover:text-blue-400 transition">Contribute on GitHub</a></li>
-                        <li><a href="https://github.com/moshehbenavraham/Ultimate-Agent-Directory/issues" target="_blank" class="hover:text-blue-400 transition">Report Issues</a></li>
+                        <li><a href="{{ metadata.links.contributing }}" target="_blank" class="hover:text-blue-400 transition">Contribute on GitHub</a></li>
+                        <li><a href="{{ metadata.links.issues }}" target="_blank" class="hover:text-blue-400 transition">Report Issues</a></li>
                     </ul>
                 </div>
 
-                <!-- Contact -->
-                <div>
-                    <h3 class="text-white font-bold mb-3">Contact</h3>
-                    <p class="text-sm">Maintained by <a href="{{ metadata.maintainer_url }}" target="_blank" class="text-blue-400 hover:underline">{{ metadata.maintainer }}</a></p>
-                    <p class="text-sm mt-2">Email: <a href="mailto:max@aiwithapex.com" class="text-blue-400 hover:underline">max@aiwithapex.com</a></p>
-                    <div class="mt-4 flex space-x-4">
-                        <a href="https://github.com/moshehbenavraham" target="_blank" class="text-2xl hover:text-blue-400 transition">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="{{ metadata.maintainer_url }}" target="_blank" class="text-2xl hover:text-blue-400 transition">
-                            <i class="fas fa-globe"></i>
-                        </a>
-                    </div>
-                </div>
             </div>
 
             <!-- Copyright -->
             <div class="border-t border-gray-700 mt-8 pt-6 text-center text-sm">
-                <p>&copy; 2025 {{ metadata.maintainer }}. Licensed under MIT License.</p>
+                <p>Copyright 2025. Licensed under MIT License.</p>
                 <p class="mt-1 text-gray-400">Last updated: {{ metadata.last_generated }}</p>
             </div>
         </div>

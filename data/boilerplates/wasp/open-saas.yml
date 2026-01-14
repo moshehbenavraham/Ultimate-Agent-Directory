@@ -62,7 +62,7 @@ pros:
   - Incredibly feature-rich (covers nearly every SaaS requirement out-of-box) - saves months of dev time
   - Strong type-safety and developer experience via Wasp (auto-generates types for front/back)
   - Active development and large contributor base (50+ contributors)
-  - Backed by Wasp's growing community and Discord support
+  - Strong community and Discord support
   - Excellent docs and update mechanism to pull new template changes
 cons:
   - Highly opinionated - tied to Wasp DSL, which adds a learning curve (developers must learn Wasp syntax and conventions)
@@ -71,9 +71,7 @@ cons:
   - Requires comfort with full-stack JS and DevOps (to manage keys for Stripe, S3, etc.)
   - Wasp is newer than plain Next.js, so smaller ecosystem
 community: |
-  Very active Discord (#wasp community, 16,000+ members). GitHub discussions
-  and responsive Wasp team (YC-funded, indicating long-term support). OpenSaaS
-  has become a top-trending repo in 2025, with many users adopting it - blog
-  posts and ProductHunt discussions reference it. Maintainers regularly merge
-  contributions and release updates. Comprehensive docs at opensaas.sh.
+  Active Discord community with GitHub discussions and frequent releases. Many
+  blog posts and Product Hunt discussions reference it. Comprehensive docs at
+  opensaas.sh.
 added_date: 2025-12-21

@@ -1,9 +1,8 @@
 name: Full Stack FastAPI Template (Tiangolo)
 url: https://github.com/fastapi/full-stack-fastapi-template
 description: |
-  Maintained by the creator of FastAPI, this template defines the standard for
-  modern Python web development. One of the most popular full-stack templates
-  (40k+ stars), created by Sebastin Ramrez.
+  Popular full-stack FastAPI template (40k+ stars) that defines a standard for
+  modern Python web development.
 category: fastapi
 type: boilerplate
 tags:
@@ -38,7 +37,7 @@ use_case: |
   learning: demonstrates well-structured FastAPI project and React SPA
   integration. Many production services built on it.
 pros:
-  - Extremely well-architected by FastAPI's author - follows best practices for security (JWT auth with refresh, hashed passwords), API design, and DevOps (Dockerization)
+  - Extremely well-architected and follows best practices for security (JWT auth with refresh, hashed passwords), API design, and DevOps (Dockerization)
   - "Feature completeness: user management, CRUD patterns, tests, background tasks"
   - Popularity (40k stars) means lots of community support - Q&A on GitHub and third-party articles
   - Type hints everywhere (FastAPI's strength) with Pydantic/SQLModel for data validation
@@ -51,12 +50,9 @@ cons:
   - While JWT is flexible, some prefer session/cookie auth (requires adjustments for SSR apps)
   - Updates from template must be manually merged into your project
 community: |
-  Huge - FastAPI community uses this template extensively. Discussions on
-  whether people use it in production (many do). Issues answered by community
-  and sometimes Sebastin himself. Referenced in conference talks and tutorials.
-  Ask questions on FastAPI's Discord/Stack Overflow with high chance of answers
-  from template users. Cookiecutter has been forked and customized by many
-  (different frontends or ORMs). #### FastAPI + Other Frontends
+  Large FastAPI community with GitHub discussions and third-party tutorials.
+  Commonly used in production, with many forks and customizations. FastAPI
+  Discord and Stack Overflow are common support channels.
 deployment:
   - Vercel
   - Netlify

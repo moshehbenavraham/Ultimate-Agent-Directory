@@ -1,8 +1,8 @@
 name: Multi AI Agent Systems with crewAI
 url: https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/
 description: >
-  Free course by João Moura (CrewAI founder/CEO) covering role-playing agents,
-  memory management, tools integration, guardrails, cooperation patterns, and hands-on projects
+  Free course covering role-playing agents, memory management, tools integration,
+  guardrails, cooperation patterns, and hands-on projects.
 github_repo: null
 category: learning-resources
 added_date: '2025-11-05'

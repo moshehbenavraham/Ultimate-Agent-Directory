@@ -29,6 +29,18 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Run unit tests
+        run: |
+          pytest tests/ -v
+
+      - name: Run linter
+        run: |
+          ruff check scripts/ tests/
+
+      - name: Run type checker
+        run: |
+          mypy scripts/ --ignore-missing-imports
+
       - name: Validate all YAML files (agents + boilerplates)
         run: |
           python scripts/validate.py
@@ -61,6 +73,9 @@ jobs:
         if: success()
         run: |
           echo "All validation checks passed!"
+          echo "  - Unit tests passed"
+          echo "  - Lint checks passed"
+          echo "  - Type checks passed"
           echo "  - YAML files are valid (agents + boilerplates)"
           echo "  - README.md generation successful"
           echo "  - BOILERPLATES.md generation successful"

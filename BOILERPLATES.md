@@ -3,19 +3,17 @@
 <div align="center">
 
 ![Total Entries](https://img.shields.io/badge/Boilerplates-75-blue?style=for-the-badge&logo=github&logoColor=white)
-![Last Updated](https://img.shields.io/badge/Updated-December_2025-purple?style=for-the-badge&logo=calendar&logoColor=white)
+![Last Updated](https://img.shields.io/badge/Updated-January_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **A curated collection of production-ready boilerplates, starter kits, and project templates organized by ecosystem.**
 
-👨 **Maintained by:** [AIwithApex.com](https://aiwithapex.com)
-
-💡 **Missing something?** [Submit an issue](https://github.com/moshehbenavraham/Ultimate-Agent-Directory/issues) or [join the discussion](https://github.com/moshehbenavraham/Ultimate-Agent-Directory/discussions)!
+Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimate-Agent-Directory/issues) or [join the discussion](https://github.com/moshehbenavraham/Ultimate-Agent-Directory/discussions)!
 
 </div>
 
 ---
 
-> **Looking for AI agent frameworks and tools?** Check out our [AI Agent Directory](README.md) with 278 curated entries!
+> **Looking for AI agent frameworks and tools?** Check out our [AI Agent Directory](README.md) with 272 curated entries!
 
 ---
 
@@ -208,7 +206,7 @@
 
 | Name | Stars | License | Description |
 |------|-------|---------|-------------|
-| [**Full Stack FastAPI Template (Tiangolo)**](https://github.com/fastapi/full-stack-fastapi-template) | 40K | MIT | Maintained by the creator of FastAPI, this template defines the standard for modern Python web development. One of the most popular full-stack... |
+| [**Full Stack FastAPI Template (Tiangolo)**](https://github.com/fastapi/full-stack-fastapi-template) | 40K | MIT | Popular full-stack FastAPI template (40k+ stars) that defines a standard for modern Python web development. |
 
 <a id="django"></a>
 
@@ -218,7 +216,7 @@
 
 | Name | Stars | License | Description |
 |------|-------|---------|-------------|
-| [**Cookiecutter Django**](https://github.com/cookiecutter/cookiecutter-django) | 13.3K | BSD-3-Clause | Python community standard for Django scaffolding. The go-to Django project template, maintained by open-source community (originally by @pydanny... |
+| [**Cookiecutter Django**](https://github.com/cookiecutter/cookiecutter-django) | 13.3K | BSD-3-Clause | Python community standard for Django scaffolding. The go-to Django project template with active community maintenance and frequent updates.... |
 | [**Apptension SaaS Boilerplate**](https://github.com/apptension/saas-boilerplate) | 2.8K | MIT | Full SaaS with Django + React, used by Netflix/Uber projects. |
 | [**Django React Boilerplate (Vinta Software)**](https://github.com/vintasoftware/django-react-boilerplate) | 2.2K | MIT | Hybrid approach leveraging Django's mature backend with a modern React frontend. |
 | [**Django React Starter (Jordan-Kowal)**](https://github.com/Jordan-Kowal/django-react-starter) | 1.1K | MIT | Advanced Django + React starter with comprehensive integrations for data-heavy applications. |
@@ -378,7 +376,7 @@
 - **Total Boilerplates:** 75
 - **Ecosystems:** 9
 - **Categories:** 23
-- **Last Generated:** 2025-12-21
+- **Last Generated:** 2026-01-14
 
 ---
 

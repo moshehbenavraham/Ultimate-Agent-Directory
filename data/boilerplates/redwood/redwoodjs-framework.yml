@@ -45,7 +45,7 @@ pros:
   - GraphQL API with services provides clean separation and built-in security
   - Thriving community and detailed documentation including tutorials
   - Encourages good practices (type safety, test coverage, storybook)
-  - Founded by Tom Preston-Werner (GitHub co-founder) - well-funded and here to stay. 250+ contributors
+  - Active community and steady releases with 250+ contributors
 cons:
   - Heavyweight & opinionated - must embrace Redwood's way (file structure, GraphQL)
   - If unfamiliar with GraphQL or don't need it, may feel complex

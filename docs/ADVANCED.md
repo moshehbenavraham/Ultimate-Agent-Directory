@@ -64,10 +64,11 @@ Stack:
 
 ### Base URL Configuration
 
-Update in `scripts/generate_site.py` (line 72):
+Update in `data/metadata.yml`:
 
-```python
-base_url = "https://yourdomain.com/path"
+```yaml
+base_url: /Ultimate-Agent-Directory
+site_url: https://yourdomain.com/path
 ```
 
 ## CI/CD Workflows

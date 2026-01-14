@@ -32,17 +32,15 @@
 
 ## Documentation
 
-### Create CONTRIBUTING.md
+### Review CONTRIBUTING.md
 
 **File:** `CONTRIBUTING.md` (root level)
 
 **Tasks:**
-- [ ] Add Quick Start section (fork, clone, setup)
-- [ ] Document adding agents via YAML workflow
-- [ ] Document adding agents via GitHub Issues
-- [ ] Document adding new categories
-- [ ] List validation requirements
-- [ ] Explain PR review process
+- [ ] Verify quick start steps match Makefile
+- [ ] Confirm YAML submission steps are current
+- [ ] Validate issue-based submission flow matches templates
+- [ ] Add SCHEMA.md link when available
 
 ### Create SCHEMA.md
 

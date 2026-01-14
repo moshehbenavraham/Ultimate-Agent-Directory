@@ -46,9 +46,9 @@ cons:
   - Feature set might not be as extensive yet (no audit logs or complex role support without custom work)
   - Vue's ecosystem for SaaS-specific components is smaller than React's
 community: |
-  Listed on SaaS starters sites, author participates in Supabase and Vue
-  communities. Vue/Nuxt developers helpful on forums; Nuxt Discord or GitHub for
-  guidance. Supabase Discord has #vue channel for integration questions.
+  Listed on SaaS starter sites and discussed in Supabase and Vue communities.
+  Vue/Nuxt forums, Nuxt Discord, and GitHub are common support channels.
+  Supabase Discord has a #vue channel for integration questions.
 deployment:
   - Vercel
   - Netlify

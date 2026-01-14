@@ -18,7 +18,7 @@ YAML Data (data/)
        +---> data/agents/         (278 AI agent entries)
        +---> data/boilerplates/   (100+ boilerplate entries)
        +---> data/categories/     (10 agent categories)
-       +---> data/boilerplate_categories/ (17 ecosystems)
+       +---> data/boilerplate-categories/ (17 ecosystems)
        |
        v
 Schema Validation (Pydantic)
@@ -44,7 +44,7 @@ Template Rendering (Jinja2)
             |                              |
             v                              v
 +------------------------+     +---------------------------+
-|    data/categories/    |     | data/boilerplate_categories/ |
+|    data/categories/    |     | data/boilerplate-categories/ |
 |  10 agent categories   |     |  17 ecosystem categories  |
 +------------------------+     +---------------------------+
             |                              |
@@ -85,7 +85,7 @@ Template Rendering (Jinja2)
 - `data/agents/{category}/*.yml` - AI agent/tool entries (278 files)
 - `data/categories/*.yml` - Agent category definitions (10 files)
 - `data/boilerplates/{ecosystem}/*.yml` - Boilerplate entries (100+ files)
-- `data/boilerplate_categories/*.yml` - Boilerplate categories (17 ecosystems)
+- `data/boilerplate-categories/*.yml` - Boilerplate categories (17 ecosystems)
 
 **Validation:** Pydantic models in `scripts/models.py` enforce schema compliance
 
@@ -175,7 +175,7 @@ Ultimate-Agent-Directory/
 |   |   +-- fastapi/
 |   |   +-- rails/
 |   |   +-- ... (17 ecosystems)
-|   +-- boilerplate_categories/ # 17 boilerplate category definitions
+|   +-- boilerplate-categories/ # 17 boilerplate category definitions
 |
 +-- scripts/                    # Python automation
 |   +-- models.py               # Pydantic schemas

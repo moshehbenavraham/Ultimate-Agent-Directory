@@ -20,6 +20,7 @@ from models import (
     BoilerplateEntry,
     BoilerplateCategory,
 )
+from config import load_site_config
 
 
 def load_categories() -> list[Category]:
@@ -173,9 +174,10 @@ def generate_sitemap(
     categories: list[Category],
     boilerplate_categories: list[BoilerplateCategory],
     output_dir: Path,
+    site_url: str,
 ):
     """Generate sitemap.xml for SEO"""
-    base_url = "https://aiwithapex.github.io/Ultimate-Agent-Directory"
+    base_url = str(site_url).rstrip("/")
     today = date.today().isoformat()
 
     sitemap = ['<?xml version="1.0" encoding="UTF-8"?>']
@@ -221,7 +223,7 @@ def generate_sitemap(
 
     sitemap_path = output_dir / "sitemap.xml"
     sitemap_path.write_text("\n".join(sitemap))
-    print(f"✓ Generated {sitemap_path}")
+    print(f"[OK] Generated {sitemap_path}")
 
 
 def create_boilerplate_search_index(
@@ -268,7 +270,7 @@ def copy_static_assets(output_dir: Path):
         shutil.rmtree(static_dst)
 
     shutil.copytree(static_src, static_dst)
-    print(f"✓ Copied static assets to {static_dst}")
+    print(f"[OK] Copied static assets to {static_dst}")
 
 
 def generate_site():
@@ -284,6 +286,7 @@ def generate_site():
 
     # Load AI agents data
     print("\nLoading data...")
+    site_config = load_site_config()
     categories = load_categories()
     agents = load_agents()
     entries_by_category = group_by_category(agents)
@@ -303,10 +306,16 @@ def generate_site():
     print(f"  Loaded {len(boilerplates)} boilerplates")
 
     # Build metadata
-    metadata = DirectoryMetadata(total_entries=len(agents), last_generated=date.today())
+    metadata = DirectoryMetadata(
+        title=site_config.title,
+        tagline=site_config.tagline,
+        total_entries=len(agents),
+        last_generated=date.today(),
+        links=site_config.links,
+    )
 
     # Base URL for GitHub Pages (repo name)
-    base_url = "/Ultimate-Agent-Directory"
+    base_url = site_config.base_url
 
     # Setup Jinja2 environment
     env = Environment(
@@ -407,7 +416,7 @@ def generate_site():
 
     # Generate sitemap (includes both agents and boilerplates)
     print("\nGenerating sitemap...")
-    generate_sitemap(categories, boilerplate_categories, output_dir)
+    generate_sitemap(categories, boilerplate_categories, output_dir, site_config.site_url)
 
     # Generate stats file
     stats = {

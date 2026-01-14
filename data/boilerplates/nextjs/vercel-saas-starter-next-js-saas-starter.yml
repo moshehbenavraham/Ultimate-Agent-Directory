@@ -39,9 +39,8 @@ cons:
   - Uses Drizzle instead of Prisma
   - Stripe integration is basic (checkout + webhook) - no subscription management UI
 community: |
-  Maintained by Vercel team with prompt issue responses. Active discussions on
-  Reddit (r/nextjs). No dedicated Discord, but Next.js community and GitHub
-  serve as support channels.
+  Active discussions on Reddit (r/nextjs) and GitHub. No dedicated Discord, but
+  Next.js community channels serve as support.
 deployment:
   - Vercel
   - Docker

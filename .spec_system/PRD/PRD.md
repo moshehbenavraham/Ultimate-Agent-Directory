@@ -293,6 +293,24 @@ class BoilerplateCategory(BaseModel):
 | Phase | Name | Sessions | Status |
 |-------|------|----------|--------|
 | 00 | Feature Addition | 6 | Complete |
+| 01 | Quality and Foundation Improvements | 6 | Not Started |
+
+## Phase 01: Quality and Foundation Improvements (Not Started)
+
+Addresses P0/P1 quality issues identified in the project improvement analysis:
+
+| Session | Name | Priority | Est. Tasks |
+|---------|------|----------|------------|
+| 01 | Validation CLI and Cross-File Checks | P0 | ~15-20 |
+| 02 | Search and UX Fixes | P0 | ~12-18 |
+| 03 | Rules Compliance and Templates | P0 | ~12-15 |
+| 04 | Documentation Drift Fixes | P1 | ~10-15 |
+| 05 | Central Configuration | P1 | ~12-18 |
+| 06 | CI Quality Gates and Testing | P1 | ~15-20 |
+
+See `.spec_system/PRD/phase_01/` for detailed session specifications.
+
+---
 
 ## Phase 00: Feature Addition (Complete)
 

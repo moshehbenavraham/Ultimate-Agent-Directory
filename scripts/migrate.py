@@ -19,7 +19,7 @@ def parse_markdown_table(content: str) -> list[dict]:
     Extract entries from a markdown table
 
     Expected format:
-    | **Name** | [🔗 Link](url) | Description |
+    | **Name** | [Link](url) | Description |
     """
     entries = []
 
@@ -132,7 +132,7 @@ def save_yaml_file(entry_data: dict, category: str, dry_run: bool = False):
             entry_data, f, default_flow_style=False, sort_keys=False, allow_unicode=True
         )
 
-    print(f"  ✓ Created {filepath}")
+    print(f"  [OK] Created {filepath}")
 
 
 def migrate_section(
@@ -162,7 +162,7 @@ def migrate_section(
     for entry in entries:
         save_yaml_file(entry, category_id, dry_run)
 
-    print(f"\n✓ Migrated {len(entries)} entries from '{section_title}'")
+    print(f"\n[OK] Migrated {len(entries)} entries from '{section_title}'")
 
 
 def main():
@@ -185,16 +185,16 @@ def main():
     if args.all:
         # Define all sections to migrate
         migrations = [
-            ("🔧 Open-Source Agent Frameworks", "open-source-frameworks"),
-            ("🎨 No-Code/Low-Code Agent Platforms", "no-code-platforms"),
-            ("🔬 Research-Focused Frameworks", "research-frameworks"),
-            ("📚 Learning Resources and Courses", "learning-resources"),
-            ("👥 GitHub Repositories and Communities", "communities"),
-            ("⚡ Specialized AI Agent Tools", "specialized-tools"),
-            ("🚀 Autonomous Agents", "autonomous-agents"),
-            ("🌐 Browser Automation Agents", "browser-automation"),
-            ("💻 Coding Assistant Agents", "coding-assistants"),
-            ("🏢 Enterprise Agent Platforms", "enterprise-platforms"),
+            ("Open-Source Agent Frameworks", "open-source-frameworks"),
+            ("No-Code/Low-Code Agent Platforms", "no-code-platforms"),
+            ("Research-Focused Frameworks", "research-frameworks"),
+            ("Learning Resources and Courses", "learning-resources"),
+            ("GitHub Repositories and Communities", "communities"),
+            ("Specialized AI Agent Tools", "specialized-tools"),
+            ("Autonomous Agents", "autonomous-agents"),
+            ("Browser Automation Agents", "browser-automation"),
+            ("Coding Assistant Agents", "coding-assistants"),
+            ("Enterprise Agent Platforms", "enterprise-platforms"),
         ]
 
         for section, category in migrations:
@@ -207,7 +207,7 @@ def main():
         parser.print_help()
         print("\nExample usage:")
         print(
-            "  python scripts/migrate.py --section '🛠️ Open-Source Agent Frameworks' --category open-source-frameworks"
+            "  python scripts/migrate.py --section 'Open-Source Agent Frameworks' --category open-source-frameworks"
         )
         print("  python scripts/migrate.py --all --dry-run")
 

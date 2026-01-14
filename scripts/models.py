@@ -108,7 +108,7 @@ class Category(BaseModel):
 
     title: str = Field(description="Display title")
 
-    emoji: str = Field(default="📦", description="Emoji for visual identification")
+    emoji: str = Field(default="[]", description="Category marker for display")
 
     description: str = Field(
         min_length=10, max_length=500, description="Category description"
@@ -134,13 +134,36 @@ class Category(BaseModel):
         extra = "forbid"
 
 
+class SiteLinks(BaseModel):
+    """External links used across templates"""
+
+    github: HttpUrl
+    issues: HttpUrl
+    discussions: HttpUrl
+    contributing: HttpUrl
+    suggest: HttpUrl
+
+
+class SiteConfig(BaseModel):
+    """Site-level configuration loaded from data/metadata.yml"""
+
+    title: str = "Ultimate AI Agent Directory 2025"
+    tagline: str = (
+        "The most comprehensive collection of AI agent frameworks, platforms, tools, and resources"
+    )
+    base_url: str = "/Ultimate-Agent-Directory"
+    site_url: HttpUrl = "https://aiwithapex.github.io/Ultimate-Agent-Directory"
+    links: SiteLinks
+
+    class Config:
+        extra = "forbid"
+
+
 class DirectoryMetadata(BaseModel):
     """Overall directory metadata"""
 
     title: str = "Ultimate AI Agent Directory 2025"
     tagline: str = "The most comprehensive collection of AI agent frameworks, platforms, tools, and resources"
-    maintainer: str = "AIwithApex.com"
-    maintainer_url: str = "https://AIwithApex.com"
 
     last_generated: date = Field(
         default_factory=date.today, description="When README/website was last generated"
@@ -149,6 +172,7 @@ class DirectoryMetadata(BaseModel):
     total_entries: int = 0
 
     badges: dict = Field(default_factory=dict, description="Badge counts by type")
+    links: Optional[SiteLinks] = None
 
 
 # ===== BOILERPLATE MODELS =====
@@ -306,7 +330,7 @@ class BoilerplateCategory(BaseModel):
 
     title: str = Field(description="Display title")
 
-    emoji: str = Field(default="📦", description="Emoji for visual identification")
+    emoji: str = Field(default="[]", description="Category marker for display")
 
     description: str = Field(
         min_length=10, max_length=500, description="Category description"

@@ -34,11 +34,11 @@ install:
 
 validate-agents:
 	@echo "Validating agent YAML files..."
-	$(PYTHON) scripts/validate.py
+	$(PYTHON) scripts/validate.py --agents --categories
 
 validate-boilerplates:
 	@echo "Validating boilerplate YAML files..."
-	$(PYTHON) scripts/validate.py
+	$(PYTHON) scripts/validate.py --boilerplates --boilerplate-categories
 
 validate: validate-agents validate-boilerplates
 	@echo "All validation passed!"

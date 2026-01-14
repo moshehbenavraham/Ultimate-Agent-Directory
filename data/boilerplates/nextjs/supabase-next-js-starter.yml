@@ -35,10 +35,10 @@ use_case: |
   acceptable.
 pros:
   - Very developer-friendly - using Supabase means a lot of functionality (auth, DB, storage) is ready out-of-the-box with nice UI (Supabase Studio) to manage data
-  - Praised for high code quality ("highest quality SaaS starter with Next.js, Supabase, Stripe..." per author)
+  - Praised for high code quality and a polished SaaS feature set
   - "Good use of modern libraries: tRPC for type-safe API, Tailwind + Radix UI for sleek design"
   - Fairly lightweight - no custom server components beyond Next API routes for Stripe webhooks
-  - "Community-supported: Supabase community references this starter, author engages on Reddit/GitHub"
+  - Community-supported with active discussions on Reddit and GitHub
 cons:
   - Ties you to Supabase - while Supabase is open source, moving off it (to self-host Postgres) requires effort
   - Must be comfortable with Supabase Auth constraints (magic link flows, etc.)
@@ -46,12 +46,8 @@ cons:
   - Smaller community (hundreds of stars, not thousands yet), though growing
   - Supabase is evolving, so keep template updated with any Supabase API changes
 community: |
-  Gained attention through Reddit post ("couldn't find a clean
-  Next+Supabase+Stripe starter so I made one"). Has attracted contributors and
-  is listed on Supabase's community resources. Issues get responses from
-  maintainer. No dedicated Discord, but discussed in Supabase forums and Next.js
-  subreddit. Part of trend of Supabase-based starters. #### Enterprise & B2B
-  Focused
+  Discussed on Reddit, Supabase forums, and Next.js subreddits. Listed in
+  Supabase community resources. No dedicated Discord.
 deployment:
   - Vercel
   - Supabase

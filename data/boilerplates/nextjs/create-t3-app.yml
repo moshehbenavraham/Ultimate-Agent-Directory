@@ -38,7 +38,7 @@ key_features:
   - Interactive CLI for modular component selection
   - Full type-safety end-to-end with tRPC
   - Largest community with best documentation (create.t3.gg)
-  - 378+ contributors, created by Theo (t3dotgg)
+  - Large contributor base (378+ contributors)
 use_case: |
   Perfect for those who want a solid foundation without extra cruft. If you
   value developer experience and type safety, T3 is ideal - many indie SaaS
@@ -50,7 +50,7 @@ pros:
   - Extremely popular & well-supported with huge Discord community
   - The type-safe end-to-end approach means fewer runtime errors
   - Very flexible - you opt into only what you need (can exclude NextAuth or Prisma)
-  - Maintainers keep it updated promptly with new Next.js and library versions
+  - Regular updates with new Next.js and library versions
 cons:
   - No payments/email built-in, requires manual SaaS feature additions
   - Focuses on dev-stack rather than features
@@ -58,11 +58,9 @@ cons:
   - Because it's minimal, you'll spend time adding UI components
   - Not a turnkey SaaS solution, but a high-quality starting scaffold
 community: |
-  Active Discord (~30k members), weekly community calls, many contributors. "T3
-  Axiom" and other forks extend it. Lots of content (blogs, YouTube) about
-  building with T3. If you run into an issue, chances are someone in the
-  community has encountered it. The T3 team values best practices with constant
-  improvements (e.g., adopting new Next.js app directory features quickly).
-  Created by Theo (t3dotgg).
+  Active Discord (~30k members), weekly community calls, and many contributors.
+  Lots of content (blogs, YouTube) about building with T3, plus community
+  support for common issues. Regular improvements keep pace with new Next.js
+  app directory features.
 featured: true
 added_date: 2025-12-21

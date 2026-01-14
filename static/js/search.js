@@ -82,7 +82,11 @@ function displaySearchResults(results, query) {
             </div>
         `;
     } else {
-        const html = results.map(result => `
+        const html = results.map(result => {
+            const categoryPath = result.is_boilerplate
+                ? `${window.BASE_URL || ''}/boilerplates/${result.category}/index.html`
+                : `${window.BASE_URL || ''}/categories/${result.category}.html`;
+            return `
             <div class="border-b border-gray-200 last:border-0 py-3">
                 <div class="flex items-start justify-between gap-4">
                     <div class="flex-grow">
@@ -100,12 +104,13 @@ function displaySearchResults(results, query) {
                             ${result.github_stars ? `<span class="bg-yellow-100 text-yellow-700 px-2 py-1 rounded"><i class="fas fa-star mr-1"></i>${result.github_stars}</span>` : ''}
                         </div>
                     </div>
-                    <a href="${window.BASE_URL || ''}/categories/${result.category}.html" class="text-blue-600 hover:underline text-sm whitespace-nowrap">
+                    <a href="${categoryPath}" class="text-blue-600 hover:underline text-sm whitespace-nowrap">
                         View Category <i class="fas fa-arrow-right ml-1"></i>
                     </a>
                 </div>
             </div>
-        `).join('');
+        `;
+        }).join('');
 
         resultsContainer.innerHTML = `
             <div class="mb-3 text-sm text-gray-600">

@@ -12,6 +12,7 @@ from datetime import date
 import yaml
 from jinja2 import Environment, FileSystemLoader
 from models import AgentEntry, Category, DirectoryMetadata
+from config import load_site_config
 
 
 def load_categories() -> list[Category]:
@@ -63,6 +64,7 @@ def generate_readme():
     """Generate README.md from templates and data"""
 
     print("Loading data...")
+    site_config = load_site_config()
     categories = load_categories()
     agents = load_agents()
     entries_by_category = group_by_category(agents)
@@ -72,7 +74,13 @@ def generate_readme():
     print(f"Found {boilerplate_count} boilerplates for cross-reference")
 
     # Build metadata
-    metadata = DirectoryMetadata(total_entries=len(agents), last_generated=date.today())
+    metadata = DirectoryMetadata(
+        title=site_config.title,
+        tagline=site_config.tagline,
+        total_entries=len(agents),
+        last_generated=date.today(),
+        links=site_config.links,
+    )
 
     # Load template
     env = Environment(
@@ -93,7 +101,7 @@ def generate_readme():
     readme_path = Path("README.md")
     readme_path.write_text(output)
 
-    print(f"✓ Generated {readme_path} with {len(agents)} entries")
+    print(f"[OK] Generated {readme_path} with {len(agents)} entries")
 
 
 if __name__ == "__main__":

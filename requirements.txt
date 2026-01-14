@@ -11,3 +11,6 @@ tqdm>=4.66.0           # Progress bars for link checker
 
 # Development/Testing
 pytest>=8.0.0          # Test framework
+ruff>=0.14.11          # Linter
+mypy>=1.19.1           # Type checker
+pytest-cov>=4.0.0      # Coverage reporting

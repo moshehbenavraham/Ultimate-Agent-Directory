@@ -47,8 +47,7 @@ pros:
 cons:
   - Bun runtime requirement, Cloudflare-specific deployment
 community: |
-  Discord ([discord.gg/2nKEnKq](https://discord.gg/2nKEnKq)), maintained by
-  Konstantin Tarkus with 10+ contributors.
+  Discord community: [discord.gg/2nKEnKq](https://discord.gg/2nKEnKq).
 deployment:
   - Cloudflare
 added_date: 2025-12-21

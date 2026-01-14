@@ -1,4 +1,4 @@
-# 🚀 {{ metadata.title }}
+# {{ metadata.title }}
 
 <div align="center">
 
@@ -7,28 +7,26 @@
 
 **{{ metadata.tagline }}**
 
-👨 **Maintained by:** [{{ metadata.maintainer }}]({{ metadata.maintainer_url }})
-
-💡 **Missing something?** [Submit an issue](https://github.com/moshehbenavraham/Ultimate-Agent-Directory/issues) or [join the discussion](https://github.com/moshehbenavraham/Ultimate-Agent-Directory/discussions)!
+Missing something? [Submit an issue]({{ metadata.links.issues }}) or [join the discussion]({{ metadata.links.discussions }})!
 
 </div>
 
 ---
 
-> **Looking for full-stack boilerplates and starter kits?** Check out our [Full-Stack Boilerplate Directory](BOILERPLATES.md) with {{ boilerplate_count }} production-ready templates!
+> Looking for full-stack boilerplates and starter kits? Check out our [Full-Stack Boilerplate Directory](BOILERPLATES.md) with {{ boilerplate_count }} production-ready templates!
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 {% for category in categories %}
-{{ loop.index }}. [{{ category.emoji }} {{ category.title }}](#{{ category.id }})
+{{ loop.index }}. [{% if category.emoji %}{{ category.emoji }} {% endif %}{{ category.title }}](#{{ category.id }})
 {% endfor %}
 
 ---
 
 {% for category in categories %}
-## {{ category.emoji }} {{ category.title }}
+## {% if category.emoji %}{{ category.emoji }} {% endif %}{{ category.title }}
 
 > {{ category.description }}
 
@@ -57,7 +55,7 @@
 | Framework | Repository | Description |
 |-----------|------------|-------------|
     {% for entry in subcat_entries %}
-| **{{ entry.name }}** | [🔗 {{ 'GitHub' if entry.github_repo else 'Link' }}]({{ entry.url }}) | {{ entry.description }}{% if entry.github_stars %} ![Stars](https://img.shields.io/badge/⭐-{{ entry.github_stars | replace(',', '') }}-yellow){% endif %} |
+| **{{ entry.name }}** | [{{ 'GitHub' if entry.github_repo else 'Link' }}]({{ entry.url }}) | {{ entry.description }}{% if entry.github_stars %} ![Stars](https://img.shields.io/badge/stars-{{ entry.github_stars | replace(',', '') }}-yellow){% endif %} |
     {% endfor %}
 
   {% endfor %}
@@ -66,7 +64,7 @@
 | Framework | Repository | Description |
 |-----------|------------|-------------|
   {% for entry in cat_entries %}
-| **{{ entry.name }}** | [🔗 {{ 'GitHub' if entry.github_repo else 'Link' }}]({{ entry.url }}) | {{ entry.description }}{% if entry.github_stars %} ![Stars](https://img.shields.io/badge/⭐-{{ entry.github_stars | replace(',', '') }}-yellow){% endif %} |
+| **{{ entry.name }}** | [{{ 'GitHub' if entry.github_repo else 'Link' }}]({{ entry.url }}) | {{ entry.description }}{% if entry.github_stars %} ![Stars](https://img.shields.io/badge/stars-{{ entry.github_stars | replace(',', '') }}-yellow){% endif %} |
   {% endfor %}
 {% endif %}
 
@@ -78,7 +76,7 @@
 
 {% endfor %}
 
-## 📊 Statistics
+## Statistics
 
 - **Total Entries:** {{ metadata.total_entries }}
 - **Categories:** {{ categories | length }}
@@ -86,16 +84,16 @@
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ---
 
-## 📄 License
+## License
 
-MIT License - Copyright (c) 2025 Mosheh Ben Avraham
+MIT License
 
 ---
 
-**ℹ️ Note:** This README is auto-generated from structured data. Do not edit directly. Edit YAML files in `data/` instead.
+**Note:** This README is auto-generated from structured data. Do not edit directly. Edit YAML files in `data/` instead.

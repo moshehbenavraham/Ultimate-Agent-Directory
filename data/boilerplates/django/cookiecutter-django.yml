@@ -2,7 +2,7 @@ name: Cookiecutter Django
 url: https://github.com/cookiecutter/cookiecutter-django
 description: |
   Python community standard for Django scaffolding. The go-to Django project
-  template, maintained by open-source community (originally by @pydanny et al.).
+  template with active community maintenance and frequent updates.
   Long-standing project updated frequently for new Django versions.
 category: django
 type: boilerplate
@@ -48,12 +48,9 @@ cons:
   - Docker usage might be overkill for simple projects (but can disable it)
   - One-time project generator - won't easily pull in upstream updates, maintain your project as Django evolves
 community: |
-  Very active. GitHub repo issue tracker is lively with support requests and
-  discussions. Discord for Django where cookiecutter-django often comes up. Many
-  contributors (250+). Well-known tool with many blogs and StackOverflow
-  answers. Maintainers fundraise via OpenCollective to sustain development.
-  Community keeps it up-to-date with Docker and CI enhancements. Maintained by
-  pydanny (Two Scoops of Django author).
+  Very active issue tracker with support requests and discussions. Frequently
+  referenced in Django communities, with many blogs and StackOverflow answers.
+  Community keeps it up-to-date with Docker and CI enhancements.
 deployment:
   - AWS
   - Heroku

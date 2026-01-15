@@ -68,41 +68,41 @@ The boilerplate collection exists as unstructured markdown with no:
 
 ```
 data/
-├── agents/                      # EXISTING: AI agent entries (277 files)
-│   ├── open-source-frameworks/
-│   ├── autonomous-agents/
-│   └── ...
-├── categories/                  # EXISTING: AI agent categories (10 files)
-│   └── ...
-├── boilerplates/                # NEW: Boilerplate entries (~100 files)
-│   ├── nextjs/
-│   ├── remix/
-│   ├── django/
-│   ├── fastapi/
-│   ├── laravel/
-│   ├── rails/
-│   ├── go/
-│   ├── rust/
-│   ├── dotnet/
-│   ├── phoenix/
-│   ├── mobile/
-│   └── enterprise/
-└── boilerplate-categories/      # NEW: Boilerplate category definitions
-    └── ...
+|-- agents/                      # EXISTING: AI agent entries (277 files)
+|   |-- open-source-frameworks/
+|   |-- autonomous-agents/
+|   `-- ...
+|-- categories/                  # EXISTING: AI agent categories (10 files)
+|   `-- ...
+|-- boilerplates/                # NEW: Boilerplate entries (~100 files)
+|   |-- nextjs/
+|   |-- remix/
+|   |-- django/
+|   |-- fastapi/
+|   |-- laravel/
+|   |-- rails/
+|   |-- go/
+|   |-- rust/
+|   |-- dotnet/
+|   |-- phoenix/
+|   |-- mobile/
+|   `-- enterprise/
+`-- boilerplate-categories/      # NEW: Boilerplate category definitions
+    `-- ...
 
 scripts/
-├── models.py                    # EXTEND: Add BoilerplateEntry model
-├── validate.py                  # EXTEND: Add boilerplate validation
-├── generate_readme.py           # EXISTING: AI agents README
-├── generate_boilerplates.py     # NEW: Boilerplate README generator
-├── generate_site.py             # EXTEND: Add boilerplate pages
-└── migrate_boilerplates.py      # NEW: Markdown to YAML migration
+|-- models.py                    # EXTEND: Add BoilerplateEntry model
+|-- validate.py                  # EXTEND: Add boilerplate validation
+|-- generate_readme.py           # EXISTING: AI agents README
+|-- generate_boilerplates.py     # NEW: Boilerplate README generator
+|-- generate_site.py             # EXTEND: Add boilerplate pages
+`-- migrate_boilerplates.py      # NEW: Markdown to YAML migration
 
 templates/
-├── readme.jinja2                # EXISTING: AI agents README template
-├── boilerplates_readme.jinja2   # NEW: Boilerplate README template
-├── boilerplate_category.html.jinja2  # NEW: Website category page
-└── ...
+|-- readme.jinja2                # EXISTING: AI agents README template
+|-- boilerplates_readme.jinja2   # NEW: Boilerplate README template
+|-- boilerplate_category.html.jinja2  # NEW: Website category page
+`-- ...
 ```
 
 ### Data Model Design
@@ -252,7 +252,7 @@ class BoilerplateCategory(BaseModel):
     )
 
     emoji: str = Field(
-        default="📦",
+        default="[]",
         description="Category emoji"
     )
 

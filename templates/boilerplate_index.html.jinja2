@@ -35,22 +35,6 @@
     </div>
 </section>
 
-<!-- Search Section -->
-<section class="mb-12">
-    <div class="max-w-2xl mx-auto">
-        <div class="relative">
-            <input type="text"
-                   id="boilerplate-search"
-                   placeholder="Search boilerplates..."
-                   class="w-full px-6 py-4 rounded-lg border-2 border-gray-200 focus:border-emerald-500 focus:outline-none text-lg shadow-sm">
-            <i class="fas fa-search absolute right-6 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
-        </div>
-        <p class="text-center text-sm text-gray-500 mt-2">
-            Search by name, description, or technology
-        </p>
-    </div>
-</section>
-
 <!-- Featured Boilerplates -->
 {% set featured_boilerplates = [] %}
 {% for cat_id, bps in boilerplates_by_category.items() %}
@@ -207,6 +191,3 @@
 
 {% endblock %}
 
-{% block extra_scripts %}
-<script src="{{ base_url }}/static/js/boilerplate.js"></script>
-{% endblock %}

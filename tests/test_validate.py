@@ -29,10 +29,12 @@ from validate import (
     build_include_map,
     check_category_references,
     check_duplicates,
+    check_tag_registry,
     collect_files,
     get_file_kind,
     is_yaml_file,
     load_category_ids,
+    load_tag_registry,
     load_yaml_data,
     normalize_url,
     validate_yaml_file,
@@ -1129,3 +1131,50 @@ class TestNormalizeUrlAdditional:
         """URLs without path work correctly."""
         result = normalize_url("https://example.com")
         assert result == "https://example.com"
+
+
+class TestTagRegistry:
+    """Tests for tag registry helpers."""
+
+    def test_load_tag_registry_valid(self, tmp_path: Path) -> None:
+        """Valid tag registry loads tags without errors."""
+        data_dir = tmp_path / "data"
+        data_dir.mkdir()
+        create_yaml_file(
+            data_dir / "tags.yml",
+            {"tags": ["alpha", "beta", "gamma"]},
+        )
+
+        tag_registry, errors = load_tag_registry(data_dir)
+
+        assert errors == []
+        assert tag_registry == {"alpha", "beta", "gamma"}
+
+    def test_load_tag_registry_invalid_tags(self, tmp_path: Path) -> None:
+        """Invalid tags are reported."""
+        data_dir = tmp_path / "data"
+        data_dir.mkdir()
+        create_yaml_file(
+            data_dir / "tags.yml",
+            {"tags": ["alpha", "Bad Tag", "beta"]},
+        )
+
+        tag_registry, errors = load_tag_registry(data_dir)
+
+        assert tag_registry == {"alpha", "beta"}
+        assert len(errors) == 1
+        assert "Invalid tag values" in errors[0]
+
+    def test_check_tag_registry_unknown_tag(self, tmp_path: Path) -> None:
+        """Unknown tags in entries produce errors."""
+        entries = [
+            ValidatedEntry(
+                filepath=tmp_path / "entry.yml",
+                data={"tags": ["alpha", "delta"]},
+                kind="agent",
+            )
+        ]
+        errors = check_tag_registry(entries, {"alpha", "beta"})
+
+        assert len(errors) == 1
+        assert "Unknown tag" in errors[0]

@@ -146,6 +146,38 @@ def get_ecosystem_order() -> list[str]:
     ]
 
 
+def render_boilerplates_readme(
+    total_entries: int,
+    last_generated: date,
+    ecosystems: list[str],
+    categories_by_ecosystem: dict[str, list[BoilerplateCategory]],
+    entries_by_category: dict[str, list[BoilerplateEntry]],
+    categories: list[BoilerplateCategory],
+    agent_count: int,
+    site_links,
+) -> str:
+    """Render BOILERPLATES.md content from template and data."""
+    env = Environment(
+        loader=FileSystemLoader("templates"), trim_blocks=True, lstrip_blocks=True
+    )
+
+    env.filters["format_stars"] = format_stars
+    env.filters["slugify"] = slugify
+    env.filters["truncate_desc"] = truncate_description
+
+    template = env.get_template("boilerplates_readme.jinja2")
+    return template.render(
+        total_entries=total_entries,
+        last_generated=last_generated,
+        ecosystems=ecosystems,
+        categories_by_ecosystem=categories_by_ecosystem,
+        entries_by_category=entries_by_category,
+        categories=categories,
+        agent_count=agent_count,
+        site_links=site_links,
+    )
+
+
 def generate_boilerplates_readme():
     """Main function: load data, render template, write output"""
 
@@ -171,21 +203,9 @@ def generate_boilerplates_readme():
         if eco not in ordered_ecosystems:
             ordered_ecosystems.append(eco)
 
-    # Load template
-    env = Environment(
-        loader=FileSystemLoader("templates"), trim_blocks=True, lstrip_blocks=True
-    )
-
-    # Register custom filters
-    env.filters["format_stars"] = format_stars
-    env.filters["slugify"] = slugify
-    env.filters["truncate_desc"] = truncate_description
-
-    template = env.get_template("boilerplates_readme.jinja2")
-
     # Render
     print("Rendering BOILERPLATES.md...")
-    output = template.render(
+    output = render_boilerplates_readme(
         total_entries=len(boilerplates),
         last_generated=date.today(),
         ecosystems=ordered_ecosystems,

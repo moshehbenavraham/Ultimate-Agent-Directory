@@ -9,6 +9,28 @@ See Previous Changelogs for More Details: `docs/previous_changelogs/`
 
 ---
 
+## [2.1.0] - 2026-01-15
+
+### Added
+- GitHub metadata refresh workflow for automated star counts and update dates
+- `update_github_metadata.py` script to sync repository statistics
+- Centralized `tags.yml` file for tag management across the directory
+- Shared `filter-utils.js` module for frontend filtering code reuse
+- New tests for generators and improved model/validation test coverage
+
+### Changed
+- Enhanced tag validation with uniqueness checks and pattern enforcement
+- Refactored category and boilerplate JavaScript for better maintainability
+- Improved search functionality with token-based matching
+- Updated documentation (REFERENCE.md, ARCHITECTURE.md, ADVANCED.md)
+
+### Technical
+- Added scheduled GitHub Actions workflow (weekly metadata refresh)
+- Centralized tag validation logic in `models.py`
+- Improved test coverage for URL extraction and model validation
+
+---
+
 ## [2.0.0] - 2025-12-21
 
 ### Added
@@ -50,5 +72,6 @@ See Previous Changelogs for More Details: `docs/previous_changelogs/`
 
 | Version | Release Date | Key Features |
 |---------|--------------|--------------|
+| **2.1.0** | 2026-01-15 | GitHub metadata automation, enhanced validation |
 | **2.0.0** | 2025-12-21 | Full-stack boilerplate directory integration |
 | **1.0.0** | 2025-11-05 | Initial YAML architecture and AI agent directory |

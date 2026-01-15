@@ -3,9 +3,37 @@ Pydantic models for Ultimate Agent Directory
 Provides type-safe validation for all agent entries and categories
 """
 
+import re
 from pydantic import BaseModel, HttpUrl, Field, field_validator
 from typing import List, Optional, Literal
 from datetime import date
+
+
+TAG_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
+
+
+def validate_tags(tags: list[str]) -> list[str]:
+    normalized_tags: list[str] = []
+    seen: set[str] = set()
+
+    for tag in tags:
+        if not isinstance(tag, str):
+            raise ValueError("tags must be strings")
+        normalized = tag.strip().lower().replace(" ", "-")
+        if tag != normalized:
+            raise ValueError(
+                f"Tag '{tag}' must be lowercase and hyphenated (ex: '{normalized}')"
+            )
+        if not TAG_PATTERN.match(tag):
+            raise ValueError(
+                f"Tag '{tag}' must match pattern {TAG_PATTERN.pattern}"
+            )
+        if tag in seen:
+            raise ValueError(f"Duplicate tag '{tag}' is not allowed")
+        normalized_tags.append(tag)
+        seen.add(tag)
+
+    return normalized_tags
 
 
 class AgentEntry(BaseModel):
@@ -85,9 +113,9 @@ class AgentEntry(BaseModel):
 
     @field_validator("tags")
     @classmethod
-    def lowercase_tags(cls, v):
-        """Ensure tags are lowercase and hyphenated"""
-        return [tag.lower().replace(" ", "-") for tag in v]
+    def validate_tags_field(cls, v):
+        """Ensure tags are lowercase, hyphenated, and unique"""
+        return validate_tags(v)
 
     @field_validator("github_repo")
     @classmethod
@@ -307,9 +335,9 @@ class BoilerplateEntry(BaseModel):
 
     @field_validator("tags")
     @classmethod
-    def lowercase_tags(cls, v):
-        """Ensure tags are lowercase and hyphenated"""
-        return [tag.lower().replace(" ", "-") for tag in v]
+    def validate_tags_field(cls, v):
+        """Ensure tags are lowercase, hyphenated, and unique"""
+        return validate_tags(v)
 
     @field_validator("github_repo")
     @classmethod

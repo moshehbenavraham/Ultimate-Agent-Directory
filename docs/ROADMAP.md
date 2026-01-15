@@ -81,15 +81,15 @@
 ### Quality Badge System
 
 **Badge types:**
-- ✓ **Verified** - Link checked, description accurate, metadata complete
-- 🔥 **Active** - Recent commits/updates in last 30 days
-- ⭐ **Community Favorite** - High ratings, lots of upvotes
-- 🏢 **Production Ready** - Used by enterprises, battle-tested
-- 🆕 **New** - Added in last 30 days
-- 📈 **Trending** - Rapid growth in stars/adoption
-- 🔒 **Enterprise Grade** - SOC2, GDPR compliant
-- 📚 **Beginner Friendly** - Good docs, easy to start
-- 🧪 **Experimental** - Early stage, expect changes
+- [verified] Verified - Link checked, description accurate, metadata complete
+- [active] Active - Recent commits/updates in last 30 days
+- [community-favorite] Community Favorite - High ratings, lots of upvotes
+- [production-ready] Production Ready - Used by enterprises, battle-tested
+- [new] New - Added in last 30 days
+- [trending] Trending - Rapid growth in stars/adoption
+- [enterprise-grade] Enterprise Grade - SOC2, GDPR compliant
+- [beginner-friendly] Beginner Friendly - Good docs, easy to start
+- [experimental] Experimental - Early stage, expect changes
 
 **Implementation:** Auto-calculate based on metadata, display as colored badges in UI
 
@@ -197,13 +197,13 @@ metadata:
 
 ## Implementation Phases
 
-### Phase 1: Foundation ✓ COMPLETE
+### Phase 1: Foundation (COMPLETE)
 - Structured data format (YAML schema)
 - Validation scripts
 - README generation
 - GitHub Actions
 
-### Phase 2: Website ✓ COMPLETE
+### Phase 2: Website (COMPLETE)
 - Interactive website with search
 - Category filtering
 - Responsive design

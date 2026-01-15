@@ -60,6 +60,26 @@ def group_by_category(agents: list[AgentEntry]) -> dict:
     return dict(grouped)
 
 
+def render_readme(
+    metadata: DirectoryMetadata,
+    categories: list[Category],
+    entries_by_category: dict,
+    boilerplate_count: int,
+) -> str:
+    """Render README content from template and data."""
+    env = Environment(
+        loader=FileSystemLoader("templates"), trim_blocks=True, lstrip_blocks=True
+    )
+    template = env.get_template("readme.jinja2")
+
+    return template.render(
+        metadata=metadata,
+        categories=categories,
+        entries_by_category=entries_by_category,
+        boilerplate_count=boilerplate_count,
+    )
+
+
 def generate_readme():
     """Generate README.md from templates and data"""
 
@@ -82,15 +102,9 @@ def generate_readme():
         links=site_config.links,
     )
 
-    # Load template
-    env = Environment(
-        loader=FileSystemLoader("templates"), trim_blocks=True, lstrip_blocks=True
-    )
-    template = env.get_template("readme.jinja2")
-
     # Render
     print("Rendering README...")
-    output = template.render(
+    output = render_readme(
         metadata=metadata,
         categories=categories,
         entries_by_category=entries_by_category,

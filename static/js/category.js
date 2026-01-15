@@ -3,6 +3,7 @@
 let allCards = [];
 let activeFilters = {
     search: '',
+    searchTokens: [],
     type: '',
     pricing: '',
     tags: [],
@@ -24,98 +25,57 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Search functionality
 function initializeSearch() {
-    const searchInput = document.getElementById('category-search');
-    if (!searchInput) return;
-
-    const debouncedSearch = window.Utils.debounce((query) => {
-        activeFilters.search = query.toLowerCase();
+    window.FilterUtils.initSearchInput('category-search', (query) => {
+        activeFilters.search = window.FilterUtils.normalizeQuery(query);
+        activeFilters.searchTokens = window.FilterUtils.tokenize(query);
         applyFiltersAndSort();
-    }, 300);
-
-    searchInput.addEventListener('input', function(e) {
-        debouncedSearch(e.target.value);
-    });
-
-    // Clear on Escape
-    searchInput.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape') {
-            this.value = '';
-            activeFilters.search = '';
-            applyFiltersAndSort();
-        }
     });
 }
 
 // Type and Pricing filters
 function initializeFilters() {
-    const typeFilter = document.getElementById('filter-type');
-    const pricingFilter = document.getElementById('filter-pricing');
-
-    if (typeFilter) {
-        typeFilter.addEventListener('change', function() {
-            activeFilters.type = this.value;
-            applyFiltersAndSort();
-        });
-    }
-
-    if (pricingFilter) {
-        pricingFilter.addEventListener('change', function() {
-            activeFilters.pricing = this.value;
-            applyFiltersAndSort();
-        });
-    }
+    window.FilterUtils.initSelectFilter('filter-type', (value) => {
+        activeFilters.type = value;
+        applyFiltersAndSort();
+    });
+    window.FilterUtils.initSelectFilter('filter-pricing', (value) => {
+        activeFilters.pricing = value;
+        applyFiltersAndSort();
+    });
 }
 
 // Tag filtering
 function initializeTags() {
-    const tagButtons = document.querySelectorAll('.tag-btn');
+    window.FilterUtils.initTagButtons('.tag-btn', (tag, button) => {
+        if (activeFilters.tags.includes(tag)) {
+            activeFilters.tags = activeFilters.tags.filter(t => t !== tag);
+            button.classList.remove('active');
+        } else {
+            activeFilters.tags.push(tag);
+            button.classList.add('active');
+        }
 
-    tagButtons.forEach(btn => {
-        btn.addEventListener('click', function() {
-            const tag = this.dataset.tag;
-
-            if (activeFilters.tags.includes(tag)) {
-                // Remove tag
-                activeFilters.tags = activeFilters.tags.filter(t => t !== tag);
-                this.classList.remove('active');
-            } else {
-                // Add tag
-                activeFilters.tags.push(tag);
-                this.classList.add('active');
-            }
-
-            applyFiltersAndSort();
-        });
+        applyFiltersAndSort();
     });
 }
 
 // Sorting functionality
 function initializeSorting() {
-    const sortButtons = document.querySelectorAll('.sort-btn');
-
-    sortButtons.forEach(btn => {
-        btn.addEventListener('click', function() {
-            const sortBy = this.dataset.sort;
-
-            // Update active state
-            sortButtons.forEach(b => b.classList.remove('active'));
-            this.classList.add('active');
-
-            activeFilters.sort = sortBy;
-            applyFiltersAndSort();
-        });
+    window.FilterUtils.initSortButtons('.sort-btn', (sortBy) => {
+        activeFilters.sort = sortBy;
+        applyFiltersAndSort();
     });
 }
 
 // Check if card matches filters
 function cardMatchesFilters(card) {
     // Search filter
-    if (activeFilters.search) {
+    if (activeFilters.searchTokens.length > 0) {
         const name = card.dataset.name || '';
         const description = card.dataset.description || '';
-        const searchText = `${name} ${description}`.toLowerCase();
+        const searchText = `${name} ${description}`;
 
-        if (!searchText.includes(activeFilters.search)) {
+        if (!window.FilterUtils.textMatchesTokens(searchText, activeFilters.searchTokens)) {
             return false;
         }
     }
@@ -222,6 +182,7 @@ window.CategoryFilter = {
     resetFilters: function() {
         activeFilters = {
             search: '',
+            searchTokens: [],
             type: '',
             pricing: '',
             tags: [],

@@ -226,27 +226,29 @@ class TestAgentEntryGithubRepo:
 class TestAgentEntryTags:
     """Test tags custom validator"""
 
-    def test_tags_normalized_to_lowercase(self):
-        """Tags are converted to lowercase"""
-        entry = AgentEntry(
-            name="Test",
-            url="https://example.com",
-            description="A valid description here.",
-            category="test",
-            tags=["AI", "Machine Learning", "NLP"],
-        )
-        assert entry.tags == ["ai", "machine-learning", "nlp"]
+    def test_tags_must_be_lowercase(self):
+        """Uppercase tags are rejected"""
+        with pytest.raises(ValidationError) as exc_info:
+            AgentEntry(
+                name="Test",
+                url="https://example.com",
+                description="A valid description here.",
+                category="test",
+                tags=["AI", "machine-learning"],
+            )
+        assert "lowercase" in str(exc_info.value).lower()
 
-    def test_tags_spaces_to_hyphens(self):
-        """Spaces in tags are converted to hyphens"""
-        entry = AgentEntry(
-            name="Test",
-            url="https://example.com",
-            description="A valid description here.",
-            category="test",
-            tags=["multi agent system", "natural language processing"],
-        )
-        assert entry.tags == ["multi-agent-system", "natural-language-processing"]
+    def test_tags_must_be_hyphenated(self):
+        """Tags with spaces are rejected"""
+        with pytest.raises(ValidationError) as exc_info:
+            AgentEntry(
+                name="Test",
+                url="https://example.com",
+                description="A valid description here.",
+                category="test",
+                tags=["multi agent system", "natural language processing"],
+            )
+        assert "hyphenated" in str(exc_info.value).lower()
 
     def test_tags_empty_list_passes(self):
         """Empty tags list passes validation"""
@@ -258,6 +260,18 @@ class TestAgentEntryTags:
             tags=[],
         )
         assert entry.tags == []
+
+    def test_duplicate_tags_fail(self):
+        """Duplicate tags are rejected"""
+        with pytest.raises(ValidationError) as exc_info:
+            AgentEntry(
+                name="Test",
+                url="https://example.com",
+                description="A valid description here.",
+                category="test",
+                tags=["automation", "automation"],
+            )
+        assert "duplicate" in str(exc_info.value).lower()
 
 
 class TestAgentEntryTypeLiteral:
@@ -395,15 +409,16 @@ class TestBoilerplateEntry:
         assert entry.type == type_value
 
     def test_tags_normalized(self):
-        """Boilerplate tags use same normalization as AgentEntry"""
-        entry = BoilerplateEntry(
-            name="Test",
-            url="https://example.com",
-            description="A valid description here.",
-            category="test",
-            tags=["Full Stack", "TypeScript"],
-        )
-        assert entry.tags == ["full-stack", "typescript"]
+        """Boilerplate tags require lowercase and hyphenated"""
+        with pytest.raises(ValidationError) as exc_info:
+            BoilerplateEntry(
+                name="Test",
+                url="https://example.com",
+                description="A valid description here.",
+                category="test",
+                tags=["Full Stack", "TypeScript"],
+            )
+        assert "lowercase" in str(exc_info.value).lower()
 
     def test_github_repo_validated(self):
         """Boilerplate github_repo uses same validation as AgentEntry"""
@@ -452,7 +467,7 @@ class TestCategory:
             description="Open source frameworks for building AI agents.",
         )
         assert category.id == "open-source-frameworks"
-        assert category.emoji == "📦"  # Default value
+        assert category.emoji == "[]"  # Default value
         assert category.order == 0  # Default value
 
     def test_description_minimum_length(self):

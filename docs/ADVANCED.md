@@ -15,12 +15,12 @@ Generated output in `_site/`:
 
 ```
 _site/
-├── index.html              # Homepage
-├── categories/*.html       # 10 category pages
-├── search-index.json       # Client-side search data
-├── sitemap.xml            # SEO sitemap
-├── stats.json             # Directory statistics
-└── static/                # CSS, JS, images
+|-- index.html              # Homepage
+|-- categories/*.html       # 10 category pages
+|-- search-index.json       # Client-side search data
+|-- sitemap.xml            # SEO sitemap
+|-- stats.json             # Directory statistics
+`-- static/                # CSS, JS, images
 ```
 
 ### Website Features
@@ -145,7 +145,7 @@ Upload `_site/` contents via FTP/SFTP to any static host.
 
 3. Enable HTTPS in GitHub Pages settings
 
-4. Update base URL in `scripts/generate_site.py`
+4. Update base URL in `data/metadata.yml`
 
 ### GitHub Pages Custom Domain
 
@@ -163,7 +163,7 @@ Upload `_site/` contents via FTP/SFTP to any static host.
 ```yaml
 id: new-category
 title: Category Title
-emoji: 🚀
+emoji: []
 description: Brief category description
 order: 10              # Display order
 show_github_stats: true
@@ -212,9 +212,9 @@ Clear with deployment or manual cache invalidation.
 ### Build Fails in CI
 
 Check Actions logs for:
-- YAML validation errors → Fix syntax in data files
-- Missing dependencies → Verify `requirements.txt`
-- Python version mismatch → Workflow uses Python 3.11
+- YAML validation errors -> Fix syntax in data files
+- Missing dependencies -> Verify `requirements.txt`
+- Python version mismatch -> Workflow uses Python 3.11
 
 ### Website Generation Fails Locally
 
@@ -285,10 +285,10 @@ Converts markdown sections to structured YAML:
 
 ```bash
 # Dry run (preview only)
-venv/bin/python scripts/migrate.py --section "🛠️ Section" --category cat-id --dry-run
+venv/bin/python scripts/migrate.py --section "Section" --category cat-id --dry-run
 
 # Execute migration
-venv/bin/python scripts/migrate.py --section "🛠️ Section" --category cat-id
+venv/bin/python scripts/migrate.py --section "Section" --category cat-id
 ```
 
 Handles:

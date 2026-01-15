@@ -1,0 +1,55 @@
+name: Refresh GitHub Metadata
+
+on:
+  schedule:
+    - cron: '0 3 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Refresh GitHub metadata
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/update_github_metadata.py
+
+      - name: Regenerate outputs
+        run: |
+          python scripts/generate_readme.py
+          python scripts/generate_boilerplates.py
+
+      - name: Commit changes
+        env:
+          GIT_AUTHOR_NAME: automation
+          GIT_AUTHOR_EMAIL: automation@users.noreply.github.com
+          GIT_COMMITTER_NAME: automation
+          GIT_COMMITTER_EMAIL: automation@users.noreply.github.com
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git add data/ README.md BOILERPLATES.md
+            git commit -m "chore: refresh github metadata"
+            git push
+          else
+            echo "No changes to commit"
+          fi

@@ -120,13 +120,30 @@ function escapeHtml(text) {
 }
 
 /**
+ * Escape special characters for regex usage
+ */
+function escapeRegExp(text) {
+    return text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+/**
  * Highlight search terms in text
  */
 function highlightText(text, searchTerm) {
     if (!searchTerm) return escapeHtml(text);
 
+    const tokens = searchTerm
+        .trim()
+        .split(/\s+/)
+        .filter(token => token.length > 1);
+
+    if (tokens.length === 0) {
+        return escapeHtml(text);
+    }
+
     const escaped = escapeHtml(text);
-    const regex = new RegExp(`(${escapeHtml(searchTerm)})`, 'gi');
+    const pattern = tokens.map(escapeRegExp).join('|');
+    const regex = new RegExp(`(${pattern})`, 'gi');
     return escaped.replace(regex, '<span class="search-highlight">$1</span>');
 }
 
@@ -135,5 +152,6 @@ window.Utils = {
     debounce,
     formatNumber,
     escapeHtml,
+    escapeRegExp,
     highlightText
 };

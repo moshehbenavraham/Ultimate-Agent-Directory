@@ -86,7 +86,7 @@ last_verified: Optional[date]
 id: str                            # URL-safe identifier
 title: str                         # Display title
 description: str                   # 10-500 characters
-emoji: str                         # Default: "📦"
+emoji: str                         # Default: "[]"
 order: int                         # Display order (lower = earlier)
 show_github_stats: bool            # Default: true
 table_columns: List[str]           # Columns to show in tables
@@ -109,13 +109,17 @@ table_columns: List[str]           # Columns to show in tables
 
 ```
 YAML Data (data/)
-    ↓
+    |
+    v
 Validation (scripts/validate.py using Pydantic schemas)
-    ↓
+    |
+    v
 Loading (load_categories() + load_agents())
-    ↓
+    |
+    v
 Template Rendering (Jinja2)
-    ↓
+    |
+    v
 Outputs (README.md + _site/)
 ```
 
@@ -130,7 +134,7 @@ Outputs (README.md + _site/)
 - `scripts/validate.py` - YAML validation against schemas (exits with error on failure)
 - `scripts/generate_readme.py` - README.md generator
 - `scripts/generate_site.py` - Static website generator
-- `scripts/migrate.py` - Migration tool (markdown → YAML, completed)
+- `scripts/migrate.py` - Migration tool (markdown -> YAML, completed)
 
 ### Templates
 - `templates/readme.jinja2` - README.md template
@@ -148,18 +152,18 @@ Outputs (README.md + _site/)
 
 ```
 data/
-├── agents/                        # 277 YAML files (SOURCE OF TRUTH)
-│   ├── open-source-frameworks/    # 57 entries
-│   ├── no-code-platforms/         # 29 entries
-│   ├── autonomous-agents/         # 33 entries
-│   ├── specialized-tools/         # 62 entries
-│   ├── enterprise-platforms/      # 39 entries
-│   ├── coding-assistants/         # 15 entries
-│   ├── browser-automation/        # 10 entries
-│   ├── communities/               # 17 entries
-│   ├── learning-resources/        # 6 entries
-│   └── research-frameworks/       # 6 entries
-└── categories/                    # 10 category YAML files
+|-- agents/                        # 277 YAML files (SOURCE OF TRUTH)
+|   |-- open-source-frameworks/    # 57 entries
+|   |-- no-code-platforms/         # 29 entries
+|   |-- autonomous-agents/         # 33 entries
+|   |-- specialized-tools/         # 62 entries
+|   |-- enterprise-platforms/      # 39 entries
+|   |-- coding-assistants/         # 15 entries
+|   |-- browser-automation/        # 10 entries
+|   |-- communities/               # 17 entries
+|   |-- learning-resources/        # 6 entries
+|   `-- research-frameworks/       # 6 entries
+`-- categories/                    # 10 category YAML files
 
 scripts/                           # Python automation
 templates/                         # Jinja2 templates

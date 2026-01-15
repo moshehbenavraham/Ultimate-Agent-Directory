@@ -20,7 +20,7 @@ from urllib.parse import urlparse, urlunparse
 
 import yaml
 
-from models import AgentEntry, Category, BoilerplateEntry, BoilerplateCategory
+from models import AgentEntry, Category, BoilerplateEntry, BoilerplateCategory, TAG_PATTERN
 
 
 @dataclass
@@ -267,6 +267,64 @@ def check_duplicates(
     return errors
 
 
+def load_tag_registry(data_dir: Path) -> tuple[set[str], list[str]]:
+    registry_path = data_dir / "tags.yml"
+    if not registry_path.exists():
+        return set(), []
+
+    errors: list[str] = []
+    try:
+        data = load_yaml_data(registry_path)
+    except Exception as exc:
+        return set(), [f"ERROR {registry_path}: {exc}"]
+
+    tags = data.get("tags")
+    if tags is None:
+        return set(), [f"ERROR {registry_path}: Missing 'tags' list"]
+    if not isinstance(tags, list):
+        return set(), [f"ERROR {registry_path}: 'tags' must be a list"]
+
+    tag_set: set[str] = set()
+    invalid_tags: list[str] = []
+    for tag in tags:
+        if not isinstance(tag, str):
+            invalid_tags.append(str(tag))
+            continue
+        if not TAG_PATTERN.match(tag):
+            invalid_tags.append(tag)
+            continue
+        if tag in tag_set:
+            errors.append(f"ERROR {registry_path}: Duplicate tag '{tag}' in registry")
+            continue
+        tag_set.add(tag)
+
+    if invalid_tags:
+        errors.append(
+            f"ERROR {registry_path}: Invalid tag values: {', '.join(sorted(invalid_tags))}"
+        )
+
+    return tag_set, errors
+
+
+def check_tag_registry(
+    entries: list[ValidatedEntry], tag_registry: set[str]
+) -> list[str]:
+    if not tag_registry:
+        return []
+
+    errors: list[str] = []
+    for entry in entries:
+        tags = entry.data.get("tags") or []
+        if not isinstance(tags, list):
+            continue
+        for tag in tags:
+            if tag not in tag_registry:
+                errors.append(
+                    f"ERROR {entry.filepath}: Unknown tag '{tag}' not in registry"
+                )
+    return errors
+
+
 def main() -> None:
     data_dir = Path("data")
     if not data_dir.exists():
@@ -359,6 +417,10 @@ def main() -> None:
     if combined_entries:
         errors.extend(check_duplicates(combined_entries, "url"))
         errors.extend(check_duplicates(combined_entries, "github_repo"))
+        tag_registry, tag_errors = load_tag_registry(data_dir)
+        errors.extend(tag_errors)
+        if tag_registry:
+            errors.extend(check_tag_registry(combined_entries, tag_registry))
 
     if successes:
         print("\n".join(successes))

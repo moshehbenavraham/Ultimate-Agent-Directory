@@ -15,10 +15,10 @@ All content is stored as structured YAML and automatically transformed into READ
 ```
 YAML Data (data/)
        |
-       +---> data/agents/         (278 AI agent entries)
-       +---> data/boilerplates/   (100+ boilerplate entries)
-       +---> data/categories/     (10 agent categories)
-       +---> data/boilerplate-categories/ (17 ecosystems)
+       +---> data/agents/         (AI agent entries)
+       +---> data/boilerplates/   (boilerplate entries)
+       +---> data/categories/     (agent categories)
+       +---> data/boilerplate-categories/ (boilerplate categories)
        |
        v
 Schema Validation (Pydantic)
@@ -39,13 +39,13 @@ Template Rendering (Jinja2)
 ```
 +------------------------+     +---------------------------+
 |     data/agents/       |     |    data/boilerplates/     |
-|  278 AI agent entries  |     |  100+ boilerplate entries |
+|    AI agent entries    |     |    boilerplate entries    |
 +------------------------+     +---------------------------+
             |                              |
             v                              v
 +------------------------+     +---------------------------+
 |    data/categories/    |     | data/boilerplate-categories/ |
-|  10 agent categories   |     |  17 ecosystem categories  |
+|    agent categories    |     |   boilerplate categories  |
 +------------------------+     +---------------------------+
             |                              |
             +------------------------------+
@@ -82,10 +82,10 @@ Template Rendering (Jinja2)
 **Purpose:** Single source of truth for all directory content
 
 **Structure:**
-- `data/agents/{category}/*.yml` - AI agent/tool entries (278 files)
-- `data/categories/*.yml` - Agent category definitions (10 files)
-- `data/boilerplates/{ecosystem}/*.yml` - Boilerplate entries (100+ files)
-- `data/boilerplate-categories/*.yml` - Boilerplate categories (17 ecosystems)
+- `data/agents/{category}/*.yml` - AI agent/tool entries
+- `data/categories/*.yml` - Agent category definitions
+- `data/boilerplates/{ecosystem}/*.yml` - Boilerplate entries
+- `data/boilerplate-categories/*.yml` - Boilerplate categories
 
 **Validation:** Pydantic models in `scripts/models.py` enforce schema compliance
 
@@ -157,7 +157,7 @@ Validate YAML --> Generate README --> Build Site --> Deploy
 Ultimate-Agent-Directory/
 |
 +-- data/
-|   +-- agents/                 # 278 AI agent entries
+|   +-- agents/                 # AI agent entries
 |   |   +-- open-source-frameworks/
 |   |   +-- no-code-platforms/
 |   |   +-- autonomous-agents/
@@ -168,14 +168,14 @@ Ultimate-Agent-Directory/
 |   |   +-- communities/
 |   |   +-- learning-resources/
 |   |   +-- research-frameworks/
-|   +-- categories/             # 10 agent category definitions
-|   +-- boilerplates/           # 100+ boilerplate entries
+|   +-- categories/             # Agent category definitions
+|   +-- boilerplates/           # Boilerplate entries
 |   |   +-- nextjs/
 |   |   +-- django/
 |   |   +-- fastapi/
 |   |   +-- rails/
-|   |   +-- ... (17 ecosystems)
-|   +-- boilerplate-categories/ # 17 boilerplate category definitions
+|   |   +-- ... (multiple ecosystems)
+|   +-- boilerplate-categories/ # Boilerplate category definitions
 |
 +-- scripts/                    # Python automation
 |   +-- models.py               # Pydantic schemas

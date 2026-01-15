@@ -1,4 +1,4 @@
-.PHONY: help install validate validate-agents validate-boilerplates generate generate-boilerplates migrate-boilerplates clean test test-unit test-all lint typecheck site serve check-links check-links-quick
+.PHONY: help install validate validate-agents validate-boilerplates generate generate-boilerplates migrate-boilerplates clean test test-unit test-all lint typecheck site serve check-links check-links-quick refresh-github-metadata
 
 PYTHON := venv/bin/python
 PIP := venv/bin/pip
@@ -22,6 +22,7 @@ help:
 	@echo "  make typecheck            - Run type checker (mypy)"
 	@echo "  make check-links          - Check all links in repository"
 	@echo "  make check-links-quick    - Quick link check (YAML only, no issues)"
+	@echo "  make refresh-github-metadata - Update GitHub stars and repo metadata"
 	@echo "  make clean                - Remove generated files and cache"
 	@echo "  make migrate              - Run agent migration (dry-run)"
 	@echo "  make migrate-boilerplates - Run boilerplate migration (dry-run)"
@@ -72,6 +73,9 @@ check-links:
 
 check-links-quick:
 	$(PYTHON) scripts/check_links.py --yaml-only --no-issues
+
+refresh-github-metadata:
+	$(PYTHON) scripts/update_github_metadata.py
 
 migrate:
 	$(PYTHON) scripts/migrate.py --all --dry-run

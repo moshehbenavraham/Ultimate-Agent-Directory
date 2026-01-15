@@ -19,6 +19,8 @@ build/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.coverage
+htmlcov/
 
 # Generated files (do not edit directly - edit YAML in data/ instead)
 _site/

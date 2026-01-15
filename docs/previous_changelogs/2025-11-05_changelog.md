@@ -164,9 +164,9 @@ Start Changelog Entries
 - **Styling:** Tailwind CSS (CDN) + custom CSS for animations
 - **Icons:** Font Awesome 6.5.1 (CDN)
 - **Search:** Client-side with relevance scoring algorithm
-- **Templates:** Jinja2 with inheritance (base → index/category)
-- **Data Flow:** YAML → Pydantic → Jinja2 → HTML
-- **Deployment:** GitHub Actions → GitHub Pages (automatic on push)
+- **Templates:** Jinja2 with inheritance (base -> index/category)
+- **Data Flow:** YAML -> Pydantic -> Jinja2 -> HTML
+- **Deployment:** GitHub Actions -> GitHub Pages (automatic on push)
 - **Preview:** Local Python HTTP server via `make serve`
 
 **Search Algorithm:**
@@ -348,9 +348,9 @@ Start Changelog Entries
   - Migration script tested in dry-run mode
 
 ### Status
-- **Phase 1-2 (Foundation & README Generation):** ✓ Complete (2025-11-04)
-- **Phase 3 (Data Migration):** ✓ Complete (2025-11-04) - 277 entries migrated, 100% validated
-- **Phase 4 (Website Generation & Deployment):** ✓ Complete (2025-11-05) - Static site generator, GitHub Actions workflows ready
+- **Phase 1-2 (Foundation & README Generation):** Complete (2025-11-04)
+- **Phase 3 (Data Migration):** Complete (2025-11-04) - 277 entries migrated, 100% validated
+- **Phase 4 (Website Generation & Deployment):** Complete (2025-11-05) - Static site generator, GitHub Actions workflows ready
 - **Phase 5 (Automation & CI/CD):** Partially Complete - deploy.yml and validate.yml exist, metadata updates needed
 - **Phase 6 (Documentation):** Partially Complete - QUICKSTART, WEBSITE, DEPLOYMENT done; CONTRIBUTING and SCHEMA need updates
 

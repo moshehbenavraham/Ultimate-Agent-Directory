@@ -2,6 +2,22 @@
 
 let searchIndex = null;
 
+function tokenizeQuery(query) {
+    return query
+        .toLowerCase()
+        .trim()
+        .split(/\s+/)
+        .filter(token => token.length >= 2);
+}
+
+function tokenMatchesText(token, text) {
+    if (!text) return false;
+    const lower = text.toLowerCase();
+    if (lower.includes(token)) return true;
+    const words = lower.split(/[^a-z0-9]+/);
+    return words.some(word => word.startsWith(token));
+}
+
 // Load search index
 async function loadSearchIndex() {
     try {
@@ -25,41 +41,65 @@ function performSearch(query) {
     }
 
     const searchTerm = query.toLowerCase().trim();
+    const tokens = tokenizeQuery(query);
+    if (tokens.length === 0) {
+        return [];
+    }
+
     const results = [];
 
     searchIndex.forEach(entry => {
         let score = 0;
+        let matchedTokens = 0;
 
-        // Exact name match (highest priority)
-        if (entry.name.toLowerCase() === searchTerm) {
-            score += 100;
-        }
-        // Name contains search term
-        else if (entry.name.toLowerCase().includes(searchTerm)) {
+        const name = entry.name.toLowerCase();
+        const description = entry.description.toLowerCase();
+        const tags = entry.tags ? entry.tags.map(tag => tag.toLowerCase()) : [];
+        const category = entry.category ? entry.category.toLowerCase() : '';
+        const type = entry.type ? entry.type.toLowerCase() : '';
+
+        tokens.forEach(token => {
+            let tokenScore = 0;
+
+            if (name === token) {
+                tokenScore += 90;
+            } else if (name.startsWith(token)) {
+                tokenScore += 60;
+            } else if (name.includes(token)) {
+                tokenScore += 40;
+            }
+
+            if (tokenMatchesText(token, description)) {
+                tokenScore += 20;
+            }
+
+            if (tags.some(tag => tag === token)) {
+                tokenScore += 30;
+            } else if (tags.some(tag => tag.startsWith(token))) {
+                tokenScore += 15;
+            } else if (tags.some(tag => tag.includes(token))) {
+                tokenScore += 10;
+            }
+
+            if (tokenMatchesText(token, category)) {
+                tokenScore += 10;
+            }
+
+            if (tokenMatchesText(token, type)) {
+                tokenScore += 10;
+            }
+
+            if (tokenScore > 0) {
+                score += tokenScore;
+                matchedTokens += 1;
+            }
+        });
+
+        if (name === searchTerm) {
             score += 50;
         }
 
-        // Description contains search term
-        if (entry.description.toLowerCase().includes(searchTerm)) {
-            score += 20;
-        }
-
-        // Tag match
-        if (entry.tags && entry.tags.some(tag => tag.toLowerCase().includes(searchTerm))) {
-            score += 30;
-        }
-
-        // Category match
-        if (entry.category && entry.category.toLowerCase().includes(searchTerm)) {
-            score += 10;
-        }
-
-        // Type match
-        if (entry.type && entry.type.toLowerCase().includes(searchTerm)) {
-            score += 10;
-        }
-
-        if (score > 0) {
+        if (score > 0 && matchedTokens === tokens.length) {
             results.push({ ...entry, score });
         }
     });

@@ -11,6 +11,9 @@ tags:
   - saas
   - postgresql
 github_repo: startino/saas-starter
+github_stars: 36
+last_updated: '2024-11-25'
+is_archived: false
 license: MIT
 key_features:
   - Adopts Svelte 5 and Shadcn-svelte (popular UI component architecture for Svelte)

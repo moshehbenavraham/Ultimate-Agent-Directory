@@ -8,7 +8,9 @@ tags:
   - typescript
   - tailwindcss
 github_repo: pro7tech/sveltekit-blog-app
-github_stars: 1100
+github_stars: 82
+last_updated: '2023-11-28'
+is_archived: true
 license: MIT
 key_features:
   - Authentication with RBAC (role-based access control)

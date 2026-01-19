@@ -18,7 +18,9 @@ tags:
   - rails
   - postgresql
 github_repo: redwoodjs/redwood
-github_stars: 17600
+github_stars: 17647
+last_updated: '2026-01-17'
+is_archived: false
 license: MIT
 key_features:
   - "**Generators** (CLI commands to scaffold pages, components, services, etc.)"

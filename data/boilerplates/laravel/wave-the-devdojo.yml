@@ -16,7 +16,9 @@ tags:
   - postgresql
   - docker
 github_repo: thedevdojo/wave
-github_stars: 6400
+github_stars: 6412
+last_updated: '2026-01-17'
+is_archived: false
 license: MIT
 technical_stack:
   - component: Frontend

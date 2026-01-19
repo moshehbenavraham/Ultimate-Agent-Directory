@@ -9,7 +9,9 @@ tags:
   - typescript
   - docker
 github_repo: AkashRajpurohit/go-react-typescript-template
-github_stars: 15
+github_stars: 16
+last_updated: '2026-01-18'
+is_archived: false
 license: MIT
 key_features:
   - Air Integration for backend hot-reloading (critical DX feature)

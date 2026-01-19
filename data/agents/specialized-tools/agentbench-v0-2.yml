@@ -5,6 +5,9 @@ description: Comprehensive benchmark for evaluating LLM-as-Agent capabilities ac
   Provides standardized evaluation protocols, multi-dimensional metrics, and leaderboards
   for comparing agent performance across diverse real-world scenarios.
 github_repo: THUDM/AgentBench
+github_stars: 3093
+last_updated: '2025-11-17'
+is_archived: false
 category: specialized-tools
 added_date: '2025-11-05'
 verified: false

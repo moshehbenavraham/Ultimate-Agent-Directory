@@ -16,7 +16,9 @@ tags:
   - postgresql
   - docker
 github_repo: nextjs/saas-starter
-github_stars: 15100
+github_stars: 15252
+last_updated: '2025-12-11'
+is_archived: false
 license: MIT
 key_features:
   - Official Vercel-maintained template with Next.js 13 best practices

@@ -5,6 +5,9 @@ description: Developer-centric multi-agent framework that fully embraces asynchr
   Offers distributed agent execution, flexible orchestration, and comprehensive debugging
   tools for developing production-grade multi-agent systems.
 github_repo: modelscope/agentscope
+github_stars: 15571
+last_updated: '2026-01-19'
+is_archived: false
 category: open-source-frameworks
 added_date: '2025-11-05'
 verified: false

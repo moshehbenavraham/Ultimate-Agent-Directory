@@ -9,7 +9,9 @@ tags:
   - meteor
   - react
 github_repo: meteor/meteor
-github_stars: 44800
+github_stars: 44763
+last_updated: '2026-01-16'
+is_archived: false
 license: Open Source
 technical_stack:
   - component: Frontend

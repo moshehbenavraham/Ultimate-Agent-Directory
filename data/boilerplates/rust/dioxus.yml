@@ -8,7 +8,9 @@ tags:
   - react
   - tailwindcss
 github_repo: DioxusLabs/dioxus
-github_stars: 24500
+github_stars: 34247
+last_updated: '2026-01-18'
+is_archived: false
 license: MIT
 key_features:
   - React-like RSX syntax

@@ -10,7 +10,9 @@ tags:
   - authjs
   - saas
 github_repo: mickasmt/next-saas-stripe-starter
-github_stars: 4000
+github_stars: 2936
+last_updated: '2024-08-16'
+is_archived: false
 license: MIT
 key_features:
   - Beautiful Shadcn UI components

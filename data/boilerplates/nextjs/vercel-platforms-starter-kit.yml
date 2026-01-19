@@ -14,7 +14,9 @@ tags:
   - saas
   - postgresql
 github_repo: vercel/platforms
-github_stars: 6600
+github_stars: 6595
+last_updated: '2025-12-06'
+is_archived: false
 license: MIT
 key_features:
   - Multi-tenant architecture example with custom subdomain routing via Next.js Middleware

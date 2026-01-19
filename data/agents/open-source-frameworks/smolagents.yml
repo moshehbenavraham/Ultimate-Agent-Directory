@@ -5,6 +5,9 @@ description: A Hugging Face framework for building AI agents that integrates sea
   agents capable of data retrieval, summarization, and code execution, with strong
   community engagement and regular updates.
 github_repo: huggingface/smolagents
+github_stars: 24973
+last_updated: '2026-01-18'
+is_archived: false
 category: open-source-frameworks
 added_date: '2025-11-05'
 verified: false

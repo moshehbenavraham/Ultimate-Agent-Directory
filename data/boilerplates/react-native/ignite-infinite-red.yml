@@ -7,6 +7,9 @@ tags:
   - react-native
   - react
 github_repo: infinitered/ignite
+github_stars: 19526
+last_updated: '2026-01-06'
+is_archived: false
 key_features:
   - Uses MobX-State-Tree for state management
   - CLI for generating components and screens

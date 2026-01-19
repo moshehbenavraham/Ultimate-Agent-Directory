@@ -11,7 +11,9 @@ tags:
   - postgresql
   - docker
 github_repo: Jordan-Kowal/django-react-starter
-github_stars: 1100
+github_stars: 15
+last_updated: '2025-09-02'
+is_archived: true
 license: MIT
 key_features:
   - Full-text search with Meilisearch integration

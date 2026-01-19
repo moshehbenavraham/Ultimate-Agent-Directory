@@ -5,6 +5,9 @@ description: A data framework for building LLM applications that specializes in 
   ingestion, indexing, and retrieval, with over 300 integrations supporting various
   LLMs, embedding models, and vector stores for RAG applications.
 github_repo: run-llama/llama_index
+github_stars: 46444
+last_updated: '2026-01-16'
+is_archived: false
 category: open-source-frameworks
 added_date: '2025-11-05'
 verified: false

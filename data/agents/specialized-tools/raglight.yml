@@ -6,6 +6,9 @@ description: Modular framework for building Retrieval-Augmented Generation pipel
   providers (OpenAI, Ollama), vector store integration, and support for multiple knowledge
   sources including local folders and GitHub repositories.
 github_repo: Bessouat40/RAGLight
+github_stars: 635
+last_updated: '2026-01-13'
+is_archived: false
 category: specialized-tools
 added_date: '2025-11-05'
 verified: false

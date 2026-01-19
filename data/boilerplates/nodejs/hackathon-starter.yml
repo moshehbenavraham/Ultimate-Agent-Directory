@@ -10,7 +10,9 @@ tags:
   - stripe
   - docker
 github_repo: sahat/hackathon-starter
-github_stars: 35200
+github_stars: 35181
+last_updated: '2026-01-08'
+is_archived: false
 license: MIT
 technical_stack:
   - component: Frontend

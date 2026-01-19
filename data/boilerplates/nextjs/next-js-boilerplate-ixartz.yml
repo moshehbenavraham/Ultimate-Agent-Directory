@@ -16,7 +16,9 @@ tags:
   - saas
   - postgresql
 github_repo: ixartz/Next-js-Boilerplate
-github_stars: 12400
+github_stars: 12539
+last_updated: '2026-01-18'
+is_archived: false
 license: MIT
 technical_stack:
   - component: Frontend

@@ -5,6 +5,9 @@ description: An open research platform for language agents that aims to democrat
   framework for building and evaluating language agents with multiple capabilities
   and interaction patterns.
 github_repo: xlang-ai/OpenAgents
+github_stars: 4671
+last_updated: '2024-11-18'
+is_archived: false
 category: open-source-frameworks
 added_date: '2025-11-05'
 verified: false

@@ -6,6 +6,9 @@ type: boilerplate
 tags:
   - rust
 github_repo: leptos-rs/start-axum
+github_stars: 65
+last_updated: '2025-12-23'
+is_archived: false
 license: Unlicense
 key_features:
   - Server-side rendering with hydration

@@ -5,6 +5,9 @@ description: Experimental open-source platform for creating self-evolving autono
   of autonomous agent development with self-modification and adaptation capabilities
   for research applications.
 github_repo: The-Swarm-Corporation/AgentOS
+github_stars: 20
+last_updated: '2025-07-11'
+is_archived: false
 category: open-source-frameworks
 added_date: '2025-11-05'
 verified: false

@@ -4,6 +4,9 @@ description: Framework for building collaborative AI systems with automated work
   generation, including case studies for ComfyUI. Features automated agent collaboration
   patterns for complex creative and technical workflows.
 github_repo: xxyQwQ/GenAgent
+github_stars: 198
+last_updated: '2025-12-24'
+is_archived: false
 category: autonomous-agents
 added_date: '2025-11-05'
 verified: false

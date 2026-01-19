@@ -14,7 +14,9 @@ tags:
   - postgresql
   - docker
 github_repo: cookiecutter/cookiecutter-django
-github_stars: 13300
+github_stars: 13380
+last_updated: '2026-01-19'
+is_archived: false
 license: BSD-3-Clause
 key_features:
   - "**100% starting test coverage** (ships with tests to ensure template was generated correctly)"

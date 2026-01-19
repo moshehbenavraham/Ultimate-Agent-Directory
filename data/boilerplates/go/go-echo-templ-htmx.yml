@@ -11,7 +11,9 @@ tags:
   - tailwindcss
   - saas
 github_repo: emarifer/go-echo-templ-htmx
-github_stars: 1000
+github_stars: 290
+last_updated: '2024-06-19'
+is_archived: false
 license: MIT
 key_features:
   - CRUD operations with session-based authentication

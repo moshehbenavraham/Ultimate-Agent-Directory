@@ -16,7 +16,9 @@ tags:
   - postgresql
   - docker
 github_repo: fastapi/full-stack-fastapi-template
-github_stars: 40000
+github_stars: 40789
+last_updated: '2026-01-16'
+is_archived: false
 license: MIT
 key_features:
   - "**Automatic Client Generation**: Uses OpenAPI (Swagger) spec to automatically build TypeScript client, ensuring frontend types are always in sync with backend Pydantic models"

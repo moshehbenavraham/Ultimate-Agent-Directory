@@ -17,7 +17,9 @@ tags:
   - saas
   - postgresql
 github_repo: wasp-lang/open-saas
-github_stars: 13100
+github_stars: 13232
+last_updated: '2026-01-16'
+is_archived: false
 license: MIT
 technical_stack:
   - component: Framework

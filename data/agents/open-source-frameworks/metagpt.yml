@@ -5,6 +5,9 @@ description: A research framework that simulates the structure of a software dev
   these roles to automate software development workflows with minimal human oversight,
   ideal for autonomous software development pipeline research.
 github_repo: geekan/MetaGPT
+github_stars: 63162
+last_updated: '2025-10-04'
+is_archived: false
 category: open-source-frameworks
 added_date: '2025-11-05'
 verified: false

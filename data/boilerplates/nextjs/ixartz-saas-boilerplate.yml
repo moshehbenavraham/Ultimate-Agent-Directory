@@ -10,7 +10,9 @@ tags:
   - clerk
   - saas
 github_repo: ixartz/SaaS-Boilerplate
-github_stars: 6500
+github_stars: 6710
+last_updated: '2026-01-18'
+is_archived: false
 license: MIT
 key_features:
   - Multi-tenancy support

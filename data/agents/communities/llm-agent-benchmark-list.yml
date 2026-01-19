@@ -3,6 +3,9 @@ url: https://github.com/zhangxjohn/LLM-Agent-Benchmark-List
 description: Curated list of benchmarks and evaluation platforms specifically for
   assessing the performance and capabilities of LLM-based agents.
 github_repo: zhangxjohn/LLM-Agent-Benchmark-List
+github_stars: 155
+last_updated: '2025-09-08'
+is_archived: false
 category: communities
 added_date: '2025-11-05'
 verified: false

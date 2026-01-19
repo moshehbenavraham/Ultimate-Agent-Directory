@@ -16,7 +16,9 @@ tags:
   - postgresql
   - docker
 github_repo: nextacular/nextacular
-github_stars: 1300
+github_stars: 1341
+last_updated: '2024-06-18'
+is_archived: false
 license: MIT
 key_features:
   - Full-stack SaaS template emphasizing multi-tenancy and workspaces

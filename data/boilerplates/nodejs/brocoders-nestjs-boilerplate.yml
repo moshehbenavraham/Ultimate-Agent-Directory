@@ -8,7 +8,9 @@ tags:
   - postgresql
   - docker
 github_repo: Brocoders/nestjs-boilerplate
-github_stars: 2800
+github_stars: 4206
+last_updated: '2026-01-16'
+is_archived: false
 license: MIT
 key_features:
   - Social auth (Apple, Facebook, Google)

@@ -4,6 +4,9 @@ description: Reliable agent framework featuring Model Context Protocol (MCP) sup
   and verification layers for robust execution. Emphasizes reliability and correctness
   in agent operations with built-in verification mechanisms and error handling.
 github_repo: upsonic/upsonic
+github_stars: 7744
+last_updated: '2026-01-17'
+is_archived: false
 category: open-source-frameworks
 added_date: '2025-11-05'
 verified: false

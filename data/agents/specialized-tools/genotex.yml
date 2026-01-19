@@ -3,6 +3,9 @@ url: https://github.com/Liu-Hy/GenoTEX
 description: Benchmark for evaluating LLM agents in the domain of gene expression
   data analysis.
 github_repo: Liu-Hy/GenoTEX
+github_stars: 62
+last_updated: '2025-10-13'
+is_archived: false
 category: specialized-tools
 added_date: '2025-11-05'
 verified: false

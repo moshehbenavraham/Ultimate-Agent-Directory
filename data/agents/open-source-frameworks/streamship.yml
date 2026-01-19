@@ -5,6 +5,9 @@ description: Open-source development platform for AI Agents offering Python SDK,
   for building, deploying, and scaling AI agents with managed services and developer-friendly
   APIs.
 github_repo: steamship-core/python-client
+github_stars: 322
+last_updated: '2024-02-14'
+is_archived: false
 category: open-source-frameworks
 added_date: '2025-11-05'
 verified: false

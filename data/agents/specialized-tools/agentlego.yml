@@ -5,6 +5,9 @@ description: Tool library and integration framework providing 70+ reusable tools
   Offers standardized tool interfaces compatible with LangChain, Transformers Agents,
   and other frameworks with easy-to-use APIs and comprehensive documentation.
 github_repo: InternLM/agentlego
+github_stars: 402
+last_updated: '2024-09-13'
+is_archived: false
 category: specialized-tools
 added_date: '2025-11-05'
 verified: false

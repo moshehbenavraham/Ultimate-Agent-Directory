@@ -18,7 +18,9 @@ tags:
   - trpc
   - saas
 github_repo: JavascriptMick/supanuxt-saas
-github_stars: 522
+github_stars: 524
+last_updated: '2024-02-25'
+is_archived: false
 license: MIT
 key_features:
   - "**TRPC implementation** in Nuxt ecosystem for end-to-end type safety (bringing tRPC to Vue)"

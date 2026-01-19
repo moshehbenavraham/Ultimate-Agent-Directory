@@ -7,6 +7,9 @@ description: Open-source vision utilities library for multimodal web agents by R
   achieves 10-20% performance gains on benchmarks. Used extensively in production
   for tens of thousands of real web tasks.
 github_repo: reworkd/tarsier
+github_stars: 1750
+last_updated: '2024-11-25'
+is_archived: false
 category: browser-automation
 added_date: '2025-11-05'
 verified: false

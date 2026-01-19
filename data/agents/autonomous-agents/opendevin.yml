@@ -5,6 +5,9 @@ description: Open-source platform for developing AI-powered autonomous software 
   alternative to proprietary solutions with MIT license, enabling collaborative development
   of autonomous coding agents.
 github_repo: OpenDevin/OpenDevin
+github_stars: 66746
+last_updated: '2026-01-19'
+is_archived: false
 category: autonomous-agents
 added_date: '2025-11-05'
 verified: false

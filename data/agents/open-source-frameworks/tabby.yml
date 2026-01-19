@@ -5,6 +5,9 @@ description: Open-source, self-hosted AI coding assistant similar to GitHub Copi
   code chat, and IDE integration for building private coding assistants with full
   data control.
 github_repo: TabbyML/tabby
+github_stars: 32760
+last_updated: '2026-01-12'
+is_archived: false
 category: open-source-frameworks
 added_date: '2025-11-05'
 verified: false

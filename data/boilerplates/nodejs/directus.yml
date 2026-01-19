@@ -16,7 +16,9 @@ tags:
   - mysql
   - sqlite
 github_repo: directus/directus
-github_stars: 33700
+github_stars: 33995
+last_updated: '2026-01-18'
+is_archived: false
 license: BSL-1.1
 technical_stack:
   - component: Backend

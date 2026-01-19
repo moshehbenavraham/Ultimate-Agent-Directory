@@ -5,6 +5,9 @@ description: Framework designed to facilitate deployment of multiple LLM-based a
   for software development, social behavior research, and collaborative task completion
   with flexible agent coordination mechanisms.
 github_repo: OpenBMB/AgentVerse
+github_stars: 4912
+last_updated: '2024-09-09'
+is_archived: false
 category: open-source-frameworks
 added_date: '2025-11-05'
 verified: false

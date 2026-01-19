@@ -10,7 +10,9 @@ tags:
   - tailwindcss
   - docker
 github_repo: NetCoreTemplates/react-spa
-github_stars: 1100
+github_stars: 49
+last_updated: '2025-12-13'
+is_archived: false
 license: MIT
 key_features:
   - Authentication with ServiceStack

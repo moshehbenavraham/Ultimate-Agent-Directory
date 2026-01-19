@@ -8,6 +8,9 @@ tags:
   - stripe
   - saas
 github_repo: Glench/sveltekit-saas
+github_stars: 26
+last_updated: '2023-06-11'
+is_archived: false
 license: MIT
 key_features:
   - Auth dashboards for user management

@@ -5,6 +5,9 @@ description: Code-first agent framework from Microsoft designed for data analyti
   code. Transforms natural language requests into executable code workflows for data
   analysis and automation.
 github_repo: microsoft/TaskWeaver
+github_stars: 6097
+last_updated: '2026-01-14'
+is_archived: false
 category: autonomous-agents
 added_date: '2025-11-05'
 verified: false

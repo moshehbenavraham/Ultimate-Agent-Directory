@@ -5,6 +5,9 @@ description: AI-powered code generation framework that clarifies user requiremen
   requirement gathering and step-by-step code generation for rapid prototyping and
   development.
 github_repo: gpt-engineer-org/gpt-engineer
+github_stars: 55192
+last_updated: '2025-05-14'
+is_archived: false
 category: autonomous-agents
 added_date: '2025-11-05'
 verified: false

@@ -10,7 +10,9 @@ tags:
   - prisma
   - docker
 github_repo: epicweb-dev/epic-stack
-github_stars: 5400
+github_stars: 5523
+last_updated: '2026-01-05'
+is_archived: false
 license: MIT
 key_features:
   - Full OAuth auth with role-based permissions

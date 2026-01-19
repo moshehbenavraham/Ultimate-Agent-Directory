@@ -5,6 +5,9 @@ description: Lightweight open-source framework for building extensible and testa
   clean abstractions for building production-ready agents without unnecessary complexity
   or framework lock-in.
 github_repo: Forethought-Technologies/AutoChain
+github_stars: 1864
+last_updated: '2025-12-16'
+is_archived: false
 category: open-source-frameworks
 added_date: '2025-11-05'
 verified: false

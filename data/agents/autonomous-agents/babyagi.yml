@@ -4,6 +4,9 @@ description: A pared-down autonomous AI agent (140 lines of code) that uses Open
   and vector databases to create, prioritize, and execute tasks. It implements a simple
   task management loop powered by GPT-4 and Pinecone for memory storage.
 github_repo: yoheinakajima/babyagi
+github_stars: 22088
+last_updated: '2024-11-06'
+is_archived: false
 category: autonomous-agents
 added_date: '2025-11-05'
 verified: false

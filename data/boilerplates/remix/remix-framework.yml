@@ -9,7 +9,9 @@ tags:
   - remix
   - react
 github_repo: remix-run/remix
-github_stars: 32000
+github_stars: 32121
+last_updated: '2026-01-19'
+is_archived: false
 license: MIT
 technical_stack:
   - component: Frontend

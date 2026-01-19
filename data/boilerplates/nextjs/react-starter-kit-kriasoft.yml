@@ -13,7 +13,9 @@ tags:
   - monorepo
   - postgresql
 github_repo: kriasoft/react-starter-kit
-github_stars: 23400
+github_stars: 23462
+last_updated: '2026-01-12'
+is_archived: false
 license: MIT
 technical_stack:
   - component: Frontend

@@ -5,6 +5,9 @@ description: Framework that combines LLMs with domain-specific expert models to 
   models for complex problem-solving, bridging general language understanding with
   domain-specific expertise for enhanced task performance.
 github_repo: agiresearch/OpenAGI
+github_stars: 2237
+last_updated: '2024-11-28'
+is_archived: false
 category: open-source-frameworks
 added_date: '2025-11-05'
 verified: false

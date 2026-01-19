@@ -9,6 +9,9 @@ tags:
   - typescript
   - tailwindcss
 github_repo: laravel/react-starter-kit
+github_stars: 761
+last_updated: '2026-01-15'
+is_archived: false
 license: MIT
 key_features:
   - Official Laravel-maintained template

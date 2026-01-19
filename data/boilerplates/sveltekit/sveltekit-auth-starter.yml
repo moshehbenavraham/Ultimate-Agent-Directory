@@ -8,7 +8,9 @@ tags:
   - prisma
   - saas
 github_repo: delay/sveltekit-auth
-github_stars: 1000
+github_stars: 289
+last_updated: '2024-06-02'
+is_archived: false
 license: MIT
 key_features:
   - Lucia Auth implementation (modern auth library)

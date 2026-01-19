@@ -9,6 +9,9 @@ tags:
   - typescript
   - saas
 github_repo: nunomaduro/laravel-starter-kit
+github_stars: 769
+last_updated: '2025-10-27'
+is_archived: false
 license: MIT
 key_features:
   - 100% type coverage

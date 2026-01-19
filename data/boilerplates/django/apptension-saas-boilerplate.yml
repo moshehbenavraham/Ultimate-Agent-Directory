@@ -12,7 +12,9 @@ tags:
   - monorepo
   - postgresql
 github_repo: apptension/saas-boilerplate
-github_stars: 2800
+github_stars: 2804
+last_updated: '2025-12-31'
+is_archived: false
 license: MIT
 key_features:
   - "**Multi-tenancy**"

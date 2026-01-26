@@ -4,7 +4,7 @@ description: LLM-based agent designed to control real-world applications by inte
   with RESTful APIs. Enables agents to interact with web services and APIs for practical
   task execution, bridging LLM capabilities with real-world application integration.
 github_repo: Yifan-Song793/RestGPT
-github_stars: 1388
+github_stars: 1389
 last_updated: '2024-06-07'
 is_archived: false
 category: open-source-frameworks

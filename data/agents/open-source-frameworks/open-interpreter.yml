@@ -5,7 +5,7 @@ description: Open-source coding agent that enables language models to execute co
   language interface for code execution, file manipulation, and system operations,
   functioning as a local alternative to ChatGPT's Code Interpreter.
 github_repo: OpenInterpreter/open-interpreter
-github_stars: 61707
+github_stars: 61817
 last_updated: '2025-12-05'
 is_archived: false
 category: open-source-frameworks

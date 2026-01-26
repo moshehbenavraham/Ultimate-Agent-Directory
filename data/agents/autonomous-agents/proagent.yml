@@ -4,7 +4,7 @@ description: LLM-based agent framework designed for agentic process automation (
   in enterprise workflows. Focuses on automating complex business processes through
   intelligent agent orchestration.
 github_repo: OpenBMB/ProAgent
-github_stars: 858
+github_stars: 857
 last_updated: '2023-12-27'
 is_archived: false
 category: autonomous-agents

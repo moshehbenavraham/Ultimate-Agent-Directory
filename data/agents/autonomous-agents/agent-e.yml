@@ -4,7 +4,7 @@ description: Browser-focused automation agent built on AutoGen, designed to hand
   computer actions via AI. Specializes in web-based task automation with autonomous
   browser control capabilities.
 github_repo: EmergenceAI/Agent-E
-github_stars: 1200
+github_stars: 1204
 last_updated: '2025-06-03'
 is_archived: false
 category: autonomous-agents

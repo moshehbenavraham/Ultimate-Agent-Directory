@@ -5,7 +5,7 @@ description: Comprehensive benchmark for evaluating LLM agents on tool usage and
   metrics, and test scenarios covering tool selection, parameter filling, and multi-step
   tool orchestration.
 github_repo: OpenBMB/ToolBench
-github_stars: 5475
+github_stars: 5497
 last_updated: '2025-05-21'
 is_archived: false
 category: specialized-tools

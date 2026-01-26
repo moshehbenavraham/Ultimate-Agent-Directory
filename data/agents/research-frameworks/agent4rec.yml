@@ -5,7 +5,7 @@ description: A recommender system simulator that utilizes 1,000 LLM-empowered ge
   research environment for studying agent-based recommendation algorithms and user
   behavior modeling.
 github_repo: LehengTHU/Agent4Rec
-github_stars: 450
+github_stars: 451
 last_updated: '2024-07-07'
 is_archived: false
 category: research-frameworks

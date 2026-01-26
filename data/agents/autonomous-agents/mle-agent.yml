@@ -4,7 +4,7 @@ description: Intelligent agent for AI engineering and research, integrating with
   like arXiv and code repositories to assist in planning and execution. Specializes
   in machine learning engineering workflows and research project automation.
 github_repo: MLSysOps/MLE-agent
-github_stars: 1501
+github_stars: 1507
 last_updated: '2025-07-27'
 is_archived: false
 category: autonomous-agents

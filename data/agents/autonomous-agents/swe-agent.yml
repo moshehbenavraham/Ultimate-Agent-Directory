@@ -5,8 +5,8 @@ description: Software engineering agent that turns language models (like GPT-4) 
   Designed to autonomously diagnose, debug, and patch software issues with minimal
   human intervention.
 github_repo: princeton-nlp/swe-agent
-github_stars: 18281
-last_updated: '2026-01-12'
+github_stars: 18324
+last_updated: '2026-01-19'
 is_archived: false
 category: autonomous-agents
 added_date: '2025-11-05'

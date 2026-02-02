@@ -4,7 +4,7 @@ description: Autonomous Large Language Model agent specialized in solving comple
   tasks through autonomous planning and tool usage. Features sophisticated task decomposition
   and execution capabilities for handling multi-step technical challenges.
 github_repo: OpenBMB/XAgent
-github_stars: 8488
+github_stars: 8491
 last_updated: '2024-08-12'
 is_archived: false
 category: autonomous-agents

@@ -5,7 +5,7 @@ description: Microsoft's open-source framework for creating multi-agent AI appli
   agents and multi-agent collaboration, enabling agents to generate, fix, and run
   code while facilitating cooperation among multiple agents to solve complex tasks.
 github_repo: microsoft/autogen
-github_stars: 53895
+github_stars: 54135
 last_updated: '2026-01-22'
 is_archived: false
 category: open-source-frameworks

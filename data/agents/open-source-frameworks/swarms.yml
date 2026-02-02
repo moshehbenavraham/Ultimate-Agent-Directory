@@ -5,8 +5,8 @@ description: Enterprise-grade open-source framework designed for scaling hierarc
   managing large-scale multi-agent systems with hierarchical coordination, task distribution,
   and centralized monitoring for production deployments.
 github_repo: kyegomez/swarms
-github_stars: 5645
-last_updated: '2026-01-22'
+github_stars: 5676
+last_updated: '2026-01-30'
 is_archived: false
 category: open-source-frameworks
 added_date: '2025-11-05'

@@ -5,8 +5,8 @@ description: Multi-agent framework, runtime and control plane built for speed, p
   retrieval, memory management, and best-in-class Model Context Protocol (MCP) support
   for enterprise-ready agent applications.
 github_repo: agno-agi/agno
-github_stars: 37180
-last_updated: '2026-01-24'
+github_stars: 37439
+last_updated: '2026-02-02'
 is_archived: false
 category: open-source-frameworks
 added_date: '2025-11-05'

@@ -4,7 +4,7 @@ description: A dev-first open-source autonomous AI agent framework enabling deve
   to build, manage, and run useful autonomous agents quickly and reliably. Features
   include graphical UI, action console, multiple vector DBs, and performance telemetry.
 github_repo: TransformerOptimus/SuperAGI
-github_stars: 17114
+github_stars: 17143
 last_updated: '2025-01-22'
 is_archived: false
 category: autonomous-agents

@@ -5,7 +5,7 @@ description: Multi-agent virtual software company framework that uses agents in 
   natural language ideas. Implements collaborative development processes with specialized
   agent roles for complete software creation.
 github_repo: OpenBMB/ChatDev
-github_stars: 29000
+github_stars: 29163
 last_updated: '2026-01-22'
 is_archived: false
 category: autonomous-agents

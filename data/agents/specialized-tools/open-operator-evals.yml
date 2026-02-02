@@ -4,7 +4,7 @@ description: Open-source benchmark framework for evaluating web operators and ag
   on their ability to complete web tasks. Provides transparent, reproducible performance
   evaluations with WebVoyager30 benchmark dataset covering 30 diverse web tasks.
 github_repo: nottelabs/open-operator-evals
-github_stars: 45
+github_stars: 46
 last_updated: '2025-04-11'
 is_archived: false
 category: specialized-tools

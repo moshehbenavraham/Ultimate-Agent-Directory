@@ -8,8 +8,8 @@ tags:
   - postgresql
   - docker
 github_repo: Brocoders/nestjs-boilerplate
-github_stars: 4213
-last_updated: '2026-01-23'
+github_stars: 4224
+last_updated: '2026-01-30'
 is_archived: false
 license: MIT
 key_features:

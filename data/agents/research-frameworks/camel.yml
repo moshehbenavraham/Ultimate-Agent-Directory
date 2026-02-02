@@ -5,8 +5,8 @@ description: A research framework that introduces agents that role-play to solve
   roles (user, assistant) and drive problem-solving through dialogue, with implications
   for training, simulations, and AI alignment research.
 github_repo: camel-ai/camel
-github_stars: 15787
-last_updated: '2026-01-25'
+github_stars: 15904
+last_updated: '2026-02-01'
 is_archived: false
 category: research-frameworks
 added_date: '2025-11-05'

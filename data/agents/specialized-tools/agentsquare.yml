@@ -4,7 +4,7 @@ description: Modular benchmark and development platform for evaluating and build
   LLM agents. Features customizable evaluation pipelines, standardized metrics, and
   tooling for systematic agent testing across reasoning, planning, and execution capabilities.
 github_repo: tsinghua-fib-lab/AgentSquare
-github_stars: 215
+github_stars: 217
 last_updated: '2025-11-04'
 is_archived: false
 category: specialized-tools

@@ -6,8 +6,8 @@ description: Production-ready platform for integrating AI agents with 250+ exter
   Gmail, and developer tools. Features managed authentication, rate limiting, and
   comprehensive SDKs for all major agent frameworks.
 github_repo: ComposioHQ/composio
-github_stars: 26474
-last_updated: '2026-02-01'
+github_stars: 26531
+last_updated: '2026-02-07'
 is_archived: false
 category: specialized-tools
 added_date: '2025-11-05'

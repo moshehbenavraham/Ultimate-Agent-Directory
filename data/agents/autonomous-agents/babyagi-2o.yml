@@ -5,7 +5,7 @@ description: The simplest self-building autonomous agent that iteratively builds
   creates Python functions as tools and can handle complex tasks like web scraping
   and image analysis.
 github_repo: yoheinakajima/babyagi-2o
-github_stars: 332
+github_stars: 334
 last_updated: '2024-10-19'
 is_archived: false
 category: autonomous-agents

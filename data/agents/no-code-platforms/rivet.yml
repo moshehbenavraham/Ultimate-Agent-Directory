@@ -5,8 +5,8 @@ description: An open-source visual AI programming environment and IDE from Ironc
   and prompt chains. Rivet provides a node-based interface for building sophisticated
   agent workflows with real-time debugging and version control capabilities.
 github_repo: Ironclad/rivet
-github_stars: 4456
-last_updated: '2025-10-09'
+github_stars: 4461
+last_updated: '2026-02-05'
 is_archived: false
 category: no-code-platforms
 added_date: '2025-11-05'

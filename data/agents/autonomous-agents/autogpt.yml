@@ -4,8 +4,8 @@ description: A pioneering open-source autonomous AI agent that can perform compl
   tasks independently using GPT-4. It can create subtasks, launch new agents, write
   its own code, and recursively debug and improve itself with minimal human intervention.
 github_repo: Significant-Gravitas/AutoGPT
-github_stars: 181619
-last_updated: '2026-02-02'
+github_stars: 181735
+last_updated: '2026-02-09'
 is_archived: false
 category: autonomous-agents
 added_date: '2025-11-05'

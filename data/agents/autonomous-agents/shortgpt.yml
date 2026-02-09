@@ -4,7 +4,7 @@ description: Experimental framework for automating short-form video content crea
   using AI models. Autonomously generates, edits, and produces video content with
   minimal human direction.
 github_repo: RayVentura/ShortGPT
-github_stars: 7063
+github_stars: 7076
 last_updated: '2025-02-10'
 is_archived: false
 category: autonomous-agents

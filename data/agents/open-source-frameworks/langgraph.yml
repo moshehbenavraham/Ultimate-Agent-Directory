@@ -5,8 +5,8 @@ description: A specialized framework within the LangChain ecosystem for building
   workflows with persistent memory and human-in-the-loop capabilities, trusted by
   companies like Klarna, Uber, and GitLab.
 github_repo: langchain-ai/langgraph
-github_stars: 24096
-last_updated: '2026-02-01'
+github_stars: 24458
+last_updated: '2026-02-08'
 is_archived: false
 category: open-source-frameworks
 added_date: '2025-11-05'

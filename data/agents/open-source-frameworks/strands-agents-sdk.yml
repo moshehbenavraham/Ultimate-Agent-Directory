@@ -5,8 +5,8 @@ description: AWS's toolkit for building AI agents that integrate with Amazon Bed
   OpenTelemetry tracing and native AWS integrations, designed for enterprise-grade
   agent development in cloud environments.
 github_repo: strands-agents/sdk-python
-github_stars: 5006
-last_updated: '2026-01-30'
+github_stars: 5064
+last_updated: '2026-02-06'
 is_archived: false
 category: open-source-frameworks
 added_date: '2025-11-05'

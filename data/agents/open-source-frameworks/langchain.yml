@@ -5,8 +5,8 @@ description: A foundational framework for building context-aware reasoning appli
   prompts, integrating external tools, and managing conversational memory, making
   it suitable for production-grade LLM applications and autonomous agents.
 github_repo: langchain-ai/langchain
-github_stars: 125656
-last_updated: '2026-02-02'
+github_stars: 126269
+last_updated: '2026-02-08'
 is_archived: false
 category: open-source-frameworks
 added_date: '2025-11-05'

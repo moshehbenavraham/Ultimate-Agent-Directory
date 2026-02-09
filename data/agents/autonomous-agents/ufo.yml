@@ -4,8 +4,8 @@ description: UI-focused agent from Microsoft designed to interact with and autom
   tasks within the Windows OS environment. Enables autonomous control of Windows applications
   through intelligent UI understanding and interaction.
 github_repo: microsoft/UFO
-github_stars: 7987
-last_updated: '2026-01-06'
+github_stars: 8004
+last_updated: '2026-02-05'
 is_archived: false
 category: autonomous-agents
 added_date: '2025-11-05'

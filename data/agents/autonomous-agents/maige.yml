@@ -5,7 +5,7 @@ description: A research-focused codebase agent that runs when new issues and pul
   sandboxes, and write basic code, serving as a research tool for automated software
   development and code analysis.
 github_repo: RubricLab/maige
-github_stars: 102
+github_stars: 101
 last_updated: '2026-01-31'
 is_archived: false
 category: autonomous-agents

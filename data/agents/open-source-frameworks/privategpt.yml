@@ -5,7 +5,7 @@ description: Open-source tool for querying documents using LLMs in a secure, off
   documents using AI without internet connectivity, keeping all data local and secure
   for privacy-sensitive applications.
 github_repo: imartinez/privateGPT
-github_stars: 57103
+github_stars: 57109
 last_updated: '2024-11-13'
 is_archived: false
 category: open-source-frameworks

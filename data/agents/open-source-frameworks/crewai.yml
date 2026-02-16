@@ -5,8 +5,8 @@ description: A lean, standalone framework for orchestrating role-playing, autono
   agents with distinct roles and goals, optimized for speed and performance while
   being completely independent of other agent frameworks.
 github_repo: crewAIInc/crewAI
-github_stars: 43819
-last_updated: '2026-02-09'
+github_stars: 44162
+last_updated: '2026-02-16'
 is_archived: false
 category: open-source-frameworks
 added_date: '2025-11-05'

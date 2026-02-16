@@ -5,8 +5,8 @@ description: A reliable agent framework built on top of OpenAI Assistants API fo
   Swarm provides customizable agent roles, full control over prompts, and type-safe
   tools with automatic validation and error correction.
 github_repo: VRSEN/agency-swarm
-github_stars: 3947
-last_updated: '2026-02-07'
+github_stars: 3956
+last_updated: '2026-02-16'
 is_archived: false
 category: open-source-frameworks
 added_date: '2025-11-05'

@@ -6,8 +6,8 @@ description: An open-source AI orchestration framework by deepset for building p
   databases, and file converters into customizable pipelines for working with large
   document collections.
 github_repo: deepset-ai/haystack
-github_stars: 24126
-last_updated: '2026-02-06'
+github_stars: 24202
+last_updated: '2026-02-13'
 is_archived: false
 category: open-source-frameworks
 added_date: '2025-11-05'

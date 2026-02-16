@@ -4,8 +4,8 @@ description: Multi-agent workflow tool with YAML and programmatic support, inclu
   human-in-the-loop capabilities. Enables declarative agent workflow definition with
   configuration-driven approach for building complex multi-agent systems.
 github_repo: phil65/llmling-agent
-github_stars: 76
-last_updated: '2026-02-07'
+github_stars: 89
+last_updated: '2026-02-16'
 is_archived: false
 category: open-source-frameworks
 added_date: '2025-11-05'

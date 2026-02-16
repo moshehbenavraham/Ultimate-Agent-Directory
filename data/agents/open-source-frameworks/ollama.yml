@@ -5,8 +5,8 @@ description: Popular tool for running large language models (Llama 3, Mistral, G
   and Linux with easy model management, REST API, and integration with development
   tools for local LLM deployment.
 github_repo: ollama/ollama
-github_stars: 162189
-last_updated: '2026-02-07'
+github_stars: 162669
+last_updated: '2026-02-15'
 is_archived: false
 category: open-source-frameworks
 added_date: '2025-11-05'

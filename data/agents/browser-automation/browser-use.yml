@@ -6,8 +6,8 @@ description: An open-source library that empowers AI agents to interact with web
   fill forms, and perform complex web interactions without requiring specific selectors
   or manual configuration.
 github_repo: browser-use/browser-use
-github_stars: 78039
-last_updated: '2026-02-09'
+github_stars: 78408
+last_updated: '2026-02-14'
 is_archived: false
 category: browser-automation
 added_date: '2025-11-05'

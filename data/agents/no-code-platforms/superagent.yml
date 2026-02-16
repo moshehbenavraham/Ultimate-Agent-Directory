@@ -5,7 +5,7 @@ description: An open-source framework for constructing AI assistants and agents 
   superagent provides modular architecture for building production-ready AI agents
   with tool integration and workflow orchestration.
 github_repo: homanp/superagent
-github_stars: 6406
+github_stars: 6407
 last_updated: '2026-02-03'
 is_archived: false
 category: no-code-platforms

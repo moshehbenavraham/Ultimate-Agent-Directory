@@ -5,7 +5,7 @@ description: Library for multi-agent language game environments used by research
   standardized environments for evaluating multi-agent communication, cooperation,
   and competition in conversational settings.
 github_repo: Farama-Foundation/chatarena
-github_stars: 1535
+github_stars: 1540
 last_updated: '2025-08-11'
 is_archived: false
 category: open-source-frameworks

@@ -5,8 +5,8 @@ description: Framework for building AI agents with memory, tools, and production
   principles, featuring structured outputs, knowledge bases, and seamless integration
   with popular LLM providers for building production-ready agentic systems.
 github_repo: phidatahq/phidata
-github_stars: 37679
-last_updated: '2026-02-09'
+github_stars: 37865
+last_updated: '2026-02-16'
 is_archived: false
 category: open-source-frameworks
 added_date: '2025-11-05'

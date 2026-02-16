@@ -4,8 +4,8 @@ description: Open-source framework for building and evaluating autonomous data l
   agents. Enables creation of AI agents that can label, process, and improve data
   quality autonomously with feedback loops and continuous learning capabilities.
 github_repo: HumanSignal/Adala
-github_stars: 1356
-last_updated: '2026-02-06'
+github_stars: 1360
+last_updated: '2026-02-13'
 is_archived: false
 category: open-source-frameworks
 added_date: '2025-11-05'

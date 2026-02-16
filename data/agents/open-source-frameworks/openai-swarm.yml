@@ -5,7 +5,7 @@ description: Lightweight, experimental open-source framework from OpenAI for mul
   multi-agent coordination patterns using OpenAI's Chat Completions API, designed
   for educational purposes and research into agent interaction patterns.
 github_repo: openai/swarm
-github_stars: 20930
+github_stars: 20960
 last_updated: '2025-03-11'
 is_archived: false
 category: open-source-frameworks

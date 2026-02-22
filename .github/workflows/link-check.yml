@@ -3,7 +3,7 @@ name: Link Checker
 # Run weekly on Sundays at midnight UTC, on PRs, or manually via workflow_dispatch
 on:
   schedule:
-    - cron: '0 0 * * 0'  # Every Sunday at 00:00 UTC
+    - cron: '0 0 1,15 * *'  # Bi-weekly on 1st and 15th
   workflow_dispatch:  # Allow manual triggering from GitHub UI
   pull_request:  # Run on PRs that modify data files or docs
     paths:

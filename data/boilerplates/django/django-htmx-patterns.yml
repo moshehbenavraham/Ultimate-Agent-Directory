@@ -6,7 +6,7 @@ type: boilerplate
 tags:
   - django
 github_repo: spookylukey/django-htmx-patterns
-github_stars: 1045
+github_stars: 1049
 last_updated: '2026-01-11'
 is_archived: false
 license: Public Domain

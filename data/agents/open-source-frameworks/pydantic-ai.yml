@@ -5,8 +5,8 @@ description: A Python agent framework that brings Pydantic's famous type safety 
   type-safe, well-structured agent development with automatic validation and error
   handling.
 github_repo: pydantic/pydantic-ai
-github_stars: 14903
-last_updated: '2026-02-16'
+github_stars: 15148
+last_updated: '2026-02-27'
 is_archived: false
 category: open-source-frameworks
 added_date: '2025-11-05'

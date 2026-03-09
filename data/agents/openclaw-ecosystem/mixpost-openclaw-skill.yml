@@ -1,0 +1,15 @@
+name: Mixpost OpenClaw Skill
+url: https://mixpost.app/blog/openclaw-skill
+description: Official Mixpost integration skill for OpenClaw, enabling AI-driven social media scheduling, publishing, and analytics management directly from your OpenClaw agent. Installable via ClawHub in one command.
+last_updated: '2026-03-09'
+is_archived: false
+category: openclaw-ecosystem
+added_date: '2026-03-09'
+verified: false
+type: integration
+tags:
+  - social-media
+  - mixpost
+  - scheduling
+  - clawhub
+  - integration

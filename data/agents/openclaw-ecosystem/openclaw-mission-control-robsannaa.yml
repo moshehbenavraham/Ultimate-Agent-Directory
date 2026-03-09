@@ -1,0 +1,16 @@
+name: OpenClaw Mission Control GUI (robsannaa)
+url: https://github.com/robsannaa/openclaw-mission-control
+description: A no-CLI GUI that runs on your OpenClaw host for non-technical users. Fully manages OpenClaw without touching the terminal — deployable on agentbay.space for a hosted experience.
+github_repo: robsannaa/openclaw-mission-control
+last_updated: '2026-03-09'
+is_archived: false
+category: openclaw-ecosystem
+added_date: '2026-03-09'
+verified: false
+type: tool
+tags:
+  - gui
+  - no-code
+  - dashboard
+  - self-hosted
+  - beginner-friendly

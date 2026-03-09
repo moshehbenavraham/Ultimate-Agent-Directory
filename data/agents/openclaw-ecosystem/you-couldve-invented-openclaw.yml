@@ -1,0 +1,15 @@
+name: "You Could've Invented OpenClaw (dabit3 Essay)"
+url: https://gist.github.com/dabit3/bc60d3bea0b02927995cd9bf53c3db32
+description: Influential community essay by dabit3 (Nader Dabit) that reverse-engineers OpenClaw's architecture from first principles. Explains the plugin channel adapter pattern, persistent memory model, and skill system — widely shared as the clearest architectural explainer in the ecosystem.
+last_updated: '2026-03-09'
+is_archived: false
+category: openclaw-ecosystem
+added_date: '2026-03-09'
+verified: false
+type: community
+tags:
+  - essay
+  - architecture
+  - explainer
+  - community
+  - learning

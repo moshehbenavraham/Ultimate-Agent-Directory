@@ -1,0 +1,15 @@
+name: OpenClaw Launch
+url: https://openclawlaunch.com
+description: Independent community site with guides, tutorials, and deep-dives on deploying and using OpenClaw. Notable for its ClawHub guide, multi-channel setup walkthroughs, and skill discovery content aimed at new users.
+last_updated: '2026-03-09'
+is_archived: false
+category: openclaw-ecosystem
+added_date: '2026-03-09'
+verified: false
+type: community
+tags:
+  - guides
+  - tutorials
+  - community
+  - clawhub
+  - getting-started

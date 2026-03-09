@@ -1,0 +1,17 @@
+name: OpenClaw Railway Template (arjunkomath)
+url: https://github.com/arjunkomath/openclaw-railway-template
+description: One-click Railway deploy template for OpenClaw with a web-based setup wizard, environment variable configuration for AI providers, and built-in web TUI. Deploy in under 2 minutes without managing servers.
+github_repo: arjunkomath/openclaw-railway-template
+last_updated: '2026-03-09'
+is_archived: false
+category: openclaw-ecosystem
+added_date: '2026-03-09'
+verified: false
+type: template
+tags:
+  - railway
+  - deploy
+  - one-click
+  - docker
+  - hosting
+  - devops

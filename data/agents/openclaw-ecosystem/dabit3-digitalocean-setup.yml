@@ -1,0 +1,16 @@
+name: How to Set Up OpenClaw on DigitalOcean (dabit3)
+url: https://gist.github.com/dabit3/42cce744beaa6a0d47d6a6783e443636
+description: Concise community gist by Nader Dabit (dabit3) covering end-to-end OpenClaw deployment on a DigitalOcean droplet. A frequently referenced setup reference for VPS self-hosting.
+last_updated: '2026-03-09'
+is_archived: false
+category: openclaw-ecosystem
+added_date: '2026-03-09'
+verified: false
+type: template
+tags:
+  - digitalocean
+  - vps
+  - self-hosted
+  - setup
+  - community
+  - devops

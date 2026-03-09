@@ -1,0 +1,19 @@
+name: openclaw-agents (will-assistant)
+url: https://github.com/will-assistant/openclaw-agents
+description: 217 drop-in agent personas for OpenClaw, each with a complete SOUL.md,
+  IDENTITY.md, AGENTS.md, and examples.md. Categories include Sci-Fi, Historical,
+  Coding (DevClaw, ShipIt, Nitpick, Sage, Trace), Professional, Musicians, Politicians,
+  and more. Install with `./install.sh <agent-name>` using fuzzy matching.
+github_repo: will-assistant/openclaw-agents
+last_updated: '2026-03-09'
+is_archived: false
+category: openclaw-ecosystem
+added_date: '2026-03-09'
+verified: false
+type: tool
+tags:
+  - personas
+  - soul-md
+  - templates
+  - openclaw
+  - multi-agent

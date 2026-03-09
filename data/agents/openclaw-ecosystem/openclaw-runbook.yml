@@ -1,0 +1,20 @@
+name: OpenClaw Runbook (digitalknk)
+url: https://github.com/digitalknk/openclaw-runbook
+description: Community production playbook for running OpenClaw long-term. Includes
+  annotated spawning patterns, heartbeat templates, a sanitized openclaw.json config,
+  skill-builder prompts, security hardening guide, and copy-paste showcase workflows
+  (daily brief, idea pipeline, LinkedIn drafter, homelab access, agent orchestrator).
+  The closest thing to an official community ops manual.
+github_repo: digitalknk/openclaw-runbook
+last_updated: '2026-03-09'
+is_archived: false
+category: openclaw-ecosystem
+added_date: '2026-03-09'
+verified: false
+type: tool
+tags:
+  - runbook
+  - production
+  - multi-agent
+  - openclaw
+  - templates

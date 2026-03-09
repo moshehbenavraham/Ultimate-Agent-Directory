@@ -1,0 +1,17 @@
+id: openclaw-ecosystem
+title: OpenClaw Ecosystem
+emoji: "🦞"
+description: >
+  OpenClaw is an open-source personal AI gateway that connects LLMs to your messaging
+  channels (Telegram, WhatsApp, Discord, Slack, Signal) with persistent memory, multi-agent
+  routing, cron automation, and a skill ecosystem. This category covers the platform itself,
+  its skill/persona registries, community agent templates, workspace starters, and tooling
+  built around the OpenClaw runtime.
+
+order: 11
+show_github_stats: true
+
+table_columns:
+  - name
+  - url
+  - description

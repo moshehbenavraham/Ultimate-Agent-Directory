@@ -1,0 +1,20 @@
+name: MetaClaw
+url: https://github.com/mverab/metaclaw
+description: An OpenClaw skill that generates entire multi-agent setups from a plain-English
+  description. Describe your use case, answer 4–6 clarifying questions, and it outputs
+  every file — SOUL.md, AGENTS.md, MEMORY.md, openclaw.json, and skill files — with
+  step-by-step install docs. Ships with 80+ tool knowledge base, 5 multi-agent architecture
+  patterns (Pipeline, Hub-and-Spoke, Autonomous Loop, Human-in-Loop, Supervisor),
+  and Docker Compose for isolated testing.
+github_repo: mverab/metaclaw
+last_updated: '2026-03-09'
+is_archived: false
+category: openclaw-ecosystem
+added_date: '2026-03-09'
+verified: false
+type: tool
+tags:
+  - multi-agent
+  - generator
+  - openclaw
+  - scaffolding

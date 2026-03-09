@@ -1,0 +1,19 @@
+name: openclaw-agents 9-Agent Kit (shenhao-stu)
+url: https://github.com/shenhao-stu/openclaw-agents
+description: One-command deployment kit for a 9-agent OpenClaw team — Planner, Ideator,
+  Critic, Surveyor, Coder, Writer, Reviewer, Scout, and Main. Each agent has its own
+  workspace with soul.md, agent.md, and user.md. Supports channel mode (Feishu/WhatsApp/
+  Telegram/Discord) and local workflow mode via agentToAgent. Includes 4 workflow
+  templates — Paper Pipeline, Daily Digest, Brainstorm, and Rebuttal.
+github_repo: shenhao-stu/openclaw-agents
+last_updated: '2026-03-09'
+is_archived: false
+category: openclaw-ecosystem
+added_date: '2026-03-09'
+verified: false
+type: tool
+tags:
+  - multi-agent
+  - templates
+  - openclaw
+  - team

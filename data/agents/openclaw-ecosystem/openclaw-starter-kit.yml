@@ -1,0 +1,20 @@
+name: OpenClaw Starter Kit (jeffweisbein)
+url: https://github.com/jeffweisbein/openclaw-starter-kit
+description: Battle-tested workspace template for OpenClaw with a pre-configured
+  multi-agent squad — content-agent, dev-agent, and research-agent, each with dedicated
+  SOUL.md files. Includes a shared/ directory read by all agents at startup, an intel/
+  strategic radar folder, SQUAD.md multi-agent setup guide, policies.json for auto-approve
+  rules, and reaction-matrix.json for emergent agent-to-agent event triggers.
+github_repo: jeffweisbein/openclaw-starter-kit
+last_updated: '2026-03-09'
+is_archived: false
+category: openclaw-ecosystem
+added_date: '2026-03-09'
+verified: false
+type: tool
+tags:
+  - starter-kit
+  - multi-agent
+  - templates
+  - openclaw
+  - workspace

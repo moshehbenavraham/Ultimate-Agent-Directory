@@ -1,0 +1,20 @@
+name: a2a-adapter (hybroai)
+url: https://github.com/hybroai/a2a-adapter
+description: Python library that wraps any OpenClaw agent as a standard A2A Protocol
+  server, enabling OpenClaw agents to participate in LangGraph, CrewAI, n8n, or
+  LangChain multi-agent pipelines. Each agent runs on its own port, all speaking
+  the same HTTP interface. Bridges OpenClaw with the broader agent ecosystem.
+github_repo: hybroai/a2a-adapter
+last_updated: '2026-03-09'
+is_archived: false
+category: openclaw-ecosystem
+added_date: '2026-03-09'
+verified: false
+type: tool
+tags:
+  - interoperability
+  - a2a-protocol
+  - openclaw
+  - langchain
+  - crewai
+  - n8n

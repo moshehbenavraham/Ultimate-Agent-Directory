@@ -1,0 +1,19 @@
+name: Lobster (OpenClaw Workflow Engine)
+url: https://github.com/openclaw/lobster
+description: Deterministic workflow runtime for OpenClaw. Enables multi-step pipelines
+  with conditional logic, loops, and parallel execution inside an OpenClaw agent.
+  Complements the LLM-driven sub-agent model with structured, predictable orchestration.
+  Used for coding pipelines (programmer → reviewer → tester) and other deterministic
+  multi-agent flows.
+github_repo: openclaw/lobster
+last_updated: '2026-03-09'
+is_archived: false
+category: openclaw-ecosystem
+added_date: '2026-03-09'
+verified: true
+type: framework
+tags:
+  - workflow
+  - orchestration
+  - openclaw
+  - deterministic

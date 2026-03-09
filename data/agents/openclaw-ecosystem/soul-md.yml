@@ -1,0 +1,16 @@
+name: soul.md
+url: https://github.com/aaronjmars/soul.md
+description: Methodology and templates for building AI agent identity and personality. Lets Claude Code or OpenClaw ingest your data and generate a SOUL.md file that gives your agent a coherent, persistent persona.
+github_repo: aaronjmars/soul.md
+last_updated: '2026-03-09'
+is_archived: false
+category: openclaw-ecosystem
+added_date: '2026-03-09'
+verified: true
+type: tool
+tags:
+  - openclaw
+  - agent-identity
+  - soul
+  - persona
+  - templates

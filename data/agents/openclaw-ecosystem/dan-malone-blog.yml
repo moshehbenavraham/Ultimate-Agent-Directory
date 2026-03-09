@@ -1,0 +1,16 @@
+name: Dan Malone - OpenClaw Multi-Agent Blog
+url: https://www.dan-malone.com/blog/building-a-multi-agent-ai-team-in-a-telegram-forum
+description: Blog series by AI integration expert Dan Malone covering how to build persistent multi-agent AI teams with OpenClaw and Telegram, including heartbeat-driven automation, SOUL.md-based control planes, and Home Assistant integration.
+last_updated: '2026-03-09'
+is_archived: false
+category: openclaw-ecosystem
+added_date: '2026-03-09'
+verified: true
+type: tutorial
+tags:
+  - openclaw
+  - multi-agent
+  - telegram
+  - tutorial
+  - heartbeat
+  - home-assistant

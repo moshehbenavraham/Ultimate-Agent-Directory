@@ -29,6 +29,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 8. [[BA] Browser Automation Agents](#browser-automation)
 9. [[CA] Coding Assistant Agents](#coding-assistants)
 10. [[EP] Enterprise Agent Platforms](#enterprise-platforms)
+11. [[OC] OpenClaw Ecosystem](#openclaw-ecosystem)
 
 ---
 
@@ -446,6 +447,31 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **WorkFusion** | [Link](https://www.workfusion.com/) | An enterprise platform providing pre-built, regulatory-ready AI agents for financial services with specialization in Anti-Money Laundering (AML) and Know Your Customer (KYC) compliance workflows. Features industry-specific agents designed to meet regulatory requirements while automating complex financial processes. |
 | **Yellow.ai** | [Link](https://yellow.ai/) | An enterprise-grade AI agent platform featuring an intuitive bot builder with pre-built templates and flows. Designed for high scalability in customer and employee support scenarios with multi-channel deployment capabilities and comprehensive analytics for agent performance monitoring. |
 
+
+---
+
+## [OC] OpenClaw Ecosystem
+
+> Tools, skills, tutorials, and community resources for OpenClaw — the open-source self-hosted AI agent platform supporting WhatsApp, Telegram, Discord, Slack, and 50+ integrations.
+
+| Resource | Link | Description |
+|----------|------|-------------|
+| **OpenClaw** | [Link](https://github.com/openclaw/openclaw) | The core OpenClaw gateway: self-hosted AI agent runtime with multi-channel support, skills, and Lobster workflow engine. |
+| **ClawHub** | [Link](https://clawhub.io) | Community hub and skills registry for OpenClaw agents. |
+| **awesome-openclaw (SamurAIGPT)** | [Link](https://github.com/SamurAIGPT/awesome-openclaw) | Curated list of OpenClaw resources, tools, skills, tutorials, and articles. |
+| **awesome-openclaw-skills** | [Link](https://github.com/VoltAgent/awesome-openclaw-skills) | 5,400+ OpenClaw skills filtered and categorized from the official Skills Registry. |
+| **awesome-openclaw-usecases** | [Link](https://github.com/hesamsheikh/awesome-openclaw-usecases) | Community-curated collection of real-world OpenClaw use cases. |
+| **soul.md** | [Link](https://github.com/aaronjmars/soul.md) | SOUL.md methodology and templates for building persistent AI agent identity and personality. |
+| **openclaw-setup** | [Link](https://github.com/amanaiproduct/openclaw-setup) | Hardened setup prompt and configuration guide for OpenClaw on macOS. |
+| **openclaw-lobster** | [Link](https://github.com/openclaw/lobster) | Lobster workflow engine: typed, local-first macro engine for composable OpenClaw pipelines. |
+| **openclaw-starter-kit** | [Link](https://github.com/openclaw/openclaw-starter-kit) | Official starter kit for bootstrapping an OpenClaw agent deployment. |
+| **LumaDock Tutorials** | [Link](https://lumadock.com/tutorials/openclaw-multi-agent-setup) | In-depth tutorial site covering multi-agent setup, coordination patterns, and CLI/config reference. |
+| **Dan Malone Blog** | [Link](https://www.dan-malone.com/blog/building-a-multi-agent-ai-team-in-a-telegram-forum) | Practical multi-agent AI team guides with OpenClaw, Telegram, and heartbeat-driven automation. |
+| **Aman Khan Substack** | [Link](https://amankhan1.substack.com/p/how-to-get-clawdbotmoltbotopenclaw) | Setup and security hardening guides for OpenClaw on Substack. |
+| **DEV.to: Lobster Pipeline** | [Link](https://dev.to/ggondim/how-i-built-a-deterministic-multi-agent-dev-pipeline-inside-openclaw-and-contributed-a-missing-4ool) | Technical deep-dive on building a deterministic multi-agent dev pipeline with Lobster. |
+| **OpenClaw Runbook** | [Link](https://github.com/openclaw/openclaw-runbook) | Official operational runbook for OpenClaw deployments. |
+| **ClawTeam** | [Link](https://github.com/openclaw/clawteam) | Multi-agent team coordination toolkit for OpenClaw. |
+| **MetaClaw** | [Link](https://github.com/openclaw/metaclaw) | Meta-agent layer for OpenClaw orchestration and agent-of-agents workflows. |
 
 ---
 

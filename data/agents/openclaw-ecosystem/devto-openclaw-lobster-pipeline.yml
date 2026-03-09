@@ -1,0 +1,16 @@
+name: "DEV.to: Deterministic Multi-Agent Dev Pipeline with OpenClaw & Lobster"
+url: https://dev.to/ggondim/how-i-built-a-deterministic-multi-agent-dev-pipeline-inside-openclaw-and-contributed-a-missing-4ool
+description: Technical deep-dive on DEV Community showing how to build a deterministic multi-agent development pipeline inside OpenClaw using Lobster workflows, with isolated programmer/reviewer/tester agents and webhook-triggered pipelines.
+last_updated: '2026-03-09'
+is_archived: false
+category: openclaw-ecosystem
+added_date: '2026-03-09'
+verified: true
+type: tutorial
+tags:
+  - openclaw
+  - lobster
+  - multi-agent
+  - dev-pipeline
+  - devto
+  - workflow

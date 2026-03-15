@@ -6,6 +6,7 @@ description: 217 drop-in agent personas for OpenClaw, each with a complete SOUL.
   and more. Install with `./install.sh <agent-name>` using fuzzy matching.
 github_repo: will-assistant/openclaw-agents
 last_updated: '2026-03-09'
+github_stars: 40
 is_archived: false
 category: openclaw-ecosystem
 added_date: '2026-03-09'

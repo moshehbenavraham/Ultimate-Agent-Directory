@@ -4,7 +4,8 @@ description: Open-source personal AI gateway connecting LLMs to messaging channe
   (Telegram, WhatsApp, Discord, Slack, Signal) with persistent memory, multi-agent
   routing, cron automation, webhook support, and a skill ecosystem (3,200+ skills on ClawHub).
 github_repo: openclaw/openclaw
-last_updated: '2026-03-09'
+last_updated: '2026-03-15'
+github_stars: 312979
 is_archived: false
 category: openclaw-ecosystem
 added_date: '2026-03-09'

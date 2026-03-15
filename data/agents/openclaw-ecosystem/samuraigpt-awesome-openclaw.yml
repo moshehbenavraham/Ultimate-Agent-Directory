@@ -2,7 +2,8 @@ name: awesome-openclaw (SamurAIGPT)
 url: https://github.com/SamurAIGPT/awesome-openclaw
 description: Curated list of OpenClaw resources, tools, skills, tutorials, and articles. Covers the full history of the project from Clawdbot/Moltbot through the current OpenClaw release.
 github_repo: SamurAIGPT/awesome-openclaw
-last_updated: '2026-03-09'
+last_updated: '2026-03-13'
+github_stars: 788
 is_archived: false
 category: openclaw-ecosystem
 added_date: '2026-03-09'

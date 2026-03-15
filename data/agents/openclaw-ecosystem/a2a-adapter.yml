@@ -5,7 +5,8 @@ description: Python library that wraps any OpenClaw agent as a standard A2A Prot
   LangChain multi-agent pipelines. Each agent runs on its own port, all speaking
   the same HTTP interface. Bridges OpenClaw with the broader agent ecosystem.
 github_repo: hybroai/a2a-adapter
-last_updated: '2026-03-09'
+last_updated: '2026-03-14'
+github_stars: 25
 is_archived: false
 category: openclaw-ecosystem
 added_date: '2026-03-09'

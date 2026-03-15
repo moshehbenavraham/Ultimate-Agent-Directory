@@ -2,7 +2,8 @@ name: OpenClaw Skills Archive
 url: https://github.com/openclaw/skills
 description: Official GitHub archive of all versions of all skills published on clawhub.com. A complete historical record of the OpenClaw skill ecosystem — useful for auditing, offline access, and skill version pinning.
 github_repo: openclaw/skills
-last_updated: '2026-03-09'
+last_updated: '2026-03-15'
+github_stars: 2844
 is_archived: false
 category: openclaw-ecosystem
 added_date: '2026-03-09'

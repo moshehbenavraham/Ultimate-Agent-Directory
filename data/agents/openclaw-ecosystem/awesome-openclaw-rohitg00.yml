@@ -2,7 +2,8 @@ name: awesome-openclaw (rohitg00)
 url: https://github.com/rohitg00/awesome-openclaw
 description: Community-curated awesome list covering OpenClaw setup guides, Docker configurations, security hardening, and real-world deployment patterns including pre-configured Docker isolation setups with unique gateway tokens.
 github_repo: rohitg00/awesome-openclaw
-last_updated: '2026-03-09'
+last_updated: '2026-02-20'
+github_stars: 411
 is_archived: false
 category: openclaw-ecosystem
 added_date: '2026-03-09'

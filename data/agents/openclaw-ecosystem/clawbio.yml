@@ -2,7 +2,8 @@ name: ClawBio
 url: https://github.com/ClawBio/ClawBio
 description: The first bioinformatics-native AI agent skill library built on OpenClaw. Enables GWAS, phylogenetics, proteomics, and other genomics workflows — local-first, privacy-focused, and fully reproducible.
 github_repo: ClawBio/ClawBio
-last_updated: '2026-03-09'
+last_updated: '2026-03-13'
+github_stars: 397
 is_archived: false
 category: openclaw-ecosystem
 added_date: '2026-03-09'

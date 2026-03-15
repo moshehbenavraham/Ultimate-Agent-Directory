@@ -2,7 +2,8 @@ name: OpenClaw Fly.io Deploy Scripts (ly68900)
 url: https://github.com/ly68900/openclaw-deploy
 description: Open-source starter kit for deploying OpenClaw on Fly.io's free tier in under 3 minutes. Includes multi-platform deployment scripts, health checks, and a security checklist for production-ready self-hosted setups.
 github_repo: ly68900/openclaw-deploy
-last_updated: '2026-03-09'
+last_updated: '2026-02-28'
+github_stars: 1
 is_archived: false
 category: openclaw-ecosystem
 added_date: '2026-03-09'

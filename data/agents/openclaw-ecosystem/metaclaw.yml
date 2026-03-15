@@ -7,7 +7,8 @@ description: An OpenClaw skill that generates entire multi-agent setups from a p
   patterns (Pipeline, Hub-and-Spoke, Autonomous Loop, Human-in-Loop, Supervisor),
   and Docker Compose for isolated testing.
 github_repo: mverab/metaclaw
-last_updated: '2026-03-09'
+last_updated: '2026-03-03'
+github_stars: 16
 is_archived: false
 category: openclaw-ecosystem
 added_date: '2026-03-09'

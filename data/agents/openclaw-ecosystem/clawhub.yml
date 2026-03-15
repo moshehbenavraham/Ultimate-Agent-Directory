@@ -4,7 +4,8 @@ description: Public skill registry for OpenClaw with 3,200+ indexed skills. Brow
   search, install, and publish OpenClaw skills via CLI (`clawhub install <skill>`).
   Vector search powered by OpenAI embeddings. Open source (MIT) at github.com/openclaw/clawhub.
 github_repo: openclaw/clawhub
-last_updated: '2026-03-09'
+last_updated: '2026-03-14'
+github_stars: 5901
 is_archived: false
 category: openclaw-ecosystem
 added_date: '2026-03-09'

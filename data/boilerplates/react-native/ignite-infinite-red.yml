@@ -7,8 +7,8 @@ tags:
   - react-native
   - react
 github_repo: infinitered/ignite
-github_stars: 19676
-last_updated: '2026-01-06'
+github_stars: 19696
+last_updated: '2026-03-10'
 is_archived: false
 key_features:
   - Uses MobX-State-Tree for state management

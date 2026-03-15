@@ -6,7 +6,8 @@ description: Community production playbook for running OpenClaw long-term. Inclu
   (daily brief, idea pipeline, LinkedIn drafter, homelab access, agent orchestrator).
   The closest thing to an official community ops manual.
 github_repo: digitalknk/openclaw-runbook
-last_updated: '2026-03-09'
+last_updated: '2026-03-07'
+github_stars: 917
 is_archived: false
 category: openclaw-ecosystem
 added_date: '2026-03-09'

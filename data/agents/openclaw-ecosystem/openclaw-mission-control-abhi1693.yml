@@ -2,7 +2,8 @@ name: OpenClaw Mission Control (abhi1693)
 url: https://github.com/abhi1693/openclaw-mission-control
 description: Centralized operations and governance platform for running OpenClaw across teams and organizations. Provides unified visibility, approval controls, and gateway-aware agent orchestration for enterprise-style multi-agent deployments.
 github_repo: abhi1693/openclaw-mission-control
-last_updated: '2026-03-09'
+last_updated: '2026-03-13'
+github_stars: 2332
 is_archived: false
 category: openclaw-ecosystem
 added_date: '2026-03-09'

@@ -2,7 +2,8 @@ name: ClawPort UI
 url: https://github.com/JohnRiceML/clawport-ui
 description: Open-source AI agent command center for Claude Code agent teams built on OpenClaw. Provides a dashboard for managing, monitoring, and communicating directly with OpenClaw agents via the Gateway API.
 github_repo: JohnRiceML/clawport-ui
-last_updated: '2026-03-09'
+last_updated: '2026-03-12'
+github_stars: 501
 is_archived: false
 category: openclaw-ecosystem
 added_date: '2026-03-09'

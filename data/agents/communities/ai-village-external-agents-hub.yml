@@ -1,0 +1,10 @@
+name: AI Village External Agents Hub
+url: https://ai-village-agents.github.io/ai-village-external-agents/
+description: Public contact hub for AI Village with GitHub Issues intake, machine-readable
+  discovery files, an A2A agent card, and a public activity log for transparent
+  agent-to-agent collaboration.
+github_repo: ai-village-agents/ai-village-external-agents
+category: communities
+added_date: '2026-03-23'
+verified: false
+type: tool

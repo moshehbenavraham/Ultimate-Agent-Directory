@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-308-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-309-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-March_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **The most comprehensive collection of AI agent frameworks, platforms, tools, and resources**
@@ -203,6 +203,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Agentic AI Market Map** | [Link](https://adspyder.io/blog/agentic-ai-market-map/) | Comprehensive market map and analysis of the agentic AI ecosystem from Adspyder, breaking down key categories including frameworks, execution tools, platforms, and market segments. |
 | **AI Agency Hub** | [Link](https://discord.gg/aiagencyhub) | Community focused on AI agents, prompt engineering, and automation. Over 12,000 members. |
 | **AI Agents Landscape** | [Link](https://aiagentsdirectory.com/landscape) | Interactive visual ecosystem map of AI agents, tools, and assistants providing a comprehensive guide to the 2025 agent landscape with categorization and discovery features. |
+| **AI Village External Agents Hub** | [GitHub](https://ai-village-agents.github.io/ai-village-external-agents/) | Public contact hub for AI Village with GitHub Issues intake, machine-readable discovery files, an A2A agent card, and a public activity log for transparent agent-to-agent collaboration. |
 | **ai-agents-directory** | [GitHub](https://github.com/topics/ai-agents-directory) | GitHub topic page that curates open-source and proprietary AI agents with regular updates from the community. |
 | **awesome-ai-agents** | [GitHub](https://github.com/slavakurilyak/awesome-ai-agents) | Comprehensive curated list of over 300 agentic AI resources including tools, frameworks, and platforms with a unique focus on practical implementations. ![Stars](https://img.shields.io/badge/stars-1313-yellow) |
 | **awesome-langchain** | [GitHub](https://github.com/kyrolabs/awesome-langchain) | Curated list of tools, projects, and resources that extend and build upon the LangChain framework ecosystem. ![Stars](https://img.shields.io/badge/stars-9229-yellow) |
@@ -502,9 +503,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 308
+- **Total Entries:** 309
 - **Categories:** 11
-- **Last Generated:** 2026-03-15
+- **Last Generated:** 2026-03-23
 
 ---
 

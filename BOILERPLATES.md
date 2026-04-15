@@ -64,18 +64,18 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 | Name | Stars | License | Description |
 |------|-------|---------|-------------|
-| [**create-t3-app**](https://github.com/t3-oss/create-t3-app) | 28.7K | MIT | The TypeScript standard for Next.js development, offering an interactive CLI with modular architecture. |
-| [**React Starter Kit (Kriasoft)**](https://github.com/kriasoft/react-starter-kit) | 23.5K | MIT | Performance-focused edge-native starter with Cloudflare Workers deployment. |
-| [**Vercel SaaS Starter (Next.js SaaS Starter)**](https://github.com/nextjs/saas-starter) | 15.6K | MIT | Official Next.js pattern from Vercel, minimal but authoritative. Intentionally minimal, serving as a clean foundation to build upon. |
+| [**create-t3-app**](https://github.com/t3-oss/create-t3-app) | 28.8K | MIT | The TypeScript standard for Next.js development, offering an interactive CLI with modular architecture. |
+| [**React Starter Kit (Kriasoft)**](https://github.com/kriasoft/react-starter-kit) | 23.6K | MIT | Performance-focused edge-native starter with Cloudflare Workers deployment. |
+| [**Vercel SaaS Starter (Next.js SaaS Starter)**](https://github.com/nextjs/saas-starter) | 15.7K | MIT | Official Next.js pattern from Vercel, minimal but authoritative. Intentionally minimal, serving as a clean foundation to build upon. |
 | [**Next.js Boilerplate (ixartz)**](https://github.com/ixartz/Next-js-Boilerplate) | 12.8K | MIT | The "bleeding edge" of the Next.js ecosystem, aggressively adopting new standards like Drizzle ORM and Clerk authentication to maximize developer... |
 | [**ixartz SaaS-Boilerplate**](https://github.com/ixartz/SaaS-Boilerplate) | 7.0K | MIT | Modern App Router implementation with multi-tenancy support. |
-| [**Vercel Platforms Starter Kit**](https://github.com/vercel/platforms) | 6.6K | MIT | Official Vercel example for building multi-tenant applications with custom subdomain routing. |
+| [**Vercel Platforms Starter Kit**](https://github.com/vercel/platforms) | 6.7K | MIT | Official Vercel example for building multi-tenant applications with custom subdomain routing. |
 | [**create-t3-turbo**](https://github.com/t3-oss/create-t3-turbo) | 6.0K | MIT | The monorepo variant of T3 Stack, extending create-t3-app to support web and mobile (Expo) applications in a unified codebase. |
 | [**BoxyHQ Enterprise SaaS Starter Kit**](https://github.com/boxyhq/saas-starter-kit) | 4.8K | Apache 2.0 | Creates a unique niche by targeting the B2B enterprise market with compliance features, Single Sign-On (SSO), and auditability. |
 | [**next-saas-stripe-starter**](https://github.com/mickasmt/next-saas-stripe-starter) | 3.0K | MIT | Beautiful UI implementation with comprehensive auth and email. |
 | [**Nextacular**](https://github.com/nextacular/nextacular) | 1.4K | MIT | Open-source starter kit for building full-stack multi-tenant SaaS platforms with workspaces and custom domain support. |
 | [**Relivator**](https://github.com/relivator/relivator) | 1.2K | MIT | Modern SaaS e-commerce starter leveraging the latest Next.js 15 and React 19 features with comprehensive payment integration and shadcn/ui components. |
-| [**Supabase + Next.js Starter**](https://github.com/KolbySisk/next-supabase-stripe-starter) | 759 | MIT | High-quality SaaS starter leveraging Supabase as a backend-as-a-service for authentication, database, and storage. |
+| [**Supabase + Next.js Starter**](https://github.com/KolbySisk/next-supabase-stripe-starter) | 764 | MIT | High-quality SaaS starter leveraging Supabase as a backend-as-a-service for authentication, database, and storage. |
 | [**shadcn/ui Admin Dashboard**](https://ui.shadcn.com/examples/dashboard) | - | MIT | Component collection for building admin dashboards with Next.js and React using shadcn/ui with data tables, charts, forms, and dark mode support. |
 
 <a id="remix"></a>
@@ -86,7 +86,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 | Name | Stars | License | Description |
 |------|-------|---------|-------------|
-| [**Remix Framework**](https://github.com/remix-run/remix) | 32.5K | MIT | Full-stack React framework with web standards-first philosophy and multi-runtime support. |
+| [**Remix Framework**](https://github.com/remix-run/remix) | 32.6K | MIT | Full-stack React framework with web standards-first philosophy and multi-runtime support. |
 | [**Epic Stack**](https://github.com/epicweb-dev/epic-stack) | 5.5K | MIT | Production-tested by Kent C. Dodds with comprehensive security and testing. |
 | [**Remix Indie Stack (Official)**](https://github.com/remix-run/indie-stack) | 1.1K | MIT | Official Remix starter stack for indie developers and small teams, maintained by the Remix team. |
 
@@ -129,7 +129,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | Name | Stars | License | Description |
 |------|-------|---------|-------------|
 | [**Wasp Framework**](https://github.com/wasp-lang/wasp) | 18.2K | MIT | Closest to Rails in JavaScript with DSL configuration. |
-| [**Open SaaS**](https://github.com/wasp-lang/open-saas) | 13.7K | MIT | Best free complete SaaS starter. Represents a shift towards "configuration-as-code" frameworks. Built on Wasp, a distinct DSL (Domain Specific... |
+| [**Open SaaS**](https://github.com/wasp-lang/open-saas) | 14.1K | MIT | Best free complete SaaS starter. Represents a shift towards "configuration-as-code" frameworks. Built on Wasp, a distinct DSL (Domain Specific... |
 
 <a id="nuxt"></a>
 
@@ -140,7 +140,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | Name | Stars | License | Description |
 |------|-------|---------|-------------|
 | [**Supersaas (Commercial)**](https://supersaas.dev/) | 1.0K | Commercial | Comprehensive Nuxt 3 SaaS starter with all major features and multi-database support. |
-| [**SupaNuxt SaaS**](https://github.com/JavascriptMick/supanuxt-saas) | 521 | MIT | Comprehensive boilerplate for the "Supa-stack" (Supabase + Nuxt), bringing TypeScript full-stack development to Vue. A Vue counterpart to the... |
+| [**SupaNuxt SaaS**](https://github.com/JavascriptMick/supanuxt-saas) | 520 | MIT | Comprehensive boilerplate for the "Supa-stack" (Supabase + Nuxt), bringing TypeScript full-stack development to Vue. A Vue counterpart to the... |
 | [**Nuxt UI SaaS Template (Official)**](https://ui.nuxt.com/templates) | - | MIT | Official Nuxt template with premium UI components including landing pages, pricing pages, documentation and blog templates with authentication flows. |
 | [**Supastarter (Paid)**](https://supastarter.dev/) | - | - | Premium Nuxt 3 and Supabase boilerplate with comprehensive SaaS features, lifetime updates, and one of the best commercial Vue options available. |
 
@@ -154,9 +154,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 |------|-------|---------|-------------|
 | [**CMSaasStarter**](https://github.com/scosman/CMSaasStarter) | 2.3K | MIT | Full-featured SvelteKit + Supabase SaaS starter with marketing pages. A modern SaaS template leveraging Svelte's simplicity and full-stack... |
 | [**svelte-starter-kit**](https://github.com/nicholascostadev/svelte-starter-kit) | 800 | MIT | Comprehensive monorepo-ready SvelteKit starter with GraphQL via Houdini, PWA support, internationalization, and Docker deployment configuration. |
-| [**SvelteKit Auth Starter**](https://github.com/delay/sveltekit-auth) | 287 | MIT | Authentication-focused SvelteKit starter with Lucia Auth and Prisma. |
+| [**SvelteKit Auth Starter**](https://github.com/delay/sveltekit-auth) | 286 | MIT | Authentication-focused SvelteKit starter with Lucia Auth and Prisma. |
 | [**SvelteKit Blog App**](https://github.com/pro7tech/sveltekit-blog-app) | 82 | MIT | Full-featured SvelteKit starter with blog functionality and modern tooling. |
-| [**Startino SaaS Starter**](https://github.com/startino/saas-starter) | 38 | MIT | High-potential, bleeding-edge SvelteKit starter adopting Svelte 5. |
+| [**Startino SaaS Starter**](https://github.com/startino/saas-starter) | 39 | MIT | High-potential, bleeding-edge SvelteKit starter adopting Svelte 5. |
 | [**sveltekit-saas (Glench)**](https://github.com/Glench/sveltekit-saas) | 26 | MIT | Community SvelteKit SaaS starter with authentication and payments. |
 
 <a id="nodejs"></a>
@@ -167,12 +167,12 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 | Name | Stars | License | Description |
 |------|-------|---------|-------------|
-| [**Payload CMS**](https://github.com/payloadcms/payload) | 41.6K | MIT | Modern Node.js headless CMS with TypeScript-first approach, code-first schema definition, and built-in authentication with React admin panel. |
+| [**Payload CMS**](https://github.com/payloadcms/payload) | 41.8K | MIT | Modern Node.js headless CMS with TypeScript-first approach, code-first schema definition, and built-in authentication with React admin panel. |
 | [**hackathon-starter**](https://github.com/sahat/hackathon-starter) | 35.2K | MIT | The classic Node.js boilerplate with comprehensive OAuth integrations, one of the most starred full-stack starters on GitHub. |
-| [**Directus**](https://github.com/directus/directus) | 34.6K | BSL-1.1 | Open-source data platform and headless CMS with REST and GraphQL APIs auto-generated from database schema, Vue.js admin dashboard, and SQL... |
+| [**Directus**](https://github.com/directus/directus) | 34.8K | BSL-1.1 | Open-source data platform and headless CMS with REST and GraphQL APIs auto-generated from database schema, Vue.js admin dashboard, and SQL... |
 | [**MEAN Stack Starter (Linnovate)**](https://github.com/linnovate/mean) | 12.1K | Open Source | Classic full-stack JavaScript starter with Angular and MongoDB. |
 | [**Brocoders NestJS Boilerplate**](https://github.com/Brocoders/nestjs-boilerplate) | 4.3K | MIT | Comprehensive NestJS boilerplate with multi-database support. |
-| [**Extro (TurboStarter)**](https://github.com/turbostarter/extro) | 373 | MIT | Specialized starter for building cross-browser extensions supporting Chrome, Firefox, and Edge with WXT framework and hot-reloading. |
+| [**Extro (TurboStarter)**](https://github.com/turbostarter/extro) | 377 | MIT | Specialized starter for building cross-browser extensions supporting Chrome, Firefox, and Edge with WXT framework and hot-reloading. |
 
 <a id="astro"></a>
 
@@ -206,7 +206,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 | Name | Stars | License | Description |
 |------|-------|---------|-------------|
-| [**Full Stack FastAPI Template (Tiangolo)**](https://github.com/fastapi/full-stack-fastapi-template) | 42.4K | MIT | Popular full-stack FastAPI template (40k+ stars) that defines a standard for modern Python web development. |
+| [**Full Stack FastAPI Template (Tiangolo)**](https://github.com/fastapi/full-stack-fastapi-template) | 42.6K | MIT | Popular full-stack FastAPI template (40k+ stars) that defines a standard for modern Python web development. |
 
 <a id="django"></a>
 
@@ -218,8 +218,8 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 |------|-------|---------|-------------|
 | [**Cookiecutter Django**](https://github.com/cookiecutter/cookiecutter-django) | 13.5K | BSD-3-Clause | Python community standard for Django scaffolding. The go-to Django project template with active community maintenance and frequent updates.... |
 | [**Apptension SaaS Boilerplate**](https://github.com/apptension/saas-boilerplate) | 2.9K | MIT | Full SaaS with Django + React, used by Netflix/Uber projects. |
-| [**Django React Boilerplate (Vinta Software)**](https://github.com/vintasoftware/django-react-boilerplate) | 2.3K | MIT | Hybrid approach leveraging Django's mature backend with a modern React frontend. |
-| [**django-htmx-patterns**](https://github.com/spookylukey/django-htmx-patterns) | 1.1K | Public Domain | Best practices repository for Django + HTMX. |
+| [**Django React Boilerplate (Vinta Software)**](https://github.com/vintasoftware/django-react-boilerplate) | 2.2K | MIT | Hybrid approach leveraging Django's mature backend with a modern React frontend. |
+| [**django-htmx-patterns**](https://github.com/spookylukey/django-htmx-patterns) | 1.0K | Public Domain | Best practices repository for Django + HTMX. |
 | [**Django React Starter (Jordan-Kowal)**](https://github.com/Jordan-Kowal/django-react-starter) | 15 | MIT | Advanced Django + React starter with comprehensive integrations for data-heavy applications. |
 
 <a id="flask"></a>
@@ -230,7 +230,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 | Name | Stars | License | Description |
 |------|-------|---------|-------------|
-| [**React Flask Authentication (AppSeed)**](https://github.com/app-generator/react-flask-authentication) | 97 | MIT | Simple decoupled Flask + React starter with JWT authentication. |
+| [**React Flask Authentication (AppSeed)**](https://github.com/app-generator/react-flask-authentication) | 96 | MIT | Simple decoupled Flask + React starter with JWT authentication. |
 
 ---
 
@@ -244,10 +244,10 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 | Name | Stars | License | Description |
 |------|-------|---------|-------------|
-| [**Wave (The DevDojo)**](https://github.com/thedevdojo/wave) | 6.4K | MIT | Less of a boilerplate and more of a "SaaS-in-a-Box." Provides a fully functional application that requires customization rather than construction.... |
-| [**nunomaduro/laravel-starter-kit**](https://github.com/nunomaduro/laravel-starter-kit) | 843 | MIT | Ultra-strict TypeScript Laravel starter. |
-| [**laravel/react-starter-kit (Official)**](https://github.com/laravel/react-starter-kit) | 808 | MIT | Official Laravel starter with React 19 and modern tooling. |
-| [**laravel/vue-starter-kit (Official)**](https://github.com/laravel/vue-starter-kit) | 597 | MIT | Official Laravel starter with Vue 3 and Inertia. |
+| [**Wave (The DevDojo)**](https://github.com/thedevdojo/wave) | 6.5K | MIT | Less of a boilerplate and more of a "SaaS-in-a-Box." Provides a fully functional application that requires customization rather than construction.... |
+| [**nunomaduro/laravel-starter-kit**](https://github.com/nunomaduro/laravel-starter-kit) | 847 | MIT | Ultra-strict TypeScript Laravel starter. |
+| [**laravel/react-starter-kit (Official)**](https://github.com/laravel/react-starter-kit) | 819 | MIT | Official Laravel starter with React 19 and modern tooling. |
+| [**laravel/vue-starter-kit (Official)**](https://github.com/laravel/vue-starter-kit) | 604 | MIT | Official Laravel starter with Vue 3 and Inertia. |
 
 ---
 
@@ -298,9 +298,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 | Name | Stars | License | Description |
 |------|-------|---------|-------------|
-| [**Dioxus**](https://github.com/DioxusLabs/dioxus) | 35.5K | MIT | Full-stack Rust for web, desktop, and mobile from one codebase. |
+| [**Dioxus**](https://github.com/DioxusLabs/dioxus) | 35.7K | MIT | Full-stack Rust for web, desktop, and mobile from one codebase. |
 | [**Loco (The One-Person Framework)**](https://github.com/loco-rs/loco) | 8.8K | Apache 2.0 | Explicitly aims to replicate the developer experience of Rails within Rust. |
-| [**Rustzen Admin**](https://github.com/idaibin/rustzen-admin) | 145 | MIT | Decoupled starter focusing on the React/Rust interface. |
+| [**Rustzen Admin**](https://github.com/idaibin/rustzen-admin) | 148 | MIT | Decoupled starter focusing on the React/Rust interface. |
 | [**Leptos start-axum (Official)**](https://github.com/leptos-rs/start-axum) | 74 | Unlicense | Official Leptos template with Axum backend. |
 
 ---
@@ -376,7 +376,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 - **Total Boilerplates:** 75
 - **Ecosystems:** 9
 - **Categories:** 23
-- **Last Generated:** 2026-04-01
+- **Last Generated:** 2026-04-15
 
 ---
 

@@ -10,7 +10,7 @@ tags:
   - postgresql
   - docker
 github_repo: app-generator/react-flask-authentication
-github_stars: 97
+github_stars: 96
 last_updated: '2025-05-02'
 is_archived: false
 license: MIT

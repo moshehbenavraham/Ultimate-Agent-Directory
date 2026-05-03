@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-308-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-310-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-May_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **The most comprehensive collection of AI agent frameworks, platforms, tools, and resources**
@@ -117,9 +117,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **buildthatidea.com** | [Link](https://www.buildthatidea.com/) | A no-code AI agent builder designed for non-technical users to create custom AI agents quickly. buildthatidea.com focuses on simplicity and rapid deployment for business automation use cases. |
 | **Chatbase** | [Link](https://www.chatbase.co/) | A popular no-code platform for building AI chatbots from custom data sources, functioning as specialized agent builder for support and Q&A. Chatbase enables businesses to create knowledge-based conversational agents trained on their own documents and data. |
 | **Dify** | [Link](https://dify.ai/) | An open-source LLM app development platform that combines agentic AI workflow, RAG pipeline, and agent capabilities with model management and observability features. Dify offers a comprehensive solution for building production-ready AI applications with visual workflow design, extensive model support, and built-in debugging tools. |
+| **Flowise** | [Link](https://flowiseai.com/) | An open-source low-code platform for building LLM applications with a drag-and-drop interface. Flowise provides modular building blocks for creating agentic systems, from simple compositional workflows to autonomous agents, with support for multi-agent systems, chat assistants, and human-in-the-loop workflows. |
 | **Flowise** | [GitHub](https://github.com/FlowiseAI/Flowise) | Open-source, drag-and-drop visual UI for building customized LLM orchestration flows and AI agents. Flowise provides a low-code interface for creating complex agent workflows with extensive integrations for vector databases, LLM providers, and external tools.
  ![Stars](https://img.shields.io/badge/stars-52433-yellow) |
-| **Flowise** | [Link](https://flowiseai.com/) | An open-source low-code platform for building LLM applications with a drag-and-drop interface. Flowise provides modular building blocks for creating agentic systems, from simple compositional workflows to autonomous agents, with support for multi-agent systems, chat assistants, and human-in-the-loop workflows. |
 | **Giselle** | [GitHub](https://github.com/giselles-ai/giselle) | An agentic workflow builder designed to simplify the creation of AI-driven solutions with visual interface and low-code approach. Giselle focuses on ease of use for building and deploying agent-based automation workflows. ![Stars](https://img.shields.io/badge/stars-521-yellow) |
 | **Gumloop** | [Link](https://gumloop.com/) | A no-code platform for creating AI-powered workflow automations using visual node-based flows with 100+ pre-built nodes. Gumloop combines AI integrations for data enrichment, reporting, and intelligent decision-making, enabling users to build complex automated processes without programming knowledge. |
 | **Langflow** | [Link](https://langflow.org/) | A low-code AI builder for agentic and retrieval-augmented generation (RAG) applications that allows coding in Python while using any LLM or vector database. Langflow provides an intuitive visual interface for building complex AI workflows, recently acquired by DataStax and positioned for integration with IBM's ecosystem. |
@@ -203,6 +203,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Agentic AI Market Map** | [Link](https://adspyder.io/blog/agentic-ai-market-map/) | Comprehensive market map and analysis of the agentic AI ecosystem from Adspyder, breaking down key categories including frameworks, execution tools, platforms, and market segments. |
 | **AI Agency Hub** | [Link](https://discord.gg/aiagencyhub) | Community focused on AI agents, prompt engineering, and automation. Over 12,000 members. |
 | **AI Agents Landscape** | [Link](https://aiagentsdirectory.com/landscape) | Interactive visual ecosystem map of AI agents, tools, and assistants providing a comprehensive guide to the 2025 agent landscape with categorization and discovery features. |
+| **AI Village External Agents Hub** | [GitHub](https://ai-village-agents.github.io/ai-village-external-agents/) | Public contact hub for AI Village with GitHub Issues intake, machine-readable discovery files, an A2A agent card, and a public activity log for transparent agent-to-agent collaboration. |
 | **ai-agents-directory** | [GitHub](https://github.com/topics/ai-agents-directory) | GitHub topic page that curates open-source and proprietary AI agents with regular updates from the community. |
 | **awesome-ai-agents** | [GitHub](https://github.com/slavakurilyak/awesome-ai-agents) | Comprehensive curated list of over 300 agentic AI resources including tools, frameworks, and platforms with a unique focus on practical implementations. ![Stars](https://img.shields.io/badge/stars-1362-yellow) |
 | **awesome-langchain** | [GitHub](https://github.com/kyrolabs/awesome-langchain) | Curated list of tools, projects, and resources that extend and build upon the LangChain framework ecosystem. ![Stars](https://img.shields.io/badge/stars-9314-yellow) |
@@ -276,6 +277,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **mem0** | [Link](https://mem0.ai/) | Universal self-improving memory layer for AI agents and LLM applications, enabling personalized AI interactions with just three lines of code. Features long-term, short-term, semantic, and episodic memory types, integrates with OpenAI, LangGraph, CrewAI, and selected as exclusive memory provider for AWS Agent SDK. Achieves 26% improvement in LLM-as-a-Judge metrics with 91% lower p95 latency and 90% token cost savings. |
 | **MixedVoices** | [Link](https://pypi.org/project/mixedvoices/) | Open-source analytics and evaluation platform for voice AI agents, functioning as Mixpanel for conversational AI with auto-generation of interactive call flow visualizations. Enables developers to analyze, visualize, evaluate, and optimize conversational AI performance by understanding common user paths, behaviors, and agent interaction patterns for continuous improvement. |
 | **Nexent** | [GitHub](https://github.com/ModelEngine-Group/nexent) | Zero-code open-source platform for auto-generating intelligent agents from natural language prompts through a simple workflow: prompt -> plan -> execute. Eliminates complex orchestration and drag-and-drop requirements while offering powerful agent running control, data processing capabilities, and MCP tool integration for building sophisticated agents without technical expertise. ![Stars](https://img.shields.io/badge/stars-4372-yellow) |
+| **Not Human Search** | [GitHub](https://nothumansearch.ai/) | Agent-first search engine that indexes 8,000+ MCP servers and other agent-readable services ranked across 7 agentic readiness signals (llms.txt, OpenAPI, ai-plugin, MCP, structured API, robots.txt, schema.org). Useful as an agent-discovery primitive — one agent can query NHS to find another agent to delegate work to. Includes verify_mcp live JSON-RPC probe. Queryable via MCP, REST API, or browser. Listed in the official MCP registry as `ai.nothumansearch/search`. |
 | **open-operator-evals** | [GitHub](https://github.com/nottelabs/open-operator-evals) | Open-source benchmark framework for evaluating web operators and agents on their ability to complete web tasks. Provides transparent, reproducible performance evaluations with WebVoyager30 benchmark dataset covering 30 diverse web tasks. ![Stars](https://img.shields.io/badge/stars-47-yellow) |
 | **OpenAI Aardvark** | [Link](https://openai.com/index/introducing-aardvark/) | Autonomous AI security agent powered by GPT-5 that operates as an agentic security researcher to continuously monitor repositories, discover vulnerabilities, assess exploitability, and propose targeted patches. |
 | **OpenLens AI** | [GitHub](https://github.com/jarrycyx/openlens-ai) | Autonomous research agent specifically tailored for the analysis of health and medical data. ![Stars](https://img.shields.io/badge/stars-269-yellow) |
@@ -502,9 +504,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 308
+- **Total Entries:** 310
 - **Categories:** 11
-- **Last Generated:** 2026-05-01
+- **Last Generated:** 2026-05-03
 
 ---
 

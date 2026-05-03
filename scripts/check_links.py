@@ -8,6 +8,8 @@ validates them with async HTTP requests, and reports broken links.
 Usage:
     python scripts/check_links.py                    # Full check with default settings
     python scripts/check_links.py --yaml-only        # Check only YAML files (fast)
+    python scripts/check_links.py --file data/agents/example.yml
+    python scripts/check_links.py --file-list changed-files.txt
     python scripts/check_links.py --timeout 10       # Custom timeout
     python scripts/check_links.py --no-issues        # Skip GitHub issue creation
     python scripts/check_links.py --verbose          # Detailed logging
@@ -277,8 +279,48 @@ def should_skip_url(url: str, skip_domains: set[str], skip_urls: set[str]) -> bo
     return domain in skip_domains
 
 
+def resolve_selected_files(
+    project_root: Path, files: Optional[List[str]], verbose: bool = False
+) -> Optional[List[Path]]:
+    """Resolve user-provided paths to existing files inside the repository."""
+    if files is None:
+        return None
+
+    selected_files: set[Path] = set()
+    for raw_file in files:
+        raw_file = raw_file.strip()
+        if not raw_file:
+            continue
+
+        path = Path(raw_file)
+        candidate = path if path.is_absolute() else project_root / path
+        candidate = candidate.resolve()
+
+        try:
+            candidate.relative_to(project_root)
+        except ValueError:
+            if verbose:
+                print(
+                    f"  {Colors.YELLOW}Skipping path outside repo: {raw_file}{Colors.RESET}"
+                )
+            continue
+
+        if not candidate.exists() or not candidate.is_file():
+            if verbose:
+                print(
+                    f"  {Colors.YELLOW}Skipping missing/non-file path: {raw_file}{Colors.RESET}"
+                )
+            continue
+
+        selected_files.add(candidate)
+
+    return sorted(selected_files)
+
+
 def collect_all_urls(
-    yaml_only: bool = False, verbose: bool = False
+    yaml_only: bool = False,
+    verbose: bool = False,
+    files: Optional[List[str]] = None,
 ) -> Dict[str, List[Tuple[str, str]]]:
     """
     Collect all URLs from repository files.
@@ -286,15 +328,25 @@ def collect_all_urls(
     Returns:
         Dict mapping file paths to list of (url, field_name/context) tuples
     """
-    project_root = Path(__file__).parent.parent
-    url_map = defaultdict(list)
+    project_root = Path(__file__).parent.parent.resolve()
+    selected_files = resolve_selected_files(project_root, files, verbose=verbose)
+    url_map: Dict[str, List[Tuple[str, str]]] = defaultdict(list)
 
     if verbose:
         print(f"\n{Colors.BOLD}Collecting URLs...{Colors.RESET}")
+        if selected_files is not None:
+            print(f"  Scanning selected files only ({len(selected_files)} files)...")
 
     # 1. YAML files (highest priority)
-    yaml_pattern = "data/**/*.yml"
-    yaml_files = list(project_root.glob(yaml_pattern))
+    if selected_files is None:
+        yaml_pattern = "data/**/*.yml"
+        yaml_files = list(project_root.glob(yaml_pattern))
+    else:
+        yaml_files = [
+            file_path
+            for file_path in selected_files
+            if file_path.suffix in {".yml", ".yaml"}
+        ]
     if verbose:
         print(f"  Scanning {len(yaml_files)} YAML files...")
 
@@ -309,16 +361,19 @@ def collect_all_urls(
         return url_map
 
     # 2. Markdown files (documentation)
-    md_files = []
-    # Root level markdown
-    for md_file in project_root.glob("*.md"):
-        # Skip generated README.md (redundant with YAML)
-        if md_file.name != "README.md":
-            md_files.append(md_file)
-    # Documentation markdown
-    docs_dir = project_root / "docs"
-    if docs_dir.exists():
-        md_files.extend(docs_dir.glob("**/*.md"))
+    if selected_files is None:
+        md_files = []
+        # Root level markdown
+        for md_file in project_root.glob("*.md"):
+            # Skip generated README.md (redundant with YAML)
+            if md_file.name != "README.md":
+                md_files.append(md_file)
+        # Documentation markdown
+        docs_dir = project_root / "docs"
+        if docs_dir.exists():
+            md_files.extend(docs_dir.glob("**/*.md"))
+    else:
+        md_files = [file_path for file_path in selected_files if file_path.suffix == ".md"]
 
     if verbose:
         print(f"  Scanning {len(md_files)} Markdown files...")
@@ -329,32 +384,50 @@ def collect_all_urls(
             url_map[str(md_file.relative_to(project_root))] = urls
 
     # 3. Jinja2 templates
-    templates_dir = project_root / "templates"
-    if templates_dir.exists():
-        template_files = list(templates_dir.glob("*.jinja2")) + list(
-            templates_dir.glob("*.html")
-        )
-        if verbose:
-            print(f"  Scanning {len(template_files)} template files...")
+    if selected_files is None:
+        templates_dir = project_root / "templates"
+        template_files = []
+        if templates_dir.exists():
+            template_files = list(templates_dir.glob("*.jinja2")) + list(
+                templates_dir.glob("*.html")
+            )
+    else:
+        template_files = [
+            file_path
+            for file_path in selected_files
+            if file_path.suffix in {".jinja2", ".html"}
+        ]
 
-        for template_file in template_files:
-            urls = extract_urls_from_template(template_file)
-            if urls:
-                url_map[str(template_file.relative_to(project_root))] = urls
+    if verbose:
+        print(f"  Scanning {len(template_files)} template files...")
+
+    for template_file in template_files:
+        urls = extract_urls_from_template(template_file)
+        if urls:
+            url_map[str(template_file.relative_to(project_root))] = urls
 
     # 4. Static assets (CSS, JS)
-    static_dir = project_root / "static"
-    if static_dir.exists():
-        static_files = list(static_dir.glob("**/*.css")) + list(
-            static_dir.glob("**/*.js")
-        )
-        if verbose:
-            print(f"  Scanning {len(static_files)} static files...")
+    if selected_files is None:
+        static_dir = project_root / "static"
+        static_files = []
+        if static_dir.exists():
+            static_files = list(static_dir.glob("**/*.css")) + list(
+                static_dir.glob("**/*.js")
+            )
+    else:
+        static_files = [
+            file_path
+            for file_path in selected_files
+            if file_path.suffix in {".css", ".js"}
+        ]
 
-        for static_file in static_files:
-            urls = extract_urls_from_static(static_file)
-            if urls:
-                url_map[str(static_file.relative_to(project_root))] = urls
+    if verbose:
+        print(f"  Scanning {len(static_files)} static files...")
+
+    for static_file in static_files:
+        urls = extract_urls_from_static(static_file)
+        if urls:
+            url_map[str(static_file.relative_to(project_root))] = urls
 
     return url_map
 
@@ -726,6 +799,8 @@ def main():
 Examples:
   %(prog)s                          # Full check with default settings
   %(prog)s --yaml-only              # Check only YAML files (fast)
+  %(prog)s --file data/agents/example.yml
+  %(prog)s --file-list changed-files.txt
   %(prog)s --timeout 10             # Custom timeout (10 seconds)
   %(prog)s --no-issues              # Skip GitHub issue creation
   %(prog)s --verbose                # Show detailed output
@@ -771,6 +846,20 @@ Examples:
     )
 
     parser.add_argument(
+        "--file",
+        action="append",
+        default=[],
+        help="Specific repository file to scan (repeatable)",
+    )
+
+    parser.add_argument(
+        "--file-list",
+        action="append",
+        default=[],
+        help="File containing newline-separated repository paths to scan (repeatable)",
+    )
+
+    parser.add_argument(
         "--no-issues",
         action="store_true",
         help="Skip GitHub issue creation (report only)",
@@ -782,13 +871,26 @@ Examples:
 
     args = parser.parse_args()
 
+    selected_mode = bool(args.file or args.file_list)
+    selected_files = list(args.file)
+    for file_list in args.file_list:
+        try:
+            with open(file_list, "r", encoding="utf-8") as f:
+                selected_files.extend(line.strip() for line in f)
+        except OSError as exc:
+            parser.error(f"Could not read --file-list {file_list}: {exc}")
+
     # Print banner
     print(f"\n{Colors.BOLD}{'=' * 60}")
     print("  Ultimate Agent Directory - Link Checker")
     print(f"{'=' * 60}{Colors.RESET}\n")
 
     # Collect URLs
-    url_map = collect_all_urls(yaml_only=args.yaml_only, verbose=args.verbose)
+    url_map = collect_all_urls(
+        yaml_only=args.yaml_only,
+        verbose=args.verbose,
+        files=selected_files if selected_mode else None,
+    )
 
     if not url_map:
         print(f"{Colors.YELLOW}No URLs found to check.{Colors.RESET}")

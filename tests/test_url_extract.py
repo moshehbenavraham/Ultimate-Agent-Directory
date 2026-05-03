@@ -17,6 +17,7 @@ from check_links import (
     extract_urls_from_markdown,
     extract_urls_from_template,
     extract_urls_from_static,
+    resolve_selected_files,
 )
 
 
@@ -346,6 +347,44 @@ class TestStaticFileExtraction:
 
         url_strings = [url for url, _ in urls]
         assert any("api.example.com" in url for url in url_strings)
+
+
+# =============================================================================
+# Selected File Resolution Tests
+# =============================================================================
+
+
+class TestSelectedFileResolution:
+    """Test resolving explicit link-check file scopes"""
+
+    def test_resolves_existing_repo_files(self, tmp_path):
+        """Relative paths resolve to files inside the repository root"""
+        repo_root = tmp_path / "repo"
+        repo_root.mkdir()
+        data_file = repo_root / "data" / "agents" / "example.yml"
+        data_file.parent.mkdir(parents=True)
+        data_file.write_text("url: https://example.com\n")
+
+        selected = resolve_selected_files(
+            repo_root.resolve(),
+            ["data/agents/example.yml"],
+        )
+
+        assert selected == [data_file.resolve()]
+
+    def test_ignores_missing_and_external_files(self, tmp_path):
+        """Missing files and paths outside the repository are ignored"""
+        repo_root = tmp_path / "repo"
+        repo_root.mkdir()
+        external_file = tmp_path / "outside.yml"
+        external_file.write_text("url: https://example.com\n")
+
+        selected = resolve_selected_files(
+            repo_root.resolve(),
+            ["missing.yml", str(external_file)],
+        )
+
+        assert selected == []
 
 
 # =============================================================================

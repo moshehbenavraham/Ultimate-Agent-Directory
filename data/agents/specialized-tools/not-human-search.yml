@@ -1,0 +1,13 @@
+name: Not Human Search
+url: https://nothumansearch.ai
+description: Agent-first search engine that indexes 8,000+ MCP servers and other
+  agent-readable services ranked across 7 agentic readiness signals (llms.txt, OpenAPI,
+  ai-plugin, MCP, structured API, robots.txt, schema.org). Useful as an agent-discovery
+  primitive — one agent can query NHS to find another agent to delegate work to.
+  Includes verify_mcp live JSON-RPC probe. Queryable via MCP, REST API, or browser.
+  Listed in the official MCP registry as `ai.nothumansearch/search`.
+github_repo: unitedideas/nothumansearch
+category: specialized-tools
+added_date: '2026-04-17'
+verified: false
+type: tool

@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-310-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-312-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-May_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **The most comprehensive collection of AI agent frameworks, platforms, tools, and resources**
@@ -252,6 +252,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Cal.ai** | [Link](https://cal.com/ai) | AI-powered phone call automation for scheduling built into Cal.com, featuring customizable human-like conversations that reduce no-shows and boost conversions. Allows users to assign dedicated phone numbers, write custom script prompts, define agent personality and tone, trigger calls on form submission or before meetings, and automate booking workflows at $0.29 per minute. |
 | **Cisco Unified Edge** | [Link](https://www.cisco.com/site/us/en/products/computing/unified-edge/index.html) | Integrated edge computing platform announced November 2025 for distributed agentic AI workloads, combining compute, networking, and storage into a single modular system. Features CPU and GPU configurations, up to 120TB storage, redundant power and cooling, integrated 25-gigabit networking, zero-touch deployment, and pre-validated blueprints designed for real-time AI inferencing from retail stores to healthcare facilities to factory floors. |
 | **Claude for Life Sciences** | [Link](https://www.anthropic.com/news/claude-for-life-sciences) | Specialized version of Anthropic Claude model aimed at supporting the entire scientific process, featuring new connectors to scientific platforms like Benchling to assist with research and discovery. |
+| **Clawdia Agent Gateway** | [Link](https://agent-gateway-kappa.vercel.app/) | API gateway for AI agents that exposes developer services such as web scraping, screenshots, DNS lookup, geolocation, crypto prices, code execution, storage, scheduling, and x402/USDC payments through a unified OpenAPI-described service surface. |
 | **Clay** | [Link](https://clay.com/) | AI-powered sales platform that helps teams enrich, score, and automatically message leads. Features AI research agents that browse the web and gather information to create personalized outreach at scale. |
 | **CodeGuru** | [Link](https://aws.amazon.com/codeguru/) | AI-powered code analysis service that automatically flags security vulnerabilities, provides performance recommendations, and explains code issues with machine learning. Integrates with popular development tools and CI/CD pipelines. |
 | **Cognigy** | [Link](https://www.cognigy.com/) | Conversational AI platform focused on enterprise customer service automation. Enables creation of intelligent virtual agents with advanced natural language processing and seamless integration with existing business systems. |
@@ -344,6 +345,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **SWE-agent** | [GitHub](https://github.com/princeton-nlp/swe-agent) | Software engineering agent that turns language models (like GPT-4) into autonomous agents capable of fixing bugs and resolving issues in real GitHub repositories. Designed to autonomously diagnose, debug, and patch software issues with minimal human intervention. ![Stars](https://img.shields.io/badge/stars-19111-yellow) |
 | **Sweep** | [GitHub](https://github.com/sweepai/sweep) | Open-source AI agent that automates the transformation of GitHub issues into pull requests, streamlining bug fixes and code improvements. Connects issue tracking directly to code changes for accelerated development workflows. ![Stars](https://img.shields.io/badge/stars-7710-yellow) |
 | **TaskWeaver** | [GitHub](https://github.com/microsoft/TaskWeaver) | Code-first agent framework from Microsoft designed for data analytics tasks, enabling agents to plan and execute tasks by generating and running Python code. Transforms natural language requests into executable code workflows for data analysis and automation. ![Stars](https://img.shields.io/badge/stars-6155-yellow) |
+| **Terminator2** | [Link](https://terminator2-agent.github.io/) | Autonomous prediction market agent that publishes live diary and portfolio data while trading and forecasting on Manifold Markets and Moltbook. Exposes an A2A agent card with forecasting, market analysis, and public data endpoints for researchers following long-running autonomous trading experiments. |
 | **UFO** | [GitHub](https://github.com/microsoft/UFO) | UI-focused agent from Microsoft designed to interact with and automate tasks within the Windows OS environment. Enables autonomous control of Windows applications through intelligent UI understanding and interaction. ![Stars](https://img.shields.io/badge/stars-8514-yellow) |
 | **Voyager** | [Link](https://voyager.minedojo.org/) | Cutting-edge research project demonstrating an autonomous LLM-driven agent in Minecraft. The first GPT-4-powered embodied lifelong learning agent that continuously explores, writes and executes code to acquire new skills, and self-improves over time without human intervention using automatic curriculum and iterative prompting. |
 | **XAgent** | [GitHub](https://github.com/OpenBMB/XAgent) | Autonomous Large Language Model agent specialized in solving complex tasks through autonomous planning and tool usage. Features sophisticated task decomposition and execution capabilities for handling multi-step technical challenges. ![Stars](https://img.shields.io/badge/stars-8528-yellow) |
@@ -504,9 +506,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 310
+- **Total Entries:** 312
 - **Categories:** 11
-- **Last Generated:** 2026-05-03
+- **Last Generated:** 2026-05-04
 
 ---
 

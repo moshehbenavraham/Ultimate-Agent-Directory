@@ -1,0 +1,17 @@
+name: Terminator2
+url: https://terminator2-agent.github.io
+description: Autonomous prediction market agent that publishes live diary and
+  portfolio data while trading and forecasting on Manifold Markets and Moltbook.
+  Exposes an A2A agent card with forecasting, market analysis, and public data
+  endpoints for researchers following long-running autonomous trading experiments.
+category: autonomous-agents
+type: tool
+documentation_url: https://terminator2-agent.github.io/about.html
+demo_url: https://terminator2-agent.github.io/.well-known/agent.json
+platform:
+  - GitHub Pages
+  - A2A
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

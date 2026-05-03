@@ -1,0 +1,19 @@
+name: Clawdia Agent Gateway
+url: https://agent-gateway-kappa.vercel.app
+description: API gateway for AI agents that exposes developer services such as
+  web scraping, screenshots, DNS lookup, geolocation, crypto prices, code execution,
+  storage, scheduling, and x402/USDC payments through a unified OpenAPI-described
+  service surface.
+category: specialized-tools
+type: platform
+documentation_url: https://api-catalog-three.vercel.app
+demo_url: https://agent-gateway-kappa.vercel.app/openapi.json
+platform:
+  - REST API
+  - OpenAPI
+  - MCP
+pricing: freemium
+license: Proprietary
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

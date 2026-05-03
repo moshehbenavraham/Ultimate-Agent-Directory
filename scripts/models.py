@@ -180,7 +180,7 @@ class SiteConfig(BaseModel):
         "The most comprehensive collection of AI agent frameworks, platforms, tools, and resources"
     )
     base_url: str = "/Ultimate-Agent-Directory"
-    site_url: HttpUrl = "https://aiwithapex.github.io/Ultimate-Agent-Directory"
+    site_url: HttpUrl = "https://aiwithapex.github.io/Ultimate-Agent-Directory"  # type: ignore[assignment]
     links: SiteLinks
 
     class Config:

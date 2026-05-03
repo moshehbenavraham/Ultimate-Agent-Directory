@@ -14,3 +14,5 @@ pytest>=8.0.0          # Test framework
 ruff>=0.14.11          # Linter
 mypy>=1.19.1           # Type checker
 pytest-cov>=4.0.0      # Coverage reporting
+types-PyYAML>=6.0.0    # Type stubs for pyyaml (mypy)
+types-requests>=2.31.0 # Type stubs for requests (mypy)

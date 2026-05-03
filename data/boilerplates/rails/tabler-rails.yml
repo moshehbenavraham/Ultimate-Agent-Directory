@@ -1,8 +1,8 @@
-name: tabler-rails
-url: https://github.com/tabler/tabler-rails
+name: Rails Tabler Starter
+url: https://github.com/tarunvelli/rails-tabler-starter
 description: |
-  Rails admin dashboard starter with Tabler UI components for building
-  beautiful admin panels and backoffice applications.
+  Ruby on Rails starter kit built with Tabler UI components for building
+  admin panels, dashboards, and backoffice applications.
 category: rails
 type: template
 tags:
@@ -11,6 +11,8 @@ tags:
   - admin-dashboard
   - tabler
   - ui-components
+github_repo: tarunvelli/rails-tabler-starter
+github_stars: 203
 license: MIT
 technical_stack:
   - component: Backend

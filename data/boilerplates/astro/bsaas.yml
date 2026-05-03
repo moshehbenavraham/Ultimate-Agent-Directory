@@ -1,8 +1,9 @@
 name: bSaaS
-url: https://github.com/bsaas/bsaas
+url: https://tailkits.com/templates/bsaas/
 description: |
-  Astro SaaS landing page template with 10+ pre-built sections, marketing-focused
-  design, SEO optimization, and responsive templates for product launches.
+  Astro SaaS website template with 10+ pre-built pages, marketing-focused
+  design, SEO optimization, responsive layouts, and included Figma assets for
+  product launches.
 category: astro
 type: template
 tags:
@@ -12,7 +13,7 @@ tags:
   - marketing
   - seo
   - saas
-license: MIT
+license: Commercial
 technical_stack:
   - component: Frontend
     technology: Astro

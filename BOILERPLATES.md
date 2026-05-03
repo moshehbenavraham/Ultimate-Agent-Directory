@@ -73,8 +73,8 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | [**create-t3-turbo**](https://github.com/t3-oss/create-t3-turbo) | 6.0K | MIT | The monorepo variant of T3 Stack, extending create-t3-app to support web and mobile (Expo) applications in a unified codebase. |
 | [**BoxyHQ Enterprise SaaS Starter Kit**](https://github.com/boxyhq/saas-starter-kit) | 4.8K | Apache 2.0 | Creates a unique niche by targeting the B2B enterprise market with compliance features, Single Sign-On (SSO), and auditability. |
 | [**next-saas-stripe-starter**](https://github.com/mickasmt/next-saas-stripe-starter) | 3.0K | MIT | Beautiful UI implementation with comprehensive auth and email. |
+| [**Relivator**](https://github.com/reliverse/relivator) | 1.6K | MIT | Modern SaaS e-commerce starter leveraging the latest Next.js 15 and React 19 features with comprehensive payment integration and shadcn/ui components. |
 | [**Nextacular**](https://github.com/nextacular/nextacular) | 1.4K | MIT | Open-source starter kit for building full-stack multi-tenant SaaS platforms with workspaces and custom domain support. |
-| [**Relivator**](https://github.com/relivator/relivator) | 1.2K | MIT | Modern SaaS e-commerce starter leveraging the latest Next.js 15 and React 19 features with comprehensive payment integration and shadcn/ui components. |
 | [**Supabase + Next.js Starter**](https://github.com/KolbySisk/next-supabase-stripe-starter) | 776 | MIT | High-quality SaaS starter leveraging Supabase as a backend-as-a-service for authentication, database, and storage. |
 | [**shadcn/ui Admin Dashboard**](https://ui.shadcn.com/examples/dashboard) | - | MIT | Component collection for building admin dashboards with Next.js and React using shadcn/ui with data tables, charts, forms, and dark mode support. |
 
@@ -182,7 +182,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 | Name | Stars | License | Description |
 |------|-------|---------|-------------|
-| [**bSaaS**](https://github.com/bsaas/bsaas) | - | MIT | Astro SaaS landing page template with 10+ pre-built sections, marketing-focused design, SEO optimization, and responsive templates for product... |
+| [**bSaaS**](https://tailkits.com/templates/bsaas/) | - | Commercial | Astro SaaS website template with 10+ pre-built pages, marketing-focused design, SEO optimization, responsive layouts, and included Figma assets... |
 | [**Freedom Stack**](https://github.com/nicholascostadev/freedom-stack) | - | MIT | HTML-first approach combining Astro with HTMX and Alpine.js for minimal JavaScript interactivity with Astro DB and Drizzle ORM for data persistence. |
 | [**LaunchFa.st**](https://launchfa.st/) | - | - | Multi-framework SaaS starter kit supporting Astro, Next.js, and SvelteKit variants with payment integration, authentication, and marketing components. |
 
@@ -262,11 +262,11 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | Name | Stars | License | Description |
 |------|-------|---------|-------------|
 | [**Bullet Train (Open Source)**](https://github.com/bullet-train-co/bullet_train) | 1.9K | MIT | Andrew Culver's open-source Rails SaaS starter. |
+| [**Rails Tabler Starter**](https://github.com/tarunvelli/rails-tabler-starter) | 203 | MIT | Ruby on Rails starter kit built with Tabler UI components for building admin panels, dashboards, and backoffice applications. |
 | [**rails-react-boilerplate**](https://github.com/giannisp/rails-react-boilerplate) | 91 | MIT | Another Rails + React integration option. |
 | [**templatus-vue**](https://github.com/templatus/templatus-vue) | 86 | MIT | Modern Rails 8.1 + Vue 3 starter with comprehensive testing and PWA support. |
 | [**Rails Vite Starterkit**](https://github.com/carlweis/rails-vite-starterkit) | 0 | MIT | Modern Rails 8.1 starter with Vite, React 18, and comprehensive SaaS features. |
 | [**ReactifyRails**](https://github.com/akhilgkrishnan/reactify-rails) | - | MIT | Rails and React integration starter with Webpacker/Shakapacker for modern JavaScript bundling in Rails 7+ applications. |
-| [**tabler-rails**](https://github.com/tabler/tabler-rails) | - | MIT | Rails admin dashboard starter with Tabler UI components for building beautiful admin panels and backoffice applications. |
 
 ---
 
@@ -282,9 +282,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 |------|-------|---------|-------------|
 | [**gofiber/recipes**](https://github.com/gofiber/recipes) | 3.4K | MIT | Official Go Fiber examples with React SPA patterns. |
 | [**go-echo-templ-htmx**](https://github.com/emarifer/go-echo-templ-htmx) | 293 | MIT | Full-stack Go starter with Echo framework and HTMX for minimal JavaScript interactivity. |
+| [**SaaS Startup Kit (Go)**](https://github.com/go-saas/kit) | 286 | Apache-2.0 | Go SaaS starter kit for building scalable multi-tenant applications with microservice-compatible architecture and modern Go patterns. |
 | [**Go React TypeScript Template**](https://github.com/AkashRajpurohit/go-react-typescript-template) | 16 | MIT | Minimalist starter prioritizing simplicity and the standard library. |
 | [**fiber-go-template (Official)**](https://github.com/gofiber/template) | - | MIT | Official Go Fiber template with full-stack features including Swagger docs, database migrations, Docker deployment, and JWT authentication. |
-| [**SaaS Startup Kit (Go)**](https://github.com/saas-startup-kit/saas-startup-kit) | - | MIT | Golang microservices architecture option for building scalable SaaS applications with modern Go patterns and best practices. |
 
 ---
 

@@ -14,10 +14,13 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
 from check_links import (
+    classify_link_result,
     extract_urls_from_markdown,
     extract_urls_from_template,
     extract_urls_from_static,
+    normalize_extracted_url,
     resolve_selected_files,
+    should_skip_url,
 )
 
 
@@ -167,6 +170,30 @@ class TestMarkdownDirectUrls:
         assert "https://primary.com" in url_strings
         assert "https://secondary.com" in url_strings
 
+    def test_direct_url_strips_trailing_sentence_punctuation(self, tmp_path):
+        """Bare URLs do not include punctuation from surrounding prose"""
+        md_file = tmp_path / "test.md"
+        md_file.write_text(
+            "Open https://github.com/example/project/issues). "
+            "See https://example.com/docs, then continue."
+        )
+
+        urls = extract_urls_from_markdown(md_file)
+
+        url_strings = [url for url, _ in urls]
+        assert "https://github.com/example/project/issues" in url_strings
+        assert "https://example.com/docs" in url_strings
+        assert "https://github.com/example/project/issues)" not in url_strings
+
+    def test_direct_url_keeps_balanced_parentheses(self, tmp_path):
+        """Balanced parentheses can be part of a valid URL path"""
+        md_file = tmp_path / "test.md"
+        md_file.write_text("See https://example.com/wiki/Function_(mathematics)")
+
+        urls = extract_urls_from_markdown(md_file)
+
+        assert urls == [("https://example.com/wiki/Function_(mathematics)", "direct")]
+
 
 class TestMarkdownMixedLinks:
     """Test extraction with mixed link types"""
@@ -302,6 +329,75 @@ class TestTemplateExtraction:
         # Should only get the static URL, not the variable
         assert len(urls) == 1
         assert urls[0][0] == "https://static.example.com"
+
+    def test_literal_url_strips_trailing_parenthesis(self, tmp_path):
+        """Template literal extraction does not include adjacent punctuation"""
+        template_file = tmp_path / "test.html.jinja2"
+        template_file.write_text("Maintained by (https://aiwithapex.com)")
+
+        urls = extract_urls_from_template(template_file)
+
+        assert urls == [("https://aiwithapex.com", "literal")]
+
+
+class TestURLNormalization:
+    """Test URL normalization helpers"""
+
+    def test_normalize_rejects_non_http_urls(self):
+        """Only HTTP(S) URLs are normalized for link checking"""
+        assert normalize_extracted_url("mailto:test@example.com") is None
+        assert normalize_extracted_url("/relative/path") is None
+
+    def test_normalize_strips_angle_brackets_and_quotes(self):
+        """Common Markdown wrappers are removed before validation"""
+        assert normalize_extracted_url("<https://example.com/docs>") == (
+            "https://example.com/docs"
+        )
+
+
+class TestSkipRules:
+    """Test skip rules for non-live placeholder URLs"""
+
+    def test_skips_example_domains(self):
+        """RFC example domains should not be treated as broken live links"""
+        assert should_skip_url("https://docs.example.com", set(), set())
+        assert should_skip_url("https://example.com/path", set(), set())
+
+    def test_skips_github_placeholder_paths(self):
+        """Contribution placeholders should not become broken-link issues"""
+        assert should_skip_url("https://github.com/owner/repo", set(), set())
+        assert should_skip_url(
+            "https://github.com/YOUR-USERNAME/Ultimate-Agent-Directory.git",
+            set(),
+            set(),
+        )
+
+
+class TestLinkClassification:
+    """Test conservative link result classification"""
+
+    def test_permanent_not_found_is_error(self):
+        """404/410 are high-confidence permanent failures after GET fallback"""
+        assert classify_link_result(404, None) == "error"
+        assert classify_link_result(410, None) == "error"
+
+    def test_ambiguous_statuses_are_warnings(self):
+        """Auth blocks, rate limits, server errors, and timeouts are not failures"""
+        assert classify_link_result(403, None) == "warning"
+        assert classify_link_result(429, None) == "warning"
+        assert classify_link_result(500, None) == "warning"
+        assert classify_link_result(0, "Timeout") == "warning"
+
+    def test_dns_name_errors_are_errors(self):
+        """Resolved DNS name failures are high-confidence broken destinations"""
+        assert (
+            classify_link_result(
+                0,
+                "Cannot connect to host missing.example.invalid:443 "
+                "ssl:False [Name or service not known]",
+            )
+            == "error"
+        )
 
 
 # =============================================================================

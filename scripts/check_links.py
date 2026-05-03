@@ -6,12 +6,12 @@ Scans all repository files (YAML, Markdown, templates, static assets) for URLs,
 validates them with async HTTP requests, and reports broken links.
 
 Usage:
-    python scripts/check_links.py                    # Full check with default settings
+    python scripts/check_links.py                    # Full check, report only
     python scripts/check_links.py --yaml-only        # Check only YAML files (fast)
     python scripts/check_links.py --file data/agents/example.yml
     python scripts/check_links.py --file-list changed-files.txt
     python scripts/check_links.py --timeout 10       # Custom timeout
-    python scripts/check_links.py --no-issues        # Skip GitHub issue creation
+    python scripts/check_links.py --create-issues    # Explicitly create GitHub issues
     python scripts/check_links.py --verbose          # Detailed logging
     python scripts/check_links.py --skip-domain localhost
     python scripts/check_links.py --skip-url https://example.com
@@ -28,7 +28,7 @@ from collections import defaultdict
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
-from urllib.parse import urlparse
+from urllib.parse import quote_plus, urlparse
 
 import aiohttp
 import yaml
@@ -58,6 +58,18 @@ DEFAULT_SKIP_DOMAINS = {
     "0.0.0.0",
     "yourdomain.com",
 }
+
+HTTP_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (compatible; UltimateAgentDirectoryLinkChecker/1.0; "
+        "+https://github.com/moshehbenavraham/Ultimate-Agent-Directory)"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
+
+GENERATED_MARKDOWN_FILES = {"README.md", "BOILERPLATES.md"}
+LOW_VALUE_DOC_PATHS = {"docs/previous_changelogs"}
 
 
 @dataclass
@@ -103,6 +115,58 @@ class RateLimiter:
         self.domain_timestamps[domain].append(time.time())
 
 
+def normalize_extracted_url(raw_url: str) -> Optional[str]:
+    """Normalize scanner-captured URLs without changing canonical YAML values."""
+    url = str(raw_url).strip().strip("<>\"'")
+
+    # Bare URL extraction often captures sentence punctuation. Keep balanced
+    # parentheses so URLs like Wikipedia titles do not get damaged.
+    while url:
+        last_char = url[-1]
+        if last_char in ".,;:!?\"'":
+            url = url[:-1]
+            continue
+        if last_char == ")" and url.count(")") > url.count("("):
+            url = url[:-1]
+            continue
+        if last_char == "]" and url.count("]") > url.count("["):
+            url = url[:-1]
+            continue
+        if last_char == "}" and url.count("}") > url.count("{"):
+            url = url[:-1]
+            continue
+        break
+
+    parsed = urlparse(url)
+    if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+        return None
+    return url
+
+
+def add_normalized_url(urls: List[Tuple[str, str]], raw_url: str, context: str) -> None:
+    """Append a URL if it normalizes to a usable HTTP(S) URL."""
+    normalized = normalize_extracted_url(raw_url)
+    if normalized:
+        urls.append((normalized, context))
+
+
+def markdown_reference_url(raw_url: str) -> str:
+    """Return the URL part of a Markdown reference target."""
+    raw_url = raw_url.strip()
+    if raw_url.startswith("<") and ">" in raw_url:
+        return raw_url[1 : raw_url.index(">")]
+    return raw_url.split(maxsplit=1)[0]
+
+
+def is_low_value_doc_path(path: Path, project_root: Path) -> bool:
+    """Skip generated/historical docs that are not canonical link sources."""
+    relative_path = path.relative_to(project_root).as_posix()
+    return any(
+        relative_path == prefix or relative_path.startswith(f"{prefix}/")
+        for prefix in LOW_VALUE_DOC_PATHS
+    )
+
+
 def extract_urls_from_yaml(file_path: Path) -> List[Tuple[str, str]]:
     """
     Extract URLs from YAML files (agents and boilerplates).
@@ -128,36 +192,46 @@ def extract_urls_from_yaml(file_path: Path) -> List[Tuple[str, str]]:
             try:
                 if is_boilerplate:
                     bp_entry = BoilerplateEntry(**data)
-                    urls.append((str(bp_entry.url), "url"))
+                    add_normalized_url(urls, str(bp_entry.url), "url")
                     if bp_entry.documentation_url:
-                        urls.append((str(bp_entry.documentation_url), "documentation_url"))
+                        add_normalized_url(
+                            urls, str(bp_entry.documentation_url), "documentation_url"
+                        )
                     if bp_entry.demo_url:
-                        urls.append((str(bp_entry.demo_url), "demo_url"))
+                        add_normalized_url(urls, str(bp_entry.demo_url), "demo_url")
                     if bp_entry.github_repo:
                         github_url = f"https://github.com/{bp_entry.github_repo}"
-                        urls.append((github_url, "github_repo"))
+                        add_normalized_url(urls, github_url, "github_repo")
                 else:
                     agent_entry = AgentEntry(**data)
-                    urls.append((str(agent_entry.url), "url"))
+                    add_normalized_url(urls, str(agent_entry.url), "url")
                     if agent_entry.documentation_url:
-                        urls.append((str(agent_entry.documentation_url), "documentation_url"))
+                        add_normalized_url(
+                            urls,
+                            str(agent_entry.documentation_url),
+                            "documentation_url",
+                        )
                     if agent_entry.demo_url:
-                        urls.append((str(agent_entry.demo_url), "demo_url"))
+                        add_normalized_url(urls, str(agent_entry.demo_url), "demo_url")
                     if agent_entry.github_repo:
                         github_url = f"https://github.com/{agent_entry.github_repo}"
-                        urls.append((github_url, "github_repo"))
+                        add_normalized_url(urls, github_url, "github_repo")
 
             except Exception:
                 # If Pydantic validation fails, try manual extraction
                 if "url" in data:
-                    urls.append((data["url"], "url"))
+                    add_normalized_url(urls, data["url"], "url")
                 if "documentation_url" in data:
-                    urls.append((data["documentation_url"], "documentation_url"))
+                    add_normalized_url(
+                        urls, data["documentation_url"], "documentation_url"
+                    )
                 if "demo_url" in data:
-                    urls.append((data["demo_url"], "demo_url"))
+                    add_normalized_url(urls, data["demo_url"], "demo_url")
                 if "github_repo" in data:
-                    urls.append(
-                        (f"https://github.com/{data['github_repo']}", "github_repo")
+                    add_normalized_url(
+                        urls,
+                        f"https://github.com/{data['github_repo']}",
+                        "github_repo",
                     )
 
     except Exception as e:
@@ -175,7 +249,7 @@ def extract_urls_from_markdown(file_path: Path) -> List[Tuple[str, str]]:
     Returns:
         List of (url, context) tuples
     """
-    urls = []
+    urls: List[Tuple[str, str]] = []
 
     try:
         with open(file_path, "r", encoding="utf-8") as f:
@@ -185,23 +259,21 @@ def extract_urls_from_markdown(file_path: Path) -> List[Tuple[str, str]]:
         inline_pattern = r"\[([^\]]+)\]\(([^)]+)\)"
         for match in re.finditer(inline_pattern, content):
             url = match.group(2)
-            if url.startswith("http://") or url.startswith("https://"):
-                urls.append((url, f"inline:[{match.group(1)}]"))
+            add_normalized_url(urls, url, f"inline:[{match.group(1)}]")
 
         # Pattern 2: Reference links [ref]: url
         reference_pattern = r"^\[([^\]]+)\]:\s*(.+)$"
         for match in re.finditer(reference_pattern, content, re.MULTILINE):
-            url = match.group(2).strip()
-            if url.startswith("http://") or url.startswith("https://"):
-                urls.append((url, f"reference:[{match.group(1)}]"))
+            url = markdown_reference_url(match.group(2))
+            add_normalized_url(urls, url, f"reference:[{match.group(1)}]")
 
         # Pattern 3: Direct URLs (not in markdown links)
         # Exclude URLs already captured in patterns 1 and 2
         direct_pattern = r'(?<!\()https?://[^\s<>"{}|\\^`\[\]]+'
         captured_urls = {url for url, _ in urls}
         for match in re.finditer(direct_pattern, content):
-            url = match.group(0)
-            if url not in captured_urls:
+            url = normalize_extracted_url(match.group(0))
+            if url and url not in captured_urls:
                 urls.append((url, "direct"))
                 captured_urls.add(url)
 
@@ -220,7 +292,7 @@ def extract_urls_from_template(file_path: Path) -> List[Tuple[str, str]]:
     Returns:
         List of (url, context) tuples
     """
-    urls = []
+    urls: List[Tuple[str, str]] = []
 
     try:
         with open(file_path, "r", encoding="utf-8") as f:
@@ -232,7 +304,7 @@ def extract_urls_from_template(file_path: Path) -> List[Tuple[str, str]]:
             url = match.group(0)
             # Skip if it's inside a Jinja2 variable (contains {})
             if "{{" not in url and "}}" not in url:
-                urls.append((url, "literal"))
+                add_normalized_url(urls, url, "literal")
 
     except Exception as e:
         print(
@@ -249,7 +321,7 @@ def extract_urls_from_static(file_path: Path) -> List[Tuple[str, str]]:
     Returns:
         List of (url, context) tuples
     """
-    urls = []
+    urls: List[Tuple[str, str]] = []
 
     try:
         with open(file_path, "r", encoding="utf-8") as f:
@@ -258,7 +330,7 @@ def extract_urls_from_static(file_path: Path) -> List[Tuple[str, str]]:
         # Extract all HTTP/HTTPS URLs
         url_pattern = r'https?://[^\s"\'<>)\]};]+'
         for match in re.finditer(url_pattern, content):
-            urls.append((match.group(0), "static"))
+            add_normalized_url(urls, match.group(0), "static")
 
     except Exception as e:
         print(
@@ -276,6 +348,12 @@ def should_skip_url(url: str, skip_domains: set[str], skip_urls: set[str]) -> bo
         return False
     if ":" in domain:
         domain = domain.split(":", 1)[0]
+    if domain == "example.com" or domain.endswith(".example.com"):
+        return True
+    if re.search(r"github\.com/(your-username|owner)/", url, re.IGNORECASE):
+        return True
+    if "YOUR-USERNAME" in url:
+        return True
     return domain in skip_domains
 
 
@@ -365,13 +443,17 @@ def collect_all_urls(
         md_files = []
         # Root level markdown
         for md_file in project_root.glob("*.md"):
-            # Skip generated README.md (redundant with YAML)
-            if md_file.name != "README.md":
+            # Skip generated markdown (redundant with YAML canonical sources)
+            if md_file.name not in GENERATED_MARKDOWN_FILES:
                 md_files.append(md_file)
         # Documentation markdown
         docs_dir = project_root / "docs"
         if docs_dir.exists():
-            md_files.extend(docs_dir.glob("**/*.md"))
+            md_files.extend(
+                file_path
+                for file_path in docs_dir.glob("**/*.md")
+                if not is_low_value_doc_path(file_path, project_root)
+            )
     else:
         md_files = [file_path for file_path in selected_files if file_path.suffix == ".md"]
 
@@ -454,15 +536,25 @@ async def check_url(
     # Wait for rate limiter
     await rate_limiter.wait_if_needed(url)
 
+    async def request(method: str) -> Tuple[int, Optional[str]]:
+        async with session.request(
+            method,
+            url,
+            timeout=aiohttp.ClientTimeout(total=timeout),
+            allow_redirects=True,
+            ssl=False,
+        ) as response:
+            return response.status, None
+
     for attempt in range(retries):
         try:
-            async with session.head(
-                url,
-                timeout=aiohttp.ClientTimeout(total=timeout),
-                allow_redirects=True,
-                ssl=False,  # Don't verify SSL to avoid certificate issues
-            ) as response:
-                return response.status, None
+            status_code, error = await request("HEAD")
+            if status_code < 400:
+                return status_code, error
+
+            # Many sites reject or mis-handle HEAD. Verify any failed HEAD
+            # result with GET before reporting it.
+            return await request("GET")
 
         except asyncio.TimeoutError:
             if attempt == retries - 1:
@@ -470,18 +562,11 @@ async def check_url(
             await asyncio.sleep(2**attempt)  # Exponential backoff
 
         except aiohttp.ClientError as e:
-            # Try GET request if HEAD fails (some servers don't support HEAD)
-            if attempt == 0:
-                try:
-                    async with session.get(
-                        url,
-                        timeout=aiohttp.ClientTimeout(total=timeout),
-                        allow_redirects=True,
-                        ssl=False,
-                    ) as response:
-                        return response.status, None
-                except Exception:
-                    pass
+            # Try GET request if HEAD fails at the client/protocol layer.
+            try:
+                return await request("GET")
+            except Exception:
+                pass
 
             if attempt == retries - 1:
                 return 0, str(e)
@@ -493,6 +578,22 @@ async def check_url(
             await asyncio.sleep(2**attempt)
 
     return 0, "Max retries exceeded"
+
+
+def classify_link_result(status_code: int, error_msg: Optional[str]) -> str:
+    """Classify results conservatively to avoid false broken-link claims."""
+    if status_code == 0:
+        if error_msg and (
+            "Name or service not known" in error_msg
+            or "No address associated with hostname" in error_msg
+        ):
+            return "error"
+        return "warning"
+    if status_code < 400:
+        return "success"
+    if status_code in {404, 410}:
+        return "error"
+    return "warning"
 
 
 async def check_all_urls(
@@ -540,7 +641,12 @@ async def check_all_urls(
 
     # Create aiohttp session
     connector = aiohttp.TCPConnector(limit=100, limit_per_host=10)
-    async with aiohttp.ClientSession(connector=connector) as session:
+    async with aiohttp.ClientSession(
+        connector=connector,
+        headers=HTTP_HEADERS,
+        max_line_size=65536,
+        max_field_size=65536,
+    ) as session:
         # Create progress bar
         with tqdm(total=len(unique_urls), desc="Progress", unit="url") as pbar:
             # Check URLs in batches to avoid overwhelming the system
@@ -559,19 +665,7 @@ async def check_all_urls(
 
                 # Process results
                 for url, (status_code, error_msg) in zip(batch, batch_results):
-                    # Classify result
-                    if status_code == 0:
-                        status = "error"
-                    elif status_code < 400:
-                        status = "success"
-                    elif status_code in [403, 401]:
-                        status = "warning"  # May be auth-required
-                    elif status_code == 429:
-                        status = "warning"  # Rate limited
-                    elif status_code >= 500:
-                        status = "warning"  # Server error (may be temporary)
-                    else:
-                        status = "error"  # 404, 410, etc.
+                    status = classify_link_result(status_code, error_msg)
 
                     # Create URLCheck for each source
                     for file_path, field in url_to_sources[url]:
@@ -731,7 +825,8 @@ def create_github_issues(results: List[URLCheck], verbose: bool = False):
 
     for url, url_errors in unique_errors.items():
         # Check if issue already exists
-        search_url = f"https://api.github.com/search/issues?q=repo:{repo}+is:issue+is:open+{url}+in:title"
+        query = quote_plus(f'repo:{repo} is:issue is:open in:title "{url}"')
+        search_url = f"https://api.github.com/search/issues?q={query}"
         try:
             response = requests.get(search_url, headers=headers)
             if response.status_code == 200:
@@ -802,7 +897,7 @@ Examples:
   %(prog)s --file data/agents/example.yml
   %(prog)s --file-list changed-files.txt
   %(prog)s --timeout 10             # Custom timeout (10 seconds)
-  %(prog)s --no-issues              # Skip GitHub issue creation
+  %(prog)s --create-issues          # Create GitHub issues for confirmed failures
   %(prog)s --verbose                # Show detailed output
         """,
     )
@@ -862,7 +957,13 @@ Examples:
     parser.add_argument(
         "--no-issues",
         action="store_true",
-        help="Skip GitHub issue creation (report only)",
+        help="Deprecated compatibility flag; issue creation is disabled by default",
+    )
+
+    parser.add_argument(
+        "--create-issues",
+        action="store_true",
+        help="Create GitHub issues for confirmed broken links",
     )
 
     parser.add_argument(
@@ -922,9 +1023,14 @@ Examples:
     # Save report
     save_report(results)
 
-    # Create GitHub issues (unless disabled)
-    if not args.no_issues:
+    # Create GitHub issues only when explicitly requested.
+    if args.create_issues:
         create_github_issues(results, verbose=args.verbose)
+    elif args.verbose and not args.no_issues:
+        print(
+            f"{Colors.BLUE}GitHub issue creation disabled "
+            f"(use --create-issues to opt in).{Colors.RESET}"
+        )
 
     # Exit with appropriate code
     errors = [r for r in results if r.status == "error"]

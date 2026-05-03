@@ -18,7 +18,6 @@ jobs:
 
     permissions:
       contents: read      # Read repository files
-      issues: write       # Create issues for broken links
 
     steps:
       - name: Checkout repository
@@ -61,7 +60,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
-          python scripts/check_links.py --verbose
+          python scripts/check_links.py --verbose --no-issues
 
       - name: Upload link check report
         if: always()  # Upload report even if link check fails
@@ -75,4 +74,4 @@ jobs:
         if: failure()
         run: |
           echo "Link checker found broken links. Check the artifacts for detailed report."
-          echo "Issues have been created for broken links (if GITHUB_TOKEN is available)."
+          echo "Automated issue creation is disabled; review the artifact before opening issues."

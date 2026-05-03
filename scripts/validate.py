@@ -93,7 +93,7 @@ def get_file_kind(filepath: Path, data_dir: Path) -> str | None:
 def collect_files(
     paths: Iterable[str], data_dir: Path, include: dict[str, bool]
 ) -> tuple[dict[str, list[Path]], list[str]]:
-    collected = {
+    collected: dict[str, list[Path]] = {
         "agent": [],
         "category": [],
         "boilerplate": [],

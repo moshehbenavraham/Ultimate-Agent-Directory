@@ -1,0 +1,19 @@
+name: Hermes Paperclip Adapter
+url: https://github.com/NousResearch/hermes-paperclip-adapter
+description: Official Nous Research adapter for running Hermes Agent as a managed
+  employee in a Paperclip company. Bridges Hermes into Paperclip-style task
+  assignment, governance, and managed agent operations.
+github_repo: NousResearch/hermes-paperclip-adapter
+last_updated: '2026-04-04'
+github_stars: 1086
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: true
+type: tool
+tags:
+  - hermes-agent
+  - nous-research
+  - paperclip
+  - integration
+  - governance

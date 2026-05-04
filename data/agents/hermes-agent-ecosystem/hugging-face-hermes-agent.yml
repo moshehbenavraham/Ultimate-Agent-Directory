@@ -1,0 +1,18 @@
+name: Hugging Face Hermes Agent Integration
+url: https://huggingface.co/docs/inference-providers/en/integrations/hermes-agent
+description: Hugging Face Inference Providers integration guide for Hermes Agent.
+  Explains how to connect Hermes to a Hugging Face token, select the Hugging Face
+  provider with `hermes model` or `hermes chat --provider hf`, and route Hermes
+  through hundreds of open models across supported inference providers.
+last_updated: '2026-05-04'
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: true
+type: tool
+tags:
+  - hermes-agent
+  - integration
+  - model-routing
+  - llm
+  - multi-llm

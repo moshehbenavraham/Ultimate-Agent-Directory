@@ -1,0 +1,17 @@
+name: DeepWiki - Hermes Agent
+url: https://deepwiki.com/nousresearch-hermes-agent/hermes-agent
+description: DeepWiki codebase explainer for Hermes Agent that maps the repository,
+  architecture, runtime concepts, components, and implementation details into a
+  navigable reference for developers studying or extending the upstream project.
+last_updated: '2026-05-04'
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: false
+type: community
+tags:
+  - hermes-agent
+  - architecture
+  - documentation
+  - reference
+  - explainer

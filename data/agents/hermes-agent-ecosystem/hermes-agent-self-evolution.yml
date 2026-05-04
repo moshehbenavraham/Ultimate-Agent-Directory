@@ -1,0 +1,20 @@
+name: Hermes Agent Self-Evolution
+url: https://github.com/NousResearch/hermes-agent-self-evolution
+description: Nous Research optimization pipeline for evolving Hermes Agent skills,
+  prompts, tool descriptions, and code using DSPy and GEPA. Generates evaluation
+  data, mutates candidate variants, checks constraints, and proposes measurable
+  improvements through pull requests rather than direct mutation.
+github_repo: NousResearch/hermes-agent-self-evolution
+last_updated: '2026-03-29'
+github_stars: 2738
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: true
+type: research
+tags:
+  - hermes-agent
+  - nous-research
+  - self-improving
+  - optimization
+  - prompt-optimization

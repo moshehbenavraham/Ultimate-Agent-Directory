@@ -1,0 +1,20 @@
+name: ClawShell
+url: https://github.com/clawshell/clawshell
+description: Runtime security layer for OpenClaw and Hermes Agent deployments.
+  Focuses on protecting personally identifiable information and sensitive
+  credentials while agents execute commands, call tools, and operate against local
+  or self-hosted environments.
+github_repo: clawshell/clawshell
+last_updated: '2026-05-02'
+github_stars: 281
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: true
+type: tool
+tags:
+  - security
+  - hermes-agent
+  - openclaw
+  - privacy
+  - safety

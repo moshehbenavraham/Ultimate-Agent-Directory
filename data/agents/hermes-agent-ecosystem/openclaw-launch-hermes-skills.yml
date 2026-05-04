@@ -1,0 +1,18 @@
+name: OpenClaw Launch Hermes Skills Guide
+url: https://openclawlaunch.com/guides/hermes-agent-skills
+description: Community guide to Hermes Agent skills covering the public Skills Hub,
+  built-in and optional skill categories, MCP server support, external skill
+  directories, slash-command usage, and how Hermes can turn repeated workflows into
+  reusable procedural memory.
+last_updated: '2026-05-04'
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: false
+type: community
+tags:
+  - hermes-agent
+  - skills
+  - guides
+  - mcp
+  - tutorials

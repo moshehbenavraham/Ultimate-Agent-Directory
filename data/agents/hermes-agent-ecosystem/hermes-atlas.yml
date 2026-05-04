@@ -1,0 +1,19 @@
+name: Hermes Atlas
+url: https://github.com/ksimback/hermes-ecosystem
+description: Community map of Hermes Agent tools, skills, integrations, dashboards,
+  plugins, and related projects. Provides a separate ecosystem index at hermesatlas.com
+  for discovering the rapidly growing Hermes Agent project graph.
+github_repo: ksimback/hermes-ecosystem
+last_updated: '2026-05-04'
+github_stars: 732
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: true
+type: community
+tags:
+  - hermes-agent
+  - directory
+  - resources
+  - community
+  - tools

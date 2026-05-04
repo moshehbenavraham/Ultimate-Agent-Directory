@@ -1,0 +1,19 @@
+name: Hermes arXiv Agent
+url: https://github.com/genggng/hermes-arxiv-agent
+description: Hermes-based research skill that fetches arXiv papers on a schedule,
+  generates Chinese summaries and affiliation notes with AI, pushes updates to
+  Feishu, and publishes a local static reading site for paper review workflows.
+github_repo: genggng/hermes-arxiv-agent
+last_updated: '2026-05-02'
+github_stars: 54
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: true
+type: tool
+tags:
+  - hermes-agent
+  - research
+  - papers
+  - scheduling
+  - automation

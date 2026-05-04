@@ -176,6 +176,7 @@ class SiteConfig(BaseModel):
     """Site-level configuration loaded from data/metadata.yml"""
 
     title: str = "Ultimate AI Agent Directory"
+    version: str = "0.1.0"
     tagline: str = (
         "The most comprehensive collection of AI agent frameworks, platforms, tools, and resources"
     )
@@ -191,6 +192,7 @@ class DirectoryMetadata(BaseModel):
     """Overall directory metadata"""
 
     title: str = "Ultimate AI Agent Directory"
+    version: str = "0.1.0"
     tagline: str = "The most comprehensive collection of AI agent frameworks, platforms, tools, and resources"
 
     last_generated: date = Field(

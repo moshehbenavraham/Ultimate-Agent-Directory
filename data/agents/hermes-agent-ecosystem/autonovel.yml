@@ -1,0 +1,19 @@
+name: Autonovel
+url: https://github.com/NousResearch/autonovel
+description: Nous Research autonomous novel-writing pipeline built by Hermes Agent.
+  Demonstrates long-running creative generation workflows on top of the Hermes
+  agent loop, using structured planning and iterative drafting for full manuscript
+  production.
+github_repo: NousResearch/autonovel
+last_updated: '2026-03-20'
+github_stars: 859
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: true
+type: tool
+tags:
+  - hermes-agent
+  - nous-research
+  - automation
+  - workflow

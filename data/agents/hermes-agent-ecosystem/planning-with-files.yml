@@ -1,0 +1,19 @@
+name: Planning with Files
+url: https://github.com/OthmanAdi/planning-with-files
+description: Portable planning skill that implements persistent markdown planning
+  for coding agents. While originally framed around Claude Code, it is tagged for
+  Hermes Agent and OpenClaw usage and fits Hermes workflows that need durable plans
+  across sessions, skills, and agent handoffs.
+github_repo: OthmanAdi/planning-with-files
+last_updated: '2026-05-01'
+github_stars: 20319
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: true
+type: tool
+tags:
+  - agent-skills
+  - hermes-agent
+  - workflow
+  - markdown

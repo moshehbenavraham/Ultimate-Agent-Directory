@@ -1,0 +1,18 @@
+id: hermes-agent-ecosystem
+title: Hermes Agent Ecosystem
+emoji: "☤"
+description: >
+  Hermes Agent is Nous Research's open-source, self-improving AI agent runtime
+  with a terminal UI, messaging gateway, persistent memory, reusable skills, MCP
+  integration, cron scheduling, subagents, and multiple execution backends. This
+  category covers the core runtime, official docs and releases, skill registries,
+  community dashboards, deployment helpers, security and observability plugins,
+  bridges, research tooling, and reusable skills built around Hermes Agent.
+
+order: 12
+show_github_stats: true
+
+table_columns:
+  - name
+  - url
+  - description

@@ -1,0 +1,19 @@
+name: Hermes Control Interface
+url: https://github.com/xaspx/hermes-control-interface
+description: Self-hosted browser dashboard for the Hermes Agent stack with a
+  terminal, file explorer, session overview, cron management, system metrics, and
+  agent status panel behind a single password gate.
+github_repo: xaspx/hermes-control-interface
+last_updated: '2026-05-04'
+github_stars: 569
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: true
+type: tool
+tags:
+  - hermes-agent
+  - dashboard
+  - web-ui
+  - self-hosted
+  - monitoring

@@ -1,0 +1,19 @@
+name: drawio-skill
+url: https://github.com/Agents365-ai/drawio-skill
+description: Portable Agent Skill that generates draw.io diagrams from natural
+  language and exports PNG, SVG, or PDF outputs. Works with Hermes Agent, OpenClaw,
+  Claude Code, OpenAI Codex, and SkillsMP-compatible runtimes.
+github_repo: Agents365-ai/drawio-skill
+last_updated: '2026-04-29'
+github_stars: 1093
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: true
+type: tool
+tags:
+  - agent-skills
+  - hermes-agent
+  - visual-builder
+  - documentation
+  - workflow

@@ -1,0 +1,19 @@
+name: Hermes Agent Skills Hub
+url: https://hermes-agent.nousresearch.com/docs/skills
+description: Official Hermes Agent Skills Hub for discovering, searching, and
+  installing built-in, optional, and community skills. The hub indexes hundreds of
+  skills across multiple registries and categories, including software development,
+  creative work, MLOps, research, productivity, GitHub, security, DevOps, and AI
+  agent orchestration.
+last_updated: '2026-05-04'
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: true
+type: tool
+tags:
+  - hermes-agent
+  - skills
+  - registry
+  - official
+  - agent-skills

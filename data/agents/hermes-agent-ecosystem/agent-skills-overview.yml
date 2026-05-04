@@ -1,0 +1,18 @@
+name: Agent Skills Overview
+url: https://agentskills.io/
+description: Open standard for SKILL.md-style agent skills used by Hermes Agent's
+  skills ecosystem. Defines portable skill folders with metadata, instructions,
+  and optional scripts, references, templates, and assets so capabilities can move
+  across Hermes Agent, Claude Code, Codex, Cursor, and other skill-aware agents.
+last_updated: '2026-05-04'
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: true
+type: tool
+tags:
+  - agent-skills
+  - skills
+  - open-source
+  - documentation
+  - interoperability

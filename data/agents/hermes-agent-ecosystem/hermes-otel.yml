@@ -1,0 +1,19 @@
+name: Hermes OTel
+url: https://github.com/briancaffey/hermes-otel
+description: OpenTelemetry plugin for Hermes Agent with examples for sending traces
+  and telemetry to observability backends such as Arize Phoenix, Grafana Tempo,
+  Jaeger, Langfuse, OpenInference, SigNoz, and related OTel-compatible systems.
+github_repo: briancaffey/hermes-otel
+last_updated: '2026-04-26'
+github_stars: 10
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: true
+type: tool
+tags:
+  - hermes-agent
+  - opentelemetry
+  - observability
+  - tracing
+  - plugins

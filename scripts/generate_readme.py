@@ -96,6 +96,7 @@ def generate_readme():
     # Build metadata
     metadata = DirectoryMetadata(
         title=site_config.title,
+        version=site_config.version,
         tagline=site_config.tagline,
         total_entries=len(agents),
         last_generated=date.today(),

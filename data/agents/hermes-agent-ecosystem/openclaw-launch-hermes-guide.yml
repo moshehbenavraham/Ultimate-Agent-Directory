@@ -1,0 +1,18 @@
+name: OpenClaw Launch Hermes Guide
+url: https://openclawlaunch.com/guides/what-is-hermes-agent
+description: Plain-English community guide explaining what Hermes Agent is, how it
+  differs from a chatbot, where it fits relative to OpenClaw, and which deployment
+  paths, messaging channels, APIs, memory features, and tool workflows matter for
+  new users.
+last_updated: '2026-05-04'
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: false
+type: community
+tags:
+  - hermes-agent
+  - guides
+  - tutorial
+  - openclaw
+  - getting-started

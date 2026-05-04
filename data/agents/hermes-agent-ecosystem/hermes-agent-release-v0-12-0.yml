@@ -1,0 +1,19 @@
+name: Hermes Agent v0.12.0 Release Notes
+url: https://github.com/NousResearch/hermes-agent/releases/tag/v2026.4.30
+description: Official April 30, 2026 release notes for Hermes Agent v0.12.0. The
+  Curator release adds autonomous skill-library maintenance, upgraded self-improvement
+  review loops, expanded bundled skills, new providers, plugin gateway platforms,
+  Microsoft Teams and Yuanbao messaging support, Spotify and Google Meet integrations,
+  web dashboard model controls, observability plugins, and performance work.
+last_updated: '2026-04-30'
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: true
+type: community
+tags:
+  - hermes-agent
+  - changelog
+  - official
+  - reference
+  - self-improving

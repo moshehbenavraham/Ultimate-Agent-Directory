@@ -1,0 +1,20 @@
+name: Hermes Function Calling
+url: https://github.com/NousResearch/Hermes-Function-Calling
+description: Nous Research function-calling and tool-use notebook repository for
+  Hermes-family models. Useful background for teams pairing Hermes Agent with
+  Nous models, structured tool calls, and training or evaluating tool-calling
+  behavior.
+github_repo: NousResearch/Hermes-Function-Calling
+last_updated: '2025-12-22'
+github_stars: 1318
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: true
+type: research
+tags:
+  - nous-research
+  - function-calling
+  - tool-calling
+  - research
+  - structured-outputs

@@ -1,0 +1,19 @@
+name: OpenClaw Admin for Hermes
+url: https://github.com/itq5/OpenClaw-Admin
+description: Vue 3 management platform that supports both OpenClaw Gateway and
+  Hermes Agent. Provides visual administration for agents, sessions, models,
+  channels, skills, and related gateway operations from a single web interface.
+github_repo: itq5/OpenClaw-Admin
+last_updated: '2026-04-27'
+github_stars: 675
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: true
+type: tool
+tags:
+  - hermes-agent
+  - openclaw
+  - dashboard
+  - web-ui
+  - control-plane

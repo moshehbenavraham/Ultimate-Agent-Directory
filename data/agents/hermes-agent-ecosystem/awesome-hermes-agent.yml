@@ -1,0 +1,20 @@
+name: Awesome Hermes Agent
+url: https://github.com/0xNyk/awesome-hermes-agent
+description: Community awesome list tracking Hermes Agent resources, official
+  repositories, skills, plugins, deployment tools, integrations, bridges, forks,
+  guides, operational playbooks, and domain applications around the Nous Research
+  runtime.
+github_repo: 0xNyk/awesome-hermes-agent
+last_updated: '2026-04-21'
+github_stars: 2389
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: true
+type: community
+tags:
+  - awesome-list
+  - hermes-agent
+  - nous-research
+  - resources
+  - community

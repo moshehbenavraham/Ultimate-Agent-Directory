@@ -1,0 +1,20 @@
+name: ComfyUI Skills for OpenClaw and Hermes
+url: https://github.com/HuangYuChuh/ComfyUI_Skills_OpenClaw
+description: Agent-friendly ComfyUI workflow skills for OpenClaw, Hermes Agent,
+  Codex, and Claude Code. Turns ComfyUI workflows into callable skills so agents
+  can trigger image-generation and Stable Diffusion pipelines from natural-language
+  workflows.
+github_repo: HuangYuChuh/ComfyUI_Skills_OpenClaw
+last_updated: '2026-04-21'
+github_stars: 248
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: true
+type: tool
+tags:
+  - agent-skills
+  - skills
+  - hermes-agent
+  - multimodal
+  - workflow

@@ -1,0 +1,19 @@
+name: Hermes Labyrinth
+url: https://github.com/stainlu/hermes-labyrinth
+description: Read-only observability plugin for Hermes Agent that surfaces journeys,
+  crossings, guideposts, and reports. Helps operators inspect how a long-running
+  Hermes agent moves through tasks without granting the plugin write authority.
+github_repo: stainlu/hermes-labyrinth
+last_updated: '2026-05-04'
+github_stars: 249
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: true
+type: tool
+tags:
+  - hermes-agent
+  - observability
+  - plugins
+  - dashboard
+  - monitoring

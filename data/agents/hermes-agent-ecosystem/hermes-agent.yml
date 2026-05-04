@@ -1,0 +1,21 @@
+name: Hermes Agent
+url: https://github.com/NousResearch/hermes-agent
+description: Nous Research's open-source self-improving AI agent runtime with a
+  terminal UI, web dashboard, messaging gateway, persistent memory, skill creation
+  and curation, MCP integration, cron scheduling, subagents, OpenClaw migration,
+  provider switching, and local, Docker, SSH, Daytona, Singularity, Modal, and
+  Vercel Sandbox execution backends.
+github_repo: NousResearch/hermes-agent
+last_updated: '2026-05-04'
+github_stars: 131962
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: true
+type: framework
+tags:
+  - hermes-agent
+  - nous-research
+  - self-improving
+  - memory
+  - skills

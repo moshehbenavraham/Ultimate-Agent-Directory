@@ -1,0 +1,20 @@
+name: Hermes Agent Orange Book
+url: https://github.com/alchaincyf/hermes-agent-orange-book
+description: Chinese practical guidebook for learning Hermes Agent from beginner
+  setup through advanced operation. Covers the Nous Research open-source agent
+  framework with hands-on usage notes, examples, and workflow guidance for
+  Chinese-speaking users.
+github_repo: alchaincyf/hermes-agent-orange-book
+last_updated: '2026-04-21'
+github_stars: 3504
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: true
+type: course
+tags:
+  - hermes-agent
+  - book
+  - tutorial
+  - learning
+  - guides

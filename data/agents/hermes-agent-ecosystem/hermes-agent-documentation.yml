@@ -1,0 +1,18 @@
+name: Hermes Agent Documentation
+url: https://hermes-agent.nousresearch.com/docs
+description: Official Hermes Agent documentation covering installation, CLI usage,
+  configuration, messaging platforms, security, tools and toolsets, skills, memory,
+  MCP, cron scheduling, context files, architecture, contributing, CLI reference,
+  and environment variables.
+last_updated: '2026-05-04'
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: true
+type: community
+tags:
+  - hermes-agent
+  - documentation
+  - official
+  - guides
+  - reference

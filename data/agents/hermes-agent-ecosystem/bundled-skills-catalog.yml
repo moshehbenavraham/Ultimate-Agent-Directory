@@ -1,0 +1,18 @@
+name: Hermes Agent Bundled Skills Catalog
+url: https://hermes-agent.nousresearch.com/docs/reference/skills-catalog
+description: Official catalog of bundled skills that ship with Hermes Agent. The
+  catalog documents built-in capabilities across autonomous AI agents, creative
+  generation, DevOps, GitHub workflows, MCP, media, MLOps, productivity, research,
+  software development, smart home, and messaging categories.
+last_updated: '2026-05-04'
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: true
+type: tool
+tags:
+  - hermes-agent
+  - skills
+  - documentation
+  - reference
+  - official

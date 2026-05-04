@@ -1,0 +1,20 @@
+name: Awesome Hermes Agent Use Cases
+url: https://github.com/aliaihub/awesome-hermes-usecases
+description: Curated collection of real-world Hermes Agent use cases covering
+  developer workflows, messaging bots, memory-driven assistants, MCP extensions,
+  cron jobs, productivity automations, local LLM deployments, and self-improving
+  agent patterns.
+github_repo: aliaihub/awesome-hermes-usecases
+last_updated: '2026-04-30'
+github_stars: 25
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: true
+type: community
+tags:
+  - awesome-list
+  - use-cases
+  - hermes-agent
+  - workflow
+  - automation

@@ -1,0 +1,20 @@
+name: ClawSec
+url: https://github.com/prompt-security/clawsec
+description: Security skill suite for OpenClaw-derived and Hermes-compatible agent
+  environments. Adds drift detection, skill integrity checks, live security
+  recommendations, automated audits, and protective workflows for persona and
+  memory files.
+github_repo: prompt-security/clawsec
+last_updated: '2026-05-04'
+github_stars: 967
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: true
+type: tool
+tags:
+  - security
+  - skills
+  - hermes-agent
+  - openclaw
+  - governance

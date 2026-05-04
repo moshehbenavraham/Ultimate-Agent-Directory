@@ -1,0 +1,19 @@
+name: Hermes Manager
+url: https://github.com/tumf/hermes-manager
+description: Multi-agent control plane for provisioning, operating, and reusing
+  multiple Hermes Agent instances on a single host. Useful for teams experimenting
+  with Hermes fleets, shared infrastructure, and reusable agent environments.
+github_repo: tumf/hermes-manager
+last_updated: '2026-04-21'
+github_stars: 12
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-05-04'
+verified: true
+type: tool
+tags:
+  - hermes-agent
+  - control-plane
+  - multi-agent
+  - self-hosted
+  - typescript

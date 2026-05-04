@@ -1,17 +1,19 @@
 name: ReactifyRails
-url: https://github.com/akhilgkrishnan/reactify-rails
+url: https://github.com/akhilgkrishnan/Rails-React-Boilerplate
 description: |
-  Rails and React integration starter with Webpacker/Shakapacker for modern
-  JavaScript bundling in Rails 7+ applications.
+  Rails and React integration starter with Shakapacker for modern
+  JavaScript bundling in Rails 7+ applications. Includes TypeScript,
+  Tailwind CSS, ESLint, Prettier, RuboCop, and Husky pre-configured.
 category: rails
 type: starter
 tags:
   - rails
   - ruby
   - react
-  - webpacker
   - shakapacker
-github_repo: akhilgkrishnan/reactify-rails
+  - typescript
+  - tailwindcss
+github_repo: akhilgkrishnan/Rails-React-Boilerplate
 license: MIT
 technical_stack:
   - component: Backend

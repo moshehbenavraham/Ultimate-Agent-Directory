@@ -57,7 +57,7 @@ Missing something? [Submit an issue]({{ metadata.links.issues }}) or [join the d
 | Framework | Repository | Description |
 |-----------|------------|-------------|
     {% for entry in subcat_entries %}
-| **{{ entry.name }}** | [{{ 'GitHub' if entry.github_repo else 'Link' }}]({{ entry.url }}) | {{ entry.description }}{% if entry.github_stars %} ![Stars](https://img.shields.io/badge/stars-{{ entry.github_stars | replace(',', '') }}-yellow){% endif %} |
+| **{{ entry.name | markdown_table_cell }}** | [{{ 'GitHub' if entry.github_repo else 'Link' }}]({{ entry.url }}) | {{ entry.description | markdown_table_cell }}{% if entry.github_stars %} ![Stars](https://img.shields.io/badge/stars-{{ entry.github_stars | replace(',', '') }}-yellow){% endif %} |
     {% endfor %}
 
   {% endfor %}
@@ -66,7 +66,7 @@ Missing something? [Submit an issue]({{ metadata.links.issues }}) or [join the d
 | Framework | Repository | Description |
 |-----------|------------|-------------|
   {% for entry in cat_entries %}
-| **{{ entry.name }}** | [{{ 'GitHub' if entry.github_repo else 'Link' }}]({{ entry.url }}) | {{ entry.description }}{% if entry.github_stars %} ![Stars](https://img.shields.io/badge/stars-{{ entry.github_stars | replace(',', '') }}-yellow){% endif %} |
+| **{{ entry.name | markdown_table_cell }}** | [{{ 'GitHub' if entry.github_repo else 'Link' }}]({{ entry.url }}) | {{ entry.description | markdown_table_cell }}{% if entry.github_stars %} ![Stars](https://img.shields.io/badge/stars-{{ entry.github_stars | replace(',', '') }}-yellow){% endif %} |
   {% endfor %}
 {% endif %}
 

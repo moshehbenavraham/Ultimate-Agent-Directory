@@ -47,6 +47,14 @@ def count_boilerplates() -> int:
     return len(list(boilerplates_dir.rglob("*.yml")))
 
 
+def markdown_table_cell(value) -> str:
+    """Normalize text for use inside a Markdown table cell."""
+    if value is None:
+        return ""
+    text = " ".join(str(value).split())
+    return text.replace("|", r"\|")
+
+
 def group_by_category(agents: list[AgentEntry]) -> dict:
     """Group agents by category"""
     grouped = defaultdict(list)
@@ -70,6 +78,7 @@ def render_readme(
     env = Environment(
         loader=FileSystemLoader("templates"), trim_blocks=True, lstrip_blocks=True
     )
+    env.filters["markdown_table_cell"] = markdown_table_cell
     template = env.get_template("readme.jinja2")
 
     return template.render(

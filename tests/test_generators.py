@@ -10,7 +10,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
 from generate_boilerplates import render_boilerplates_readme
-from generate_readme import render_readme
+from generate_readme import markdown_table_cell, render_readme
 from generate_site import create_search_index, create_boilerplate_search_index
 from models import (
     AgentEntry,
@@ -65,6 +65,45 @@ def test_render_readme_includes_category_and_entry() -> None:
     assert "# Test Directory" in output
     assert "Test Category" in output
     assert "Test Agent" in output
+
+
+def test_markdown_table_cell_collapses_newlines_and_escapes_pipes() -> None:
+    output = markdown_table_cell("First line\nsecond   line | extra")
+
+    assert output == r"First line second line \| extra"
+
+
+def test_render_readme_keeps_multiline_descriptions_on_one_table_row() -> None:
+    metadata = DirectoryMetadata(
+        title="Test Directory",
+        tagline="Test tagline for readme rendering.",
+        total_entries=1,
+        last_generated=date(2025, 1, 1),
+        links=build_site_links(),
+    )
+    category = Category(
+        id="test-category",
+        title="Test Category",
+        description="A test category description.",
+        emoji="[]",
+    )
+    agent = AgentEntry(
+        name="Test Agent",
+        url="https://example.com/agent",
+        description="A valid description\nwith a literal | pipe.",
+        category="test-category",
+        tags=["testing"],
+    )
+
+    output = render_readme(
+        metadata=metadata,
+        categories=[category],
+        entries_by_category={"test-category": [agent]},
+        boilerplate_count=0,
+    )
+
+    assert "A valid description with a literal \\| pipe." in output
+    assert "A valid description\nwith a literal" not in output
 
 
 def test_render_boilerplates_includes_entry() -> None:

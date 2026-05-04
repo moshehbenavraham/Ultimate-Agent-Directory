@@ -1,5 +1,5 @@
-# AI assistant guidance file (not tracked in git)
-.codex/
+# AI assistant local/runtime files.
+.codex/copush-venv/
 .claude/
 .spec_system/
 

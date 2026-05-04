@@ -23,6 +23,17 @@ make test        # Run validation + generation
 make clean       # Remove generated files
 ```
 
+## Codex Prompt Workflows
+
+Project-specific agent workflows are maintained as Codex CLI prompts:
+
+```bash
+codex exec --search -C . - < .codex/prompts/fixlinks.md
+codex exec -C . - < .codex/prompts/rotatechangelog.md
+```
+
+See `docs/CODEX_COMMANDS.md` for details.
+
 ## Adding a New Agent
 
 ### 1. Create YAML File
@@ -212,4 +223,5 @@ Every push to `main` automatically:
 
 - **REFERENCE.md** - Command and schema reference
 - **ADVANCED.md** - Website customization, CI/CD internals
+- **CODEX_COMMANDS.md** - Codex prompt command usage
 - **GitHub Issues** - Report bugs or request features

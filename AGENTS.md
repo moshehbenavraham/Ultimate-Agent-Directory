@@ -138,6 +138,8 @@ Outputs (README.md + _site/)
 - `requirements.txt` - Python dependencies (Pydantic, PyYAML, Jinja2)
 - `.github/workflows/deploy.yml` - Auto-deploy to GitHub Pages on push to main
 - `.github/workflows/validate.yml` - Validate YAML on PRs
+- `.codex/prompts/*.md` - Shared Codex CLI prompt commands
+- `.claude/commands/*.md` - Legacy Claude Code command compatibility
 
 ## Directory Structure
 
@@ -200,7 +202,14 @@ docs/                              # Project documentation
 - `_site/` directory (generated, gitignored)
 - `venv/` directory (Python environment, gitignored)
 - `__pycache__/` (Python cache, gitignored)
-- `CLAUDE.md` (AI assistant file, gitignored)
+- Local `.codex/` runtime files, caches, virtual environments, and session state
+- Local `.claude/` runtime files outside tracked command definitions
+
+### Agent Guidance and Commands
+- `AGENTS.md` is the canonical assistant guidance file.
+- `CLAUDE.md` and `GEMINI.md` are symlinks to `AGENTS.md`.
+- `.codex/prompts/*.md` contains the canonical shared Codex CLI command prompts.
+- `.claude/commands/*.md` remains for Claude Code compatibility, but prefer Codex for new workflows.
 
 ### Before Every Commit
 1. Run `make validate` to ensure YAML files are valid
@@ -240,8 +249,18 @@ The project has three core documentation files:
 Additional documentation:
 - **docs/CHANGELOG.md** - Version history
 - **docs/ROADMAP.md** - Future plans
+- **docs/CODEX_COMMANDS.md** - Codex CLI prompt commands and usage
 
 ## Common Development Tasks
+
+### Running Codex Prompt Commands
+
+```bash
+codex exec --search -C . - < .codex/prompts/fixlinks.md
+codex exec -C . - < .codex/prompts/rotatechangelog.md
+```
+
+See `docs/CODEX_COMMANDS.md` for prompt details and maintenance guidance.
 
 ### Adding a New Agent/Tool
 

@@ -1,4 +1,4 @@
-# Changelog TEMPLATE for /rotatechangelog Claude Code Command
+# Changelog TEMPLATE for rotatechangelog Codex Prompt
 
 All notable changes to the **Ultimate AI Agent Ecosystem Directory** project will be documented in this file.
 

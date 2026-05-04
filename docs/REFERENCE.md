@@ -13,9 +13,21 @@ make refresh-github-metadata # Update GitHub stars and repo metadata
 make clean       # Remove generated files and cache
 ```
 
+## Codex Prompt Commands
+
+```bash
+codex exec --search -C . - < .codex/prompts/fixlinks.md
+codex exec -C . - < .codex/prompts/rotatechangelog.md
+```
+
+See `docs/CODEX_COMMANDS.md` for the canonical prompt list. Claude Code command files remain in `.claude/commands/` only for compatibility.
+
 ## File Structure
 
 ```
+.codex/
+`-- prompts/              # Shared Codex CLI prompt commands
+
 data/
 |-- agents/               # Agent YAML files
 |   |-- open-source-frameworks/
@@ -174,5 +186,6 @@ Extra inputs are not permitted
 - **GETTING_STARTED.md** - Setup, adding agents, deployment
 - **REFERENCE.md** - This file (quick lookup)
 - **ADVANCED.md** - Customization, CI/CD, advanced topics
+- **CODEX_COMMANDS.md** - Codex CLI prompt commands
 - **CHANGELOG.md** - Version history
 - **ROADMAP.md** - Future plans

@@ -156,6 +156,9 @@ Validate YAML --> Generate README --> Build Site --> Deploy
 ```
 Ultimate-Agent-Directory/
 |
++-- .codex/
+|   +-- prompts/                # Shared Codex CLI prompt commands
+|
 +-- data/
 |   +-- agents/                 # AI agent entries
 |   |   +-- open-source-frameworks/

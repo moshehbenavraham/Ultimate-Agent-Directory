@@ -1,0 +1,18 @@
+name: Hugging Face MCP Course
+url: https://huggingface.co/learn/mcp-course
+description: Free Hugging Face course on Model Context Protocol concepts and
+  implementation, including MCP clients, servers, tool integration, and how agents
+  connect to external data and services.
+category: learning-resources
+type: course
+tags:
+  - course
+  - integration
+  - learning
+  - mcp
+  - tools
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web

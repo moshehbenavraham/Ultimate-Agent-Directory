@@ -1,0 +1,17 @@
+name: Genspark Super Agent
+url: https://www.genspark.ai/agents?type=super_agent
+description: General-purpose AI workspace agent for research, document creation,
+  slides, images, videos, code, and multi-step workflows. Genspark Super Agent
+  combines multiple models and tools to complete complex tasks from prompts.
+category: autonomous-agents
+type: platform
+tags:
+  - autonomous-agent
+  - research
+  - multimodal
+  - productivity
+  - no-code
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

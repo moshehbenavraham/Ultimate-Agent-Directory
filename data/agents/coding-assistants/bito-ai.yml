@@ -1,0 +1,20 @@
+name: Bito AI
+url: https://bito.ai/
+description: AI coding assistant for code explanation, review, testing, and security
+  analysis. Bito integrates with IDEs and enterprise knowledge bases to support
+  development teams across repository workflows.
+category: coding-assistants
+tags:
+  - code-review
+  - coding-assistant
+  - enterprise
+  - jetbrains
+  - vscode-extension
+platform:
+  - VS Code
+  - JetBrains
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

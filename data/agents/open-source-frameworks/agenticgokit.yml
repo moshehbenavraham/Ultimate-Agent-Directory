@@ -1,0 +1,23 @@
+name: AgenticGoKit
+url: https://github.com/AgenticGoKit/AgenticGoKit
+description: Go framework for building, orchestrating, and deploying LLM-agnostic
+  agentic AI applications. AgenticGoKit supports event-driven multi-agent workflows,
+  MCP tool discovery, and production observability.
+github_repo: AgenticGoKit/AgenticGoKit
+documentation_url: https://docs.agenticgokit.com
+github_stars: 145
+last_updated: '2026-04-25'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - go
+  - mcp
+  - multi-agent
+  - observability
+platform:
+  - Go
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

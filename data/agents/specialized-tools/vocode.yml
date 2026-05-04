@@ -1,0 +1,23 @@
+name: Vocode
+url: https://github.com/vocodedev/vocode-core
+description: Open-source library for building voice-based LLM agents and
+  real-time streaming conversations. Vocode provides abstractions and integrations
+  for speech recognition, language models, text-to-speech, telephony, phone calls,
+  meetings, and voice assistants.
+github_repo: vocodedev/vocode-core
+documentation_url: https://docs.vocode.dev/agents
+category: specialized-tools
+type: tool
+tags:
+  - voice-agents
+  - open-source
+  - python
+  - real-time
+  - tools
+license: MIT
+pricing: freemium
+github_stars: 3736
+last_updated: '2026-05-02'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

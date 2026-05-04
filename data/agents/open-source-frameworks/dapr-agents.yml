@@ -1,0 +1,24 @@
+name: Dapr Agents
+url: https://github.com/dapr/dapr-agents
+description: Python framework for building autonomous, resilient, and observable AI
+  agents on Dapr. It combines workflow orchestration, statefulness, telemetry, and
+  security primitives for distributed agent applications.
+github_repo: dapr/dapr-agents
+documentation_url: https://docs.dapr.io/developing-applications/dapr-agents/
+github_stars: 668
+last_updated: '2026-04-30'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - distributed
+  - kubernetes
+  - observability
+  - python
+  - workflow
+platform:
+  - Python
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

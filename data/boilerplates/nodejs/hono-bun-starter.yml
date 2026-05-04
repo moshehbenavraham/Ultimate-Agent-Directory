@@ -1,0 +1,28 @@
+name: Hono Bun Starter
+url: https://github.com/nirnejak/hono-bun-starter
+description: Minimal Hono and Bun TypeScript starter with Drizzle ORM, PostgreSQL
+  integration, authentication helpers, Biome linting, Docker, and database
+  migration scripts.
+category: nodejs
+type: boilerplate
+tags:
+  - nodejs
+  - bun
+  - hono
+  - typescript
+  - drizzle
+  - postgresql
+  - docker
+github_repo: nirnejak/hono-bun-starter
+github_stars: 16
+last_updated: '2026-05-01'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript
+deployment:
+  - Docker

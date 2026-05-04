@@ -1,0 +1,23 @@
+name: Void
+url: https://github.com/voideditor/void
+description: Open-source AI code editor and Cursor alternative built from VS Code.
+  Void lets users connect directly to LLM providers, use private or local models,
+  and keep more control over coding-assistant data flow.
+github_repo: voideditor/void
+documentation_url: https://voideditor.com
+github_stars: 28706
+last_updated: '2026-01-12'
+is_archived: false
+category: coding-assistants
+tags:
+  - ai-ide
+  - coding-assistant
+  - open-source
+  - privacy
+platform:
+  - Desktop
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

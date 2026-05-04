@@ -1,0 +1,18 @@
+name: Amazon Q Business
+url: https://aws.amazon.com/q/business/
+description: AWS managed generative AI assistant for enterprise knowledge and workflows.
+  Amazon Q Business connects to company data sources, answers questions, summarizes
+  information, and supports business automation across AWS and third-party systems.
+category: enterprise-platforms
+tags:
+  - aws
+  - enterprise
+  - rag
+  - workplace
+platform:
+  - AWS
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: platform

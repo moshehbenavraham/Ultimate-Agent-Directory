@@ -1,0 +1,16 @@
+name: Cursor Discord
+url: https://discord.gg/cursor
+description: Community server for Cursor users discussing AI-assisted coding
+  workflows, editor tips, integrations, feature requests, and agent-mode usage in
+  day-to-day software development.
+category: communities
+type: community
+tags:
+  - community
+  - discord
+  - coding-assistant
+  - productivity
+  - ai-ide
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

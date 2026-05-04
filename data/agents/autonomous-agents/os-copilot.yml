@@ -1,0 +1,22 @@
+name: OS-Copilot
+url: https://github.com/OS-Copilot/OS-Copilot
+description: Open-source operating-system agent for automating desktop, file, web,
+  terminal, and application tasks from natural language. OS-Copilot includes the
+  FRIDAY framework for learning and reusing skills across tasks.
+github_repo: OS-Copilot/OS-Copilot
+category: autonomous-agents
+type: framework
+tags:
+  - open-source
+  - autonomous-agent
+  - computer-use
+  - desktop-agent
+  - self-improving
+platform:
+  - Python
+license: MIT
+github_stars: 1767
+last_updated: '2024-09-09'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

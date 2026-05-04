@@ -1,0 +1,23 @@
+name: Unstructured
+url: https://github.com/Unstructured-IO/unstructured
+description: Open-source document ETL toolkit and enterprise data platform for
+  transforming complex files into clean, structured inputs for language models.
+  Unstructured supports parsing, chunking, enrichment, embedding, and connectors
+  for production RAG pipelines.
+github_repo: Unstructured-IO/unstructured
+documentation_url: https://docs.unstructured.io/
+category: specialized-tools
+type: tool
+tags:
+  - rag
+  - document-ai
+  - data-extraction
+  - data-platform
+  - open-source
+license: Apache-2.0
+pricing: freemium
+github_stars: 14621
+last_updated: '2026-05-04'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

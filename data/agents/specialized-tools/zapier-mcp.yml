@@ -1,0 +1,17 @@
+name: Zapier MCP
+url: https://zapier.com/mcp
+description: Zapier's MCP endpoint for giving AI agents access to Zapier's large
+  library of app actions and automations. It lets agents use business apps through
+  a managed, authenticated MCP tool surface.
+category: specialized-tools
+type: tool
+tags:
+  - mcp
+  - automation
+  - integrations
+  - no-code
+  - tools
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

@@ -1,0 +1,23 @@
+name: Jumpstart Pro
+url: https://jumpstartrails.com/
+description: Commercial Rails SaaS starter by Chris Oliver with authentication,
+  billing integrations, Hotwire-oriented UI, multi-tenancy, notifications,
+  announcements, and multiple application themes.
+category: rails
+type: boilerplate
+tags:
+  - rails
+  - ruby
+  - stripe
+  - payments
+  - multi-tenancy
+  - tailwindcss
+  - saas
+  - commercial
+pricing: paid
+license: Commercial
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Ruby

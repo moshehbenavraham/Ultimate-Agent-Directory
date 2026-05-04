@@ -1,0 +1,23 @@
+name: Apache Burr
+url: https://github.com/apache/burr
+description: Apache state-machine framework for applications that make decisions,
+  including agents, simulations, and chatbots. Burr provides graph execution,
+  persistence, monitoring, tracing, and framework-agnostic infrastructure.
+github_repo: apache/burr
+documentation_url: https://burr.apache.org/
+github_stars: 1986
+last_updated: '2026-05-03'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - observability
+  - python
+  - state-machine
+  - workflow
+platform:
+  - Python
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

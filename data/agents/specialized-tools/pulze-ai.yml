@@ -1,0 +1,19 @@
+name: Pulze.ai
+url: https://pulze.ai/docs/pulze/spaces/models-routers
+description: AI model access and routing platform for configuring model
+  selection across Pulze spaces. Pulze supports model and router configuration,
+  custom routing policies, provider access, cost controls, and reliability
+  settings for AI applications.
+documentation_url: https://pulze.ai/docs/pulze/spaces/models-routers
+category: specialized-tools
+type: platform
+tags:
+  - gateway
+  - model-routing
+  - optimization
+  - llm
+  - hosted-service
+pricing: paid
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

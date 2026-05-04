@@ -1,0 +1,16 @@
+name: Agentplex AI Agents
+url: https://agentplex.substack.com/
+description: Newsletter covering AI agent projects, agent research, enterprise
+  adoption, LangGraph workflows, RAG pipelines, and autonomous-agent architectures
+  across the agent ecosystem.
+category: communities
+type: community
+tags:
+  - newsletter
+  - autonomous-agent
+  - research
+  - enterprise
+  - rag
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

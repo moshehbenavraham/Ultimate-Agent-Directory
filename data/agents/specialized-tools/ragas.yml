@@ -1,0 +1,22 @@
+name: RAGAs
+url: https://github.com/vibrantlabsai/ragas
+description: Open-source evaluation framework for RAG and LLM applications. RAGAs
+  includes metrics for faithfulness, answer relevance, context precision, context
+  recall, and LLM-as-judge style evaluation.
+github_repo: vibrantlabsai/ragas
+category: specialized-tools
+type: tool
+tags:
+  - open-source
+  - evaluation
+  - rag
+  - python
+  - testing
+platform:
+  - Python
+license: Apache-2.0
+github_stars: 13756
+last_updated: '2026-02-24'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

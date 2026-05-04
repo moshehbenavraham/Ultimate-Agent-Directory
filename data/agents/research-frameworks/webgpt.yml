@@ -1,0 +1,16 @@
+name: WebGPT
+url: https://openai.com/index/webgpt/
+description: OpenAI research system that trained GPT-3 to answer long-form questions
+  by browsing the web and citing sources. WebGPT is a foundational browser-assisted
+  question-answering agent and influenced later web-enabled LLM systems.
+category: research-frameworks
+type: research
+tags:
+  - research
+  - web-agent
+  - browser
+  - openai
+  - rlhf
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

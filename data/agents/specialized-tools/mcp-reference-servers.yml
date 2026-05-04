@@ -1,0 +1,19 @@
+name: MCP Reference Servers
+url: https://github.com/modelcontextprotocol/servers
+description: Official repository of Model Context Protocol reference server implementations.
+  It includes examples for common integrations such as filesystem, databases, search,
+  messaging, and browser-adjacent tool access.
+github_repo: modelcontextprotocol/servers
+category: specialized-tools
+type: tool
+tags:
+  - mcp
+  - open-source
+  - reference
+  - tools
+  - official
+github_stars: 84981
+last_updated: '2026-04-17'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

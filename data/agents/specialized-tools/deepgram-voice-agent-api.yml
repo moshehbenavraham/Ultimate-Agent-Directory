@@ -1,0 +1,19 @@
+name: Deepgram Voice Agent API
+url: https://deepgram.com/product/voice-agent-api
+description: Unified voice agent API that combines Deepgram speech-to-text,
+  text-to-speech, and LLM orchestration for real-time conversational AI. It
+  supports streaming audio, interruption handling, function calls, and developer
+  controls for building responsive voice agents.
+documentation_url: https://developers.deepgram.com/docs/voice-agent
+category: specialized-tools
+type: platform
+tags:
+  - voice-agents
+  - real-time
+  - api
+  - multimodal
+  - developer-platform
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

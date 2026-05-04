@@ -1,0 +1,16 @@
+name: Anthropic Discord
+url: https://anthropic.com/discord
+description: Official Anthropic community server for Claude users and API
+  developers. Discussions cover Claude API usage, Model Context Protocol, secure
+  deployments, AI safety, and building with Anthropic models.
+category: communities
+type: community
+tags:
+  - community
+  - discord
+  - mcp
+  - api
+  - safety
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

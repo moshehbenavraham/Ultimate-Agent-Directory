@@ -1,0 +1,24 @@
+name: mini-SWE-agent
+url: https://github.com/SWE-agent/mini-swe-agent
+description: Minimal command-line coding agent from the SWE-agent team. mini-SWE-agent
+  is a compact Python implementation for solving GitHub issues and assisting with
+  local code tasks from the command line.
+github_repo: SWE-agent/mini-swe-agent
+documentation_url: https://mini-swe-agent.com
+github_stars: 4155
+last_updated: '2026-04-27'
+is_archived: false
+category: coding-assistants
+tags:
+  - autonomous-agent
+  - cli
+  - coding-assistant
+  - open-source
+  - swe-agent
+platform:
+  - Python
+license: MIT
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

@@ -1,0 +1,22 @@
+name: Goose
+url: https://github.com/aaif-goose/goose
+description: Open-source local AI agent for software engineering that can install,
+  execute, edit, and test code with different LLM providers. Goose supports desktop,
+  CLI, and MCP-based extension workflows.
+github_repo: aaif-goose/goose
+documentation_url: https://goose-docs.ai/
+github_stars: 43735
+last_updated: '2026-05-04'
+is_archived: false
+category: coding-assistants
+tags:
+  - autonomous-agent
+  - cli
+  - coding-assistant
+  - mcp
+  - open-source
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

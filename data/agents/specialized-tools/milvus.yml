@@ -1,0 +1,23 @@
+name: Milvus
+url: https://github.com/milvus-io/milvus
+description: Open-source, cloud-native vector database for scalable approximate
+  nearest-neighbor search over high-dimensional data. Milvus supports large-scale
+  vector indexing, distributed deployments, multimodal search, and managed Zilliz
+  Cloud deployments for RAG and AI search workloads.
+github_repo: milvus-io/milvus
+documentation_url: https://milvus.io/docs
+category: specialized-tools
+type: tool
+tags:
+  - vector-stores
+  - database
+  - rag
+  - distributed
+  - open-source
+license: Apache-2.0
+pricing: freemium
+github_stars: 44103
+last_updated: '2026-05-04'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

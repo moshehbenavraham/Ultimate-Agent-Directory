@@ -1,0 +1,16 @@
+name: Modal Discord
+url: https://discord.gg/modal
+description: Community server for Modal users deploying AI models, running LLM
+  inference, building agent backends, and scaling Python workloads on serverless
+  cloud infrastructure.
+category: communities
+type: community
+tags:
+  - community
+  - discord
+  - serverless
+  - deployment
+  - python
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

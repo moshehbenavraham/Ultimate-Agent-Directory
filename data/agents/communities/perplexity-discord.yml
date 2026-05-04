@@ -1,0 +1,16 @@
+name: Perplexity Discord
+url: https://discord.gg/perplexity-ai
+description: Community for Perplexity users and developers discussing
+  search-augmented generation, API usage, prompt engineering, RAG workflows, and
+  applications built around Perplexity's search and model capabilities.
+category: communities
+type: community
+tags:
+  - community
+  - discord
+  - search
+  - rag
+  - api
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

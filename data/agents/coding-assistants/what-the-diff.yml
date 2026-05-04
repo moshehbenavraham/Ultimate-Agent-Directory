@@ -1,0 +1,19 @@
+name: What The Diff
+url: https://whatthediff.ai/
+description: AI tool for pull-request summaries, review assistance, and changelog
+  generation. What The Diff converts code changes into readable explanations for
+  engineers, product teams, and stakeholders.
+category: coding-assistants
+tags:
+  - changelog
+  - code-review
+  - coding-assistant
+  - pr-agent
+platform:
+  - GitHub
+  - GitLab
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

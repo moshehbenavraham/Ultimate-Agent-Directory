@@ -1,0 +1,23 @@
+name: Hyperagent
+url: https://www.hyperagent.com/
+description: Team agent platform for creating persistent cloud agents with prompts,
+  tool access, skills, memories, model settings, and budget controls. Hyperagent
+  agents can browse websites, analyze data, generate media and apps, use existing
+  services, run through Slack, MCP, or cron, and track quality with rubrics and
+  A/B tests.
+category: no-code-platforms
+type: platform
+tags:
+  - no-code
+  - multi-agent
+  - mcp
+  - slack
+  - skills
+  - memory
+  - scheduling
+  - integrations
+  - browser-automation
+  - evaluation
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

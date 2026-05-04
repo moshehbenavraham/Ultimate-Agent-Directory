@@ -1,0 +1,16 @@
+name: r/LLMDevs
+url: https://www.reddit.com/r/LLMDevs/
+description: Developer-focused subreddit for building applications with large
+  language models, including API usage, prompt engineering, fine-tuning, agent
+  architecture, retrieval, and deployment questions.
+category: communities
+type: community
+tags:
+  - community
+  - reddit
+  - llm
+  - api
+  - fine-tuning
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

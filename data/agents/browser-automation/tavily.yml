@@ -1,0 +1,18 @@
+name: Tavily
+url: https://tavily.com
+description: Search and extraction API built for LLM agents and RAG workflows. Tavily
+  provides web search, URL extraction, and crawl endpoints designed to return clean
+  content for agent applications.
+category: browser-automation
+tags:
+  - api
+  - llm-search
+  - rag
+  - web-scraping
+platform:
+  - API
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

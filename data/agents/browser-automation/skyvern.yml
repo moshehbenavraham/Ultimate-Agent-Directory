@@ -1,0 +1,23 @@
+name: Skyvern
+url: https://github.com/Skyvern-AI/skyvern
+description: Open-source browser workflow automation platform for AI agents. Skyvern
+  uses browser automation and AI reasoning to complete form filling, data extraction,
+  and repetitive web tasks without relying only on brittle selectors.
+github_repo: Skyvern-AI/skyvern
+documentation_url: https://www.skyvern.com
+github_stars: 21491
+last_updated: '2026-05-04'
+is_archived: false
+category: browser-automation
+tags:
+  - browser-automation
+  - open-source
+  - playwright
+  - web-agent
+platform:
+  - Python
+license: AGPL-3.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

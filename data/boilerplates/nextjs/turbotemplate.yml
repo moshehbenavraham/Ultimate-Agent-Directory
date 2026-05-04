@@ -1,0 +1,21 @@
+name: Turbotemplate
+url: https://turbotemplate.dev/
+description: Next.js and Turborepo SaaS boilerplate with Tailwind CSS, shadcn/ui,
+  Clerk authentication, backend packages, shared UI, and demo-ready marketing,
+  pricing, and FAQ pages.
+category: nextjs
+type: boilerplate
+tags:
+  - nextjs
+  - monorepo
+  - clerk
+  - tailwindcss
+  - shadcn-ui
+  - saas
+pricing: paid
+license: Commercial
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript

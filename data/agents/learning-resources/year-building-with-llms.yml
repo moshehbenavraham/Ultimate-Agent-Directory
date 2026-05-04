@@ -1,0 +1,18 @@
+name: What We Learned From A Year of Building with LLMs
+url: https://applied-llms.org/
+description: Practitioner guide by Eugene Yan, Bryan Bischof, Charles Frye, Hamel
+  Husain, Jason Liu, and Shreya Shankar covering prompting, RAG, fine-tuning,
+  evaluation, monitoring, and product lessons for production LLM systems.
+category: learning-resources
+type: course
+tags:
+  - evaluation
+  - guides
+  - llm
+  - production
+  - rag
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web

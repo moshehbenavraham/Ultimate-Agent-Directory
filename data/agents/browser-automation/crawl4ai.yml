@@ -1,0 +1,25 @@
+name: Crawl4AI
+url: https://github.com/unclecode/crawl4ai
+description: Open-source crawler and scraper that converts websites into LLM-friendly
+  content for agents and RAG workflows. Crawl4AI supports asynchronous crawling,
+  browser automation, extraction, and Markdown-oriented outputs.
+github_repo: unclecode/crawl4ai
+documentation_url: https://crawl4ai.com
+github_stars: 64963
+last_updated: '2026-04-30'
+is_archived: false
+category: browser-automation
+tags:
+  - browser-automation
+  - llm-crawler
+  - open-source
+  - python
+  - rag
+  - web-scraping
+platform:
+  - Python
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

@@ -1,0 +1,17 @@
+name: GitLab MCP Server
+url: https://gitlab.com/gitlab-org/editor-extensions/gitlab-mcp-server
+description: Official GitLab MCP server for exposing GitLab resources such as projects,
+  repositories, issues, merge requests, and CI/CD information to compatible AI
+  agents and editor assistants.
+category: specialized-tools
+type: tool
+tags:
+  - mcp
+  - gitlab
+  - developer-platform
+  - devops
+  - official
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

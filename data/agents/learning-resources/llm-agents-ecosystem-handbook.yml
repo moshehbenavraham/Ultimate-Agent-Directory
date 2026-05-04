@@ -1,0 +1,19 @@
+name: LLM Agents Ecosystem Handbook
+url: https://github.com/oxbshw/llm-agents-ecosystem-handbook
+description: GitHub handbook comparing LLM agent frameworks, scaffolding agent
+  skeletons, collecting evaluation tools, and organizing domain examples across
+  healthcare, finance, education, and other agent use cases.
+category: learning-resources
+type: course
+tags:
+  - guides
+  - learning
+  - autonomous-agent
+  - scaffolding
+  - evaluation
+github_repo: oxbshw/llm-agents-ecosystem-handbook
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web

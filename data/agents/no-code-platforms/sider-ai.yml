@@ -1,0 +1,20 @@
+name: Sider AI
+url: https://sider.ai/
+description: Cross-platform AI sidekick for browser, desktop, and mobile workflows.
+  Sider provides a browser extension and apps with multi-model chat, webpage and
+  video summarization, PDF analysis, writing tools, image tools, and Wisebase for
+  collecting and reusing saved knowledge.
+category: no-code-platforms
+type: platform
+tags:
+  - browser-extension
+  - browser
+  - cross-platform
+  - multi-llm
+  - knowledge-management
+  - productivity
+  - personal-assistant
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

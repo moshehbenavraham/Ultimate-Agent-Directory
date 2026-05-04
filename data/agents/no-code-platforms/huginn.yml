@@ -1,0 +1,23 @@
+name: Huginn
+url: https://github.com/huginn/huginn
+description: Open-source self-hosted automation system for creating agents that
+  monitor websites, watch for events, transform data, and trigger actions. Huginn
+  is a privacy-friendly alternative to hosted automation services.
+github_repo: huginn/huginn
+category: no-code-platforms
+type: platform
+tags:
+  - open-source
+  - self-hosted
+  - automation
+  - web-scraping
+  - workflow
+platform:
+  - Ruby
+license: MIT
+pricing: free
+github_stars: 49219
+last_updated: '2026-05-02'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

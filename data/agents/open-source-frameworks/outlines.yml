@@ -1,0 +1,22 @@
+name: Outlines
+url: https://github.com/dottxt-ai/outlines
+description: Structured-output library for reliable language model generation. Outlines
+  constrains model outputs with types, schemas, and generation controls used in
+  tool-calling, data extraction, and agent workflows.
+github_repo: dottxt-ai/outlines
+documentation_url: https://dottxt-ai.github.io/outlines/
+github_stars: 13779
+last_updated: '2026-04-16'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - llm
+  - python
+  - structured-outputs
+platform:
+  - Python
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

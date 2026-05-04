@@ -1,0 +1,25 @@
+name: Nelysia
+url: https://github.com/ByteHolic/Nelysia
+description: NestJS-style modular framework starter built on Elysia and Bun, with
+  controller, service, and dependency-injection patterns plus guards, validation,
+  WebSocket support, and OpenAPI metadata.
+category: nodejs
+type: boilerplate
+tags:
+  - nodejs
+  - bun
+  - elysia
+  - nestjs
+  - typescript
+  - openapi
+github_repo: ByteHolic/Nelysia
+github_stars: 4
+last_updated: '2026-04-15'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript

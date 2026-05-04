@@ -1,0 +1,18 @@
+name: Diffblue Cover
+url: https://diffblue.com/
+description: AI tool for automatically writing Java and Kotlin unit tests. Diffblue
+  Cover integrates with IDEs, CLI, and CI pipelines to generate and maintain tests
+  for JVM applications.
+category: coding-assistants
+tags:
+  - coding-assistant
+  - java
+  - test-generation
+platform:
+  - Java
+  - Kotlin
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

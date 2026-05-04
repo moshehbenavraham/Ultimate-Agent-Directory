@@ -1,0 +1,22 @@
+name: Chunkr
+url: https://github.com/lumina-ai-inc/chunkr
+description: Open-source document intelligence API for layout analysis, OCR, and
+  semantic chunking. Chunkr converts PDFs, presentations, Word documents, and
+  images into structured HTML, markdown, or JSON chunks for RAG and LLM pipelines.
+github_repo: lumina-ai-inc/chunkr
+documentation_url: https://docs.chunkr.ai/
+category: specialized-tools
+type: tool
+tags:
+  - rag
+  - document-ai
+  - data-extraction
+  - open-source
+  - hosted-service
+license: AGPL-3.0
+pricing: freemium
+github_stars: 2942
+last_updated: '2026-04-30'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

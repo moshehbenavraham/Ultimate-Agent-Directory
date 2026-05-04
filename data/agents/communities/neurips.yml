@@ -1,0 +1,16 @@
+name: NeurIPS
+url: https://neurips.cc/
+description: Annual Neural Information Processing Systems conference for
+  machine learning and artificial intelligence research, including papers,
+  workshops, tutorials, datasets, evaluations, and industry exposition.
+category: communities
+type: community
+tags:
+  - conference
+  - community
+  - research
+  - science
+  - foundation-models
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

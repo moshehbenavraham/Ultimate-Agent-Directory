@@ -1,0 +1,17 @@
+name: Glama
+url: https://glama.ai/
+description: MCP gateway, model access hub, and server directory for AI applications.
+  Glama provides discovery, hosted MCP tooling, model access, analytics, and cost
+  controls for agent builders.
+category: specialized-tools
+type: platform
+tags:
+  - mcp
+  - registry
+  - gateway
+  - directory
+  - llm
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

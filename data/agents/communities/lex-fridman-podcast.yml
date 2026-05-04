@@ -1,0 +1,16 @@
+name: Lex Fridman Podcast
+url: https://lexfridman.com/podcast/
+description: Long-form interview podcast with AI researchers, engineers, and
+  leaders discussing language models, robotics, alignment, AI safety, and agent
+  systems in extended technical and philosophical conversations.
+category: communities
+type: community
+tags:
+  - podcast
+  - research
+  - safety
+  - llm
+  - community
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

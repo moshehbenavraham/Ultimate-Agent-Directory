@@ -1,0 +1,22 @@
+name: Achromatic
+url: https://www.achromatic.dev/
+description: Commercial Next.js SaaS boilerplate with Supabase, Auth.js, Stripe,
+  Resend, Tailwind CSS, and a polished shadcn/ui-based design system for
+  founders shipping subscription products.
+category: nextjs
+type: boilerplate
+tags:
+  - nextjs
+  - supabase
+  - stripe
+  - authjs
+  - tailwindcss
+  - saas
+  - commercial
+pricing: paid
+license: Commercial
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript

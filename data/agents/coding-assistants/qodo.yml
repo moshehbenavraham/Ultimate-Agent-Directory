@@ -1,0 +1,19 @@
+name: Qodo
+url: https://www.qodo.ai/
+description: AI coding platform for code review, test generation, and developer
+  assistance. Qodo includes PR review workflows, IDE and CLI tools, and builds on
+  the open-source PR-Agent project for repository automation.
+category: coding-assistants
+tags:
+  - code-review
+  - coding-assistant
+  - pr-agent
+  - test-generation
+platform:
+  - Web
+  - IDE
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

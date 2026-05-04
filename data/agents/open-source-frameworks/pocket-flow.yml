@@ -1,0 +1,23 @@
+name: Pocket Flow
+url: https://github.com/The-Pocket/PocketFlow
+description: Minimal LLM framework built around a small graph abstraction for agents,
+  workflows, and RAG applications. Pocket Flow emphasizes a tiny dependency surface
+  and lets agents build or modify agent workflows.
+github_repo: The-Pocket/PocketFlow
+documentation_url: https://the-pocket.github.io/PocketFlow/
+github_stars: 10554
+last_updated: '2026-03-27'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - multi-agent
+  - open-source
+  - python
+  - workflow
+platform:
+  - Python
+license: MIT
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

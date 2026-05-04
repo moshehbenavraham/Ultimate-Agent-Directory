@@ -1,0 +1,19 @@
+name: Snorkel Flow
+url: https://snorkel.ai/snorkel-flow/
+description: Enterprise AI data development platform for curating training data,
+  evaluating models, optimizing RAG pipelines, and fine-tuning LLMs. Snorkel Flow
+  supports programmatic labeling, SME collaboration, annotation, data quality
+  workflows, and synthetic-data-oriented development.
+documentation_url: https://docs.snorkel.ai/docs/25.4/user-guide/intro/what-is-snorkel-flow/
+category: specialized-tools
+type: platform
+tags:
+  - data-labeling
+  - synthetic-data
+  - fine-tuning
+  - evaluation
+  - enterprise
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

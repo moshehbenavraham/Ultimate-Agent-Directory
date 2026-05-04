@@ -1,0 +1,18 @@
+name: Eugene Yan's Blog
+url: https://eugeneyan.com/
+description: Applied ML and AI engineering blog by Eugene Yan covering LLMs,
+  recommendation systems, retrieval, evaluation, agents, and production lessons
+  from real AI systems.
+category: learning-resources
+type: course
+tags:
+  - blog
+  - learning
+  - llm
+  - evaluation
+  - production
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web

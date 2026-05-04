@@ -1,0 +1,19 @@
+name: Cartesia Sonic
+url: https://cartesia.ai/sonic
+description: Real-time speech generation API optimized for conversational voice
+  agents. Cartesia Sonic provides low-latency text-to-speech, expressive voices,
+  voice cloning, multilingual output, and streaming APIs used as the voice layer
+  in interactive agent pipelines.
+documentation_url: https://docs.cartesia.ai/
+category: specialized-tools
+type: platform
+tags:
+  - voice-agents
+  - real-time
+  - api
+  - developer-platform
+  - hosted-service
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

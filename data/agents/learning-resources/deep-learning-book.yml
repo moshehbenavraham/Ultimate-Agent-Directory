@@ -1,0 +1,19 @@
+name: Deep Learning
+url: https://www.deeplearningbook.org/
+description: Free online version of the MIT Press deep learning textbook by Ian
+  Goodfellow, Yoshua Bengio, and Aaron Courville, covering neural network
+  foundations, optimization, architectures, and applications.
+category: learning-resources
+type: course
+tags:
+  - book
+  - learning
+  - science
+  - foundation-models
+  - research
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web
+pricing: free

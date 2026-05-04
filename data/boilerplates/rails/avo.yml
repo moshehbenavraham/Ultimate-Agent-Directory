@@ -1,0 +1,23 @@
+name: Avo
+url: https://github.com/avo-hq/avo
+description: Rails admin framework with resources, actions, filters, dashboards,
+  associations, and configuration-driven internal tooling for SaaS back offices
+  and operational applications.
+category: rails
+type: toolkit
+tags:
+  - rails
+  - admin-dashboard
+  - dashboard
+  - internal-tools
+  - low-code
+github_repo: avo-hq/avo
+github_stars: 1771
+last_updated: '2026-05-03'
+is_archived: false
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Ruby

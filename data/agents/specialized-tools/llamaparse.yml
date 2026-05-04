@@ -1,0 +1,19 @@
+name: LlamaParse
+url: https://www.llamaindex.ai/llamaparse
+description: LlamaIndex's managed document parsing service for turning complex
+  documents into AI-ready data. LlamaParse handles PDFs, tables, charts,
+  handwriting, checkboxes, images, and many file formats, returning clean markdown,
+  text, or JSON for RAG and agent pipelines.
+documentation_url: https://developers.llamaindex.ai/llamaparse/parse/
+category: specialized-tools
+type: platform
+tags:
+  - rag
+  - document-ai
+  - data-extraction
+  - hosted-service
+  - llm
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

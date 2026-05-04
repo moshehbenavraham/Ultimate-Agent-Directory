@@ -1,0 +1,23 @@
+name: ScreenAgent
+url: https://github.com/niuzaisheng/ScreenAgent
+description: Research project for computer control with visual language models.
+  ScreenAgent uses a plan-action-reflection loop and accompanying dataset to study
+  desktop task execution from screen observations.
+github_repo: niuzaisheng/ScreenAgent
+documentation_url: https://arxiv.org/abs/2402.07945
+github_stars: 597
+last_updated: '2024-11-25'
+is_archived: false
+category: browser-automation
+tags:
+  - benchmark
+  - computer-use
+  - desktop-agent
+  - research
+  - vision-language-model
+platform:
+  - Python
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: research

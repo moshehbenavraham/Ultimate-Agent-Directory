@@ -1,0 +1,17 @@
+name: Notion AI
+url: https://www.notion.com/product/ai
+description: AI assistant and enterprise search layer inside Notion for writing,
+  summarization, workspace Q&A, meeting notes, and cross-app knowledge retrieval
+  through Notion AI connectors.
+category: no-code-platforms
+type: platform
+tags:
+  - no-code
+  - knowledge-management
+  - workspace
+  - productivity
+  - search
+pricing: paid
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

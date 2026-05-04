@@ -1,0 +1,24 @@
+name: Mobile-Agent
+url: https://github.com/X-PLUG/MobileAgent
+description: Research family of GUI agents for operating mobile devices. Mobile-Agent
+  uses multimodal perception and planning to automate Android and HarmonyOS tasks
+  through visual understanding and device actions.
+github_repo: X-PLUG/MobileAgent
+github_stars: 8612
+last_updated: '2026-04-14'
+is_archived: false
+category: browser-automation
+tags:
+  - android
+  - mobile-agent
+  - multi-agent
+  - open-source
+  - research
+  - vision
+platform:
+  - Python
+license: MIT
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: research

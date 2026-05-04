@@ -1,0 +1,22 @@
+name: Bedrock by Max Stoiber
+url: https://bedrock.mxstbr.com/
+description: Commercial Next.js SaaS boilerplate by Max Stoiber focused on
+  professional-grade code quality, multi-tenant SaaS patterns, Stripe billing,
+  TypeScript, and compliance-oriented application foundations.
+category: nextjs
+type: boilerplate
+tags:
+  - nextjs
+  - typescript
+  - stripe
+  - multi-tenancy
+  - enterprise
+  - saas
+  - commercial
+pricing: paid
+license: Commercial
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript

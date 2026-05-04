@@ -1,0 +1,17 @@
+name: Maxim AI
+url: https://www.getmaxim.ai/
+description: AI observability and evaluation platform for testing prompts, running
+  simulations, managing datasets, monitoring production behavior, and catching
+  regressions in LLM and agent applications.
+category: specialized-tools
+type: platform
+tags:
+  - observability
+  - evaluation
+  - testing
+  - dataset-management
+  - monitoring
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

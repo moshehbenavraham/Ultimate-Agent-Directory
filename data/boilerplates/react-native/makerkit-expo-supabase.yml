@@ -1,0 +1,24 @@
+name: MakerKit Expo Supabase Kit
+url: https://github.com/makerkit/react-native-expo-turbo-saas-kit
+description: MakerKit Expo and React Native starter with Supabase auth, protected
+  routes, TypeScript, user profile management, and shared conventions intended
+  to pair with MakerKit web SaaS applications.
+category: react-native
+type: boilerplate
+tags:
+  - expo
+  - react-native
+  - supabase
+  - typescript
+  - saas
+github_repo: makerkit/react-native-expo-turbo-saas-kit
+github_stars: 123
+last_updated: '2026-04-28'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript

@@ -1,0 +1,23 @@
+name: DSPy
+url: https://github.com/stanfordnlp/dspy
+description: Stanford NLP framework for programming language-model systems with
+  declarative modules instead of hand-written prompts. DSPy supports optimizers for
+  prompts and pipelines used in RAG, agent loops, and compound AI systems.
+github_repo: stanfordnlp/dspy
+documentation_url: https://dspy.ai
+github_stars: 34180
+last_updated: '2026-05-02'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - llm
+  - prompt-optimization
+  - python
+  - rag
+platform:
+  - Python
+license: MIT
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

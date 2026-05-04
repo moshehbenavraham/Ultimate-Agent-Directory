@@ -1,0 +1,24 @@
+name: OmniParser
+url: https://github.com/microsoft/OmniParser
+description: Microsoft Research screen-parsing tool for GUI agents. OmniParser converts
+  screenshots into structured UI elements that vision-language agents can use for
+  computer control and interface automation.
+github_repo: microsoft/OmniParser
+documentation_url: https://microsoft.github.io/OmniParser/
+github_stars: 24710
+last_updated: '2026-04-13'
+is_archived: false
+category: browser-automation
+tags:
+  - computer-use
+  - gui-agent
+  - microsoft
+  - screen-parsing
+  - vision
+platform:
+  - Python
+license: CC-BY-4.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

@@ -1,0 +1,24 @@
+name: Vercel AI SDK Reasoning Starter
+url: https://github.com/vercel-labs/ai-sdk-reasoning-starter
+description: Next.js chatbot starter from Vercel Labs designed for reasoning
+  models, with AI SDK integrations, multi-provider model support, streaming UI,
+  authentication patterns, and database-backed chat history.
+category: nextjs
+type: template
+tags:
+  - nextjs
+  - chatbot
+  - llm
+  - openai
+  - streaming
+  - authjs
+  - postgresql
+github_repo: vercel-labs/ai-sdk-reasoning-starter
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript
+deployment:
+  - Vercel

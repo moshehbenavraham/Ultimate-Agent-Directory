@@ -1,0 +1,25 @@
+name: Bun Elysia Boilerplate
+url: https://github.com/ImJustLucas/bun-elysia-boilerplate
+description: TypeScript REST API starter using Bun and Elysia with JWT
+  authentication, cookie and CORS handling, security middleware, MongoDB through
+  Mongoose, ESLint, and Prettier.
+category: nodejs
+type: boilerplate
+tags:
+  - nodejs
+  - bun
+  - elysia
+  - typescript
+  - mongodb
+  - jwt
+github_repo: ImJustLucas/bun-elysia-boilerplate
+github_stars: 38
+last_updated: '2026-04-24'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript

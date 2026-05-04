@@ -1,0 +1,23 @@
+name: LiteLLM
+url: https://github.com/BerriAI/litellm
+description: Open-source Python SDK and proxy server that exposes a unified
+  OpenAI-compatible API for 100+ LLM providers. LiteLLM Proxy acts as an AI
+  gateway with logging, cost tracking, retries, rate limits, load balancing,
+  guardrails, and provider failover.
+github_repo: BerriAI/litellm
+documentation_url: https://docs.litellm.ai/docs/
+category: specialized-tools
+type: tool
+tags:
+  - gateway
+  - api
+  - model-routing
+  - llm
+  - open-source
+license: MIT
+pricing: freemium
+github_stars: 45583
+last_updated: '2026-05-04'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

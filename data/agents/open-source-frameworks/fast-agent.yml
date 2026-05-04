@@ -1,0 +1,23 @@
+name: Fast-Agent
+url: https://github.com/evalstate/fast-agent
+description: Python framework for coding, building, and evaluating agents with strong
+  support for models, skills, MCP, and ACP. Fast-Agent provides workflow patterns
+  for composing chains, routers, orchestrators, and evaluator loops.
+github_repo: evalstate/fast-agent
+documentation_url: https://fast-agent.ai
+github_stars: 3763
+last_updated: '2026-05-03'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - evaluation
+  - mcp
+  - python
+  - workflow
+platform:
+  - Python
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

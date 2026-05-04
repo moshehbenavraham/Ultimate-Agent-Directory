@@ -1,0 +1,18 @@
+name: Building Agentic RAG with LlamaIndex
+url: https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/
+description: DeepLearning.AI short course taught by LlamaIndex CEO Jerry Liu on
+  router agents, tool calling, multi-document agents, and agentic reasoning loops
+  for research and document workflows.
+category: learning-resources
+type: course
+tags:
+  - course
+  - learning
+  - rag
+  - tool-calling
+  - autonomous-agent
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web

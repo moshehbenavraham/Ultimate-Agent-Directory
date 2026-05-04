@@ -1,0 +1,24 @@
+name: Atla Insights SDK
+url: https://github.com/atla-ai/atla-insights-sdk
+description: Python SDK for Atla Insights, a platform for monitoring and improving
+  AI agents. It helps developers instrument agent workflows, capture evaluation
+  data, and feed results into Atla's agent monitoring stack.
+github_repo: atla-ai/atla-insights-sdk
+github_stars: 7
+last_updated: '2026-04-11'
+is_archived: false
+category: specialized-tools
+type: tool
+tags:
+  - evaluation
+  - testing
+  - llm
+  - safety
+  - enterprise
+platform:
+  - Python
+license: Apache-2.0
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

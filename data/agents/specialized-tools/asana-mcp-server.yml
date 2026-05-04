@@ -1,0 +1,17 @@
+name: Asana MCP Server
+url: https://developers.asana.com/docs/using-asanas-mcp-server
+description: Official Asana MCP server for giving AI assistants access to the Asana
+  Work Graph. It supports authenticated interactions with tasks, projects, portfolios,
+  teams, and project-management workflows.
+category: specialized-tools
+type: tool
+tags:
+  - mcp
+  - project-management
+  - productivity
+  - official
+  - tools
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

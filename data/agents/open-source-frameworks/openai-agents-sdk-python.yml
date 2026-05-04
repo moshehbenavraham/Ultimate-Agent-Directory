@@ -1,0 +1,23 @@
+name: OpenAI Agents SDK (Python)
+url: https://github.com/openai/openai-agents-python
+description: Official Python framework from OpenAI for building multi-agent workflows
+  with agents, handoffs, guardrails, sessions, tracing, and realtime voice support.
+  The SDK is lightweight and designed for production agent applications.
+github_repo: openai/openai-agents-python
+documentation_url: https://openai.github.io/openai-agents-python/
+github_stars: 25832
+last_updated: '2026-05-04'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - multi-agent
+  - openai
+  - python
+  - voice-agents
+platform:
+  - Python
+license: MIT
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

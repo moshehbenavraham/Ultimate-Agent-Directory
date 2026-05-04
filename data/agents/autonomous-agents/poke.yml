@@ -1,0 +1,18 @@
+name: Poke
+url: https://poke.com/
+description: Personal AI assistant that lives in text messaging and lets users ask
+  for tasks to be handled from a familiar contact-style interface. Poke provides
+  recipes and integrations with tools such as Gmail, Google Calendar, Notion,
+  Linear, Asana, GitHub, Todoist, Supabase, Sentry, Vercel, and more.
+category: autonomous-agents
+type: platform
+tags:
+  - autonomous-agent
+  - personal-assistant
+  - messaging
+  - sms
+  - integrations
+  - productivity
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

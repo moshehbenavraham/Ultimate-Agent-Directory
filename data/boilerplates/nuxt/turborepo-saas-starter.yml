@@ -1,0 +1,25 @@
+name: Turborepo SaaS Starter for Nuxt
+url: https://github.com/phiychai/turborepo-saas-starter
+description: Nuxt and AdonisJS SaaS monorepo starter with Vue, Directus,
+  PostgreSQL, authentication, subscription billing patterns, shared packages,
+  and Nuxt UI Pro-oriented application structure.
+category: nuxt
+type: boilerplate
+tags:
+  - nuxt
+  - vue
+  - monorepo
+  - nodejs
+  - postgresql
+  - headless-cms
+  - saas
+github_repo: phiychai/turborepo-saas-starter
+github_stars: 5
+last_updated: '2026-01-28'
+is_archived: false
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript

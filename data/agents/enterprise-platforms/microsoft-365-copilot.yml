@@ -1,0 +1,18 @@
+name: Microsoft 365 Copilot
+url: https://microsoft.com/en-us/microsoft-365/copilot-for-work
+description: Enterprise AI assistant embedded across Microsoft 365 apps including Word,
+  Excel, Outlook, Teams, and SharePoint. Microsoft 365 Copilot connects workplace
+  context with chat, productivity assistance, and role-specific agent workflows.
+category: enterprise-platforms
+tags:
+  - enterprise
+  - microsoft
+  - productivity
+  - workplace
+platform:
+  - Microsoft 365
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: platform

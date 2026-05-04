@@ -1,0 +1,19 @@
+name: Kong AI Gateway
+url: https://developer.konghq.com/ai-gateway/
+description: AI gateway capability in Kong's API platform for routing AI requests
+  through a provider-agnostic API. Kong AI Gateway centralizes credentials,
+  request routing, prompt and response controls, semantic caching, token-aware
+  policies, and enterprise governance for AI API traffic.
+documentation_url: https://developer.konghq.com/ai-gateway/
+category: specialized-tools
+type: platform
+tags:
+  - gateway
+  - enterprise
+  - api
+  - model-routing
+  - governance
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

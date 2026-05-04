@@ -1,14 +1,22 @@
 name: Hugging Face AI Agent Course
-url: https://huggingface.co/learn/cookbook/en/agents
+url: https://huggingface.co/learn/agents-course
 description: >
-  Comprehensive free course covering beginner to expert level AI agent development. 
-  Uses smolagents, LlamaIndex, and LangGraph frameworks. Includes hands-on challenges 
-  and community competitions with certificates.
+  Free course covering AI agent fundamentals, tools, actions, observations,
+  smolagents, LangGraph, LlamaIndex, agentic RAG, and final benchmark-based
+  projects for certification.
 category: learning-resources
 type: course
+tags:
+  - course
+  - certification
+  - learning
+  - autonomous-agent
+  - tool-calling
+  - rag
 added_date: '2025-11-05'
+last_verified: '2026-05-04'
 verified: true
-documentation_url: https://huggingface.co/learn/cookbook
+documentation_url: https://huggingface.co/learn/agents-course
 platform:
   - Web
 pricing: free

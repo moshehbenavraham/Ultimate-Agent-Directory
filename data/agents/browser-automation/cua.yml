@@ -1,0 +1,24 @@
+name: CUA
+url: https://github.com/trycua/cua
+description: Open-source infrastructure for computer-use agents, including sandboxes,
+  SDKs, and benchmarks for full desktop control. CUA supports macOS, Linux, and
+  Windows agent environments.
+github_repo: trycua/cua
+documentation_url: https://cua.ai
+github_stars: 15578
+last_updated: '2026-05-03'
+is_archived: false
+category: browser-automation
+tags:
+  - benchmark
+  - computer-use
+  - desktop-agent
+  - open-source
+  - sandbox
+platform:
+  - Python
+license: MIT
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

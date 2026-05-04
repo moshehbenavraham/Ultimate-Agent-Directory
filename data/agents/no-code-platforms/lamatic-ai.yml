@@ -1,0 +1,17 @@
+name: Lamatic.ai
+url: https://lamatic.ai/
+description: Low-code platform for building, deploying, and monitoring agentic AI
+  applications with a visual flow builder, SDKs, model integrations, memory, and
+  edge deployment support.
+category: no-code-platforms
+type: platform
+tags:
+  - no-code
+  - low-code
+  - visual-builder
+  - multi-agent
+  - edge
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

@@ -1,5 +1,5 @@
 <!--
-    ✏️ Customized for the Ultimate AI Agent Ecosystem Directory 2025
+    ✏️ Customized for the Ultimate AI Agent Ecosystem Directory
 -->
 ## 🤖 Welcome to the AI Agent Community!
 

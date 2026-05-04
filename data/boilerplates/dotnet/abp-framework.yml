@@ -1,0 +1,21 @@
+name: ABP Framework
+url: https://github.com/abpframework/abp
+description: Modular ASP.NET Core application framework and startup template
+  ecosystem with DDD patterns, multi-tenancy, authorization, UI options,
+  background jobs, audit logging, and SaaS-oriented application modules.
+category: dotnet
+type: toolkit
+tags:
+  - dotnet
+  - csharp
+  - architecture
+  - multi-tenancy
+  - authentication
+  - saas
+github_repo: abpframework/abp
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - C#

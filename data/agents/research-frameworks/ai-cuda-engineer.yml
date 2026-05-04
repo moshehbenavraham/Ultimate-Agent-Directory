@@ -1,0 +1,16 @@
+name: AI CUDA Engineer
+url: https://sakana.ai/ai-cuda-engineer/
+description: Sakana AI research system for automatically generating, testing, and
+  optimizing CUDA kernels. The agentic workflow translates PyTorch operations into
+  CUDA code and iteratively improves performance through evaluation.
+category: research-frameworks
+type: research
+tags:
+  - research
+  - autonomous-agent
+  - cuda
+  - coding-assistant
+  - optimization
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

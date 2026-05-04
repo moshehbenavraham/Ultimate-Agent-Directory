@@ -1,0 +1,24 @@
+name: Magnitude
+url: https://github.com/magnitudedev/browser-agent
+description: Open-source vision-first browser agent and test runner. Magnitude uses
+  pixel-level browser interaction for natural-language browser automation and
+  evaluation workflows.
+github_repo: magnitudedev/browser-agent
+documentation_url: https://magnitude.run
+github_stars: 4030
+last_updated: '2026-02-08'
+is_archived: false
+category: browser-automation
+tags:
+  - browser-automation
+  - open-source
+  - playwright
+  - testing
+  - vision
+platform:
+  - TypeScript
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

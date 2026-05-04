@@ -1,0 +1,18 @@
+name: Agentic AI Nanodegree
+url: https://www.udacity.com/course/agentic-ai--nd900
+description: Udacity nanodegree covering advanced prompting, agentic workflow
+  patterns, tools, memory, and multi-agent systems through hands-on projects such
+  as a travel planner and automated sales workflow.
+category: learning-resources
+type: course
+tags:
+  - course
+  - learning
+  - autonomous-agent
+  - multi-agent
+  - workflow
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web

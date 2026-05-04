@@ -93,6 +93,8 @@ data/
 │   ├── no-code-platforms/
 │   ├── autonomous-agents/
 │   └── ...
+├── boilerplates/              # YAML files for starter kits and templates
+├── boilerplate-categories/    # Boilerplate stack/category definitions
 └── categories/               # Category definitions
 
 scripts/                      # Python automation tools
@@ -105,9 +107,23 @@ README.md                     # Generated from YAML (DO NOT EDIT DIRECTLY)
 
 ### Adding a New Entry
 
-1. **Determine the correct category** by browsing `data/categories/` or the README.md
+The repository is YAML-first. Agent entries live in `data/agents/<category>/<slug>.yml`;
+boilerplate entries live in `data/boilerplates/<stack>/<slug>.yml`. `README.md`,
+`BOILERPLATES.md`, and the static site are generated outputs.
 
-2. **Create a YAML file** in `data/agents/{category}/{name}.yml`:
+1. **Verify it exists and belongs**
+
+   - Prefer official sources: GitHub repo, official product/docs page, official marketplace listing, or vendor docs.
+   - For GitHub-backed entries, verify the repo exists, is public, is not archived unless intentionally included, and matches the claimed product.
+   - Do not add duplicate products already present under another category unless the directory intentionally has separate entries for distinct surfaces.
+
+2. **Choose the correct existing category**
+
+   - Agent categories are defined in `data/categories/*.yml`.
+   - Boilerplate categories are defined in `data/boilerplate-categories/*.yml`.
+   - Do not create new top-level categories as part of a normal add-entry change. If a new category is needed, propose it separately with rationale and anchor entries.
+
+3. **Create a YAML file** in `data/agents/{category}/{name}.yml`:
    ```yaml
    name: Your Tool Name
    url: https://example.com
@@ -130,31 +146,54 @@ README.md                     # Generated from YAML (DO NOT EDIT DIRECTLY)
    verified: false
    ```
 
-3. **Validate your changes:**
+   Boilerplate entries use the same YAML-first workflow but live under `data/boilerplates/{stack}/`.
+   Required boilerplate fields are `name`, `url`, `description`, `category`, `type`, and `tags`.
+   Add schema-supported fields such as `github_repo`, `license`, `platform`, `technical_stack`,
+   `key_features`, and `deployment` when verified.
+
+4. **Keep tags valid**
+
+   - Every tag must be lowercase, hyphenated, unique within the file, and present in `data/tags.yml`.
+   - Reuse existing tags where possible. Add only broadly useful new tags to `data/tags.yml`, sorted consistently with the existing list.
+
+5. **Validate your changes:**
    ```bash
    make validate
    ```
    Fix any schema validation errors reported.
 
-4. **Generate the README:**
+6. **Generate the derived docs:**
    ```bash
    make generate
    ```
    This updates README.md with your new entry.
 
-5. **Preview the website (optional):**
+   If boilerplate entries changed, also run:
+   ```bash
+   make generate-boilerplates
+   ```
+
+   For GitHub-backed entries, maintainers may also run:
+   ```bash
+   make refresh-github-metadata
+   ```
+   This refreshes GitHub stars, last-updated dates, and archived status.
+
+7. **Preview the website (optional):**
    ```bash
    make serve
    ```
    Visit http://localhost:8001 to see your changes locally.
 
-6. **Commit both YAML and generated README.md:**
+8. **Commit both source YAML and generated output:**
    ```bash
    git add data/agents/{category}/{name}.yml
    git add README.md
    git commit -m "Add {Tool Name} to {category}"
    git push origin main
    ```
+
+   If tags or boilerplates changed, also commit `data/tags.yml` and `BOILERPLATES.md`.
 
 ### Updating an Existing Entry
 

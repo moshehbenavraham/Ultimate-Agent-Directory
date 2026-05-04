@@ -1,0 +1,18 @@
+name: AI Agents in LangGraph
+url: https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/
+description: DeepLearning.AI short course taught by LangChain founder Harrison
+  Chase on LangGraph components, agentic search, persistence, human-in-the-loop
+  flows, and multi-step agent reasoning.
+category: learning-resources
+type: course
+tags:
+  - course
+  - learning
+  - langchain
+  - autonomous-agent
+  - workflow
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web

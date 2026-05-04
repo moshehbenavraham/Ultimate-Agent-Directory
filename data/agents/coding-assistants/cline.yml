@@ -1,0 +1,23 @@
+name: Cline
+url: https://github.com/cline/cline
+description: Open-source autonomous coding agent for VS Code. Cline can create and
+  edit files, run terminal commands, use the browser, and integrate with MCP servers
+  while keeping users in the approval loop for actions.
+github_repo: cline/cline
+documentation_url: https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev
+github_stars: 61336
+last_updated: '2026-05-01'
+is_archived: false
+category: coding-assistants
+tags:
+  - autonomous-agent
+  - coding-assistant
+  - mcp
+  - vscode-extension
+platform:
+  - TypeScript
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

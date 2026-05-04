@@ -1,0 +1,25 @@
+name: eShop
+url: https://github.com/dotnet/eShop
+description: Official Microsoft reference microservices application using .NET
+  Aspire, multiple services, event-driven architecture, CQRS-style patterns,
+  e-commerce workflows, and cloud deployment conventions.
+category: dotnet
+type: template
+tags:
+  - dotnet
+  - csharp
+  - microservices
+  - ecommerce
+  - distributed
+  - kubernetes
+github_repo: dotnet/eShop
+github_stars: 10422
+last_updated: '2026-05-03'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - C#

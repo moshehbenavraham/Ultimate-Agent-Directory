@@ -1,0 +1,24 @@
+name: Pavex
+url: https://github.com/LukeMathWalker/pavex
+description: Rust web framework and starter toolkit that generates an application
+  project from an API blueprint, emphasizing compile-time correctness,
+  dependency injection, structured routing, and production service foundations.
+category: rust
+type: toolkit
+tags:
+  - rust
+  - api
+  - architecture
+  - generator
+  - cli
+github_repo: LukeMathWalker/pavex
+github_stars: 2048
+last_updated: '2026-05-03'
+is_archived: false
+license: Apache-2.0
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Rust

@@ -1,0 +1,21 @@
+name: Awesome LLM Agents
+url: https://github.com/kaushikb11/awesome-llm-agents
+description: Curated comparison list of LLM agent frameworks and platforms, covering
+  AutoGen, CrewAI, LangChain, LlamaIndex, Dify, Haystack, Google ADK, PraisonAI,
+  smolagents, and additional frameworks for agent builders.
+category: communities
+type: tool
+tags:
+  - awesome-list
+  - autonomous-agent
+  - community
+  - github
+  - llm
+  - resources
+github_repo: kaushikb11/awesome-llm-agents
+github_stars: 1456
+last_updated: '2026-05-03'
+is_archived: false
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

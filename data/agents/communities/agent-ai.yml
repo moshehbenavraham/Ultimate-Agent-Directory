@@ -1,0 +1,19 @@
+name: Agent.ai
+url: https://agent.ai/
+description: Professional marketplace and network for discovering, building, and
+  using AI agents. Agent.ai provides an agent directory, builder network, agent
+  profiles, marketplace credits, documentation, and hosted agents for business and
+  productivity workflows.
+documentation_url: https://docs.agent.ai/welcome
+category: communities
+type: platform
+tags:
+  - directory
+  - community
+  - app-builder
+  - hosted-service
+  - productivity
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

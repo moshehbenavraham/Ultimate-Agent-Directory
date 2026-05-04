@@ -1,0 +1,21 @@
+name: Orchestra
+url: https://github.com/mainframecomputer/orchestra
+description: Python library for cognitive architectures and multi-agent teams.
+  Orchestra provides abstractions for coordinating specialized agents with shared
+  memory, task delegation, and composable orchestration patterns.
+github_repo: mainframecomputer/orchestra
+documentation_url: https://docs.orchestra.org/orchestra/overview
+github_stars: 754
+last_updated: '2025-07-19'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - multi-agent
+  - orchestration
+  - python
+platform:
+  - Python
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

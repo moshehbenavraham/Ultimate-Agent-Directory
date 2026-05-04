@@ -1,0 +1,16 @@
+name: Import AI
+url: https://jack-clark.net/import-ai/
+description: Long-running technical AI newsletter by Jack Clark covering important
+  AI research papers, AI safety, industry developments, and technical context for
+  practitioners following frontier AI progress.
+category: communities
+type: community
+tags:
+  - newsletter
+  - research
+  - safety
+  - llm
+  - community
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

@@ -1,0 +1,24 @@
+name: Onlook
+url: https://github.com/onlook-dev/onlook
+description: Open-source AI-first visual editor for React applications. Onlook lets
+  teams visually build, style, and edit apps while generating code that can be merged
+  back into existing projects.
+github_repo: onlook-dev/onlook
+documentation_url: https://onlook.com
+github_stars: 25684
+last_updated: '2026-03-27'
+is_archived: false
+category: coding-assistants
+tags:
+  - coding-assistant
+  - design-to-code
+  - open-source
+  - react
+  - visual-editor
+platform:
+  - TypeScript
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

@@ -1,0 +1,16 @@
+name: Weaviate Discord
+url: https://discord.gg/weaviate
+description: Community for Weaviate developers and users working on vector
+  databases, hybrid search, RAG applications, LangChain and LlamaIndex
+  integrations, and AI-native data architectures.
+category: communities
+type: community
+tags:
+  - community
+  - discord
+  - vector-stores
+  - database
+  - rag
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

@@ -1,0 +1,22 @@
+name: mcp-use
+url: https://github.com/mcp-use/mcp-use
+description: Open-source framework for connecting MCP servers to LLM applications
+  and agent clients beyond Claude. mcp-use helps developers build MCP apps and
+  integrate tools with OpenAI, Anthropic, local models, and agent frameworks.
+github_repo: mcp-use/mcp-use
+category: specialized-tools
+type: tool
+tags:
+  - mcp
+  - open-source
+  - sdk
+  - python
+  - tool-calling
+platform:
+  - Python
+license: MIT
+github_stars: 9881
+last_updated: '2026-05-03'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

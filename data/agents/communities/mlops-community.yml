@@ -1,0 +1,16 @@
+name: MLOps Community
+url: https://home.mlops.community/en
+description: Global community for machine learning and AI practitioners working
+  on production operations, deployment, monitoring, infrastructure, events, and
+  practical lessons from running models and agentic systems.
+category: communities
+type: community
+tags:
+  - community
+  - slack
+  - llm-ops
+  - deployment
+  - production
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

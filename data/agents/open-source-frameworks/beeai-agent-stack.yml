@@ -1,0 +1,24 @@
+name: BeeAI Agent Stack
+url: https://github.com/i-am-bee/agentstack
+description: Open infrastructure for deploying and sharing AI agents without vendor
+  lock-in. BeeAI Agent Stack packages agents as interoperable services with runtime,
+  routing, storage, deployment, and Kubernetes-oriented infrastructure.
+github_repo: i-am-bee/agentstack
+documentation_url: https://agentstack.beeai.dev
+github_stars: 1090
+last_updated: '2026-04-29'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - a2a-protocol
+  - deployment
+  - kubernetes
+  - orchestration
+  - python
+platform:
+  - Python
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

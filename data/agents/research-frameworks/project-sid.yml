@@ -1,0 +1,19 @@
+name: Project Sid
+url: https://github.com/altera-al/project-sid
+description: Altera.AL's large-scale multi-agent simulation project in Minecraft.
+  Project Sid studies emergent social behavior from many concurrent AI agents,
+  including cooperation, organization, and simulated community dynamics.
+github_repo: altera-al/project-sid
+category: research-frameworks
+type: research
+tags:
+  - research
+  - multi-agent
+  - simulation
+  - open-source
+  - autonomous-agent
+github_stars: 1288
+last_updated: '2024-11-04'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

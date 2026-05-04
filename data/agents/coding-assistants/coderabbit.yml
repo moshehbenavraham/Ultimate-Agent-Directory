@@ -1,0 +1,20 @@
+name: CodeRabbit
+url: https://coderabbit.ai/
+description: AI-powered code review platform for pull requests across hosted Git
+  providers. CodeRabbit reviews diffs, summarizes changes, comments on code, and
+  helps teams automate PR feedback workflows.
+category: coding-assistants
+tags:
+  - code-review
+  - coding-assistant
+  - github
+  - pr-agent
+platform:
+  - GitHub
+  - GitLab
+  - Bitbucket
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

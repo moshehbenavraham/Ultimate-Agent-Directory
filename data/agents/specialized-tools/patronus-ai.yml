@@ -1,0 +1,17 @@
+name: Patronus AI
+url: https://www.patronus.ai/
+description: Automated evaluation, testing, and red-teaming platform for LLM and
+  agent applications. Patronus provides evaluators for hallucination, safety, policy
+  compliance, off-topic behavior, PII, and custom production quality criteria.
+category: specialized-tools
+type: platform
+tags:
+  - evaluation
+  - safety
+  - testing
+  - hallucination-detection
+  - enterprise
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

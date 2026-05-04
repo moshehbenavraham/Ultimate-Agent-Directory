@@ -1,0 +1,18 @@
+name: MultiOn Agent API
+url: https://api.multion.ai/
+description: Hosted web automation API for executing browser tasks from natural
+  language commands. MultiOn exposes an autonomous browsing API and documentation
+  for agents that browse websites, complete multi-step actions, extract data, and
+  interact with web applications.
+documentation_url: https://docs.multion.ai/welcome
+category: browser-automation
+type: platform
+tags:
+  - browser-automation
+  - web-agent
+  - api
+  - hosted-service
+  - data-extraction
+added_date: '2025-11-05'
+last_verified: '2026-05-04'
+verified: true

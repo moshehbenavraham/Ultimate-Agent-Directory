@@ -1,0 +1,24 @@
+name: Starlight
+url: https://github.com/withastro/starlight
+description: Official Astro documentation site template with sidebar navigation,
+  search, i18n, Markdown and MDX content support, dark-mode UI, and docs-focused
+  layout conventions.
+category: astro
+type: template
+tags:
+  - astro
+  - documentation
+  - search
+  - i18n
+  - markdown
+github_repo: withastro/starlight
+github_stars: 8414
+last_updated: '2026-05-04'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript

@@ -1,0 +1,18 @@
+name: Google Cloud Generative AI Learning Path
+url: https://cloud.google.com/learn/training/machinelearning-ai
+description: Google Cloud training path covering generative AI, Gemini APIs,
+  Vertex AI, agent development, and production AI application deployment on
+  Google Cloud infrastructure.
+category: learning-resources
+type: course
+tags:
+  - course
+  - learning
+  - google
+  - deployment
+  - production
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web

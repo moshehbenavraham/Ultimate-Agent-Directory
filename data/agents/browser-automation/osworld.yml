@@ -1,0 +1,22 @@
+name: OSWorld
+url: https://github.com/xlang-ai/OSWorld
+description: Benchmark for evaluating multimodal agents on open-ended computer tasks
+  in real operating-system environments. OSWorld includes task suites and tooling for
+  browser, file, coding, and desktop automation evaluation.
+github_repo: xlang-ai/OSWorld
+documentation_url: https://os-world.github.io
+github_stars: 2818
+last_updated: '2026-05-01'
+is_archived: false
+category: browser-automation
+tags:
+  - benchmark
+  - computer-use
+  - desktop-agent
+  - open-source
+  - research
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: research

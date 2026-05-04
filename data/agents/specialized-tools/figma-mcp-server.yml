@@ -1,0 +1,19 @@
+name: Figma MCP Server
+url: https://developers.figma.com/docs/figma-mcp-server/
+description: Official Figma MCP server that exposes design context to AI coding
+  agents and allows agents to read design information or write native Figma content
+  back to the canvas.
+github_repo: figma/mcp-server-guide
+category: specialized-tools
+type: tool
+tags:
+  - mcp
+  - figma
+  - design-to-code
+  - official
+  - developer-platform
+github_stars: 1325
+last_updated: '2026-04-28'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

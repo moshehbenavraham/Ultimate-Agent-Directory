@@ -1,10 +1,19 @@
 name: MindStudio
-url: https://mindstudio.ai
-description: A no-code platform for building and deploying AI agents and applications
-  with visual development tools. MindStudio enables rapid prototyping and deployment
-  of AI-powered solutions without requiring programming expertise.
-github_repo: null
+url: https://www.mindstudio.ai/
+description: No-code and low-code platform for building, deploying, and running AI
+  agents and workflows. MindStudio supports drag-and-drop AI app building, API
+  integrations, live testing, generated documents and websites, bring-your-own API
+  keys, team workspaces, permissions, audit logs, and usage controls.
 category: no-code-platforms
-added_date: '2025-11-05'
-verified: false
 type: platform
+tags:
+  - no-code
+  - low-code
+  - visual-builder
+  - workflow
+  - integrations
+  - automation
+pricing: freemium
+added_date: '2025-11-05'
+last_verified: '2026-05-04'
+verified: true

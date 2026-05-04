@@ -1,0 +1,18 @@
+name: Box AI Studio
+url: https://www.box.com/en-gb/ai/ai-studio
+description: Box platform for creating and managing AI agents over enterprise content.
+  Box AI Studio lets organizations configure document-focused agents for Q&A,
+  generation, metadata, and content workflows within Box governance.
+category: enterprise-platforms
+tags:
+  - content-management
+  - document-ai
+  - enterprise
+  - knowledge-management
+platform:
+  - Box
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: platform

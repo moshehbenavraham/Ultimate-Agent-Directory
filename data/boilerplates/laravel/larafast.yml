@@ -1,0 +1,22 @@
+name: Larafast
+url: https://larafast.com/
+description: Commercial Laravel SaaS boilerplate with Filament admin, billing,
+  multi-tenancy, Livewire-based interactions, authentication, SEO, blog, and
+  subscription-ready application defaults.
+category: laravel
+type: boilerplate
+tags:
+  - laravel
+  - stripe
+  - payments
+  - multi-tenancy
+  - tailwindcss
+  - saas
+  - commercial
+pricing: paid
+license: Commercial
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - PHP

@@ -1,0 +1,24 @@
+name: Turbo 2025
+url: https://github.com/dougwithseismic/turbo-2025
+description: Turborepo-based full-stack starter with Next.js, React Server
+  Components, Tailwind CSS, Supabase, dark mode, real-time synchronization, and
+  an examples-oriented React pattern library.
+category: nextjs
+type: boilerplate
+tags:
+  - nextjs
+  - monorepo
+  - supabase
+  - tailwindcss
+  - react
+  - real-time
+github_repo: dougwithseismic/turbo-2025
+github_stars: 8
+last_updated: '2026-01-31'
+is_archived: false
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript

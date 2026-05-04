@@ -1,0 +1,19 @@
+name: 'Stanford CS25: Transformers United'
+url: https://web.stanford.edu/class/cs25/
+description: Stanford seminar course with researchers presenting on transformer
+  architectures, large language models, agent applications, multimodal systems,
+  and frontier AI research.
+category: learning-resources
+type: course
+tags:
+  - course
+  - learning
+  - llm
+  - research
+  - foundation-models
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web
+pricing: free

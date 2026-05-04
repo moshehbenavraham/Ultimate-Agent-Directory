@@ -1,0 +1,29 @@
+name: Clean Elysia
+url: https://github.com/aolus-software/clean-elysia
+description: Clean-architecture Elysia and Bun backend starter with Drizzle,
+  PostgreSQL, Redis caching and rate limiting, background jobs, analytics,
+  role-based authorization, OpenAPI docs, and Docker support.
+category: nodejs
+type: boilerplate
+tags:
+  - nodejs
+  - bun
+  - elysia
+  - drizzle
+  - postgresql
+  - redis
+  - openapi
+  - docker
+github_repo: aolus-software/clean-elysia
+github_stars: 21
+last_updated: '2026-04-29'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript
+deployment:
+  - Docker

@@ -1,0 +1,20 @@
+name: Atlassian Rovo MCP Server
+url: https://github.com/atlassian/atlassian-mcp-server
+description: Atlassian's Rovo MCP server for connecting agents to Jira, Confluence,
+  Compass, and Atlassian work data. It supports search, summarization, issue creation,
+  page updates, and remote MCP access with enterprise controls.
+github_repo: atlassian/atlassian-mcp-server
+category: specialized-tools
+type: tool
+tags:
+  - mcp
+  - project-management
+  - enterprise
+  - official
+  - developer-platform
+license: Apache-2.0
+github_stars: 645
+last_updated: '2026-04-14'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

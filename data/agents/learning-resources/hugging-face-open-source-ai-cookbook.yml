@@ -1,0 +1,18 @@
+name: Hugging Face Open-Source AI Cookbook
+url: https://huggingface.co/learn/cookbook
+description: Official Hugging Face cookbook with practical notebooks for agents,
+  retrieval-augmented generation, fine-tuning, multimodal AI, text generation,
+  and deployments using open-source models and Hugging Face tooling.
+category: learning-resources
+type: course
+tags:
+  - cookbook
+  - learning
+  - open-source
+  - rag
+  - fine-tuning
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web

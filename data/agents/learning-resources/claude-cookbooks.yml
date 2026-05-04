@@ -1,0 +1,19 @@
+name: Claude Cookbooks
+url: https://github.com/anthropics/claude-cookbooks
+description: Official Anthropic cookbook repository with notebooks and recipes
+  for building with Claude, including RAG, classification, tool use, vision,
+  prompt engineering, AWS examples, and practical API workflows.
+category: learning-resources
+type: course
+tags:
+  - cookbook
+  - learning
+  - tools
+  - rag
+  - vision
+github_repo: anthropics/claude-cookbooks
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web

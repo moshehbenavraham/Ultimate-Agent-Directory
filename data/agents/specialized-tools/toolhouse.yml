@@ -1,0 +1,17 @@
+name: Toolhouse
+url: https://toolhouse.ai/
+description: Cloud tool-calling infrastructure for AI agents and LLM apps. Toolhouse
+  provides hosted tools for search, memory, email, browser actions, and code execution
+  through SDKs and integrations with agent frameworks.
+category: specialized-tools
+type: tool
+tags:
+  - tool-calling
+  - sdk
+  - integrations
+  - cloud-native
+  - mcp
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

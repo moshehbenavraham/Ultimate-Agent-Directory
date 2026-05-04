@@ -1,0 +1,19 @@
+name: Bland AI
+url: https://www.bland.ai/
+description: Enterprise voice AI platform for automating inbound and outbound
+  phone calls. Bland AI provides phone agents, call APIs, webhooks, workflow
+  integrations, simulations, regression testing, analytics, and custom voice
+  experiences for large-scale customer communication.
+documentation_url: https://docs.bland.ai/
+category: specialized-tools
+type: platform
+tags:
+  - voice-agents
+  - contact-center
+  - enterprise
+  - customer-service
+  - sales
+pricing: paid
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

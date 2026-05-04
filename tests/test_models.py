@@ -595,7 +595,7 @@ class TestDirectoryMetadata:
     def test_defaults(self):
         """DirectoryMetadata uses sensible defaults"""
         metadata = DirectoryMetadata()
-        assert metadata.title == "Ultimate AI Agent Directory 2025"
+        assert metadata.title == "Ultimate AI Agent Directory"
         assert metadata.total_entries == 0
         assert metadata.last_generated == date.today()
 

@@ -1,0 +1,22 @@
+name: Orla
+url: https://github.com/harvard-cns/orla
+description: Open-source high-performance execution engine for agentic workflows from
+  Harvard CNS. Orla focuses on scheduling, parallel execution, and efficient runtime
+  support for complex agent task graphs.
+github_repo: harvard-cns/orla
+documentation_url: https://orlaserver.github.io/
+github_stars: 242
+last_updated: '2026-04-18'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - orchestration
+  - python
+  - workflow
+platform:
+  - Python
+license: MIT
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

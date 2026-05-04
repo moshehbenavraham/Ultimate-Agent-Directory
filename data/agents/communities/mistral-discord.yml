@@ -1,0 +1,16 @@
+name: Mistral AI Discord
+url: https://discord.gg/mistralai
+description: Official community for developers building with Mistral models,
+  APIs, open-weight releases, fine-tuning workflows, and agent applications on
+  top of Mistral's model platform.
+category: communities
+type: community
+tags:
+  - community
+  - discord
+  - llm
+  - api
+  - fine-tuning
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

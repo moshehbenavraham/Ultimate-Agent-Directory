@@ -1,0 +1,23 @@
+name: MakerKit
+url: https://makerkit.dev/
+description: Commercial B2B SaaS starter for Next.js with Supabase, multi-tenancy,
+  RBAC, billing, admin tooling, i18n, Playwright testing, and MCP-oriented
+  development tooling.
+category: nextjs
+type: boilerplate
+tags:
+  - nextjs
+  - supabase
+  - stripe
+  - multi-tenancy
+  - i18n
+  - mcp
+  - saas
+  - commercial
+pricing: paid
+license: Commercial
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript

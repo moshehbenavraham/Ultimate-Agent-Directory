@@ -1,0 +1,26 @@
+name: AI Starter Kit for Next.js
+url: https://github.com/AIStarterKit/ai-saas-starter-kit-nextjs
+description: Open-source AI SaaS starter for Next.js with Tailwind CSS, Drizzle,
+  NextAuth, Stripe, and AI API integrations for text, image, code, and video
+  generation workflows.
+category: nextjs
+type: boilerplate
+tags:
+  - nextjs
+  - tailwindcss
+  - drizzle
+  - authjs
+  - stripe
+  - openai
+  - saas
+github_repo: AIStarterKit/ai-saas-starter-kit-nextjs
+github_stars: 35
+last_updated: '2026-05-01'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript

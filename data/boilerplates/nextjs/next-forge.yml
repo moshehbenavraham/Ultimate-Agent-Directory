@@ -1,0 +1,29 @@
+name: Next-Forge
+url: https://github.com/vercel/next-forge
+description: Production-grade Turborepo monorepo template for Next.js SaaS apps,
+  with web, app, API, docs, email, and Storybook packages plus Clerk, Stripe,
+  Prisma, Resend, Sentry, i18n, and AI-oriented utilities.
+category: nextjs
+type: boilerplate
+tags:
+  - nextjs
+  - monorepo
+  - clerk
+  - stripe
+  - prisma
+  - sentry
+  - i18n
+  - saas
+github_repo: vercel/next-forge
+github_stars: 7062
+last_updated: '2026-05-03'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript
+deployment:
+  - Vercel

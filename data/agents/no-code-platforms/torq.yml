@@ -1,0 +1,17 @@
+name: Torq
+url: https://torq.io/
+description: Security hyperautomation platform for building and operating SOC
+  workflows and AI-assisted security agents. Torq combines no-code automation,
+  case management, alert enrichment, response workflows, and enterprise governance.
+category: no-code-platforms
+type: platform
+tags:
+  - no-code
+  - security
+  - security-automation
+  - soar
+  - enterprise
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

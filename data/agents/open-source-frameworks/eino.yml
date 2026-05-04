@@ -1,0 +1,23 @@
+name: Eino
+url: https://github.com/cloudwego/eino
+description: Go framework from the CloudWeGo project for building LLM and AI applications.
+  Eino provides component abstractions, graph orchestration, streaming support, and
+  agent development patterns for production systems.
+github_repo: cloudwego/eino
+documentation_url: https://www.cloudwego.io/docs/eino/
+github_stars: 11011
+last_updated: '2026-04-30'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - go
+  - multi-agent
+  - orchestration
+  - production
+platform:
+  - Go
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

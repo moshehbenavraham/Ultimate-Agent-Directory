@@ -1,0 +1,23 @@
+name: Steel Browser
+url: https://github.com/steel-dev/steel-browser
+description: Open-source browser API and sandbox for AI agents and web automation.
+  Steel Browser provides managed browser sessions, infrastructure primitives, and
+  automation tooling for agent applications.
+github_repo: steel-dev/steel-browser
+documentation_url: https://steel.dev
+github_stars: 6962
+last_updated: '2026-05-04'
+is_archived: false
+category: browser-automation
+tags:
+  - api
+  - browser-automation
+  - cloud-browser
+  - headless
+  - open-source
+platform:
+  - TypeScript
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: platform

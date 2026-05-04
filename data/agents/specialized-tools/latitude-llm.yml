@@ -1,0 +1,20 @@
+name: Latitude
+url: https://github.com/latitude-dev/latitude-llm
+description: Open-source agent engineering, prompt management, and evaluation platform.
+  Latitude version-controls prompts, runs automated evaluations, tracks regressions,
+  and supports collaboration around LLM and agent workflows.
+github_repo: latitude-dev/latitude-llm
+category: specialized-tools
+type: platform
+tags:
+  - open-source
+  - evaluation
+  - prompt-management
+  - sdk
+  - developer-platform
+license: LGPL-3.0
+github_stars: 3975
+last_updated: '2026-05-04'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

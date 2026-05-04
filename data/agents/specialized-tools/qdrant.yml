@@ -1,0 +1,23 @@
+name: Qdrant
+url: https://github.com/qdrant/qdrant
+description: Open-source vector similarity search engine and vector database
+  written in Rust. Qdrant provides payload filtering, vector search APIs,
+  production indexing, cloud hosting, and managed on-prem options for retrieval
+  and RAG applications.
+github_repo: qdrant/qdrant
+documentation_url: https://qdrant.tech/documentation/
+category: specialized-tools
+type: tool
+tags:
+  - vector-stores
+  - database
+  - rag
+  - rust
+  - open-source
+license: Apache-2.0
+pricing: freemium
+github_stars: 30988
+last_updated: '2026-05-04'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

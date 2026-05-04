@@ -1,0 +1,24 @@
+name: ScrapeGraphAI
+url: https://github.com/ScrapeGraphAI/Scrapegraph-ai
+description: Python scraping framework that uses LLMs and graph-based pipelines to
+  extract structured data from websites. ScrapeGraphAI supports natural-language
+  extraction prompts and integrations with common AI workflow tools.
+github_repo: ScrapeGraphAI/Scrapegraph-ai
+documentation_url: https://scrapegraphai.com
+github_stars: 23445
+last_updated: '2026-04-26'
+is_archived: false
+category: browser-automation
+tags:
+  - data-extraction
+  - llm
+  - open-source
+  - python
+  - web-scraping
+platform:
+  - Python
+license: MIT
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

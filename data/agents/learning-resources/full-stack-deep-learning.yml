@@ -1,0 +1,18 @@
+name: Full Stack Deep Learning
+url: https://fullstackdeeplearning.com/course/
+description: Practical course and resource hub for production deep learning,
+  covering problem formulation, data work, model development, infrastructure,
+  deployment, monitoring, and the lifecycle of AI-powered products.
+category: learning-resources
+type: course
+tags:
+  - course
+  - learning
+  - production
+  - deployment
+  - monitoring
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web

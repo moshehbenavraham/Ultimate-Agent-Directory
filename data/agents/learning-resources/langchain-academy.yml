@@ -1,0 +1,18 @@
+name: LangChain Academy
+url: https://academy.langchain.com/
+description: Official LangChain learning platform with self-paced courses on
+  deep agents, LangSmith essentials, agent observability, evaluation, and skills
+  for building reliable LangChain and LangGraph applications.
+category: learning-resources
+type: course
+tags:
+  - course
+  - learning
+  - langchain
+  - observability
+  - evaluation
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web

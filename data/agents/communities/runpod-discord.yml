@@ -1,0 +1,16 @@
+name: RunPod Discord
+url: https://discord.gg/runpod
+description: Community for RunPod GPU cloud users discussing AI model hosting,
+  fine-tuning jobs, inference infrastructure, deployment patterns, and
+  cost-conscious GPU workflows for AI products.
+category: communities
+type: community
+tags:
+  - community
+  - discord
+  - fine-tuning
+  - deployment
+  - cloud-native
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

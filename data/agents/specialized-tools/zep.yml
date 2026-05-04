@@ -1,0 +1,17 @@
+name: Zep
+url: https://www.getzep.com/
+description: Memory layer for AI assistants and agents that combines long-term memory,
+  knowledge graph extraction, vector search, and temporal reasoning. Zep provides
+  hosted infrastructure for persistent, contextual agent memory.
+category: specialized-tools
+type: platform
+tags:
+  - memory
+  - knowledge-graph
+  - vector-stores
+  - rag
+  - tools
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

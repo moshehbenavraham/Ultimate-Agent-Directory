@@ -1,0 +1,23 @@
+name: Portkey
+url: https://portkey.ai/features/ai-gateway
+description: Open-source AI gateway and production platform for routing requests
+  across LLM providers. Portkey adds retries, fallbacks, load balancing, caching,
+  observability, guardrails, prompt management, and model catalog support for
+  production LLM and agent applications.
+github_repo: Portkey-AI/gateway
+documentation_url: https://docs.portkey.ai/docs/product/ai-gateway
+category: specialized-tools
+type: platform
+tags:
+  - gateway
+  - model-routing
+  - observability
+  - llm-ops
+  - mcp
+license: MIT
+pricing: freemium
+github_stars: 11570
+last_updated: '2026-05-04'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

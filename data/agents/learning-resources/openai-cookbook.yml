@@ -1,0 +1,18 @@
+name: OpenAI Cookbook
+url: https://developers.openai.com/cookbook
+description: Official OpenAI cookbook with examples and guides for agents,
+  tool calling, retrieval, embeddings, fine-tuning, evaluations, structured
+  outputs, and production application patterns.
+category: learning-resources
+type: course
+tags:
+  - cookbook
+  - learning
+  - openai
+  - tool-calling
+  - evaluation
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web

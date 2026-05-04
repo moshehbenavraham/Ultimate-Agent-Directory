@@ -1,0 +1,17 @@
+name: Athina AI
+url: https://www.athina.ai/
+description: LLM monitoring and evaluation platform for production AI applications.
+  Athina provides real-time monitoring, batch evaluations, hallucination checks,
+  PII checks, dataset evaluation, and RAG pipeline quality workflows.
+category: specialized-tools
+type: platform
+tags:
+  - observability
+  - evaluation
+  - monitoring
+  - hallucination-detection
+  - rag
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

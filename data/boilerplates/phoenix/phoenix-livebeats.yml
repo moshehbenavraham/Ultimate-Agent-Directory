@@ -1,0 +1,25 @@
+name: Phoenix LiveBeats
+url: https://github.com/fly-apps/live_beats
+description: Reference Phoenix LiveView application demonstrating realtime
+  multi-user features, GitHub OAuth, media playback, and Fly.io deployment in a
+  production-style Elixir application.
+category: phoenix
+type: template
+tags:
+  - phoenix
+  - elixir
+  - liveview
+  - real-time
+  - flyio
+  - deployment
+github_repo: fly-apps/live_beats
+github_stars: 1365
+last_updated: '2026-04-19'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Elixir

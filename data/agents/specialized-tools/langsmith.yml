@@ -1,0 +1,17 @@
+name: LangSmith
+url: https://smith.langchain.com/
+description: LangChain's observability, tracing, and evaluation platform for LLM
+  applications and agents. LangSmith records chain and tool traces, manages datasets,
+  runs evaluations, and supports debugging and regression testing.
+category: specialized-tools
+type: platform
+tags:
+  - observability
+  - evaluation
+  - tracing
+  - dataset-management
+  - langchain
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

@@ -1,0 +1,19 @@
+name: TrueFoundry AI Gateway
+url: https://www.truefoundry.com/docs/ai-gateway/intro-to-llm-gateway
+description: Enterprise AI gateway from TrueFoundry that provides a proxy layer
+  between applications, LLM providers, MCP servers, and agents. It offers unified
+  access, observability, governance, access control, routing policies, budget
+  controls, and deployment integration for organization-wide AI usage.
+documentation_url: https://www.truefoundry.com/docs/ai-gateway/intro-to-llm-gateway
+category: specialized-tools
+type: platform
+tags:
+  - gateway
+  - model-routing
+  - deployment
+  - enterprise
+  - governance
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

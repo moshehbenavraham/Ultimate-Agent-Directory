@@ -1,0 +1,17 @@
+name: Tally
+url: https://tally.so/
+description: No-code form builder with a document-style editor, unlimited forms,
+  conditional logic, integrations, payments, and AI-assisted question generation
+  for surveys, lead capture, and operational workflows.
+category: no-code-platforms
+type: platform
+tags:
+  - no-code
+  - forms
+  - surveys
+  - payments
+  - workflow
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

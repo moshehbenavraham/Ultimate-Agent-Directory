@@ -175,12 +175,12 @@ class SiteLinks(BaseModel):
 class SiteConfig(BaseModel):
     """Site-level configuration loaded from data/metadata.yml"""
 
-    title: str = "Ultimate AI Agent Directory 2025"
+    title: str = "Ultimate AI Agent Directory"
     tagline: str = (
         "The most comprehensive collection of AI agent frameworks, platforms, tools, and resources"
     )
     base_url: str = "/Ultimate-Agent-Directory"
-    site_url: HttpUrl = "https://aiwithapex.github.io/Ultimate-Agent-Directory"  # type: ignore[assignment]
+    site_url: HttpUrl = "https://moshehbenavraham.github.io/Ultimate-Agent-Directory"  # type: ignore[assignment]
     links: SiteLinks
 
     class Config:
@@ -190,7 +190,7 @@ class SiteConfig(BaseModel):
 class DirectoryMetadata(BaseModel):
     """Overall directory metadata"""
 
-    title: str = "Ultimate AI Agent Directory 2025"
+    title: str = "Ultimate AI Agent Directory"
     tagline: str = "The most comprehensive collection of AI agent frameworks, platforms, tools, and resources"
 
     last_generated: date = Field(

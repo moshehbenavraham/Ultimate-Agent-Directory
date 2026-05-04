@@ -1,0 +1,19 @@
+name: OpenAI Realtime API
+url: https://developers.openai.com/api/docs/guides/realtime
+description: OpenAI API surface for low-latency, realtime model interactions over
+  live audio and other streaming inputs. The Realtime API is commonly used to
+  build speech-to-speech voice agents in browsers or servers with WebRTC,
+  WebSocket, tool calling, and multimodal interaction patterns.
+documentation_url: https://developers.openai.com/api/docs/guides/voice-agents
+category: specialized-tools
+type: platform
+tags:
+  - voice-agents
+  - openai
+  - real-time
+  - multimodal
+  - api
+pricing: paid
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

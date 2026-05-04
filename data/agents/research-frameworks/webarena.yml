@@ -1,0 +1,20 @@
+name: WebArena
+url: https://webarena.dev/
+description: Realistic benchmark and environment for evaluating autonomous web
+  agents on reproducible tasks across self-hosted web applications. WebArena is
+  widely used for measuring multi-step web task completion.
+github_repo: web-arena-x/webarena
+category: research-frameworks
+type: research
+tags:
+  - research
+  - benchmark
+  - web-agent
+  - evaluation
+  - browser-automation
+license: Apache-2.0
+github_stars: 1450
+last_updated: '2025-11-26'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

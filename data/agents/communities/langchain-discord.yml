@@ -1,0 +1,16 @@
+name: LangChain Discord
+url: https://discord.gg/langchain
+description: Official community server for LangChain developers, including
+  channels for LangGraph, LangSmith, agents, retrieval-augmented generation,
+  prompt engineering, and production LLM application support.
+category: communities
+type: community
+tags:
+  - community
+  - discord
+  - langchain
+  - rag
+  - llm
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

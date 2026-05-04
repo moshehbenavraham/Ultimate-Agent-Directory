@@ -1,0 +1,20 @@
+name: Opik
+url: https://github.com/comet-ml/opik
+description: Open-source LLM evaluation and observability platform from Comet. Opik
+  traces agentic workflows, RAG systems, and LLM applications, then supports automated
+  evaluation, dashboards, and production monitoring.
+github_repo: comet-ml/opik
+category: specialized-tools
+type: tool
+tags:
+  - open-source
+  - observability
+  - evaluation
+  - tracing
+  - rag
+license: Apache-2.0
+github_stars: 19184
+last_updated: '2026-05-04'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

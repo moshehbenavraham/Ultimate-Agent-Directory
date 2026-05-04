@@ -1,0 +1,20 @@
+name: Stripe Agent Toolkit
+url: https://github.com/stripe/ai
+description: Stripe's official toolkit for building AI-powered products and connecting
+  agents to Stripe payments, customers, invoices, subscriptions, refunds, and related
+  financial workflows, including MCP-compatible tooling.
+github_repo: stripe/ai
+category: specialized-tools
+type: tool
+tags:
+  - mcp
+  - stripe
+  - payments
+  - official
+  - sdk
+license: MIT
+github_stars: 1520
+last_updated: '2026-04-30'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

@@ -1,0 +1,20 @@
+name: Apify MCP Server
+url: https://github.com/apify/apify-mcp-server
+description: Official Apify MCP server that lets agents run Apify Actors for web
+  scraping, crawling, search, maps, ecommerce, and social-media data extraction
+  through the MCP tool interface.
+github_repo: apify/apify-mcp-server
+category: specialized-tools
+type: tool
+tags:
+  - mcp
+  - web-scraping
+  - automation
+  - tools
+  - data-extraction
+license: MIT
+github_stars: 1182
+last_updated: '2026-05-02'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

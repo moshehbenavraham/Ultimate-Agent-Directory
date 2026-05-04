@@ -1,0 +1,18 @@
+name: Lovable
+url: https://lovable.dev/
+description: AI full-stack app builder that turns natural language prompts into
+  deployable web applications. Lovable supports frontend generation, backend services,
+  GitHub sync, visual edits, and hosted development workflows.
+category: coding-assistants
+tags:
+  - app-builder
+  - coding-assistant
+  - full-stack
+  - vibe-coding
+platform:
+  - Web
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

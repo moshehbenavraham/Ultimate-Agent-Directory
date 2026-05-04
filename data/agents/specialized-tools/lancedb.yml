@@ -1,0 +1,23 @@
+name: LanceDB
+url: https://github.com/lancedb/lancedb
+description: Open-source embedded retrieval library and vector database for
+  multimodal AI applications. LanceDB is built on the Lance columnar format and
+  supports vector search, full-text search, hybrid search, and local or cloud
+  retrieval workflows.
+github_repo: lancedb/lancedb
+documentation_url: https://docs.lancedb.com/
+category: specialized-tools
+type: tool
+tags:
+  - vector-stores
+  - database
+  - rag
+  - multimodal
+  - open-source
+license: Apache-2.0
+pricing: freemium
+github_stars: 10173
+last_updated: '2026-05-04'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

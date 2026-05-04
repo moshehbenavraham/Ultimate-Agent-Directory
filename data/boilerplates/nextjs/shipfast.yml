@@ -1,0 +1,24 @@
+name: ShipFast
+url: https://shipfa.st/
+description: Commercial indie-hacker Next.js boilerplate by Marc Lou with auth,
+  Stripe or Lemon Squeezy payments, MongoDB or Supabase data options, email,
+  SEO, blog, and deployment-oriented defaults.
+category: nextjs
+type: boilerplate
+tags:
+  - nextjs
+  - stripe
+  - mongodb
+  - supabase
+  - tailwindcss
+  - saas
+  - commercial
+pricing: paid
+license: Commercial
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript
+deployment:
+  - Vercel

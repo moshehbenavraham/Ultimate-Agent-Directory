@@ -1,0 +1,22 @@
+name: Google ADK for Go
+url: https://github.com/google/adk-go
+description: Go implementation of Google's Agent Development Kit for building,
+  evaluating, and deploying AI agents with a code-first workflow. It brings the ADK
+  agent model to Go teams building cloud-native agent services.
+github_repo: google/adk-go
+documentation_url: https://google.github.io/adk-docs/
+github_stars: 7741
+last_updated: '2026-04-30'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - go
+  - google
+  - multi-agent
+platform:
+  - Go
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

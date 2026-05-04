@@ -1,0 +1,16 @@
+name: Agno Discord
+url: https://discord.gg/agno
+description: Community for the Agno framework and platform, formerly Phidata,
+  focused on Python-first agents with tools, memory, knowledge, multimodal
+  capabilities, and production deployment patterns.
+category: communities
+type: community
+tags:
+  - community
+  - discord
+  - multi-agent
+  - python
+  - multimodal
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

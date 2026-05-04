@@ -1,0 +1,23 @@
+name: PearAI
+url: https://github.com/trypear/pearai-app
+description: Open-source AI code editor based on VS Code. PearAI integrates multiple
+  AI coding assistants and agent workflows for context-aware code editing and project
+  development.
+github_repo: trypear/pearai-app
+documentation_url: https://www.trypear.ai/about
+github_stars: 681
+last_updated: '2025-05-20'
+is_archived: false
+category: coding-assistants
+tags:
+  - ai-ide
+  - coding-assistant
+  - open-source
+  - vscode-extension
+platform:
+  - Desktop
+license: MIT
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

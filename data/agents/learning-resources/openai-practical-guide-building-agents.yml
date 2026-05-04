@@ -1,0 +1,19 @@
+name: A Practical Guide to Building Agents
+url: https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf
+description: Official OpenAI guide for product and engineering teams building
+  agentic applications, covering when to use agents, model and tool selection,
+  orchestration patterns, guardrails, and evaluation.
+category: learning-resources
+type: course
+tags:
+  - guides
+  - openai
+  - production
+  - safety
+  - sdk
+  - tool-calling
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - PDF

@@ -1,0 +1,25 @@
+name: Goyave
+url: https://github.com/go-goyave/goyave
+description: Opinionated Go REST API framework and starter template with routing,
+  validation, authentication middleware, CORS, database integration, testing
+  helpers, and structured project conventions.
+category: go
+type: toolkit
+tags:
+  - go
+  - golang
+  - api
+  - authentication
+  - testing
+  - architecture
+github_repo: go-goyave/goyave
+github_stars: 1770
+last_updated: '2026-04-14'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Go

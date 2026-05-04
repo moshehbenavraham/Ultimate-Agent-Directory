@@ -1,0 +1,20 @@
+name: GitHub MCP Server
+url: https://github.com/github/github-mcp-server
+description: GitHub's official MCP server for repositories, issues, pull requests,
+  code search, Actions, and related GitHub API operations. It enables MCP-compatible
+  agents to inspect and operate on GitHub resources.
+github_repo: github/github-mcp-server
+category: specialized-tools
+type: tool
+tags:
+  - mcp
+  - github
+  - developer-platform
+  - official
+  - open-source
+license: MIT
+github_stars: 29487
+last_updated: '2026-05-01'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

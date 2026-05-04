@@ -1,0 +1,17 @@
+name: Latent Space Newsletter
+url: https://www.latent.space/
+description: AI engineering newsletter by swyx and Alessio Fanelli covering
+  Software 3.0, foundation models, agents, GPU infrastructure, developer tools,
+  and interviews with builders across frontier AI labs and infrastructure
+  companies.
+category: communities
+type: community
+tags:
+  - newsletter
+  - community
+  - llm
+  - developer-platform
+  - research
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

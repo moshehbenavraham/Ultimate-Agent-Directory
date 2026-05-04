@@ -1,0 +1,16 @@
+name: r/ClaudeAI
+url: https://www.reddit.com/r/ClaudeAI/
+description: Community-run subreddit for Claude users and developers sharing API
+  feedback, prompt strategies, use cases, comparisons, and discussion of Claude
+  agent capabilities and Model Context Protocol workflows.
+category: communities
+type: community
+tags:
+  - community
+  - reddit
+  - api
+  - mcp
+  - productivity
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

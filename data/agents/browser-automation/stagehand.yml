@@ -1,0 +1,24 @@
+name: Stagehand
+url: https://github.com/browserbase/stagehand
+description: Browserbase SDK for building browser agents on top of Playwright. Stagehand
+  adds LLM-friendly act, extract, and observe primitives so developers can combine
+  deterministic browser automation with natural-language instructions.
+github_repo: browserbase/stagehand
+documentation_url: https://stagehand.dev
+github_stars: 22443
+last_updated: '2026-05-04'
+is_archived: false
+category: browser-automation
+tags:
+  - browser-automation
+  - llm
+  - playwright
+  - sdk
+  - typescript
+platform:
+  - TypeScript
+license: MIT
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

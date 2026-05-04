@@ -1,0 +1,25 @@
+name: Trigger.dev
+url: https://trigger.dev/
+description: Open-source platform for building and running long-running workflows,
+  background jobs, and AI agents in TypeScript and Python. Trigger.dev provides
+  durable execution, retries, queues, observability, and hosted deployment for
+  agentic workloads.
+github_repo: triggerdotdev/trigger.dev
+category: specialized-tools
+type: tool
+tags:
+  - open-source
+  - workflow
+  - orchestration
+  - developer-platform
+  - typescript
+platform:
+  - TypeScript
+  - Python
+license: Apache-2.0
+pricing: freemium
+github_stars: 14770
+last_updated: '2026-05-03'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

@@ -1,0 +1,18 @@
+name: JetBrains Junie
+url: https://www.jetbrains.com/junie/
+description: AI coding agent integrated with JetBrains IDEs. Junie handles multi-step
+  coding tasks, works with project context, runs checks, and helps implement changes
+  inside JetBrains development environments.
+category: coding-assistants
+tags:
+  - ai-ide
+  - autonomous-agent
+  - coding-assistant
+  - jetbrains
+platform:
+  - JetBrains
+pricing: paid
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

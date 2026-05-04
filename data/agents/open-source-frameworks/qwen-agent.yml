@@ -1,0 +1,22 @@
+name: Qwen-Agent
+url: https://github.com/QwenLM/Qwen-Agent
+description: Official agent framework and application scaffold for Alibaba's Qwen
+  model family. Qwen-Agent supports function calling, MCP tools, code interpreter
+  workflows, RAG, browser extension use cases, and multi-agent applications.
+github_repo: QwenLM/Qwen-Agent
+category: open-source-frameworks
+type: framework
+tags:
+  - open-source
+  - multi-agent
+  - mcp
+  - rag
+  - tool-calling
+platform:
+  - Python
+license: Apache-2.0
+github_stars: 16246
+last_updated: '2026-03-04'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

@@ -1,0 +1,17 @@
+name: Pipedream MCP
+url: https://mcp.pipedream.com/
+description: Managed MCP server from Pipedream that exposes app integrations and
+  workflow actions to AI agents through a hosted MCP endpoint, avoiding local server
+  setup for common SaaS integrations.
+category: specialized-tools
+type: tool
+tags:
+  - mcp
+  - automation
+  - integrations
+  - developer-platform
+  - tools
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

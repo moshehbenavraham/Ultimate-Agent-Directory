@@ -1,0 +1,16 @@
+name: OpenAI DevDay
+url: https://openai.com/devday/
+description: OpenAI developer event and session archive covering API platform
+  announcements, agent tooling, SDK updates, model releases, evaluation, Codex,
+  and production application patterns.
+category: communities
+type: community
+tags:
+  - conference
+  - community
+  - openai
+  - api
+  - sdk
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

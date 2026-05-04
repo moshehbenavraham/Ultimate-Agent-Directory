@@ -1,0 +1,19 @@
+name: Retell AI
+url: https://www.retellai.com/
+description: Voice AI platform for building low-latency phone agents for sales,
+  support, scheduling, and service workflows. Retell provides turn-taking,
+  interruption handling, telephony integrations, testing, analytics, and APIs for
+  production inbound and outbound call automation.
+documentation_url: https://docs.retellai.com/
+category: specialized-tools
+type: platform
+tags:
+  - voice-agents
+  - real-time
+  - customer-service
+  - sales
+  - api
+pricing: paid
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

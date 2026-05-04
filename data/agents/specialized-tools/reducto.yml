@@ -1,0 +1,19 @@
+name: Reducto
+url: https://reducto.ai/
+description: Document parsing and extraction API for converting complex PDFs,
+  spreadsheets, presentations, and scanned documents into structured output for
+  RAG and LLM workflows. Reducto focuses on layout-aware parsing, tables, figures,
+  OCR, splitting, and extraction.
+documentation_url: https://docs.reducto.ai/
+category: specialized-tools
+type: platform
+tags:
+  - rag
+  - document-ai
+  - data-extraction
+  - api
+  - hosted-service
+pricing: paid
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

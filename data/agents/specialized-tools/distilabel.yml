@@ -1,0 +1,22 @@
+name: Distilabel
+url: https://github.com/argilla-io/distilabel
+description: Open-source framework from Argilla for building synthetic data and AI
+  feedback pipelines. Distilabel generates and labels datasets with LLMs, supports
+  preference and evaluation data workflows, and provides scalable pipeline
+  primitives for fine-tuning and alignment datasets.
+github_repo: argilla-io/distilabel
+documentation_url: https://distilabel.argilla.io/
+category: specialized-tools
+type: tool
+tags:
+  - synthetic-data
+  - data-generation
+  - rlhf
+  - fine-tuning
+  - open-source
+license: Apache-2.0
+github_stars: 3199
+last_updated: '2026-05-01'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

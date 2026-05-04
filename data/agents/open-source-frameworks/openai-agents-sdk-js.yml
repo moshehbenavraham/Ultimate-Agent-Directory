@@ -1,0 +1,25 @@
+name: OpenAI Agents SDK (JS/TS)
+url: https://github.com/openai/openai-agents-js
+description: Official JavaScript and TypeScript framework from OpenAI for multi-agent
+  workflows and voice agents. It provides agent orchestration primitives, tool use,
+  handoffs, guardrails, tracing, and MCP integration for Node.js applications.
+github_repo: openai/openai-agents-js
+documentation_url: https://openai.github.io/openai-agents-js/
+github_stars: 2924
+last_updated: '2026-05-04'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - mcp
+  - multi-agent
+  - openai
+  - typescript
+  - voice-agents
+platform:
+  - TypeScript
+  - JavaScript
+license: MIT
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

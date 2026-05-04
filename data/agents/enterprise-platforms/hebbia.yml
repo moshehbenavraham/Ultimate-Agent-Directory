@@ -1,0 +1,18 @@
+name: Hebbia
+url: https://www.hebbia.ai/
+description: AI research and analysis platform for enterprise knowledge work. Hebbia
+  supports multi-step analysis across document collections for financial services,
+  legal, investment, and professional-services workflows.
+category: enterprise-platforms
+tags:
+  - enterprise
+  - financial-services
+  - legal
+  - research
+platform:
+  - Web
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: platform

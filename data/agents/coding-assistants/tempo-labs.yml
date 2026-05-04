@@ -1,0 +1,19 @@
+name: Tempo Labs
+url: https://www.tempolabs.ai/
+description: AI-powered React frontend builder for product teams. Tempo Labs generates
+  component trees from prompts or Figma designs, supports collaborative editing, and
+  exports code through Git-based workflows.
+category: coding-assistants
+tags:
+  - app-builder
+  - coding-assistant
+  - design-to-code
+  - figma
+  - react
+platform:
+  - Web
+pricing: paid
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

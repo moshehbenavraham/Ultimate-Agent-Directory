@@ -1,0 +1,18 @@
+name: Decagon
+url: https://decagon.ai/
+description: Enterprise AI agent platform for customer experience. Decagon supports
+  customer-service workflows across chat, email, SMS, and voice with controlled
+  procedures, integrations, and operational analytics.
+category: enterprise-platforms
+tags:
+  - contact-center
+  - customer-service
+  - enterprise
+  - voice-agents
+platform:
+  - Web
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: platform

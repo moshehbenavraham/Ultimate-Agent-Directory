@@ -1,0 +1,26 @@
+name: PocketBase
+url: https://github.com/pocketbase/pocketbase
+description: Go backend framework with embedded SQLite database, realtime
+  subscriptions, REST APIs, file storage, authentication, admin UI, and an
+  embeddable library mode for custom application logic.
+category: go
+type: toolkit
+tags:
+  - go
+  - golang
+  - sqlite
+  - real-time
+  - api
+  - authentication
+  - admin-dashboard
+github_repo: pocketbase/pocketbase
+github_stars: 58115
+last_updated: '2026-05-04'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Go

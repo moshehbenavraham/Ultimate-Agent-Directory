@@ -1,0 +1,24 @@
+name: SaaS Pegasus
+url: https://www.saaspegasus.com/
+description: Commercial Django SaaS boilerplate generator with configurable
+  React or HTMX frontends, Stripe billing, multi-tenancy, Celery background
+  tasks, Wagtail CMS options, REST APIs, and AI/LLM integration examples.
+category: django
+type: boilerplate
+tags:
+  - django
+  - python
+  - stripe
+  - postgresql
+  - htmx
+  - react
+  - chatbot
+  - saas
+  - commercial
+pricing: paid
+license: Commercial
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Python

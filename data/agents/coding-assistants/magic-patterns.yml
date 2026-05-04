@@ -1,0 +1,19 @@
+name: Magic Patterns
+url: https://www.magicpatterns.com/
+description: AI UI generation tool that creates React components and interfaces from
+  prompts or images. Magic Patterns focuses on production-oriented frontend output
+  using common design-system and component-library patterns.
+category: coding-assistants
+tags:
+  - coding-assistant
+  - design-to-code
+  - react
+  - ui-generation
+  - vibe-coding
+platform:
+  - Web
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

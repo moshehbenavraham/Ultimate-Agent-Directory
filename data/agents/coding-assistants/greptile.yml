@@ -1,0 +1,18 @@
+name: Greptile
+url: https://www.greptile.com/
+description: AI code review agent with codebase-aware analysis for engineering teams.
+  Greptile connects to repositories, understands project context, and comments on
+  pull requests with automated review feedback.
+category: coding-assistants
+tags:
+  - code-review
+  - coding-assistant
+  - enterprise
+  - pr-agent
+platform:
+  - GitHub
+pricing: paid
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

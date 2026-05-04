@@ -1,0 +1,22 @@
+name: Awesome RAG
+url: https://github.com/frutik/Awesome-RAG
+description: Curated resource list for retrieval-augmented generation, covering
+  vector databases, embedding models, chunking strategies, hybrid search,
+  retrieval pipelines, and RAG evaluation methods.
+category: communities
+type: tool
+tags:
+  - awesome-list
+  - community
+  - evaluation
+  - github
+  - rag
+  - resources
+  - vector-stores
+github_repo: frutik/Awesome-RAG
+github_stars: 375
+last_updated: '2026-04-27'
+is_archived: false
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

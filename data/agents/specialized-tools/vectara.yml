@@ -1,0 +1,19 @@
+name: Vectara
+url: https://www.vectara.com/business/platform
+description: Enterprise AI agent and RAG platform for grounded search, retrieval,
+  governed agent workflows, and factual-consistency enforcement. Vectara provides
+  managed retrieval, citations, hallucination evaluation, policy controls, and
+  deployment options for trusted AI applications.
+documentation_url: https://docs.vectara.com/docs/
+category: specialized-tools
+type: platform
+tags:
+  - rag
+  - search
+  - enterprise
+  - hallucination-detection
+  - governance
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

@@ -1,0 +1,16 @@
+name: Together AI Discord
+url: https://discord.gg/together-ai
+description: Community for Together AI users building with open model APIs,
+  inference services, fine-tuning workflows, and applications that use
+  open-source model infrastructure.
+category: communities
+type: community
+tags:
+  - community
+  - discord
+  - llm
+  - api
+  - fine-tuning
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

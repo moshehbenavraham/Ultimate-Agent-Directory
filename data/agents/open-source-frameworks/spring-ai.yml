@@ -1,0 +1,23 @@
+name: Spring AI
+url: https://github.com/spring-projects/spring-ai
+description: Spring application framework for AI engineering. Spring AI integrates
+  model providers, vector stores, embeddings, tool calling, RAG pipelines, and
+  agentic patterns into the Spring and Spring Boot ecosystem.
+github_repo: spring-projects/spring-ai
+documentation_url: https://docs.spring.io/spring-ai/reference/index.html
+github_stars: 8626
+last_updated: '2026-05-03'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - enterprise
+  - java
+  - rag
+  - spring-boot
+platform:
+  - Java
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

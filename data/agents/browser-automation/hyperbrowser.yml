@@ -1,0 +1,19 @@
+name: Hyperbrowser
+url: https://hyperbrowser.ai
+description: Cloud browser platform for automated browser sessions at scale. Hyperbrowser
+  supports browser-use agents, computer-use models, stealth browsing, integrations,
+  and hosted infrastructure for web automation.
+category: browser-automation
+tags:
+  - api
+  - browser-automation
+  - cloud-browser
+  - computer-use
+  - hosted
+platform:
+  - Web
+pricing: paid
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: platform

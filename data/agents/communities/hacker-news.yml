@@ -1,0 +1,16 @@
+name: Hacker News
+url: https://news.ycombinator.com/
+description: Y Combinator's technical news and discussion forum where engineers
+  and researchers discuss AI releases, language-model papers, developer tools,
+  startups, open-source projects, and agent-related Show HN launches.
+category: communities
+type: community
+tags:
+  - community
+  - forum
+  - developer-platform
+  - research
+  - resources
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

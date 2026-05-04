@@ -1,0 +1,27 @@
+name: Vercel AI Chatbot
+url: https://github.com/vercel/chatbot
+description: Hackable Next.js AI chatbot template from Vercel built with the AI
+  SDK, multi-provider model support, chat history persistence, blob storage,
+  authentication, and production deployment defaults.
+category: nextjs
+type: boilerplate
+tags:
+  - nextjs
+  - chatbot
+  - llm
+  - authjs
+  - postgresql
+  - full-stack
+  - saas
+github_repo: vercel/chatbot
+github_stars: 20230
+last_updated: '2026-05-04'
+is_archived: false
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript
+deployment:
+  - Vercel

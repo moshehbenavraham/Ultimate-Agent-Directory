@@ -1,0 +1,23 @@
+name: FastMCP
+url: https://github.com/PrefectHQ/fastmcp
+description: Python framework for building MCP servers and clients with concise,
+  typed interfaces. FastMCP generates protocol schemas from Python functions and
+  provides a practical toolkit for exposing tools to AI agents.
+github_repo: PrefectHQ/fastmcp
+documentation_url: https://gofastmcp.com
+github_stars: 24971
+last_updated: '2026-05-04'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - integration
+  - mcp
+  - python
+  - tools
+platform:
+  - Python
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

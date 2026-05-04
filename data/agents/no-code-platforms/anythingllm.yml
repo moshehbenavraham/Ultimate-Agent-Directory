@@ -1,0 +1,23 @@
+name: AnythingLLM
+url: https://anythingllm.com/
+description: Open-source AI workspace for local or hosted chat with documents,
+  RAG, custom agents, workspace permissions, and multi-model support. AnythingLLM
+  can run with local LLMs or hosted model providers.
+github_repo: Mintplex-Labs/anything-llm
+category: no-code-platforms
+type: platform
+tags:
+  - open-source
+  - self-hosted
+  - rag
+  - local-llm
+  - productivity
+platform:
+  - TypeScript
+license: MIT
+pricing: freemium
+github_stars: 59480
+last_updated: '2026-05-02'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

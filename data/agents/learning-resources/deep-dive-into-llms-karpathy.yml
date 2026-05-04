@@ -1,0 +1,19 @@
+name: Deep Dive into LLMs
+url: https://www.youtube.com/watch?v=7xTGNNLPyMI
+description: Andrej Karpathy lecture covering how large language models work, from
+  tokenization and attention through training, RLHF, deployment behavior, and
+  practical use patterns relevant to agent builders.
+category: learning-resources
+type: course
+tags:
+  - learning
+  - llm
+  - research
+  - rlhf
+  - tutorial
+  - youtube
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Video

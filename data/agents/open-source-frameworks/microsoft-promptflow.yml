@@ -1,0 +1,23 @@
+name: Microsoft PromptFlow
+url: https://github.com/microsoft/promptflow
+description: Microsoft's open-source toolkit for developing, testing, evaluating, and
+  deploying LLM applications. PromptFlow uses executable flows that connect prompts,
+  Python code, tools, evaluation, tracing, and deployment workflows.
+github_repo: microsoft/promptflow
+documentation_url: https://microsoft.github.io/promptflow/
+github_stars: 11117
+last_updated: '2026-05-01'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - evaluation
+  - microsoft
+  - python
+  - workflow
+platform:
+  - Python
+license: MIT
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

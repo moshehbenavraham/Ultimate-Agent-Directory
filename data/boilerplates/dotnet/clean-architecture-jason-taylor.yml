@@ -1,0 +1,24 @@
+name: Clean Architecture by Jason Taylor
+url: https://github.com/jasontaylordev/CleanArchitecture
+description: ASP.NET Core Clean Architecture template with CQRS, MediatR-style
+  application layers, validation, Entity Framework Core, identity management,
+  and SPA frontend options for enterprise application foundations.
+category: dotnet
+type: template
+tags:
+  - dotnet
+  - csharp
+  - architecture
+  - react
+  - enterprise
+github_repo: jasontaylordev/CleanArchitecture
+github_stars: 20011
+last_updated: '2026-05-04'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - C#

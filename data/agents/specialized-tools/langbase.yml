@@ -1,0 +1,17 @@
+name: Langbase
+url: https://langbase.com/
+description: Serverless AI developer platform for building and deploying AI agents,
+  apps, and features. Langbase provides composable AI primitives, memory, tools,
+  model routing, and infrastructure for production LLM applications.
+category: specialized-tools
+type: platform
+tags:
+  - serverless
+  - developer-platform
+  - memory
+  - tools
+  - orchestration
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

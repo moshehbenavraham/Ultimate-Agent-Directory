@@ -1,0 +1,18 @@
+name: Cohere North
+url: https://cohere.com/north
+description: Cohere enterprise AI agent platform for secure workplace search and
+  productivity workflows. North supports private deployment, RAG, document work,
+  and enterprise controls for organizations using Cohere models.
+category: enterprise-platforms
+tags:
+  - enterprise
+  - private-deployment
+  - rag
+  - security
+platform:
+  - Web
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: platform

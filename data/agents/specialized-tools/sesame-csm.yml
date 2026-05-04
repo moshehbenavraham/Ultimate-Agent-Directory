@@ -1,0 +1,23 @@
+name: Sesame CSM
+url: https://github.com/SesameAILabs/csm
+description: Open-source Conversational Speech Model from Sesame for generating
+  natural conversational speech from text and audio inputs. The model underpins
+  Sesame's voice companion demos and provides a research-grade speech generation
+  component for voice agent experiments.
+github_repo: SesameAILabs/csm
+documentation_url: https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice
+demo_url: https://app.sesame.com/
+category: specialized-tools
+type: tool
+tags:
+  - voice-agents
+  - open-source
+  - multimodal
+  - real-time
+  - research
+license: Apache-2.0
+github_stars: 14606
+last_updated: '2026-05-04'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

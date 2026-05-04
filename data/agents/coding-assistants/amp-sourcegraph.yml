@@ -1,0 +1,19 @@
+name: Amp
+url: https://ampcode.com/
+description: Sourcegraph's coding agent for terminal and editor workflows. Amp provides
+  multi-model code assistance, task execution, codebase context, and agentic modes
+  for implementing and reviewing changes.
+category: coding-assistants
+tags:
+  - autonomous-agent
+  - cli
+  - coding-assistant
+  - terminal
+platform:
+  - CLI
+  - Editor
+pricing: paid
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

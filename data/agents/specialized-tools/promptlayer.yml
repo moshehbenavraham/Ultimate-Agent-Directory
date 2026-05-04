@@ -1,0 +1,17 @@
+name: PromptLayer
+url: https://www.promptlayer.com/
+description: Prompt management and LLM observability platform for logging requests,
+  versioning prompts, running prompt experiments, tracking metadata, and monitoring
+  production performance over time.
+category: specialized-tools
+type: platform
+tags:
+  - observability
+  - prompt-management
+  - tracing
+  - evaluation
+  - tools
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

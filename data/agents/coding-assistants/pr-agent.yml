@@ -1,0 +1,25 @@
+name: PR-Agent
+url: https://github.com/The-PR-Agent/pr-agent
+description: Open-source AI pull-request reviewer for GitHub, GitLab, Bitbucket, and
+  Azure DevOps. PR-Agent generates PR descriptions, reviews code, suggests changes,
+  and supports self-hosted review automation.
+github_repo: The-PR-Agent/pr-agent
+documentation_url: https://www.pr-agent.ai
+github_stars: 11078
+last_updated: '2026-05-02'
+is_archived: false
+category: coding-assistants
+tags:
+  - code-review
+  - coding-assistant
+  - open-source
+  - pr-agent
+platform:
+  - GitHub
+  - GitLab
+  - Bitbucket
+license: AGPL-3.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

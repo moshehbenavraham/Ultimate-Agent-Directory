@@ -1,0 +1,17 @@
+name: HoneyHive
+url: https://www.honeyhive.ai/
+description: AI evaluation and observability platform for production LLM apps.
+  HoneyHive records traces, manages evaluation datasets, supports human annotation,
+  and runs regression tests for prompt and agent changes.
+category: specialized-tools
+type: platform
+tags:
+  - observability
+  - evaluation
+  - dataset-management
+  - annotation
+  - tracing
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

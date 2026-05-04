@@ -1,0 +1,25 @@
+name: Rails 8 Solid Stack
+url: https://github.com/rails/rails
+description: Rails 8 application scaffold with built-in Solid Queue, Solid Cache,
+  and Solid Cable defaults, reducing external service dependencies while keeping
+  a full-stack Rails app ready for background jobs, caching, and realtime use.
+category: rails
+type: scaffold
+tags:
+  - rails
+  - ruby
+  - postgresql
+  - real-time
+  - full-stack
+  - productivity
+github_repo: rails/rails
+github_stars: 58405
+last_updated: '2026-05-04'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Ruby

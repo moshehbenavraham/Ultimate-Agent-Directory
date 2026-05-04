@@ -1,0 +1,19 @@
+name: Pinecone
+url: https://www.pinecone.io/
+description: Fully managed vector database for production AI applications. Pinecone
+  provides serverless vector search, metadata filtering, namespaces, automatic
+  indexing, and managed scaling for RAG, agent memory, semantic search, and
+  recommendation workloads.
+documentation_url: https://docs.pinecone.io/
+category: specialized-tools
+type: platform
+tags:
+  - vector-stores
+  - database
+  - rag
+  - serverless
+  - hosted-service
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

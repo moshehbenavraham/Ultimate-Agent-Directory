@@ -1,0 +1,21 @@
+name: GPT Pilot
+url: https://github.com/Pythagora-io/gpt-pilot
+description: Open-source AI developer agent that helps build applications by planning,
+  writing code, debugging, and checking in with the developer at key decision points.
+  GPT Pilot is the engine behind Pythagora's coding products.
+github_repo: Pythagora-io/gpt-pilot
+github_stars: 33771
+last_updated: '2026-04-17'
+is_archived: false
+category: coding-assistants
+tags:
+  - autonomous-agent
+  - coding-assistant
+  - full-stack
+  - open-source
+platform:
+  - Python
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

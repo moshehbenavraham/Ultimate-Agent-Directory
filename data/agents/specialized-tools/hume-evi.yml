@@ -1,0 +1,19 @@
+name: Hume EVI
+url: https://www.hume.ai/empathic-voice-interface
+description: Hume's Empathic Voice Interface for building voice AI that can
+  understand and respond to vocal emotion in real time. EVI combines speech
+  recognition, emotion understanding, language modeling, and voice output for
+  emotionally responsive conversational agents.
+documentation_url: https://dev.hume.ai/intro
+category: specialized-tools
+type: platform
+tags:
+  - voice-agents
+  - real-time
+  - api
+  - multimodal
+  - developer-platform
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

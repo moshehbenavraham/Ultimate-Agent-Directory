@@ -1,0 +1,20 @@
+name: OS-Atlas
+url: https://github.com/OS-Copilot/OS-Atlas
+description: Foundation action model for generalist GUI agents. OS-Atlas is trained
+  for screen understanding and action prediction across desktop, mobile, and web
+  interfaces, and is used for downstream computer-use agent research.
+github_repo: OS-Copilot/OS-Atlas
+category: research-frameworks
+type: research
+tags:
+  - research
+  - gui-agent
+  - computer-use
+  - vision-language-model
+  - benchmark
+license: Apache-2.0
+github_stars: 444
+last_updated: '2025-04-20'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

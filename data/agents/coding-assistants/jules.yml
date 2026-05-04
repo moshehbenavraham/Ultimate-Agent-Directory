@@ -1,0 +1,19 @@
+name: Jules
+url: https://jules.google/
+description: Google's asynchronous coding agent for working on GitHub repositories.
+  Jules runs coding tasks in cloud environments, proposes changes, writes tests, and
+  helps turn issues or requests into pull-request-ready work.
+category: coding-assistants
+tags:
+  - autonomous-agent
+  - coding-assistant
+  - github
+  - google
+  - swe-agent
+platform:
+  - Web
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

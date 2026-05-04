@@ -1,0 +1,17 @@
+name: Snowflake Cortex Agents
+url: https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents
+description: Snowflake managed agent capability for orchestrating answers across
+  structured and unstructured enterprise data. Cortex Agents combine Cortex Analyst,
+  Cortex Search, tools, and Snowflake governance for data-grounded AI workflows.
+category: enterprise-platforms
+tags:
+  - data-platform
+  - enterprise
+  - rag
+platform:
+  - Snowflake
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: platform

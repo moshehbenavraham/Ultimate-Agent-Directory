@@ -1,0 +1,18 @@
+name: Fine-Tuning AI Agents with Reinforcement Learning
+url: https://www.udacity.com/course/fine-tuning-ai-agents-with-reinforcement-learning--cd14714
+description: Udacity course on adapting LLMs into agents with supervised
+  fine-tuning, PEFT and LoRA, ReAct reasoning loops, trajectory data generation,
+  Direct Preference Optimization, and alignment practices.
+category: learning-resources
+type: course
+tags:
+  - course
+  - learning
+  - fine-tuning
+  - autonomous-agent
+  - rlhf
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web

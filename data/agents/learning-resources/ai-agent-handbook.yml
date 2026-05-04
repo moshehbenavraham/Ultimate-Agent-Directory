@@ -1,0 +1,19 @@
+name: AI Agent Handbook
+url: https://mbrenndoerfer.com/books/ai-agent-handbook
+description: Free online book by Michael Brenndoerfer covering how AI agents
+  work, including tool use, memory, multi-agent coordination, evaluation,
+  observability, safety, and production operations.
+category: learning-resources
+type: course
+tags:
+  - book
+  - learning
+  - autonomous-agent
+  - memory
+  - production
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web
+pricing: free

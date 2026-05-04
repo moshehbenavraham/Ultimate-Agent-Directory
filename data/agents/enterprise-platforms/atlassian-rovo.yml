@@ -1,0 +1,18 @@
+name: Atlassian Rovo
+url: https://www.atlassian.com/software/rovo
+description: Atlassian's AI assistant and agent platform for enterprise teamwork.
+  Rovo provides AI search, chat, agents, and workflow automation across Atlassian
+  products and connected workplace systems.
+category: enterprise-platforms
+tags:
+  - enterprise
+  - productivity
+  - search
+  - workflow
+platform:
+  - Atlassian
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: platform

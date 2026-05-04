@@ -1,0 +1,18 @@
+name: Replicant
+url: https://www.replicant.com/
+description: Autonomous voice AI platform for contact centers. Replicant handles
+  inbound and outbound customer calls, understands intent, takes actions through
+  integrations, and escalates complex cases to human teams.
+category: enterprise-platforms
+tags:
+  - contact-center
+  - customer-service
+  - enterprise
+  - voice-agents
+platform:
+  - Web
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: platform

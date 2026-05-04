@@ -1,0 +1,16 @@
+name: LangChain Community
+url: https://www.langchain.com/community
+description: Official LangChain community hub linking help forums, Community
+  Slack, events, ambassadors, experts, and contributor programs for developers
+  building agents with LangChain and LangGraph.
+category: communities
+type: community
+tags:
+  - community
+  - slack
+  - forum
+  - langchain
+  - llm
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

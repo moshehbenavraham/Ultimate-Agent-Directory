@@ -1,0 +1,16 @@
+name: r/LangChain
+url: https://www.reddit.com/r/LangChain/
+description: Community subreddit for LangChain ecosystem discussions, including
+  LangGraph, LangSmith, agents, chains, RAG applications, troubleshooting, and
+  project showcases.
+category: communities
+type: community
+tags:
+  - community
+  - reddit
+  - langchain
+  - rag
+  - llm
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

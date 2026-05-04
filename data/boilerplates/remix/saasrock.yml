@@ -1,0 +1,23 @@
+name: SaasRock
+url: https://saasrock.com/
+description: Commercial Remix SaaS boilerplate with admin dashboard, app portal,
+  Stripe billing, blog, page builder, knowledge base, workflows, analytics, and
+  low-code entity modeling.
+category: remix
+type: boilerplate
+tags:
+  - remix
+  - react
+  - stripe
+  - prisma
+  - tailwindcss
+  - admin-dashboard
+  - saas
+  - commercial
+pricing: paid
+license: Commercial
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript

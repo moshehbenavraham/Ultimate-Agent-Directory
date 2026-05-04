@@ -1,0 +1,18 @@
+name: Event-Driven Agentic Document Workflows
+url: https://www.deeplearning.ai/short-courses/event-driven-agentic-document-workflows/
+description: DeepLearning.AI short course on event-driven document agents with
+  LlamaIndex workflows, RAG document processing, branching and looping logic,
+  concurrent execution, and human-in-the-loop feedback.
+category: learning-resources
+type: course
+tags:
+  - course
+  - learning
+  - rag
+  - workflow
+  - autonomous-agent
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web

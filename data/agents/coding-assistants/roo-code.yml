@@ -1,0 +1,23 @@
+name: Roo Code
+url: https://github.com/RooCodeInc/Roo-Code
+description: Open-source AI coding agent for editors with specialized modes for code,
+  architecture, debugging, and orchestration. Roo Code supports model-agnostic BYOK
+  workflows, local models, and autonomous development tasks.
+github_repo: RooCodeInc/Roo-Code
+documentation_url: https://roocode.com
+github_stars: 23847
+last_updated: '2026-05-03'
+is_archived: false
+category: coding-assistants
+tags:
+  - autonomous-agent
+  - coding-assistant
+  - open-source
+  - vscode-extension
+platform:
+  - TypeScript
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

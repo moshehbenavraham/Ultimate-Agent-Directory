@@ -1,0 +1,17 @@
+name: ZBrain
+url: https://zbrain.ai/
+description: Enterprise agentic AI orchestration platform from LeewayHertz for building
+  and deploying custom AI agents across business functions. ZBrain supports no-code
+  workflow design, data grounding, governance, and vertical agent deployments.
+category: enterprise-platforms
+type: platform
+tags:
+  - enterprise
+  - no-code
+  - orchestration
+  - knowledge-management
+  - workflow
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

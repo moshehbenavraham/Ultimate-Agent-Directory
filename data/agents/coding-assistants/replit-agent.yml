@@ -1,0 +1,19 @@
+name: Replit Agent
+url: https://replit.com/products/agent
+description: Replit's autonomous app-building agent for turning natural language into
+  working software inside Replit. It configures environments, writes code, runs apps,
+  and iterates on projects in a cloud IDE.
+category: coding-assistants
+tags:
+  - app-builder
+  - autonomous-agent
+  - cloud-ide
+  - coding-assistant
+  - vibe-coding
+platform:
+  - Web
+pricing: paid
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

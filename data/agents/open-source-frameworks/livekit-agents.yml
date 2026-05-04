@@ -1,0 +1,23 @@
+name: LiveKit Agents
+url: https://github.com/livekit/agents
+description: Framework for building realtime voice and multimodal AI agents on LiveKit.
+  It provides speech-to-speech pipelines, model integrations, media transport, and
+  production-oriented primitives for interactive voice agents.
+github_repo: livekit/agents
+documentation_url: https://docs.livekit.io/agents
+github_stars: 10334
+last_updated: '2026-05-04'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - multimodal
+  - python
+  - real-time
+  - voice-agents
+platform:
+  - Python
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

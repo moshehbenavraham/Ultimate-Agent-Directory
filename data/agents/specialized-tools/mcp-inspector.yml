@@ -1,0 +1,19 @@
+name: MCP Inspector
+url: https://github.com/modelcontextprotocol/inspector
+description: Official visual testing and debugging tool for MCP servers. MCP Inspector
+  provides a web UI for connecting to a server, browsing tools and resources, and
+  manually executing calls while developing MCP integrations.
+github_repo: modelcontextprotocol/inspector
+category: specialized-tools
+type: tool
+tags:
+  - mcp
+  - debugging
+  - developer-platform
+  - official
+  - open-source
+github_stars: 9650
+last_updated: '2026-05-03'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

@@ -1,0 +1,16 @@
+name: Microsoft Build AI Track
+url: https://build.microsoft.com/en-US/home
+description: Microsoft developer conference track covering Azure AI services,
+  Copilot, agent development, enterprise deployment, cloud tooling, and developer
+  workflows across the Microsoft ecosystem.
+category: communities
+type: community
+tags:
+  - conference
+  - community
+  - microsoft
+  - developer-platform
+  - enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

@@ -1,0 +1,17 @@
+name: HyperWrite Personal Assistant
+url: https://www.hyperwriteai.com/personal-assistant
+description: Browser-based AI personal assistant that can research, manage email,
+  fill forms, and complete online tasks through HyperWrite's Chrome extension and
+  web assistant experience.
+category: browser-automation
+type: platform
+tags:
+  - browser-automation
+  - personal-assistant
+  - productivity
+  - browser-extension
+  - automation
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

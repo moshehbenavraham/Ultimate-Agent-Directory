@@ -1,0 +1,22 @@
+name: Google Agent Development Kit (Python)
+url: https://github.com/google/adk-python
+description: Google's open-source Python toolkit for building, evaluating, and deploying
+  AI agents. It supports code-first agent development, multi-agent composition, tool
+  use, and deployment paths through Google's AI and cloud ecosystem.
+github_repo: google/adk-python
+documentation_url: https://google.github.io/adk-docs/
+github_stars: 19414
+last_updated: '2026-05-01'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - google
+  - multi-agent
+  - python
+platform:
+  - Python
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

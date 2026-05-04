@@ -1,0 +1,27 @@
+name: NestJS Production Boilerplate
+url: https://github.com/armandwipangestu/nestjs-boilerplate
+description: Production-oriented NestJS boilerplate with Prisma, PostgreSQL,
+  Redis, JWT refresh-token flows, RBAC, Swagger docs, tracing, Prometheus-style
+  metrics, Grafana-oriented observability, Bun runtime, and load testing.
+category: nodejs
+type: boilerplate
+tags:
+  - nodejs
+  - nestjs
+  - prisma
+  - postgresql
+  - redis
+  - jwt
+  - swagger
+  - observability
+github_repo: armandwipangestu/nestjs-boilerplate
+github_stars: 11
+last_updated: '2026-03-29'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript

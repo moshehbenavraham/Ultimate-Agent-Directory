@@ -1,0 +1,17 @@
+name: Pickaxe
+url: https://pickaxe.co/
+description: No-code AI app and agent builder for creating, sharing, and monetizing
+  custom AI tools. Pickaxe supports prompt-based tools, knowledge bases, forms,
+  payments, embedding, and integrations with automation platforms.
+category: no-code-platforms
+type: platform
+tags:
+  - no-code
+  - app-builder
+  - knowledge-management
+  - stripe
+  - integrations
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

@@ -1,0 +1,22 @@
+name: Awesome LLM Apps (himyjan)
+url: https://github.com/himyjan/awesome-llm-apps
+description: Collection of deployable LLM application templates spanning AI agents,
+  multi-agent teams, MCP agents, voice agents, RAG tutorials, and fine-tuning
+  examples across major model providers.
+category: communities
+type: tool
+tags:
+  - awesome-list
+  - community
+  - github
+  - mcp
+  - rag
+  - templates
+github_repo: himyjan/awesome-llm-apps
+license: Apache-2.0
+github_stars: 0
+last_updated: '2026-05-03'
+is_archived: false
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

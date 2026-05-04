@@ -1,0 +1,20 @@
+name: 'Neural Networks: Zero to Hero'
+url: https://github.com/karpathy/nn-zero-to-hero
+description: Andrej Karpathy's free video course and companion notebooks for
+  building neural networks from scratch in Python, including micrograd,
+  makemore, GPT-style language modeling, and tokenization.
+category: learning-resources
+type: course
+tags:
+  - course
+  - learning
+  - youtube
+  - llm
+  - research
+github_repo: karpathy/nn-zero-to-hero
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web
+pricing: free

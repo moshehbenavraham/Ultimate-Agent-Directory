@@ -1,0 +1,18 @@
+name: Albato
+url: https://albato.com/
+description: No-code integration platform for connecting SaaS applications and
+  creating multi-step automations. Albato supports hundreds of app connectors,
+  webhook flows, embedded integrations, and white-label automation for software
+  vendors.
+category: no-code-platforms
+type: platform
+tags:
+  - no-code
+  - integrations
+  - automation
+  - white-label
+  - saas
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

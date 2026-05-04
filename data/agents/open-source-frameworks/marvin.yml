@@ -1,0 +1,22 @@
+name: Marvin
+url: https://github.com/PrefectHQ/marvin
+description: Prefect's ambient intelligence Python library for building AI functions,
+  agents, and task-centric workflows. Marvin supports structured generation,
+  classification, extraction, and agent behavior with typed Python interfaces.
+github_repo: PrefectHQ/marvin
+documentation_url: https://marvin.mintlify.app
+github_stars: 6146
+last_updated: '2026-04-22'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - python
+  - structured-outputs
+  - workflow
+platform:
+  - Python
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

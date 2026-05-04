@@ -1,0 +1,17 @@
+name: FlowHunt
+url: https://www.flowhunt.io/
+description: No-code visual AI workflow builder for creating chatbots, agents, and
+  automations from modular flow components. FlowHunt supports drag-and-drop flow
+  design, knowledge sources, deployment widgets, and monitoring.
+category: no-code-platforms
+type: platform
+tags:
+  - no-code
+  - visual-builder
+  - workflow
+  - chatbot
+  - automation
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

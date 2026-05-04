@@ -1,0 +1,22 @@
+name: Google ADK for TypeScript
+url: https://github.com/google/adk-js
+description: TypeScript implementation of Google's Agent Development Kit for building
+  AI agents and multi-agent systems. It offers ADK primitives for Node.js developers
+  and shares documentation with the broader Google ADK project.
+github_repo: google/adk-js
+documentation_url: https://google.github.io/adk-docs/
+github_stars: 1082
+last_updated: '2026-04-29'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - google
+  - multi-agent
+  - typescript
+platform:
+  - TypeScript
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

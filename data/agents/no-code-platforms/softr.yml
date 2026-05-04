@@ -1,0 +1,17 @@
+name: Softr
+url: https://www.softr.io/
+description: No-code app builder for portals, internal tools, dashboards, and web
+  apps on top of Airtable, Google Sheets, SQL databases, and other data sources.
+  Softr includes AI-assisted building and workflow features.
+category: no-code-platforms
+type: platform
+tags:
+  - no-code
+  - app-builder
+  - internal-tools
+  - database
+  - enterprise
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

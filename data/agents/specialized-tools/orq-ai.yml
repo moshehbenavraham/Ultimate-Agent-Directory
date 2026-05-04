@@ -1,0 +1,17 @@
+name: Orq.ai
+url: https://orq.ai/
+description: LLMOps platform for prompt management, model routing, experimentation,
+  observability, and deployment workflows. Orq.ai helps teams manage prompt changes,
+  monitor usage, and route requests across models from one platform.
+category: specialized-tools
+type: platform
+tags:
+  - llm-ops
+  - prompt-management
+  - observability
+  - gateway
+  - model-routing
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

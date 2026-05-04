@@ -1,0 +1,19 @@
+name: fast.ai Practical Deep Learning for Coders
+url: https://course.fast.ai/
+description: Free code-first deep learning course by Jeremy Howard and Rachel
+  Thomas covering neural networks, computer vision, NLP, model training, and
+  practical development habits for AI builders.
+category: learning-resources
+type: course
+tags:
+  - course
+  - learning
+  - python
+  - research
+  - beginner-friendly
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web
+pricing: free

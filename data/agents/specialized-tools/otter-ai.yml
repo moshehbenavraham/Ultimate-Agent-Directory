@@ -1,0 +1,17 @@
+name: Otter AI
+url: https://otter.ai/
+description: AI meeting assistant and conversational knowledge engine for meetings.
+  Otter joins meetings, records and transcribes conversations, summarizes action
+  items, answers questions over meeting history, and supports meeting-agent workflows.
+category: specialized-tools
+type: tool
+tags:
+  - meeting-agent
+  - productivity
+  - voice-agents
+  - knowledge-management
+  - enterprise
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

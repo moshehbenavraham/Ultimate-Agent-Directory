@@ -1,0 +1,21 @@
+name: Gemini Code Assist
+url: https://developers.google.com/gemini-code-assist
+description: Google's AI coding assistant for IDEs and enterprise development teams.
+  Gemini Code Assist provides code completion, chat, agent mode, PR assistance, and
+  customization options for organization codebases.
+category: coding-assistants
+tags:
+  - ai-ide
+  - code-review
+  - coding-assistant
+  - enterprise
+  - google
+platform:
+  - VS Code
+  - JetBrains
+  - Android Studio
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

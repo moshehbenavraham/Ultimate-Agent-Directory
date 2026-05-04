@@ -1,0 +1,21 @@
+name: AI Scientist
+url: https://github.com/SakanaAI/AI-Scientist
+description: Sakana AI's autonomous research agent that generates research ideas,
+  writes experiment code, runs studies, analyzes results, and produces paper-style
+  reports with minimal human intervention.
+github_repo: SakanaAI/AI-Scientist
+category: research-frameworks
+type: research
+tags:
+  - research
+  - autonomous-agent
+  - science
+  - open-source
+  - automation
+platform:
+  - Python
+github_stars: 13475
+last_updated: '2025-12-19'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

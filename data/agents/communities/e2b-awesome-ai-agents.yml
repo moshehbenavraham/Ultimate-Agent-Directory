@@ -1,0 +1,17 @@
+name: E2B Awesome AI Agents
+url: https://github.com/e2b-dev/awesome-ai-agents
+description: Curated GitHub list from E2B cataloging production and open-source
+  AI agents across coding, research, browser automation, autonomous tasks, and
+  other agent categories.
+github_repo: e2b-dev/awesome-ai-agents
+category: communities
+type: tool
+tags:
+  - awesome-list
+  - community
+  - autonomous-agent
+  - open-source
+  - resources
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

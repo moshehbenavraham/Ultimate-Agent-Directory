@@ -1,0 +1,16 @@
+name: Pinecone Discord
+url: https://discord.gg/pinecone
+description: Community server for Pinecone users building vector search, semantic
+  retrieval, RAG systems, embedding workflows, and production retrieval
+  infrastructure for AI applications.
+category: communities
+type: community
+tags:
+  - community
+  - discord
+  - vector-stores
+  - rag
+  - search
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

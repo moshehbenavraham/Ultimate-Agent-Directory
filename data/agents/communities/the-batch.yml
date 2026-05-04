@@ -1,0 +1,16 @@
+name: The Batch
+url: https://www.deeplearning.ai/the-batch/
+description: DeepLearning.AI newsletter by Andrew Ng covering AI research,
+  industry trends, practical machine learning applications, and research-to-practice
+  context for engineers and AI practitioners.
+category: communities
+type: community
+tags:
+  - newsletter
+  - learning
+  - research
+  - community
+  - llm
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

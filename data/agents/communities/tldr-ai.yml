@@ -1,0 +1,16 @@
+name: TLDR AI
+url: https://tldr.tech/ai
+description: Daily AI newsletter from TLDR covering model releases, research
+  papers, AI tools, product launches, funding, infrastructure, and applied AI
+  updates in short summaries for builders and practitioners.
+category: communities
+type: community
+tags:
+  - newsletter
+  - community
+  - research
+  - tools
+  - llm
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

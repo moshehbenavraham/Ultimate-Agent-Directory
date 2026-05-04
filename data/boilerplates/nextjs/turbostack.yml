@@ -1,0 +1,25 @@
+name: Turbostack
+url: https://github.com/cloudexible-org/turbostack
+description: Turborepo monorepo starter with a Next.js marketing app, React SPA,
+  Clerk authentication, Tailwind CSS, shadcn/ui, Biome tooling, Playwright tests,
+  and cross-platform-ready package structure.
+category: nextjs
+type: boilerplate
+tags:
+  - nextjs
+  - monorepo
+  - clerk
+  - tailwindcss
+  - shadcn-ui
+  - playwright
+  - cross-platform
+github_repo: cloudexible-org/turbostack
+github_stars: 2
+last_updated: '2026-03-17'
+is_archived: false
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript

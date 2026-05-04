@@ -1,0 +1,21 @@
+name: Expo Supabase Starter Kit
+url: https://github.com/robertguss/expo-supabase-starter-kit
+description: Expo and React Native starter with Supabase auth, Expo Router,
+  NativeWind-style styling, cached data fetching, state management, analytics,
+  Sentry, forms, testing, and EAS-oriented build scaffolding.
+category: react-native
+type: boilerplate
+tags:
+  - expo
+  - react-native
+  - supabase
+  - sentry
+  - analytics
+  - testing
+github_repo: robertguss/expo-supabase-starter-kit
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript

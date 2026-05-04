@@ -1,0 +1,23 @@
+name: WebVoyager
+url: https://github.com/MinorJerry/WebVoyager
+description: Research project for multimodal web agents that navigate real websites
+  using visual understanding. WebVoyager introduced an end-to-end benchmark and
+  reference implementation for web task completion with large multimodal models.
+github_repo: MinorJerry/WebVoyager
+github_stars: 1079
+last_updated: '2024-03-04'
+is_archived: false
+category: browser-automation
+tags:
+  - benchmark
+  - browser-automation
+  - multimodal
+  - research
+  - web-agent
+platform:
+  - Python
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: research

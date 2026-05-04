@@ -1,0 +1,25 @@
+name: Midscene.js
+url: https://github.com/web-infra-dev/midscene
+description: Vision-driven UI automation framework for web and mobile interfaces.
+  Midscene.js lets developers write natural-language or TypeScript/YAML automation
+  that interacts with UI through visual understanding.
+github_repo: web-infra-dev/midscene
+documentation_url: https://midscenejs.com
+github_stars: 12891
+last_updated: '2026-04-30'
+is_archived: false
+category: browser-automation
+tags:
+  - android
+  - browser-automation
+  - ios
+  - mobile-agent
+  - typescript
+  - vision
+platform:
+  - TypeScript
+license: MIT
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

@@ -1,0 +1,24 @@
+name: Rig
+url: https://github.com/0xPlaygrounds/rig
+description: Rust framework for building modular LLM applications and agentic workflows.
+  Rig provides provider integrations, vector-store support, and scalable abstractions
+  for Rust-native agent and RAG applications.
+github_repo: 0xPlaygrounds/rig
+documentation_url: https://rig.rs
+github_stars: 7152
+last_updated: '2026-05-03'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - llm
+  - rust
+  - vector-stores
+  - webassembly
+  - workflow
+platform:
+  - Rust
+license: MIT
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

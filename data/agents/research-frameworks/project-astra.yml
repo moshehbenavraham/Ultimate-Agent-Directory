@@ -1,0 +1,16 @@
+name: Project Astra
+url: https://deepmind.google/models/project-astra/
+description: Google DeepMind research prototype for a universal multimodal AI agent
+  that can see, hear, remember context, and respond in real time through phone
+  and glasses-style experiences.
+category: research-frameworks
+type: research
+tags:
+  - research
+  - google
+  - multimodal
+  - real-time
+  - autonomous-agent
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

@@ -1,0 +1,23 @@
+name: OpenCode
+url: https://github.com/anomalyco/opencode
+description: Open-source terminal coding agent with a fast command-line interface.
+  OpenCode supports multi-model development workflows, codebase context, plugins, and
+  interactive agent sessions for software engineering tasks.
+github_repo: anomalyco/opencode
+documentation_url: https://opencode.ai/
+github_stars: 154184
+last_updated: '2026-05-04'
+is_archived: false
+category: coding-assistants
+tags:
+  - cli
+  - coding-assistant
+  - open-source
+  - terminal
+platform:
+  - Go
+license: MIT
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

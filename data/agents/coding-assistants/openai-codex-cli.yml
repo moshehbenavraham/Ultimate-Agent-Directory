@@ -1,0 +1,24 @@
+name: OpenAI Codex CLI
+url: https://github.com/openai/codex
+description: OpenAI's lightweight coding agent that runs in the terminal. Codex CLI
+  can inspect and edit local code, help with reviews, run development commands, and
+  integrate with agent workflows through a command-line interface.
+github_repo: openai/codex
+documentation_url: https://developers.openai.com/codex/cli
+github_stars: 79819
+last_updated: '2026-05-04'
+is_archived: false
+category: coding-assistants
+tags:
+  - autonomous-agent
+  - cli
+  - coding-assistant
+  - openai
+  - terminal
+platform:
+  - Rust
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

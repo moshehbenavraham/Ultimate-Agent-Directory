@@ -1,0 +1,25 @@
+name: UI-TARS Desktop
+url: https://github.com/bytedance/UI-TARS-desktop
+description: Open-source multimodal AI agent stack for desktop, browser, and mobile
+  GUI automation. UI-TARS Desktop connects vision-language models with agent
+  infrastructure for computer-use workflows.
+github_repo: bytedance/UI-TARS-desktop
+documentation_url: https://agent-tars.com
+github_stars: 29601
+last_updated: '2026-04-29'
+is_archived: false
+category: browser-automation
+tags:
+  - browser-automation
+  - computer-use
+  - gui-agent
+  - mcp
+  - mobile-agent
+  - open-source
+platform:
+  - TypeScript
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

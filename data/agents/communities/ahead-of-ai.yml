@@ -1,0 +1,16 @@
+name: Ahead of AI
+url: https://magazine.sebastianraschka.com/
+description: Technical newsletter by Sebastian Raschka covering LLM research,
+  model architectures, fine-tuning, machine learning engineering, and practical
+  explanations of modern AI methods.
+category: communities
+type: community
+tags:
+  - newsletter
+  - llm
+  - research
+  - fine-tuning
+  - learning
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

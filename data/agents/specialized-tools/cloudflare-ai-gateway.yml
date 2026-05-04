@@ -1,0 +1,19 @@
+name: Cloudflare AI Gateway
+url: https://developers.cloudflare.com/ai-gateway/
+description: Cloudflare's AI gateway proxy for monitoring, controlling, and
+  optimizing traffic between applications and model providers. It provides
+  request logs, analytics, caching, rate limiting, retries, model fallback, and
+  edge deployment options for production AI applications.
+documentation_url: https://developers.cloudflare.com/ai-gateway/
+category: specialized-tools
+type: platform
+tags:
+  - gateway
+  - cloudflare
+  - edge
+  - observability
+  - developer-platform
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

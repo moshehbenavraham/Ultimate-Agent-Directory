@@ -1,0 +1,18 @@
+name: Trae IDE
+url: https://trae.ai/
+description: AI-native IDE from ByteDance for code generation, project building, and
+  agentic development workflows. Trae includes builder-style AI assistance, GitHub
+  integration, and MCP support for extending coding workflows.
+category: coding-assistants
+tags:
+  - ai-ide
+  - coding-assistant
+  - mcp
+  - vibe-coding
+platform:
+  - Desktop
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

@@ -1,0 +1,17 @@
+name: Model Context Protocol SDKs
+url: https://github.com/modelcontextprotocol
+description: Official SDK collection for implementing MCP clients and servers across
+  languages including Python, TypeScript, Kotlin, Java, C#, Go, Ruby, and Rust.
+  These SDKs provide the base libraries for protocol-compliant MCP integrations.
+category: specialized-tools
+type: tool
+tags:
+  - mcp
+  - sdk
+  - official
+  - developer-platform
+  - tools
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

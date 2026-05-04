@@ -1,0 +1,24 @@
+name: Gemini CLI
+url: https://github.com/google-gemini/gemini-cli
+description: Google's open-source terminal agent for using Gemini in development
+  workflows. Gemini CLI supports code understanding, file operations, shell commands,
+  Google Search grounding, and MCP-based extensions.
+github_repo: google-gemini/gemini-cli
+documentation_url: https://geminicli.com
+github_stars: 103081
+last_updated: '2026-05-04'
+is_archived: false
+category: coding-assistants
+tags:
+  - cli
+  - coding-assistant
+  - google
+  - open-source
+  - terminal
+platform:
+  - TypeScript
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

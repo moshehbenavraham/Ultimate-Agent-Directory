@@ -1,0 +1,23 @@
+name: Vercel Gemini Chatbot
+url: https://github.com/vercel-labs/gemini-chatbot
+description: Vercel Labs Next.js AI chatbot template using the AI SDK with Gemini
+  defaults, alternative provider support, chat history persistence, blob storage,
+  Auth.js, and Vercel deployment conventions.
+category: nextjs
+type: template
+tags:
+  - nextjs
+  - chatbot
+  - llm
+  - google
+  - authjs
+  - postgresql
+github_repo: vercel-labs/gemini-chatbot
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript
+deployment:
+  - Vercel

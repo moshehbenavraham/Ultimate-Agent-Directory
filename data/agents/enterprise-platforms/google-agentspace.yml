@@ -1,0 +1,18 @@
+name: Google Agentspace
+url: https://cloud.google.com/products/agentspace
+description: Google Cloud platform for enterprise search, conversational assistance,
+  and custom agents. Agentspace connects workplace systems and data sources so teams
+  can discover information and automate work through agent interfaces.
+category: enterprise-platforms
+tags:
+  - enterprise
+  - google
+  - search
+  - workplace
+platform:
+  - Google Cloud
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: platform

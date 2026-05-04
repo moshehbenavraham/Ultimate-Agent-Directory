@@ -1,0 +1,16 @@
+name: TWIML AI Podcast
+url: https://twimlai.com/podcast/twimlai/
+description: Long-running machine learning and AI podcast by Sam Charrington
+  featuring researchers and practitioners discussing deep learning, NLP, agents,
+  MLOps, infrastructure, and applied AI systems.
+category: communities
+type: community
+tags:
+  - podcast
+  - research
+  - llm
+  - production
+  - community
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

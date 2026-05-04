@@ -1,0 +1,16 @@
+name: Latent Space Podcast
+url: https://www.latent.space/podcast
+description: Podcast by swyx and Alessio Fanelli for AI engineers, covering
+  foundation models, AI agents, developer tools, infrastructure, and interviews
+  with builders from frontier labs and fast-growing AI companies.
+category: communities
+type: community
+tags:
+  - podcast
+  - community
+  - llm
+  - developer-platform
+  - research
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

@@ -1,0 +1,20 @@
+name: Argilla
+url: https://github.com/argilla-io/argilla
+description: Open-source data labeling and feedback platform for building LLM datasets,
+  preference data, RLHF workflows, and evaluation sets with collaboration between
+  AI engineers and domain experts.
+github_repo: argilla-io/argilla
+category: specialized-tools
+type: tool
+tags:
+  - open-source
+  - annotation
+  - data-labeling
+  - rlhf
+  - evaluation
+license: Apache-2.0
+github_stars: 4954
+last_updated: '2026-04-27'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

@@ -1,0 +1,17 @@
+name: Modal
+url: https://modal.com/
+description: Serverless cloud platform for running AI workloads, agents, sandboxes,
+  batch jobs, and model inference from Python. Modal is commonly used to host code
+  execution, tool execution, and GPU-backed agent infrastructure.
+category: specialized-tools
+type: platform
+tags:
+  - serverless
+  - cloud-native
+  - sandbox
+  - python
+  - developer-platform
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

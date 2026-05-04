@@ -1,0 +1,17 @@
+name: Cresta
+url: https://cresta.com/
+description: Enterprise contact-center AI platform for real-time coaching, conversation
+  intelligence, and customer-service automation. Cresta helps agents and teams respond
+  with context from live customer conversations.
+category: enterprise-platforms
+tags:
+  - contact-center
+  - customer-service
+  - enterprise
+platform:
+  - Web
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: platform

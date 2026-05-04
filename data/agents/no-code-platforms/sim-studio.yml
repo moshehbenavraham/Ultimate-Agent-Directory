@@ -1,0 +1,23 @@
+name: Sim Studio
+url: https://www.sim.ai/
+description: Open-source visual AI agent workflow builder for designing, deploying,
+  and orchestrating AI agents. Sim provides a collaborative canvas, integrations,
+  self-hosting support, and production controls for agentic workflows.
+github_repo: simstudioai/sim
+category: no-code-platforms
+type: platform
+tags:
+  - no-code
+  - open-source
+  - visual-builder
+  - multi-agent
+  - self-hosted
+platform:
+  - TypeScript
+license: Apache-2.0
+pricing: freemium
+github_stars: 28335
+last_updated: '2026-05-03'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

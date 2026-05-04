@@ -1,0 +1,18 @@
+name: Hamel Husain's Blog
+url: https://hamel.dev/
+description: ML engineering blog by Hamel Husain focused on LLM evaluation,
+  fine-tuning, production AI systems, data-centric workflows, and practical
+  engineering guidance for teams building with AI.
+category: learning-resources
+type: course
+tags:
+  - blog
+  - learning
+  - evaluation
+  - fine-tuning
+  - production
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web

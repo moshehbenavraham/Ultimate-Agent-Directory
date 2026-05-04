@@ -1,0 +1,24 @@
+name: ShowUI
+url: https://github.com/showlab/ShowUI
+description: Open-source vision-language-action model for GUI agents and computer use.
+  ShowUI provides research code and models for grounding visual UI understanding into
+  executable actions.
+github_repo: showlab/ShowUI
+documentation_url: https://arxiv.org/abs/2411.17465
+github_stars: 1821
+last_updated: '2026-04-24'
+is_archived: false
+category: browser-automation
+tags:
+  - computer-use
+  - gui-agent
+  - open-source
+  - research
+  - vision-language-model
+platform:
+  - Python
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: research

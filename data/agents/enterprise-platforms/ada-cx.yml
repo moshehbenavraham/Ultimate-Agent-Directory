@@ -1,0 +1,17 @@
+name: Ada
+url: https://www.ada.cx/
+description: AI-native customer service automation platform for enterprises. Ada's
+  AI Agent handles support conversations, takes actions through integrations, and
+  escalates when human support is needed.
+category: enterprise-platforms
+tags:
+  - customer-service
+  - enterprise
+  - integrations
+platform:
+  - Web
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: platform

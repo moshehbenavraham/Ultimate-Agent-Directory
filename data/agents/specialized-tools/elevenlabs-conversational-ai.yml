@@ -1,0 +1,19 @@
+name: ElevenLabs Conversational AI
+url: https://elevenlabs.io/conversational-ai
+description: ElevenLabs platform for building low-latency voice and chat agents
+  with human-like speech, configurable behavior, knowledge sources, web and phone
+  deployment, SDKs, and monitoring. It combines ElevenLabs speech models with
+  agent orchestration for customer-facing voice experiences.
+documentation_url: https://elevenlabs.io/docs/eleven-agents/overview
+category: specialized-tools
+type: platform
+tags:
+  - voice-agents
+  - real-time
+  - api
+  - hosted-service
+  - developer-platform
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

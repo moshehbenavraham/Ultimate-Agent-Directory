@@ -1,0 +1,19 @@
+name: 'Reinforcement Learning: An Introduction'
+url: http://incompleteideas.net/sutton/book/the-book-2nd.html
+description: Sutton and Barto's second-edition reinforcement learning textbook,
+  covering Markov decision processes, dynamic programming, Monte Carlo methods,
+  temporal-difference learning, function approximation, and agent decision-making.
+category: learning-resources
+type: course
+tags:
+  - book
+  - learning
+  - autonomous-agent
+  - research
+  - science
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web
+pricing: free

@@ -1,0 +1,19 @@
+name: Building Effective AI Agents
+url: https://www.anthropic.com/engineering/building-effective-agents
+description: Anthropic engineering guide that distinguishes workflows from agents
+  and explains practical patterns such as prompt chaining, routing,
+  parallelization, orchestrator-subagent workflows, and evaluator-optimizer loops.
+category: learning-resources
+type: course
+tags:
+  - architecture
+  - autonomous-agent
+  - guides
+  - learning
+  - production
+  - research
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web

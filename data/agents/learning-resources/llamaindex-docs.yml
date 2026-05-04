@@ -1,0 +1,18 @@
+name: LlamaIndex Documentation
+url: https://developers.llamaindex.ai/python/framework/
+description: Official LlamaIndex documentation and tutorials for agents, RAG,
+  workflows, data connectors, vector stores, LlamaCloud, and production document
+  retrieval systems.
+category: learning-resources
+type: course
+tags:
+  - documentation
+  - learning
+  - rag
+  - workflows
+  - vector-stores
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web

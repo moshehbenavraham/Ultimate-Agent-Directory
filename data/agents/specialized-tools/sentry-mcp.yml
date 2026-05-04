@@ -1,0 +1,19 @@
+name: Sentry MCP
+url: https://github.com/getsentry/sentry-mcp
+description: MCP server for connecting AI agents to Sentry projects, issues, stack
+  traces, releases, and performance data. Sentry MCP lets agents inspect production
+  errors and assist with debugging workflows.
+github_repo: getsentry/sentry-mcp
+category: specialized-tools
+type: tool
+tags:
+  - mcp
+  - sentry
+  - observability
+  - monitoring
+  - debugging
+github_stars: 674
+last_updated: '2026-05-01'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

@@ -1,0 +1,19 @@
+name: Microsoft Certified Azure AI Fundamentals
+url: https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/
+description: Microsoft entry-level AI certification covering AI workloads, machine
+  learning concepts, computer vision, natural language processing, generative AI,
+  Azure AI services, and responsible AI fundamentals.
+category: learning-resources
+type: course
+tags:
+  - azure
+  - beginner-friendly
+  - certification
+  - learning
+  - microsoft
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web
+pricing: paid

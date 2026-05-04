@@ -1,0 +1,23 @@
+name: Chroma
+url: https://github.com/chroma-core/chroma
+description: Open-source search infrastructure and embedding database for AI
+  applications. Chroma supports vector, full-text, metadata, and hybrid search
+  locally or through Chroma Cloud, making it common infrastructure for RAG
+  prototypes and production applications.
+github_repo: chroma-core/chroma
+documentation_url: https://docs.trychroma.com/
+category: specialized-tools
+type: tool
+tags:
+  - vector-stores
+  - database
+  - rag
+  - search
+  - open-source
+license: Apache-2.0
+pricing: freemium
+github_stars: 27788
+last_updated: '2026-05-04'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

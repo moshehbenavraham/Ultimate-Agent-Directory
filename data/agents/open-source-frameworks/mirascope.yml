@@ -1,0 +1,24 @@
+name: Mirascope
+url: https://github.com/Mirascope/mirascope
+description: Minimal Python and TypeScript library for building LLM applications with
+  typed calls, structured outputs, tool calling, streaming, async support, and MCP.
+  Mirascope focuses on lightweight abstractions over provider APIs.
+github_repo: Mirascope/mirascope
+documentation_url: https://mirascope.com
+github_stars: 1473
+last_updated: '2026-05-03'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - mcp
+  - python
+  - structured-outputs
+  - typescript
+platform:
+  - Python
+  - TypeScript
+license: MIT
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

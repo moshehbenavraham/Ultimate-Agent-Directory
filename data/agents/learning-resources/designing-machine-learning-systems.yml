@@ -1,0 +1,18 @@
+name: Designing Machine Learning Systems
+url: https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/
+description: Chip Huyen's O'Reilly book on production machine learning systems,
+  covering data pipelines, model development, deployment, monitoring,
+  infrastructure, and the human side of reliable ML systems.
+category: learning-resources
+type: course
+tags:
+  - book
+  - learning
+  - production
+  - deployment
+  - monitoring
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web

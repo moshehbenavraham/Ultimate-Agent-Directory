@@ -1,0 +1,18 @@
+name: Agentic AI with Andrew Ng
+url: https://www.deeplearning.ai/courses/agentic-ai/
+description: DeepLearning.AI course by Andrew Ng covering agentic design
+  patterns such as reflection, tool use, planning, and multi-agent collaboration,
+  with Python implementations and a capstone research-agent project.
+category: learning-resources
+type: course
+tags:
+  - course
+  - learning
+  - autonomous-agent
+  - multi-agent
+  - tool-calling
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web

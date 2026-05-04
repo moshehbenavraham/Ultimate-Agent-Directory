@@ -1,0 +1,18 @@
+name: OpenAI AgentKit Walkthrough
+url: https://developers.openai.com/cookbook/examples/agentkit/agentkit_walkthrough
+description: Official OpenAI Cookbook tutorial for building, deploying, evaluating,
+  and optimizing an AgentKit workflow using Agent Builder, ChatKit, Evals, and
+  prompt optimization.
+category: learning-resources
+type: course
+tags:
+  - evaluation
+  - openai
+  - prompt-optimization
+  - tool-calling
+  - tutorial
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web

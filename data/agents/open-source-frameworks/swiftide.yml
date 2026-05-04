@@ -1,0 +1,23 @@
+name: Swiftide
+url: https://github.com/bosun-ai/swiftide
+description: Rust framework for fast streaming indexing, querying, RAG, and agentic
+  LLM applications. Swiftide uses async Rust patterns for high-performance LLM
+  pipelines and agent workflows.
+github_repo: bosun-ai/swiftide
+documentation_url: https://swiftide.rs
+github_stars: 692
+last_updated: '2026-05-03'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - rag
+  - rust
+  - streaming
+  - workflow
+platform:
+  - Rust
+license: MIT
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

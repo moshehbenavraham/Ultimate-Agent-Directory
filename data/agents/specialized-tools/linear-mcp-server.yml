@@ -1,0 +1,17 @@
+name: Linear MCP Server
+url: https://linear.app/integrations/claude
+description: Linear's MCP integration for connecting Claude and other compatible
+  agents to Linear issues, projects, comments, and project-management workflows
+  through secure authenticated access.
+category: specialized-tools
+type: tool
+tags:
+  - mcp
+  - project-management
+  - productivity
+  - official
+  - tools
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

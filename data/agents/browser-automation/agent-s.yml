@@ -1,0 +1,24 @@
+name: Agent-S
+url: https://github.com/simular-ai/Agent-S
+description: Open agentic framework for computer-use agents that operate desktop
+  environments. Agent-S focuses on planning, memory, grounding, and GUI interaction
+  across operating systems and applications.
+github_repo: simular-ai/Agent-S
+documentation_url: https://www.simular.ai
+github_stars: 11057
+last_updated: '2026-02-21'
+is_archived: false
+category: browser-automation
+tags:
+  - benchmark
+  - computer-use
+  - desktop-agent
+  - gui-agent
+  - open-source
+platform:
+  - Python
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

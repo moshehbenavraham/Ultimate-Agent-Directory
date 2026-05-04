@@ -1,0 +1,19 @@
+name: Augment Code
+url: https://www.augmentcode.com/
+description: Enterprise AI coding assistant and agent platform focused on large
+  codebases. Augment Code provides IDE assistance, codebase-aware chat, autonomous
+  coding workflows, and code review support for engineering teams.
+category: coding-assistants
+tags:
+  - ai-ide
+  - code-review
+  - coding-assistant
+  - enterprise
+platform:
+  - VS Code
+  - JetBrains
+pricing: paid
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

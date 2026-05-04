@@ -1,0 +1,19 @@
+name: Aymara AI
+url: https://www.aymara.ai/
+description: Automated evaluation and governance platform for generative AI
+  systems. Aymara generates policy-grounded safety, accuracy, fairness, and
+  compliance evaluations, scores model or application responses, and helps teams
+  monitor and improve deployed AI behavior.
+documentation_url: https://docs.aymara.ai/
+category: specialized-tools
+type: platform
+tags:
+  - evaluation
+  - safety
+  - governance
+  - benchmark
+  - multimodal
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

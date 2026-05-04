@@ -1,0 +1,17 @@
+name: Fellow AI
+url: https://fellow.ai/
+description: AI meeting assistant and meeting agent for recording, transcribing,
+  summarizing, searching, and acting on meeting content. Fellow can generate follow-ups,
+  update CRM fields, and integrate meeting insights with project tools.
+category: specialized-tools
+type: tool
+tags:
+  - meeting-agent
+  - productivity
+  - enterprise
+  - integrations
+  - knowledge-management
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

@@ -1,6 +1,6 @@
 # Product Requirements Document: Full-Stack Boilerplate Directory Integration
 
-**Version:** 1.0
+**Version:** 1.0.1
 **Status:** Draft
 **Last Updated:** 2025-12-20
 

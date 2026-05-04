@@ -1,0 +1,27 @@
+name: Turborepo Fullstack Starter Template
+url: https://github.com/afrinxnahar/Turborepo-Fullstack-Starter-Template
+description: Turborepo monorepo starter with Next.js frontend, NestJS backend,
+  Supabase authentication and database, shared packages, Jest and Playwright
+  testing, Husky hooks, and GitHub Actions CI/CD.
+category: nodejs
+type: boilerplate
+tags:
+  - nodejs
+  - monorepo
+  - nextjs
+  - nestjs
+  - supabase
+  - playwright
+  - testing
+  - github
+github_repo: afrinxnahar/Turborepo-Fullstack-Starter-Template
+github_stars: 2
+last_updated: '2026-05-02'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript

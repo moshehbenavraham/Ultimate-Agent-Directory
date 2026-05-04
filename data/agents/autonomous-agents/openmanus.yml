@@ -1,0 +1,19 @@
+name: OpenManus
+url: https://github.com/mannaandpoem/OpenManus
+description: Open-source general-purpose autonomous agent project inspired by Manus.
+  OpenManus provides a configurable agent runtime with browser, file, code, and
+  tool-use capabilities for executing multi-step tasks from natural language.
+github_repo: mannaandpoem/OpenManus
+category: autonomous-agents
+type: framework
+tags:
+  - open-source
+  - autonomous-agent
+  - browser-automation
+  - tools
+  - workflow
+github_stars: 447
+last_updated: '2025-06-21'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

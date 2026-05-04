@@ -1,0 +1,25 @@
+name: Laravel Jetstream
+url: https://github.com/laravel/jetstream
+description: Official Laravel application scaffolding with Tailwind CSS,
+  Livewire or Inertia-based stacks, two-factor authentication, API token
+  management, team management, and account profile features.
+category: laravel
+type: scaffold
+tags:
+  - laravel
+  - vue
+  - react
+  - tailwindcss
+  - authentication
+  - team
+github_repo: laravel/jetstream
+github_stars: 4056
+last_updated: '2026-04-27'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - PHP

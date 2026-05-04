@@ -1,0 +1,18 @@
+name: Databricks Mosaic AI Agent Framework
+url: https://databricks.com/product/machine-learning/retrieval-augmented-generation
+description: Databricks platform capabilities for building and operating production
+  RAG and agentic AI applications. Mosaic AI provides model serving, MLflow evaluation,
+  Unity Catalog governance, and data-platform integration for enterprise agents.
+category: enterprise-platforms
+tags:
+  - data-platform
+  - enterprise
+  - evaluation
+  - rag
+platform:
+  - Databricks
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: platform

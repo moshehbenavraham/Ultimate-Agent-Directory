@@ -1,0 +1,24 @@
+name: Playwright MCP
+url: https://github.com/microsoft/playwright-mcp
+description: Official Microsoft MCP server exposing Playwright browser automation to
+  AI agents. Playwright MCP uses accessibility snapshots for deterministic,
+  token-efficient browser interaction without relying on screenshots.
+github_repo: microsoft/playwright-mcp
+documentation_url: https://www.npmjs.com/package/@playwright/mcp
+github_stars: 31961
+last_updated: '2026-05-01'
+is_archived: false
+category: browser-automation
+tags:
+  - accessibility
+  - browser-automation
+  - mcp
+  - microsoft
+  - playwright
+platform:
+  - TypeScript
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

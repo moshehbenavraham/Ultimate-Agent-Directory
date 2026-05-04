@@ -1,0 +1,16 @@
+name: Practical AI Podcast
+url: https://changelog.com/practicalai/
+description: Applied AI podcast from Changelog focused on making machine learning
+  and AI practical for engineers, including tools, deployment strategies,
+  production lessons, and applied AI development patterns.
+category: communities
+type: community
+tags:
+  - podcast
+  - tools
+  - deployment
+  - production
+  - community
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

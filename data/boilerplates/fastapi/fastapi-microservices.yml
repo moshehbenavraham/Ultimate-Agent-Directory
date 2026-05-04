@@ -1,0 +1,26 @@
+name: FastAPI Microservices
+url: https://github.com/Kludex/fastapi-microservices
+description: FastAPI microservices template showing async service structure,
+  database migrations, Docker Compose orchestration, and inter-service HTTP
+  communication patterns.
+category: fastapi
+type: boilerplate
+tags:
+  - fastapi
+  - python
+  - microservices
+  - docker
+  - architecture
+github_repo: Kludex/fastapi-microservices
+github_stars: 541
+last_updated: '2026-05-03'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Python
+deployment:
+  - Docker

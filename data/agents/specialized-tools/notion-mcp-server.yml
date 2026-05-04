@@ -1,0 +1,20 @@
+name: Notion MCP Server
+url: https://github.com/makenotion/notion-mcp-server
+description: Official Notion MCP server that gives compatible agents access to
+  Notion pages, databases, blocks, and workspace content for knowledge retrieval
+  and write-back workflows.
+github_repo: makenotion/notion-mcp-server
+category: specialized-tools
+type: tool
+tags:
+  - mcp
+  - productivity
+  - knowledge-management
+  - official
+  - tools
+license: MIT
+github_stars: 4289
+last_updated: '2026-03-18'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

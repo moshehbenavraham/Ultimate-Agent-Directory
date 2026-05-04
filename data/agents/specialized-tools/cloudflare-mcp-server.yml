@@ -1,0 +1,20 @@
+name: Cloudflare MCP Server
+url: https://github.com/cloudflare/mcp-server-cloudflare
+description: Official Cloudflare MCP server exposing Cloudflare services as tools
+  for agents and AI assistants. It enables natural-language workflows for Workers,
+  storage, domains, and other Cloudflare platform resources.
+github_repo: cloudflare/mcp-server-cloudflare
+category: specialized-tools
+type: tool
+tags:
+  - mcp
+  - cloudflare
+  - cloud-native
+  - official
+  - developer-platform
+license: Apache-2.0
+github_stars: 3687
+last_updated: '2026-04-30'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

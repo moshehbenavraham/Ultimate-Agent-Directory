@@ -1,0 +1,22 @@
+name: Bespoke Curator
+url: https://github.com/bespokelabsai/curator
+description: Open-source Python library for synthetic data curation, post-training
+  data generation, and structured data extraction. Bespoke Curator helps teams
+  build scalable LLM-powered data pipelines with async execution, caching, fault
+  recovery, interactive viewing, and dataset curation recipes.
+github_repo: bespokelabsai/curator
+documentation_url: https://docs.bespokelabs.ai/bespoke-curator
+category: specialized-tools
+type: tool
+tags:
+  - synthetic-data
+  - data-generation
+  - fine-tuning
+  - python
+  - open-source
+license: Apache-2.0
+github_stars: 1673
+last_updated: '2026-05-04'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

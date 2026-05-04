@@ -1,0 +1,17 @@
+name: ServiceNow AI Agent Studio
+url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-agent-studio.html
+description: ServiceNow development environment for creating and managing AI agents
+  inside ServiceNow workflows. AI Agent Studio supports agentic workflows, packaged
+  agents, and customization for enterprise service operations.
+category: enterprise-platforms
+tags:
+  - enterprise
+  - workflow
+  - workflows
+platform:
+  - ServiceNow
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: platform

@@ -1,0 +1,27 @@
+name: Encore
+url: https://github.com/encoredev/encore
+description: Backend development platform and Go framework with type-safe APIs,
+  built-in infrastructure provisioning, secrets management, distributed tracing,
+  cloud deployment, and starter templates for services and microservices.
+category: go
+type: toolkit
+tags:
+  - go
+  - golang
+  - typescript
+  - microservices
+  - cloud-native
+  - tracing
+  - deployment
+github_repo: encoredev/encore
+github_stars: 11906
+last_updated: '2026-05-04'
+is_archived: false
+license: MPL-2.0
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Go
+  - TypeScript

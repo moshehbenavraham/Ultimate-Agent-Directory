@@ -1,0 +1,25 @@
+name: AstroWind
+url: https://github.com/arthelokyo/astrowind
+description: Feature-rich Astro and Tailwind CSS template for websites and SaaS
+  landing pages, with blog support, i18n, SEO, multiple page layouts, dark-mode
+  UI patterns, and integration examples.
+category: astro
+type: template
+tags:
+  - astro
+  - tailwindcss
+  - seo
+  - blog
+  - i18n
+  - landing-page
+github_repo: arthelokyo/astrowind
+github_stars: 5620
+last_updated: '2026-05-04'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript

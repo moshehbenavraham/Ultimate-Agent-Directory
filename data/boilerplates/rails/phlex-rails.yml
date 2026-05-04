@@ -1,0 +1,24 @@
+name: Phlex Rails
+url: https://github.com/yippee-fun/phlex-rails
+description: Rails integration for Phlex view components, enabling Ruby object
+  views as an alternative to ERB with composable, testable components for modern
+  Rails application frontends.
+category: rails
+type: toolkit
+tags:
+  - rails
+  - ruby
+  - ui-components
+  - frontend
+  - testing
+github_repo: yippee-fun/phlex-rails
+github_stars: 360
+last_updated: '2026-05-01'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Ruby

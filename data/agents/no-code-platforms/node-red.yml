@@ -1,0 +1,23 @@
+name: Node-RED
+url: https://nodered.org/
+description: Open-source low-code programming environment for event-driven automation,
+  IoT, APIs, and integrations. Node-RED uses browser-based flow editing and a large
+  node ecosystem that includes LLM and AI integration components.
+github_repo: node-red/node-red
+category: no-code-platforms
+type: platform
+tags:
+  - open-source
+  - low-code
+  - workflow
+  - iot
+  - automation
+platform:
+  - Node.js
+license: Apache-2.0
+pricing: free
+github_stars: 23085
+last_updated: '2026-05-01'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

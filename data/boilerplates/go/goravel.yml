@@ -1,0 +1,25 @@
+name: Goravel
+url: https://github.com/goravel/goravel
+description: Laravel-inspired Go web framework and starter ecosystem with ORM,
+  queues, scheduler, file storage, JWT authentication, CLI commands, and
+  application scaffolding for teams wanting Laravel-style DX in Go.
+category: go
+type: toolkit
+tags:
+  - go
+  - golang
+  - laravel
+  - jwt
+  - cli
+  - authentication
+github_repo: goravel/goravel
+github_stars: 4504
+last_updated: '2026-05-03'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Go

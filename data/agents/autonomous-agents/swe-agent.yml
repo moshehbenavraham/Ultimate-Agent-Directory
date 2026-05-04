@@ -1,14 +1,23 @@
 name: SWE-agent
-url: https://github.com/princeton-nlp/swe-agent
-description: Software engineering agent that turns language models (like GPT-4) into
-  autonomous agents capable of fixing bugs and resolving issues in real GitHub repositories.
-  Designed to autonomously diagnose, debug, and patch software issues with minimal
-  human intervention.
-github_repo: princeton-nlp/swe-agent
-github_stars: 19111
+url: https://github.com/SWE-agent/SWE-agent
+description: Software engineering agent that takes GitHub issues and attempts to fix
+  them using language models and an agent-computer interface. SWE-agent can also be
+  used for security research and competitive coding workflows.
+github_repo: SWE-agent/SWE-agent
+documentation_url: https://swe-agent.com
+github_stars: 19121
 last_updated: '2026-04-27'
 is_archived: false
 category: autonomous-agents
+tags:
+  - autonomous-agent
+  - coding-assistant
+  - open-source
+  - swe-agent
+platform:
+  - Python
+license: MIT
 added_date: '2025-11-05'
-verified: false
+last_verified: '2026-05-04'
+verified: true
 type: tool

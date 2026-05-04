@@ -1,0 +1,16 @@
+name: AI + a16z Podcast
+url: https://a16z.com/podcasts/
+description: Andreessen Horowitz podcast feed covering AI company-building,
+  infrastructure, market developments, technical trends, and interviews with
+  founders and researchers shaping the AI application landscape.
+category: communities
+type: community
+tags:
+  - podcast
+  - enterprise
+  - developer-platform
+  - foundation-models
+  - community
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

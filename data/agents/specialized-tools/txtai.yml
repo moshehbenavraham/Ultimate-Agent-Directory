@@ -1,0 +1,22 @@
+name: txtai
+url: https://github.com/neuml/txtai
+description: Open-source AI framework for semantic search, RAG, LLM orchestration,
+  and language-model workflows. txtai combines vector search, sparse retrieval,
+  graph networks, relational storage, pipelines, and workflow orchestration in a
+  Python library.
+github_repo: neuml/txtai
+documentation_url: https://neuml.github.io/txtai/
+category: specialized-tools
+type: tool
+tags:
+  - rag
+  - search
+  - python
+  - workflow
+  - open-source
+license: Apache-2.0
+github_stars: 12454
+last_updated: '2026-05-03'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

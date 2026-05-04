@@ -1,0 +1,22 @@
+name: Nexus
+url: https://github.com/PrimisAI/nexus
+description: Python framework for orchestrating AI agents and managing complex
+  LLM-driven tasks. Nexus supports multi-agent coordination, structured workflows,
+  persistent state, and tool integration for research and application development.
+github_repo: PrimisAI/nexus
+github_stars: 100
+last_updated: '2025-07-25'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - mcp
+  - memory
+  - multi-agent
+  - python
+platform:
+  - Python
+license: MIT
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

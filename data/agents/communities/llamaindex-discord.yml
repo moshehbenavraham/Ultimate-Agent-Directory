@@ -1,0 +1,16 @@
+name: LlamaIndex Discord
+url: https://discord.gg/llamaindex
+description: Official Discord community for LlamaIndex users and contributors
+  building agents, RAG systems, data indexing workflows, retrieval pipelines, and
+  LLM-powered applications.
+category: communities
+type: community
+tags:
+  - community
+  - discord
+  - rag
+  - llm
+  - workflow
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

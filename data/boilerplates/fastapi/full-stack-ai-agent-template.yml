@@ -1,0 +1,31 @@
+name: Full Stack AI Agent Template
+url: https://github.com/vstorm-co/full-stack-ai-agent-template
+description: Production-ready FastAPI and Next.js AI agent template with multiple
+  agent frameworks, RAG pipelines, streaming chat, JWT/OAuth authentication,
+  Celery background jobs, Docker, and Kubernetes-oriented deployment assets.
+category: fastapi
+type: boilerplate
+tags:
+  - fastapi
+  - nextjs
+  - python
+  - rag
+  - langchain
+  - langgraph
+  - docker
+  - saas
+github_repo: vstorm-co/full-stack-ai-agent-template
+github_stars: 1221
+last_updated: '2026-05-04'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Python
+  - TypeScript
+deployment:
+  - Docker
+  - Kubernetes

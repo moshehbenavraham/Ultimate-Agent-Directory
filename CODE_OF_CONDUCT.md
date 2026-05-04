@@ -2,7 +2,7 @@
 
 ## 🤖 Our Pledge
 
-As contributors and maintainers of the Ultimate AI Agent Ecosystem Directory 2025, we pledge to foster an open, welcoming, and inclusive community for everyone interested in AI agents, autonomous systems, and related technologies. We are committed to making participation in our project and community a harassment-free experience for all, regardless of:
+As contributors and maintainers of the Ultimate AI Agent Ecosystem Directory, we pledge to foster an open, welcoming, and inclusive community for everyone interested in AI agents, autonomous systems, and related technologies. We are committed to making participation in our project and community a harassment-free experience for all, regardless of:
 
 - Age, body size, disability, ethnicity, sex characteristics
 - Gender identity and expression, level of experience, education

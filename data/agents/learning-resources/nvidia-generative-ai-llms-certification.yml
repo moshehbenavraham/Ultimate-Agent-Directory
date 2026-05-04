@@ -1,0 +1,20 @@
+name: NVIDIA Generative AI LLMs Certification
+url: https://www.nvidia.com/en-us/learn/certification/generative-ai-llm-associate/
+description: NVIDIA-Certified Associate credential for foundational generative AI
+  and LLM skills, including machine learning basics, prompt engineering, Python
+  libraries, LLM integration, deployment, and NVIDIA solution awareness.
+category: learning-resources
+type: course
+tags:
+  - certification
+  - deployment
+  - gpu
+  - learning
+  - llm
+  - nvidia
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web
+pricing: paid

@@ -1,0 +1,17 @@
+name: mcp.so
+url: https://mcp.so/
+description: Searchable community directory of MCP servers and clients. mcp.so lists
+  available servers with categories, links, and metadata for discovering MCP tools
+  across the ecosystem.
+category: specialized-tools
+type: platform
+tags:
+  - mcp
+  - directory
+  - registry
+  - community
+  - tools
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

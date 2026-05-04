@@ -1,0 +1,24 @@
+name: Refact.ai
+url: https://github.com/smallcloudai/refact
+description: Open-source AI coding assistant and engineering agent with self-hosted
+  deployment options. Refact.ai supports completion, chat, autonomous task execution,
+  repository context, and IDE integrations.
+github_repo: smallcloudai/refact
+documentation_url: https://refact.ai
+github_stars: 3540
+last_updated: '2026-05-04'
+is_archived: false
+category: coding-assistants
+tags:
+  - coding-assistant
+  - open-source
+  - self-hosted
+  - vscode-extension
+platform:
+  - Python
+  - TypeScript
+license: BSD-3-Clause
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

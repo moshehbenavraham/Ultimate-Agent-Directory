@@ -1,0 +1,22 @@
+name: DeepEval
+url: https://github.com/confident-ai/deepeval
+description: Open-source LLM evaluation framework with a pytest-like interface.
+  DeepEval provides metrics for RAG, hallucination, answer relevance, bias, and
+  custom criteria, with Confident AI offering a managed evaluation platform.
+github_repo: confident-ai/deepeval
+category: specialized-tools
+type: tool
+tags:
+  - open-source
+  - evaluation
+  - testing
+  - python
+  - rag
+platform:
+  - Python
+license: Apache-2.0
+github_stars: 15124
+last_updated: '2026-05-04'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

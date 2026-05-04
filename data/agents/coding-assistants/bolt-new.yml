@@ -1,0 +1,25 @@
+name: Bolt.new
+url: https://github.com/stackblitz/bolt.new
+description: AI-powered in-browser full-stack development agent from StackBlitz. Bolt.new
+  can generate, run, edit, and deploy web applications from prompts using browser
+  runtime infrastructure.
+github_repo: stackblitz/bolt.new
+documentation_url: https://bolt.new/
+github_stars: 16350
+last_updated: '2024-12-17'
+is_archived: false
+category: coding-assistants
+tags:
+  - app-builder
+  - browser
+  - coding-assistant
+  - full-stack
+  - vibe-coding
+platform:
+  - Web
+license: MIT
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

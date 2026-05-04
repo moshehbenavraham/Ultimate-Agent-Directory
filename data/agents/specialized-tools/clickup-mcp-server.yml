@@ -1,0 +1,17 @@
+name: ClickUp MCP Server
+url: https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server
+description: Official ClickUp MCP server for connecting AI assistants to ClickUp
+  workspace data such as tasks, lists, folders, docs, and project workflows through
+  authenticated MCP access.
+category: specialized-tools
+type: tool
+tags:
+  - mcp
+  - project-management
+  - productivity
+  - official
+  - tools
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

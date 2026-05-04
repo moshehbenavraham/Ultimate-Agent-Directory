@@ -1,0 +1,17 @@
+name: Graphite Diamond
+url: https://diamond.graphite.dev/
+description: Graphite's agentic AI code review product for pull requests. Diamond
+  provides automated code review, review summaries, suggested fixes, and collaboration
+  workflows inside Graphite's developer platform.
+category: coding-assistants
+tags:
+  - code-review
+  - coding-assistant
+  - pr-agent
+platform:
+  - GitHub
+pricing: paid
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

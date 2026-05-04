@@ -1,0 +1,25 @@
+name: FastEndpoints
+url: https://github.com/FastEndpoints/FastEndpoints
+description: High-performance ASP.NET Core endpoint framework and starter
+  toolkit using a request-endpoint-response pattern with JWT auth, validation,
+  Swagger docs, event bus support, and vertical-slice application structure.
+category: dotnet
+type: toolkit
+tags:
+  - dotnet
+  - csharp
+  - api
+  - jwt
+  - swagger
+  - performance
+github_repo: FastEndpoints/FastEndpoints
+github_stars: 5901
+last_updated: '2026-05-03'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - C#

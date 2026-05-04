@@ -1,0 +1,19 @@
+name: OpenRouter
+url: https://openrouter.ai/
+description: Unified API and model marketplace for accessing hundreds of AI
+  models through an OpenAI-compatible endpoint. OpenRouter supports model
+  discovery, provider routing, fallbacks, price comparison, and pay-per-token
+  access across major model providers.
+documentation_url: https://openrouter.ai/docs/
+category: specialized-tools
+type: platform
+tags:
+  - gateway
+  - api
+  - model-routing
+  - foundation-models
+  - developer-platform
+pricing: paid
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

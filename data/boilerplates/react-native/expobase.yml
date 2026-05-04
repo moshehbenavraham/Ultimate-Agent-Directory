@@ -1,0 +1,23 @@
+name: ExpoBase
+url: https://expobase.dev/
+description: Commercial Expo boilerplate with Supabase authentication, mobile
+  payments, push notifications, analytics, Sentry error tracking, i18n,
+  theming, demo screens, and production-ready mobile app modules.
+category: react-native
+type: boilerplate
+tags:
+  - expo
+  - react-native
+  - supabase
+  - payments
+  - analytics
+  - sentry
+  - i18n
+  - commercial
+pricing: paid
+license: Commercial
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript

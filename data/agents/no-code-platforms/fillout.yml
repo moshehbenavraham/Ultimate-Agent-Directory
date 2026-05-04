@@ -1,0 +1,17 @@
+name: Fillout
+url: https://www.fillout.com/
+description: No-code form, workflow, and scheduling builder with AI form generation,
+  conditional logic, payments, approvals, and integrations with Notion, Airtable,
+  Google Sheets, and other business tools.
+category: no-code-platforms
+type: platform
+tags:
+  - no-code
+  - forms
+  - workflow
+  - payments
+  - scheduling
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

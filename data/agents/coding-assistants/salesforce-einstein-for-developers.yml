@@ -1,0 +1,19 @@
+name: Salesforce Einstein for Developers
+url: https://developer.salesforce.com/tools/vscode/en/einstein/einstein-setup
+description: Salesforce AI coding assistant for Salesforce developers working in VS
+  Code and Code Builder. Einstein for Developers supports Apex and Salesforce-specific
+  development workflows with code generation and assistant features.
+category: coding-assistants
+tags:
+  - coding-assistant
+  - enterprise
+  - salesforce
+  - vscode-extension
+platform:
+  - VS Code
+  - Salesforce Code Builder
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

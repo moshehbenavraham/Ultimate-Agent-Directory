@@ -1,0 +1,19 @@
+name: Anchor Browser
+url: https://anchorbrowser.io
+description: Secure cloud browser infrastructure for computer-use agents and automated
+  web workflows. Anchor Browser provides hosted Chromium environments, authentication
+  support, VPN options, and enterprise controls for agent execution.
+category: browser-automation
+tags:
+  - browser-automation
+  - cloud-browser
+  - computer-use
+  - enterprise
+  - security
+platform:
+  - Web
+pricing: paid
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: platform

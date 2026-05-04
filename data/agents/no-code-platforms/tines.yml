@@ -1,0 +1,17 @@
+name: Tines
+url: https://www.tines.com/
+description: No-code automation platform used heavily by security and operations
+  teams. Tines provides a visual story builder, AI-assisted workflow creation, case
+  handling, and integrations for incident response and business automation.
+category: no-code-platforms
+type: platform
+tags:
+  - no-code
+  - security
+  - security-automation
+  - soar
+  - incident-response
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

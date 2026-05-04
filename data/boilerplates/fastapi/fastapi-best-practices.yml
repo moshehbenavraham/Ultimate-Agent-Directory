@@ -1,0 +1,24 @@
+name: FastAPI Best Practices
+url: https://github.com/zhanymkanov/fastapi-best-practices
+description: Community-maintained FastAPI architecture reference covering project
+  structure, async patterns, dependency injection, background tasks, security,
+  testing, and production application conventions.
+category: fastapi
+type: toolkit
+tags:
+  - fastapi
+  - python
+  - architecture
+  - reference
+  - testing
+  - security
+github_repo: zhanymkanov/fastapi-best-practices
+github_stars: 17159
+last_updated: '2026-05-04'
+is_archived: false
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Python

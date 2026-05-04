@@ -1,0 +1,17 @@
+name: Landbot
+url: https://landbot.io/
+description: No-code chatbot and AI agent builder for websites and WhatsApp. Landbot
+  combines structured conversational flows, AI-powered steps, lead generation,
+  live handoff, and integrations for marketing and support teams.
+category: no-code-platforms
+type: platform
+tags:
+  - no-code
+  - chatbot
+  - chat-agents
+  - whatsapp
+  - lead-generation
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

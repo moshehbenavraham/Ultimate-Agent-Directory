@@ -1,0 +1,26 @@
+name: .NET Aspire
+url: https://github.com/microsoft/aspire
+description: Official Microsoft cloud-ready stack for distributed .NET apps with
+  service discovery, health checks, telemetry, orchestration, dashboard tooling,
+  and local development workflows for multi-service applications.
+category: dotnet
+type: toolkit
+tags:
+  - dotnet
+  - csharp
+  - cloud-native
+  - microservices
+  - distributed
+  - dashboard
+  - orchestration
+github_repo: microsoft/aspire
+github_stars: 5882
+last_updated: '2026-05-04'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - C#

@@ -1,0 +1,19 @@
+name: Google Cloud Startup Technical Guide AI Agents
+url: https://cloud.google.com/resources/content/building-ai-agents
+description: Official Google Cloud technical guide for building AI agents, covering
+  architecture, tool use, evaluation, deployment, observability, and production
+  practices across Google Cloud and Vertex AI.
+category: learning-resources
+type: course
+tags:
+  - architecture
+  - deployment
+  - evaluation
+  - google
+  - guides
+  - production
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web

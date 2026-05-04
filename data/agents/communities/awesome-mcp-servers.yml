@@ -1,0 +1,23 @@
+name: Awesome MCP Servers
+url: https://github.com/punkpeye/awesome-mcp-servers
+description: Community-maintained directory of Model Context Protocol servers that
+  connect AI agents to filesystems, databases, APIs, browsers, developer tools,
+  and other external services.
+category: communities
+type: tool
+tags:
+  - awesome-list
+  - community
+  - github
+  - integrations
+  - mcp
+  - resources
+  - tool-calling
+github_repo: punkpeye/awesome-mcp-servers
+license: MIT
+github_stars: 86180
+last_updated: '2026-05-04'
+is_archived: false
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

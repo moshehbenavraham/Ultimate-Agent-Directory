@@ -1,0 +1,23 @@
+name: ChatRAG
+url: https://www.chatrag.ai/
+description: Commercial Next.js boilerplate for RAG chatbot SaaS products with
+  document ingestion, multi-LLM support, Supabase pgvector storage, LlamaCloud,
+  white-label branding, monetization, and multi-tenant SaaS patterns.
+category: nextjs
+type: boilerplate
+tags:
+  - nextjs
+  - rag
+  - chatbot
+  - supabase
+  - vector-stores
+  - white-label
+  - multi-tenancy
+  - commercial
+pricing: paid
+license: Commercial
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript

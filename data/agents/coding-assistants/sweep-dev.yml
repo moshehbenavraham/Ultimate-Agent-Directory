@@ -1,0 +1,18 @@
+name: Sweep.dev
+url: https://sweep.dev/
+description: AI coding plugin and review assistant for JetBrains IDEs. Sweep.dev
+  provides autocomplete, agentic coding, code review assistance, MCP server support,
+  and web-aware developer workflows.
+category: coding-assistants
+tags:
+  - autocomplete
+  - code-review
+  - coding-assistant
+  - jetbrains
+platform:
+  - JetBrains
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

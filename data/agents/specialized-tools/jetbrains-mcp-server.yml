@@ -1,0 +1,17 @@
+name: JetBrains MCP Server
+url: https://plugins.jetbrains.com/plugin/26071-mcp-server
+description: JetBrains MCP server plugin for exposing IDE context, project structure,
+  files, and development actions from JetBrains IDEs to MCP-compatible AI assistants
+  and coding agents.
+category: specialized-tools
+type: tool
+tags:
+  - mcp
+  - jetbrains
+  - coding-assistant
+  - developer-platform
+  - tools
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

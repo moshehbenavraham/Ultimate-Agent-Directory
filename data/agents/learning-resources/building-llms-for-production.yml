@@ -1,0 +1,18 @@
+name: Building LLMs for Production
+url: https://towardsai.net/book
+description: Towards AI book by Louis-Francois Bouchard and Louie Peters covering
+  production LLM application patterns, including prompting, retrieval-augmented
+  generation, evaluation, fine-tuning, deployment, and operational pitfalls.
+category: learning-resources
+type: course
+tags:
+  - book
+  - learning
+  - llm
+  - production
+  - rag
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web

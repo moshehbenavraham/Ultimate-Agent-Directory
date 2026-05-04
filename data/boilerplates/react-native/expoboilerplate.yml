@@ -1,0 +1,23 @@
+name: ExpoBoilerplate
+url: https://expoboilerplate.com/en
+description: Commercial Expo boilerplate with Supabase or Firebase authentication,
+  database persistence, in-app purchases, push notifications, analytics, Sentry,
+  i18n, dark mode, production screens, and AI integration support.
+category: react-native
+type: boilerplate
+tags:
+  - expo
+  - react-native
+  - supabase
+  - payments
+  - analytics
+  - sentry
+  - i18n
+  - commercial
+pricing: paid
+license: Commercial
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript

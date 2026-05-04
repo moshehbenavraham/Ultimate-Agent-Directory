@@ -1,0 +1,22 @@
+name: Graphiti
+url: https://github.com/getzep/graphiti
+description: Open-source framework from Zep for building real-time temporal knowledge
+  graphs for AI agents. Graphiti extracts entities, relationships, facts, and time-aware
+  memory from conversations and external data.
+github_repo: getzep/graphiti
+category: specialized-tools
+type: tool
+tags:
+  - open-source
+  - memory
+  - knowledge-graph
+  - rag
+  - python
+platform:
+  - Python
+license: Apache-2.0
+github_stars: 25655
+last_updated: '2026-04-30'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

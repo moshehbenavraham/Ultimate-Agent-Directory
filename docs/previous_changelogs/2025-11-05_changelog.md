@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to the **Ultimate AI Agent Ecosystem Directory 2025** project will be documented in this file.
+All notable changes to the **Ultimate AI Agent Ecosystem Directory** project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
@@ -125,7 +125,7 @@ Start Changelog Entries
     - `.github/workflows/validate.yml` - Validate YAML on pull requests
   - Deployment:
     - Configured for GitHub Pages deployment
-    - Base URL: https://aiwithapex.github.io/Ultimate-Agent-Directory
+    - Base URL: https://moshehbenavraham.github.io/Ultimate-Agent-Directory
     - Automatic builds on every push to main
   - Documentation:
     - Created `docs/WEBSITE.md` with complete usage guide

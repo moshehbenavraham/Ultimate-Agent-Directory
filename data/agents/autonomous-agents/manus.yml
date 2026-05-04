@@ -1,0 +1,18 @@
+name: Manus
+url: https://manus.im/
+documentation_url: https://manus.im/docs/introduction/welcome
+description: General AI agent that executes tasks rather than only answering prompts.
+  Manus uses its own cloud workspace to plan, browse, create files, automate workflows,
+  and deliver completed work products for business and personal tasks.
+category: autonomous-agents
+type: platform
+tags:
+  - autonomous-agent
+  - workflow
+  - productivity
+  - browser-automation
+  - multimodal
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

@@ -1,0 +1,20 @@
+name: Darwin Gödel Machine
+url: https://sakana.ai/dgm/
+description: Self-improving coding-agent research system from Sakana AI and collaborators.
+  The Darwin Gödel Machine rewrites its own code, evaluates variants on programming
+  benchmarks, and archives successful improvements for open-ended exploration.
+github_repo: jennyzzt/dgm
+category: research-frameworks
+type: research
+tags:
+  - research
+  - self-improving
+  - coding-assistant
+  - open-source
+  - benchmark
+license: Apache-2.0
+github_stars: 2013
+last_updated: '2025-08-13'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

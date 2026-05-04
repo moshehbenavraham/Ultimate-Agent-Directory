@@ -1,0 +1,23 @@
+name: ACME SaaS AI Chat Boilerplate
+url: https://github.com/vmnog/saas-ai-boilerplate
+description: Next.js and Fastify SaaS AI chat boilerplate with OpenAI streaming,
+  magic-link authentication, Stripe subscriptions, multi-tenant usage limits,
+  PostgreSQL, Drizzle ORM, RAG support, and conversation export features.
+category: nextjs
+type: boilerplate
+tags:
+  - nextjs
+  - nodejs
+  - openai
+  - chatbot
+  - stripe
+  - postgresql
+  - drizzle
+  - rag
+github_repo: vmnog/saas-ai-boilerplate
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript

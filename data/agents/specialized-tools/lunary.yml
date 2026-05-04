@@ -1,0 +1,18 @@
+name: Lunary
+url: https://lunary.ai/
+documentation_url: https://docs.lunary.ai/features/observability
+description: LLM observability and prompt management platform for tracking prompts,
+  traces, costs, user feedback, evaluations, and analytics across AI products.
+  Lunary provides SDKs and hosted monitoring for production LLM applications.
+category: specialized-tools
+type: platform
+tags:
+  - observability
+  - monitoring
+  - analytics
+  - prompt-management
+  - tools
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

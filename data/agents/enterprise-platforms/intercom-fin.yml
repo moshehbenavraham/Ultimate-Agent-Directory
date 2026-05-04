@@ -1,0 +1,18 @@
+name: Intercom Fin
+url: https://www.intercom.com/fin/
+description: Intercom AI agent for customer service across chat, email, voice, and
+  related support channels. Fin uses procedures, knowledge, testing, and handoff
+  workflows to automate customer conversations.
+category: enterprise-platforms
+tags:
+  - contact-center
+  - customer-service
+  - enterprise
+  - voice-agents
+platform:
+  - Intercom
+pricing: paid
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: platform

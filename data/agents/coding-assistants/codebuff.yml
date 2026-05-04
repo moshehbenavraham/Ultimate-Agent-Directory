@@ -1,0 +1,18 @@
+name: Codebuff
+url: https://codebuff.com/
+description: Terminal-based AI coding agent that works with full codebase context.
+  Codebuff supports multi-file edits and natural-language development requests while
+  fitting into existing editor and shell workflows.
+category: coding-assistants
+tags:
+  - autonomous-agent
+  - cli
+  - coding-assistant
+  - terminal
+platform:
+  - CLI
+pricing: paid
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

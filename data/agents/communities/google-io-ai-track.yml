@@ -1,0 +1,16 @@
+name: Google I/O AI Track
+url: https://io.google/2026/
+description: Google developer conference track for Gemini, AI developer tools,
+  agent development, Vertex AI, Android AI features, and production deployment
+  patterns across Google's platform ecosystem.
+category: communities
+type: community
+tags:
+  - conference
+  - community
+  - google
+  - developer-platform
+  - deployment
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

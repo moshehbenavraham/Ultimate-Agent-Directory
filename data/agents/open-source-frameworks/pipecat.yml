@@ -1,0 +1,23 @@
+name: Pipecat
+url: https://github.com/pipecat-ai/pipecat
+description: Open-source Python framework for voice and multimodal conversational AI.
+  Pipecat provides composable real-time pipelines for speech, language models,
+  media transport, and interactive voice agent applications.
+github_repo: pipecat-ai/pipecat
+documentation_url: https://pipecat.ai
+github_stars: 11725
+last_updated: '2026-05-02'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - multimodal
+  - python
+  - real-time
+  - voice-agents
+platform:
+  - Python
+license: BSD-2-Clause
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

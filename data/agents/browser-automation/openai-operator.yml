@@ -1,0 +1,18 @@
+name: OpenAI Operator
+url: https://openai.com/index/introducing-operator/
+description: OpenAI browser-using agent powered by a Computer-Using Agent model. The
+  original Operator research preview has since been integrated into ChatGPT agent
+  mode, where it can inspect and interact with web interfaces.
+category: browser-automation
+tags:
+  - browser-automation
+  - computer-use
+  - hosted-service
+  - openai
+platform:
+  - ChatGPT
+pricing: paid
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

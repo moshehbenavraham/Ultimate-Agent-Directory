@@ -1,0 +1,23 @@
+name: Trae Agent
+url: https://github.com/bytedance/trae-agent
+description: Open-source CLI agent from ByteDance for general software engineering
+  tasks. Trae Agent supports multiple LLM providers and works as a command-line
+  companion to the Trae development environment.
+github_repo: bytedance/trae-agent
+documentation_url: https://www.trae.ai/
+github_stars: 11452
+last_updated: '2026-02-05'
+is_archived: false
+category: coding-assistants
+tags:
+  - autonomous-agent
+  - cli
+  - coding-assistant
+  - open-source
+platform:
+  - Python
+license: MIT
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

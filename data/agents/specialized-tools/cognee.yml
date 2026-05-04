@@ -1,0 +1,22 @@
+name: Cognee
+url: https://github.com/topoteretes/cognee
+description: Open-source memory and knowledge infrastructure for AI agents. Cognee
+  turns documents and conversations into graph- and vector-backed memory that agents
+  can retrieve from and reason over.
+github_repo: topoteretes/cognee
+category: specialized-tools
+type: tool
+tags:
+  - open-source
+  - memory
+  - knowledge-graph
+  - rag
+  - python
+platform:
+  - Python
+license: Apache-2.0
+github_stars: 17007
+last_updated: '2026-05-04'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

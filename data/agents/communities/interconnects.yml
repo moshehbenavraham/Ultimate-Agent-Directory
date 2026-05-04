@@ -1,0 +1,16 @@
+name: Interconnects
+url: https://www.interconnects.ai/
+description: Technical newsletter by Nathan Lambert covering RLHF, alignment,
+  open-source models, post-training, reasoning, model releases, and the technical
+  foundations behind modern LLM systems.
+category: communities
+type: community
+tags:
+  - newsletter
+  - rlhf
+  - open-source
+  - llm
+  - research
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

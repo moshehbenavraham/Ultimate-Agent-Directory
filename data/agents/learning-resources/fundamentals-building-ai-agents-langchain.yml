@@ -1,0 +1,18 @@
+name: Fundamentals of Building AI Agents with LangChain
+url: https://www.coursera.org/learn/fundamentals-of-building-ai-agents
+description: Coursera course on building LangChain agents with tool calling,
+  LCEL chaining, DataFrame and SQL agents, and structured AI workflows for Python
+  developers.
+category: learning-resources
+type: course
+tags:
+  - course
+  - learning
+  - langchain
+  - python
+  - tool-calling
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web

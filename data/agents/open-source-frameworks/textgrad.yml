@@ -1,0 +1,22 @@
+name: TextGrad
+url: https://github.com/zou-group/textgrad
+description: Research framework for optimizing LLM systems using textual feedback as
+  gradients. TextGrad applies natural-language critique to improve prompts, model
+  pipelines, and agent behaviors through iterative optimization.
+github_repo: zou-group/textgrad
+documentation_url: http://textgrad.com/
+github_stars: 3519
+last_updated: '2025-07-25'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - prompt-optimization
+  - python
+  - research
+platform:
+  - Python
+license: MIT
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

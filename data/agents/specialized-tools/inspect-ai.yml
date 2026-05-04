@@ -1,0 +1,20 @@
+name: Inspect AI
+url: https://github.com/UKGovernmentBEIS/inspect_ai
+description: Open-source framework for large language model evaluations from the
+  UK AI Safety Institute. Inspect AI supports multi-turn tasks, agent evaluations,
+  sandboxed code execution, scorers, datasets, and reproducible eval runs.
+github_repo: UKGovernmentBEIS/inspect_ai
+category: specialized-tools
+type: tool
+tags:
+  - open-source
+  - evaluation
+  - testing
+  - safety
+  - sandbox
+license: MIT
+github_stars: 1995
+last_updated: '2026-05-04'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

@@ -1,0 +1,18 @@
+name: Anthropic Research
+url: https://www.anthropic.com/research
+description: Anthropic's research and engineering publication hub covering AI
+  safety, interpretability, model evaluations, Claude system behavior, and
+  practical guidance such as agent design patterns.
+category: learning-resources
+type: course
+tags:
+  - blog
+  - learning
+  - research
+  - safety
+  - evaluation
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web

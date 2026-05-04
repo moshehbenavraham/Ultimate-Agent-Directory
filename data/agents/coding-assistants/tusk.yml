@@ -1,0 +1,20 @@
+name: Tusk
+url: https://usetusk.ai/
+description: AI coding agent that turns product tickets and issues into pull requests.
+  Tusk connects task trackers and repositories so teams can automate implementation
+  work from GitHub issues, Linear tickets, and Jira tasks.
+category: coding-assistants
+tags:
+  - autonomous-agent
+  - coding-assistant
+  - pr-agent
+  - swe-agent
+platform:
+  - GitHub
+  - Linear
+  - Jira
+pricing: paid
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

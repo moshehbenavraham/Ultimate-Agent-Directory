@@ -1,0 +1,22 @@
+name: Supastarter for Next.js
+url: https://supastarter.dev/
+description: Commercial SaaS starter with a Next.js edition covering
+  multi-tenancy, authentication providers, billing integrations, admin tooling,
+  blog, changelog, documentation, i18n, and Supabase-based application patterns.
+category: nextjs
+type: boilerplate
+tags:
+  - nextjs
+  - supabase
+  - stripe
+  - multi-tenancy
+  - i18n
+  - saas
+  - commercial
+pricing: paid
+license: Commercial
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript

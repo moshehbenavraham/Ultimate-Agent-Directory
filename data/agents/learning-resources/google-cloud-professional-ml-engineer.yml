@@ -1,0 +1,19 @@
+name: Google Cloud Professional Machine Learning Engineer
+url: https://cloud.google.com/learn/certification/machine-learning-engineer
+description: Official Google Cloud certification for designing, building, and
+  productionizing machine learning systems, including Vertex AI workflows,
+  responsible AI, MLOps practices, and scalable model deployment on Google Cloud.
+category: learning-resources
+type: course
+tags:
+  - certification
+  - deployment
+  - google
+  - learning
+  - production
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web
+pricing: paid

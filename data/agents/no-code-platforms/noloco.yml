@@ -1,0 +1,17 @@
+name: Noloco
+url: https://noloco.io/
+description: No-code platform for building internal tools, client portals, and
+  workflow apps from Airtable, Google Sheets, SQL databases, and business systems.
+  Noloco includes permissions, automations, and an AI assistant for app building.
+category: no-code-platforms
+type: platform
+tags:
+  - no-code
+  - app-builder
+  - internal-tools
+  - client-portals
+  - automation
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

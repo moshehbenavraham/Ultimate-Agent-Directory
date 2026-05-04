@@ -1,0 +1,16 @@
+name: AutoGen Discord
+url: https://discord.gg/autogen
+description: Community server for Microsoft's AutoGen multi-agent framework, with
+  discussions on implementation patterns, group chat architectures, agent
+  workflows, and updates across AutoGen and related multi-agent projects.
+category: communities
+type: community
+tags:
+  - community
+  - discord
+  - multi-agent
+  - microsoft
+  - python
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

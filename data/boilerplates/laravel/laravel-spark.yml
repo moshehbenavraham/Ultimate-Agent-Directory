@@ -1,0 +1,21 @@
+name: Laravel Spark
+url: https://spark.laravel.com/
+description: Official commercial Laravel SaaS starter focused on subscription
+  billing, with Stripe and Paddle support, billing portal flows, team billing,
+  subscription plans, and product-ready SaaS billing screens.
+category: laravel
+type: boilerplate
+tags:
+  - laravel
+  - stripe
+  - payments
+  - team
+  - saas
+  - commercial
+pricing: paid
+license: Commercial
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - PHP

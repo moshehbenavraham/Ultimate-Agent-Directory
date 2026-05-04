@@ -1,0 +1,17 @@
+name: Galileo
+url: https://galileo.ai/
+description: Enterprise LLM evaluation and observability platform for testing,
+  monitoring, and improving AI applications. Galileo focuses on RAG quality, data
+  quality, hallucination detection, and production evaluation workflows.
+category: specialized-tools
+type: platform
+tags:
+  - observability
+  - evaluation
+  - hallucination-detection
+  - rag
+  - enterprise
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

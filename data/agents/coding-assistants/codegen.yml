@@ -1,0 +1,19 @@
+name: Codegen
+url: https://docs.codegen.com/introduction/about
+description: AI software engineering agent platform for developer teams. Codegen
+  connects with GitHub, Slack, Linear, and related workflows to help fix bugs, write
+  tests, implement features, and manage repository tasks.
+category: coding-assistants
+tags:
+  - autonomous-agent
+  - cli
+  - coding-assistant
+  - enterprise
+platform:
+  - Web
+  - API
+pricing: paid
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

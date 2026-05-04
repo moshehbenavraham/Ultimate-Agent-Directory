@@ -1,0 +1,17 @@
+name: Tidio Lyro
+url: https://www.tidio.com/ai-agent/
+description: No-code customer service AI agent from Tidio for answering support
+  questions, handling ecommerce conversations, and escalating to human support.
+  Lyro integrates with live chat, help desks, Shopify, and WooCommerce workflows.
+category: no-code-platforms
+type: platform
+tags:
+  - no-code
+  - chatbot
+  - customer-service
+  - ecommerce
+  - live-chat
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

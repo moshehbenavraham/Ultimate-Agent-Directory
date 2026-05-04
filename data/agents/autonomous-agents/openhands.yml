@@ -1,0 +1,22 @@
+name: OpenHands
+url: https://github.com/OpenHands/OpenHands
+description: Open-source platform for AI-driven software development agents that can
+  browse, edit files, run commands, and work across codebases. OpenHands is the
+  continuation of OpenDevin under the canonical OpenHands project.
+github_repo: OpenHands/OpenHands
+documentation_url: https://openhands.dev
+github_stars: 72577
+last_updated: '2026-05-04'
+is_archived: false
+category: autonomous-agents
+tags:
+  - automation
+  - open-source
+  - testing
+platform:
+  - Python
+license: MIT
+added_date: '2025-11-05'
+last_verified: '2026-05-04'
+verified: true
+type: tool

@@ -1,0 +1,21 @@
+name: Solito
+url: https://github.com/nandorojo/solito
+description: Cross-platform React Native and Next.js starter toolkit for sharing
+  navigation and routing patterns between Expo native apps and web applications
+  from a unified monorepo.
+category: react-native
+type: toolkit
+tags:
+  - expo
+  - react-native
+  - nextjs
+  - cross-platform
+  - monorepo
+  - typescript
+github_repo: nandorojo/solito
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript

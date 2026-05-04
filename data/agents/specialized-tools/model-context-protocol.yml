@@ -1,0 +1,16 @@
+name: Model Context Protocol
+url: https://modelcontextprotocol.io/docs/getting-started/intro
+description: Open protocol for connecting AI applications and agents to external
+  tools, data sources, and prompts. MCP defines a client-server architecture that
+  lets models discover and call capabilities exposed by compatible servers.
+category: specialized-tools
+type: tool
+tags:
+  - mcp
+  - protocol
+  - interoperability
+  - tools
+  - open-source
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

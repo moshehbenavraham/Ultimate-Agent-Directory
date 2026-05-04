@@ -1,0 +1,19 @@
+name: turbopuffer
+url: https://turbopuffer.com/
+description: Serverless vector and full-text search engine built on object storage.
+  turbopuffer supports hybrid search, metadata filtering, automatic scaling, and
+  low-latency retrieval over billions of vectors for RAG, semantic search, and
+  AI application workloads.
+documentation_url: https://turbopuffer.com/docs
+category: specialized-tools
+type: platform
+tags:
+  - vector-stores
+  - search
+  - serverless
+  - cloud-native
+  - rag
+pricing: paid
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

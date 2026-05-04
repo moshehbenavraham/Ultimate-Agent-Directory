@@ -1,0 +1,18 @@
+name: Hands-On Large Language Models
+url: https://www.oreilly.com/library/view/hands-on-large-language/9781098150952/
+description: O'Reilly book by Jay Alammar and Maarten Grootendorst explaining
+  LLM concepts and practical workflows such as tokenization, embeddings,
+  fine-tuning, text generation, semantic search, and multimodal models.
+category: learning-resources
+type: course
+tags:
+  - book
+  - learning
+  - llm
+  - fine-tuning
+  - search
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web

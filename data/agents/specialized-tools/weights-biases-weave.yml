@@ -1,0 +1,17 @@
+name: Weights & Biases Weave
+url: https://wandb.ai/site/weave/
+description: W&B's LLM observability and evaluation toolkit for tracing AI application
+  calls, capturing inputs and outputs, managing evaluation datasets, and comparing
+  model or prompt behavior inside the broader Weights & Biases platform.
+category: specialized-tools
+type: platform
+tags:
+  - observability
+  - evaluation
+  - tracing
+  - monitoring
+  - llm
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

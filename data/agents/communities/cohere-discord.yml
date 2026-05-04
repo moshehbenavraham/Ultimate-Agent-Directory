@@ -1,0 +1,16 @@
+name: Cohere Discord
+url: https://discord.gg/co-mmunity
+description: Community for Cohere developers working with Command, Embed, Rerank,
+  enterprise LLM deployment, RAG systems, fine-tuning, and agent applications
+  built on Cohere's model platform.
+category: communities
+type: community
+tags:
+  - community
+  - discord
+  - llm
+  - rag
+  - enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

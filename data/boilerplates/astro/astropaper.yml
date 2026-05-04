@@ -1,0 +1,24 @@
+name: AstroPaper
+url: https://github.com/satnaing/astro-paper
+description: Minimal Astro blog template with TypeScript, content collections,
+  dark-mode support, search, accessibility-minded defaults, SEO metadata, and
+  schema.org structured data.
+category: astro
+type: template
+tags:
+  - astro
+  - blog
+  - seo
+  - typescript
+  - accessibility
+github_repo: satnaing/astro-paper
+github_stars: 4567
+last_updated: '2026-05-04'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript

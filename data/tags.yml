@@ -1,77 +1,154 @@
 tags:
   - a2a-protocol
+  - accessibility
   - admin-dashboard
   - agent-identity
   - agent-packs
+  - ai-ide
   - alpinejs
   - analytics
+  - annotation
+  - android
+  - api
+  - app-builder
   - architecture
   - archive
   - astro
   - authentication
+  - autocomplete
   - authjs
   - automation
+  - autonomous-agent
+  - azure
+  - aws
   - awesome-list
+  - bedrock
   - beginner-friendly
   - bioinformatics
+  - blog
+  - book
   - blazor
   - blitz
+  - benchmark
+  - browser
+  - browser-automation
   - browser-extension
+  - bun
   - charts
+  - chatbot
   - chat-agents
+  - certification
+  - changelog
   - chrome
+  - cli
   - claude-code
   - clawhub
   - clerk
+  - cloudflare
+  - cloud-ide
+  - cloud-browser
+  - cloud-native
   - commercial
   - community
+  - conference
   - composio
   - configuration
+  - code-migration
+  - code-review
+  - coding-assistant
+  - computer-use
+  - contact-center
+  - content-management
+  - client-portals
+  - cookbook
+  - crm
+  - course
   - crewai
   - cross-browser
+  - cross-platform
   - csharp
+  - cuda
+  - customer-service
   - dashboard
+  - data-extraction
+  - data-generation
+  - data-labeling
+  - database
+  - data-platform
+  - dataset-management
   - deploy
+  - developer-platform
   - deployment
   - deterministic
+  - debugging
+  - desktop-agent
   - dev-pipeline
   - devops
+  - design-to-code
   - devto
   - digitalocean
   - django
+  - directory
+  - discord
   - docker
   - documentation
+  - document-ai
   - dotnet
+  - distributed
   - drizzle
   - ecommerce
   - edge
   - elixir
+  - elysia
   - enterprise
+  - evaluation
   - essay
   - explainer
   - expo
   - fastapi
   - fiber
+  - figma
+  - financial-services
+  - finance
+  - fine-tuning
+  - hallucination-detection
   - firefox
   - flask
   - flyio
   - fork
+  - forum
+  - frontend
+  - foundation-models
+  - full-stack
+  - forms
+  - gateway
   - generator
   - genomics
   - getting-started
+  - github
+  - gitlab
   - go
   - golang
+  - google
   - governance
+  - gpu
   - graphql
   - gui
+  - gui-agent
   - guides
   - hardening
+  - headless
   - headless-cms
+  - healthcare
   - heartbeat
   - heex
   - history
   - home-assistant
+  - hosted
+  - hosted-service
   - hosting
+  - hono
+  - hr
   - houdini
   - html-first
   - htmx
@@ -79,53 +156,104 @@ tags:
   - inspiration
   - integration
   - integrations
+  - incident-response
+  - infrastructure
   - interoperability
+  - internal-tools
+  - ios
+  - iot
+  - ipaas
+  - java
+  - jetbrains
   - jwt
+  - jvm
+  - knowledge-graph
+  - knowledge-management
+  - kubernetes
   - landing-page
   - langchain
+  - langgraph
   - laravel
   - learning
+  - lead-generation
+  - legal
+  - live-chat
   - liveview
+  - llm
+  - llm-crawler
+  - llm-ops
+  - llm-reader
+  - llm-search
   - lobster
   - local-first
+  - local-llm
+  - low-code
   - macos
   - marketing
+  - marketing-automation
+  - markdown
+  - mcp
   - messaging
+  - meeting-agent
+  - memory
   - meteor
   - microservices
   - microsoft
   - minimal-javascript
   - mixpost
+  - mobile-agent
+  - model-routing
   - mongodb
   - monitoring
   - monorepo
   - multi-agent
+  - multi-llm
+  - multimodal
   - multi-tenancy
   - mysql
   - n8n
+  - nestjs
   - nextjs
   - niche
+  - newsletter
   - no-code
   - nodejs
   - nuxt
+  - nvidia
   - observability
   - official
   - one-click
+  - openai
+  - openapi
   - open-source
   - openclaw
   - orchestration
   - orm
+  - optimization
   - payments
+  - papers
+  - performance
   - persona
   - personal-assistant
   - personas
   - phoenix
+  - productivity
+  - playwright
+  - podcast
   - postgresql
   - prisma
   - privacy
+  - private-deployment
   - production
+  - protocol
+  - project-management
+  - prompt-management
+  - pr-agent
+  - prompt-optimization
   - pwa
+  - python
   - qa
+  - rag
   - rails
   - railway
   - react
@@ -134,20 +262,36 @@ tags:
   - redis
   - redwood
   - reference
+  - refactoring
   - registry
   - remix
+  - reddit
   - resources
   - rest
+  - research
+  - rlhf
   - ruby
   - runbook
   - rust
   - saas
+  - salesforce
+  - sales
+  - safety
+  - sandbox
   - scaffolding
   - scheduling
   - science
+  - sdk
+  - screen-parsing
   - security
+  - security-automation
+  - search
+  - self-improving
   - self-hosted
+  - selenium
+  - sentry
   - seo
+  - serverless
   - servicestack
   - setup
   - shadcn-ui
@@ -155,41 +299,70 @@ tags:
   - showcase
   - signalr
   - skills
+  - simulation
+  - slack
+  - sms
   - social-media
+  - soar
   - soul
   - soul-md
   - sqlite
+  - spring-boot
+  - spreadsheet
   - starter-kit
+  - state-machine
   - stripe
+  - streaming
+  - structured-outputs
   - substack
   - supabase
   - svelte
   - sveltekit
   - swagger
+  - surveys
+  - synthetic-data
+  - swe-agent
   - tabler
   - tailwindcss
   - team
   - telegram
+  - terminal
   - templates
   - testing
+  - test-generation
   - tools
+  - tool-calling
+  - tracing
   - trpc
   - tutorial
   - tutorials
   - typescript
   - ui
   - ui-components
+  - ui-generation
   - use-cases
+  - vector-stores
+  - vibe-coding
+  - vision
+  - vision-language-model
+  - vision-llm
   - visual-builder
+  - visual-editor
   - voice-agents
   - vps
+  - vscode-extension
   - vue
   - wasp
   - webassembly
+  - web-agent
+  - web-scraping
   - webpacker
   - whatsapp
+  - white-label
   - wikipedia
   - workflow
   - workflows
   - workspace
+  - workplace
   - wxt
+  - youtube

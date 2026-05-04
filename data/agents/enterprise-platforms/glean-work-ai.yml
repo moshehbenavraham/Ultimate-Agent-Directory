@@ -1,0 +1,18 @@
+name: Glean Work AI
+url: https://www.glean.com/product/overview
+description: Enterprise AI search and assistant platform for workplace knowledge.
+  Glean combines connectors, permissions-aware search, AI answers, and agent workflows
+  over organization data and applications.
+category: enterprise-platforms
+tags:
+  - enterprise
+  - knowledge-management
+  - search
+  - workplace
+platform:
+  - Web
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: platform

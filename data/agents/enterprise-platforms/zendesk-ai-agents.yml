@@ -1,0 +1,17 @@
+name: Zendesk AI Agents
+url: https://www.zendesk.com/service/ai/ai-agents/?lang=en
+description: Zendesk autonomous customer-service agents for support interactions across
+  service channels. Zendesk AI Agents use knowledge, procedures, and platform context
+  to resolve or route customer issues.
+category: enterprise-platforms
+tags:
+  - contact-center
+  - customer-service
+  - enterprise
+platform:
+  - Zendesk
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: platform

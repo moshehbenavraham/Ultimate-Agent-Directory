@@ -1,0 +1,25 @@
+name: Sidebase Nuxt Auth
+url: https://github.com/sidebase/nuxt-auth
+description: Nuxt 3 authentication module and starter toolkit supporting Auth.js,
+  local credentials, refresh-token flows, middleware, and production auth
+  patterns for Nuxt applications.
+category: nuxt
+type: toolkit
+tags:
+  - nuxt
+  - vue
+  - authjs
+  - authentication
+  - jwt
+  - security
+github_repo: sidebase/nuxt-auth
+github_stars: 1544
+last_updated: '2026-04-28'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript

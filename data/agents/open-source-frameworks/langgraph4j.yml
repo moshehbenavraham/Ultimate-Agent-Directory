@@ -1,0 +1,23 @@
+name: LangGraph4j
+url: https://github.com/langgraph4j/langgraph4j
+description: Java implementation of LangGraph for building agentic architectures in
+  the Java ecosystem. LangGraph4j works with LangChain4j and Spring AI to support
+  graph-based, stateful agent workflows.
+github_repo: langgraph4j/langgraph4j
+documentation_url: https://langgraph4j.github.io/langgraph4j/
+github_stars: 1601
+last_updated: '2026-04-29'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - java
+  - jvm
+  - multi-agent
+  - workflow
+platform:
+  - Java
+license: MIT
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

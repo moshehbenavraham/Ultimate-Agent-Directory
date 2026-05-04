@@ -1,0 +1,23 @@
+name: AG2
+url: https://github.com/ag2ai/ag2
+description: Open-source AgentOS project formerly known as AutoGen. AG2 provides
+  multi-agent conversation patterns, swarms, group chats, tool use, and orchestration
+  primitives for building collaborative AI agent systems.
+github_repo: ag2ai/ag2
+documentation_url: https://ag2.ai
+github_stars: 4486
+last_updated: '2026-05-04'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - multi-agent
+  - open-source
+  - orchestration
+  - python
+platform:
+  - Python
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

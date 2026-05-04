@@ -1,0 +1,19 @@
+name: Marqo
+url: https://www.marqo.ai/
+description: AI-native search and discovery platform for ecommerce teams. Marqo
+  uses semantic search, personalization, clickstream, purchase, and event data to
+  improve product search relevance, recommendations, conversion, and merchandising
+  workflows.
+documentation_url: https://docs.marqo.ai/
+category: specialized-tools
+type: platform
+tags:
+  - search
+  - ecommerce
+  - data-platform
+  - hosted-service
+  - multimodal
+pricing: paid
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

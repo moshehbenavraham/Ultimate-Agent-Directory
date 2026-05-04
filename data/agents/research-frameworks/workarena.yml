@@ -1,0 +1,19 @@
+name: WorkArena
+url: https://github.com/ServiceNow/WorkArena
+description: ServiceNow research benchmark for testing web agents on enterprise
+  knowledge-work tasks. WorkArena evaluates agents across ServiceNow workflows
+  such as incidents, tasks, knowledge bases, and business process navigation.
+github_repo: ServiceNow/WorkArena
+category: research-frameworks
+type: research
+tags:
+  - research
+  - benchmark
+  - web-agent
+  - evaluation
+  - enterprise
+github_stars: 245
+last_updated: '2026-04-25'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

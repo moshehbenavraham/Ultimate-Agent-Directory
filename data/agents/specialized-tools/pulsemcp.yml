@@ -1,0 +1,17 @@
+name: PulseMCP
+url: https://www.pulsemcp.com/
+description: MCP ecosystem tracking site and newsletter covering MCP servers, clients,
+  releases, and use cases. PulseMCP helps developers follow new tools and ecosystem
+  changes around Model Context Protocol.
+category: specialized-tools
+type: community
+tags:
+  - mcp
+  - newsletter
+  - community
+  - resources
+  - directory
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

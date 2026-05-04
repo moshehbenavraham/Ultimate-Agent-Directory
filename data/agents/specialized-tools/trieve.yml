@@ -1,0 +1,23 @@
+name: Trieve
+url: https://github.com/devflowinc/trieve
+description: Open-source platform for search, recommendations, RAG, and analytics
+  delivered through APIs. Trieve combines vector search, keyword search, ranking,
+  chunk management, and hosted infrastructure for teams adding retrieval to AI
+  products.
+github_repo: devflowinc/trieve
+documentation_url: https://docs.trieve.ai/
+category: specialized-tools
+type: platform
+tags:
+  - rag
+  - search
+  - vector-stores
+  - open-source
+  - hosted-service
+license: MIT
+pricing: freemium
+github_stars: 2647
+last_updated: '2026-05-03'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

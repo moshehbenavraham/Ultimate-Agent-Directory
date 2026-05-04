@@ -1,0 +1,19 @@
+name: 'MIT 6.S191: Introduction to Deep Learning'
+url: http://introtodeeplearning.com/
+description: MIT's introductory deep learning course with lecture videos and
+  labs covering neural networks, sequence modeling, computer vision,
+  reinforcement learning, and practical model-building foundations.
+category: learning-resources
+type: course
+tags:
+  - course
+  - learning
+  - research
+  - science
+  - beginner-friendly
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - Web
+pricing: free

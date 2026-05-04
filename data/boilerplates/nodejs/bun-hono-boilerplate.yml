@@ -1,0 +1,26 @@
+name: Bun Hono Boilerplate
+url: https://github.com/alex-michaud/bun-hono-boilerplate
+description: Bun and Hono backend boilerplate with Prisma, Better Auth, OpenAPI
+  and Swagger documentation, Biome linting, API client generation, and MCP server
+  integration for LLM tool use.
+category: nodejs
+type: boilerplate
+tags:
+  - nodejs
+  - bun
+  - hono
+  - prisma
+  - openapi
+  - mcp
+  - typescript
+github_repo: alex-michaud/bun-hono-boilerplate
+github_stars: 14
+last_updated: '2026-04-24'
+is_archived: false
+license: MIT
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+platform:
+  - TypeScript

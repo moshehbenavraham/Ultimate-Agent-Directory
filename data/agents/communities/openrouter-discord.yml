@@ -1,0 +1,16 @@
+name: OpenRouter Discord
+url: https://discord.gg/openrouter
+description: Community for OpenRouter users building with provider-agnostic model
+  access, model routing, API gateways, model comparison, and multi-provider LLM
+  application patterns.
+category: communities
+type: community
+tags:
+  - community
+  - discord
+  - gateway
+  - model-routing
+  - api
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

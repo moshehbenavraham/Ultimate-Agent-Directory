@@ -1,0 +1,23 @@
+name: Weaviate
+url: https://github.com/weaviate/weaviate
+description: Open-source, cloud-native vector database for storing objects and
+  vectors together. Weaviate supports vector search, hybrid keyword and vector
+  retrieval, structured filtering, RAG, reranking, and managed Weaviate Cloud
+  deployments.
+github_repo: weaviate/weaviate
+documentation_url: https://docs.weaviate.io/weaviate
+category: specialized-tools
+type: tool
+tags:
+  - vector-stores
+  - database
+  - rag
+  - graphql
+  - open-source
+license: BSD-3-Clause
+pricing: freemium
+github_stars: 16123
+last_updated: '2026-05-03'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

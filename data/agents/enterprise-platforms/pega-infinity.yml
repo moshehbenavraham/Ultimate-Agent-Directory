@@ -1,0 +1,17 @@
+name: Pega Infinity
+url: https://www.pega.com/infinity
+description: Pega enterprise automation platform with Predictable AI agents and
+  workflow-driven agentic capabilities. Pega Infinity combines process automation,
+  governance, and agentic workflows for customer service and operations.
+category: enterprise-platforms
+tags:
+  - automation
+  - enterprise
+  - workflow
+platform:
+  - Pega
+pricing: enterprise
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: platform

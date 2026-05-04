@@ -1,0 +1,23 @@
+name: Jina AI Reader
+url: https://github.com/jina-ai/reader
+description: Open-source service for converting URLs into LLM-friendly Markdown input.
+  Jina AI Reader supports simple URL prefixes for page reading and search workflows
+  used by agents and RAG systems.
+github_repo: jina-ai/reader
+documentation_url: https://jina.ai/reader/
+github_stars: 10735
+last_updated: '2026-05-01'
+is_archived: false
+category: browser-automation
+tags:
+  - api
+  - llm-reader
+  - markdown
+  - open-source
+  - rag
+  - web-scraping
+license: Apache-2.0
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

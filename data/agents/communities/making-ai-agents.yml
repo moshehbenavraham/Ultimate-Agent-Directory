@@ -1,0 +1,16 @@
+name: Making AI Agents
+url: https://makingaiagents.substack.com/
+description: Practical newsletter comparing agent frameworks and sharing lessons
+  from building AI agents in production, with hands-on notes on architecture,
+  tool selection, framework tradeoffs, and implementation patterns.
+category: communities
+type: community
+tags:
+  - newsletter
+  - autonomous-agent
+  - workflow
+  - production
+  - learning
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

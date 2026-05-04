@@ -1,0 +1,22 @@
+name: AutoWebGLM
+url: https://github.com/THUDM/AutoWebGLM
+description: Open-source web navigation agent from Tsinghua's THUDM group. AutoWebGLM
+  uses large language models, simplified HTML representations, and environment
+  feedback to complete browser tasks across Chinese and English websites.
+github_repo: THUDM/AutoWebGLM
+category: browser-automation
+type: framework
+tags:
+  - open-source
+  - web-agent
+  - browser-automation
+  - research
+  - llm
+platform:
+  - Python
+license: Apache-2.0
+github_stars: 930
+last_updated: '2024-09-27'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

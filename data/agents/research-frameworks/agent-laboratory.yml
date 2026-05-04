@@ -1,0 +1,23 @@
+name: Agent Laboratory
+url: https://github.com/SamuelSchmidgall/AgentLaboratory
+demo_url: https://agentrxiv.github.io/
+description: Autonomous research workflow that helps generate ideas, conduct literature
+  review, write and run experiment code, create reports, and publish or retrieve
+  work through the AgentRxiv collaborative research mechanism.
+github_repo: SamuelSchmidgall/AgentLaboratory
+category: research-frameworks
+type: research
+tags:
+  - research
+  - autonomous-agent
+  - science
+  - open-source
+  - workflow
+platform:
+  - Python
+license: MIT
+github_stars: 5546
+last_updated: '2025-08-20'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

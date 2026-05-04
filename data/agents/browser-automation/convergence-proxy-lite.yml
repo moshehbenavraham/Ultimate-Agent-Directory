@@ -1,0 +1,19 @@
+name: Convergence Proxy Lite
+url: https://github.com/convergence-ai/proxy-lite
+description: Open-weight mini version of Convergence AI's Proxy assistant for web
+  automation. Proxy Lite demonstrates browser task execution and web interaction
+  capabilities from the Convergence agent research line.
+github_repo: convergence-ai/proxy-lite
+category: browser-automation
+type: framework
+tags:
+  - open-source
+  - browser-automation
+  - web-agent
+  - computer-use
+  - research
+github_stars: 986
+last_updated: '2025-02-26'
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

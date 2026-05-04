@@ -1,0 +1,17 @@
+name: Cosine Genie
+url: https://cosine.sh/
+description: AI software engineering agent for turning product or engineering tasks
+  into code changes and pull requests. Genie supports backlog decomposition, code
+  implementation, and review-oriented workflows for development teams.
+category: coding-assistants
+tags:
+  - autonomous-agent
+  - coding-assistant
+  - swe-agent
+platform:
+  - Web
+pricing: paid
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: tool

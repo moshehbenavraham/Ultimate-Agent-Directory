@@ -1,0 +1,25 @@
+name: Scout
+url: https://www.scoutos.com/
+documentation_url: https://docs.scoutos.com/
+description: AI agent lifecycle platform for building, deploying, and optimizing
+  agents and workflows for GTM and operations teams. Scout supports no-code agent
+  builders, workflow automation, templates, integrations, databases, skills,
+  scheduling, Slack delivery, embeddable copilots, APIs, SDKs, and multi-model
+  routing.
+category: no-code-platforms
+type: platform
+tags:
+  - no-code
+  - low-code
+  - visual-builder
+  - workflow
+  - integrations
+  - memory
+  - model-routing
+  - scheduling
+  - slack
+  - api
+pricing: freemium
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

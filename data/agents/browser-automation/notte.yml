@@ -1,0 +1,23 @@
+name: Notte
+url: https://github.com/nottelabs/notte
+description: Framework for building reliable browser-using AI agents and serverless
+  web automation functions. Notte focuses on production browser workflows, hosted
+  browser infrastructure, and AI-assisted web task execution.
+github_repo: nottelabs/notte
+documentation_url: https://www.notte.cc/
+github_stars: 1941
+last_updated: '2026-05-01'
+is_archived: false
+category: browser-automation
+tags:
+  - browser-automation
+  - open-source
+  - playwright
+  - python
+  - web-agent
+platform:
+  - Python
+added_date: '2025-11-05'
+last_verified: '2026-05-04'
+verified: true
+type: framework

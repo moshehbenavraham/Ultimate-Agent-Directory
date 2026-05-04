@@ -1,0 +1,21 @@
+name: tRPC Agent Python
+url: https://github.com/trpc-group/trpc-agent-python
+description: Python framework from the tRPC group for agent building, orchestration,
+  tool integration, session and long-term memory, service deployment, and observability.
+  It provides a foundation for reliable and extensible agent applications.
+github_repo: trpc-group/trpc-agent-python
+github_stars: 66
+last_updated: '2026-04-29'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - mcp
+  - memory
+  - observability
+  - python
+platform:
+  - Python
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true
+type: framework

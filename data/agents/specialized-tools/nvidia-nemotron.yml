@@ -1,0 +1,19 @@
+name: NVIDIA Nemotron
+url: https://developer.nvidia.com/nemotron
+description: NVIDIA family of open models, training data, and recipes for building
+  specialized AI agents and generating training data. Nemotron includes open
+  weights and model families used for agentic reasoning, synthetic data generation,
+  reward modeling, and fine-tuning workflows.
+documentation_url: https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/
+category: specialized-tools
+type: tool
+tags:
+  - nvidia
+  - foundation-models
+  - synthetic-data
+  - rlhf
+  - fine-tuning
+pricing: free
+added_date: '2026-05-04'
+last_verified: '2026-05-04'
+verified: true

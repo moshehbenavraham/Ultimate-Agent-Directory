@@ -1,0 +1,22 @@
+name: agenttrace
+url: https://github.com/luoyuctl/agenttrace
+description: Local-first TUI and CLI for AI coding-agent trace logs. Agenttrace turns
+  local agent traces into cost, token, latency, and health regression reports for
+  debugging coding-agent workflows.
+github_repo: luoyuctl/agenttrace
+category: specialized-tools
+type: tool
+tags:
+  - observability
+  - monitoring
+  - tracing
+  - evaluation
+  - cli
+  - coding-assistant
+  - local-first
+  - terminal
+license: Apache-2.0
+pricing: free
+added_date: '2026-05-10'
+last_verified: '2026-05-10'
+verified: true

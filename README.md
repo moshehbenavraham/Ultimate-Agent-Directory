@@ -15,7 +15,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ---
 
-> Looking for full-stack boilerplates and starter kits? Check out our [Full-Stack Boilerplate Directory](BOILERPLATES.md) with 131 production-ready templates!
+> Looking for full-stack boilerplates and starter kits? Check out our [Full-Stack Boilerplate Directory](BOILERPLATES.md) with 132 production-ready templates!
 
 ---
 
@@ -961,7 +961,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 - **Total Entries:** 756
 - **Categories:** 12
-- **Last Generated:** 2026-05-04
+- **Last Generated:** 2026-05-11
 
 ---
 

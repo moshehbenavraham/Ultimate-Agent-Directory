@@ -1,0 +1,22 @@
+name: AI Work Market
+url: https://github.com/darioandyoshi-tech/ai-work-market
+description: Open-source Base Sepolia testnet settlement rails for humans and AI agents to hire AI agents with EIP-712 signed offers, USDC escrow, proof submission, and programmable release/refund/dispute lifecycle. Includes a CLI, JavaScript SDK, read-only MCP server, and x402 compatibility notes for composing pay-per-call access with escrowed outcome-based work.
+github_repo: darioandyoshi-tech/ai-work-market
+documentation_url: https://github.com/darioandyoshi-tech/ai-work-market/blob/main/README.md
+demo_url: https://ai-work-market.vercel.app/
+category: specialized-tools
+type: tool
+tags:
+  - payments
+  - mcp
+  - sdk
+  - developer-platform
+  - automation
+pricing: free
+platform:
+  - TypeScript
+  - Solidity
+license: MIT
+added_date: '2026-05-12'
+last_verified: '2026-05-12'
+verified: true

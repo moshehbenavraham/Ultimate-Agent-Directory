@@ -5,7 +5,7 @@ description: Open-source CLI agent from ByteDance for general software engineeri
   companion to the Trae development environment.
 github_repo: bytedance/trae-agent
 documentation_url: https://www.trae.ai/
-github_stars: 11452
+github_stars: 11546
 last_updated: '2026-02-05'
 is_archived: false
 category: coding-assistants

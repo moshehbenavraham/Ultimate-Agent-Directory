@@ -5,7 +5,7 @@ description: Multi-agent control plane for provisioning, operating, and reusing
   with Hermes fleets, shared infrastructure, and reusable agent environments.
 github_repo: tumf/hermes-manager
 last_updated: '2026-04-21'
-github_stars: 12
+github_stars: 13
 is_archived: false
 category: hermes-agent-ecosystem
 added_date: '2026-05-04'

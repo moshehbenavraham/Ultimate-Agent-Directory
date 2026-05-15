@@ -5,8 +5,8 @@ description: Curated collection of real-world Hermes Agent use cases covering
   cron jobs, productivity automations, local LLM deployments, and self-improving
   agent patterns.
 github_repo: aliaihub/awesome-hermes-usecases
-last_updated: '2026-04-30'
-github_stars: 25
+last_updated: '2026-05-12'
+github_stars: 42
 is_archived: false
 category: hermes-agent-ecosystem
 added_date: '2026-05-04'

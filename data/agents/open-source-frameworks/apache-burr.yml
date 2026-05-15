@@ -5,8 +5,8 @@ description: Apache state-machine framework for applications that make decisions
   persistence, monitoring, tracing, and framework-agnostic infrastructure.
 github_repo: apache/burr
 documentation_url: https://burr.apache.org/
-github_stars: 1986
-last_updated: '2026-05-03'
+github_stars: 1999
+last_updated: '2026-05-14'
 is_archived: false
 category: open-source-frameworks
 tags:

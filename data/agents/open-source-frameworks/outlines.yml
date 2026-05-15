@@ -5,8 +5,8 @@ description: Structured-output library for reliable language model generation. O
   tool-calling, data extraction, and agent workflows.
 github_repo: dottxt-ai/outlines
 documentation_url: https://dottxt-ai.github.io/outlines/
-github_stars: 13779
-last_updated: '2026-04-16'
+github_stars: 13840
+last_updated: '2026-05-13'
 is_archived: false
 category: open-source-frameworks
 tags:

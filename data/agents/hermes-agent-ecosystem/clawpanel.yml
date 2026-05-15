@@ -5,8 +5,8 @@ description: Tauri-based multi-engine desktop management panel for OpenClaw and
   managing agent runtimes, models, channels, tools, multimodal assistants, and
   cross-platform desktop workflows.
 github_repo: qingchencloud/clawpanel
-last_updated: '2026-04-26'
-github_stars: 2631
+last_updated: '2026-05-13'
+github_stars: 2714
 is_archived: false
 category: hermes-agent-ecosystem
 added_date: '2026-05-04'

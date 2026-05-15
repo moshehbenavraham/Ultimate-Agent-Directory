@@ -5,8 +5,8 @@ description: Official JavaScript and TypeScript framework from OpenAI for multi-
   handoffs, guardrails, tracing, and MCP integration for Node.js applications.
 github_repo: openai/openai-agents-js
 documentation_url: https://openai.github.io/openai-agents-js/
-github_stars: 2924
-last_updated: '2026-05-04'
+github_stars: 3030
+last_updated: '2026-05-14'
 is_archived: false
 category: open-source-frameworks
 tags:

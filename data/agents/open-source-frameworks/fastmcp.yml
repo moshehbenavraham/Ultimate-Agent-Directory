@@ -5,8 +5,8 @@ description: Python framework for building MCP servers and clients with concise,
   provides a practical toolkit for exposing tools to AI agents.
 github_repo: PrefectHQ/fastmcp
 documentation_url: https://gofastmcp.com
-github_stars: 24971
-last_updated: '2026-05-04'
+github_stars: 25155
+last_updated: '2026-05-13'
 is_archived: false
 category: open-source-frameworks
 tags:

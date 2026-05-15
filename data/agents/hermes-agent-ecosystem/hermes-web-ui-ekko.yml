@@ -4,8 +4,8 @@ description: Vue-based web dashboard for Hermes Agent with multi-platform chat,
   session management, scheduled jobs, usage analytics, and channel configuration
   for Telegram, Discord, Slack, and WhatsApp deployments.
 github_repo: EKKOLearnAI/hermes-web-ui
-last_updated: '2026-05-04'
-github_stars: 3471
+last_updated: '2026-05-14'
+github_stars: 4811
 is_archived: false
 category: hermes-agent-ecosystem
 added_date: '2026-05-04'

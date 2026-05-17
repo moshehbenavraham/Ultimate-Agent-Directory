@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Boilerplates-131-blue?style=for-the-badge&logo=github&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Boilerplates-132-blue?style=for-the-badge&logo=github&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-May_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **A curated collection of production-ready boilerplates, starter kits, and project templates organized by ecosystem.**
@@ -160,6 +160,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | [**SupaNuxt SaaS**](https://github.com/JavascriptMick/supanuxt-saas) | 519 | MIT | Comprehensive boilerplate for the "Supa-stack" (Supabase + Nuxt), bringing TypeScript full-stack development to Vue. A Vue counterpart to the... |
 | [**Turborepo SaaS Starter for Nuxt**](https://github.com/phiychai/turborepo-saas-starter) | 5 | - | Nuxt and AdonisJS SaaS monorepo starter with Vue, Directus, PostgreSQL, authentication, subscription billing patterns, shared packages, and Nuxt... |
 | [**Nuxt UI SaaS Template (Official)**](https://ui.nuxt.com/templates) | - | MIT | Official Nuxt template with premium UI components including landing pages, pricing pages, documentation and blog templates with authentication flows. |
+| [**NuxtBase**](https://nuxtbase.com/) | - | Commercial | Production-ready Nuxt 4 SaaS starter kit with authentication, billing, organizations, admin tools, and AI-ready flows already wired up. Ships with... |
 | [**Supastarter (Paid)**](https://supastarter.dev/) | - | - | Premium Nuxt 3 and Supabase boilerplate with comprehensive SaaS features, lifetime updates, and one of the best commercial Vue options available. |
 
 <a id="sveltekit"></a>
@@ -429,7 +430,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Boilerplates:** 131
+- **Total Boilerplates:** 132
 - **Ecosystems:** 9
 - **Categories:** 23
 - **Last Generated:** 2026-05-17

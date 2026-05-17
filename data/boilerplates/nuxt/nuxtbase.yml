@@ -1,0 +1,62 @@
+name: NuxtBase
+url: https://nuxtbase.com
+description: |
+  Production-ready Nuxt 4 SaaS starter kit with authentication, billing,
+  organizations, admin tools, and AI-ready flows already wired up. Ships with
+  streaming chat, usage tracking, per-organization credit limits, and the
+  infrastructure pieces needed to launch AI-powered SaaS products.
+category: nuxt
+type: boilerplate
+tags:
+  - nuxt
+  - vue
+  - typescript
+  - tailwindcss
+  - drizzle
+  - stripe
+  - saas
+  - authentication
+  - multi-tenancy
+  - dashboard
+documentation_url: https://nuxtbase.com/docs/
+demo_url: https://nuxtbase.com/demo/
+license: Commercial
+key_features:
+  - Authentication (email/password, social login, magic links, TOTP, passkeys)
+  - Teams and organizations with invitations and roles
+  - Stripe billing, subscriptions, and webhooks
+  - Admin panel with RBAC and audit logs
+  - AI chat with streaming, usage tracking, and credit limits
+  - Content, docs, and SEO with Nuxt Content
+use_case: Indie founders and small teams shipping AI-powered SaaS products.
+pros:
+  - Complete SaaS foundation, AI features built in, modern Nuxt 4 stack
+cons:
+  - Paid/commercial, private repository, no free tier
+deployment:
+  - Vercel
+  - Netlify
+  - Docker
+platform:
+  - TypeScript
+technical_stack:
+  - component: Frontend
+    technology: Nuxt 4
+    reasoning: Latest Vue meta-framework
+  - component: Authentication
+    technology: Better Auth
+    reasoning: Modern auth with multiple providers
+  - component: Payments
+    technology: Stripe
+    reasoning: Industry-standard billing and subscriptions
+  - component: Database
+    technology: Drizzle ORM
+    reasoning: Type-safe ORM for SQL databases
+  - component: UI
+    technology: Nuxt UI
+    reasoning: Official Nuxt component library
+  - component: Content
+    technology: Nuxt Content
+    reasoning: File-based CMS for docs and blog
+pricing: paid
+added_date: '2026-05-11'

@@ -16,8 +16,9 @@ platform:
   - TypeScript
 license: Apache-2.0
 pricing: freemium
-github_stars: 28335
-last_updated: '2026-05-03'
+github_stars: 28494
+last_updated: '2026-05-15'
+is_archived: false
 added_date: '2026-05-04'
 last_verified: '2026-05-04'
 verified: true

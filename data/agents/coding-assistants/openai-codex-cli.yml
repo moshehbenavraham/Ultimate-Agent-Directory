@@ -5,8 +5,8 @@ description: OpenAI's lightweight coding agent that runs in the terminal. Codex 
   integrate with agent workflows through a command-line interface.
 github_repo: openai/codex
 documentation_url: https://developers.openai.com/codex/cli
-github_stars: 79819
-last_updated: '2026-05-04'
+github_stars: 82652
+last_updated: '2026-05-15'
 is_archived: false
 category: coding-assistants
 tags:

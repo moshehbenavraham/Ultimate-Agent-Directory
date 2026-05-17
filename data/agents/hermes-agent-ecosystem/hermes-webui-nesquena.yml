@@ -4,8 +4,8 @@ description: Community web and mobile-friendly interface for Hermes Agent. Provi
   a browser-based way to operate Hermes from a phone or desktop, with companion
   site get-hermes.ai for setup references and ecosystem links.
 github_repo: nesquena/hermes-webui
-last_updated: '2026-05-04'
-github_stars: 5587
+last_updated: '2026-05-14'
+github_stars: 7212
 is_archived: false
 category: hermes-agent-ecosystem
 added_date: '2026-05-04'

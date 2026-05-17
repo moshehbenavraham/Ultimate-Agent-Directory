@@ -10,8 +10,8 @@ tags:
   - postgresql
   - docker
 github_repo: templatus/templatus-vue
-github_stars: 86
-last_updated: '2026-04-30'
+github_stars: 87
+last_updated: '2026-05-14'
 is_archived: false
 license: MIT
 key_features:

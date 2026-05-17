@@ -15,8 +15,9 @@ tags:
 platform:
   - Python
 license: Apache-2.0
-github_stars: 17007
-last_updated: '2026-05-04'
+github_stars: 17223
+last_updated: '2026-05-14'
+is_archived: false
 added_date: '2026-05-04'
 last_verified: '2026-05-04'
 verified: true

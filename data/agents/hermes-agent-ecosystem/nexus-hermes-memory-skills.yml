@@ -4,8 +4,8 @@ description: Memory hygiene skills for Hermes Agent, including dreaming-style
   consolidation and a lean-check workflow for surgically trimming memory. Useful
   for operators tuning long-running personal agents with growing memory stores.
 github_repo: nexus9888/hermes-memory-skills
-last_updated: '2026-05-03'
-github_stars: 19
+last_updated: '2026-05-07'
+github_stars: 22
 is_archived: false
 category: hermes-agent-ecosystem
 added_date: '2026-05-04'

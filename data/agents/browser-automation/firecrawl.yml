@@ -5,8 +5,8 @@ description: API and open-source platform for searching, scraping, crawling, and
   Markdown, JSON, screenshots, and agent-ready web data.
 github_repo: firecrawl/firecrawl
 documentation_url: https://firecrawl.dev
-github_stars: 114779
-last_updated: '2026-05-03'
+github_stars: 119882
+last_updated: '2026-05-14'
 is_archived: false
 category: browser-automation
 tags:

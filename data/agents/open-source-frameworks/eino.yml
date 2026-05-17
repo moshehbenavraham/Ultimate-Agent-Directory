@@ -5,8 +5,8 @@ description: Go framework from the CloudWeGo project for building LLM and AI app
   agent development patterns for production systems.
 github_repo: cloudwego/eino
 documentation_url: https://www.cloudwego.io/docs/eino/
-github_stars: 11011
-last_updated: '2026-04-30'
+github_stars: 11242
+last_updated: '2026-05-14'
 is_archived: false
 category: open-source-frameworks
 tags:

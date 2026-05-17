@@ -5,7 +5,7 @@ description: Reusable Hermes Agent skills and dependency-graph patterns covering
   reference for composing skills with dependencies and operational workflows.
 github_repo: domvox/hermes-skills
 last_updated: '2026-04-09'
-github_stars: 9
+github_stars: 11
 is_archived: false
 category: hermes-agent-ecosystem
 added_date: '2026-05-04'

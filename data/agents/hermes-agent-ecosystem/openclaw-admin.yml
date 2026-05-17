@@ -5,7 +5,7 @@ description: Vue 3 management platform that supports both OpenClaw Gateway and
   channels, skills, and related gateway operations from a single web interface.
 github_repo: itq5/OpenClaw-Admin
 last_updated: '2026-04-27'
-github_stars: 675
+github_stars: 739
 is_archived: false
 category: hermes-agent-ecosystem
 added_date: '2026-05-04'

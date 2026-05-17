@@ -5,8 +5,8 @@ description: Open-source AgentOS project formerly known as AutoGen. AG2 provides
   primitives for building collaborative AI agent systems.
 github_repo: ag2ai/ag2
 documentation_url: https://ag2.ai
-github_stars: 4486
-last_updated: '2026-05-04'
+github_stars: 4547
+last_updated: '2026-05-14'
 is_archived: false
 category: open-source-frameworks
 tags:

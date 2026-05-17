@@ -14,6 +14,9 @@ tags:
   - typescript
   - tailwindcss
 github_repo: akhilgkrishnan/Rails-React-Boilerplate
+github_stars: 1
+last_updated: '2023-08-28'
+is_archived: false
 license: MIT
 technical_stack:
   - component: Backend

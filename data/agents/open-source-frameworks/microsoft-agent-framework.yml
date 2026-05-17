@@ -5,8 +5,8 @@ description: Microsoft framework for building, orchestrating, and deploying AI a
   a long-term framework path for Microsoft's agent development stack.
 github_repo: microsoft/agent-framework
 documentation_url: https://aka.ms/agent-framework
-github_stars: 10083
-last_updated: '2026-05-04'
+github_stars: 10439
+last_updated: '2026-05-15'
 is_archived: false
 category: open-source-frameworks
 tags:

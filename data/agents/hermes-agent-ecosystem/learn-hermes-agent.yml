@@ -4,8 +4,8 @@ description: Hands-on 27-chapter tutorial for building an autonomous AI agent fr
   scratch in Python, inspired by Hermes Agent. Covers the agent loop, tool system,
   memory, skills, MCP, multi-platform gateways, and self-evolution concepts.
 github_repo: longyunfeigu/learn-hermes-agent
-last_updated: '2026-04-21'
-github_stars: 76
+last_updated: '2026-05-14'
+github_stars: 106
 is_archived: false
 category: hermes-agent-ecosystem
 added_date: '2026-05-04'

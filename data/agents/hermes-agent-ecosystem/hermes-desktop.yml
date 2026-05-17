@@ -4,8 +4,8 @@ description: Native Mac companion for managing remote Hermes Agent instances ove
   SSH. Designed for users who want a simpler Hermes control surface without exposing
   gateway ports, running a browser layer, or opening additional remote services.
 github_repo: dodo-reach/hermes-desktop
-last_updated: '2026-05-04'
-github_stars: 755
+last_updated: '2026-05-14'
+github_stars: 1308
 is_archived: false
 category: hermes-agent-ecosystem
 added_date: '2026-05-04'

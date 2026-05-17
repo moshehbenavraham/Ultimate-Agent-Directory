@@ -5,8 +5,8 @@ description: Google's open-source terminal agent for using Gemini in development
   Google Search grounding, and MCP-based extensions.
 github_repo: google-gemini/gemini-cli
 documentation_url: https://geminicli.com
-github_stars: 103081
-last_updated: '2026-05-04'
+github_stars: 103978
+last_updated: '2026-05-15'
 is_archived: false
 category: coding-assistants
 tags:

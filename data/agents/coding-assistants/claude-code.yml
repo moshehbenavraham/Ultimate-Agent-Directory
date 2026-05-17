@@ -5,8 +5,8 @@ description: Anthropic's agentic coding tool for the terminal. Claude Code under
   language coding requests to local development tasks.
 github_repo: anthropics/claude-code
 documentation_url: https://code.claude.com/docs/en/overview
-github_stars: 120174
-last_updated: '2026-05-01'
+github_stars: 123582
+last_updated: '2026-05-14'
 is_archived: false
 category: coding-assistants
 tags:

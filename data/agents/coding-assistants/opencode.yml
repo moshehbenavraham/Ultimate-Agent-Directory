@@ -5,8 +5,8 @@ description: Open-source terminal coding agent with a fast command-line interfac
   interactive agent sessions for software engineering tasks.
 github_repo: anomalyco/opencode
 documentation_url: https://opencode.ai/
-github_stars: 154184
-last_updated: '2026-05-04'
+github_stars: 160311
+last_updated: '2026-05-15'
 is_archived: false
 category: coding-assistants
 tags:

@@ -2,7 +2,7 @@ name: secure-openclaw (ComposioHQ)
 url: https://github.com/ComposioHQ/secure-openclaw
 description: Composio's security-hardened OpenClaw variant enabling a personal 24x7 AI assistant across WhatsApp, Telegram, Signal, and iMessage with full tool access, persistent memory, scheduled reminders, and 500+ Composio app integrations.
 github_repo: ComposioHQ/secure-openclaw
-last_updated: '2026-02-11'
+last_updated: '2026-05-08'
 github_stars: 1205
 is_archived: false
 category: openclaw-ecosystem

@@ -4,8 +4,8 @@ description: Security-focused Hermes Agent fork integrating CaMeL-style trust
   boundaries. Useful reference for teams studying sandboxing, data-flow separation,
   and safer command execution around Hermes-style local agent runtimes.
 github_repo: nativ3ai/hermes-agent-camel
-last_updated: '2026-05-02'
-github_stars: 169
+last_updated: '2026-05-07'
+github_stars: 180
 is_archived: false
 category: hermes-agent-ecosystem
 added_date: '2026-05-04'

@@ -4,7 +4,7 @@ description: Open-source vision-language GUI agent project for computer-use rese
   CogAgent provides models and code for understanding interface screenshots and
   grounding actions in desktop or web environments.
 github_repo: zai-org/CogAgent
-github_stars: 1175
+github_stars: 1179
 last_updated: '2025-04-04'
 is_archived: false
 category: browser-automation

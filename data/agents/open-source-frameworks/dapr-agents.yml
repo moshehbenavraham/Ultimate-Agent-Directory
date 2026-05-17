@@ -5,8 +5,8 @@ description: Python framework for building autonomous, resilient, and observable
   security primitives for distributed agent applications.
 github_repo: dapr/dapr-agents
 documentation_url: https://docs.dapr.io/developing-applications/dapr-agents/
-github_stars: 668
-last_updated: '2026-04-30'
+github_stars: 674
+last_updated: '2026-05-14'
 is_archived: false
 category: open-source-frameworks
 tags:

@@ -5,8 +5,8 @@ description: Python-based framework for multi-agent system development, executio
   for distributed computation, commonly used in academic and industrial IoT applications
   for building distributed multi-agent systems.
 github_repo: grei-ufc/pade
-github_stars: 120
-last_updated: '2026-04-22'
+github_stars: 121
+last_updated: '2026-05-08'
 is_archived: false
 category: open-source-frameworks
 added_date: '2025-11-05'

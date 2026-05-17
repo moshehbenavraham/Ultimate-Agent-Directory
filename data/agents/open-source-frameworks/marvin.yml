@@ -5,8 +5,8 @@ description: Prefect's ambient intelligence Python library for building AI funct
   classification, extraction, and agent behavior with typed Python interfaces.
 github_repo: PrefectHQ/marvin
 documentation_url: https://marvin.mintlify.app
-github_stars: 6146
-last_updated: '2026-04-22'
+github_stars: 6153
+last_updated: '2026-05-12'
 is_archived: false
 category: open-source-frameworks
 tags:

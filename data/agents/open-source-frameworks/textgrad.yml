@@ -5,7 +5,7 @@ description: Research framework for optimizing LLM systems using textual feedbac
   pipelines, and agent behaviors through iterative optimization.
 github_repo: zou-group/textgrad
 documentation_url: http://textgrad.com/
-github_stars: 3519
+github_stars: 3548
 last_updated: '2025-07-25'
 is_archived: false
 category: open-source-frameworks

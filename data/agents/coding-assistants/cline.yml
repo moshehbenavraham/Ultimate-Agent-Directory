@@ -5,8 +5,8 @@ description: Open-source autonomous coding agent for VS Code. Cline can create a
   while keeping users in the approval loop for actions.
 github_repo: cline/cline
 documentation_url: https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev
-github_stars: 61336
-last_updated: '2026-05-01'
+github_stars: 61784
+last_updated: '2026-05-14'
 is_archived: false
 category: coding-assistants
 tags:

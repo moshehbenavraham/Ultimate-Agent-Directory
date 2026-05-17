@@ -4,7 +4,7 @@ description: Agent framework connecting ModelScope's open-source models to real-
   applications. Provides integration layer for leveraging ModelScope's model ecosystem
   in agentic applications with pre-built tools and model connectors.
 github_repo: modelscope/modelscope-agent
-github_stars: 4215
+github_stars: 4248
 last_updated: '2026-04-15'
 is_archived: false
 category: open-source-frameworks

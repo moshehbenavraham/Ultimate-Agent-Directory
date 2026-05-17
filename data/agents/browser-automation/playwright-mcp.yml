@@ -5,8 +5,8 @@ description: Official Microsoft MCP server exposing Playwright browser automatio
   token-efficient browser interaction without relying on screenshots.
 github_repo: microsoft/playwright-mcp
 documentation_url: https://www.npmjs.com/package/@playwright/mcp
-github_stars: 31961
-last_updated: '2026-05-01'
+github_stars: 32516
+last_updated: '2026-05-12'
 is_archived: false
 category: browser-automation
 tags:

@@ -5,7 +5,7 @@ description: Python SDK for Atla Insights, a platform for monitoring and improvi
   data, and feed results into Atla's agent monitoring stack.
 github_repo: atla-ai/atla-insights-sdk
 github_stars: 7
-last_updated: '2026-04-11'
+last_updated: '2026-01-12'
 is_archived: false
 category: specialized-tools
 type: tool

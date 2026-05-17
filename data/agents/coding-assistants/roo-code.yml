@@ -5,8 +5,8 @@ description: Open-source AI coding agent for editors with specialized modes for 
   workflows, local models, and autonomous development tasks.
 github_repo: RooCodeInc/Roo-Code
 documentation_url: https://roocode.com
-github_stars: 23847
-last_updated: '2026-05-03'
+github_stars: 24065
+last_updated: '2026-05-14'
 is_archived: false
 category: coding-assistants
 tags:

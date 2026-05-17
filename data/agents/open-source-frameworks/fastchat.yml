@@ -5,7 +5,7 @@ description: Platform for training, serving, and evaluating large language model
   LLM evaluation, model serving infrastructure, and tools for fine-tuning and deploying
   conversational AI systems.
 github_repo: lm-sys/FastChat
-github_stars: 39462
+github_stars: 39473
 last_updated: '2026-05-01'
 is_archived: false
 category: open-source-frameworks

@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-756-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-757-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-May_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
@@ -448,6 +448,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **agentops** | [GitHub](https://github.com/AgentOps-AI/agentops) | Open-source Python SDK for AI agent observability providing session replays, metrics, and monitoring for LangChain, CrewAI, and AutoGen. Features detailed agent execution tracking, LLM call logging, cost analysis, and performance metrics for debugging and optimizing multi-agent systems. ![Stars](https://img.shields.io/badge/stars-5545-yellow) |
 | **AgentSight** | [GitHub](https://github.com/agentsight/agentsight) | Open-source observability framework for monitoring and debugging AI agent systems. Features execution tracing, state inspection, and visual debugging tools for understanding agent behaviors and optimizing performance in multi-agent environments. ![Stars](https://img.shields.io/badge/stars-319-yellow) |
 | **AgentSquare** | [GitHub](https://github.com/tsinghua-fib-lab/AgentSquare) | Modular benchmark and development platform for evaluating and building LLM agents. Features customizable evaluation pipelines, standardized metrics, and tooling for systematic agent testing across reasoning, planning, and execution capabilities. ![Stars](https://img.shields.io/badge/stars-226-yellow) |
+| **agenttrace** | [GitHub](https://github.com/luoyuctl/agenttrace) | Local-first TUI and CLI for AI coding-agent trace logs. Agenttrace turns local agent traces into cost, token, latency, and health regression reports for debugging coding-agent workflows. |
 | **AgentX** | [Link](https://www.agentx.so/) | AI-powered sales assistant designed to enhance sales strategies and efficiency, featuring a Memory Module and Online Mode for smarter selling. |
 | **Apify MCP Server** | [GitHub](https://github.com/apify/apify-mcp-server) | Official Apify MCP server that lets agents run Apify Actors for web scraping, crawling, search, maps, ecommerce, and social-media data extraction through the MCP tool interface. ![Stars](https://img.shields.io/badge/stars-1219-yellow) |
 | **Argilla** | [GitHub](https://github.com/argilla-io/argilla) | Open-source data labeling and feedback platform for building LLM datasets, preference data, RLHF workflows, and evaluation sets with collaboration between AI engineers and domain experts. ![Stars](https://img.shields.io/badge/stars-4971-yellow) |
@@ -959,9 +960,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 756
+- **Total Entries:** 757
 - **Categories:** 12
-- **Last Generated:** 2026-05-15
+- **Last Generated:** 2026-05-17
 
 ---
 

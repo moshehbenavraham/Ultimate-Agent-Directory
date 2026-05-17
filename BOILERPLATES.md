@@ -13,7 +13,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ---
 
-> **Looking for AI agent frameworks and tools?** Check out our [AI Agent Directory](README.md) with 757 curated entries!
+> **Looking for AI agent frameworks and tools?** Check out our [AI Agent Directory](README.md) with 758 curated entries!
 
 ---
 

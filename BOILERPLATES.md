@@ -13,7 +13,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ---
 
-> **Looking for AI agent frameworks and tools?** Check out our [AI Agent Directory](README.md) with 756 curated entries!
+> **Looking for AI agent frameworks and tools?** Check out our [AI Agent Directory](README.md) with 757 curated entries!
 
 ---
 
@@ -432,7 +432,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 - **Total Boilerplates:** 131
 - **Ecosystems:** 9
 - **Categories:** 23
-- **Last Generated:** 2026-05-15
+- **Last Generated:** 2026-05-17
 
 ---
 

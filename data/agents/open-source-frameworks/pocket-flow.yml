@@ -5,7 +5,7 @@ description: Minimal LLM framework built around a small graph abstraction for ag
   and lets agents build or modify agent workflows.
 github_repo: The-Pocket/PocketFlow
 documentation_url: https://the-pocket.github.io/PocketFlow/
-github_stars: 10616
+github_stars: 10693
 last_updated: '2026-03-27'
 is_archived: false
 category: open-source-frameworks

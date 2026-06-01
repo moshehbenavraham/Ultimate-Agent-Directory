@@ -5,9 +5,9 @@ description: Open-source AI coding assistant and engineering agent with self-hos
   repository context, and IDE integrations.
 github_repo: smallcloudai/refact
 documentation_url: https://refact.ai
-github_stars: 3543
-last_updated: '2026-05-14'
-is_archived: false
+github_stars: 3552
+last_updated: '2026-05-30'
+is_archived: true
 category: coding-assistants
 tags:
   - coding-assistant

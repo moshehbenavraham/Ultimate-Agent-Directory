@@ -7,8 +7,8 @@ description: Agent-first search engine that indexes 8,000+ MCP servers and other
   Includes verify_mcp live JSON-RPC probe. Queryable via MCP, REST API, or browser.
   Listed in the official MCP registry as `ai.nothumansearch/search`.
 github_repo: unitedideas/nothumansearch
-github_stars: 1
-last_updated: '2026-05-15'
+github_stars: 5
+last_updated: '2026-05-31'
 is_archived: false
 category: specialized-tools
 added_date: '2026-04-17'

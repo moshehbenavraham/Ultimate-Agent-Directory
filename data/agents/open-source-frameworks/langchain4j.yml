@@ -5,8 +5,8 @@ description: Open-source Java library for building LLM-powered applications on t
   support for tools, agents, RAG, MCP, and enterprise Java frameworks.
 github_repo: langchain4j/langchain4j
 documentation_url: https://docs.langchain4j.dev
-github_stars: 11996
-last_updated: '2026-05-14'
+github_stars: 12154
+last_updated: '2026-05-29'
 is_archived: false
 category: open-source-frameworks
 tags:

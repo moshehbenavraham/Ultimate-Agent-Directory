@@ -5,8 +5,8 @@ description: Go implementation of Google's Agent Development Kit for building,
   agent model to Go teams building cloud-native agent services.
 github_repo: google/adk-go
 documentation_url: https://google.github.io/adk-docs/
-github_stars: 7924
-last_updated: '2026-05-14'
+github_stars: 8045
+last_updated: '2026-05-31'
 is_archived: false
 category: open-source-frameworks
 tags:

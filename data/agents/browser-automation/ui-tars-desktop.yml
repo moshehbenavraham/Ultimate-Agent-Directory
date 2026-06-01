@@ -5,8 +5,8 @@ description: Open-source multimodal AI agent stack for desktop, browser, and mob
   infrastructure for computer-use workflows.
 github_repo: bytedance/UI-TARS-desktop
 documentation_url: https://agent-tars.com
-github_stars: 33926
-last_updated: '2026-04-29'
+github_stars: 35809
+last_updated: '2026-05-18'
 is_archived: false
 category: browser-automation
 tags:

@@ -6,8 +6,8 @@ description: Deterministic workflow runtime for OpenClaw. Enables multi-step pip
   Used for coding pipelines (programmer → reviewer → tester) and other deterministic
   multi-agent flows.
 github_repo: openclaw/lobster
-last_updated: '2026-05-04'
-github_stars: 1204
+last_updated: '2026-05-28'
+github_stars: 1219
 is_archived: false
 category: openclaw-ecosystem
 added_date: '2026-03-09'

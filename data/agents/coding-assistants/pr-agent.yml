@@ -5,8 +5,8 @@ description: Open-source AI pull-request reviewer for GitHub, GitLab, Bitbucket,
   and supports self-hosted review automation.
 github_repo: The-PR-Agent/pr-agent
 documentation_url: https://www.pr-agent.ai
-github_stars: 11211
-last_updated: '2026-05-14'
+github_stars: 11420
+last_updated: '2026-05-31'
 is_archived: false
 category: coding-assistants
 tags:

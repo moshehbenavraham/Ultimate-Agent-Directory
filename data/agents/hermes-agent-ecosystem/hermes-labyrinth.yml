@@ -5,7 +5,7 @@ description: Read-only observability plugin for Hermes Agent that surfaces journ
   Hermes agent moves through tasks without granting the plugin write authority.
 github_repo: stainlu/hermes-labyrinth
 last_updated: '2026-05-04'
-github_stars: 267
+github_stars: 278
 is_archived: false
 category: hermes-agent-ecosystem
 added_date: '2026-05-04'

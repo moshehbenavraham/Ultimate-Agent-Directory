@@ -7,7 +7,7 @@ description: Battle-tested workspace template for OpenClaw with a pre-configured
   rules, and reaction-matrix.json for emergent agent-to-agent event triggers.
 github_repo: jeffweisbein/openclaw-starter-kit
 last_updated: '2026-05-03'
-github_stars: 67
+github_stars: 66
 is_archived: false
 category: openclaw-ecosystem
 added_date: '2026-03-09'

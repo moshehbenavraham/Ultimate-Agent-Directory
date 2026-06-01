@@ -4,8 +4,8 @@ description: Native web workspace for Hermes Agent with chat, terminal, memory,
   skills, and inspector surfaces. Built as a Hermes-focused operations workspace
   for users who want a richer browser control plane around the agent runtime.
 github_repo: outsourc-e/hermes-workspace
-last_updated: '2026-05-14'
-github_stars: 4187
+last_updated: '2026-05-24'
+github_stars: 5152
 is_archived: false
 category: hermes-agent-ecosystem
 added_date: '2026-05-04'

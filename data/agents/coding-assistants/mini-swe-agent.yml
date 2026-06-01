@@ -5,8 +5,8 @@ description: Minimal command-line coding agent from the SWE-agent team. mini-SWE
   local code tasks from the command line.
 github_repo: SWE-agent/mini-swe-agent
 documentation_url: https://mini-swe-agent.com
-github_stars: 4351
-last_updated: '2026-05-07'
+github_stars: 4762
+last_updated: '2026-05-25'
 is_archived: false
 category: coding-assistants
 tags:

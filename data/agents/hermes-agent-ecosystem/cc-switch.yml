@@ -5,8 +5,8 @@ description: Cross-platform desktop assistant manager that includes Hermes Agent
   OpenClaw, and Gemini CLI. Focuses on provider management, skills management,
   WSL support, and multi-agent desktop workflows.
 github_repo: farion1231/cc-switch
-last_updated: '2026-05-14'
-github_stars: 70799
+last_updated: '2026-06-01'
+github_stars: 86519
 is_archived: false
 category: hermes-agent-ecosystem
 added_date: '2026-05-04'

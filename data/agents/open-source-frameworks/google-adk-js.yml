@@ -5,8 +5,8 @@ description: TypeScript implementation of Google's Agent Development Kit for bui
   and shares documentation with the broader Google ADK project.
 github_repo: google/adk-js
 documentation_url: https://google.github.io/adk-docs/
-github_stars: 1113
-last_updated: '2026-05-11'
+github_stars: 1187
+last_updated: '2026-05-28'
 is_archived: false
 category: open-source-frameworks
 tags:

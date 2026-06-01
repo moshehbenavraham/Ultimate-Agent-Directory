@@ -6,8 +6,8 @@ description: Nous Research's open-source self-improving AI agent runtime with a
   provider switching, and local, Docker, SSH, Daytona, Singularity, Modal, and
   Vercel Sandbox execution backends.
 github_repo: NousResearch/hermes-agent
-last_updated: '2026-05-15'
-github_stars: 150357
+last_updated: '2026-06-01'
+github_stars: 174700
 is_archived: false
 category: hermes-agent-ecosystem
 added_date: '2026-05-04'

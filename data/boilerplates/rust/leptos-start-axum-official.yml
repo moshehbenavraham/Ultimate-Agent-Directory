@@ -6,7 +6,7 @@ type: boilerplate
 tags:
   - rust
 github_repo: leptos-rs/start-axum
-github_stars: 77
+github_stars: 79
 last_updated: '2026-03-06'
 is_archived: false
 license: Unlicense

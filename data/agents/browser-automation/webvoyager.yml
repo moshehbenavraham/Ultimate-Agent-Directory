@@ -4,7 +4,7 @@ description: Research project for multimodal web agents that navigate real websi
   using visual understanding. WebVoyager introduced an end-to-end benchmark and
   reference implementation for web task completion with large multimodal models.
 github_repo: MinorJerry/WebVoyager
-github_stars: 1088
+github_stars: 1092
 last_updated: '2024-03-04'
 is_archived: false
 category: browser-automation

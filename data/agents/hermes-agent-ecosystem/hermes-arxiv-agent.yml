@@ -4,8 +4,8 @@ description: Hermes-based research skill that fetches arXiv papers on a schedule
   generates Chinese summaries and affiliation notes with AI, pushes updates to
   Feishu, and publishes a local static reading site for paper review workflows.
 github_repo: genggng/hermes-arxiv-agent
-last_updated: '2026-05-14'
-github_stars: 71
+last_updated: '2026-05-30'
+github_stars: 78
 is_archived: false
 category: hermes-agent-ecosystem
 added_date: '2026-05-04'

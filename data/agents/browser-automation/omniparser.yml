@@ -5,7 +5,7 @@ description: Microsoft Research screen-parsing tool for GUI agents. OmniParser c
   computer control and interface automation.
 github_repo: microsoft/OmniParser
 documentation_url: https://microsoft.github.io/OmniParser/
-github_stars: 24759
+github_stars: 24832
 last_updated: '2026-04-13'
 is_archived: false
 category: browser-automation

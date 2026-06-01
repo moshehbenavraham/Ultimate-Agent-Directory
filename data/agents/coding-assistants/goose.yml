@@ -5,8 +5,8 @@ description: Open-source local AI agent for software engineering that can instal
   CLI, and MCP-based extension workflows.
 github_repo: aaif-goose/goose
 documentation_url: https://goose-docs.ai/
-github_stars: 45200
-last_updated: '2026-05-15'
+github_stars: 46121
+last_updated: '2026-05-31'
 is_archived: false
 category: coding-assistants
 tags:

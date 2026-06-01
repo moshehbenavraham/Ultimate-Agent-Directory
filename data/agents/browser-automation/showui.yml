@@ -5,7 +5,7 @@ description: Open-source vision-language-action model for GUI agents and compute
   executable actions.
 github_repo: showlab/ShowUI
 documentation_url: https://arxiv.org/abs/2411.17465
-github_stars: 1831
+github_stars: 1850
 last_updated: '2026-04-24'
 is_archived: false
 category: browser-automation

@@ -5,8 +5,8 @@ description: Java implementation of Google's Agent Development Kit for code-firs
   tool use, evaluation, and deployment across Google's agent ecosystem.
 github_repo: google/adk-java
 documentation_url: https://google.github.io/adk-docs/
-github_stars: 1551
-last_updated: '2026-05-13'
+github_stars: 1576
+last_updated: '2026-05-29'
 is_archived: false
 category: open-source-frameworks
 tags:

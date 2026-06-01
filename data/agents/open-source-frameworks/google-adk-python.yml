@@ -5,8 +5,8 @@ description: Google's open-source Python toolkit for building, evaluating, and d
   use, and deployment paths through Google's AI and cloud ecosystem.
 github_repo: google/adk-python
 documentation_url: https://google.github.io/adk-docs/
-github_stars: 19635
-last_updated: '2026-05-14'
+github_stars: 19941
+last_updated: '2026-05-30'
 is_archived: false
 category: open-source-frameworks
 tags:

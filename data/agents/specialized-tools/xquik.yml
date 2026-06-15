@@ -1,0 +1,29 @@
+name: Xquik
+url: https://github.com/Xquik-dev/x-twitter-scraper
+description: Xquik is an agent Skill and API toolkit for bounded X/Twitter search,
+  profiles, exports, monitoring, webhooks, typed SDKs, and MCP workflows. Its
+  read-first guidance requires confirmation for publishing and account changes.
+github_repo: Xquik-dev/x-twitter-scraper
+documentation_url: https://docs.xquik.com
+category: specialized-tools
+type: tool
+tags:
+  - api
+  - automation
+  - data-extraction
+  - mcp
+  - social-media
+  - web-scraping
+platform:
+  - Claude Code
+  - Codex
+  - MCP
+  - OpenClaw
+  - REST API
+license: MIT
+github_stars: 183
+last_updated: '2026-08-17'
+is_archived: false
+added_date: '2026-06-15'
+last_verified: '2026-08-18'
+verified: true

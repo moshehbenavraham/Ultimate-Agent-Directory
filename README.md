@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-758-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-759-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-August_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
@@ -588,6 +588,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Weaviate** | [GitHub](https://github.com/weaviate/weaviate) | Open-source, cloud-native vector database for storing objects and vectors together. Weaviate supports vector search, hybrid keyword and vector retrieval, structured filtering, RAG, reranking, and managed Weaviate Cloud deployments. ![Stars](https://img.shields.io/badge/stars-16729-yellow) |
 | **Weights & Biases Weave** | [Link](https://wandb.ai/site/weave/) | W&B's LLM observability and evaluation toolkit for tracing AI application calls, capturing inputs and outputs, managing evaluation datasets, and comparing model or prompt behavior inside the broader Weights & Biases platform. |
 | **Writer** | [Link](https://writer.com/) | Enterprise generative AI platform designed for content creation, editing, and optimization. Provides AI agents for marketing teams to maintain brand consistency and accelerate content production workflows. |
+| **Xquik** | [GitHub](https://github.com/Xquik-dev/x-twitter-scraper) | Xquik is an agent Skill and API toolkit for bounded X/Twitter search, profiles, exports, monitoring, webhooks, typed SDKs, and MCP workflows. Its read-first guidance requires confirmation for publishing and account changes. ![Stars](https://img.shields.io/badge/stars-183-yellow) |
 | **Zapier MCP** | [Link](https://zapier.com/mcp) | Zapier's MCP endpoint for giving AI agents access to Zapier's large library of app actions and automations. It lets agents use business apps through a managed, authenticated MCP tool surface. |
 | **Zep** | [Link](https://www.getzep.com/) | Memory layer for AI assistants and agents that combines long-term memory, knowledge graph extraction, vector search, and temporal reasoning. Zep provides hosted infrastructure for persistent, contextual agent memory. |
 
@@ -961,9 +962,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 758
+- **Total Entries:** 759
 - **Categories:** 12
-- **Last Generated:** 2026-08-15
+- **Last Generated:** 2026-08-18
 
 ---
 

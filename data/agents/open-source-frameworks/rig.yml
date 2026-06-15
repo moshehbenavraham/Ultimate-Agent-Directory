@@ -5,8 +5,8 @@ description: Rust framework for building modular LLM applications and agentic wo
   for Rust-native agent and RAG applications.
 github_repo: 0xPlaygrounds/rig
 documentation_url: https://rig.rs
-github_stars: 7475
-last_updated: '2026-05-30'
+github_stars: 7616
+last_updated: '2026-06-12'
 is_archived: false
 category: open-source-frameworks
 tags:

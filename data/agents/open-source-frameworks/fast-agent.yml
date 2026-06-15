@@ -5,8 +5,8 @@ description: Python framework for coding, building, and evaluating agents with s
   for composing chains, routers, orchestrators, and evaluator loops.
 github_repo: evalstate/fast-agent
 documentation_url: https://fast-agent.ai
-github_stars: 3801
-last_updated: '2026-05-30'
+github_stars: 3823
+last_updated: '2026-06-14'
 is_archived: false
 category: open-source-frameworks
 tags:

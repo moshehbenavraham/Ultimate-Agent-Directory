@@ -4,8 +4,8 @@ description: Cross-agent skill installer and translator for portable AI agent
   skills. Helps share and sync skills across Claude Code, Cursor, Codex, Copilot,
   Hermes Agent, OpenClaw, and other skill-compatible coding agents.
 github_repo: rohitg00/skillkit
-last_updated: '2026-05-11'
-github_stars: 1173
+last_updated: '2026-06-02'
+github_stars: 1214
 is_archived: false
 category: hermes-agent-ecosystem
 added_date: '2026-05-04'

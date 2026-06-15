@@ -16,8 +16,8 @@ tags:
   - postgresql
   - docker
 github_repo: fastapi/full-stack-fastapi-template
-github_stars: 43441
-last_updated: '2026-05-30'
+github_stars: 43680
+last_updated: '2026-06-13'
 is_archived: false
 license: MIT
 key_features:

@@ -5,8 +5,8 @@ description: Official Python framework from OpenAI for building multi-agent work
   The SDK is lightweight and designed for production agent applications.
 github_repo: openai/openai-agents-python
 documentation_url: https://openai.github.io/openai-agents-python/
-github_stars: 26804
-last_updated: '2026-05-31'
+github_stars: 27145
+last_updated: '2026-06-13'
 is_archived: false
 category: open-source-frameworks
 tags:

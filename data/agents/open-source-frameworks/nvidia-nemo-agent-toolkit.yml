@@ -5,8 +5,8 @@ description: NVIDIA open-source library for connecting and optimizing teams of A
   multi-agent workflows that use NVIDIA AI infrastructure.
 github_repo: NVIDIA/NeMo-Agent-Toolkit
 documentation_url: https://docs.nvidia.com/nemo/agent-toolkit/latest/
-github_stars: 2349
-last_updated: '2026-05-29'
+github_stars: 2412
+last_updated: '2026-06-15'
 is_archived: false
 category: open-source-frameworks
 tags:

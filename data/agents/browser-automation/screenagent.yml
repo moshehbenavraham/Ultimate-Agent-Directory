@@ -5,7 +5,7 @@ description: Research project for computer control with visual language models.
   desktop task execution from screen observations.
 github_repo: niuzaisheng/ScreenAgent
 documentation_url: https://arxiv.org/abs/2402.07945
-github_stars: 600
+github_stars: 601
 last_updated: '2024-11-25'
 is_archived: false
 category: browser-automation

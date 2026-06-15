@@ -4,7 +4,7 @@ description: Open-source CLI for scaffolding robust AI agent projects. AgentStac
   generates project layouts for common agent frameworks and integrates development
   conventions for tools, observability, and production agent workflows.
 github_repo: agentstack-ai/AgentStack
-github_stars: 2163
+github_stars: 2166
 last_updated: '2025-07-11'
 is_archived: false
 category: open-source-frameworks

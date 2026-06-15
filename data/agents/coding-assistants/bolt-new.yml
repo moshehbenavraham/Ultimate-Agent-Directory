@@ -5,7 +5,7 @@ description: AI-powered in-browser full-stack development agent from StackBlitz.
   runtime infrastructure.
 github_repo: stackblitz/bolt.new
 documentation_url: https://bolt.new/
-github_stars: 16396
+github_stars: 16418
 last_updated: '2024-12-17'
 is_archived: false
 category: coding-assistants

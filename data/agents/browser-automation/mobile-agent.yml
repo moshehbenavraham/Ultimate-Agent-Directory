@@ -4,7 +4,7 @@ description: Research family of GUI agents for operating mobile devices. Mobile-
   uses multimodal perception and planning to automate Android and HarmonyOS tasks
   through visual understanding and device actions.
 github_repo: X-PLUG/MobileAgent
-github_stars: 8762
+github_stars: 8823
 last_updated: '2026-05-14'
 is_archived: false
 category: browser-automation

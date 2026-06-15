@@ -6,7 +6,7 @@ description: Runtime security layer for OpenClaw and Hermes Agent deployments.
   or self-hosted environments.
 github_repo: clawshell/clawshell
 last_updated: '2026-05-30'
-github_stars: 289
+github_stars: 294
 is_archived: false
 category: hermes-agent-ecosystem
 added_date: '2026-05-04'

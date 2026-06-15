@@ -5,8 +5,8 @@ description: Framework for building realtime voice and multimodal AI agents on L
   production-oriented primitives for interactive voice agents.
 github_repo: livekit/agents
 documentation_url: https://docs.livekit.io/agents
-github_stars: 10756
-last_updated: '2026-05-30'
+github_stars: 10971
+last_updated: '2026-06-14'
 is_archived: false
 category: open-source-frameworks
 tags:

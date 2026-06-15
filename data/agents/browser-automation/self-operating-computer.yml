@@ -4,7 +4,7 @@ description: Open-source framework that lets multimodal models operate a compute
   observing the screen and issuing actions. Self-Operating Computer is an early
   reference project for desktop computer-use agents.
 github_repo: OthersideAI/self-operating-computer
-github_stars: 10248
+github_stars: 10252
 last_updated: '2025-09-19'
 is_archived: false
 category: browser-automation

@@ -5,8 +5,8 @@ description: Stanford NLP framework for programming language-model systems with
   prompts and pipelines used in RAG, agent loops, and compound AI systems.
 github_repo: stanfordnlp/dspy
 documentation_url: https://dspy.ai
-github_stars: 34750
-last_updated: '2026-05-30'
+github_stars: 35024
+last_updated: '2026-06-11'
 is_archived: false
 category: open-source-frameworks
 tags:

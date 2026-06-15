@@ -5,8 +5,8 @@ description: Open-source high-performance execution engine for agentic workflows
   support for complex agent task graphs.
 github_repo: harvard-cns/orla
 documentation_url: https://orlaserver.github.io/
-github_stars: 246
-last_updated: '2026-05-14'
+github_stars: 248
+last_updated: '2026-06-11'
 is_archived: false
 category: open-source-frameworks
 tags:

@@ -5,7 +5,7 @@ description: Python framework from the tRPC group for agent building, orchestrat
   It provides a foundation for reliable and extensible agent applications.
 github_repo: trpc-group/trpc-agent-python
 github_stars: 70
-last_updated: '2026-05-26'
+last_updated: '2026-06-14'
 is_archived: false
 category: open-source-frameworks
 tags:

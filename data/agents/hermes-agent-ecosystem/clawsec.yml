@@ -5,8 +5,8 @@ description: Security skill suite for OpenClaw-derived and Hermes-compatible age
   recommendations, automated audits, and protective workflows for persona and
   memory files.
 github_repo: prompt-security/clawsec
-last_updated: '2026-05-31'
-github_stars: 1018
+last_updated: '2026-06-14'
+github_stars: 1038
 is_archived: false
 category: hermes-agent-ecosystem
 added_date: '2026-05-04'

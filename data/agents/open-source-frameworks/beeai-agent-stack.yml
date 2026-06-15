@@ -5,8 +5,8 @@ description: Open infrastructure for deploying and sharing AI agents without ven
   routing, storage, deployment, and Kubernetes-oriented infrastructure.
 github_repo: i-am-bee/agentstack
 documentation_url: https://agentstack.beeai.dev
-github_stars: 1110
-last_updated: '2026-05-19'
+github_stars: 1122
+last_updated: '2026-06-08'
 is_archived: false
 category: open-source-frameworks
 tags:

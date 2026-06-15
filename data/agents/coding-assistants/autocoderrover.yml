@@ -4,7 +4,7 @@ description: Autonomous software engineering agent focused on program improvemen
   issue resolution. AutoCodeRover combines language models with project-structure
   awareness to locate context and generate patches.
 github_repo: AutoCodeRoverSG/auto-code-rover
-github_stars: 3079
+github_stars: 3087
 last_updated: '2025-04-24'
 is_archived: false
 category: coding-assistants

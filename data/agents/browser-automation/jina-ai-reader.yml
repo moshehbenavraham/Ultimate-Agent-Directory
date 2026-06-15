@@ -5,7 +5,7 @@ description: Open-source service for converting URLs into LLM-friendly Markdown 
   used by agents and RAG systems.
 github_repo: jina-ai/reader
 documentation_url: https://jina.ai/reader/
-github_stars: 10968
+github_stars: 11209
 last_updated: '2026-05-22'
 is_archived: false
 category: browser-automation

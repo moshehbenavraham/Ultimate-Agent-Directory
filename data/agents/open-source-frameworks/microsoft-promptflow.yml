@@ -5,8 +5,8 @@ description: Microsoft's open-source toolkit for developing, testing, evaluating
   Python code, tools, evaluation, tracing, and deployment workflows.
 github_repo: microsoft/promptflow
 documentation_url: https://microsoft.github.io/promptflow/
-github_stars: 11141
-last_updated: '2026-05-14'
+github_stars: 11148
+last_updated: '2026-06-04'
 is_archived: false
 category: open-source-frameworks
 tags:

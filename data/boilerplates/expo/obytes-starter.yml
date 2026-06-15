@@ -8,8 +8,8 @@ tags:
   - react
   - tailwindcss
 github_repo: obytes/react-native-template-obytes
-github_stars: 4197
-last_updated: '2026-02-24'
+github_stars: 4223
+last_updated: '2026-06-02'
 is_archived: false
 key_features:
   - Expo Router and NativeWind (Tailwind for Mobile)

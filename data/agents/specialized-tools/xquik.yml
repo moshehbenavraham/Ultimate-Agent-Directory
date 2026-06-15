@@ -1,0 +1,27 @@
+name: Xquik
+url: https://github.com/Xquik-dev/x-twitter-scraper
+description: Xquik provides an X API and automation toolkit for agent workflows,
+  including tweet search, profile extraction, media download, posting automation,
+  monitors, webhooks, REST endpoints, and an MCP server.
+github_repo: Xquik-dev/x-twitter-scraper
+documentation_url: https://docs.xquik.com
+category: specialized-tools
+type: tool
+tags:
+  - api
+  - automation
+  - data-extraction
+  - mcp
+  - social-media
+  - web-scraping
+platform:
+  - REST API
+  - MCP
+  - TypeScript
+license: MIT
+github_stars: 113
+last_updated: '2026-06-15'
+is_archived: false
+added_date: '2026-06-15'
+last_verified: '2026-06-15'
+verified: true

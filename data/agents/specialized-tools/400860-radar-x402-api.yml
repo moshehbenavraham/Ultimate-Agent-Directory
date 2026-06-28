@@ -1,0 +1,27 @@
+name: 400860 Radar x402 API
+url: https://api.400860.xyz/
+description: >
+  x402-native API catalog for AI agent payment safety, spend policy, seller
+  checkout readiness repair, market intel, and paid MCP/API launch evidence.
+  It publishes OpenAPI, llms.txt, apis.json, agent-card, and .well-known/x402
+  metadata so buyers and directories can inspect paid API routes without API
+  keys.
+documentation_url: https://api.400860.xyz/buyer-guide.json
+github_repo: go165/400860-x402-discovery-kit
+category: specialized-tools
+type: tool
+tags:
+  - api
+  - openapi
+  - mcp
+  - payments
+  - security
+  - safety
+  - analytics
+platform:
+  - OpenAPI
+  - HTTP
+pricing: paid
+added_date: '2026-06-29'
+last_verified: '2026-06-29'
+verified: true

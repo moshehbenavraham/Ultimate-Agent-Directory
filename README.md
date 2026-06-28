@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-758-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-759-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-June_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
@@ -437,6 +437,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 | Framework | Repository | Description |
 |-----------|------------|-------------|
+| **400860 Radar x402 API** | [GitHub](https://api.400860.xyz/) | x402-native API catalog for AI agent payment safety, spend policy, seller checkout readiness repair, market intel, and paid MCP/API launch evidence. It publishes OpenAPI, llms.txt, apis.json, agent-card, and .well-known/x402 metadata so buyers and directories can inspect paid API routes without API keys. |
 | **Ad Context Protocol** | [Link](https://adcontextprotocol.org/) | Open-source technical standard developed by a coalition including Scope3, Yahoo, and PubMatic, designed to allow AI agents from advertisers, publishers, and ad tech platforms to communicate and autonomously execute advertising tasks. |
 | **Adobe AI Assistant** | [Link](https://www.adobe.com/express/) | Agentic AI assistant integrated into Adobe Express that allows users to create and edit designs through natural, conversational language, aimed at non-design professionals. |
 | **Adopt AI** | [Link](https://www.adopt.ai/) | Enterprise tool integration platform designed to connect AI agents with business applications and workflows. Provides secure, managed connections between agents and enterprise systems with authentication handling, compliance controls, and centralized tool management for production deployments. |
@@ -961,9 +962,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 758
+- **Total Entries:** 759
 - **Categories:** 12
-- **Last Generated:** 2026-06-15
+- **Last Generated:** 2026-06-29
 
 ---
 

@@ -1,0 +1,21 @@
+name: Hivekeep
+url: https://github.com/MarlBurroW/hivekeep
+description: Self-hosted platform to run a team of specialized AI agents with persistent
+  memory and a web UI. Agents collaborate and build their own tools, mini-apps and
+  plugins, and are reachable over Telegram, Slack, Discord and Matrix. Ships as a
+  single container (Bun + SQLite).
+category: open-source-frameworks
+type: platform
+tags:
+  - self-hosted
+  - multi-agent
+  - memory
+  - typescript
+  - plugins
+github_repo: MarlBurroW/hivekeep
+pricing: free
+platform:
+  - TypeScript
+license: MIT
+featured: false
+verified: false

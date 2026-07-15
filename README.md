@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-758-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-759-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-July_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
@@ -81,6 +81,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Griptape** | [GitHub](https://github.com/griptape-ai/griptape) | Modular open-source Python framework for developing AI agent applications with focus on reliability and security. Offers clean abstractions to build agents, systems of agents, pipelines, workflows, and RAG setups with off-prompt business logic definition, memory management, and integration with data sources for production-ready solutions. ![Stars](https://img.shields.io/badge/stars-2556-yellow) |
 | **Haystack** | [GitHub](https://github.com/deepset-ai/haystack) | An open-source AI orchestration framework by deepset for building production-ready LLM applications, retrieval-augmented generation (RAG) pipelines, and intelligent search systems. Haystack provides modular components for connecting models, vector databases, and file converters into customizable pipelines for working with large document collections. ![Stars](https://img.shields.io/badge/stars-25900-yellow) |
 | **Hector** | [GitHub](https://github.com/kadirpekel/hector) | Declarative platform for building Agent-to-Agent (A2A) native AI agents with focus on inter-agent communication. Enables creation of agent ecosystems where agents communicate and collaborate using declarative configuration and standardized protocols. ![Stars](https://img.shields.io/badge/stars-55-yellow) |
+| **Hivekeep** | [GitHub](https://github.com/MarlBurroW/hivekeep) | Self-hosted platform to run a team of specialized AI agents with persistent memory and a web UI. Agents collaborate and build their own tools, mini-apps and plugins, and are reachable over Telegram, Slack, Discord and Matrix. Ships as a single container (Bun + SQLite). |
 | **Hugging Face Transformers Agents** | [Link](https://huggingface.co/docs/transformers/en/agents) | Agent library built into the Hugging Face Transformers ecosystem that allows LLMs to use tools and autonomously execute tasks. Provides seamless integration with Hugging Face models and tools, enabling developers to build agentic applications within the Transformers framework with minimal setup. |
 | **Inngest AgentKit** | [GitHub](https://github.com/inngest/agent-kit) | TypeScript framework for building multi-agent networks with deterministic routing and MCP tooling. AgentKit is designed to run on Inngest's durable execution model for reliable agent workflows. ![Stars](https://img.shields.io/badge/stars-913-yellow) |
 | **JADE** | [Link](https://jade.tilab.com/) | Foundational Java-based multi-agent framework for building FIPA-compliant systems with ACL messaging, agent discovery, and distributed execution. Provides robust infrastructure for industrial and research agent applications with GUI-based debugging tools and support for distributed agent deployment across networks. |
@@ -961,7 +962,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 758
+- **Total Entries:** 759
 - **Categories:** 12
 - **Last Generated:** 2026-07-15
 

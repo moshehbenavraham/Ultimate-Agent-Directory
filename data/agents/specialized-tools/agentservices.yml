@@ -1,0 +1,20 @@
+name: AgentServices
+url: https://agentservices.to
+description: Paid API platform for AI agents with 54 services and 37 MCP tools. Per-call micropayments via x402 protocol on Base (USDC). Crypto prices, market data, analytics, and web services with built-in dispute resolution.
+github_repo: vbkotecha/aiservices-api
+documentation_url: https://agentservices.to/docs
+category: specialized-tools
+type: tool
+tags:
+  - payments
+  - crypto
+  - api-marketplace
+  - x402
+  - mcp
+  - market-data
+license: MIT
+pricing: paid
+last_updated: "2026-07-17"
+added_date: "2026-07-16"
+last_verified: "2026-07-16"
+verified: false

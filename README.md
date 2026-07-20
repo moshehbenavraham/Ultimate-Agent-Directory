@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-758-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-759-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-July_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
@@ -718,6 +718,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Amp** | [Link](https://ampcode.com/) | Sourcegraph's coding agent for terminal and editor workflows. Amp provides multi-model code assistance, task execution, codebase context, and agentic modes for implementing and reviewing changes. |
 | **Augment Code** | [Link](https://www.augmentcode.com/) | Enterprise AI coding assistant and agent platform focused on large codebases. Augment Code provides IDE assistance, codebase-aware chat, autonomous coding workflows, and code review support for engineering teams. |
 | **AutoCodeRover** | [GitHub](https://github.com/AutoCodeRoverSG/auto-code-rover) | Autonomous software engineering agent focused on program improvement and issue resolution. AutoCodeRover combines language models with project-structure awareness to locate context and generate patches. ![Stars](https://img.shields.io/badge/stars-3096-yellow) |
+| **Better Agent** | [GitHub](https://github.com/ofekron/better-agent) | Local workspace for running native Claude Code, Codex, and Gemini CLI coding-agent sessions. Better Agent persists session state, recovers detached runs after restarts, and supports parallel forks, delegation, approval gates, browser and desktop clients, CLI, and SDK access. |
 | **Bito AI** | [Link](https://bito.ai/) | AI coding assistant for code explanation, review, testing, and security analysis. Bito integrates with IDEs and enterprise knowledge bases to support development teams across repository workflows. |
 | **Bolt.new** | [GitHub](https://github.com/stackblitz/bolt.new) | AI-powered in-browser full-stack development agent from StackBlitz. Bolt.new can generate, run, edit, and deploy web applications from prompts using browser runtime infrastructure. ![Stars](https://img.shields.io/badge/stars-16458-yellow) |
 | **Builder.io Visual Copilot** | [Link](https://www.builder.io/m/design-to-code) | AI design-to-code tool from Builder.io for converting Figma designs into frontend code. Visual Copilot targets React, Vue, Svelte, and design-system-aware UI generation workflows. |
@@ -961,9 +962,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 758
+- **Total Entries:** 759
 - **Categories:** 12
-- **Last Generated:** 2026-07-15
+- **Last Generated:** 2026-07-20
 
 ---
 

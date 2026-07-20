@@ -1,0 +1,26 @@
+name: Better Agent
+url: https://github.com/ofekron/better-agent
+description: Local workspace for running native Claude Code, Codex, and Gemini CLI
+  coding-agent sessions. Better Agent persists session state, recovers detached runs
+  after restarts, and supports parallel forks, delegation, approval gates, browser
+  and desktop clients, CLI, and SDK access.
+github_repo: ofekron/better-agent
+category: coding-assistants
+type: platform
+tags:
+  - cli
+  - coding-assistant
+  - desktop-app
+  - local-first
+  - multi-agent
+  - orchestration
+  - self-hosted
+  - workflow
+platform:
+  - Web
+  - Desktop
+  - CLI
+license: Source-available (non-commercial)
+added_date: '2026-07-20'
+last_verified: '2026-07-20'
+verified: true

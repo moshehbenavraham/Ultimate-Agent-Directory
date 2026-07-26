@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-758-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-759-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-July_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
@@ -238,6 +238,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **AI CUDA Engineer** | [Link](https://sakana.ai/ai-cuda-engineer/) | Sakana AI research system for automatically generating, testing, and optimizing CUDA kernels. The agentic workflow translates PyTorch operations into CUDA code and iteratively improves performance through evaluation. |
 | **AI Scientist** | [GitHub](https://github.com/SakanaAI/AI-Scientist) | Sakana AI's autonomous research agent that generates research ideas, writes experiment code, runs studies, analyzes results, and produces paper-style reports with minimal human intervention. ![Stars](https://img.shields.io/badge/stars-14223-yellow) |
 | **CAMEL** | [GitHub](https://github.com/camel-ai/camel) | A research framework that introduces agents that role-play to solve tasks collaboratively through conversational dynamics. CAMEL enables agents to take different roles (user, assistant) and drive problem-solving through dialogue, with implications for training, simulations, and AI alignment research. ![Stars](https://img.shields.io/badge/stars-17389-yellow) |
+| **ClawBench** | [GitHub](https://github.com/TIGER-AI-Lab/ClawBench) | Open-source benchmark for evaluating browser AI agents on live everyday online tasks. It provides 283 tasks across V1 and V2, isolated Docker execution, request interception, and five layers of execution data. ![Stars](https://img.shields.io/badge/stars-525-yellow) |
 | **Darwin Gödel Machine** | [GitHub](https://sakana.ai/dgm/) | Self-improving coding-agent research system from Sakana AI and collaborators. The Darwin Gödel Machine rewrites its own code, evaluates variants on programming benchmarks, and archives successful improvements for open-ended exploration. ![Stars](https://img.shields.io/badge/stars-2178-yellow) |
 | **HAAS** | [GitHub](https://github.com/daveshap/OpenAI_Agent_Swarm) | A groundbreaking research initiative that leverages advanced agent-based APIs to create self-organizing, ethically governed ecosystems of AI agents. HAAS features hierarchical control mechanisms with specialized roles including Supreme Oversight Board and Executive Agents for autonomous system governance. ![Stars](https://img.shields.io/badge/stars-3096-yellow) |
 | **OS-Atlas** | [GitHub](https://github.com/OS-Copilot/OS-Atlas) | Foundation action model for generalist GUI agents. OS-Atlas is trained for screen understanding and action prediction across desktop, mobile, and web interfaces, and is used for downstream computer-use agent research. ![Stars](https://img.shields.io/badge/stars-452-yellow) |
@@ -961,9 +962,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 758
+- **Total Entries:** 759
 - **Categories:** 12
-- **Last Generated:** 2026-07-15
+- **Last Generated:** 2026-07-27
 
 ---
 

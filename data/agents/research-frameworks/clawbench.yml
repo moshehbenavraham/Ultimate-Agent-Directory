@@ -1,0 +1,22 @@
+name: ClawBench
+url: https://github.com/TIGER-AI-Lab/ClawBench
+description: Open-source benchmark for evaluating browser AI agents on live everyday
+  online tasks. It provides 283 tasks across V1 and V2, isolated Docker execution,
+  request interception, and five layers of execution data.
+github_repo: TIGER-AI-Lab/ClawBench
+documentation_url: https://claw-bench.com
+github_stars: 525
+last_updated: '2026-07-16'
+is_archived: false
+category: research-frameworks
+type: research
+tags:
+  - research
+  - benchmark
+  - web-agent
+  - evaluation
+  - browser-automation
+license: Apache-2.0
+added_date: '2026-07-27'
+last_verified: '2026-07-27'
+verified: true

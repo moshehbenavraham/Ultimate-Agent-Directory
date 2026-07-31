@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-758-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-759-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-July_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
@@ -587,6 +587,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Vogent VoiceLab** | [Link](https://www.vogent.ai/voicelab) | All-in-one platform for building, testing, and deploying AI voice agents with access to latest super-realistic voice models including Sesame CSM-1B, Dia, and Orpheus. Features optimized compute for real-time inference with sub-200ms time-to-first-token, supports both zero-shot voice cloning and fine-tuning, and provides unified API for multiple voice model integration. |
 | **Weaviate** | [GitHub](https://github.com/weaviate/weaviate) | Open-source, cloud-native vector database for storing objects and vectors together. Weaviate supports vector search, hybrid keyword and vector retrieval, structured filtering, RAG, reranking, and managed Weaviate Cloud deployments. ![Stars](https://img.shields.io/badge/stars-16598-yellow) |
 | **Weights & Biases Weave** | [Link](https://wandb.ai/site/weave/) | W&B's LLM observability and evaluation toolkit for tracing AI application calls, capturing inputs and outputs, managing evaluation datasets, and comparing model or prompt behavior inside the broader Weights & Biases platform. |
+| **Workforce Wave** | [Link](https://www.workforcewave.com/) | AI voice receptionist platform for small and mid-sized businesses, providing 24/7 inbound call answering, appointment booking, lead capture, and after-hours call coverage. |
 | **Writer** | [Link](https://writer.com/) | Enterprise generative AI platform designed for content creation, editing, and optimization. Provides AI agents for marketing teams to maintain brand consistency and accelerate content production workflows. |
 | **Zapier MCP** | [Link](https://zapier.com/mcp) | Zapier's MCP endpoint for giving AI agents access to Zapier's large library of app actions and automations. It lets agents use business apps through a managed, authenticated MCP tool surface. |
 | **Zep** | [Link](https://www.getzep.com/) | Memory layer for AI assistants and agents that combines long-term memory, knowledge graph extraction, vector search, and temporal reasoning. Zep provides hosted infrastructure for persistent, contextual agent memory. |
@@ -961,9 +962,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 758
+- **Total Entries:** 759
 - **Categories:** 12
-- **Last Generated:** 2026-07-15
+- **Last Generated:** 2026-07-31
 
 ---
 

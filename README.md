@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-758-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-759-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-August_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
@@ -632,6 +632,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **MLE-agent** | [GitHub](https://github.com/MLSysOps/MLE-agent) | Intelligent agent for AI engineering and research, integrating with platforms like arXiv and code repositories to assist in planning and execution. Specializes in machine learning engineering workflows and research project automation. ![Stars](https://img.shields.io/badge/stars-1565-yellow) |
 | **OpenHands** | [GitHub](https://github.com/OpenHands/OpenHands) | Open-source platform for AI-driven software development agents that can browse, edit files, run commands, and work across codebases. OpenHands is the continuation of OpenDevin under the canonical OpenHands project. ![Stars](https://img.shields.io/badge/stars-82720-yellow) |
 | **OpenManus** | [GitHub](https://github.com/mannaandpoem/OpenManus) | Open-source general-purpose autonomous agent project inspired by Manus. OpenManus provides a configurable agent runtime with browser, file, code, and tool-use capabilities for executing multi-step tasks from natural language. ![Stars](https://img.shields.io/badge/stars-610-yellow) |
+| **Orkas** | [GitHub](https://github.com/Orkas-AI/Orkas) | Open-source, local-first desktop AI workforce where a Commander turns goals into executable plans and coordinates specialist agents in parallel or sequence through one chat. It supports compatible local model endpoints and selected remote providers. ![Stars](https://img.shields.io/badge/stars-1018-yellow) |
 | **OS-Copilot** | [GitHub](https://github.com/OS-Copilot/OS-Copilot) | Open-source operating-system agent for automating desktop, file, web, terminal, and application tasks from natural language. OS-Copilot includes the FRIDAY framework for learning and reusing skills across tasks. ![Stars](https://img.shields.io/badge/stars-1791-yellow) |
 | **Poke** | [Link](https://poke.com/) | Personal AI assistant that lives in text messaging and lets users ask for tasks to be handled from a familiar contact-style interface. Poke provides recipes and integrations with tools such as Gmail, Google Calendar, Notion, Linear, Asana, GitHub, Todoist, Supabase, Sentry, Vercel, and more. |
 | **ProAgent** | [GitHub](https://github.com/OpenBMB/ProAgent) | LLM-based agent framework designed for agentic process automation (APA) in enterprise workflows. Focuses on automating complex business processes through intelligent agent orchestration. ![Stars](https://img.shields.io/badge/stars-867-yellow) |
@@ -961,9 +962,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 758
+- **Total Entries:** 759
 - **Categories:** 12
-- **Last Generated:** 2026-08-01
+- **Last Generated:** 2026-08-05
 
 ---
 

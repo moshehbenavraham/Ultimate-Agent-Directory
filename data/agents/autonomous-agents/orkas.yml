@@ -1,0 +1,30 @@
+name: Orkas
+url: https://github.com/Orkas-AI/Orkas
+description: Open-source, local-first desktop AI workforce where a Commander turns
+  goals into executable plans and coordinates specialist agents in parallel or sequence
+  through one chat. It supports compatible local model endpoints and selected remote
+  providers.
+category: autonomous-agents
+type: platform
+tags:
+  - automation
+  - autonomous-agent
+  - cross-platform
+  - local-first
+  - multi-agent
+  - orchestration
+  - productivity
+  - workflow
+github_repo: Orkas-AI/Orkas
+platform:
+  - TypeScript
+  - Electron
+license: MIT
+pricing: freemium
+github_stars: 1018
+last_updated: '2026-07-29'
+is_archived: false
+featured: false
+verified: true
+added_date: '2026-08-05'
+last_verified: '2026-08-05'

@@ -1,0 +1,19 @@
+name: Hermes Tweet
+url: https://github.com/Xquik-dev/hermes-tweet
+description: Native Hermes Agent plugin for X/Twitter search, timelines, follower
+  exports, monitoring, and posting through Xquik. It separates catalog discovery,
+  reads, and actions, with actions disabled by default.
+github_repo: Xquik-dev/hermes-tweet
+last_updated: '2026-08-13'
+github_stars: 27
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-06-18'
+verified: true
+type: tool
+tags:
+  - hermes-agent
+  - plugins
+  - social-media
+  - automation
+  - integration

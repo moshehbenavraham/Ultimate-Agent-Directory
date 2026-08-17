@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-758-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-759-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-August_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
@@ -941,6 +941,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Hermes OTel** | [GitHub](https://github.com/briancaffey/hermes-otel) | OpenTelemetry plugin for Hermes Agent with examples for sending traces and telemetry to observability backends such as Arize Phoenix, Grafana Tempo, Jaeger, Langfuse, OpenInference, SigNoz, and related OTel-compatible systems. ![Stars](https://img.shields.io/badge/stars-51-yellow) |
 | **Hermes Paperclip Adapter** | [GitHub](https://github.com/NousResearch/hermes-paperclip-adapter) | Official Nous Research adapter for running Hermes Agent as a managed employee in a Paperclip company. Bridges Hermes into Paperclip-style task assignment, governance, and managed agent operations. ![Stars](https://img.shields.io/badge/stars-1803-yellow) |
 | **Hermes Plugins** | [GitHub](https://github.com/42-evey/hermes-plugins) | Community plugin collection for Hermes Agent covering goal management, inter-agent bridges, model selection, and cost control. Useful for operators who run multiple Hermes instances or need more governance around model and budget choices. ![Stars](https://img.shields.io/badge/stars-401-yellow) |
+| **Hermes Tweet** | [GitHub](https://github.com/Xquik-dev/hermes-tweet) | Native Hermes Agent plugin for X/Twitter search, timelines, follower exports, monitoring, and posting through Xquik. It separates catalog discovery, reads, and actions, with actions disabled by default. ![Stars](https://img.shields.io/badge/stars-27-yellow) |
 | **Hermes Web UI (EKKOLearnAI)** | [GitHub](https://github.com/EKKOLearnAI/hermes-web-ui) | Vue-based web dashboard for Hermes Agent with multi-platform chat, session management, scheduled jobs, usage analytics, and channel configuration for Telegram, Discord, Slack, and WhatsApp deployments. ![Stars](https://img.shields.io/badge/stars-10225-yellow) |
 | **Hermes WebUI (nesquena)** | [GitHub](https://github.com/nesquena/hermes-webui) | Community web and mobile-friendly interface for Hermes Agent. Provides a browser-based way to operate Hermes from a phone or desktop, with companion site get-hermes.ai for setup references and ecosystem links. ![Stars](https://img.shields.io/badge/stars-17345-yellow) |
 | **Hermes Workspace** | [GitHub](https://github.com/outsourc-e/hermes-workspace) | Native web workspace for Hermes Agent with chat, terminal, memory, skills, and inspector surfaces. Built as a Hermes-focused operations workspace for users who want a richer browser control plane around the agent runtime. ![Stars](https://img.shields.io/badge/stars-6431-yellow) |
@@ -961,9 +962,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 758
+- **Total Entries:** 759
 - **Categories:** 12
-- **Last Generated:** 2026-08-15
+- **Last Generated:** 2026-08-18
 
 ---
 

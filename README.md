@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-758-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-759-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-August_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
@@ -125,6 +125,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Ray** | [Link](https://www.ray.io/) | Python framework for distributed computing that excels in multi-agent reinforcement learning and real-time decision systems. Scales agents across clusters using actor model for parallel execution, critical for training and deploying sophisticated multi-agent reinforcement learning applications in production environments. |
 | **RestGPT** | [GitHub](https://github.com/Yifan-Song793/RestGPT) | LLM-based agent designed to control real-world applications by interacting with RESTful APIs. Enables agents to interact with web services and APIs for practical task execution, bridging LLM capabilities with real-world application integration. ![Stars](https://img.shields.io/badge/stars-1403-yellow) |
 | **Rig** | [GitHub](https://github.com/0xPlaygrounds/rig) | Rust framework for building modular LLM applications and agentic workflows. Rig provides provider integrations, vector-store support, and scalable abstractions for Rust-native agent and RAG applications. ![Stars](https://img.shields.io/badge/stars-8268-yellow) |
+| **SandBase Harness** | [GitHub](https://github.com/sandbaseai/sandbase-harness) | Open-source TypeScript runtime for stateful AI agents with sessions, tool and MCP integration, persistent memory, permission policies, credential storage, audit trails, and local, Docker, Kubernetes, or worker-based execution. ![Stars](https://img.shields.io/badge/stars-623-yellow) |
 | **Semantic Kernel** | [GitHub](https://github.com/microsoft/semantic-kernel) | Microsoft's open-source SDK for integrating AI Large Language Models with conventional programming languages including C#, Python, and Java. Semantic Kernel serves as middleware that enables rapid delivery of enterprise-grade AI solutions with built-in planning capabilities and seamless integration with existing business systems. ![Stars](https://img.shields.io/badge/stars-28449-yellow) |
 | **Smolagents** | [GitHub](https://github.com/huggingface/smolagents) | A Hugging Face framework for building AI agents that integrates seamlessly with the Hugging Face ecosystem. Smolagents provides tools for creating intelligent agents capable of data retrieval, summarization, and code execution, with strong community engagement and regular updates. ![Stars](https://img.shields.io/badge/stars-28808-yellow) |
 | **Spring AI** | [GitHub](https://github.com/spring-projects/spring-ai) | Spring application framework for AI engineering. Spring AI integrates model providers, vector stores, embeddings, tool calling, RAG pipelines, and agentic patterns into the Spring and Spring Boot ecosystem. ![Stars](https://img.shields.io/badge/stars-9300-yellow) |
@@ -961,9 +962,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 758
+- **Total Entries:** 759
 - **Categories:** 12
-- **Last Generated:** 2026-08-15
+- **Last Generated:** 2026-08-19
 
 ---
 

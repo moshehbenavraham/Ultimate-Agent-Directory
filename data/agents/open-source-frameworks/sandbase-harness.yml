@@ -1,0 +1,28 @@
+name: SandBase Harness
+url: https://github.com/sandbaseai/sandbase-harness
+description: Open-source TypeScript runtime for stateful AI agents with sessions,
+  tool and MCP integration, persistent memory, permission policies, credential
+  storage, audit trails, and local, Docker, Kubernetes, or worker-based execution.
+github_repo: sandbaseai/sandbase-harness
+documentation_url: https://github.com/sandbaseai/sandbase-harness/tree/main/docs
+github_stars: 623
+last_updated: '2026-08-19'
+is_archived: false
+category: open-source-frameworks
+tags:
+  - docker
+  - kubernetes
+  - mcp
+  - memory
+  - sandbox
+  - security
+  - self-hosted
+  - typescript
+platform:
+  - TypeScript
+license: Apache-2.0
+pricing: free
+added_date: '2026-08-19'
+last_verified: '2026-08-19'
+verified: true
+type: framework

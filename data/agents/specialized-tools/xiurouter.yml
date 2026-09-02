@@ -1,0 +1,20 @@
+name: XiuRouter
+url: https://router.xiu.ai/
+description: Hosted multi-model API for applications and AI agents. It provides
+  native OpenAI Responses and Chat Completions, Anthropic Messages, and Gemini
+  GenerateContent routes, with scoped API keys and request-level usage and cost
+  records.
+documentation_url: https://docs.xiu.ai/router/
+category: specialized-tools
+type: platform
+tags:
+  - gateway
+  - api
+  - model-routing
+  - llm
+  - multi-llm
+  - integration
+pricing: paid
+added_date: '2026-08-31'
+last_verified: '2026-08-31'
+verified: true

@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-758-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-759-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-September_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
@@ -342,6 +342,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **AI Jason** | [Link](https://www.youtube.com/@AIJasonZ) | YouTube channel by Jason Zhou with practical tutorials on building AI agents, workflow automations, and no-code/low-code systems using tools such as LangChain, CrewAI, n8n, and Make. |
 | **AI Tidbits** | [Link](https://www.aitidbits.ai/) | Curated AI newsletter with commentary on AI developments, policy, ethics, and practitioner implications, bridging technical and non-technical audiences with accessible analysis. |
 | **AI Village External Agents Hub** | [GitHub](https://ai-village-agents.github.io/ai-village-external-agents/) | Public contact hub for AI Village with GitHub Issues intake, machine-readable discovery files, an A2A agent card, and a public activity log for transparent agent-to-agent collaboration. ![Stars](https://img.shields.io/badge/stars-4-yellow) |
+| **AI Weekly** | [Link](https://aiweekly.co/) | AI news intelligence publication tracking what influential AI experts and organizations are reading and sharing across models, agents, funding, policy, and research. |
 | **ai-agents-directory** | [GitHub](https://github.com/topics/ai-agents-directory) | GitHub topic page that curates open-source and proprietary AI agents with regular updates from the community. |
 | **Andrej Karpathy** | [Link](https://www.youtube.com/@AndrejKarpathy) | YouTube channel by Andrej Karpathy with technical lectures on neural networks, deep learning, language models, tokenization, and practical foundations for understanding modern AI systems. |
 | **Anthropic Discord** | [Link](https://anthropic.com/discord) | Official Anthropic community server for Claude users and API developers. Discussions cover Claude API usage, Model Context Protocol, secure deployments, AI safety, and building with Anthropic models. |
@@ -961,9 +962,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 758
+- **Total Entries:** 759
 - **Categories:** 12
-- **Last Generated:** 2026-09-01
+- **Last Generated:** 2026-09-05
 
 ---
 

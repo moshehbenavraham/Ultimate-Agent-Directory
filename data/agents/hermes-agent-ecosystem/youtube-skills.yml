@@ -4,8 +4,8 @@ description: Portable YouTube Transcript API skills for AI agents. Adds transcri
   retrieval, video search, and channel browsing workflows that work with Hermes
   Agent, OpenClaw, Claude Code, Cursor, and Windsurf.
 github_repo: ZeroPointRepo/youtube-skills
-last_updated: '2026-08-25'
-github_stars: 586
+last_updated: '2026-09-08'
+github_stars: 867
 is_archived: false
 category: hermes-agent-ecosystem
 added_date: '2026-05-04'

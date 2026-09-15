@@ -6,7 +6,7 @@ description: Open-source benchmark framework for evaluating web operators and ag
 github_repo: nottelabs/open-operator-evals
 github_stars: 47
 last_updated: '2025-04-11'
-is_archived: false
+is_archived: true
 category: specialized-tools
 added_date: '2025-11-05'
 verified: false

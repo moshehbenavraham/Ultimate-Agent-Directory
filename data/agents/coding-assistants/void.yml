@@ -5,7 +5,7 @@ description: Open-source AI code editor and Cursor alternative built from VS Cod
   and keep more control over coding-assistant data flow.
 github_repo: voideditor/void
 documentation_url: https://voideditor.com
-github_stars: 28819
+github_stars: 28800
 last_updated: '2026-06-02'
 is_archived: true
 category: coding-assistants

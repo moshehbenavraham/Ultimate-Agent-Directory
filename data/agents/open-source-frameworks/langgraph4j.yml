@@ -5,8 +5,8 @@ description: Java implementation of LangGraph for building agentic architectures
   graph-based, stateful agent workflows.
 github_repo: langgraph4j/langgraph4j
 documentation_url: https://langgraph4j.github.io/langgraph4j/
-github_stars: 1960
-last_updated: '2026-08-31'
+github_stars: 2000
+last_updated: '2026-09-14'
 is_archived: false
 category: open-source-frameworks
 tags:

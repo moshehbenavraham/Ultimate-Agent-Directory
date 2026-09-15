@@ -5,8 +5,8 @@ description: Vision-driven UI automation framework for web and mobile interfaces
   that interacts with UI through visual understanding.
 github_repo: web-infra-dev/midscene
 documentation_url: https://midscenejs.com
-github_stars: 14751
-last_updated: '2026-09-01'
+github_stars: 14898
+last_updated: '2026-09-15'
 is_archived: false
 category: browser-automation
 tags:

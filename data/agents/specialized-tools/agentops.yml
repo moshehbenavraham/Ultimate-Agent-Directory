@@ -5,7 +5,7 @@ description: Open-source Python SDK for AI agent observability providing session
   execution tracking, LLM call logging, cost analysis, and performance metrics for
   debugging and optimizing multi-agent systems.
 github_repo: AgentOps-AI/agentops
-github_stars: 5805
+github_stars: 5817
 last_updated: '2026-06-25'
 is_archived: false
 category: specialized-tools

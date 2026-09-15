@@ -14,8 +14,8 @@ tags:
   - postgresql
   - docker
 github_repo: cookiecutter/cookiecutter-django
-github_stars: 13605
-last_updated: '2026-09-01'
+github_stars: 13607
+last_updated: '2026-09-15'
 is_archived: false
 license: BSD-3-Clause
 key_features:

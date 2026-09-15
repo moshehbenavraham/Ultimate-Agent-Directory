@@ -5,7 +5,7 @@ description: Declarative platform for building Agent-to-Agent (A2A) native AI ag
   agents communicate and collaborate using declarative configuration and standardized
   protocols.
 github_repo: kadirpekel/hector
-github_stars: 58
+github_stars: 60
 last_updated: '2026-05-18'
 is_archived: false
 category: open-source-frameworks

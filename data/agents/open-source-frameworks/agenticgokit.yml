@@ -5,7 +5,7 @@ description: Go framework for building, orchestrating, and deploying LLM-agnosti
   MCP tool discovery, and production observability.
 github_repo: AgenticGoKit/AgenticGoKit
 documentation_url: https://docs.agenticgokit.com
-github_stars: 173
+github_stars: 177
 last_updated: '2026-08-01'
 is_archived: false
 category: open-source-frameworks

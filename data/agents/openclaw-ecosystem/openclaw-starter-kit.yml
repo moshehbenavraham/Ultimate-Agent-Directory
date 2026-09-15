@@ -6,7 +6,7 @@ description: Battle-tested workspace template for OpenClaw with a pre-configured
   strategic radar folder, SQUAD.md multi-agent setup guide, policies.json for auto-approve
   rules, and reaction-matrix.json for emergent agent-to-agent event triggers.
 github_repo: jeffweisbein/openclaw-starter-kit
-last_updated: '2026-08-02'
+last_updated: '2026-09-13'
 github_stars: 70
 is_archived: false
 category: openclaw-ecosystem

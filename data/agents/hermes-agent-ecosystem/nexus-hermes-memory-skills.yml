@@ -5,7 +5,7 @@ description: Memory hygiene skills for Hermes Agent, including dreaming-style
   for operators tuning long-running personal agents with growing memory stores.
 github_repo: nexus9888/hermes-memory-skills
 last_updated: '2026-06-03'
-github_stars: 45
+github_stars: 46
 is_archived: false
 category: hermes-agent-ecosystem
 added_date: '2026-05-04'

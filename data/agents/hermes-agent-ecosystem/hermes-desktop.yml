@@ -5,7 +5,7 @@ description: Native Mac companion for managing remote Hermes Agent instances ove
   gateway ports, running a browser layer, or opening additional remote services.
 github_repo: dodo-reach/hermes-desktop
 last_updated: '2026-06-19'
-github_stars: 2008
+github_stars: 2022
 is_archived: false
 category: hermes-agent-ecosystem
 added_date: '2026-05-04'

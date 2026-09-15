@@ -5,7 +5,7 @@ description: Self-hosted browser dashboard for the Hermes Agent stack with a
   agent status panel behind a single password gate.
 github_repo: xaspx/hermes-control-interface
 last_updated: '2026-06-28'
-github_stars: 889
+github_stars: 893
 is_archived: false
 category: hermes-agent-ecosystem
 added_date: '2026-05-04'

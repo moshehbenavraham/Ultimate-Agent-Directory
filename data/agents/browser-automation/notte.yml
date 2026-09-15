@@ -5,8 +5,8 @@ description: Framework for building reliable browser-using AI agents and serverl
   browser infrastructure, and AI-assisted web task execution.
 github_repo: nottelabs/notte
 documentation_url: https://www.notte.cc/
-github_stars: 1999
-last_updated: '2026-08-31'
+github_stars: 2002
+last_updated: '2026-09-14'
 is_archived: false
 category: browser-automation
 tags:

@@ -5,8 +5,8 @@ description: Software engineering agent that takes GitHub issues and attempts to
   used for security research and competitive coding workflows.
 github_repo: SWE-agent/SWE-agent
 documentation_url: https://swe-agent.com
-github_stars: 20179
-last_updated: '2026-08-31'
+github_stars: 20327
+last_updated: '2026-09-14'
 is_archived: false
 category: autonomous-agents
 tags:

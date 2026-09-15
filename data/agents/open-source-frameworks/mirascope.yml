@@ -5,8 +5,8 @@ description: Minimal Python and TypeScript library for building LLM applications
   Mirascope focuses on lightweight abstractions over provider APIs.
 github_repo: Mirascope/mirascope
 documentation_url: https://mirascope.com
-github_stars: 1524
-last_updated: '2026-08-29'
+github_stars: 1526
+last_updated: '2026-09-13'
 is_archived: false
 category: open-source-frameworks
 tags:

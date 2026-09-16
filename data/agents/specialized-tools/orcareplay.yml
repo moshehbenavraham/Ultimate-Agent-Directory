@@ -1,0 +1,24 @@
+name: OrcaReplay
+url: https://github.com/Continuum-AI-Corp/OrcaReplay
+description: Records a coding agent's exchange with its model provider at the HTTP boundary and replays the run offline with no model called, turning a failed session into a repeatable regression case. Replay can fork from any step onto a different model, keeping everything before the fork byte-identical so the model is the only variable.
+github_repo: Continuum-AI-Corp/OrcaReplay
+github_stars: 248
+last_updated: '2026-09-16'
+is_archived: false
+category: specialized-tools
+subcategory: Testing & QA
+type: tool
+tags:
+  - testing
+  - observability
+  - qa
+  - debugging
+  - record-replay
+  - cli
+platform:
+  - CLI
+pricing: free
+featured: false
+verified: true
+added_date: '2026-09-16'
+last_verified: '2026-09-16'

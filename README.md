@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-758-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-759-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-September_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
@@ -461,6 +461,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Atlassian Rovo MCP Server** | [GitHub](https://github.com/atlassian/atlassian-mcp-server) | Atlassian's Rovo MCP server for connecting agents to Jira, Confluence, Compass, and Atlassian work data. It supports search, summarization, issue creation, page updates, and remote MCP access with enterprise controls. ![Stars](https://img.shields.io/badge/stars-1037-yellow) |
 | **Aymara AI** | [Link](https://www.aymara.ai/) | Automated evaluation and governance platform for generative AI systems. Aymara generates policy-grounded safety, accuracy, fairness, and compliance evaluations, scores model or application responses, and helps teams monitor and improve deployed AI behavior. |
 | **Bespoke Curator** | [GitHub](https://github.com/bespokelabsai/curator) | Open-source Python library for synthetic data curation, post-training data generation, and structured data extraction. Bespoke Curator helps teams build scalable LLM-powered data pipelines with async execution, caching, fault recovery, interactive viewing, and dataset curation recipes. ![Stars](https://img.shields.io/badge/stars-1729-yellow) |
+| **Bifrost** | [GitHub](https://github.com/maximhq/bifrost) | Open-source Go AI gateway providing an OpenAI-compatible API for multi-provider routing, fallbacks, MCP, virtual-key governance, and request observability. ![Stars](https://img.shields.io/badge/stars-8116-yellow) |
 | **Bland AI** | [Link](https://www.bland.ai/) | Enterprise voice AI platform for automating inbound and outbound phone calls. Bland AI provides phone agents, call APIs, webhooks, workflow integrations, simulations, regression testing, analytics, and custom voice experiences for large-scale customer communication. |
 | **Braintrust** | [Link](https://www.braintrust.dev/) | Enterprise-grade AI product stack providing evaluations, prompt playground, logging, and dataset management for AI agents. Offers end-to-end workflow for building reliable AI products with continuous evaluation, prompt optimization, and production monitoring capabilities. |
 | **Cal.ai** | [Link](https://cal.com/ai) | AI-powered phone call automation for scheduling built into Cal.com, featuring customizable human-like conversations that reduce no-shows and boost conversions. Allows users to assign dedicated phone numbers, write custom script prompts, define agent personality and tone, trigger calls on form submission or before meetings, and automate booking workflows at $0.29 per minute. |
@@ -961,9 +962,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 758
+- **Total Entries:** 759
 - **Categories:** 12
-- **Last Generated:** 2026-09-15
+- **Last Generated:** 2026-09-16
 
 ---
 

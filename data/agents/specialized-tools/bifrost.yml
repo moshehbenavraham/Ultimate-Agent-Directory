@@ -1,0 +1,26 @@
+name: Bifrost
+url: https://github.com/maximhq/bifrost
+description: Open-source Go AI gateway providing an OpenAI-compatible API for multi-provider routing, fallbacks, MCP, virtual-key governance, and request observability.
+github_repo: maximhq/bifrost
+documentation_url: https://docs.getbifrost.ai/overview
+category: specialized-tools
+type: platform
+tags:
+  - gateway
+  - api
+  - model-routing
+  - observability
+  - mcp
+  - governance
+  - open-source
+  - go
+license: Apache-2.0
+pricing: free
+platform:
+  - Go
+github_stars: 8116
+last_updated: '2026-09-16'
+is_archived: false
+added_date: '2026-09-16'
+last_verified: '2026-09-16'
+verified: true

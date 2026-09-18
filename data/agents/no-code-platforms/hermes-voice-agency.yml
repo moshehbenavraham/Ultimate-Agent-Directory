@@ -1,0 +1,22 @@
+name: Hermes Voice Agency
+url: https://buildwithhermes.com
+description: A white-label platform for agencies that build and operate AI voice
+  agents for their clients. Hermes combines LLM-driven inbound and outbound phone
+  agents with a built-in CRM, campaign orchestration, per-client workspaces, and
+  usage-based billing, so an agency can run voice agents for multiple clients under
+  its own brand without assembling a separate voice API, CRM, automation tool, and
+  billing stack.
+github_repo: null
+category: no-code-platforms
+type: platform
+tags:
+  - voice-agents
+  - white-label
+  - crm
+  - contact-center
+  - no-code
+  - saas
+  - commercial
+pricing: paid
+added_date: '2026-08-19'
+verified: false

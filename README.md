@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-759-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-761-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-September_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
@@ -481,6 +481,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Composio** | [GitHub](https://github.com/ComposioHQ/composio) | Platform and SDK for connecting AI agents to external tools, authenticated apps, and sandboxed workbench environments. Composio provides toolkits, tool search, context management, auth handling, and integrations for production agents that need to act across third-party services. ![Stars](https://img.shields.io/badge/stars-30172-yellow) |
 | **CyberArk** | [Link](https://www.cyberark.com/) | Enterprise security platform designed to secure autonomous AI agents themselves, addressing the new security risks and access-management challenges created when agents are deployed in sensitive environments. |
 | **Datadog** | [Link](https://www.datadoghq.com/) | Application performance monitoring platform with AI-powered agents for distributed tracing, root cause analysis, and proactive application improvement. Features Bits AI for data querying and automated remediation suggestions. |
+| **Dedicated Mac Mini AI Bot Setup** | [GitHub](https://www.emadibrahim.com/bot-setup/mac-mini-ai-agent-setup) | Managed Mac mini AI operator setup service for founders and operators who want Telegram or Discord access to frontier-model automation across marketing, SEO, inbox, coding, deployment, research, and operations workflows. Includes a hosted read-only MCP endpoint for offer and queue metadata, with human-reviewed setup before payment. |
 | **DeepEval** | [GitHub](https://github.com/confident-ai/deepeval) | Open-source LLM evaluation framework with a pytest-like interface. DeepEval provides metrics for RAG, hallucination, answer relevance, bias, and custom criteria, with Confident AI offering a managed evaluation platform. ![Stars](https://img.shields.io/badge/stars-18271-yellow) |
 | **Deepgram Voice Agent API** | [Link](https://deepgram.com/product/voice-agent-api) | Unified voice agent API that combines Deepgram speech-to-text, text-to-speech, and LLM orchestration for real-time conversational AI. It supports streaming audio, interruption handling, function calls, and developer controls for building responsive voice agents. |
 | **Distilabel** | [GitHub](https://github.com/argilla-io/distilabel) | Open-source framework from Argilla for building synthetic data and AI feedback pipelines. Distilabel generates and labels datasets with LLMs, supports preference and evaluation data workflows, and provides scalable pipeline primitives for fine-tuning and alignment datasets. ![Stars](https://img.shields.io/badge/stars-3392-yellow) |
@@ -597,6 +598,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | Framework | Repository | Description |
 |-----------|------------|-------------|
 | **Cekura** | [Link](https://www.cekura.io/) | End-to-end quality assurance platform for conversational AI agents providing automated testing, observability, and monitoring for voice and chat bots. Covers full agent lifecycle from pre-production simulation to post-deployment analytics with real-time failure alerts and regression tracking. |
+| **OrcaReplay** | [GitHub](https://github.com/Continuum-AI-Corp/OrcaReplay) | Records a coding agent's exchange with its model provider at the HTTP boundary and replays the run offline with no model called, turning a failed session into a repeatable regression case. Replay can fork from any step onto a different model, keeping everything before the fork byte-identical so the model is the only variable. ![Stars](https://img.shields.io/badge/stars-248-yellow) |
 
 
 
@@ -962,9 +964,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 759
+- **Total Entries:** 761
 - **Categories:** 12
-- **Last Generated:** 2026-09-16
+- **Last Generated:** 2026-09-18
 
 ---
 

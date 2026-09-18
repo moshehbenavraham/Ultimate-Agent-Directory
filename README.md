@@ -175,6 +175,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Glide** | [Link](https://www.glideapps.com/) | No-code app builder for turning spreadsheets, databases, and business data into web and mobile apps. Glide includes AI actions, automation, custom apps, and workflow features for internal tools and operational software. |
 | **GoHighLevel AI** | [Link](https://www.gohighlevel.com/) | Agency-focused CRM and marketing automation platform with AI conversation agents, voice AI, appointment booking, lead follow-up, and a no-code workflow builder for sales and customer engagement automations. |
 | **Gumloop** | [Link](https://gumloop.com/) | A no-code platform for creating AI-powered workflow automations using visual node-based flows with 100+ pre-built nodes. Gumloop combines AI integrations for data enrichment, reporting, and intelligent decision-making, enabling users to build complex automated processes without programming knowledge. |
+| **Hermes Voice Agency** | [Link](https://buildwithhermes.com/) | A white-label platform for agencies that build and operate AI voice agents for their clients. Hermes combines LLM-driven inbound and outbound phone agents with a built-in CRM, campaign orchestration, per-client workspaces, and usage-based billing, so an agency can run voice agents for multiple clients under its own brand without assembling a separate voice API, CRM, automation tool, and billing stack. |
 | **Huginn** | [GitHub](https://github.com/huginn/huginn) | Open-source self-hosted automation system for creating agents that monitor websites, watch for events, transform data, and trigger actions. Huginn is a privacy-friendly alternative to hosted automation services. ![Stars](https://img.shields.io/badge/stars-49943-yellow) |
 | **Hyperagent** | [Link](https://www.hyperagent.com/) | Team agent platform for creating persistent cloud agents with prompts, tool access, skills, memories, model settings, and budget controls. Hyperagent agents can browse websites, analyze data, generate media and apps, use existing services, run through Slack, MCP, or cron, and track quality with rubrics and A/B tests. |
 | **Kommunicate** | [Link](https://www.kommunicate.io/product/generative-ai-chatbot/) | Generative AI chatbot and customer service automation platform with no-code bot setup, website and app chat widgets, live-agent handoff, omnichannel support, and integrations with major LLM and help desk systems. |
@@ -964,7 +965,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 - **Total Entries:** 759
 - **Categories:** 12
-- **Last Generated:** 2026-09-16
+- **Last Generated:** 2026-09-18
 
 ---
 

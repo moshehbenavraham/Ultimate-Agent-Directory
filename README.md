@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-759-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-761-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-September_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
@@ -503,6 +503,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **HoneyHive** | [Link](https://www.honeyhive.ai/) | AI evaluation and observability platform for production LLM apps. HoneyHive records traces, manages evaluation datasets, supports human annotation, and runs regression tests for prompt and agent changes. |
 | **Hume EVI** | [Link](https://www.hume.ai/empathic-voice-interface) | Hume's Empathic Voice Interface for building voice AI that can understand and respond to vocal emotion in real time. EVI combines speech recognition, emotion understanding, language modeling, and voice output for emotionally responsive conversational agents. |
 | **IBM BeeAI** | [Link](https://github.com/i-am-bee/beeai-framework) | IBM Research project for observability and debugging of agentic AI systems. Provides tools for tracing agent reasoning, visualizing decision trees, and analyzing multi-agent interactions for research and production deployments. |
+| **IdeaHunter** | [Link](https://ideahunter.today/) | AI-assisted research workflow for solo founders to find demand-backed app and micro-SaaS ideas using public signals, buyer pain, market evidence, MVP scope, and monetization paths rather than generic brainstorming. |
 | **Ingram Micro Xvantage** | [Link](https://www.ingrammicro.com/en-us/solutions/xvantage) | AI agent built with Google Gemini models embedded in the Xvantage distribution platform, designed to provide actionable daily briefs and data-driven recommendations to sales teams. |
 | **Inspect AI** | [GitHub](https://github.com/UKGovernmentBEIS/inspect_ai) | Open-source framework for large language model evaluations from the UK AI Safety Institute. Inspect AI supports multi-turn tasks, agent evaluations, sandboxed code execution, scorers, datasets, and reproducible eval runs. ![Stars](https://img.shields.io/badge/stars-2773-yellow) |
 | **Instantly.ai** | [Link](https://instantly.ai/) | AI-powered email outreach platform that automates sales prospecting with unlimited email account connections, AI personalization, and campaign analytics. Focuses on scaling cold email outreach with deliverability optimization. |
@@ -597,6 +598,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | Framework | Repository | Description |
 |-----------|------------|-------------|
 | **Cekura** | [Link](https://www.cekura.io/) | End-to-end quality assurance platform for conversational AI agents providing automated testing, observability, and monitoring for voice and chat bots. Covers full agent lifecycle from pre-production simulation to post-deployment analytics with real-time failure alerts and regression tracking. |
+| **OrcaReplay** | [GitHub](https://github.com/Continuum-AI-Corp/OrcaReplay) | Records a coding agent's exchange with its model provider at the HTTP boundary and replays the run offline with no model called, turning a failed session into a repeatable regression case. Replay can fork from any step onto a different model, keeping everything before the fork byte-identical so the model is the only variable. ![Stars](https://img.shields.io/badge/stars-248-yellow) |
 
 
 
@@ -962,9 +964,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 759
+- **Total Entries:** 761
 - **Categories:** 12
-- **Last Generated:** 2026-09-16
+- **Last Generated:** 2026-09-18
 
 ---
 

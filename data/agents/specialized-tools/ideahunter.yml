@@ -1,0 +1,20 @@
+name: IdeaHunter
+url: https://ideahunter.today
+description: AI-assisted research workflow for solo founders to find demand-backed
+  app and micro-SaaS ideas using public signals, buyer pain, market evidence, MVP
+  scope, and monetization paths rather than generic brainstorming.
+documentation_url: https://ideahunter.today/methodology
+category: specialized-tools
+type: tool
+tags:
+  - research
+  - saas
+  - automation
+  - analytics
+pricing: freemium
+platform:
+  - Web
+license: Proprietary
+featured: false
+verified: false
+added_date: '2026-09-18'

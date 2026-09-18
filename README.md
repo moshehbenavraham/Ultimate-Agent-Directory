@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-759-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-761-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-September_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
@@ -597,6 +597,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | Framework | Repository | Description |
 |-----------|------------|-------------|
 | **Cekura** | [Link](https://www.cekura.io/) | End-to-end quality assurance platform for conversational AI agents providing automated testing, observability, and monitoring for voice and chat bots. Covers full agent lifecycle from pre-production simulation to post-deployment analytics with real-time failure alerts and regression tracking. |
+| **OrcaReplay** | [GitHub](https://github.com/Continuum-AI-Corp/OrcaReplay) | Records a coding agent's exchange with its model provider at the HTTP boundary and replays the run offline with no model called, turning a failed session into a repeatable regression case. Replay can fork from any step onto a different model, keeping everything before the fork byte-identical so the model is the only variable. ![Stars](https://img.shields.io/badge/stars-248-yellow) |
 
 
 
@@ -677,6 +678,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Hyperbrowser** | [Link](https://hyperbrowser.ai/) | Cloud browser platform for automated browser sessions at scale. Hyperbrowser supports browser-use agents, computer-use models, stealth browsing, integrations, and hosted infrastructure for web automation. |
 | **HyperWrite Personal Assistant** | [Link](https://www.hyperwriteai.com/personal-assistant) | Browser-based AI personal assistant that can research, manage email, fill forms, and complete online tasks through HyperWrite's Chrome extension and web assistant experience. |
 | **Jina AI Reader** | [GitHub](https://github.com/jina-ai/reader) | Open-source service for converting URLs into LLM-friendly Markdown input. Jina AI Reader supports simple URL prefixes for page reading and search workflows used by agents and RAG systems. ![Stars](https://img.shields.io/badge/stars-11991-yellow) |
+| **Keel** | [GitHub](https://github.com/KeelDev-tech/keel) | Open-core (Apache-2.0) job-application autopilot — an AI browser agent that discovers matching roles, tailors resumes truthfully, and only ever claims what you told it is true. Truthfulness gates, explicit confirmation, fail closed; self-hosted with human approval at every step. |
 | **LaVague** | [GitHub](https://github.com/lavague-ai/LaVague) | Open-source framework for building AI web agents that can operate web interfaces. LaVague combines LLM planning with Selenium or Playwright execution for browser task automation and QA workflows. ![Stars](https://img.shields.io/badge/stars-6388-yellow) |
 | **Magnitude** | [GitHub](https://github.com/magnitudedev/browser-agent) | Open-source vision-first browser agent and test runner. Magnitude uses pixel-level browser interaction for natural-language browser automation and evaluation workflows. ![Stars](https://img.shields.io/badge/stars-4128-yellow) |
 | **Midscene.js** | [GitHub](https://github.com/web-infra-dev/midscene) | Vision-driven UI automation framework for web and mobile interfaces. Midscene.js lets developers write natural-language or TypeScript/YAML automation that interacts with UI through visual understanding. ![Stars](https://img.shields.io/badge/stars-14898-yellow) |
@@ -962,9 +964,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 759
+- **Total Entries:** 761
 - **Categories:** 12
-- **Last Generated:** 2026-09-16
+- **Last Generated:** 2026-09-18
 
 ---
 

@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-759-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-761-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-September_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
@@ -597,6 +597,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | Framework | Repository | Description |
 |-----------|------------|-------------|
 | **Cekura** | [Link](https://www.cekura.io/) | End-to-end quality assurance platform for conversational AI agents providing automated testing, observability, and monitoring for voice and chat bots. Covers full agent lifecycle from pre-production simulation to post-deployment analytics with real-time failure alerts and regression tracking. |
+| **OrcaReplay** | [GitHub](https://github.com/Continuum-AI-Corp/OrcaReplay) | Records a coding agent's exchange with its model provider at the HTTP boundary and replays the run offline with no model called, turning a failed session into a repeatable regression case. Replay can fork from any step onto a different model, keeping everything before the fork byte-identical so the model is the only variable. ![Stars](https://img.shields.io/badge/stars-248-yellow) |
 
 
 
@@ -766,6 +767,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Tempo Labs** | [Link](https://www.tempolabs.ai/) | AI-powered React frontend builder for product teams. Tempo Labs generates component trees from prompts or Figma designs, supports collaborative editing, and exports code through Git-based workflows. |
 | **Trae Agent** | [GitHub](https://github.com/bytedance/trae-agent) | Open-source CLI agent from ByteDance for general software engineering tasks. Trae Agent supports multiple LLM providers and works as a command-line companion to the Trae development environment. ![Stars](https://img.shields.io/badge/stars-12091-yellow) |
 | **Trae IDE** | [Link](https://trae.ai/) | AI-native IDE from ByteDance for code generation, project building, and agentic development workflows. Trae includes builder-style AI assistance, GitHub integration, and MCP support for extending coding workflows. |
+| **Tura** | [GitHub](https://turaai.net/) | Local open-source coding agent with CLI, TUI, and desktop interfaces. Tura uses structured macro execution and task-scoped context management to reduce repeated model round trips while keeping repository inspection, edits, builds, tests, and verification in the workflow. |
 | **Tusk** | [Link](https://usetusk.ai/) | AI coding agent that turns product tickets and issues into pull requests. Tusk connects task trackers and repositories so teams can automate implementation work from GitHub issues, Linear tickets, and Jira tasks. |
 | **v0** | [Link](https://v0.app/) | Vercel's AI app generation tool for React and Next.js workflows. v0 creates interfaces and full-stack application code from prompts, supports GitHub sync, sandboxed previews, and deployment to Vercel. |
 | **Void** | [GitHub](https://github.com/voideditor/void) | Open-source AI code editor and Cursor alternative built from VS Code. Void lets users connect directly to LLM providers, use private or local models, and keep more control over coding-assistant data flow. ![Stars](https://img.shields.io/badge/stars-28800-yellow) |
@@ -962,9 +964,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 759
+- **Total Entries:** 761
 - **Categories:** 12
-- **Last Generated:** 2026-09-16
+- **Last Generated:** 2026-09-18
 
 ---
 

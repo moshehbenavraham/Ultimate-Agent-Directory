@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-759-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-761-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-September_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
@@ -598,6 +598,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | Framework | Repository | Description |
 |-----------|------------|-------------|
 | **Cekura** | [Link](https://www.cekura.io/) | End-to-end quality assurance platform for conversational AI agents providing automated testing, observability, and monitoring for voice and chat bots. Covers full agent lifecycle from pre-production simulation to post-deployment analytics with real-time failure alerts and regression tracking. |
+| **OrcaReplay** | [GitHub](https://github.com/Continuum-AI-Corp/OrcaReplay) | Records a coding agent's exchange with its model provider at the HTTP boundary and replays the run offline with no model called, turning a failed session into a repeatable regression case. Replay can fork from any step onto a different model, keeping everything before the fork byte-identical so the model is the only variable. ![Stars](https://img.shields.io/badge/stars-248-yellow) |
 
 
 
@@ -963,7 +964,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 759
+- **Total Entries:** 761
 - **Categories:** 12
 - **Last Generated:** 2026-09-18
 

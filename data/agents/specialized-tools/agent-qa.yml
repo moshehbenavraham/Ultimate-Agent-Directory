@@ -1,0 +1,22 @@
+name: Agent QA
+url: https://github.com/vostride/agent-qa
+description: Source-available QA harness for writing and running natural-language
+  regression tests across web, Android, and iOS applications. It self-heals failed
+  UI actions, retains execution memory, and provides dashboard, CLI, MCP, and
+  coding-agent skill interfaces.
+github_repo: vostride/agent-qa
+documentation_url: https://vostride.com/docs/agent-qa
+category: specialized-tools
+type: tool
+tags:
+  - android
+  - automation
+  - browser-automation
+  - ios
+  - testing
+platform:
+  - TypeScript
+license: FSL-1.1-ALv2
+added_date: '2026-08-29'
+last_verified: '2026-08-29'
+verified: true

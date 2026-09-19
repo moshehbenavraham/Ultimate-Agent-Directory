@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-759-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-760-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-September_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
@@ -441,6 +441,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Adobe AI Assistant** | [Link](https://www.adobe.com/express/) | Agentic AI assistant integrated into Adobe Express that allows users to create and edit designs through natural, conversational language, aimed at non-design professionals. |
 | **Adopt AI** | [Link](https://www.adopt.ai/) | Enterprise tool integration platform designed to connect AI agents with business applications and workflows. Provides secure, managed connections between agents and enterprise systems with authentication handling, compliance controls, and centralized tool management for production deployments. |
 | **agbenchmark** | [Link](https://github.com/Significant-Gravitas/AutoGPT/tree/master/classic/direct_benchmark) | Official direct benchmark harness from the AutoGPT project for evaluating autonomous agent performance across diverse tasks without Agent Protocol server overhead. Provides standardized challenge suites, scoring workflows, and CLI tooling for comparing agent capabilities on planning, reasoning, tool use, and task completion. |
+| **Agent QA** | [GitHub](https://github.com/vostride/agent-qa) | Source-available QA harness for writing and running natural-language regression tests across web, Android, and iOS applications. It self-heals failed UI actions, retains execution memory, and provides dashboard, CLI, MCP, and coding-agent skill interfaces. |
 | **AgentBench v0.2** | [GitHub](https://github.com/THUDM/AgentBench) | Comprehensive benchmark for evaluating LLM-as-Agent capabilities across 8 distinct environments including coding, gaming, web browsing, and household tasks. Provides standardized evaluation protocols, multi-dimensional metrics, and leaderboards for comparing agent performance across diverse real-world scenarios. ![Stars](https://img.shields.io/badge/stars-3733-yellow) |
 | **Agentic Radar** | [Link](https://github.com/splx-ai/agentic-radar) | Monitoring and analytics platform designed specifically for autonomous AI agents. Provides real-time tracking of agent behaviors, decision patterns, and performance metrics with anomaly detection and comprehensive dashboards for production agent systems. |
 | **Agentiv** | [Link](https://lgads.tv/) | AI-powered advertising technology platform from LG Ad Solutions, designed to deploy and coordinate internal and external agents for automating operational workflows and data collaboration in Connected TV advertising. |

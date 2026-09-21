@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-759-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-760-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-September_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
@@ -336,6 +336,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **AI + a16z Podcast** | [Link](https://a16z.com/podcasts/) | Andreessen Horowitz podcast feed covering AI company-building, infrastructure, market developments, technical trends, and interviews with founders and researchers shaping the AI application landscape. |
 | **AI Agency Hub** | [Link](https://discord.gg/aiagencyhub) | Community focused on AI agents, prompt engineering, and automation. Over 12,000 members. |
 | **AI Agents Landscape** | [Link](https://aiagentsdirectory.com/landscape) | Interactive visual ecosystem map of AI agents, tools, and assistants providing a comprehensive guide to the 2025 agent landscape with categorization and discovery features. |
+| **AI Agents Listing** | [Link](https://aiagentslisting.com/) | Directory of the agentic AI ecosystem covering AI agents, MCP servers, and agent skills. Entries are organized by category with filtering, and makers can submit their own tools for a free listing. |
 | **AI Engineer** | [Link](https://www.ai.engineer/) | Technical AI conference series for AI engineers, founders, and AI architects, covering foundation models, agents, developer tools, infrastructure, and production AI systems through flagship and partner events. |
 | **AI Engineer Foundation Discord** | [Link](https://discord.gg/aie-community) | Community for AI engineers, builders, and researchers around the AI Engineer Foundation and latent.space ecosystem, covering agents, infrastructure, model releases, and applied AI engineering practice. |
 | **AI Explained** | [Link](https://www.youtube.com/@aiexplained-official) | YouTube channel explaining major AI model releases, benchmarks, safety developments, and frontier-lab updates for a technically interested audience. |
@@ -962,7 +963,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 759
+- **Total Entries:** 760
 - **Categories:** 12
 - **Last Generated:** 2026-09-16
 

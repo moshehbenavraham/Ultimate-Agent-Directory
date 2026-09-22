@@ -1,0 +1,26 @@
+name: Mnemoverse
+url: https://github.com/mnemoverse/mcp-memory-server
+description: Hosted memory server for AI agents over MCP. Tell it a recalled memory helped or misled, and it re-ranks what comes back next; one API key carries the same memory across Claude Code, Cursor, VS Code, Windsurf and ChatGPT. The MCP server and Python SDK are open source under MIT; the memory engine is a hosted service with a free tier.
+github_repo: mnemoverse/mcp-memory-server
+documentation_url: https://mnemoverse.com/docs/api/mcp-server
+category: specialized-tools
+type: platform
+tags:
+  - memory
+  - mcp
+  - open-source
+  - sdk
+  - typescript
+  - python
+platform:
+  - TypeScript
+  - Python
+license: MIT
+pricing: freemium
+github_stars: 21
+last_updated: '2026-09-20'
+is_archived: false
+featured: false
+verified: true
+added_date: '2026-09-20'
+last_verified: '2026-09-20'

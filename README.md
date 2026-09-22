@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-759-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-761-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-September_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
@@ -530,6 +530,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **mem0** | [Link](https://mem0.ai/) | Universal self-improving memory layer for AI agents and LLM applications, enabling personalized AI interactions with just three lines of code. Features long-term, short-term, semantic, and episodic memory types, integrates with OpenAI, LangGraph, CrewAI, and selected as exclusive memory provider for AWS Agent SDK. Achieves 26% improvement in LLM-as-a-Judge metrics with 91% lower p95 latency and 90% token cost savings. |
 | **Milvus** | [GitHub](https://github.com/milvus-io/milvus) | Open-source, cloud-native vector database for scalable approximate nearest-neighbor search over high-dimensional data. Milvus supports large-scale vector indexing, distributed deployments, multimodal search, and managed Zilliz Cloud deployments for RAG and AI search workloads. ![Stars](https://img.shields.io/badge/stars-46112-yellow) |
 | **MixedVoices** | [Link](https://pypi.org/project/mixedvoices/) | Open-source analytics and evaluation platform for voice AI agents, functioning as Mixpanel for conversational AI with auto-generation of interactive call flow visualizations. Enables developers to analyze, visualize, evaluate, and optimize conversational AI performance by understanding common user paths, behaviors, and agent interaction patterns for continuous improvement. |
+| **Mnemoverse** | [GitHub](https://github.com/mnemoverse/mcp-memory-server) | Hosted memory server for AI agents over MCP. Tell it a recalled memory helped or misled, and it re-ranks what comes back next; one API key carries the same memory across Claude Code, Cursor, VS Code, Windsurf and ChatGPT. The MCP server and Python SDK are open source under MIT; the memory engine is a hosted service with a free tier. ![Stars](https://img.shields.io/badge/stars-21-yellow) |
 | **Modal** | [Link](https://modal.com/) | Serverless cloud platform for running AI workloads, agents, sandboxes, batch jobs, and model inference from Python. Modal is commonly used to host code execution, tool execution, and GPU-backed agent infrastructure. |
 | **Model Context Protocol** | [Link](https://modelcontextprotocol.io/docs/getting-started/intro) | Open protocol for connecting AI applications and agents to external tools, data sources, and prompts. MCP defines a client-server architecture that lets models discover and call capabilities exposed by compatible servers. |
 | **Model Context Protocol SDKs** | [Link](https://github.com/modelcontextprotocol) | Official SDK collection for implementing MCP clients and servers across languages including Python, TypeScript, Kotlin, Java, C#, Go, Ruby, and Rust. These SDKs provide the base libraries for protocol-compliant MCP integrations. |
@@ -597,6 +598,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | Framework | Repository | Description |
 |-----------|------------|-------------|
 | **Cekura** | [Link](https://www.cekura.io/) | End-to-end quality assurance platform for conversational AI agents providing automated testing, observability, and monitoring for voice and chat bots. Covers full agent lifecycle from pre-production simulation to post-deployment analytics with real-time failure alerts and regression tracking. |
+| **OrcaReplay** | [GitHub](https://github.com/Continuum-AI-Corp/OrcaReplay) | Records a coding agent's exchange with its model provider at the HTTP boundary and replays the run offline with no model called, turning a failed session into a repeatable regression case. Replay can fork from any step onto a different model, keeping everything before the fork byte-identical so the model is the only variable. ![Stars](https://img.shields.io/badge/stars-248-yellow) |
 
 
 
@@ -962,9 +964,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 759
+- **Total Entries:** 761
 - **Categories:** 12
-- **Last Generated:** 2026-09-16
+- **Last Generated:** 2026-09-22
 
 ---
 

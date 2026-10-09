@@ -1,0 +1,17 @@
+name: Tanod
+url: https://tanod.dev
+description: Remote MCP server with 140+ pay-per-call tools for AI agents covering PDF, OCR, image, web page and onchain reads. No key or account; a free daily allowance applies, then calls are paid in USDC via x402 on Base or Polygon.
+github_repo: tanod-labs/tanod-mcp
+documentation_url: https://tanod.dev/connect
+category: specialized-tools
+type: tool
+tags:
+  - mcp
+  - api
+  - payments
+  - hosted
+  - tools
+license: MIT
+pricing: freemium
+featured: false
+verified: false

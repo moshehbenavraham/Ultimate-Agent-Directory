@@ -1,5 +1,5 @@
 name: Orbi
-url: https://github.com/orbi-build/orbi
+url: https://orbi.build
 description: Open-source (AGPL-3.0) system that turns GitHub issues labelled ai-ready
   into merged pull requests and tagged releases. A coding agent (Pi by default) works
   in an isolated worktree, a separate review session checks the PR against the issue's

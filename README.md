@@ -2,8 +2,8 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-759-blue?style=for-the-badge&logo=database&logoColor=white)
-![Last Updated](https://img.shields.io/badge/Updated-September_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-761-blue?style=for-the-badge&logo=database&logoColor=white)
+![Last Updated](https://img.shields.io/badge/Updated-October_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
 
@@ -572,6 +572,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Synthflow AI** | [Link](https://synthflow.ai/) | No-code enterprise platform for creating and deploying natural-sounding voice agents with multilingual support for 30+ languages and dialects. Features sub-100ms latency with in-house telephony, HIPAA and GDPR compliance, 200+ enterprise integrations including Salesforce and HubSpot, and white-label capabilities for handling customer support, appointment scheduling, and complex workflows at scale. |
 | **Sysdig** | [Link](https://sysdig.com/) | Cloud security platform that uses AI agents for threat detection, vulnerability management, and cloud detection response. Features real-time security intelligence and automated response capabilities for container and Kubernetes environments. |
 | **Talkscriber** | [Link](https://www.talkscriber.com/) | Enterprise-grade AI speech-to-text platform offering industry-leading transcription accuracy with Word Error Rate under 4%, featuring emotion detection across 7 emotions and purchase intent analysis. Provides secure deployment options across on-premises, public, private, or hybrid cloud with advanced capabilities including dialogue summarization, topic extraction, and PII redaction for customer interaction insights. |
+| **Tanod** | [GitHub](https://tanod.dev/) | Remote MCP server with 140+ pay-per-call tools for AI agents covering PDF, OCR, image, web page and onchain reads. No key or account; a free daily allowance applies, then calls are paid in USDC via x402 on Base or Polygon. |
 | **Teneo.ai** | [Link](https://teneo.ai/) | Agentless Contact Center platform achieving 100% automation of level 1 support with 99% accuracy. Features advanced natural language understanding, multi-channel support, and LLM orchestration for enterprise-grade customer service automation. |
 | **ThinkChain** | [Link](https://thinkchain.ai/) | Provides advanced AI agents for data analysis including Discover agents for research, Chain of Thought agents for complex problem-solving, and Analyst agents for real-time financial analysis. Features comprehensive workflow automation from data gathering to insight generation. |
 | **ToolBench** | [GitHub](https://github.com/OpenBMB/ToolBench) | Comprehensive benchmark for evaluating LLM agents on tool usage and API interaction capabilities. Features 16,000+ real-world APIs, standardized evaluation metrics, and test scenarios covering tool selection, parameter filling, and multi-step tool orchestration. ![Stars](https://img.shields.io/badge/stars-5740-yellow) |
@@ -597,6 +598,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | Framework | Repository | Description |
 |-----------|------------|-------------|
 | **Cekura** | [Link](https://www.cekura.io/) | End-to-end quality assurance platform for conversational AI agents providing automated testing, observability, and monitoring for voice and chat bots. Covers full agent lifecycle from pre-production simulation to post-deployment analytics with real-time failure alerts and regression tracking. |
+| **OrcaReplay** | [GitHub](https://github.com/Continuum-AI-Corp/OrcaReplay) | Records a coding agent's exchange with its model provider at the HTTP boundary and replays the run offline with no model called, turning a failed session into a repeatable regression case. Replay can fork from any step onto a different model, keeping everything before the fork byte-identical so the model is the only variable. ![Stars](https://img.shields.io/badge/stars-248-yellow) |
 
 
 
@@ -962,9 +964,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 759
+- **Total Entries:** 761
 - **Categories:** 12
-- **Last Generated:** 2026-09-16
+- **Last Generated:** 2026-10-09
 
 ---
 

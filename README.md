@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-759-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-761-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-September_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
@@ -175,6 +175,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Glide** | [Link](https://www.glideapps.com/) | No-code app builder for turning spreadsheets, databases, and business data into web and mobile apps. Glide includes AI actions, automation, custom apps, and workflow features for internal tools and operational software. |
 | **GoHighLevel AI** | [Link](https://www.gohighlevel.com/) | Agency-focused CRM and marketing automation platform with AI conversation agents, voice AI, appointment booking, lead follow-up, and a no-code workflow builder for sales and customer engagement automations. |
 | **Gumloop** | [Link](https://gumloop.com/) | A no-code platform for creating AI-powered workflow automations using visual node-based flows with 100+ pre-built nodes. Gumloop combines AI integrations for data enrichment, reporting, and intelligent decision-making, enabling users to build complex automated processes without programming knowledge. |
+| **Hermes Voice Agency** | [Link](https://buildwithhermes.com/) | A white-label platform for agencies that build and operate AI voice agents for their clients. Hermes combines LLM-driven inbound and outbound phone agents with a built-in CRM, campaign orchestration, per-client workspaces, and usage-based billing, so an agency can run voice agents for multiple clients under its own brand without assembling a separate voice API, CRM, automation tool, and billing stack. |
 | **Huginn** | [GitHub](https://github.com/huginn/huginn) | Open-source self-hosted automation system for creating agents that monitor websites, watch for events, transform data, and trigger actions. Huginn is a privacy-friendly alternative to hosted automation services. ![Stars](https://img.shields.io/badge/stars-49943-yellow) |
 | **Hyperagent** | [Link](https://www.hyperagent.com/) | Team agent platform for creating persistent cloud agents with prompts, tool access, skills, memories, model settings, and budget controls. Hyperagent agents can browse websites, analyze data, generate media and apps, use existing services, run through Slack, MCP, or cron, and track quality with rubrics and A/B tests. |
 | **Kommunicate** | [Link](https://www.kommunicate.io/product/generative-ai-chatbot/) | Generative AI chatbot and customer service automation platform with no-code bot setup, website and app chat widgets, live-agent handoff, omnichannel support, and integrations with major LLM and help desk systems. |
@@ -597,6 +598,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | Framework | Repository | Description |
 |-----------|------------|-------------|
 | **Cekura** | [Link](https://www.cekura.io/) | End-to-end quality assurance platform for conversational AI agents providing automated testing, observability, and monitoring for voice and chat bots. Covers full agent lifecycle from pre-production simulation to post-deployment analytics with real-time failure alerts and regression tracking. |
+| **OrcaReplay** | [GitHub](https://github.com/Continuum-AI-Corp/OrcaReplay) | Records a coding agent's exchange with its model provider at the HTTP boundary and replays the run offline with no model called, turning a failed session into a repeatable regression case. Replay can fork from any step onto a different model, keeping everything before the fork byte-identical so the model is the only variable. ![Stars](https://img.shields.io/badge/stars-248-yellow) |
 
 
 
@@ -962,9 +964,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 759
+- **Total Entries:** 761
 - **Categories:** 12
-- **Last Generated:** 2026-09-16
+- **Last Generated:** 2026-09-18
 
 ---
 

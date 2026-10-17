@@ -1,0 +1,18 @@
+name: Aident Loadout
+url: https://aident.ai
+description: Hosted MCP server, CLI and agent Skill that let Codex, Claude Code, Cursor, ChatGPT and other MCP clients use 1,000+ Apps through one setup, with OAuth sign-in in the browser, a credential vault that keeps API keys away from the model, cost checks before actions run, and an audit log of every action.
+documentation_url: https://docs.aident.ai/loadout/overview
+category: specialized-tools
+type: platform
+tags:
+  - mcp
+  - integrations
+  - agent-skills
+  - authentication
+  - security
+  - cli
+  - api
+pricing: freemium
+added_date: '2026-10-17'
+last_verified: '2026-10-17'
+verified: false

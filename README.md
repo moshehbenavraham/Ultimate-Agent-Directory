@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-773-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-774-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-October_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
@@ -454,6 +454,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **agenttrace** | [GitHub](https://github.com/luoyuctl/agenttrace) | Local-first TUI and CLI for AI coding-agent trace logs. Agenttrace turns local agent traces into cost, token, latency, and health regression reports for debugging coding-agent workflows. ![Stars](https://img.shields.io/badge/stars-133-yellow) |
 | **AgentX** | [Link](https://www.agentx.so/) | AI-powered sales assistant designed to enhance sales strategies and efficiency, featuring a Memory Module and Online Mode for smarter selling. |
 | **AI Work Market** | [GitHub](https://github.com/darioandyoshi-tech/ai-work-market) | Open-source Base Sepolia testnet settlement rails for humans and AI agents to hire AI agents with EIP-712 signed offers, USDC escrow, proof submission, and programmable release/refund/dispute lifecycle. Includes a CLI, JavaScript SDK, read-only MCP server, and x402 compatibility notes for composing pay-per-call access with escrowed outcome-based work. |
+| **Aident Loadout** | [Link](https://aident.ai/) | Hosted MCP server, CLI and agent Skill that let Codex, Claude Code, Cursor, ChatGPT and other MCP clients use 1,000+ Apps through one setup, with OAuth sign-in in the browser, a credential vault that keeps API keys away from the model, cost checks before actions run, and an audit log of every action. |
 | **Apify MCP Server** | [GitHub](https://github.com/apify/apify-mcp-server) | Official Apify MCP server that lets agents run Apify Actors for web scraping, crawling, search, maps, ecommerce, and social-media data extraction through the MCP tool interface. ![Stars](https://img.shields.io/badge/stars-7154-yellow) |
 | **Argilla** | [GitHub](https://github.com/argilla-io/argilla) | Open-source data labeling and feedback platform for building LLM datasets, preference data, RLHF workflows, and evaluation sets with collaboration between AI engineers and domain experts. ![Stars](https://img.shields.io/badge/stars-5108-yellow) |
 | **Arize Phoenix** | [Link](https://phoenix.arize.com/) | Open-source AI observability platform for evaluating, troubleshooting, and monitoring LLM applications and agents. Provides experiment tracking, prompt tracing, retrieval analysis, and LLM evaluations with support for traces, spans, and comprehensive debugging tools for production AI systems. |
@@ -976,7 +977,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 773
+- **Total Entries:** 774
 - **Categories:** 12
 - **Last Generated:** 2026-10-20
 

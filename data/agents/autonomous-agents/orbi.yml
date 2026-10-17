@@ -1,0 +1,23 @@
+name: Orbi
+url: https://orbi.build
+description: Open-source (AGPL-3.0) system that turns GitHub issues labelled ai-ready
+  into merged pull requests and tagged releases. A coding agent (Pi by default) works
+  in an isolated worktree, a separate review session checks the PR against the issue's
+  acceptance criteria and fixes what it finds, and only the reviewed commit is merged.
+  Self-hosted on Linux, with a hosted Orbi Cloud option.
+category: autonomous-agents
+type: tool
+tags:
+  - autonomous-agent
+  - github
+  - open-source
+  - self-hosted
+  - code-review
+github_repo: orbi-build/orbi
+documentation_url: https://docs.orbi.build
+pricing: freemium
+platform:
+  - Python
+license: AGPL-3.0
+featured: false
+verified: false

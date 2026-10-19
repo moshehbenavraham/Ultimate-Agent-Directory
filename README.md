@@ -2,8 +2,8 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-761-blue?style=for-the-badge&logo=database&logoColor=white)
-![Last Updated](https://img.shields.io/badge/Updated-September_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-762-blue?style=for-the-badge&logo=database&logoColor=white)
+![Last Updated](https://img.shields.io/badge/Updated-October_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
 
@@ -674,6 +674,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Convergence Proxy Lite** | [GitHub](https://github.com/convergence-ai/proxy-lite) | Open-weight mini version of Convergence AI's Proxy assistant for web automation. Proxy Lite demonstrates browser task execution and web interaction capabilities from the Convergence agent research line. ![Stars](https://img.shields.io/badge/stars-991-yellow) |
 | **Crawl4AI** | [GitHub](https://github.com/unclecode/crawl4ai) | Open-source crawler and scraper that converts websites into LLM-friendly content for agents and RAG workflows. Crawl4AI supports asynchronous crawling, browser automation, extraction, and Markdown-oriented outputs. ![Stars](https://img.shields.io/badge/stars-83490-yellow) |
 | **CUA** | [GitHub](https://github.com/trycua/cua) | Open-source infrastructure for computer-use agents, including sandboxes, SDKs, and benchmarks for full desktop control. CUA supports macOS, Linux, and Windows agent environments. ![Stars](https://img.shields.io/badge/stars-22657-yellow) |
+| **CurlShot** | [Link](https://curlshot.com/) | Screenshot API with a remote MCP server that lets agents render a URL, HTML or Markdown in a real browser and get back an image, PDF or scrolling video. The MCP server exposes take_screenshot and list_devices tools, and the REST API adds async jobs with signed webhooks and bulk captures. |
 | **Firecrawl** | [GitHub](https://github.com/firecrawl/firecrawl) | API and open-source platform for searching, scraping, crawling, and interacting with the web for AI applications. Firecrawl converts pages into Markdown, JSON, screenshots, and agent-ready web data. ![Stars](https://img.shields.io/badge/stars-180484-yellow) |
 | **Google Project Mariner** | [Link](https://deepmind.google/models/project-mariner/) | Google DeepMind browser agent research project for navigating and acting on web interfaces. Project Mariner uses multimodal reasoning to understand browser state, plan tasks, and execute actions in web workflows. |
 | **Hyperbrowser** | [Link](https://hyperbrowser.ai/) | Cloud browser platform for automated browser sessions at scale. Hyperbrowser supports browser-use agents, computer-use models, stealth browsing, integrations, and hosted infrastructure for web automation. |
@@ -964,9 +965,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 761
+- **Total Entries:** 762
 - **Categories:** 12
-- **Last Generated:** 2026-09-18
+- **Last Generated:** 2026-10-16
 
 ---
 

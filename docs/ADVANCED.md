@@ -226,7 +226,7 @@ make site
 ```
 
 Verify:
-- Python 3.10+ installed
+- Python 3.11+ installed
 - Dependencies installed in venv
 - YAML files validate (`make validate`)
 

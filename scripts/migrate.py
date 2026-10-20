@@ -7,11 +7,12 @@ Usage:
     python scripts/migrate.py --dry-run  # Preview without writing files
 """
 
-import re
 import argparse
-from pathlib import Path
-import yaml
+import re
 from datetime import date
+from pathlib import Path
+
+import yaml
 
 
 def parse_markdown_table(content: str) -> list[dict]:

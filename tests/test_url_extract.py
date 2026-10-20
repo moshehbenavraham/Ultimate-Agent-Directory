@@ -16,13 +16,12 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 from check_links import (
     classify_link_result,
     extract_urls_from_markdown,
-    extract_urls_from_template,
     extract_urls_from_static,
+    extract_urls_from_template,
     normalize_extracted_url,
     resolve_selected_files,
     should_skip_url,
 )
-
 
 # =============================================================================
 # Markdown URL Extraction Tests

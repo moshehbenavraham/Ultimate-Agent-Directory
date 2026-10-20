@@ -16,15 +16,13 @@ import re
 import sys
 from datetime import date
 from pathlib import Path
-from typing import Optional
 
 import yaml
 from pydantic import ValidationError
 
 # Add scripts directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent))
-from models import BoilerplateEntry, BoilerplateCategory
-
+from models import BoilerplateCategory, BoilerplateEntry
 
 # ============================================================================
 # CONFIGURATION
@@ -102,7 +100,7 @@ def slugify(text: str) -> str:
     return slug
 
 
-def parse_star_count(text: str) -> Optional[int]:
+def parse_star_count(text: str) -> int | None:
     """
     Parse star count strings into integers.
 
@@ -165,7 +163,7 @@ def sanitize_ascii(text: str) -> str:
     return "".join(c if ord(c) < 128 else "" for c in text)
 
 
-def extract_url_from_markdown(text: str) -> Optional[str]:
+def extract_url_from_markdown(text: str) -> str | None:
     """Extract URL from markdown link format [text](url)."""
     match = re.search(r"\[([^\]]+)\]\(([^)]+)\)", text)
     if match:
@@ -173,7 +171,7 @@ def extract_url_from_markdown(text: str) -> Optional[str]:
     return None
 
 
-def extract_github_repo(url: str) -> Optional[str]:
+def extract_github_repo(url: str) -> str | None:
     """Extract owner/repo from GitHub URL."""
     if not url:
         return None
@@ -473,7 +471,7 @@ class BoilerplateMarkdownParser:
 
         return tech_stack
 
-    def extract_features_list(self, content: str) -> Optional[list[str]]:
+    def extract_features_list(self, content: str) -> list[str] | None:
         """
         Extract key features from bullet list.
 
@@ -508,7 +506,7 @@ class BoilerplateMarkdownParser:
 
         return features if features else None
 
-    def extract_pros_cons(self, content: str, section_type: str) -> Optional[list[str]]:
+    def extract_pros_cons(self, content: str, section_type: str) -> list[str] | None:
         """
         Extract pros or cons list.
 
@@ -552,7 +550,7 @@ class BoilerplateMarkdownParser:
 
         return items if items else None
 
-    def extract_text_section(self, content: str, section_name: str) -> Optional[str]:
+    def extract_text_section(self, content: str, section_name: str) -> str | None:
         """
         Extract prose text from a named section.
 
@@ -574,7 +572,7 @@ class BoilerplateMarkdownParser:
 
         return None
 
-    def extract_deployment(self, content: str) -> Optional[list[str]]:
+    def extract_deployment(self, content: str) -> list[str] | None:
         """Extract deployment platforms from text."""
         platforms = []
 
@@ -637,9 +635,8 @@ class BoilerplateMarkdownParser:
 
         combined = f"{name} {content}".lower()
         for pattern, tag in tech_patterns:
-            if re.search(pattern, combined):
-                if tag not in tags:
-                    tags.append(tag)
+            if re.search(pattern, combined) and tag not in tags:
+                tags.append(tag)
 
         return tags[:10]  # Limit to 10 tags
 

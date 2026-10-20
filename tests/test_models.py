@@ -9,24 +9,24 @@ These tests verify:
 - extra="forbid" rejects unknown fields
 """
 
-import pytest
 import sys
-from pathlib import Path
 from datetime import date
+from pathlib import Path
+
+import pytest
 
 # Add scripts directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
-from pydantic import ValidationError
 from models import (
     AgentEntry,
+    BoilerplateCategory,
     BoilerplateEntry,
     Category,
-    BoilerplateCategory,
-    TechStackComponent,
     DirectoryMetadata,
+    TechStackComponent,
 )
-
+from pydantic import ValidationError
 
 # =============================================================================
 # AgentEntry Tests

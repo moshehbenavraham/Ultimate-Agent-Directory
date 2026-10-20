@@ -6,13 +6,14 @@ Usage:
     python scripts/generate_readme.py
 """
 
-from pathlib import Path
 from collections import defaultdict
 from datetime import date
+from pathlib import Path
+
 import yaml
+from config import load_site_config
 from jinja2 import Environment, FileSystemLoader
 from models import AgentEntry, Category, DirectoryMetadata
-from config import load_site_config
 
 
 def load_categories() -> list[Category]:

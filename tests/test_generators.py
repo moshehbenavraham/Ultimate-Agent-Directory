@@ -11,11 +11,11 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
 from generate_boilerplates import render_boilerplates_readme
 from generate_readme import markdown_table_cell, render_readme
-from generate_site import create_search_index, create_boilerplate_search_index
+from generate_site import create_boilerplate_search_index, create_search_index
 from models import (
     AgentEntry,
-    BoilerplateEntry,
     BoilerplateCategory,
+    BoilerplateEntry,
     Category,
     DirectoryMetadata,
     SiteLinks,

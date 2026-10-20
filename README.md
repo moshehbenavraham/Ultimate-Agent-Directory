@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-774-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-775-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-October_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
@@ -644,6 +644,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **OpenHands** | [GitHub](https://github.com/OpenHands/OpenHands) | Open-source platform for AI-driven software development agents that can browse, edit files, run commands, and work across codebases. OpenHands is the continuation of OpenDevin under the canonical OpenHands project. ![Stars](https://img.shields.io/badge/stars-87935-yellow) |
 | **OpenManus** | [GitHub](https://github.com/mannaandpoem/OpenManus) | Open-source general-purpose autonomous agent project inspired by Manus. OpenManus provides a configurable agent runtime with browser, file, code, and tool-use capabilities for executing multi-step tasks from natural language. ![Stars](https://img.shields.io/badge/stars-665-yellow) |
 | **Orbi** | [GitHub](https://github.com/orbi-build/orbi) | Open-source (AGPL-3.0) system that turns GitHub issues labelled ai-ready into independently reviewed and merged pull requests. Release tasks can publish tagged releases. A coding agent (Pi by default) works in an isolated worktree, a separate review session checks the PR against the issue's acceptance criteria and fixes what it finds, and only the reviewed commit is merged. Self-hosted on Linux, with a hosted Orbi Cloud option. |
+| **Orkas** | [GitHub](https://github.com/Orkas-AI/Orkas) | Open-source, local-first desktop AI workforce where a Commander turns goals into executable plans and coordinates specialist agents in parallel or sequence through one chat. It supports compatible local model endpoints and selected remote providers. Packaged installers for macOS and Windows; Linux (glibc x64/arm64) runs from source only. ![Stars](https://img.shields.io/badge/stars-2224-yellow) |
 | **OS-Copilot** | [GitHub](https://github.com/OS-Copilot/OS-Copilot) | Open-source operating-system agent for automating desktop, file, web, terminal, and application tasks from natural language. OS-Copilot includes the FRIDAY framework for learning and reusing skills across tasks. ![Stars](https://img.shields.io/badge/stars-1794-yellow) |
 | **Poke** | [Link](https://poke.com/) | Personal AI assistant that lives in text messaging and lets users ask for tasks to be handled from a familiar contact-style interface. Poke provides recipes and integrations with tools such as Gmail, Google Calendar, Notion, Linear, Asana, GitHub, Todoist, Supabase, Sentry, Vercel, and more. |
 | **ProAgent** | [GitHub](https://github.com/OpenBMB/ProAgent) | LLM-based agent framework designed for agentic process automation (APA) in enterprise workflows. Focuses on automating complex business processes through intelligent agent orchestration. ![Stars](https://img.shields.io/badge/stars-865-yellow) |
@@ -977,7 +978,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 774
+- **Total Entries:** 775
 - **Categories:** 12
 - **Last Generated:** 2026-10-20
 

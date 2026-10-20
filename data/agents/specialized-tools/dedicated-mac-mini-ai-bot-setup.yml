@@ -1,0 +1,24 @@
+name: Dedicated Mac Mini AI Bot Setup
+url: https://www.emadibrahim.com/bot-setup/mac-mini-ai-agent-setup
+description: Managed Mac mini AI operator setup service for founders and operators
+  who want Telegram or Discord access to frontier-model automation across marketing,
+  SEO, inbox, coding, deployment, research, and operations workflows. Includes a
+  hosted read-only MCP endpoint for offer and queue metadata, with human-reviewed
+  setup before payment.
+github_repo: eibrahim/dedicated-mac-mini-ai-bot-setup-mcp
+documentation_url: https://www.emadibrahim.com/api/bot-setup/offer
+category: specialized-tools
+type: tool
+tags:
+  - automation
+  - mcp
+  - productivity
+  - workflow
+pricing: paid
+platform:
+  - Web
+  - MCP
+license: MIT
+featured: false
+verified: false
+added_date: '2026-09-18'

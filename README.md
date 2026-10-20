@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-774-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-773-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-October_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
@@ -449,7 +449,6 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Agentiv** | [Link](https://lgads.tv/) | AI-powered advertising technology platform from LG Ad Solutions, designed to deploy and coordinate internal and external agents for automating operational workflows and data collaboration in Connected TV advertising. |
 | **agentlego** | [GitHub](https://github.com/InternLM/agentlego) | Tool library and integration framework providing 70+ reusable tools for AI agents including image processing, OCR, search, and data analysis capabilities. Offers standardized tool interfaces compatible with LangChain, Transformers Agents, and other frameworks with easy-to-use APIs and comprehensive documentation. ![Stars](https://img.shields.io/badge/stars-415-yellow) |
 | **agentops** | [GitHub](https://github.com/AgentOps-AI/agentops) | Open-source Python SDK for AI agent observability providing session replays, metrics, and monitoring for LangChain, CrewAI, and AutoGen. Features detailed agent execution tracking, LLM call logging, cost analysis, and performance metrics for debugging and optimizing multi-agent systems. ![Stars](https://img.shields.io/badge/stars-5817-yellow) |
-| **AgentServices** | [Link](https://agentservices.to/) | Paid API platform for AI agents with 54 services and 37 MCP tools. Per-call micropayments via x402 protocol on Base (USDC). Crypto prices, market data, analytics, and web services with built-in dispute resolution. |
 | **AgentSight** | [GitHub](https://github.com/agentsight/agentsight) | Open-source observability framework for monitoring and debugging AI agent systems. Features execution tracing, state inspection, and visual debugging tools for understanding agent behaviors and optimizing performance in multi-agent environments. ![Stars](https://img.shields.io/badge/stars-686-yellow) |
 | **AgentSquare** | [GitHub](https://github.com/tsinghua-fib-lab/AgentSquare) | Modular benchmark and development platform for evaluating and building LLM agents. Features customizable evaluation pipelines, standardized metrics, and tooling for systematic agent testing across reasoning, planning, and execution capabilities. ![Stars](https://img.shields.io/badge/stars-231-yellow) |
 | **agenttrace** | [GitHub](https://github.com/luoyuctl/agenttrace) | Local-first TUI and CLI for AI coding-agent trace logs. Agenttrace turns local agent traces into cost, token, latency, and health regression reports for debugging coding-agent workflows. ![Stars](https://img.shields.io/badge/stars-133-yellow) |
@@ -977,7 +976,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 774
+- **Total Entries:** 773
 - **Categories:** 12
 - **Last Generated:** 2026-10-20
 

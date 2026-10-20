@@ -1,0 +1,20 @@
+name: Darkmoon
+url: https://github.com/ASCIT31/Dark-Moon
+description: Open source (GPL-3.0) autonomous AI penetration testing platform covering
+  web, API, Active Directory and Kubernetes, with a built in MCP host and server.
+github_repo: ASCIT31/Dark-Moon
+documentation_url: https://dark-moon.org/
+github_stars: 1116
+last_updated: '2026-10-01'
+is_archived: false
+category: autonomous-agents
+type: platform
+tags:
+  - security
+  - security-automation
+  - autonomous-agent
+  - mcp
+  - open-source
+license: GPL-3.0
+added_date: '2026-10-20'
+verified: false

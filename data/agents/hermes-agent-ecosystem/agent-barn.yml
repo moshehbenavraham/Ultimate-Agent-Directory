@@ -1,0 +1,18 @@
+name: Agent Barn
+url: https://agentbarn.dev
+description: Open-source (Apache-2.0) control plane for AI agents. Teams talk to agents in Slack, Teams, Telegram, Discord or email; agents work across Jira, GitHub, Confluence and more. Every conversation, tool call, log and cost is recorded. Runs agent runtimes like Hermes and OpenClaw on your own Kubernetes cluster, deployed with Helm.
+github_repo: aai-labs/agent-barn
+last_updated: '2026-10-13'
+github_stars: 109
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-10-13'
+verified: false
+type: platform
+tags:
+  - control-plane
+  - hermes-agent
+  - openclaw
+  - kubernetes
+  - self-hosted
+  - slack

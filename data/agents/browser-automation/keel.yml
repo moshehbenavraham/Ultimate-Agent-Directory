@@ -1,0 +1,24 @@
+name: Keel
+url: https://github.com/KeelDev-tech/keel
+description: Open-core (Apache-2.0) job-application autopilot — an AI browser agent
+  that discovers matching roles, tailors resumes truthfully, and only ever claims what
+  you told it is true. Truthfulness gates, explicit confirmation, fail closed; self-hosted
+  with human approval at every step.
+github_repo: KeelDev-tech/keel
+documentation_url: https://github.com/KeelDev-tech/keel
+category: browser-automation
+type: tool
+tags:
+  - browser-automation
+  - open-source
+  - self-hosted
+  - web-agent
+  - automation
+  - hr
+license: Apache-2.0
+pricing: freemium
+platform:
+  - Self-hosted
+featured: false
+verified: false
+added_date: '2026-09-18'

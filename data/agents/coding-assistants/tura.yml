@@ -1,0 +1,27 @@
+name: Tura
+url: https://turaai.net/
+description: Local open-source coding agent with CLI, TUI, and desktop interfaces.
+  Tura uses structured macro execution and task-scoped context management to reduce
+  repeated model round trips while keeping repository inspection, edits, builds,
+  tests, and verification in the workflow.
+github_repo: Tura-AI/tura
+documentation_url: https://turaai.net/docs
+category: coding-assistants
+type: tool
+tags:
+  - coding-assistant
+  - cli
+  - desktop-agent
+  - local-first
+  - open-source
+  - workflow
+  - developer-platform
+license: AGPL-3.0-or-later
+pricing: free
+platform:
+  - Windows
+  - macOS
+  - Linux
+featured: false
+verified: false
+added_date: '2026-09-18'

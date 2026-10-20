@@ -10,7 +10,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
 from generate_boilerplates import render_boilerplates_readme
-from generate_readme import markdown_table_cell, render_readme
+from generate_readme import link_label, markdown_table_cell, render_readme
 from generate_site import create_boilerplate_search_index, create_search_index
 from models import (
     AgentEntry,
@@ -186,3 +186,12 @@ def test_create_boilerplate_search_index_structure() -> None:
 
     assert index[0]["is_boilerplate"] is True
     assert index[0]["tech_stack"] == ["Next.js", "PostgreSQL"]
+
+
+def test_link_label_only_uses_github_for_github_urls() -> None:
+    assert link_label("https://github.com/owner/repo") == "GitHub"
+    assert link_label("https://www.github.com/owner/repo") == "GitHub"
+    assert link_label("https://turaai.net/") == "Link"
+    assert link_label("https://github.com.evil.example/x") == "Link"
+    assert link_label("https://owner.github.io/site") == "Link"
+    assert link_label(None) == "Link"

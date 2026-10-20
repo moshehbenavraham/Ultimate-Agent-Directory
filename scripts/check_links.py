@@ -17,8 +17,8 @@ Usage:
     python scripts/check_links.py --skip-url https://example.com
 """
 
-import asyncio
 import argparse
+import asyncio
 import json
 import os
 import re
@@ -27,7 +27,6 @@ import time
 from collections import defaultdict
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
 from urllib.parse import quote_plus, urlparse
 
 import aiohttp
@@ -78,11 +77,11 @@ class URLCheck:
 
     url: str
     status: str  # 'success', 'error', 'warning'
-    status_code: Optional[int]
-    error_message: Optional[str]
+    status_code: int | None
+    error_message: str | None
     source_file: str
     source_type: str  # 'yaml', 'markdown', 'template', 'static'
-    field_name: Optional[str]  # For YAML: 'url', 'documentation_url', etc.
+    field_name: str | None  # For YAML: 'url', 'documentation_url', etc.
 
 
 @dataclass
@@ -90,7 +89,7 @@ class RateLimiter:
     """Rate limiter for domain-based request throttling."""
 
     max_per_second: int
-    domain_timestamps: Dict[str, List[float]] = field(
+    domain_timestamps: dict[str, list[float]] = field(
         default_factory=lambda: defaultdict(list)
     )
 
@@ -115,7 +114,7 @@ class RateLimiter:
         self.domain_timestamps[domain].append(time.time())
 
 
-def normalize_extracted_url(raw_url: str) -> Optional[str]:
+def normalize_extracted_url(raw_url: str) -> str | None:
     """Normalize scanner-captured URLs without changing canonical YAML values."""
     url = str(raw_url).strip().strip("<>\"'")
 
@@ -143,7 +142,7 @@ def normalize_extracted_url(raw_url: str) -> Optional[str]:
     return url
 
 
-def add_normalized_url(urls: List[Tuple[str, str]], raw_url: str, context: str) -> None:
+def add_normalized_url(urls: list[tuple[str, str]], raw_url: str, context: str) -> None:
     """Append a URL if it normalizes to a usable HTTP(S) URL."""
     normalized = normalize_extracted_url(raw_url)
     if normalized:
@@ -167,14 +166,14 @@ def is_low_value_doc_path(path: Path, project_root: Path) -> bool:
     )
 
 
-def extract_urls_from_yaml(file_path: Path) -> List[Tuple[str, str]]:
+def extract_urls_from_yaml(file_path: Path) -> list[tuple[str, str]]:
     """
     Extract URLs from YAML files (agents and boilerplates).
 
     Returns:
         List of (url, field_name) tuples
     """
-    urls: List[Tuple[str, str]] = []
+    urls: list[tuple[str, str]] = []
 
     try:
         with open(file_path, "r", encoding="utf-8") as f:
@@ -217,7 +216,7 @@ def extract_urls_from_yaml(file_path: Path) -> List[Tuple[str, str]]:
                         github_url = f"https://github.com/{agent_entry.github_repo}"
                         add_normalized_url(urls, github_url, "github_repo")
 
-            except Exception:
+            except Exception:  # noqa: BLE001 - intentional catch-all; report and keep going
                 # If Pydantic validation fails, try manual extraction
                 if "url" in data:
                     add_normalized_url(urls, data["url"], "url")
@@ -234,7 +233,7 @@ def extract_urls_from_yaml(file_path: Path) -> List[Tuple[str, str]]:
                         "github_repo",
                     )
 
-    except Exception as e:
+    except Exception as e:  # noqa: BLE001 - intentional catch-all; report and keep going
         print(
             f"  {Colors.YELLOW}Warning: Could not parse {file_path}: {e}{Colors.RESET}"
         )
@@ -242,14 +241,14 @@ def extract_urls_from_yaml(file_path: Path) -> List[Tuple[str, str]]:
     return urls
 
 
-def extract_urls_from_markdown(file_path: Path) -> List[Tuple[str, str]]:
+def extract_urls_from_markdown(file_path: Path) -> list[tuple[str, str]]:
     """
     Extract URLs from Markdown files.
 
     Returns:
         List of (url, context) tuples
     """
-    urls: List[Tuple[str, str]] = []
+    urls: list[tuple[str, str]] = []
 
     try:
         with open(file_path, "r", encoding="utf-8") as f:
@@ -277,7 +276,7 @@ def extract_urls_from_markdown(file_path: Path) -> List[Tuple[str, str]]:
                 urls.append((url, "direct"))
                 captured_urls.add(url)
 
-    except Exception as e:
+    except Exception as e:  # noqa: BLE001 - intentional catch-all; report and keep going
         print(
             f"  {Colors.YELLOW}Warning: Could not parse {file_path}: {e}{Colors.RESET}"
         )
@@ -285,14 +284,14 @@ def extract_urls_from_markdown(file_path: Path) -> List[Tuple[str, str]]:
     return urls
 
 
-def extract_urls_from_template(file_path: Path) -> List[Tuple[str, str]]:
+def extract_urls_from_template(file_path: Path) -> list[tuple[str, str]]:
     """
     Extract URLs from Jinja2 template files.
 
     Returns:
         List of (url, context) tuples
     """
-    urls: List[Tuple[str, str]] = []
+    urls: list[tuple[str, str]] = []
 
     try:
         with open(file_path, "r", encoding="utf-8") as f:
@@ -306,7 +305,7 @@ def extract_urls_from_template(file_path: Path) -> List[Tuple[str, str]]:
             if "{{" not in url and "}}" not in url:
                 add_normalized_url(urls, url, "literal")
 
-    except Exception as e:
+    except Exception as e:  # noqa: BLE001 - intentional catch-all; report and keep going
         print(
             f"  {Colors.YELLOW}Warning: Could not parse {file_path}: {e}{Colors.RESET}"
         )
@@ -314,14 +313,14 @@ def extract_urls_from_template(file_path: Path) -> List[Tuple[str, str]]:
     return urls
 
 
-def extract_urls_from_static(file_path: Path) -> List[Tuple[str, str]]:
+def extract_urls_from_static(file_path: Path) -> list[tuple[str, str]]:
     """
     Extract URLs from static files (CSS, JS).
 
     Returns:
         List of (url, context) tuples
     """
-    urls: List[Tuple[str, str]] = []
+    urls: list[tuple[str, str]] = []
 
     try:
         with open(file_path, "r", encoding="utf-8") as f:
@@ -332,7 +331,7 @@ def extract_urls_from_static(file_path: Path) -> List[Tuple[str, str]]:
         for match in re.finditer(url_pattern, content):
             add_normalized_url(urls, match.group(0), "static")
 
-    except Exception as e:
+    except Exception as e:  # noqa: BLE001 - intentional catch-all; report and keep going
         print(
             f"  {Colors.YELLOW}Warning: Could not parse {file_path}: {e}{Colors.RESET}"
         )
@@ -358,8 +357,8 @@ def should_skip_url(url: str, skip_domains: set[str], skip_urls: set[str]) -> bo
 
 
 def resolve_selected_files(
-    project_root: Path, files: Optional[List[str]], verbose: bool = False
-) -> Optional[List[Path]]:
+    project_root: Path, files: list[str] | None, verbose: bool = False
+) -> list[Path] | None:
     """Resolve user-provided paths to existing files inside the repository."""
     if files is None:
         return None
@@ -398,8 +397,8 @@ def resolve_selected_files(
 def collect_all_urls(
     yaml_only: bool = False,
     verbose: bool = False,
-    files: Optional[List[str]] = None,
-) -> Dict[str, List[Tuple[str, str]]]:
+    files: list[str] | None = None,
+) -> dict[str, list[tuple[str, str]]]:
     """
     Collect all URLs from repository files.
 
@@ -408,7 +407,7 @@ def collect_all_urls(
     """
     project_root = Path(__file__).parent.parent.resolve()
     selected_files = resolve_selected_files(project_root, files, verbose=verbose)
-    url_map: Dict[str, List[Tuple[str, str]]] = defaultdict(list)
+    url_map: dict[str, list[tuple[str, str]]] = defaultdict(list)
 
     if verbose:
         print(f"\n{Colors.BOLD}Collecting URLs...{Colors.RESET}")
@@ -521,7 +520,7 @@ async def check_url(
     retries: int,
     rate_limiter: RateLimiter,
     verbose: bool = False,
-) -> Tuple[int, Optional[str]]:
+) -> tuple[int, str | None]:
     """
     Check a single URL asynchronously.
 
@@ -536,7 +535,7 @@ async def check_url(
     # Wait for rate limiter
     await rate_limiter.wait_if_needed(url)
 
-    async def request(method: str) -> Tuple[int, Optional[str]]:
+    async def request(method: str) -> tuple[int, str | None]:
         async with session.request(
             method,
             url,
@@ -556,7 +555,7 @@ async def check_url(
             # result with GET before reporting it.
             return await request("GET")
 
-        except asyncio.TimeoutError:
+        except TimeoutError:
             if attempt == retries - 1:
                 return 0, "Timeout"
             await asyncio.sleep(2**attempt)  # Exponential backoff
@@ -565,22 +564,22 @@ async def check_url(
             # Try GET request if HEAD fails at the client/protocol layer.
             try:
                 return await request("GET")
-            except Exception:
+            except Exception:  # noqa: BLE001, S110 - intentional catch-all; report and keep going
                 pass
 
             if attempt == retries - 1:
                 return 0, str(e)
             await asyncio.sleep(2**attempt)
 
-        except Exception as e:
+        except Exception as e:  # noqa: BLE001 - intentional catch-all; report and keep going
             if attempt == retries - 1:
-                return 0, f"Unexpected error: {str(e)}"
+                return 0, f"Unexpected error: {e!s}"
             await asyncio.sleep(2**attempt)
 
     return 0, "Max retries exceeded"
 
 
-def classify_link_result(status_code: int, error_msg: Optional[str]) -> str:
+def classify_link_result(status_code: int, error_msg: str | None) -> str:
     """Classify results conservatively to avoid false broken-link claims."""
     if status_code == 0:
         if error_msg and (
@@ -597,14 +596,14 @@ def classify_link_result(status_code: int, error_msg: Optional[str]) -> str:
 
 
 async def check_all_urls(
-    url_map: Dict[str, List[Tuple[str, str]]],
+    url_map: dict[str, list[tuple[str, str]]],
     timeout: int,
     retries: int,
     rate_limit: int,
     skip_domains: set[str],
     skip_urls: set[str],
     verbose: bool = False,
-) -> List[URLCheck]:
+) -> list[URLCheck]:
     """
     Check all URLs asynchronously with rate limiting.
 
@@ -670,7 +669,7 @@ async def check_all_urls(
                     # Create URLCheck for each source
                     for file_path, field in url_to_sources[url]:
                         # Determine source type
-                        if file_path.endswith(".yml") or file_path.endswith(".yaml"):
+                        if file_path.endswith((".yml", ".yaml")):
                             source_type = "yaml"
                         elif file_path.endswith(".md"):
                             source_type = "markdown"
@@ -696,7 +695,7 @@ async def check_all_urls(
     return results
 
 
-def print_results(results: List[URLCheck], verbose: bool = False):
+def print_results(results: list[URLCheck], verbose: bool = False):
     """Print check results to terminal with color coding."""
     # Group by status
     success = [r for r in results if r.status == "success"]
@@ -744,7 +743,7 @@ def print_results(results: List[URLCheck], verbose: bool = False):
 
 
 def save_report(
-    results: List[URLCheck], output_file: str = "reports/link-check-report.json"
+    results: list[URLCheck], output_file: str = "reports/link-check-report.json"
 ):
     """Save detailed results to JSON file."""
     project_root = Path(__file__).parent.parent
@@ -781,7 +780,7 @@ def save_report(
     print(f"{Colors.BLUE}Report saved to: {output_file}{Colors.RESET}")
 
 
-def create_github_issues(results: List[URLCheck], verbose: bool = False):
+def create_github_issues(results: list[URLCheck], verbose: bool = False):
     """Create GitHub issues for broken links."""
     errors = [r for r in results if r.status == "error"]
 
@@ -799,7 +798,7 @@ def create_github_issues(results: List[URLCheck], verbose: bool = False):
         return
 
     # Group errors by URL to avoid duplicate issues
-    unique_errors: Dict[str, List[URLCheck]] = {}
+    unique_errors: dict[str, list[URLCheck]] = {}
     for result in errors:
         if result.url not in unique_errors:
             unique_errors[result.url] = []
@@ -835,7 +834,7 @@ def create_github_issues(results: List[URLCheck], verbose: bool = False):
                     if verbose:
                         print(f"  Issue already exists for: {url}")
                     continue
-        except Exception as e:
+        except Exception as e:  # noqa: BLE001 - intentional catch-all; report and keep going
             if verbose:
                 print(f"  Warning: Could not check for existing issue: {e}")
 
@@ -881,7 +880,7 @@ This issue was automatically created by the link checker.
                 )
                 if verbose:
                     print(f"    Response: {response.text}")
-        except Exception as e:
+        except Exception as e:  # noqa: BLE001 - intentional catch-all; report and keep going
             print(f"  {Colors.RED}[FAIL]{Colors.RESET} Error creating issue for {url}: {e}")
 
 

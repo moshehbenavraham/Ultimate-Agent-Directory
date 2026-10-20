@@ -6,14 +6,15 @@ Usage:
     python scripts/generate_boilerplates.py
 """
 
-from pathlib import Path
+import re
 from collections import defaultdict
 from datetime import date
-import re
+from pathlib import Path
+
 import yaml
-from jinja2 import Environment, FileSystemLoader
-from models import BoilerplateEntry, BoilerplateCategory
 from config import load_site_config
+from jinja2 import Environment, FileSystemLoader
+from models import BoilerplateCategory, BoilerplateEntry
 
 
 def load_boilerplate_categories() -> list[BoilerplateCategory]:

@@ -6,21 +6,22 @@ Usage:
     python scripts/generate_site.py
 """
 
-from pathlib import Path
-from collections import defaultdict
-from datetime import date
-import yaml
 import json
 import shutil
+from collections import defaultdict
+from datetime import date
+from pathlib import Path
+
+import yaml
+from config import load_site_config
 from jinja2 import Environment, FileSystemLoader
 from models import (
     AgentEntry,
+    BoilerplateCategory,
+    BoilerplateEntry,
     Category,
     DirectoryMetadata,
-    BoilerplateEntry,
-    BoilerplateCategory,
 )
-from config import load_site_config
 
 
 def load_categories() -> list[Category]:

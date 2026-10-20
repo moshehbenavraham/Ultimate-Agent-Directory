@@ -4,10 +4,10 @@ Provides type-safe validation for all agent entries and categories
 """
 
 import re
-from pydantic import BaseModel, HttpUrl, Field, field_validator
-from typing import List, Optional, Literal
 from datetime import date
+from typing import Literal
 
+from pydantic import BaseModel, Field, HttpUrl, field_validator
 
 TAG_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 
@@ -18,7 +18,7 @@ def validate_tags(tags: list[str]) -> list[str]:
 
     for tag in tags:
         if not isinstance(tag, str):
-            raise ValueError("tags must be strings")
+            raise ValueError("tags must be strings")  # noqa: TRY004 - ValueError is what pydantic/callers expect
         normalized = tag.strip().lower().replace(" ", "-")
         if tag != normalized:
             raise ValueError(
@@ -53,7 +53,7 @@ class AgentEntry(BaseModel):
     category: str = Field(description="Primary category (must match category ID)")
 
     # ===== CLASSIFICATION METADATA =====
-    subcategory: Optional[str] = Field(
+    subcategory: str | None = Field(
         default=None, description="Optional subcategory (e.g., 'core-frameworks')"
     )
 
@@ -61,35 +61,35 @@ class AgentEntry(BaseModel):
         "framework", "platform", "tool", "course", "community", "research"
     ] = Field(default="framework", description="Entry type")
 
-    tags: List[str] = Field(
+    tags: list[str] = Field(
         default_factory=list, description="Tags for filtering (lowercase, hyphenated)"
     )
 
     # ===== OPTIONAL URLS =====
-    github_repo: Optional[str] = Field(
+    github_repo: str | None = Field(
         default=None, description="GitHub repo in 'owner/repo' format"
     )
 
-    documentation_url: Optional[HttpUrl] = None
-    demo_url: Optional[HttpUrl] = None
+    documentation_url: HttpUrl | None = None
+    demo_url: HttpUrl | None = None
 
     # ===== TECHNICAL METADATA =====
-    platform: Optional[List[str]] = Field(
+    platform: list[str] | None = Field(
         default=None, description="Languages/platforms (e.g., ['Python', 'TypeScript'])"
     )
 
-    license: Optional[str] = Field(
+    license: str | None = Field(
         default=None, description="License type (e.g., 'MIT', 'Apache-2.0')"
     )
 
-    pricing: Optional[Literal["free", "freemium", "paid", "enterprise"]] = None
+    pricing: Literal["free", "freemium", "paid", "enterprise"] | None = None
 
     # ===== AUTO-COLLECTED (GitHub API) =====
-    github_stars: Optional[int] = Field(
+    github_stars: int | None = Field(
         default=None, description="Auto-updated by GitHub Action"
     )
 
-    last_updated: Optional[date] = Field(
+    last_updated: date | None = Field(
         default=None, description="Last commit date (auto-updated)"
     )
 
@@ -103,11 +103,11 @@ class AgentEntry(BaseModel):
     )
 
     # ===== METADATA TRACKING =====
-    added_date: Optional[date] = Field(
+    added_date: date | None = Field(
         default=None, description="When added to directory"
     )
 
-    last_verified: Optional[date] = Field(
+    last_verified: date | None = Field(
         default=None, description="Last manual verification"
     )
 
@@ -144,7 +144,7 @@ class Category(BaseModel):
 
     order: int = Field(default=0, description="Display order (lower = earlier)")
 
-    parent: Optional[str] = Field(
+    parent: str | None = Field(
         default=None, description="Parent category ID (for subcategories)"
     )
 
@@ -153,7 +153,7 @@ class Category(BaseModel):
         default=True, description="Show GitHub stars in tables?"
     )
 
-    table_columns: List[str] = Field(
+    table_columns: list[str] = Field(
         default=["name", "url", "description"],
         description="Which columns to show in markdown table",
     )
@@ -202,7 +202,7 @@ class DirectoryMetadata(BaseModel):
     total_entries: int = 0
 
     badges: dict = Field(default_factory=dict, description="Badge counts by type")
-    links: Optional[SiteLinks] = None
+    links: SiteLinks | None = None
 
 
 # ===== BOILERPLATE MODELS =====
@@ -223,7 +223,7 @@ class TechStackComponent(BaseModel):
         description="Technology name (e.g., Next.js, PostgreSQL)",
     )
 
-    reasoning: Optional[str] = Field(
+    reasoning: str | None = Field(
         default=None,
         max_length=500,
         description="Why this technology was chosen",
@@ -256,66 +256,64 @@ class BoilerplateEntry(BaseModel):
         default="boilerplate", description="Entry type"
     )
 
-    tags: List[str] = Field(
+    tags: list[str] = Field(
         default_factory=list, description="Tags for filtering (lowercase, hyphenated)"
     )
 
     # ===== OPTIONAL URLS =====
-    github_repo: Optional[str] = Field(
+    github_repo: str | None = Field(
         default=None, description="GitHub repo in 'owner/repo' format"
     )
 
-    documentation_url: Optional[HttpUrl] = None
-    demo_url: Optional[HttpUrl] = None
+    documentation_url: HttpUrl | None = None
+    demo_url: HttpUrl | None = None
 
     # ===== TECHNICAL METADATA =====
-    technical_stack: List[TechStackComponent] = Field(
+    technical_stack: list[TechStackComponent] = Field(
         default_factory=list,
         description="Structured list of technologies with reasoning",
     )
 
-    platform: Optional[List[str]] = Field(
+    platform: list[str] | None = Field(
         default=None,
         description="Primary languages/platforms (e.g., ['TypeScript', 'React'])",
     )
 
-    license: Optional[str] = Field(
+    license: str | None = Field(
         default=None, description="License type (e.g., 'MIT', 'Apache-2.0')"
     )
 
-    pricing: Optional[
-        Literal["free", "freemium", "paid", "enterprise", "open-core"]
-    ] = None
+    pricing: Literal["free", "freemium", "paid", "enterprise", "open-core"] | None = None
 
     # ===== GITHUB STATS =====
-    github_stars: Optional[int] = Field(default=None, description="GitHub star count")
+    github_stars: int | None = Field(default=None, description="GitHub star count")
 
-    last_updated: Optional[date] = Field(default=None, description="Last commit date")
+    last_updated: date | None = Field(default=None, description="Last commit date")
 
     is_archived: bool = Field(default=False, description="Is GitHub repo archived?")
 
     # ===== BOILERPLATE-SPECIFIC FIELDS =====
-    key_features: Optional[List[str]] = Field(
+    key_features: list[str] | None = Field(
         default=None, description="List of key features"
     )
 
-    use_case: Optional[str] = Field(
+    use_case: str | None = Field(
         default=None,
         max_length=1000,
         description="Ideal use case description",
     )
 
-    pros: Optional[List[str]] = Field(default=None, description="List of advantages")
+    pros: list[str] | None = Field(default=None, description="List of advantages")
 
-    cons: Optional[List[str]] = Field(default=None, description="List of disadvantages")
+    cons: list[str] | None = Field(default=None, description="List of disadvantages")
 
-    community: Optional[str] = Field(
+    community: str | None = Field(
         default=None,
         max_length=500,
         description="Community information (Discord, forums, etc.)",
     )
 
-    deployment: Optional[List[str]] = Field(
+    deployment: list[str] | None = Field(
         default=None, description="Deployment platforms (e.g., ['Vercel', 'AWS'])"
     )
 
@@ -327,11 +325,11 @@ class BoilerplateEntry(BaseModel):
     )
 
     # ===== METADATA TRACKING =====
-    added_date: Optional[date] = Field(
+    added_date: date | None = Field(
         default=None, description="When added to directory"
     )
 
-    last_verified: Optional[date] = Field(
+    last_verified: date | None = Field(
         default=None, description="Last manual verification"
     )
 
@@ -377,7 +375,7 @@ class BoilerplateCategory(BaseModel):
         default=True, description="Show GitHub stars in tables?"
     )
 
-    table_columns: List[str] = Field(
+    table_columns: list[str] = Field(
         default=["name", "url", "description", "github_stars"],
         description="Which columns to show in markdown table",
     )

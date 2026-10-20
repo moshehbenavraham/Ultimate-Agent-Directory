@@ -44,7 +44,6 @@ from validate import (
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 from models import AgentEntry, Category
 
-
 # =============================================================================
 # Fixtures - T004: Temporary data directory structure
 # =============================================================================
@@ -377,7 +376,7 @@ class TestCollectFiles:
             "boilerplate-category": True,
         }
         target_path = str(tmp_data_dir / "agents" / "open-source-frameworks")
-        files, errors = collect_files([target_path], tmp_data_dir, include)
+        files, _errors = collect_files([target_path], tmp_data_dir, include)
 
         assert len(files["agent"]) == 1
         assert files["agent"][0].name == "test1.yml"
@@ -385,7 +384,7 @@ class TestCollectFiles:
     def test_nonexistent_path_error(self, tmp_data_dir: Path) -> None:
         """Nonexistent paths generate errors."""
         include = {"agent": True, "category": True, "boilerplate": True, "boilerplate-category": True}
-        files, errors = collect_files(["/nonexistent/path"], tmp_data_dir, include)
+        _files, errors = collect_files(["/nonexistent/path"], tmp_data_dir, include)
 
         assert len(errors) == 1
         assert "Path not found" in errors[0]
@@ -399,7 +398,7 @@ class TestCollectFiles:
         create_yaml_file(outside_file, {"test": "data"})
 
         include = {"agent": True, "category": True, "boilerplate": True, "boilerplate-category": True}
-        files, errors = collect_files([str(outside_file)], data_dir, include)
+        _files, errors = collect_files([str(outside_file)], data_dir, include)
 
         assert len(errors) == 1
         assert "outside data directory" in errors[0]
@@ -423,7 +422,7 @@ class TestCollectFiles:
             "boilerplate": False,
             "boilerplate-category": False,
         }
-        files, errors = collect_files([], tmp_data_dir, include)
+        files, _errors = collect_files([], tmp_data_dir, include)
 
         assert len(files["agent"]) == 1
         assert len(files["category"]) == 0
@@ -434,7 +433,7 @@ class TestCollectFiles:
         gitkeep.touch()
 
         include = {"agent": True, "category": True, "boilerplate": True, "boilerplate-category": True}
-        files, errors = collect_files([], tmp_data_dir, include)
+        files, _errors = collect_files([], tmp_data_dir, include)
 
         assert len(files["agent"]) == 0
 
@@ -988,7 +987,7 @@ class TestValidateYamlFile:
         """Valid category YAML passes validation."""
         filepath = create_yaml_file(tmp_path / "category.yml", valid_category_yaml)
 
-        success, message, data = validate_yaml_file(filepath, Category)
+        success, message, _data = validate_yaml_file(filepath, Category)
 
         assert success is True
         assert "OK" in message
@@ -1069,7 +1068,7 @@ class TestCollectFilesAdditional:
             "boilerplate-category": True,
         }
         target_path = str(tmp_data_dir / "agents")
-        files, errors = collect_files([target_path], tmp_data_dir, include)
+        files, _errors = collect_files([target_path], tmp_data_dir, include)
 
         assert len(files["agent"]) == 1
         assert files["agent"][0].suffix == ".yaml"
@@ -1094,7 +1093,7 @@ class TestCollectFilesAdditional:
             "boilerplate-category": True,
         }
         target_path = str(tmp_data_dir / "agents" / "open-source-frameworks")
-        files, errors = collect_files([target_path], tmp_data_dir, include)
+        files, _errors = collect_files([target_path], tmp_data_dir, include)
 
         assert len(files["agent"]) == 2
 
@@ -1114,7 +1113,7 @@ class TestCollectFilesAdditional:
             "boilerplate-category": False,
         }
         target_path = str(tmp_data_dir / "agents")
-        files, errors = collect_files([target_path], tmp_data_dir, include)
+        files, _errors = collect_files([target_path], tmp_data_dir, include)
 
         assert len(files["agent"]) == 0
 

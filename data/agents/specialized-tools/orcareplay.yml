@@ -13,7 +13,6 @@ tags:
   - observability
   - qa
   - debugging
-  - record-replay
   - cli
 platform:
   - CLI

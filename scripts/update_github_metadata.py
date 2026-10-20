@@ -17,7 +17,6 @@ import time
 from dataclasses import dataclass
 from datetime import date, datetime
 from pathlib import Path
-from typing import Optional
 
 import requests
 import yaml
@@ -25,9 +24,9 @@ import yaml
 
 @dataclass
 class RepoMetadata:
-    stars: Optional[int]
-    last_updated: Optional[date]
-    is_archived: Optional[bool]
+    stars: int | None
+    last_updated: date | None
+    is_archived: bool | None
 
 
 class RateLimitError(RuntimeError):
@@ -92,7 +91,7 @@ def is_yaml_file(filepath: Path) -> bool:
     return filepath.suffix in {".yml", ".yaml"}
 
 
-def get_entry_kind(filepath: Path, data_dir: Path) -> Optional[str]:
+def get_entry_kind(filepath: Path, data_dir: Path) -> str | None:
     try:
         relative = filepath.resolve().relative_to(data_dir.resolve())
     except ValueError:
@@ -156,7 +155,7 @@ def load_yaml_data(filepath: Path) -> dict:
     if data is None:
         raise ValueError("Empty YAML file")
     if not isinstance(data, dict):
-        raise ValueError("YAML content must be a mapping")
+        raise ValueError("YAML content must be a mapping")  # noqa: TRY004 - ValueError is what pydantic/callers expect
     return data
 
 
@@ -164,12 +163,11 @@ def normalize_repo(repo: str) -> str:
     repo = repo.strip()
     if repo.startswith("https://github.com/"):
         repo = repo.replace("https://github.com/", "", 1)
-    if repo.endswith(".git"):
-        repo = repo[:-4]
+    repo = repo.removesuffix(".git")
     return repo
 
 
-def parse_github_date(value: Optional[str]) -> Optional[date]:
+def parse_github_date(value: str | None) -> date | None:
     if not value:
         return None
     try:
@@ -214,7 +212,7 @@ def fetch_repo_metadata(
     )
 
 
-def normalize_existing_date(value: object) -> Optional[str]:
+def normalize_existing_date(value: object) -> str | None:
     if isinstance(value, date):
         return value.isoformat()
     if isinstance(value, str):
@@ -222,7 +220,7 @@ def normalize_existing_date(value: object) -> Optional[str]:
     return None
 
 
-def normalize_existing_int(value: object) -> Optional[int]:
+def normalize_existing_int(value: object) -> int | None:
     if isinstance(value, int):
         return value
     if isinstance(value, str) and value.isdigit():
@@ -230,7 +228,7 @@ def normalize_existing_int(value: object) -> Optional[int]:
     return None
 
 
-def format_yaml_value(key: str, value: object) -> Optional[str]:
+def format_yaml_value(key: str, value: object) -> str | None:
     if value is None:
         return None
     if key == "last_updated":
@@ -242,7 +240,7 @@ def format_yaml_value(key: str, value: object) -> Optional[str]:
     return f"{key}: {value}"
 
 
-def find_key_line(lines: list[str], key: str) -> Optional[int]:
+def find_key_line(lines: list[str], key: str) -> int | None:
     for index, line in enumerate(lines):
         if line.startswith(f"{key}:"):
             return index
@@ -367,7 +365,7 @@ def main() -> None:
             break
         try:
             data = load_yaml_data(filepath)
-        except Exception as exc:
+        except Exception as exc:  # noqa: BLE001 - intentional catch-all; report and keep going
             print(f"ERROR {filepath}: {exc}")
             errors += 1
             continue
@@ -394,7 +392,7 @@ def main() -> None:
             except RateLimitError as exc:
                 print(f"ERROR: {exc}")
                 break
-            except Exception as exc:
+            except Exception as exc:  # noqa: BLE001 - intentional catch-all; report and keep going
                 print(f"ERROR {filepath}: {exc}")
                 errors += 1
                 continue
@@ -415,7 +413,7 @@ def main() -> None:
         if args.sleep:
             try:
                 time.sleep(args.sleep)
-            except Exception:
+            except Exception:  # noqa: BLE001, S110 - intentional catch-all; report and keep going
                 pass
 
     print(

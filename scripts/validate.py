@@ -13,14 +13,19 @@ Usage:
 
 import argparse
 import sys
+from collections.abc import Iterable
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Iterable
 from urllib.parse import urlparse, urlunparse
 
 import yaml
-
-from models import AgentEntry, Category, BoilerplateEntry, BoilerplateCategory, TAG_PATTERN
+from models import (
+    TAG_PATTERN,
+    AgentEntry,
+    BoilerplateCategory,
+    BoilerplateEntry,
+    Category,
+)
 
 
 @dataclass
@@ -138,8 +143,8 @@ def collect_files(
             else:
                 add_file(path, is_explicit=True)
 
-    for kind in collected:
-        collected[kind] = sorted(set(collected[kind]))
+    for kind, kind_paths in collected.items():
+        collected[kind] = sorted(set(kind_paths))
 
     return collected, errors
 
@@ -150,7 +155,7 @@ def load_yaml_data(filepath: Path) -> dict:
     if data is None:
         raise ValueError("Empty YAML file")
     if not isinstance(data, dict):
-        raise ValueError("YAML content must be a mapping")
+        raise ValueError("YAML content must be a mapping")  # noqa: TRY004 - ValueError is what pydantic/callers expect
     return data
 
 
@@ -159,12 +164,12 @@ def validate_yaml_file(filepath: Path, model) -> tuple[bool, str, dict | None]:
         data = load_yaml_data(filepath)
     except yaml.YAMLError as e:
         return False, f"ERROR {filepath}: YAML syntax error: {e}", None
-    except Exception as e:
+    except Exception as e:  # noqa: BLE001 - intentional catch-all; report and keep going
         return False, f"ERROR {filepath}: {e}", None
 
     try:
         model(**data)
-    except Exception as e:
+    except Exception as e:  # noqa: BLE001 - intentional catch-all; report and keep going
         return False, f"ERROR {filepath}: Validation error: {e}", None
 
     return True, f"OK {filepath}", data
@@ -182,7 +187,7 @@ def load_category_ids(category_dir: Path) -> set[str]:
             category_id = data.get("id")
             if category_id:
                 ids.add(str(category_id))
-        except Exception:
+        except Exception:  # noqa: BLE001, S112 - intentional catch-all; report and keep going
             continue
     return ids
 
@@ -210,7 +215,7 @@ def normalize_url(url: str) -> str:
     """
     try:
         parsed = urlparse(url)
-    except Exception:
+    except Exception:  # noqa: BLE001 - intentional catch-all; report and keep going
         return url
 
     # Normalize scheme: http -> https
@@ -275,7 +280,7 @@ def load_tag_registry(data_dir: Path) -> tuple[set[str], list[str]]:
     errors: list[str] = []
     try:
         data = load_yaml_data(registry_path)
-    except Exception as exc:
+    except Exception as exc:  # noqa: BLE001 - intentional catch-all; report and keep going
         return set(), [f"ERROR {registry_path}: {exc}"]
 
     tags = data.get("tags")

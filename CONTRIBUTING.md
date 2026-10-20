@@ -58,7 +58,7 @@ Propose new categories if you notice a gap in the current structure (see `data/c
 ### Prerequisites
 
 - Git
-- Python 3.8 or higher
+- Python 3.11 or higher (scripts use `X | None` annotations and the builtin `TimeoutError`, which `asyncio.TimeoutError` aliases only from 3.11; CI runs 3.11)
 - Text editor or IDE
 
 ### Initial Setup

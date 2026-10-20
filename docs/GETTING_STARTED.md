@@ -5,7 +5,7 @@ Quick guide to set up, contribute to, and deploy the Ultimate Agent Directory.
 ## Prerequisites
 
 ```bash
-# Python 3.10+ required
+# Python 3.11+ required (CI runs 3.11)
 python3 --version
 
 # Install dependencies

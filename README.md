@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-775-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-776-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-October_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
@@ -509,6 +509,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Hume EVI** | [Link](https://www.hume.ai/empathic-voice-interface) | Hume's Empathic Voice Interface for building voice AI that can understand and respond to vocal emotion in real time. EVI combines speech recognition, emotion understanding, language modeling, and voice output for emotionally responsive conversational agents. |
 | **IBM BeeAI** | [GitHub](https://github.com/i-am-bee/beeai-framework) | IBM Research project for observability and debugging of agentic AI systems. Provides tools for tracing agent reasoning, visualizing decision trees, and analyzing multi-agent interactions for research and production deployments. |
 | **IdeaHunter** | [Link](https://ideahunter.today/) | AI-assisted research workflow for solo founders to find demand-backed app and micro-SaaS ideas using public signals, buyer pain, market evidence, MVP scope, and monetization paths rather than generic brainstorming. |
+| **ImagineYourBook** | [Link](https://www.imagineyourbook.com/) | Book-writing agent that turns a premise into a full chapter plan, then drafts the manuscript chapter by chapter while tracking characters and plot threads in a series story bible. Also offers Manuscript Rewrite for existing drafts, cover and title generation, and Word, EPUB and Markdown export. Drafts are meant to be reviewed and edited by the author. |
 | **Ingram Micro Xvantage** | [Link](https://www.ingrammicro.com/en-us/solutions/xvantage) | AI agent built with Google Gemini models embedded in the Xvantage distribution platform, designed to provide actionable daily briefs and data-driven recommendations to sales teams. |
 | **Inspect AI** | [GitHub](https://github.com/UKGovernmentBEIS/inspect_ai) | Open-source framework for large language model evaluations from the UK AI Safety Institute. Inspect AI supports multi-turn tasks, agent evaluations, sandboxed code execution, scorers, datasets, and reproducible eval runs. ![Stars](https://img.shields.io/badge/stars-2773-yellow) |
 | **Instantly.ai** | [Link](https://instantly.ai/) | AI-powered email outreach platform that automates sales prospecting with unlimited email account connections, AI personalization, and campaign analytics. Focuses on scaling cold email outreach with deliverability optimization. |
@@ -978,9 +979,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 775
+- **Total Entries:** 776
 - **Categories:** 12
-- **Last Generated:** 2026-10-20
+- **Last Generated:** 2026-10-21
 
 ---
 

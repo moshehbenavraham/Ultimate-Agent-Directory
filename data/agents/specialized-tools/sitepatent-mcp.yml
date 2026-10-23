@@ -1,0 +1,14 @@
+name: SitePatent MCP
+url: https://sitepatent.com/mcp
+description: Read-only remote MCP server for the SitePatent startup and product discovery directory. Agents can search its listed websites, SaaS and AI tools, read full listing profiles, find alternatives to a named product, browse categories and see what is trending. Streamable HTTP endpoint at https://sitepatent.com/api/mcp, no API key or account. Listed in the official MCP registry as `com.sitepatent/directory`.
+documentation_url: https://sitepatent.com/mcp
+category: specialized-tools
+type: tool
+tags:
+  - mcp
+  - hosted
+  - directory
+  - search
+pricing: free
+featured: false
+verified: false

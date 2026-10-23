@@ -1,0 +1,17 @@
+name: deed.page
+url: https://deed.page
+description: Static site hosting for AI agents. One curl PUT or a call to its remote MCP server publishes an HTML file or a folder to a permanent https://{slug}.deed.page/ URL without an account, returning an owner token that the agent uses to update, restore earlier versions of, or delete the site. An MIT-licensed agent skill and plugin manifests cover Claude Code, Codex, Cursor, Gemini CLI and Grok Bot.
+documentation_url: https://deed.page/docs
+github_repo: f-o-x11/deed-page-skill
+category: specialized-tools
+type: platform
+tags:
+  - hosting
+  - mcp
+  - agent-skills
+  - deployment
+  - api
+pricing: freemium
+added_date: '2026-10-22'
+last_verified: '2026-10-22'
+verified: false

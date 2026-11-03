@@ -1,0 +1,19 @@
+name: Build and ship an AI agent + MCP server (Homingo Learn)
+url: https://learn.homingo.co.in/courses/build-ship-ai-agent-mcp-server?utm_source=github&utm_medium=list&utm_campaign=course1_ultimateagentdirectory
+description: Paid project course from Homingo Learn. Eight modules take a developer
+  from a first model API call to a deployed agent with typed tools, an approval
+  queue in front of every action, an MCP server tested with Claude, a reviewer
+  model and scheduled jobs. The capstone is a public GitHub repo with a live demo.
+category: learning-resources
+type: course
+tags:
+  - course
+  - learning
+  - mcp
+  - tools
+  - integration
+added_date: '2026-11-03'
+verified: false
+platform:
+  - Web
+pricing: paid

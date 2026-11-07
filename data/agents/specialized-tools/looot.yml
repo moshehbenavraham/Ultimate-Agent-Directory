@@ -1,0 +1,16 @@
+name: looot
+url: https://looot.ai
+description: Business data API and remote MCP server for AI agents. One API key and one prepaid balance cover work email and phone lookup, email verification, company and people enrichment, Google SERP and web pages as markdown from 300+ providers. Agents see the price before running, and a failed call costs $0.
+documentation_url: https://docs.looot.ai
+category: specialized-tools
+type: platform
+tags:
+  - mcp
+  - api
+  - lead-generation
+  - sales
+  - web-scraping
+pricing: paid
+added_date: '2026-11-07'
+last_verified: '2026-11-07'
+verified: false

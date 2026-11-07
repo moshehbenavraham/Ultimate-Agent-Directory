@@ -3,7 +3,7 @@
 <div align="center">
 
 ![Total Entries](https://img.shields.io/badge/Total%20Entries-777-blue?style=for-the-badge&logo=database&logoColor=white)
-![Last Updated](https://img.shields.io/badge/Updated-October_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
+![Last Updated](https://img.shields.io/badge/Updated-November_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
 
@@ -527,7 +527,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Linear MCP Server** | [Link](https://linear.app/integrations/claude) | Linear's MCP integration for connecting Claude and other compatible agents to Linear issues, projects, comments, and project-management workflows through secure authenticated access. |
 | **LiteLLM** | [GitHub](https://github.com/BerriAI/litellm) | Open-source Python SDK and proxy server that exposes a unified OpenAI-compatible API for 100+ LLM providers. LiteLLM Proxy acts as an AI gateway with logging, cost tracking, retries, rate limits, load balancing, guardrails, and provider failover. ![Stars](https://img.shields.io/badge/stars-58742-yellow) |
 | **LlamaParse** | [Link](https://www.llamaindex.ai/llamaparse) | LlamaIndex's managed document parsing service for turning complex documents into AI-ready data. LlamaParse handles PDFs, tables, charts, handwriting, checkboxes, images, and many file formats, returning clean markdown, text, or JSON for RAG and agent pipelines. |
-| **looot** | [Link](https://looot.ai/) | Business data API and remote MCP server for AI agents. One API key and one prepaid balance cover work email and phone lookup, email verification, company and people enrichment, Google SERP and web pages as markdown from 300+ providers. Agents see the price before running, and a failed call costs $0. |
+| **looot** | [Link](https://looot.ai/) | Business data API and remote MCP server for AI agents. One API key and one prepaid balance cover work email and phone lookup, email verification, company and people enrichment, Google SERP and web pages as markdown from 300+ providers. Agents see the price before running. |
 | **Lunary** | [Link](https://lunary.ai/) | LLM observability and prompt management platform for tracking prompts, traces, costs, user feedback, evaluations, and analytics across AI products. Lunary provides SDKs and hosted monitoring for production LLM applications. |
 | **Marqo** | [Link](https://www.marqo.ai/) | AI-native search and discovery platform for ecommerce teams. Marqo uses semantic search, personalization, clickstream, purchase, and event data to improve product search relevance, recommendations, conversion, and merchandising workflows. |
 | **Maxim AI** | [Link](https://www.getmaxim.ai/) | AI observability and evaluation platform for testing prompts, running simulations, managing datasets, monitoring production behavior, and catching regressions in LLM and agent applications. |
@@ -982,7 +982,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 - **Total Entries:** 777
 - **Categories:** 12
-- **Last Generated:** 2026-10-21
+- **Last Generated:** 2026-11-07
 
 ---
 

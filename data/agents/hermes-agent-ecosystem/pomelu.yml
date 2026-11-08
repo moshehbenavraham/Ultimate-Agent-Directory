@@ -1,6 +1,6 @@
 name: Pomelu
 url: https://github.com/ateymoori/pomelu
-description: Open-source Flutter mobile client for Hermes Agent by Nous Research.
+description: Open-source Flutter mobile client for Hermes Agent.
   Connects to the gateway of a self-hosted Hermes Agent and shows every bot in a
   messenger-style chat with voice notes, images, files and one-tap command approvals.
   No account and no tracking. Android app on Google Play, Apache-2.0.
@@ -11,6 +11,7 @@ type: tool
 tags:
   - hermes-agent
   - android
+  - ios
   - cross-platform
   - open-source
   - self-hosted

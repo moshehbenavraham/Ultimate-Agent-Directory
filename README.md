@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-776-blue?style=for-the-badge&logo=database&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-777-blue?style=for-the-badge&logo=database&logoColor=white)
 ![Last Updated](https://img.shields.io/badge/Updated-October_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
@@ -756,6 +756,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Graphite Diamond** | [Link](https://diamond.graphite.dev/) | Graphite's agentic AI code review product for pull requests. Diamond provides automated code review, review summaries, suggested fixes, and collaboration workflows inside Graphite's developer platform. |
 | **Greptile** | [Link](https://www.greptile.com/) | AI code review agent with codebase-aware analysis for engineering teams. Greptile connects to repositories, understands project context, and comments on pull requests with automated review feedback. |
 | **Grit.io** | [Link](https://app.grit.io/) | AI-powered code migration and large-scale refactoring platform. Grit.io helps teams upgrade dependencies, migrate frameworks, apply pattern-based code transformations, and open pull requests for review. |
+| **Imagera Code** | [Link](https://imagera.ai/code) | Terminal coding agent installed with npm i -g imagera-code. It reads a project, edits files, runs tests and shows the diff before you keep it, on 276 coding models from one paid plan with one weekly limit and no short 3-hour lockouts; past the limit it can continue on credits. |
 | **JetBrains AI Assistant** | [Link](https://www.jetbrains.com/ai/) | Built-in AI assistant for JetBrains IDEs and related developer tools. It provides context-aware chat, code generation, completion, refactoring, tests, documentation help, and multi-model workflows. |
 | **JetBrains Junie** | [Link](https://www.jetbrains.com/junie/) | AI coding agent integrated with JetBrains IDEs. Junie handles multi-step coding tasks, works with project context, runs checks, and helps implement changes inside JetBrains development environments. |
 | **Jules** | [Link](https://jules.google/) | Google's asynchronous coding agent for working on GitHub repositories. Jules runs coding tasks in cloud environments, proposes changes, writes tests, and helps turn issues or requests into pull-request-ready work. |
@@ -979,7 +980,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 776
+- **Total Entries:** 777
 - **Categories:** 12
 - **Last Generated:** 2026-10-21
 

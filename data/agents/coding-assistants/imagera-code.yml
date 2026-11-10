@@ -1,0 +1,16 @@
+name: Imagera Code
+url: https://imagera.ai/code
+description: Terminal coding agent installed with npm i -g imagera-code. It reads a project, edits files, runs tests and shows the diff before you keep it, on 276 coding models from one paid plan with one weekly limit and no short 3-hour lockouts; past the limit it can continue on credits.
+category: coding-assistants
+type: tool
+tags:
+  - autonomous-agent
+  - cli
+  - coding-assistant
+  - terminal
+platform:
+  - CLI
+pricing: paid
+added_date: '2026-11-10'
+last_verified: '2026-11-10'
+verified: false

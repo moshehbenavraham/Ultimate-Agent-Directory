@@ -2,8 +2,8 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-776-blue?style=for-the-badge&logo=database&logoColor=white)
-![Last Updated](https://img.shields.io/badge/Updated-October_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-777-blue?style=for-the-badge&logo=database&logoColor=white)
+![Last Updated](https://img.shields.io/badge/Updated-November_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
 
@@ -484,6 +484,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Cognigy** | [Link](https://www.cognigy.com/) | Conversational AI platform focused on enterprise customer service automation. Enables creation of intelligent virtual agents with advanced natural language processing and seamless integration with existing business systems. |
 | **Composio** | [GitHub](https://github.com/ComposioHQ/composio) | Platform and SDK for connecting AI agents to external tools, authenticated apps, and sandboxed workbench environments. Composio provides toolkits, tool search, context management, auth handling, and integrations for production agents that need to act across third-party services. ![Stars](https://img.shields.io/badge/stars-30172-yellow) |
 | **CyberArk** | [Link](https://www.cyberark.com/) | Enterprise security platform designed to secure autonomous AI agents themselves, addressing the new security risks and access-management challenges created when agents are deployed in sensitive environments. |
+| **Datacircle** | [Link](https://datacircle.dev/) | Benchmark of GTM data APIs, such as email finders and LinkedIn profile APIs. Compares plans on price per 1,000 results, rate limits, speed and returned fields. A free read-only API with no key at api.datacircle.dev/v1 and an MCP server at api.datacircle.dev/mcp let agents list every API, see who is best for each and search every plan. |
 | **Datadog** | [Link](https://www.datadoghq.com/) | Application performance monitoring platform with AI-powered agents for distributed tracing, root cause analysis, and proactive application improvement. Features Bits AI for data querying and automated remediation suggestions. |
 | **Dedicated Mac Mini AI Bot Setup** | [Link](https://www.emadibrahim.com/bot-setup/mac-mini-ai-agent-setup) | Managed Mac mini AI operator setup service for founders and operators who want Telegram or Discord access to frontier-model automation across marketing, SEO, inbox, coding, deployment, research, and operations workflows. Includes a hosted read-only MCP endpoint for offer and queue metadata, with human-reviewed setup before payment. |
 | **DeepEval** | [GitHub](https://github.com/confident-ai/deepeval) | Open-source LLM evaluation framework with a pytest-like interface. DeepEval provides metrics for RAG, hallucination, answer relevance, bias, and custom criteria, with Confident AI offering a managed evaluation platform. ![Stars](https://img.shields.io/badge/stars-18271-yellow) |
@@ -979,9 +980,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 776
+- **Total Entries:** 777
 - **Categories:** 12
-- **Last Generated:** 2026-10-21
+- **Last Generated:** 2026-11-10
 
 ---
 

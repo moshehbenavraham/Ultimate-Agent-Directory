@@ -1,0 +1,13 @@
+name: Datacircle
+url: https://datacircle.dev
+description: Benchmark of GTM data APIs, such as email finders and LinkedIn profile APIs. Compares plans on price per 1,000 results, rate limits, speed and returned fields. A free read-only API with no key at api.datacircle.dev/v1 and an MCP server at api.datacircle.dev/mcp let agents list every API, see who is best for each and search every plan.
+category: specialized-tools
+type: tool
+tags:
+  - api
+  - benchmark
+  - mcp
+  - openapi
+documentation_url: https://api.datacircle.dev/v1/openapi.json
+pricing: free
+verified: false

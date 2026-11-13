@@ -1,0 +1,21 @@
+name: CloudGPU MCP
+url: https://github.com/cloudgpu-app/cloudgpu-mcp
+description: Open-source local (stdio) MCP server that lets an AI agent rent an RTX 4090/5090 GPU
+  instance on CloudGPU, upload code and data, run a training or inference job, download
+  the results and destroy the instance. The user approves the account connection and a
+  spending limit first, and each instance carries server-side spend, time and idle
+  limits. Works with any MCP client that can start a local server; the same key also
+  covers CloudGPU's OpenAI-compatible API for open models.
+github_repo: cloudgpu-app/cloudgpu-mcp
+documentation_url: https://cloudgpu.app
+category: specialized-tools
+type: tool
+tags:
+  - mcp
+  - gpu
+  - infrastructure
+  - open-source
+pricing: paid
+platform:
+  - JavaScript
+license: MIT

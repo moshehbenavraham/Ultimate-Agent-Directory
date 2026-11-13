@@ -2,8 +2,8 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-776-blue?style=for-the-badge&logo=database&logoColor=white)
-![Last Updated](https://img.shields.io/badge/Updated-October_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-777-blue?style=for-the-badge&logo=database&logoColor=white)
+![Last Updated](https://img.shields.io/badge/Updated-November_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
 
@@ -479,6 +479,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **ClickUp MCP Server** | [Link](https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server) | Official ClickUp MCP server for connecting AI assistants to ClickUp workspace data such as tasks, lists, folders, docs, and project workflows through authenticated MCP access. |
 | **Cloudflare AI Gateway** | [Link](https://developers.cloudflare.com/ai-gateway/) | Cloudflare's AI gateway proxy for monitoring, controlling, and optimizing traffic between applications and model providers. It provides request logs, analytics, caching, rate limiting, retries, model fallback, and edge deployment options for production AI applications. |
 | **Cloudflare MCP Server** | [GitHub](https://github.com/cloudflare/mcp-server-cloudflare) | Official Cloudflare MCP server exposing Cloudflare services as tools for agents and AI assistants. It enables natural-language workflows for Workers, storage, domains, and other Cloudflare platform resources. ![Stars](https://img.shields.io/badge/stars-4193-yellow) |
+| **CloudGPU MCP** | [GitHub](https://github.com/cloudgpu-app/cloudgpu-mcp) | Open-source local (stdio) MCP server that lets an AI agent rent an RTX 4090/5090 GPU instance on CloudGPU, upload code and data, run a training or inference job, download the results and destroy the instance. The user approves the account connection and a spending limit first, and each instance carries server-side spend, time and idle limits. Works with any MCP client that can start a local server; the same key also covers CloudGPU's OpenAI-compatible API for open models. |
 | **CodeGuru** | [Link](https://aws.amazon.com/codeguru/) | AI-powered code analysis service that automatically flags security vulnerabilities, provides performance recommendations, and explains code issues with machine learning. Integrates with popular development tools and CI/CD pipelines. |
 | **Cognee** | [GitHub](https://github.com/topoteretes/cognee) | Open-source memory and knowledge infrastructure for AI agents. Cognee turns documents and conversations into graph- and vector-backed memory that agents can retrieve from and reason over. ![Stars](https://img.shields.io/badge/stars-30686-yellow) |
 | **Cognigy** | [Link](https://www.cognigy.com/) | Conversational AI platform focused on enterprise customer service automation. Enables creation of intelligent virtual agents with advanced natural language processing and seamless integration with existing business systems. |
@@ -979,9 +980,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 776
+- **Total Entries:** 777
 - **Categories:** 12
-- **Last Generated:** 2026-10-21
+- **Last Generated:** 2026-11-13
 
 ---
 

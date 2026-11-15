@@ -1,0 +1,20 @@
+name: GetYouTubeTranscript for Hermes Agent
+url: https://github.com/tubeagentkit/youtube-transcript-hermes-plugin
+description: Hermes Agent plugin that connects the GetYouTubeTranscript remote MCP
+  server for YouTube transcripts with optional timestamps, video search, and channel
+  and playlist browsing. Ships four skills that tell the agent when to fetch, search
+  or summarize; all tools are read-only and need an API key (100 credits on sign-up).
+github_repo: tubeagentkit/youtube-transcript-hermes-plugin
+last_updated: '2026-11-07'
+github_stars: 10
+is_archived: false
+category: hermes-agent-ecosystem
+added_date: '2026-11-15'
+verified: true
+type: tool
+tags:
+  - hermes-agent
+  - plugins
+  - youtube
+  - data-extraction
+  - agent-skills

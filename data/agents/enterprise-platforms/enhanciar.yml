@@ -1,0 +1,20 @@
+name: Enhanciar
+url: https://enhanciar.in
+description: Hosted company knowledge assistant. It connects to Slack, Gmail, Google
+  Drive, Notion, Jira, Linear, GitHub, Zendesk and Postgres, answers questions with a
+  link to each source, and drafts follow-ups (replies, tickets, docs, calendar events)
+  that wait in a queue until a person approves them. Also available as a remote MCP
+  server and an API. Permission-aware; bring your own AI key.
+category: enterprise-platforms
+type: platform
+tags:
+  - enterprise
+  - knowledge-management
+  - mcp
+  - search
+  - workplace
+platform:
+  - Web
+pricing: paid
+added_date: '2026-11-23'
+verified: false

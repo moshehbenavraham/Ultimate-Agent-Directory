@@ -2,8 +2,8 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-776-blue?style=for-the-badge&logo=database&logoColor=white)
-![Last Updated](https://img.shields.io/badge/Updated-October_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-777-blue?style=for-the-badge&logo=database&logoColor=white)
+![Last Updated](https://img.shields.io/badge/Updated-November_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
 
@@ -825,6 +825,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Decagon** | [Link](https://decagon.ai/) | Enterprise AI agent platform for customer experience. Decagon supports customer-service workflows across chat, email, SMS, and voice with controlled procedures, integrations, and operational analytics. |
 | **Delos** | [Link](https://www.delos.ai/) | A modern AI agent platform built to accelerate enterprise productivity by leveraging generative AI capabilities in a secure, managed environment. Focuses on providing enterprise-ready agents with built-in security, compliance, and governance features for production deployments. |
 | **Druid AI** | [Link](https://www.druidai.com/) | Enterprise conversational AI and automation platform for building virtual assistants and AI agents. Druid supports no-code bot design, omnichannel deployment, enterprise integrations, and orchestration across ERP, CRM, and service workflows. |
+| **Enhanciar** | [Link](https://enhanciar.in/) | Hosted company knowledge assistant. It connects to Slack, Gmail, Google Drive, Notion, Jira, Linear, GitHub, Zendesk and Postgres, answers questions with a link to each source, and drafts follow-ups (replies, tickets, docs, calendar events) that wait in a queue until a person approves them. Also available as a remote MCP server and an API. Permission-aware; bring your own AI key. |
 | **Factory.ai** | [Link](https://www.factory.ai/) | Agentic AI platform focused on transforming software development through autonomous "Droids" that manage the entire software engineering lifecycle from ideation to deployment. Features parallel task execution, enterprise-grade security, hybrid cloud/local deployment, and deep project context with memory retention. Backed by $20M Series A funding from Sequoia Capital, priced at $40/month for enterprise-scale automation. |
 | **Freshworks Freddy AI** | [Link](https://www.freshworks.com/freshdesk/omni/freddy-ai-agent/) | AI agent platform inside Freshworks Customer Service Suite for automating customer support across chat, email, voice, and messaging channels. Freddy AI provides agentic workflows, knowledge-grounded answers, and human handoff for support teams. |
 | **Glean Work AI** | [Link](https://www.glean.com/product/overview) | Enterprise AI search and assistant platform for workplace knowledge. Glean combines connectors, permissions-aware search, AI answers, and agent workflows over organization data and applications. |
@@ -979,9 +980,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 776
+- **Total Entries:** 777
 - **Categories:** 12
-- **Last Generated:** 2026-10-21
+- **Last Generated:** 2026-11-23
 
 ---
 

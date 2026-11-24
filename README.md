@@ -600,6 +600,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Writer** | [Link](https://writer.com/) | Enterprise generative AI platform designed for content creation, editing, and optimization. Provides AI agents for marketing teams to maintain brand consistency and accelerate content production workflows. |
 | **Zapier MCP** | [Link](https://zapier.com/mcp) | Zapier's MCP endpoint for giving AI agents access to Zapier's large library of app actions and automations. It lets agents use business apps through a managed, authenticated MCP tool surface. |
 | **Zep** | [Link](https://www.getzep.com/) | Memory layer for AI assistants and agents that combines long-term memory, knowledge graph extraction, vector search, and temporal reasoning. Zep provides hosted infrastructure for persistent, contextual agent memory. |
+| [Public Records MCP](https://github.com/GeminiGeorge22/publicrecords-mcp) | 18 Apify-hosted MCP servers for public data: SAM.gov, Grants.gov, USAspending, EU TED and UK tenders, city council meetings, Ashby/Greenhouse/Lever/SmartRecruiters jobs, company social links, Google Ads Transparency, Etsy sales, sports odds, Spotify play counts |  |
 
 ### Testing & Qa
 

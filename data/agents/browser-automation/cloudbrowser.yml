@@ -1,0 +1,21 @@
+name: Cloudbrowser
+url: https://cloudbrowser.tv/
+description: >-
+  Managed Chrome desktops for AI agents with isolated, persistent browser profiles.
+  Automation clients connect over CDP, while operators can watch the desktop in
+  Live View. The REST API and Go CLI manage browser lifecycle, including pausing,
+  resuming, and forking a saved profile.
+category: browser-automation
+type: platform
+tags:
+  - browser-automation
+  - cli
+  - cloud-browser
+  - computer-use
+documentation_url: https://cloudbrowser.tv/docs
+platform:
+  - Web
+pricing: freemium
+added_date: '2026-11-25'
+last_verified: '2026-11-25'
+verified: true

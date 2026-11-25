@@ -2,8 +2,8 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-776-blue?style=for-the-badge&logo=database&logoColor=white)
-![Last Updated](https://img.shields.io/badge/Updated-October_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-777-blue?style=for-the-badge&logo=database&logoColor=white)
+![Last Updated](https://img.shields.io/badge/Updated-November_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
 
@@ -681,6 +681,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Browser Use** | [GitHub](https://github.com/browser-use/browser-use) | An open-source library that empowers AI agents to interact with web browsers using natural language commands for automated web tasks. Browser Use provides a simple interface for AI agents to control browsers, extract data from websites, fill forms, and perform complex web interactions without requiring specific selectors or manual configuration. ![Stars](https://img.shields.io/badge/stars-114644-yellow) |
 | **Browserbase** | [Link](https://www.browserbase.com/) | A headless browser infrastructure platform specifically designed for AI agents and applications, offering scalable browser automation capabilities. Browserbase provides stealth features, captcha solving, residential proxies, and comprehensive observability tools, making it ideal for AI-powered web automation with enterprise-grade security and compliance. |
 | **Claude Computer Use** | [Link](https://www.anthropic.com/news/developing-computer-use) | A new capability from Anthropic that allows Claude to interact with computer interfaces by looking at screens, moving cursors, clicking buttons, and typing text. This represents a significant advancement in AI agents' ability to perform complex computer tasks autonomously. |
+| **Cloudbrowser** | [Link](https://cloudbrowser.tv/) | Managed Chrome desktops for AI agents with isolated, persistent browser profiles. Automation clients connect over CDP, while operators can watch the desktop in Live View. The REST API and Go CLI manage browser lifecycle, including pausing, resuming, and forking a saved profile. |
 | **CogAgent** | [GitHub](https://github.com/zai-org/CogAgent) | Open-source vision-language GUI agent project for computer-use research. CogAgent provides models and code for understanding interface screenshots and grounding actions in desktop or web environments. ![Stars](https://img.shields.io/badge/stars-1197-yellow) |
 | **Convergence Proxy Lite** | [GitHub](https://github.com/convergence-ai/proxy-lite) | Open-weight mini version of Convergence AI's Proxy assistant for web automation. Proxy Lite demonstrates browser task execution and web interaction capabilities from the Convergence agent research line. ![Stars](https://img.shields.io/badge/stars-991-yellow) |
 | **Crawl4AI** | [GitHub](https://github.com/unclecode/crawl4ai) | Open-source crawler and scraper that converts websites into LLM-friendly content for agents and RAG workflows. Crawl4AI supports asynchronous crawling, browser automation, extraction, and Markdown-oriented outputs. ![Stars](https://img.shields.io/badge/stars-83490-yellow) |
@@ -979,9 +980,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 776
+- **Total Entries:** 777
 - **Categories:** 12
-- **Last Generated:** 2026-10-21
+- **Last Generated:** 2026-11-25
 
 ---
 

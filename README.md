@@ -2,8 +2,8 @@
 
 <div align="center">
 
-![Total Entries](https://img.shields.io/badge/Total%20Entries-776-blue?style=for-the-badge&logo=database&logoColor=white)
-![Last Updated](https://img.shields.io/badge/Updated-October_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
+![Total Entries](https://img.shields.io/badge/Total%20Entries-777-blue?style=for-the-badge&logo=database&logoColor=white)
+![Last Updated](https://img.shields.io/badge/Updated-November_2026-purple?style=for-the-badge&logo=calendar&logoColor=white)
 
 **Version: 0.1.1**
 
@@ -588,6 +588,7 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 | **Trigger.dev** | [Link](https://trigger.dev/) | Open-source platform for building and running long-running workflows, background jobs, and AI agents in TypeScript and Python. Trigger.dev provides durable execution, retries, queues, observability, and hosted deployment for agentic workloads. ![Stars](https://img.shields.io/badge/stars-16283-yellow) |
 | **TrueFoundry AI Gateway** | [Link](https://www.truefoundry.com/docs/ai-gateway/intro-to-llm-gateway) | Enterprise AI gateway from TrueFoundry that provides a proxy layer between applications, LLM providers, MCP servers, and agents. It offers unified access, observability, governance, access control, routing policies, budget controls, and deployment integration for organization-wide AI usage. |
 | **turbopuffer** | [Link](https://turbopuffer.com/) | Serverless vector and full-text search engine built on object storage. turbopuffer supports hybrid search, metadata filtering, automatic scaling, and low-latency retrieval over billions of vectors for RAG, semantic search, and AI application workloads. |
+| **Tweenery** | [Link](https://tweenery.com/) | Chat-based agent that creates social media posts. Given an idea or a link to an Instagram or TikTok post, it plans the angle, writes the hook and every slide, and designs a carousel or slideshow sized for Instagram, TikTok or LinkedIn. Slides can be changed by asking in the chat or edited one at a time, and exported as PNG or ZIP. |
 | **txtai** | [GitHub](https://github.com/neuml/txtai) | Open-source AI framework for semantic search, RAG, LLM orchestration, and language-model workflows. txtai combines vector search, sparse retrieval, graph networks, relational storage, pipelines, and workflow orchestration in a Python library. ![Stars](https://img.shields.io/badge/stars-12948-yellow) |
 | **Unstructured** | [GitHub](https://github.com/Unstructured-IO/unstructured) | Open-source document ETL toolkit and enterprise data platform for transforming complex files into clean, structured inputs for language models. Unstructured supports parsing, chunking, enrichment, embedding, and connectors for production RAG pipelines. ![Stars](https://img.shields.io/badge/stars-15427-yellow) |
 | **VAPI** | [Link](https://vapi.ai/) | Developer-focused voice AI platform for building advanced voice agents with enterprise infrastructure, featuring response times under 500ms and support for 100+ languages. VAPI provides Flow Studio for visual conversational logic design, highly customizable STT/LLM/TTS provider selection, and scalable phone operations for inbound and outbound calls across industries like healthcare, finance, and travel. |
@@ -979,9 +980,9 @@ Missing something? [Submit an issue](https://github.com/moshehbenavraham/Ultimat
 
 ## Statistics
 
-- **Total Entries:** 776
+- **Total Entries:** 777
 - **Categories:** 12
-- **Last Generated:** 2026-10-21
+- **Last Generated:** 2026-11-27
 
 ---
 
